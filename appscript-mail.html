@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <div style="padding-top: 32px;padding-bottom: 32px;padding-left: 16px;padding-right: 16px;"/>
+      <p style="margin-bottom: 24px;">Hai <b><?= data.nama;?>,</b></p>
+      <p style="font-size: 20px;margin-bottom: 20px;"><b>Terima kasih sudah belanja di toko kami, segera konfirmasi pembayaran Anda</b></p>
+      <p style="margin-bottom: 24px;">Silakan cek detail pesanan dan total pembayaran anda berikut ini:</p>
+      <div style="background-color: #F3F4F6; border-radius: 15px; padding-top: 16px; padding-bottom: 16px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Tanggal Order</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;"><?= Utilities.formatDate(new Date(), "GMT+7", "EEE, d MMM yyyy HH:mm:ss");?></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Nama</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;"><?= data.nama;?></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Nomor HP</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;"><?= data.hp;?></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Email</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;"><?= data.email;?></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Alamat</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;"><?= data.alamat;?> <?= data.kecamatan;?></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Kode POS</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;"><?= data.kode_pos;?></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Rekening</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;">Bank Mandiri 625165 a/n Hasan</p>
+            </td>
+          </tr>
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Berat</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;"><?= data.berat;?></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Kurir</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;"><?= data.kurir;?></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Ongkos Kirim</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;"><?= data.ongkir;?></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Total Bayar</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;"><?= data.total_bayar;?></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="30%">
+              <p style="font-size: 13px; text-align: right; margin-top: 8px; margin-bottom: 8px;"><b>Catatan</b><span style="padding-left: 4px;">:</span></p>
+            </td>
+            <td width="70%" style="padding-left: 8px;">
+              <p style="font-size: 13px; margin-top: 8px; margin-bottom: 8px;">pilih warna hijau</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div style="border-bottom: 1px solid #D1D5DB; padding-top: 16px; padding-bottom: 16px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: separate; border-spacing:0 16px;">
+          <? if (data.nama_item_1 !== "undefined") { ?>
+          <tr>
+            <td width="20%">
+              <img style="width: 90%; height: auto;" src="<?= data.gambar_item_1;?>"/>
+            </td>
+            <td width="80%" style="padding-left: 8px;">
+              <p style="margin-top: 0; margin-bottom: 8px;"><b><?= data.nama_item_1;?> <?= data.ukuran_item_1;?></b></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Harga: <?= data.harga_item_1;?></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Qty: <?= data.jumlah_item_1;?></p>
+            </td>
+          </tr>
+          <? } ?>
+          <? if (data.nama_item_2 !== "undefined") { ?>
+          <tr>
+            <td width="20%">
+              <img style="width: 90%; height: auto;" src="<?= data.gambar_item_2;?>"/>
+            </td>
+            <td width="80%" style="padding-left: 8px;">
+              <p style="margin-top: 0; margin-bottom: 8px;"><b><?= data.nama_item_2;?> <?= data.ukuran_item_2;?></b></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Harga: <?= data.harga_item_2;?></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Qty: <?= data.jumlah_item_2;?></p>
+            </td>
+          </tr>
+          <? } ?>
+          <? if (data.nama_item_3 !== undefined) { ?>
+          <tr>
+            <td width="20%">
+              <img style="width: 90%; height: auto;" src="<?= data.gambar_item_3;?>"/>
+            </td>
+            <td width="80%" style="padding-left: 8px;">
+              <p style="margin-top: 0; margin-bottom: 8px;"><b><?= data.nama_item_3;?> <?= data.ukuran_item_3;?></b></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Harga: <?= data.harga_item_3;?></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Qty: <?= data.jumlah_item_3;?></p>
+            </td>
+          </tr>
+          <? } ?>
+          <? if (data.nama_item_4 !== undefined) { ?>
+          <tr>
+            <td width="20%">
+              <img style="width: 90%; height: auto;" src="<?= data.gambar_item_4;?>"/>
+            </td>
+            <td width="80%" style="padding-left: 8px;">
+              <p style="margin-top: 0; margin-bottom: 8px;"><b><?= data.nama_item_4;?> <?= data.ukuran_item_4;?></b></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Harga: <?= data.harga_item_4;?></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Qty: <?= data.jumlah_item_4;?></p>
+            </td>
+          </tr>
+          <? } ?>
+          <? if (data.nama_item_5 !== undefined) { ?>
+          <tr>
+            <td width="20%">
+              <img style="width: 90%; height: auto;" src="<?= data.gambar_item_5;?>"/>
+            </td>
+            <td width="80%" style="padding-left: 8px;">
+              <p style="margin-top: 0; margin-bottom: 8px;"><b><?= data.nama_item_5;?> <?= data.ukuran_item_5;?></b></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Harga: <?= data.harga_item_5;?></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Qty: <?= data.jumlah_item_5;?></p>
+            </td>
+          </tr>
+          <? } ?>
+          <? if (data.nama_item_6 !== undefined) { ?>
+          <tr>
+            <td width="20%">
+              <img style="width: 90%; height: auto;" src="<?= data.gambar_item_1;?>"/>
+            </td>
+            <td width="80%" style="padding-left: 8px;">
+              <p style="margin-top: 0; margin-bottom: 8px;"><b><?= data.nama_item_6;?> <?= data.ukuran_item_6;?></b></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Harga: <?= data.harga_item_6;?></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Qty: <?= data.jumlah_item_6;?></p>
+            </td>
+          </tr>
+          <? } ?>
+          <? if (data.nama_item_7 !== undefined) { ?>
+          <tr>
+            <td width="20%">
+              <img style="width: 90%; height: auto;" src="<?= data.gambar_item_7;?>"/>
+            </td>
+            <td width="80%" style="padding-left: 8px;">
+              <p style="margin-top: 0; margin-bottom: 8px;"><b><?= data.nama_item_7;?> <?= data.ukuran_item_7;?></b></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Harga: <?= data.harga_item_7;?></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Qty: <?= data.jumlah_item_7;?></p>
+            </td>
+          </tr>
+          <? } ?>
+          <? if (data.nama_item_8 !== undefined) { ?>
+          <tr>
+            <td width="20%">
+              <img style="width: 90%; height: auto;" src="<?= data.gambar_item_8;?>"/>
+            </td>
+            <td width="80%" style="padding-left: 8px;">
+              <p style="margin-top: 0; margin-bottom: 8px;"><b><?= data.nama_item_8;?> <?= data.ukuran_item_8;?></b></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Harga: <?= data.harga_item_8;?></p>
+              <p style="margin-top: 0; margin-bottom: 4px;">Qty: <?= data.jumlah_item_8;?></p>
+            </td>
+          </tr>
+          <? } ?>
+        </table>
+      </div>
+
+    <div style="padding-top: 16px; padding-bottom: 16px; margin-bottom: 16px;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+            <td width="70%">
+              <p style="text-align: right; margin-top: 0; margin-bottom: 4px;"><b>Subtotal:</b></p>
+            </td>
+            <td width="30%" style="padding-left: 8px; text-align: right;">
+              <p style="margin-top: 0; margin-bottom: 4px;"><b><?= data.subtotal;?></b></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="70%">
+              <p style="text-align: right;"><b>Ongkos Kirim:</b></p>
+            </td>
+            <td width="30%" style="padding-left: 8px; text-align: right;">
+              <p style="margin-top: 0; margin-bottom: 4px;"><b><?= data.ongkir;?></b></p>
+            </td>
+          </tr>
+          <tr>
+            <td width="70%">
+              <p style="text-align: right;"><b>Total Pembayaran:</b></p>
+            </td>
+            <td width="30%" style="padding-left: 8px; text-align: right;">
+              <p style="margin-top: 0; margin-bottom: 4px;"><b><?= data.total_bayar;?></b></p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <p>Konfirmasi Pembayaran Anda dibawah ini:</p>
+      <div style="text-align: center; padding-top: 32px;">
+        <a href="" style="color: white; background-color: #059669; border-radius: 20px; padding: 8px 16px;">KONFIRMASI PEMBAYARAN</a>
+      </div>
+    </div>
+  </body>
+</html>

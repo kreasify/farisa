@@ -1,0 +1,332 @@
+title: Hijacket.net
+baseURL: "/"
+LanguageCode: id
+preserveTaxonomyNames: true
+metaDataFormat: yaml
+permalinks:
+  authors: "/author/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
+  pages: "/:slug/"
+  collections: "/collection/:slug/"
+  color: "/:slug/"
+  shop: "/:slug/"
+outputs:
+  home:
+  - HTML
+  page:
+  - HTML
+  section:
+  - HTML
+params:
+  colors:
+    header_text: ""
+  description: Jaket Muslimah Khusus Hijaber
+  author: Akhlis
+  contact:
+    name: Anisa
+    email: hijacket.cs@gmail.com
+    whatsapp: '6285156514890'
+    shop_name: Hijacket.net
+  shipping:
+    origin_city: '106'
+    origin_province: 'order'
+    jne_oke: true
+    jne_reg: true
+    jne_yes: true
+    pos_paket_kilat_khusus: true
+    pos_express_next_day_barang: false
+    tiki_eco: false
+    tiki_reg: true
+    tiki_ons: false
+    jnt_ez: true
+    wahana_normal: false
+    sicepat_reg: true
+    sicepat_best: true
+    lion_regpack: false
+    ninja_standard: false
+  massUpdateStock: false
+  dateFormat: 2 January 2006
+  share_button: true
+  social_share:
+    facebook: true
+    twitter: true
+    whatsapp: true
+    telegram: true
+    mail: true
+  post_author: true
+  post_navigation: true
+  mainSection:
+  - shop
+  header:
+    type: header
+    template: header
+    title: Starter
+    logo: images/logo-hijacket.png
+    has_nav: true
+    sticky_nav: true
+    has_navbar: true
+    nav_links:
+      - type: action
+        template: action
+        label: Features
+        url: /features
+        style: link
+      - type: action
+        template: action
+        label: Blog
+        url: /blog
+        style: link
+      - type: action
+        template: action
+        label: Shop
+        url: /shop
+        style: link
+      - type: action
+        template: action
+        label: Style Guide
+        url: /style-guide
+        style: link
+      - type: action
+        template: action
+        label: About
+        url: /about
+        style: link
+      - type: action
+        template: action
+        label: Contact Us
+        url: /contact
+        style: primary
+    has_social: true
+    social_links:
+      - type: social
+        template: social
+        label: Facebook
+        icon: facebook
+        url: 'https://facebook.com/hijacket.net'
+        style: link
+        new_window: true
+      - type: social
+        template: social
+        label: Twitter
+        icon: twitter
+        url: 'https://twitter.com/hijacket'
+        style: link
+        new_window: true
+      - type: social
+        template: social
+        label: Instagram
+        icon: instagram
+        url: 'https://www.instagram.com/hijacket_net'
+        style: link
+        new_window: true
+      - type: social
+        template: social
+        label: Telegram
+        icon: telegram
+        url: 'https://t.me/hijacket.net'
+        style: link
+        new_window: true
+  sidebar:
+    has_widget: true
+    recent_num: 8
+    sections:
+      - type: widget_recent_post
+        template: widget_recent_post
+      - type: widget_categories
+        template: widget_categories
+      - type: widget_tags
+        template: widget_tags
+  footer:
+    type: footer
+    template: footer
+    has_widget: true
+    has_widget_left: true
+    has_widget_center: true
+    has_widget_right: true
+    widgets_left:
+      - type: widget_title_section
+        template: widget_title_section
+        title: Informasi
+      - type: widget_menu_section
+        template: widget_menu_section
+        links:
+          - type: action
+            template: action
+            label: Syarat dan Ketentuan
+            url: /syarat-dan-ketentuan
+            style: link
+            css: text-sm
+          - type: action
+            template: action
+            label: Tentang Kami
+            url: /tentang-kami
+            style: link
+            css: text-sm
+          - type: action
+            template: action
+            label: Kontak Kami
+            url: /kontak-kami
+            style: link
+            css: text-sm
+          - type: action
+            template: action
+            label: FAQ
+            url: /faq
+            style: link
+            css: text-sm
+    widgets_center:
+      - type: widget_title_section
+        template: widget_title_section
+        title: Bantuan
+      - type: widget_menu_section
+        template: widget_menu_section
+        links:
+          - type: action
+            template: action
+            label: Koleksi Jaket Hijaber
+            url: /product
+            style: link
+            css: text-sm
+          - type: action
+            template: action
+            label: Koleksi Home Dress
+            url: /collections
+            style: link
+            css: text-sm
+          - type: action
+            template: action
+            label: Koleksi Micro Mask
+            url: /collections
+            style: link
+            css: text-sm
+          - type: action
+            template: action
+            label: Pilihan Seleb
+            url: /pilihan-seleb
+            style: link
+            css: text-sm
+          - type: action
+            template: action
+            label: Cara Belanja
+            url: /cara-order
+            style: link
+            css: text-sm
+          - type: action
+            template: action
+            label: Konfirmasi Pembayaran
+            url: /konfirmasi-pembayaran
+            style: link
+            css: text-sm
+          - type: action
+            template: action
+            label: Panduan Ukuran
+            url: /panduan-ukuran
+            style: link
+            css: text-sm
+          - type: action
+            template: action
+            label: Give Away
+            url: /give-away
+            style: link
+            css: text-sm
+    widgets_right:
+      - type: widget_title_section
+        template: widget_title_section
+        title: Kontak Kami
+      - type: widget_contact_section
+        template: widget_contact_section
+        phone: 123456789
+        whatsapp: 6285156514890
+        email: hijacket.cs@gmail.com
+        address: Jl. Mahmud No. 109 Rahayu, Margaasih, Kab. Bandung. 40218
+    has_social: true
+    social_links:
+      - type: social
+        template: social
+        label: Facebook
+        icon: facebook
+        url: 'https://facebook.com/hijacket.net'
+        style: link
+        new_window: true
+      - type: social
+        template: social
+        label: Twitter
+        icon: twitter
+        url: 'https://twitter.com/hijacket'
+        style: link
+        new_window: true
+      - type: social
+        template: social
+        label: Instagram
+        icon: instagram
+        url: 'https://www.instagram.com/hijacket_net'
+        style: link
+        new_window: true
+      - type: social
+        template: social
+        label: Telegram
+        icon: telegram
+        url: 'https://t.me/hijacket.net'
+        style: link
+        new_window: true
+    content: '&copy; Copyright 2020 <a href="/">Hijacket.net </a>| Official Partner Of
+          Hijacket Brand Indonesia.'
+taxonomies:
+  tag: tags
+  category: categories
+  author: authors
+  brand: brand
+  collection: collections
+  color: color
+disableKinds:
+  - RSS
+ignoreFiles:
+- "\\.ipynb$"
+- ".ipynb_checkpoints$"
+- "\\.Rmd$"
+- "\\.Rmarkdown$"
+- _files$
+- _cache$
+imaging:
+  resampleFilter: lanczos
+  quality: 90
+  anchor: smart
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: false
+      xhtml: false
+build:
+  # Used by PurgeCSS
+  writeStats: true
+menu:
+  main:
+  - url: "#"
+    name: Home
+    weight: 1
+  - url: "#"
+    name: Katalog Hijacket
+    weight: 2
+  - url: "#"
+    name: Katalog Alcavella
+    weight: 3
+  - url: "#"
+    name: Micro Mask
+    weight: 4
+  - url: "#"
+    name: Koleksi Warna
+    weight: 5
