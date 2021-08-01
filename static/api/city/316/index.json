@@ -1,0 +1,70 @@
+{
+    "title": "316",
+    "id": "316",
+    "city": "Ogan Komering Ulu Timur",
+    "type": "Kabupaten",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "4502",
+        "district": "Belitang"
+    }, {
+        "id": "4503",
+        "district": "Belitang II"
+    }, {
+        "id": "4504",
+        "district": "Belitang III"
+    }, {
+        "id": "4505",
+        "district": "Belitang Jaya"
+    }, {
+        "id": "4506",
+        "district": "Belitang Madang Raya"
+    }, {
+        "id": "4507",
+        "district": "Belitang Mulya"
+    }, {
+        "id": "4508",
+        "district": "Buay Madang"
+    }, {
+        "id": "4509",
+        "district": "Buay Madang Timur"
+    }, {
+        "id": "4510",
+        "district": "Buay Pemuka Bangsa Raja"
+    }, {
+        "id": "4511",
+        "district": "Buay Pemuka Beliung / Peliung"
+    }, {
+        "id": "4512",
+        "district": "Bunga Mayang"
+    }, {
+        "id": "4513",
+        "district": "Cempaka"
+    }, {
+        "id": "4514",
+        "district": "Jayapura"
+    }, {
+        "id": "4515",
+        "district": "Madang Suku I"
+    }, {
+        "id": "4516",
+        "district": "Madang Suku II"
+    }, {
+        "id": "4517",
+        "district": "Madang Suku III"
+    }, {
+        "id": "4518",
+        "district": "Martapura"
+    }, {
+        "id": "4519",
+        "district": "Semendawai Barat"
+    }, {
+        "id": "4520",
+        "district": "Semendawai Suku III"
+    }, {
+        "id": "4521",
+        "district": "Semendawai Timur"
+    }]
+}

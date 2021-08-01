@@ -1,0 +1,73 @@
+{
+    "title": "166",
+    "id": "166",
+    "city": "Kampar",
+    "type": "Kabupaten",
+    "province_id": "26",
+    "province": "Riau",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "2292",
+        "district": "Bangkinang"
+    }, {
+        "id": "2293",
+        "district": "Bangkinang Seberang"
+    }, {
+        "id": "2294",
+        "district": "Gunung Sahilan"
+    }, {
+        "id": "2295",
+        "district": "Kampar"
+    }, {
+        "id": "2296",
+        "district": "Kampar Kiri"
+    }, {
+        "id": "2297",
+        "district": "Kampar Kiri Hilir"
+    }, {
+        "id": "2298",
+        "district": "Kampar Kiri Hulu"
+    }, {
+        "id": "2299",
+        "district": "Kampar Kiri Tengah"
+    }, {
+        "id": "2300",
+        "district": "Kampar Timur"
+    }, {
+        "id": "2301",
+        "district": "Kampar Utara"
+    }, {
+        "id": "2302",
+        "district": "Koto Kampar Hulu"
+    }, {
+        "id": "2303",
+        "district": "Kuok (Bangkinang Barat)"
+    }, {
+        "id": "2304",
+        "district": "Perhentian Raja"
+    }, {
+        "id": "2305",
+        "district": "Rumbio Jaya"
+    }, {
+        "id": "2306",
+        "district": "Salo"
+    }, {
+        "id": "2307",
+        "district": "Siak Hulu"
+    }, {
+        "id": "2308",
+        "district": "Tambang"
+    }, {
+        "id": "2309",
+        "district": "Tapung"
+    }, {
+        "id": "2310",
+        "district": "Tapung Hilir"
+    }, {
+        "id": "2311",
+        "district": "Tapung Hulu"
+    }, {
+        "id": "2312",
+        "district": "XIII Koto Kampar"
+    }]
+}

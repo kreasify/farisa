@@ -1,0 +1,25 @@
+{
+    "title": "443",
+    "id": "443",
+    "city": "Supiori",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "6126",
+        "district": "Kepulauan Aruri"
+    }, {
+        "id": "6127",
+        "district": "Supiori Barat"
+    }, {
+        "id": "6128",
+        "district": "Supiori Selatan"
+    }, {
+        "id": "6129",
+        "district": "Supiori Timur"
+    }, {
+        "id": "6130",
+        "district": "Supiori Utara"
+    }]
+}

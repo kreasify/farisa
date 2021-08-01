@@ -1,0 +1,46 @@
+{
+    "title": "360",
+    "id": "360",
+    "city": "Pinrang",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "5030",
+        "district": "Batulappa"
+    }, {
+        "id": "5031",
+        "district": "Cempa"
+    }, {
+        "id": "5032",
+        "district": "Duampanua"
+    }, {
+        "id": "5033",
+        "district": "Lanrisang"
+    }, {
+        "id": "5034",
+        "district": "Lembang"
+    }, {
+        "id": "5035",
+        "district": "Mattiro Bulu"
+    }, {
+        "id": "5036",
+        "district": "Mattiro Sompe"
+    }, {
+        "id": "5037",
+        "district": "Paleteang"
+    }, {
+        "id": "5038",
+        "district": "Patampanua"
+    }, {
+        "id": "5039",
+        "district": "Suppa"
+    }, {
+        "id": "5040",
+        "district": "Tiroang"
+    }, {
+        "id": "5041",
+        "district": "Watang Sawitto"
+    }]
+}

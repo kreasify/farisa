@@ -1,0 +1,43 @@
+{
+    "title": "15",
+    "id": "15",
+    "province": "Kalimantan Timur",
+    "number_of_cities" : "9",
+    "data" : [{
+        "id": "19",
+        "city": "Balikpapan",
+        "type": "Kota"
+    }, {
+        "id": "66",
+        "city": "Berau",
+        "type": "Kabupaten"
+    }, {
+        "id": "89",
+        "city": "Bontang",
+        "type": "Kota"
+    }, {
+        "id": "214",
+        "city": "Kutai Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "215",
+        "city": "Kutai Kartanegara",
+        "type": "Kabupaten"
+    }, {
+        "id": "216",
+        "city": "Kutai Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "341",
+        "city": "Paser",
+        "type": "Kabupaten"
+    }, {
+        "id": "354",
+        "city": "Penajam Paser Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "387",
+        "city": "Samarinda",
+        "type": "Kota"
+    }]
+}

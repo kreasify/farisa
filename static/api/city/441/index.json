@@ -1,0 +1,91 @@
+{
+    "title": "441",
+    "id": "441",
+    "city": "Sumenep",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "27",
+    "data" : [{
+        "id": "6091",
+        "district": "Ambunten"
+    }, {
+        "id": "6092",
+        "district": "Arjasa"
+    }, {
+        "id": "6093",
+        "district": "Batang Batang"
+    }, {
+        "id": "6094",
+        "district": "Batuan"
+    }, {
+        "id": "6095",
+        "district": "Batuputih"
+    }, {
+        "id": "6096",
+        "district": "Bluto"
+    }, {
+        "id": "6097",
+        "district": "Dasuk"
+    }, {
+        "id": "6098",
+        "district": "Dungkek"
+    }, {
+        "id": "6099",
+        "district": "Ganding"
+    }, {
+        "id": "6100",
+        "district": "Gapura"
+    }, {
+        "id": "6101",
+        "district": "Gayam"
+    }, {
+        "id": "6102",
+        "district": "Gili Ginting (Giligenteng)"
+    }, {
+        "id": "6103",
+        "district": "Guluk Guluk"
+    }, {
+        "id": "6104",
+        "district": "Kalianget"
+    }, {
+        "id": "6105",
+        "district": "Kangayan"
+    }, {
+        "id": "6106",
+        "district": "Kota Sumenep"
+    }, {
+        "id": "6107",
+        "district": "Lenteng"
+    }, {
+        "id": "6108",
+        "district": "Manding"
+    }, {
+        "id": "6109",
+        "district": "Masalembu"
+    }, {
+        "id": "6110",
+        "district": "Nonggunong"
+    }, {
+        "id": "6111",
+        "district": "Pasongsongan"
+    }, {
+        "id": "6112",
+        "district": "Pragaan"
+    }, {
+        "id": "6113",
+        "district": "Ra'as (Raas)"
+    }, {
+        "id": "6114",
+        "district": "Rubaru"
+    }, {
+        "id": "6115",
+        "district": "Sapeken"
+    }, {
+        "id": "6116",
+        "district": "Saronggi"
+    }, {
+        "id": "6117",
+        "district": "Talango"
+    }]
+}

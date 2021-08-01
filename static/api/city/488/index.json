@@ -1,0 +1,25 @@
+{
+    "title": "488",
+    "id": "488",
+    "city": "Tual",
+    "type": "Kota",
+    "province_id": "19",
+    "province": "Maluku",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "6773",
+        "district": "Kur Selatan"
+    }, {
+        "id": "6774",
+        "district": "Pulau Dullah Selatan"
+    }, {
+        "id": "6775",
+        "district": "Pulau Dullah Utara"
+    }, {
+        "id": "6776",
+        "district": "Pulau Tayando Tam"
+    }, {
+        "id": "6777",
+        "district": "Pulau-Pulau Kur"
+    }]
+}

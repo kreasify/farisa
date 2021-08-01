@@ -1,0 +1,22 @@
+{
+    "title": "337",
+    "id": "337",
+    "city": "Pariaman",
+    "type": "Kota",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "4734",
+        "district": "Pariaman Selatan"
+    }, {
+        "id": "4735",
+        "district": "Pariaman Tengah"
+    }, {
+        "id": "4736",
+        "district": "Pariaman Timur"
+    }, {
+        "id": "4737",
+        "district": "Pariaman Utara"
+    }]
+}

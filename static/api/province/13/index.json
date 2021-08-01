@@ -1,0 +1,59 @@
+{
+    "title": "13",
+    "id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_cities" : "13",
+    "data" : [{
+        "id": "18",
+        "city": "Balangan",
+        "type": "Kabupaten"
+    }, {
+        "id": "33",
+        "city": "Banjar",
+        "type": "Kabupaten"
+    }, {
+        "id": "35",
+        "city": "Banjarbaru",
+        "type": "Kota"
+    }, {
+        "id": "36",
+        "city": "Banjarmasin",
+        "type": "Kota"
+    }, {
+        "id": "43",
+        "city": "Barito Kuala",
+        "type": "Kabupaten"
+    }, {
+        "id": "143",
+        "city": "Hulu Sungai Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "144",
+        "city": "Hulu Sungai Tengah",
+        "type": "Kabupaten"
+    }, {
+        "id": "145",
+        "city": "Hulu Sungai Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "203",
+        "city": "Kotabaru",
+        "type": "Kabupaten"
+    }, {
+        "id": "446",
+        "city": "Tabalong",
+        "type": "Kabupaten"
+    }, {
+        "id": "452",
+        "city": "Tanah Bumbu",
+        "type": "Kabupaten"
+    }, {
+        "id": "454",
+        "city": "Tanah Laut",
+        "type": "Kabupaten"
+    }, {
+        "id": "466",
+        "city": "Tapin",
+        "type": "Kabupaten"
+    }]
+}

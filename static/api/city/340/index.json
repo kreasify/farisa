@@ -1,0 +1,43 @@
+{
+    "title": "340",
+    "id": "340",
+    "city": "Pasaman Barat",
+    "type": "Kabupaten",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "4772",
+        "district": "Gunung Tuleh"
+    }, {
+        "id": "4773",
+        "district": "Kinali"
+    }, {
+        "id": "4774",
+        "district": "Koto Balingka"
+    }, {
+        "id": "4775",
+        "district": "Lembah Melintang"
+    }, {
+        "id": "4776",
+        "district": "Luhak Nan Duo"
+    }, {
+        "id": "4777",
+        "district": "Pasaman"
+    }, {
+        "id": "4778",
+        "district": "Ranah Batahan"
+    }, {
+        "id": "4779",
+        "district": "Sasak Ranah Pasisir/Pesisie"
+    }, {
+        "id": "4780",
+        "district": "Sei Beremas"
+    }, {
+        "id": "4781",
+        "district": "Sungai Aur"
+    }, {
+        "id": "4782",
+        "district": "Talamau"
+    }]
+}

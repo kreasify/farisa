@@ -1,0 +1,19 @@
+{
+    "title": "93",
+    "id": "93",
+    "city": "Bukittinggi",
+    "type": "Kota",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "3",
+    "data" : [{
+        "id": "1276",
+        "district": "Aur Birugo Tigo Baleh"
+    }, {
+        "id": "1277",
+        "district": "Guguk Panjang (Guguak Panjang)"
+    }, {
+        "id": "1278",
+        "district": "Mandiangin Koto Selayan"
+    }]
+}

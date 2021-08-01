@@ -1,0 +1,61 @@
+{
+    "title": "286",
+    "id": "286",
+    "city": "Minahasa Selatan",
+    "type": "Kabupaten",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "4031",
+        "district": "Amurang"
+    }, {
+        "id": "4032",
+        "district": "Amurang Barat"
+    }, {
+        "id": "4033",
+        "district": "Amurang Timur"
+    }, {
+        "id": "4034",
+        "district": "Kumelembuai"
+    }, {
+        "id": "4035",
+        "district": "Maesaan"
+    }, {
+        "id": "4036",
+        "district": "Modoinding"
+    }, {
+        "id": "4037",
+        "district": "Motoling"
+    }, {
+        "id": "4038",
+        "district": "Motoling Barat"
+    }, {
+        "id": "4039",
+        "district": "Motoling Timur"
+    }, {
+        "id": "4040",
+        "district": "Ranoyapo"
+    }, {
+        "id": "4041",
+        "district": "Sinonsayang"
+    }, {
+        "id": "4042",
+        "district": "Suluun Tareran"
+    }, {
+        "id": "4043",
+        "district": "Tareran"
+    }, {
+        "id": "4044",
+        "district": "Tatapaan"
+    }, {
+        "id": "4045",
+        "district": "Tenga"
+    }, {
+        "id": "4046",
+        "district": "Tompaso Baru"
+    }, {
+        "id": "4047",
+        "district": "Tumpaan"
+    }]
+}

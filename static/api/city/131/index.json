@@ -1,0 +1,43 @@
+{
+    "title": "131",
+    "id": "131",
+    "city": "Gorontalo Utara",
+    "type": "Kabupaten",
+    "province_id": "7",
+    "province": "Gorontalo",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "1799",
+        "district": "Anggrek"
+    }, {
+        "id": "1800",
+        "district": "Atinggola"
+    }, {
+        "id": "1801",
+        "district": "Biau"
+    }, {
+        "id": "1802",
+        "district": "Gentuma Raya"
+    }, {
+        "id": "1803",
+        "district": "Kwandang"
+    }, {
+        "id": "1804",
+        "district": "Monano"
+    }, {
+        "id": "1805",
+        "district": "Ponelo Kepulauan"
+    }, {
+        "id": "1806",
+        "district": "Sumalata"
+    }, {
+        "id": "1807",
+        "district": "Sumalata Timur"
+    }, {
+        "id": "1808",
+        "district": "Tolinggula"
+    }, {
+        "id": "1809",
+        "district": "Tomolito"
+    }]
+}

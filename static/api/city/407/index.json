@@ -1,0 +1,22 @@
+{
+    "title": "407",
+    "id": "407",
+    "city": "Sibolga",
+    "type": "Kota",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "5616",
+        "district": "Sibolga Kota"
+    }, {
+        "id": "5617",
+        "district": "Sibolga Sambas"
+    }, {
+        "id": "5618",
+        "district": "Sibolga Selatan"
+    }, {
+        "id": "5619",
+        "district": "Sibolga Utara"
+    }]
+}

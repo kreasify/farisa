@@ -1,0 +1,22 @@
+{
+    "title": "386",
+    "id": "386",
+    "city": "Salatiga",
+    "type": "Kota",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "5352",
+        "district": "Argomulyo"
+    }, {
+        "id": "5353",
+        "district": "Sidomukti"
+    }, {
+        "id": "5354",
+        "district": "Sidorejo"
+    }, {
+        "id": "5355",
+        "district": "Tingkir"
+    }]
+}

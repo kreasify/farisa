@@ -1,0 +1,25 @@
+{
+    "title": "230",
+    "id": "230",
+    "city": "Langsa",
+    "type": "Kota",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "3283",
+        "district": "Langsa Barat"
+    }, {
+        "id": "3284",
+        "district": "Langsa Baro"
+    }, {
+        "id": "3285",
+        "district": "Langsa Kota"
+    }, {
+        "id": "3286",
+        "district": "Langsa Lama"
+    }, {
+        "id": "3287",
+        "district": "Langsa Timur"
+    }]
+}

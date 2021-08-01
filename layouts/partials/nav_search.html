@@ -1,0 +1,59 @@
+<div class="nav__search flex items-center">
+    <button class="nav__search-button w-full h-full flex items-center justify-end bg-transparent border-0 cursor-pointer text-gray-600 hover:text-primary hover:border-primary focus:outline-none lg:pr-4" @click="showSearch = !showSearch">
+        <span class="w-8 h-8 flex items-center justify-center text-primary hover:border-secondary">
+            {{ partial "svg/icon-search-interface.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
+        </span>
+        <span class="font-heading text-sm hidden lg:block pl-1">Cari...</span>
+    </button>
+    <div class="nav__search-box fixed w-screen h-screen top-0 right-0 bg-gray-100 box-border rounded-sm shadow-md overflow-y-auto z-50"
+       x-cloak
+       x-show="showSearch" 
+       x-transition:enter="transition ease-out duration-75" 
+       x-transition:enter-start="opacity-0 transform scale-90" 
+       x-transition:enter-end="opacity-100 transform scale-100" 
+       x-transition:leave="transition ease-in duration-75" 
+       x-transition:leave-start="opacity-100 transform scale-100" 
+       x-transition:leave-end="opacity-0 transform scale-90">
+        <div class="container max-w-screen-md relative mx-auto pt-8 lg:pt-20 px-6">
+            <div x-on:click="showSearch = false">
+                <button class="bg-transparent border border-gray-600 rounded cursor-pointer text-gray-600 hover:text-red-500 hover:border-red-500 focus:outline-none px-2">Tutup</button> 
+            </div>
+            <header class="text-center text-gray-700 mb-3">
+                <h2>Cari Produk ...</h2>
+            </header>
+            <div class="search__form flex items-center justify-between bg-gray-50 rounded">
+                <div class="w-full py-2 px-4">
+                    <input x-model="query" x-on:keyup="search()" aria-label="..." type="search" placeholder="Cari Produk ..." class="search__form-input w-full text-sm text-gray-700 focus:outline-none cursor-pointer hover:cursor-auto focus:cursor-auto pr-2">
+                </div>
+                <div class="bg-primary border border-solid border-primary rounded-r p-3">
+                    <svg aria-hidden="true" data-prefix="far" data-icon="search" viewBox="0 0 512 512" width="16px" height="16px" class="search_svg__svg-inline--fa search_svg__fa-search search_svg__fa-w-16 search_svg__fa-2x search-icon search__form-search text-white">
+                        <path fill="currentColor" d="M508.5 468.9L387.1 347.5c-2.3-2.3-5.3-3.5-8.5-3.5h-13.2c31.5-36.5 50.6-84 50.6-136C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c52 0 99.5-19.1 136-50.6v13.2c0 3.2 1.3 6.2 3.5 8.5l121.4 121.4c4.7 4.7 12.3 4.7 17 0l22.6-22.6c4.7-4.7 4.7-12.3 0-17zM208 368c-88.4 0-160-71.6-160-160S119.6 48 208 48s160 71.6 160 160-71.6 160-160 160z">
+                        </path>
+                    </svg>
+                </div>
+            </div> 
+            <div class="search__result shadow-md" :class="{ 'py-4 lg:py-8 px-3 lg:px-6': searchResults.length > 0 }"
+               x-show="search !== ''" 
+               x-transition:enter="transition ease-out duration-75" 
+               x-transition:enter-start="opacity-0 transform scale-90" 
+               x-transition:enter-end="opacity-100 transform scale-100" 
+               x-transition:leave="transition ease-in duration-75" 
+               x-transition:leave-start="opacity-100 transform scale-100" 
+               x-transition:leave-end="opacity-0 transform scale-90">
+                <template x-for="item in searchResults" :key="item">
+                    <div class="search__item transition duration-500 ease-in-out hover:shadow-lg pb-2 mb-2"> 
+                        <a :href="`${item.url}`" class="grid grid-cols-12 gap-3 lg:gap-4 items-center text-gray-700 hover:text-primary">
+                            <figure class="col-span-3 lg:col-span-1 relative aspect-w-5 aspect-h-6">
+                                <img :data-src="`${item.image}`" class="absolute h-full w-full object-cover blur-up lazyload" :alt="`${item.title}`" lazy="loaded">
+                            </figure>
+                            <header class="col-span-9 lg:col-span-11">
+                                <h2 class="font-medium text-current text-base mb-2" x-text="item.title"></h2>
+                                <p class="text-gray-600 text-sm mb-0" x-text="`Rp ${item.price}`"></p>
+                            </header>
+                        </a>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+</div>

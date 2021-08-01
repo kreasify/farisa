@@ -1,0 +1,23 @@
+{{ if eq .Section "shop" }}
+<div id="site-wrap" class="site" x-data="product()" x-init='product = {
+    "title": {{ .Title | jsonify }},{{ if .Params.sku }}
+    "sku": {{ .Params.sku | jsonify}},{{ end }}{{ if .Params.images }}
+    "image": {{range first 1 .Params.images }}{{ .image | relURL | jsonify }}{{ end }},{{ end }}{{ if .Params.variants }}
+    "variants": [ {{range $index, $el := .Params.variants }}{{ if gt $index 0 }}, {{ end }}
+        {
+            "id": {{ $index | jsonify }},
+            "name": {{ .name | urlize | upper | jsonify }},{{ if .size }}
+            "size": {{ .size | jsonify }},{{ end }}
+            "price": {{ .price | jsonify }},{{ if .discount }}
+            "discount": {{ .discount | jsonify }},{{ end }}{{ if .weight }}
+            "weight": {{ .weight | jsonify }},{{ end }}{{ if .quantity }}
+            "quantity": {{ .quantity | jsonify }}{{ end }}
+        }{{ end }}
+    ],{{ end }}{{ if .Params.brand }}
+    "brand": {{ range (.GetTerms "brand") }}{{ .Title | jsonify }}{{ end }},{{ end }}{{ if .Params.color }}
+    "color": {{ range (.GetTerms "color") }}{{ .Title | humanize | jsonify }}{{ end }},{{ end }}
+    "slug": {{ .RelPermalink | jsonify }}
+};'>
+{{ else }}
+<div id="site-wrap" class="site" x-data="product()" {{ if eq .RelPermalink "/checkout/" }} x-init='product = fetchCourier(); autoComplete()'{{ end }}>
+{{ end }}

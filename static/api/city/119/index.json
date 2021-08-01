@@ -1,0 +1,58 @@
+{
+    "title": "119",
+    "id": "119",
+    "city": "Donggala",
+    "type": "Kabupaten",
+    "province_id": "29",
+    "province": "Sulawesi Tengah",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "1617",
+        "district": "Balaesang"
+    }, {
+        "id": "1618",
+        "district": "Balaesang Tanjung"
+    }, {
+        "id": "1619",
+        "district": "Banawa"
+    }, {
+        "id": "1620",
+        "district": "Banawa Selatan"
+    }, {
+        "id": "1621",
+        "district": "Banawa Tengah"
+    }, {
+        "id": "1622",
+        "district": "Damsol (Dampelas Sojol)"
+    }, {
+        "id": "1623",
+        "district": "Labuan"
+    }, {
+        "id": "1624",
+        "district": "Pinembani"
+    }, {
+        "id": "1625",
+        "district": "Rio Pakava (Riopakawa)"
+    }, {
+        "id": "1626",
+        "district": "Sindue"
+    }, {
+        "id": "1627",
+        "district": "Sindue Tobata"
+    }, {
+        "id": "1628",
+        "district": "Sindue Tombusabora"
+    }, {
+        "id": "1629",
+        "district": "Sirenja"
+    }, {
+        "id": "1630",
+        "district": "Sojol"
+    }, {
+        "id": "1631",
+        "district": "Sojol Utara"
+    }, {
+        "id": "1632",
+        "district": "Tanantovea"
+    }]
+}

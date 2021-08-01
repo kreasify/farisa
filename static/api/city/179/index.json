@@ -1,0 +1,19 @@
+{
+    "title": "179",
+    "id": "179",
+    "city": "Kediri",
+    "type": "Kota",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "3",
+    "data" : [{
+        "id": "2523",
+        "district": "Kediri Kota"
+    }, {
+        "id": "2524",
+        "district": "Mojoroto"
+    }, {
+        "id": "2525",
+        "district": "Pesantren"
+    }]
+}

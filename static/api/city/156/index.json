@@ -1,0 +1,34 @@
+{
+    "title": "156",
+    "id": "156",
+    "city": "Jambi",
+    "type": "Kota",
+    "province_id": "8",
+    "province": "Jambi",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "2129",
+        "district": "Danau Teluk"
+    }, {
+        "id": "2130",
+        "district": "Jambi Selatan"
+    }, {
+        "id": "2131",
+        "district": "Jambi Timur"
+    }, {
+        "id": "2132",
+        "district": "Jelutung"
+    }, {
+        "id": "2133",
+        "district": "Kota Baru"
+    }, {
+        "id": "2134",
+        "district": "Pasar Jambi"
+    }, {
+        "id": "2135",
+        "district": "Pelayangan"
+    }, {
+        "id": "2136",
+        "district": "Telanaipura"
+    }]
+}

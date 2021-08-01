@@ -1,0 +1,76 @@
+{
+    "title": "112",
+    "id": "112",
+    "city": "Deli Serdang",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "22",
+    "data" : [{
+        "id": "1537",
+        "district": "Bangun Purba"
+    }, {
+        "id": "1538",
+        "district": "Batang Kuis"
+    }, {
+        "id": "1539",
+        "district": "Beringin"
+    }, {
+        "id": "1540",
+        "district": "Biru-Biru"
+    }, {
+        "id": "1541",
+        "district": "Deli Tua"
+    }, {
+        "id": "1542",
+        "district": "Galang"
+    }, {
+        "id": "1543",
+        "district": "Gunung Meriah"
+    }, {
+        "id": "1544",
+        "district": "Hamparan Perak"
+    }, {
+        "id": "1545",
+        "district": "Kutalimbaru"
+    }, {
+        "id": "1546",
+        "district": "Labuhan Deli"
+    }, {
+        "id": "1547",
+        "district": "Lubuk Pakam"
+    }, {
+        "id": "1548",
+        "district": "Namo Rambe"
+    }, {
+        "id": "1549",
+        "district": "Pagar Merbau"
+    }, {
+        "id": "1550",
+        "district": "Pancur Batu"
+    }, {
+        "id": "1551",
+        "district": "Pantai Labu"
+    }, {
+        "id": "1552",
+        "district": "Patumbak"
+    }, {
+        "id": "1553",
+        "district": "Percut Sei Tuan"
+    }, {
+        "id": "1554",
+        "district": "Sibolangit"
+    }, {
+        "id": "1555",
+        "district": "Sinembah Tanjung Muda Hilir"
+    }, {
+        "id": "1556",
+        "district": "Sinembah Tanjung Muda Hulu"
+    }, {
+        "id": "1557",
+        "district": "Sunggal"
+    }, {
+        "id": "1558",
+        "district": "Tanjung Morawa"
+    }]
+}

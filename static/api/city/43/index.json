@@ -1,0 +1,61 @@
+{
+    "title": "43",
+    "id": "43",
+    "city": "Barito Kuala",
+    "type": "Kabupaten",
+    "province_id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "624",
+        "district": "Alalak"
+    }, {
+        "id": "625",
+        "district": "Anjir Muara"
+    }, {
+        "id": "626",
+        "district": "Anjir Pasar"
+    }, {
+        "id": "627",
+        "district": "Bakumpai"
+    }, {
+        "id": "628",
+        "district": "Barambai"
+    }, {
+        "id": "629",
+        "district": "Belawang"
+    }, {
+        "id": "630",
+        "district": "Cerbon"
+    }, {
+        "id": "631",
+        "district": "Jejangkit"
+    }, {
+        "id": "632",
+        "district": "Kuripan"
+    }, {
+        "id": "633",
+        "district": "Mandastana"
+    }, {
+        "id": "634",
+        "district": "Marabahan"
+    }, {
+        "id": "635",
+        "district": "Mekar Sari"
+    }, {
+        "id": "636",
+        "district": "Rantau Badauh"
+    }, {
+        "id": "637",
+        "district": "Tabukan"
+    }, {
+        "id": "638",
+        "district": "Tabunganen"
+    }, {
+        "id": "639",
+        "district": "Tamban"
+    }, {
+        "id": "640",
+        "district": "Wanaraya"
+    }]
+}

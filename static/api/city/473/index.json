@@ -1,0 +1,22 @@
+{
+    "title": "473",
+    "id": "473",
+    "city": "Tegal",
+    "type": "Kota",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "6520",
+        "district": "Margadana"
+    }, {
+        "id": "6521",
+        "district": "Tegal Barat"
+    }, {
+        "id": "6522",
+        "district": "Tegal Selatan"
+    }, {
+        "id": "6523",
+        "district": "Tegal Timur"
+    }]
+}

@@ -1,0 +1,31 @@
+{
+    "title": "395",
+    "id": "395",
+    "city": "Sekadau",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "5447",
+        "district": "Belitang"
+    }, {
+        "id": "5448",
+        "district": "Belitang Hilir"
+    }, {
+        "id": "5449",
+        "district": "Belitang Hulu"
+    }, {
+        "id": "5450",
+        "district": "Nanga Mahap"
+    }, {
+        "id": "5451",
+        "district": "Nanga Taman"
+    }, {
+        "id": "5452",
+        "district": "Sekadau Hilir"
+    }, {
+        "id": "5453",
+        "district": "Sekadau Hulu"
+    }]
+}

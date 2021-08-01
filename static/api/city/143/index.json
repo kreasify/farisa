@@ -1,0 +1,43 @@
+{
+    "title": "143",
+    "id": "143",
+    "city": "Hulu Sungai Selatan",
+    "type": "Kabupaten",
+    "province_id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "1974",
+        "district": "Angkinang"
+    }, {
+        "id": "1975",
+        "district": "Daha Barat"
+    }, {
+        "id": "1976",
+        "district": "Daha Selatan"
+    }, {
+        "id": "1977",
+        "district": "Daha Utara"
+    }, {
+        "id": "1978",
+        "district": "Kalumpang (Kelumpang)"
+    }, {
+        "id": "1979",
+        "district": "Kandangan"
+    }, {
+        "id": "1980",
+        "district": "Loksado"
+    }, {
+        "id": "1981",
+        "district": "Padang Batung"
+    }, {
+        "id": "1982",
+        "district": "Simpur"
+    }, {
+        "id": "1983",
+        "district": "Sungai Raya"
+    }, {
+        "id": "1984",
+        "district": "Telaga Langsat"
+    }]
+}

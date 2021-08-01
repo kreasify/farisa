@@ -1,0 +1,85 @@
+{
+    "title": "285",
+    "id": "285",
+    "city": "Minahasa",
+    "type": "Kabupaten",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "25",
+    "data" : [{
+        "id": "4006",
+        "district": "Eris"
+    }, {
+        "id": "4007",
+        "district": "Kakas"
+    }, {
+        "id": "4008",
+        "district": "Kakas Barat"
+    }, {
+        "id": "4009",
+        "district": "Kawangkoan"
+    }, {
+        "id": "4010",
+        "district": "Kawangkoan Barat"
+    }, {
+        "id": "4011",
+        "district": "Kawangkoan Utara"
+    }, {
+        "id": "4012",
+        "district": "Kombi"
+    }, {
+        "id": "4013",
+        "district": "Langowan Barat"
+    }, {
+        "id": "4014",
+        "district": "Langowan Selatan"
+    }, {
+        "id": "4015",
+        "district": "Langowan Timur"
+    }, {
+        "id": "4016",
+        "district": "Langowan Utara"
+    }, {
+        "id": "4017",
+        "district": "Lembean Timur"
+    }, {
+        "id": "4018",
+        "district": "Mandolang"
+    }, {
+        "id": "4019",
+        "district": "Pineleng"
+    }, {
+        "id": "4020",
+        "district": "Remboken"
+    }, {
+        "id": "4021",
+        "district": "Sonder"
+    }, {
+        "id": "4022",
+        "district": "Tombariri"
+    }, {
+        "id": "4023",
+        "district": "Tombariri Timur"
+    }, {
+        "id": "4024",
+        "district": "Tombulu"
+    }, {
+        "id": "4025",
+        "district": "Tompaso"
+    }, {
+        "id": "4026",
+        "district": "Tompaso Barat"
+    }, {
+        "id": "4027",
+        "district": "Tondano Barat"
+    }, {
+        "id": "4028",
+        "district": "Tondano Selatan"
+    }, {
+        "id": "4029",
+        "district": "Tondano Timur"
+    }, {
+        "id": "4030",
+        "district": "Tondano Utara"
+    }]
+}

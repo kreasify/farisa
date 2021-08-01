@@ -1,0 +1,19 @@
+{
+    "title": "107",
+    "id": "107",
+    "city": "Cimahi",
+    "type": "Kota",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "3",
+    "data" : [{
+        "id": "1469",
+        "district": "Cimahi Selatan"
+    }, {
+        "id": "1470",
+        "district": "Cimahi Tengah"
+    }, {
+        "id": "1471",
+        "district": "Cimahi Utara"
+    }]
+}

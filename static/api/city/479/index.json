@@ -1,0 +1,106 @@
+{
+    "title": "479",
+    "id": "479",
+    "city": "Timor Tengah Selatan",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "32",
+    "data" : [{
+        "id": "6596",
+        "district": "Amanatun Selatan"
+    }, {
+        "id": "6597",
+        "district": "Amanatun Utara"
+    }, {
+        "id": "6598",
+        "district": "Amanuban Barat"
+    }, {
+        "id": "6599",
+        "district": "Amanuban Selatan"
+    }, {
+        "id": "6600",
+        "district": "Amanuban Tengah"
+    }, {
+        "id": "6601",
+        "district": "Amanuban Timur"
+    }, {
+        "id": "6602",
+        "district": "Batu Putih"
+    }, {
+        "id": "6603",
+        "district": "Boking"
+    }, {
+        "id": "6604",
+        "district": "Fatukopa"
+    }, {
+        "id": "6605",
+        "district": "Fatumnasi"
+    }, {
+        "id": "6606",
+        "district": "Fautmolo"
+    }, {
+        "id": "6607",
+        "district": "Kie (Ki'e)"
+    }, {
+        "id": "6608",
+        "district": "Kok Baun"
+    }, {
+        "id": "6609",
+        "district": "Kolbano"
+    }, {
+        "id": "6610",
+        "district": "Kot Olin"
+    }, {
+        "id": "6611",
+        "district": "Kota Soe"
+    }, {
+        "id": "6612",
+        "district": "Kualin"
+    }, {
+        "id": "6613",
+        "district": "Kuanfatu"
+    }, {
+        "id": "6614",
+        "district": "Kuatnana"
+    }, {
+        "id": "6615",
+        "district": "Mollo Barat"
+    }, {
+        "id": "6616",
+        "district": "Mollo Selatan"
+    }, {
+        "id": "6617",
+        "district": "Mollo Tengah"
+    }, {
+        "id": "6618",
+        "district": "Mollo Utara"
+    }, {
+        "id": "6619",
+        "district": "Noebana"
+    }, {
+        "id": "6620",
+        "district": "Noebeba"
+    }, {
+        "id": "6621",
+        "district": "Nunbena"
+    }, {
+        "id": "6622",
+        "district": "Nunkolo"
+    }, {
+        "id": "6623",
+        "district": "Oenino"
+    }, {
+        "id": "6624",
+        "district": "Polen"
+    }, {
+        "id": "6625",
+        "district": "Santian"
+    }, {
+        "id": "6626",
+        "district": "Tobu"
+    }, {
+        "id": "6627",
+        "district": "Toianas"
+    }]
+}

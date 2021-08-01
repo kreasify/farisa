@@ -1,0 +1,82 @@
+{
+    "title": "105",
+    "id": "105",
+    "city": "Cilacap",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "1437",
+        "district": "Adipala"
+    }, {
+        "id": "1438",
+        "district": "Bantarsari"
+    }, {
+        "id": "1439",
+        "district": "Binangun"
+    }, {
+        "id": "1440",
+        "district": "Cilacap Selatan"
+    }, {
+        "id": "1441",
+        "district": "Cilacap Tengah"
+    }, {
+        "id": "1442",
+        "district": "Cilacap Utara"
+    }, {
+        "id": "1443",
+        "district": "Cimanggu"
+    }, {
+        "id": "1444",
+        "district": "Cipari"
+    }, {
+        "id": "1445",
+        "district": "Dayeuhluhur"
+    }, {
+        "id": "1446",
+        "district": "Gandrungmangu"
+    }, {
+        "id": "1447",
+        "district": "Jeruklegi"
+    }, {
+        "id": "1448",
+        "district": "Kampung Laut"
+    }, {
+        "id": "1449",
+        "district": "Karangpucung"
+    }, {
+        "id": "1450",
+        "district": "Kawunganten"
+    }, {
+        "id": "1451",
+        "district": "Kedungreja"
+    }, {
+        "id": "1452",
+        "district": "Kesugihan"
+    }, {
+        "id": "1453",
+        "district": "Kroya"
+    }, {
+        "id": "1454",
+        "district": "Majenang"
+    }, {
+        "id": "1455",
+        "district": "Maos"
+    }, {
+        "id": "1456",
+        "district": "Nusawungu"
+    }, {
+        "id": "1457",
+        "district": "Patimuan"
+    }, {
+        "id": "1458",
+        "district": "Sampang"
+    }, {
+        "id": "1459",
+        "district": "Sidareja"
+    }, {
+        "id": "1460",
+        "district": "Wanareja"
+    }]
+}

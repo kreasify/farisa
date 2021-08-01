@@ -1,0 +1,43 @@
+{
+    "title": "1",
+    "id": "1",
+    "province": "Bali",
+    "number_of_cities" : "9",
+    "data" : [{
+        "id": "17",
+        "city": "Badung",
+        "type": "Kabupaten"
+    }, {
+        "id": "32",
+        "city": "Bangli",
+        "type": "Kabupaten"
+    }, {
+        "id": "94",
+        "city": "Buleleng",
+        "type": "Kabupaten"
+    }, {
+        "id": "114",
+        "city": "Denpasar",
+        "type": "Kota"
+    }, {
+        "id": "128",
+        "city": "Gianyar",
+        "type": "Kabupaten"
+    }, {
+        "id": "161",
+        "city": "Jembrana",
+        "type": "Kabupaten"
+    }, {
+        "id": "170",
+        "city": "Karangasem",
+        "type": "Kabupaten"
+    }, {
+        "id": "197",
+        "city": "Klungkung",
+        "type": "Kabupaten"
+    }, {
+        "id": "447",
+        "city": "Tabanan",
+        "type": "Kabupaten"
+    }]
+}

@@ -1,0 +1,73 @@
+{
+    "title": "363",
+    "id": "363",
+    "city": "Ponorogo",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "5071",
+        "district": "Babadan"
+    }, {
+        "id": "5072",
+        "district": "Badegan"
+    }, {
+        "id": "5073",
+        "district": "Balong"
+    }, {
+        "id": "5074",
+        "district": "Bungkal"
+    }, {
+        "id": "5075",
+        "district": "Jambon"
+    }, {
+        "id": "5076",
+        "district": "Jenangan"
+    }, {
+        "id": "5077",
+        "district": "Jetis"
+    }, {
+        "id": "5078",
+        "district": "Kauman"
+    }, {
+        "id": "5079",
+        "district": "Mlarak"
+    }, {
+        "id": "5080",
+        "district": "Ngebel"
+    }, {
+        "id": "5081",
+        "district": "Ngrayun"
+    }, {
+        "id": "5082",
+        "district": "Ponorogo"
+    }, {
+        "id": "5083",
+        "district": "Pudak"
+    }, {
+        "id": "5084",
+        "district": "Pulung"
+    }, {
+        "id": "5085",
+        "district": "Sambit"
+    }, {
+        "id": "5086",
+        "district": "Sampung"
+    }, {
+        "id": "5087",
+        "district": "Sawoo"
+    }, {
+        "id": "5088",
+        "district": "Siman"
+    }, {
+        "id": "5089",
+        "district": "Slahung"
+    }, {
+        "id": "5090",
+        "district": "Sooko"
+    }, {
+        "id": "5091",
+        "district": "Sukorejo"
+    }]
+}

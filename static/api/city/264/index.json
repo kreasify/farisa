@@ -1,0 +1,25 @@
+{
+    "title": "264",
+    "id": "264",
+    "city": "Mamberamo Tengah",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "3735",
+        "district": "Eragayam"
+    }, {
+        "id": "3736",
+        "district": "Ilugwa"
+    }, {
+        "id": "3737",
+        "district": "Kelila"
+    }, {
+        "id": "3738",
+        "district": "Kobakma"
+    }, {
+        "id": "3739",
+        "district": "Megabilis (Megambilis)"
+    }]
+}

@@ -1,0 +1,22 @@
+{
+    "title": "336",
+    "id": "336",
+    "city": "Parepare",
+    "type": "Kota",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "4730",
+        "district": "Bacukiki"
+    }, {
+        "id": "4731",
+        "district": "Bacukiki Barat"
+    }, {
+        "id": "4732",
+        "district": "Soreang"
+    }, {
+        "id": "4733",
+        "district": "Ujung"
+    }]
+}

@@ -1,0 +1,49 @@
+{
+    "title": "333",
+    "id": "333",
+    "city": "Pangkajene Kepulauan",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "13",
+    "data" : [{
+        "id": "4700",
+        "district": "Balocci"
+    }, {
+        "id": "4701",
+        "district": "Bungoro"
+    }, {
+        "id": "4702",
+        "district": "Labakkang"
+    }, {
+        "id": "4703",
+        "district": "Liukang Kalmas (Kalukuang Masalima)"
+    }, {
+        "id": "4704",
+        "district": "Liukang Tangaya"
+    }, {
+        "id": "4705",
+        "district": "Liukang Tupabbiring"
+    }, {
+        "id": "4706",
+        "district": "Liukang Tupabbiring Utara"
+    }, {
+        "id": "4707",
+        "district": "Mandalle"
+    }, {
+        "id": "4708",
+        "district": "Marang (Ma Rang)"
+    }, {
+        "id": "4709",
+        "district": "Minasa Tene"
+    }, {
+        "id": "4710",
+        "district": "Pangkajene"
+    }, {
+        "id": "4711",
+        "district": "Segeri"
+    }, {
+        "id": "4712",
+        "district": "Tondong Tallasa"
+    }]
+}

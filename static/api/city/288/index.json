@@ -1,0 +1,40 @@
+{
+    "title": "288",
+    "id": "288",
+    "city": "Minahasa Utara",
+    "type": "Kabupaten",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "4060",
+        "district": "Airmadidi"
+    }, {
+        "id": "4061",
+        "district": "Dimembe"
+    }, {
+        "id": "4062",
+        "district": "Kalawat"
+    }, {
+        "id": "4063",
+        "district": "Kauditan"
+    }, {
+        "id": "4064",
+        "district": "Kema"
+    }, {
+        "id": "4065",
+        "district": "Likupang Barat"
+    }, {
+        "id": "4066",
+        "district": "Likupang Selatan"
+    }, {
+        "id": "4067",
+        "district": "Likupang Timur"
+    }, {
+        "id": "4068",
+        "district": "Talawaan"
+    }, {
+        "id": "4069",
+        "district": "Wori"
+    }]
+}

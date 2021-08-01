@@ -1,0 +1,37 @@
+{
+    "title": "124",
+    "id": "124",
+    "city": "Fakfak",
+    "type": "Kabupaten",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "1683",
+        "district": "Bombarai (Bomberay)"
+    }, {
+        "id": "1684",
+        "district": "Fakfak"
+    }, {
+        "id": "1685",
+        "district": "Fakfak Barat"
+    }, {
+        "id": "1686",
+        "district": "Fakfak Tengah"
+    }, {
+        "id": "1687",
+        "district": "Fakfak Timur"
+    }, {
+        "id": "1688",
+        "district": "Karas"
+    }, {
+        "id": "1689",
+        "district": "Kokas"
+    }, {
+        "id": "1690",
+        "district": "Kramongmongga (Kramamongga)"
+    }, {
+        "id": "1691",
+        "district": "Teluk Patipi"
+    }]
+}

@@ -1,0 +1,49 @@
+{
+    "title": "456",
+    "id": "456",
+    "city": "Tangerang",
+    "type": "Kota",
+    "province_id": "3",
+    "province": "Banten",
+    "number_of_districts" : "13",
+    "data" : [{
+        "id": "6297",
+        "district": "Batuceper"
+    }, {
+        "id": "6298",
+        "district": "Benda"
+    }, {
+        "id": "6299",
+        "district": "Cibodas"
+    }, {
+        "id": "6300",
+        "district": "Ciledug"
+    }, {
+        "id": "6301",
+        "district": "Cipondoh"
+    }, {
+        "id": "6302",
+        "district": "Jatiuwung"
+    }, {
+        "id": "6303",
+        "district": "Karang Tengah"
+    }, {
+        "id": "6304",
+        "district": "Karawaci"
+    }, {
+        "id": "6305",
+        "district": "Larangan"
+    }, {
+        "id": "6306",
+        "district": "Neglasari"
+    }, {
+        "id": "6307",
+        "district": "Periuk"
+    }, {
+        "id": "6308",
+        "district": "Pinang (Penang)"
+    }, {
+        "id": "6309",
+        "district": "Tangerang"
+    }]
+}

@@ -1,0 +1,61 @@
+{
+    "title": "173",
+    "id": "173",
+    "city": "Karo",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "2420",
+        "district": "Barus Jahe"
+    }, {
+        "id": "2421",
+        "district": "Brastagi (Berastagi)"
+    }, {
+        "id": "2422",
+        "district": "Dolat Rayat"
+    }, {
+        "id": "2423",
+        "district": "Juhar"
+    }, {
+        "id": "2424",
+        "district": "Kabanjahe"
+    }, {
+        "id": "2425",
+        "district": "Kuta Buluh"
+    }, {
+        "id": "2426",
+        "district": "Laubaleng"
+    }, {
+        "id": "2427",
+        "district": "Mardinding"
+    }, {
+        "id": "2428",
+        "district": "Merdeka"
+    }, {
+        "id": "2429",
+        "district": "Merek"
+    }, {
+        "id": "2430",
+        "district": "Munte"
+    }, {
+        "id": "2431",
+        "district": "Nama Teran"
+    }, {
+        "id": "2432",
+        "district": "Payung"
+    }, {
+        "id": "2433",
+        "district": "Simpang Empat"
+    }, {
+        "id": "2434",
+        "district": "Tiga Binanga"
+    }, {
+        "id": "2435",
+        "district": "Tiga Panah"
+    }, {
+        "id": "2436",
+        "district": "Tiganderket"
+    }]
+}

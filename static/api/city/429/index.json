@@ -1,0 +1,25 @@
+{
+    "title": "429",
+    "id": "429",
+    "city": "Subulussalam",
+    "type": "Kota",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "5913",
+        "district": "Longkib"
+    }, {
+        "id": "5914",
+        "district": "Penanggalan"
+    }, {
+        "id": "5915",
+        "district": "Rundeng"
+    }, {
+        "id": "5916",
+        "district": "Simpang Kiri"
+    }, {
+        "id": "5917",
+        "district": "Sultan Daulat"
+    }]
+}

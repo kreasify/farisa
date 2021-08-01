@@ -1,0 +1,55 @@
+{
+    "title": "207",
+    "id": "207",
+    "city": "Kuantan Singingi",
+    "type": "Kabupaten",
+    "province_id": "26",
+    "province": "Riau",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "2897",
+        "district": "Benai"
+    }, {
+        "id": "2898",
+        "district": "Cerenti"
+    }, {
+        "id": "2899",
+        "district": "Gunung Toar"
+    }, {
+        "id": "2900",
+        "district": "Hulu Kuantan"
+    }, {
+        "id": "2901",
+        "district": "Inuman"
+    }, {
+        "id": "2902",
+        "district": "Kuantan Hilir"
+    }, {
+        "id": "2903",
+        "district": "Kuantan Hilir Seberang"
+    }, {
+        "id": "2904",
+        "district": "Kuantan Mudik"
+    }, {
+        "id": "2905",
+        "district": "Kuantan Tengah"
+    }, {
+        "id": "2906",
+        "district": "Logas Tanah Darat"
+    }, {
+        "id": "2907",
+        "district": "Pangean"
+    }, {
+        "id": "2908",
+        "district": "Pucuk Rantau"
+    }, {
+        "id": "2909",
+        "district": "Sentajo Raya"
+    }, {
+        "id": "2910",
+        "district": "Singingi"
+    }, {
+        "id": "2911",
+        "district": "Singingi Hilir"
+    }]
+}

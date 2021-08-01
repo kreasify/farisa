@@ -1,0 +1,43 @@
+{
+    "title": "162",
+    "id": "162",
+    "city": "Jeneponto",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "2237",
+        "district": "Arungkeke"
+    }, {
+        "id": "2238",
+        "district": "Bangkala"
+    }, {
+        "id": "2239",
+        "district": "Bangkala Barat"
+    }, {
+        "id": "2240",
+        "district": "Batang"
+    }, {
+        "id": "2241",
+        "district": "Binamu"
+    }, {
+        "id": "2242",
+        "district": "Bontoramba"
+    }, {
+        "id": "2243",
+        "district": "Kelara"
+    }, {
+        "id": "2244",
+        "district": "Rumbia"
+    }, {
+        "id": "2245",
+        "district": "Tamalatea"
+    }, {
+        "id": "2246",
+        "district": "Tarowang"
+    }, {
+        "id": "2247",
+        "district": "Turatea"
+    }]
+}

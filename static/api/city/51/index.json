@@ -1,0 +1,19 @@
+{
+    "title": "51",
+    "id": "51",
+    "city": "Batu",
+    "type": "Kota",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "3",
+    "data" : [{
+        "id": "708",
+        "district": "Batu"
+    }, {
+        "id": "709",
+        "district": "Bumiaji"
+    }, {
+        "id": "710",
+        "district": "Junrejo"
+    }]
+}

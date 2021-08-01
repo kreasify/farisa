@@ -1,0 +1,67 @@
+{
+    "title": "315",
+    "id": "315",
+    "city": "Ogan Komering Ulu Selatan",
+    "type": "Kabupaten",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "4483",
+        "district": "Banding Agung"
+    }, {
+        "id": "4484",
+        "district": "Buana Pemaca"
+    }, {
+        "id": "4485",
+        "district": "Buay Pemaca"
+    }, {
+        "id": "4486",
+        "district": "Buay Pematang Ribu Ranau Tengah"
+    }, {
+        "id": "4487",
+        "district": "Buay Rawan"
+    }, {
+        "id": "4488",
+        "district": "Buay Runjung"
+    }, {
+        "id": "4489",
+        "district": "Buay Sandang Aji"
+    }, {
+        "id": "4490",
+        "district": "Kisam Ilir"
+    }, {
+        "id": "4491",
+        "district": "Kisam Tinggi"
+    }, {
+        "id": "4492",
+        "district": "Mekakau Ilir"
+    }, {
+        "id": "4493",
+        "district": "Muaradua"
+    }, {
+        "id": "4494",
+        "district": "Muaradua Kisam"
+    }, {
+        "id": "4495",
+        "district": "Pulau Beringin"
+    }, {
+        "id": "4496",
+        "district": "Runjung Agung"
+    }, {
+        "id": "4497",
+        "district": "Simpang"
+    }, {
+        "id": "4498",
+        "district": "Sindang Danau"
+    }, {
+        "id": "4499",
+        "district": "Sungai Are"
+    }, {
+        "id": "4500",
+        "district": "Tiga Dihaji"
+    }, {
+        "id": "4501",
+        "district": "Warkuk Ranau Selatan"
+    }]
+}

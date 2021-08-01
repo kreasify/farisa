@@ -1,0 +1,43 @@
+{
+    "title": "318",
+    "id": "318",
+    "city": "Padang",
+    "type": "Kota",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "4534",
+        "district": "Bungus Teluk Kabung"
+    }, {
+        "id": "4535",
+        "district": "Koto Tangah"
+    }, {
+        "id": "4536",
+        "district": "Kuranji"
+    }, {
+        "id": "4537",
+        "district": "Lubuk Begalung"
+    }, {
+        "id": "4538",
+        "district": "Lubuk Kilangan"
+    }, {
+        "id": "4539",
+        "district": "Nanggalo"
+    }, {
+        "id": "4540",
+        "district": "Padang Barat"
+    }, {
+        "id": "4541",
+        "district": "Padang Selatan"
+    }, {
+        "id": "4542",
+        "district": "Padang Timur"
+    }, {
+        "id": "4543",
+        "district": "Padang Utara"
+    }, {
+        "id": "4544",
+        "district": "Pauh"
+    }]
+}

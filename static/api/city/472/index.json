@@ -1,0 +1,64 @@
+{
+    "title": "472",
+    "id": "472",
+    "city": "Tegal",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "6502",
+        "district": "Adiwerna"
+    }, {
+        "id": "6503",
+        "district": "Balapulang"
+    }, {
+        "id": "6504",
+        "district": "Bojong"
+    }, {
+        "id": "6505",
+        "district": "Bumijawa"
+    }, {
+        "id": "6506",
+        "district": "Dukuhturi"
+    }, {
+        "id": "6507",
+        "district": "Dukuhwaru"
+    }, {
+        "id": "6508",
+        "district": "Jatinegara"
+    }, {
+        "id": "6509",
+        "district": "Kedung Banteng"
+    }, {
+        "id": "6510",
+        "district": "Kramat"
+    }, {
+        "id": "6511",
+        "district": "Lebaksiu"
+    }, {
+        "id": "6512",
+        "district": "Margasari"
+    }, {
+        "id": "6513",
+        "district": "Pagerbarang"
+    }, {
+        "id": "6514",
+        "district": "Pangkah"
+    }, {
+        "id": "6515",
+        "district": "Slawi"
+    }, {
+        "id": "6516",
+        "district": "Surodadi"
+    }, {
+        "id": "6517",
+        "district": "Talang"
+    }, {
+        "id": "6518",
+        "district": "Tarub"
+    }, {
+        "id": "6519",
+        "district": "Warurejo"
+    }]
+}

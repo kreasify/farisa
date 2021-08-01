@@ -1,0 +1,62 @@
+---
+label: Feature
+hide_body: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the feature
+- type: textarea
+  name: content
+  label: Content
+  description: The text content of the feature
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: select
+  name: align
+  label: Align
+  description: The alignment of the text content
+  default: left
+  config:
+    source:
+      type: custom
+    options:
+    - left
+    - right
+    - center
+- type: file
+  name: image
+  label: Image
+  description: The position of the image
+- type: select
+  name: image_position
+  label: Image Position
+  description: The position of the image
+  default: left
+  config:
+    source:
+      type: custom
+    options:
+    - left
+    - right
+- type: field_group_list
+  name: actions
+  label: Action Buttons
+  fields:
+  - type: include
+    name: include_action
+    label: Action
+    template: action
+  config:
+    labelField: label
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: feature
+  config:
+    required: true

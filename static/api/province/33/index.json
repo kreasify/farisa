@@ -1,0 +1,67 @@
+{
+    "title": "33",
+    "id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_cities" : "15",
+    "data" : [{
+        "id": "40",
+        "city": "Banyuasin",
+        "type": "Kabupaten"
+    }, {
+        "id": "121",
+        "city": "Empat Lawang",
+        "type": "Kabupaten"
+    }, {
+        "id": "220",
+        "city": "Lahat",
+        "type": "Kabupaten"
+    }, {
+        "id": "242",
+        "city": "Lubuk Linggau",
+        "type": "Kota"
+    }, {
+        "id": "292",
+        "city": "Muara Enim",
+        "type": "Kabupaten"
+    }, {
+        "id": "297",
+        "city": "Musi Banyuasin",
+        "type": "Kabupaten"
+    }, {
+        "id": "298",
+        "city": "Musi Rawas",
+        "type": "Kabupaten"
+    }, {
+        "id": "312",
+        "city": "Ogan Ilir",
+        "type": "Kabupaten"
+    }, {
+        "id": "313",
+        "city": "Ogan Komering Ilir",
+        "type": "Kabupaten"
+    }, {
+        "id": "314",
+        "city": "Ogan Komering Ulu",
+        "type": "Kabupaten"
+    }, {
+        "id": "315",
+        "city": "Ogan Komering Ulu Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "316",
+        "city": "Ogan Komering Ulu Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "324",
+        "city": "Pagar Alam",
+        "type": "Kota"
+    }, {
+        "id": "327",
+        "city": "Palembang",
+        "type": "Kota"
+    }, {
+        "id": "367",
+        "city": "Prabumulih",
+        "type": "Kota"
+    }]
+}

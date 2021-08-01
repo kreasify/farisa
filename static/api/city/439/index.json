@@ -1,0 +1,34 @@
+{
+    "title": "439",
+    "id": "439",
+    "city": "Sumbawa Barat",
+    "type": "Kabupaten",
+    "province_id": "22",
+    "province": "Nusa Tenggara Barat (NTB)",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "6057",
+        "district": "Brang Ene"
+    }, {
+        "id": "6058",
+        "district": "Brang Rea"
+    }, {
+        "id": "6059",
+        "district": "Jereweh"
+    }, {
+        "id": "6060",
+        "district": "Maluk"
+    }, {
+        "id": "6061",
+        "district": "Poto Tano"
+    }, {
+        "id": "6062",
+        "district": "Sateluk (Seteluk)"
+    }, {
+        "id": "6063",
+        "district": "Sekongkang"
+    }, {
+        "id": "6064",
+        "district": "Taliwang"
+    }]
+}

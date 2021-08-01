@@ -1,0 +1,79 @@
+{
+    "title": "229",
+    "id": "229",
+    "city": "Langkat",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "23",
+    "data" : [{
+        "id": "3260",
+        "district": "Babalan"
+    }, {
+        "id": "3261",
+        "district": "Bahorok"
+    }, {
+        "id": "3262",
+        "district": "Batang Serangan"
+    }, {
+        "id": "3263",
+        "district": "Besitang"
+    }, {
+        "id": "3264",
+        "district": "Binjai"
+    }, {
+        "id": "3265",
+        "district": "Brandan Barat"
+    }, {
+        "id": "3266",
+        "district": "Gebang"
+    }, {
+        "id": "3267",
+        "district": "Hinai"
+    }, {
+        "id": "3268",
+        "district": "Kuala"
+    }, {
+        "id": "3269",
+        "district": "Kutambaru"
+    }, {
+        "id": "3270",
+        "district": "Padang Tualang"
+    }, {
+        "id": "3271",
+        "district": "Pangkalan Susu"
+    }, {
+        "id": "3272",
+        "district": "Pematang Jaya"
+    }, {
+        "id": "3273",
+        "district": "Salapian"
+    }, {
+        "id": "3274",
+        "district": "Sawit Seberang"
+    }, {
+        "id": "3275",
+        "district": "Secanggang"
+    }, {
+        "id": "3276",
+        "district": "Sei Binge (Bingai)"
+    }, {
+        "id": "3277",
+        "district": "Sei Lepan"
+    }, {
+        "id": "3278",
+        "district": "Selesai"
+    }, {
+        "id": "3279",
+        "district": "Sirapit (Serapit)"
+    }, {
+        "id": "3280",
+        "district": "Stabat"
+    }, {
+        "id": "3281",
+        "district": "Tanjungpura"
+    }, {
+        "id": "3282",
+        "district": "Wampu"
+    }]
+}

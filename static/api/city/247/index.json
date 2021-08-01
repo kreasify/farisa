@@ -1,0 +1,55 @@
+{
+    "title": "247",
+    "id": "247",
+    "city": "Madiun",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "3493",
+        "district": "Balerejo"
+    }, {
+        "id": "3494",
+        "district": "Dagangan"
+    }, {
+        "id": "3495",
+        "district": "Dolopo"
+    }, {
+        "id": "3496",
+        "district": "Geger"
+    }, {
+        "id": "3497",
+        "district": "Gemarang"
+    }, {
+        "id": "3498",
+        "district": "Jiwan"
+    }, {
+        "id": "3499",
+        "district": "Kare"
+    }, {
+        "id": "3500",
+        "district": "Kebonsari"
+    }, {
+        "id": "3501",
+        "district": "Madiun"
+    }, {
+        "id": "3502",
+        "district": "Mejayan"
+    }, {
+        "id": "3503",
+        "district": "Pilangkenceng"
+    }, {
+        "id": "3504",
+        "district": "Saradan"
+    }, {
+        "id": "3505",
+        "district": "Sawahan"
+    }, {
+        "id": "3506",
+        "district": "Wonoasri"
+    }, {
+        "id": "3507",
+        "district": "Wungu"
+    }]
+}

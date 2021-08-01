@@ -1,0 +1,79 @@
+{
+    "title": "268",
+    "id": "268",
+    "city": "Mandailing Natal",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "23",
+    "data" : [{
+        "id": "3779",
+        "district": "Batahan"
+    }, {
+        "id": "3780",
+        "district": "Batang Natal"
+    }, {
+        "id": "3781",
+        "district": "Bukit Malintang"
+    }, {
+        "id": "3782",
+        "district": "Huta Bargot"
+    }, {
+        "id": "3783",
+        "district": "Kotanopan"
+    }, {
+        "id": "3784",
+        "district": "Langga Bayu (Lingga Bayu)"
+    }, {
+        "id": "3785",
+        "district": "Lembah Sorik Merapi"
+    }, {
+        "id": "3786",
+        "district": "Muara Batang Gadis"
+    }, {
+        "id": "3787",
+        "district": "Muara Sipongi"
+    }, {
+        "id": "3788",
+        "district": "Naga Juang"
+    }, {
+        "id": "3789",
+        "district": "Natal"
+    }, {
+        "id": "3790",
+        "district": "Pakantan"
+    }, {
+        "id": "3791",
+        "district": "Panyabungan Barat"
+    }, {
+        "id": "3792",
+        "district": "Panyabungan Kota"
+    }, {
+        "id": "3793",
+        "district": "Panyabungan Selatan"
+    }, {
+        "id": "3794",
+        "district": "Panyabungan Timur"
+    }, {
+        "id": "3795",
+        "district": "Panyabungan Utara"
+    }, {
+        "id": "3796",
+        "district": "Puncak Sorik Marapi/Merapi"
+    }, {
+        "id": "3797",
+        "district": "Ranto Baek/Baik"
+    }, {
+        "id": "3798",
+        "district": "Siabu"
+    }, {
+        "id": "3799",
+        "district": "Sinunukan"
+    }, {
+        "id": "3800",
+        "district": "Tambangan"
+    }, {
+        "id": "3801",
+        "district": "Ulu Pungkut"
+    }]
+}

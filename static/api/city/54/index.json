@@ -1,0 +1,79 @@
+{
+    "title": "54",
+    "id": "54",
+    "city": "Bekasi",
+    "type": "Kabupaten",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "23",
+    "data" : [{
+        "id": "726",
+        "district": "Babelan"
+    }, {
+        "id": "727",
+        "district": "Bojongmangu"
+    }, {
+        "id": "728",
+        "district": "Cabangbungin"
+    }, {
+        "id": "729",
+        "district": "Cibarusah"
+    }, {
+        "id": "730",
+        "district": "Cibitung"
+    }, {
+        "id": "731",
+        "district": "Cikarang Barat"
+    }, {
+        "id": "732",
+        "district": "Cikarang Pusat"
+    }, {
+        "id": "733",
+        "district": "Cikarang Selatan"
+    }, {
+        "id": "734",
+        "district": "Cikarang Timur"
+    }, {
+        "id": "735",
+        "district": "Cikarang Utara"
+    }, {
+        "id": "736",
+        "district": "Karangbahagia"
+    }, {
+        "id": "737",
+        "district": "Kedung Waringin"
+    }, {
+        "id": "738",
+        "district": "Muara Gembong"
+    }, {
+        "id": "739",
+        "district": "Pebayuran"
+    }, {
+        "id": "740",
+        "district": "Serang Baru"
+    }, {
+        "id": "741",
+        "district": "Setu"
+    }, {
+        "id": "742",
+        "district": "Sukakarya"
+    }, {
+        "id": "743",
+        "district": "Sukatani"
+    }, {
+        "id": "744",
+        "district": "Sukawangi"
+    }, {
+        "id": "745",
+        "district": "Tambelang"
+    }, {
+        "id": "746",
+        "district": "Tambun Selatan"
+    }, {
+        "id": "747",
+        "district": "Tambun Utara"
+    }, {
+        "id": "748",
+        "district": "Tarumajaya"
+    }]
+}

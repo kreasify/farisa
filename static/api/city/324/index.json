@@ -1,0 +1,25 @@
+{
+    "title": "324",
+    "id": "324",
+    "city": "Pagar Alam",
+    "type": "Kota",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "4591",
+        "district": "Dempo Selatan"
+    }, {
+        "id": "4592",
+        "district": "Dempo Tengah"
+    }, {
+        "id": "4593",
+        "district": "Dempo Utara"
+    }, {
+        "id": "4594",
+        "district": "Pagar Alam Selatan"
+    }, {
+        "id": "4595",
+        "district": "Pagar Alam Utara"
+    }]
+}

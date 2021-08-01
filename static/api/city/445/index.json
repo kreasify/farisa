@@ -1,0 +1,25 @@
+{
+    "title": "445",
+    "id": "445",
+    "city": "Surakarta (Solo)",
+    "type": "Kota",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "6162",
+        "district": "Banjarsari"
+    }, {
+        "id": "6163",
+        "district": "Jebres"
+    }, {
+        "id": "6164",
+        "district": "Laweyan"
+    }, {
+        "id": "6165",
+        "district": "Pasar Kliwon"
+    }, {
+        "id": "6166",
+        "district": "Serengan"
+    }]
+}

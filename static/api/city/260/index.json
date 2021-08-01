@@ -1,0 +1,43 @@
+{
+    "title": "260",
+    "id": "260",
+    "city": "Maluku Tenggara",
+    "type": "Kabupaten",
+    "province_id": "19",
+    "province": "Maluku",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "3689",
+        "district": "Hoat Sorbay"
+    }, {
+        "id": "3690",
+        "district": "Kei Besar"
+    }, {
+        "id": "3691",
+        "district": "Kei Besar Selatan"
+    }, {
+        "id": "3692",
+        "district": "Kei Besar Selatan Barat"
+    }, {
+        "id": "3693",
+        "district": "Kei Besar Utara Barat"
+    }, {
+        "id": "3694",
+        "district": "Kei Besar Utara Timur"
+    }, {
+        "id": "3695",
+        "district": "Kei Kecil"
+    }, {
+        "id": "3696",
+        "district": "Kei Kecil Barat"
+    }, {
+        "id": "3697",
+        "district": "Kei Kecil Timur"
+    }, {
+        "id": "3698",
+        "district": "Kei Kecil Timur Selatan"
+    }, {
+        "id": "3699",
+        "district": "Manyeuw"
+    }]
+}

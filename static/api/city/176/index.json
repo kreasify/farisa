@@ -1,0 +1,28 @@
+{
+    "title": "176",
+    "id": "176",
+    "city": "Kayong Utara",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "2465",
+        "district": "Kepulauan Karimata"
+    }, {
+        "id": "2466",
+        "district": "Pulau Maya (Pulau Maya Karimata)"
+    }, {
+        "id": "2467",
+        "district": "Seponti"
+    }, {
+        "id": "2468",
+        "district": "Simpang Hilir"
+    }, {
+        "id": "2469",
+        "district": "Sukadana"
+    }, {
+        "id": "2470",
+        "district": "Teluk Batang"
+    }]
+}

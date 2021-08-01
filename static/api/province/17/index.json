@@ -1,0 +1,35 @@
+{
+    "title": "17",
+    "id": "17",
+    "province": "Kepulauan Riau",
+    "number_of_cities" : "7",
+    "data" : [{
+        "id": "48",
+        "city": "Batam",
+        "type": "Kota"
+    }, {
+        "id": "71",
+        "city": "Bintan",
+        "type": "Kabupaten"
+    }, {
+        "id": "172",
+        "city": "Karimun",
+        "type": "Kabupaten"
+    }, {
+        "id": "184",
+        "city": "Kepulauan Anambas",
+        "type": "Kabupaten"
+    }, {
+        "id": "237",
+        "city": "Lingga",
+        "type": "Kabupaten"
+    }, {
+        "id": "302",
+        "city": "Natuna",
+        "type": "Kabupaten"
+    }, {
+        "id": "462",
+        "city": "Tanjung Pinang",
+        "type": "Kota"
+    }]
+}

@@ -1,0 +1,22 @@
+{
+    "title": "462",
+    "id": "462",
+    "city": "Tanjung Pinang",
+    "type": "Kota",
+    "province_id": "17",
+    "province": "Kepulauan Riau",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "6367",
+        "district": "Bukit Bestari"
+    }, {
+        "id": "6368",
+        "district": "Tanjung Pinang Barat"
+    }, {
+        "id": "6369",
+        "district": "Tanjung Pinang Kota"
+    }, {
+        "id": "6370",
+        "district": "Tanjung Pinang Timur"
+    }]
+}

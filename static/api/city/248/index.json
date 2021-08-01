@@ -1,0 +1,19 @@
+{
+    "title": "248",
+    "id": "248",
+    "city": "Madiun",
+    "type": "Kota",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "3",
+    "data" : [{
+        "id": "3508",
+        "district": "Kartoharjo"
+    }, {
+        "id": "3509",
+        "district": "Manguharjo"
+    }, {
+        "id": "3510",
+        "district": "Taman"
+    }]
+}

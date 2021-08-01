@@ -1,0 +1,73 @@
+{
+    "title": "164",
+    "id": "164",
+    "city": "Jombang",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "2264",
+        "district": "Bandar Kedung Mulyo"
+    }, {
+        "id": "2265",
+        "district": "Bareng"
+    }, {
+        "id": "2266",
+        "district": "Diwek"
+    }, {
+        "id": "2267",
+        "district": "Gudo"
+    }, {
+        "id": "2268",
+        "district": "Jogoroto"
+    }, {
+        "id": "2269",
+        "district": "Jombang"
+    }, {
+        "id": "2270",
+        "district": "Kabuh"
+    }, {
+        "id": "2271",
+        "district": "Kesamben"
+    }, {
+        "id": "2272",
+        "district": "Kudu"
+    }, {
+        "id": "2273",
+        "district": "Megaluh"
+    }, {
+        "id": "2274",
+        "district": "Mojoagung"
+    }, {
+        "id": "2275",
+        "district": "Mojowarno"
+    }, {
+        "id": "2276",
+        "district": "Ngoro"
+    }, {
+        "id": "2277",
+        "district": "Ngusikan"
+    }, {
+        "id": "2278",
+        "district": "Perak"
+    }, {
+        "id": "2279",
+        "district": "Peterongan"
+    }, {
+        "id": "2280",
+        "district": "Plandaan"
+    }, {
+        "id": "2281",
+        "district": "Ploso"
+    }, {
+        "id": "2282",
+        "district": "Sumobito"
+    }, {
+        "id": "2283",
+        "district": "Tembelang"
+    }, {
+        "id": "2284",
+        "district": "Wonosalam"
+    }]
+}

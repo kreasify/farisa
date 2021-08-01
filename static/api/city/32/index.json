@@ -1,0 +1,22 @@
+{
+    "title": "32",
+    "id": "32",
+    "city": "Bangli",
+    "type": "Kabupaten",
+    "province_id": "1",
+    "province": "Bali",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "472",
+        "district": "Bangli"
+    }, {
+        "id": "473",
+        "district": "Kintamani"
+    }, {
+        "id": "474",
+        "district": "Susut"
+    }, {
+        "id": "475",
+        "district": "Tembuku"
+    }]
+}

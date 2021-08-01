@@ -1,0 +1,22 @@
+{{ define "main" }}{
+"version": "https://jsonfeed.org/version/1",
+"title": {{ .Site.Title | jsonify  }},
+"description": {{ .Description | jsonify  }},
+"home_page_url": {{.Site.BaseURL | jsonify}},
+"feed_url": {{ .RelPermalink | jsonify }},
+"user_comment": "",{{ if .Site.Author }}
+"author": {
+    "name": {{ .Site.Author.name | jsonify }}
+},{{ end }}
+"items": [{{ range $index, $e := sort (where site.RegularPages "Type" "in" site.Params.mainSection) "Title" "asc" }}{{ if $index }},{{ end }}{
+    "id": {{ $index | jsonify }},
+	"title": {{ .Title | jsonify }},
+	"url": {{ .Params.slug | relURL | jsonify }},
+	"image": {{ .Params.thumbnail | relURL | jsonify }},{{ with .Params.variants }}{{ range first 1 . }}{{ if ne .discount "" }}
+	"promo": {{ lang.NumFmt 0 (add .price .discount) "- , ." | jsonify }},{{ end }}
+	"price": {{ lang.NumFmt 0 .price "- , ." | jsonify }},{{ end }}{{ end }}{{ if .Params.product }}
+    "category": {{ range (.GetTerms "product") }}{{ .LinkTitle | jsonify }}{{ end }},{{ else }}
+    "category": {{ range (.GetTerms "collections") }}{{ .LinkTitle | urlize | jsonify }}{{ end }},{{ end }}
+    "date_published": {{ .Date.Format "2006-02-01T15:04:05-0700" | jsonify }}
+}{{ end }}]
+}{{ end }}

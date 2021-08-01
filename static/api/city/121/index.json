@@ -1,0 +1,40 @@
+{
+    "title": "121",
+    "id": "121",
+    "city": "Empat Lawang",
+    "type": "Kabupaten",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "1640",
+        "district": "Lintang Kanan"
+    }, {
+        "id": "1641",
+        "district": "Muara Pinang"
+    }, {
+        "id": "1642",
+        "district": "Pasemah Air Keruh"
+    }, {
+        "id": "1643",
+        "district": "Pendopo"
+    }, {
+        "id": "1644",
+        "district": "Pendopo Barat"
+    }, {
+        "id": "1645",
+        "district": "Saling"
+    }, {
+        "id": "1646",
+        "district": "Sikap Dalam"
+    }, {
+        "id": "1647",
+        "district": "Talang Padang"
+    }, {
+        "id": "1648",
+        "district": "Tebing Tinggi"
+    }, {
+        "id": "1649",
+        "district": "Ulu Musi"
+    }]
+}

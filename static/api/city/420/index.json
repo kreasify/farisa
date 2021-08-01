@@ -1,0 +1,52 @@
+{
+    "title": "420",
+    "id": "420",
+    "city": "Solok",
+    "type": "Kabupaten",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "5796",
+        "district": "Bukit Sundi"
+    }, {
+        "id": "5797",
+        "district": "Danau Kembar"
+    }, {
+        "id": "5798",
+        "district": "Gunung Talang"
+    }, {
+        "id": "5799",
+        "district": "Hiliran Gumanti"
+    }, {
+        "id": "5800",
+        "district": "IX Koto Sei Lasi"
+    }, {
+        "id": "5801",
+        "district": "Junjung Sirih"
+    }, {
+        "id": "5802",
+        "district": "Kubung"
+    }, {
+        "id": "5803",
+        "district": "Lembah Gumanti"
+    }, {
+        "id": "5804",
+        "district": "Lembang Jaya"
+    }, {
+        "id": "5805",
+        "district": "Pantai Cermin"
+    }, {
+        "id": "5806",
+        "district": "Payung Sekaki"
+    }, {
+        "id": "5807",
+        "district": "Tigo Lurah"
+    }, {
+        "id": "5808",
+        "district": "X Koto Diatas"
+    }, {
+        "id": "5809",
+        "district": "X Koto Singkarak"
+    }]
+}

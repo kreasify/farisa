@@ -1,0 +1,43 @@
+{
+    "title": "116",
+    "id": "116",
+    "city": "Dharmasraya",
+    "type": "Kabupaten",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "1588",
+        "district": "Asam Jujuhan"
+    }, {
+        "id": "1589",
+        "district": "Koto Baru"
+    }, {
+        "id": "1590",
+        "district": "Koto Besar"
+    }, {
+        "id": "1591",
+        "district": "Koto Salak"
+    }, {
+        "id": "1592",
+        "district": "Padang Laweh"
+    }, {
+        "id": "1593",
+        "district": "Pulau Punjung"
+    }, {
+        "id": "1594",
+        "district": "Sembilan Koto (IX Koto)"
+    }, {
+        "id": "1595",
+        "district": "Sitiung"
+    }, {
+        "id": "1596",
+        "district": "Sungai Rumbai"
+    }, {
+        "id": "1597",
+        "district": "Timpeh"
+    }, {
+        "id": "1598",
+        "district": "Tiumang"
+    }]
+}

@@ -1,0 +1,31 @@
+{
+    "title": "165",
+    "id": "165",
+    "city": "Kaimana",
+    "type": "Kabupaten",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "2285",
+        "district": "Buruway"
+    }, {
+        "id": "2286",
+        "district": "Kaimana"
+    }, {
+        "id": "2287",
+        "district": "Kambraw (Kamberau)"
+    }, {
+        "id": "2288",
+        "district": "Teluk Arguni Atas"
+    }, {
+        "id": "2289",
+        "district": "Teluk Arguni Bawah (Yerusi)"
+    }, {
+        "id": "2290",
+        "district": "Teluk Etna"
+    }, {
+        "id": "2291",
+        "district": "Yamor"
+    }]
+}

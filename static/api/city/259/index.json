@@ -1,0 +1,64 @@
+{
+    "title": "259",
+    "id": "259",
+    "city": "Maluku Tengah",
+    "type": "Kabupaten",
+    "province_id": "19",
+    "province": "Maluku",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "3671",
+        "district": "Amahai"
+    }, {
+        "id": "3672",
+        "district": "Banda"
+    }, {
+        "id": "3673",
+        "district": "Leihitu"
+    }, {
+        "id": "3674",
+        "district": "Leihitu Barat"
+    }, {
+        "id": "3675",
+        "district": "Masohi Kota"
+    }, {
+        "id": "3676",
+        "district": "Nusalaut"
+    }, {
+        "id": "3677",
+        "district": "Pulau Haruku"
+    }, {
+        "id": "3678",
+        "district": "Salahutu"
+    }, {
+        "id": "3679",
+        "district": "Saparua"
+    }, {
+        "id": "3680",
+        "district": "Saparua Timur"
+    }, {
+        "id": "3681",
+        "district": "Seram Utara"
+    }, {
+        "id": "3682",
+        "district": "Seram Utara Barat"
+    }, {
+        "id": "3683",
+        "district": "Seram Utara Timur Kobi"
+    }, {
+        "id": "3684",
+        "district": "Seram Utara Timur Seti"
+    }, {
+        "id": "3685",
+        "district": "Tehoru"
+    }, {
+        "id": "3686",
+        "district": "Teluk Elpaputih"
+    }, {
+        "id": "3687",
+        "district": "Telutih"
+    }, {
+        "id": "3688",
+        "district": "Teon Nila Serua"
+    }]
+}

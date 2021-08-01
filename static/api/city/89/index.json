@@ -1,0 +1,19 @@
+{
+    "title": "89",
+    "id": "89",
+    "city": "Bontang",
+    "type": "Kota",
+    "province_id": "15",
+    "province": "Kalimantan Timur",
+    "number_of_districts" : "3",
+    "data" : [{
+        "id": "1217",
+        "district": "Bontang Barat"
+    }, {
+        "id": "1218",
+        "district": "Bontang Selatan"
+    }, {
+        "id": "1219",
+        "district": "Bontang Utara"
+    }]
+}

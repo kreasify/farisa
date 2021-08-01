@@ -1,0 +1,47 @@
+---
+label: CTA Section
+hide_body: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the section
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: The subtitle of the section
+- type: field_group_list
+  name: actions
+  label: Action Buttons
+  fields:
+  - type: include
+    name: include_action
+    label: Action
+    template: action
+  config:
+    labelField: label
+- type: boolean
+  name: has_background
+  label: Enable section background
+  default: false
+- type: select
+  name: background_color
+  label: Background Color
+  description: The background color of the section
+  default: white
+  config:
+    source:
+      type: custom
+    options:
+    - white
+    - gray
+    - blue
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: cta_section
+  config:
+    required: true

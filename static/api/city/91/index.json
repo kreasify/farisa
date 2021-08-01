@@ -1,0 +1,67 @@
+{
+    "title": "91",
+    "id": "91",
+    "city": "Boyolali",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "1240",
+        "district": "Ampel"
+    }, {
+        "id": "1241",
+        "district": "Andong"
+    }, {
+        "id": "1242",
+        "district": "Banyudono"
+    }, {
+        "id": "1243",
+        "district": "Boyolali"
+    }, {
+        "id": "1244",
+        "district": "Cepogo"
+    }, {
+        "id": "1245",
+        "district": "Juwangi"
+    }, {
+        "id": "1246",
+        "district": "Karanggede"
+    }, {
+        "id": "1247",
+        "district": "Kemusu"
+    }, {
+        "id": "1248",
+        "district": "Klego"
+    }, {
+        "id": "1249",
+        "district": "Mojosongo"
+    }, {
+        "id": "1250",
+        "district": "Musuk"
+    }, {
+        "id": "1251",
+        "district": "Ngemplak"
+    }, {
+        "id": "1252",
+        "district": "Nogosari"
+    }, {
+        "id": "1253",
+        "district": "Sambi"
+    }, {
+        "id": "1254",
+        "district": "Sawit"
+    }, {
+        "id": "1255",
+        "district": "Selo"
+    }, {
+        "id": "1256",
+        "district": "Simo"
+    }, {
+        "id": "1257",
+        "district": "Teras"
+    }, {
+        "id": "1258",
+        "district": "Wonosegoro"
+    }]
+}

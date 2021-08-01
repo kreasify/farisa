@@ -1,0 +1,58 @@
+{
+    "title": "24",
+    "id": "24",
+    "city": "Bandung Barat",
+    "type": "Kabupaten",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "368",
+        "district": "Batujajar"
+    }, {
+        "id": "369",
+        "district": "Cihampelas"
+    }, {
+        "id": "370",
+        "district": "Cikalong Wetan"
+    }, {
+        "id": "371",
+        "district": "Cililin"
+    }, {
+        "id": "372",
+        "district": "Cipatat"
+    }, {
+        "id": "373",
+        "district": "Cipeundeuy"
+    }, {
+        "id": "374",
+        "district": "Cipongkor"
+    }, {
+        "id": "375",
+        "district": "Cisarua"
+    }, {
+        "id": "376",
+        "district": "Gununghalu"
+    }, {
+        "id": "377",
+        "district": "Lembang"
+    }, {
+        "id": "378",
+        "district": "Ngamprah"
+    }, {
+        "id": "379",
+        "district": "Padalarang"
+    }, {
+        "id": "380",
+        "district": "Parongpong"
+    }, {
+        "id": "381",
+        "district": "Rongga"
+    }, {
+        "id": "382",
+        "district": "Saguling"
+    }, {
+        "id": "383",
+        "district": "Sindangkerta"
+    }]
+}

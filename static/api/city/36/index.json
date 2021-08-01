@@ -1,0 +1,25 @@
+{
+    "title": "36",
+    "id": "36",
+    "city": "Banjarmasin",
+    "type": "Kota",
+    "province_id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "504",
+        "district": "Banjarmasin Barat"
+    }, {
+        "id": "505",
+        "district": "Banjarmasin Selatan"
+    }, {
+        "id": "506",
+        "district": "Banjarmasin Tengah"
+    }, {
+        "id": "507",
+        "district": "Banjarmasin Timur"
+    }, {
+        "id": "508",
+        "district": "Banjarmasin Utara"
+    }]
+}

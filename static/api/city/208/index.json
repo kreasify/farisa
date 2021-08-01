@@ -1,0 +1,37 @@
+{
+    "title": "208",
+    "id": "208",
+    "city": "Kubu Raya",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "2912",
+        "district": "Batu Ampar"
+    }, {
+        "id": "2913",
+        "district": "Kuala Mandor-B"
+    }, {
+        "id": "2914",
+        "district": "Kubu"
+    }, {
+        "id": "2915",
+        "district": "Rasau Jaya"
+    }, {
+        "id": "2916",
+        "district": "Sei/Sungai Ambawang"
+    }, {
+        "id": "2917",
+        "district": "Sei/Sungai Kakap"
+    }, {
+        "id": "2918",
+        "district": "Sei/Sungai Raya"
+    }, {
+        "id": "2919",
+        "district": "Teluk/Telok Pakedai"
+    }, {
+        "id": "2920",
+        "district": "Terentang"
+    }]
+}

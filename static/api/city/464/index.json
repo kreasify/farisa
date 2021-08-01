@@ -1,0 +1,70 @@
+{
+    "title": "464",
+    "id": "464",
+    "city": "Tapanuli Tengah",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "6385",
+        "district": "Andam Dewi"
+    }, {
+        "id": "6386",
+        "district": "Badiri"
+    }, {
+        "id": "6387",
+        "district": "Barus"
+    }, {
+        "id": "6388",
+        "district": "Barus Utara"
+    }, {
+        "id": "6389",
+        "district": "Kolang"
+    }, {
+        "id": "6390",
+        "district": "Lumut"
+    }, {
+        "id": "6391",
+        "district": "Manduamas"
+    }, {
+        "id": "6392",
+        "district": "Pandan"
+    }, {
+        "id": "6393",
+        "district": "Pasaribu Tobing"
+    }, {
+        "id": "6394",
+        "district": "Pinangsori"
+    }, {
+        "id": "6395",
+        "district": "Sarudik"
+    }, {
+        "id": "6396",
+        "district": "Sibabangun"
+    }, {
+        "id": "6397",
+        "district": "Sirandorung"
+    }, {
+        "id": "6398",
+        "district": "Sitahuis"
+    }, {
+        "id": "6399",
+        "district": "Sorkam"
+    }, {
+        "id": "6400",
+        "district": "Sorkam Barat"
+    }, {
+        "id": "6401",
+        "district": "Sosor Gadong"
+    }, {
+        "id": "6402",
+        "district": "Suka Bangun"
+    }, {
+        "id": "6403",
+        "district": "Tapian Nauli"
+    }, {
+        "id": "6404",
+        "district": "Tukka"
+    }]
+}

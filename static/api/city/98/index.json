@@ -1,0 +1,43 @@
+{
+    "title": "98",
+    "id": "98",
+    "city": "Buol",
+    "type": "Kabupaten",
+    "province_id": "29",
+    "province": "Sulawesi Tengah",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "1325",
+        "district": "Biau"
+    }, {
+        "id": "1326",
+        "district": "Bokat"
+    }, {
+        "id": "1327",
+        "district": "Bukal"
+    }, {
+        "id": "1328",
+        "district": "Bunobogu"
+    }, {
+        "id": "1329",
+        "district": "Gadung"
+    }, {
+        "id": "1330",
+        "district": "Karamat"
+    }, {
+        "id": "1331",
+        "district": "Lakea (Lipunoto)"
+    }, {
+        "id": "1332",
+        "district": "Momunu"
+    }, {
+        "id": "1333",
+        "district": "Paleleh"
+    }, {
+        "id": "1334",
+        "district": "Paleleh Barat"
+    }, {
+        "id": "1335",
+        "district": "Tiloan"
+    }]
+}

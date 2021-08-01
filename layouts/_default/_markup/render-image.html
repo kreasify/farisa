@@ -1,0 +1,30 @@
+{{- $image := (.Page.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" (.Destination | safeURL)) }}
+{{- $small := $image.Resize "480x" }}
+{{- $medium := $image.Resize "768x" }}
+{{- $big := $image.Resize "1024x" }}
+{{- $alt := .PlainText | safeHTML }}
+{{- $caption := "" }}
+{{- with .Title }}
+{{- $caption = . | safeHTML }}
+{{- end }}
+
+{{- with $image }}
+<figure>
+  <a href="{{ $image.RelPermalink }}">
+    <img
+	  class="mx-auto"
+      sizes="100vw"
+      srcset="{{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w, {{ $big.RelPermalink }} 1024w"
+      src="{{ $image.RelPermalink }}"
+      width="{{ $image.Width }}"
+      height="{{ $image.Height }}"
+      alt="{{ if $alt }}{{ $alt }}{{ else if $caption }}{{ $caption | markdownify | plainify }}{{ else }}&nbsp;{{ end }}"
+      >
+  </a>
+  {{- with $caption }}
+    <figcaption class="text-center py-3 mb-4">{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>
+ {{- else }}
+    <p>Image not found</p>
+{{- end }}

@@ -1,0 +1,49 @@
+{
+    "title": "330",
+    "id": "330",
+    "city": "Pamekasan",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "13",
+    "data" : [{
+        "id": "4642",
+        "district": "Batumarmar"
+    }, {
+        "id": "4643",
+        "district": "Galis"
+    }, {
+        "id": "4644",
+        "district": "Kadur"
+    }, {
+        "id": "4645",
+        "district": "Larangan"
+    }, {
+        "id": "4646",
+        "district": "Pademawu"
+    }, {
+        "id": "4647",
+        "district": "Pakong"
+    }, {
+        "id": "4648",
+        "district": "Palenga'an"
+    }, {
+        "id": "4649",
+        "district": "Pamekasan"
+    }, {
+        "id": "4650",
+        "district": "Pasean"
+    }, {
+        "id": "4651",
+        "district": "Pegantenan"
+    }, {
+        "id": "4652",
+        "district": "Proppo"
+    }, {
+        "id": "4653",
+        "district": "Tlanakan"
+    }, {
+        "id": "4654",
+        "district": "Waru"
+    }]
+}

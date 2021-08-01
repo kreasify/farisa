@@ -1,0 +1,31 @@
+{
+    "title": "282",
+    "id": "282",
+    "city": "Mesuji",
+    "type": "Kabupaten",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "3982",
+        "district": "Mesuji"
+    }, {
+        "id": "3983",
+        "district": "Mesuji Timur"
+    }, {
+        "id": "3984",
+        "district": "Panca Jaya"
+    }, {
+        "id": "3985",
+        "district": "Rawa Jitu Utara"
+    }, {
+        "id": "3986",
+        "district": "Simpang Pematang"
+    }, {
+        "id": "3987",
+        "district": "Tanjung Raya"
+    }, {
+        "id": "3988",
+        "district": "Way Serdang"
+    }]
+}

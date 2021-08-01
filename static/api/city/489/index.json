@@ -1,0 +1,70 @@
+{
+    "title": "489",
+    "id": "489",
+    "city": "Tuban",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "6778",
+        "district": "Bancar"
+    }, {
+        "id": "6779",
+        "district": "Bangilan"
+    }, {
+        "id": "6780",
+        "district": "Grabagan"
+    }, {
+        "id": "6781",
+        "district": "Jatirogo"
+    }, {
+        "id": "6782",
+        "district": "Jenu"
+    }, {
+        "id": "6783",
+        "district": "Kenduruan"
+    }, {
+        "id": "6784",
+        "district": "Kerek"
+    }, {
+        "id": "6785",
+        "district": "Merakurak"
+    }, {
+        "id": "6786",
+        "district": "Montong"
+    }, {
+        "id": "6787",
+        "district": "Palang"
+    }, {
+        "id": "6788",
+        "district": "Parengan"
+    }, {
+        "id": "6789",
+        "district": "Plumpang"
+    }, {
+        "id": "6790",
+        "district": "Rengel"
+    }, {
+        "id": "6791",
+        "district": "Semanding"
+    }, {
+        "id": "6792",
+        "district": "Senori"
+    }, {
+        "id": "6793",
+        "district": "Singgahan"
+    }, {
+        "id": "6794",
+        "district": "Soko"
+    }, {
+        "id": "6795",
+        "district": "Tambakboyo"
+    }, {
+        "id": "6796",
+        "district": "Tuban"
+    }, {
+        "id": "6797",
+        "district": "Widang"
+    }]
+}

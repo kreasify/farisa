@@ -1,0 +1,46 @@
+{
+    "title": "123",
+    "id": "123",
+    "city": "Enrekang",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "1671",
+        "district": "Alla"
+    }, {
+        "id": "1672",
+        "district": "Anggeraja"
+    }, {
+        "id": "1673",
+        "district": "Baraka"
+    }, {
+        "id": "1674",
+        "district": "Baroko"
+    }, {
+        "id": "1675",
+        "district": "Bungin"
+    }, {
+        "id": "1676",
+        "district": "Buntu Batu"
+    }, {
+        "id": "1677",
+        "district": "Cendana"
+    }, {
+        "id": "1678",
+        "district": "Curio"
+    }, {
+        "id": "1679",
+        "district": "Enrekang"
+    }, {
+        "id": "1680",
+        "district": "Maiwa"
+    }, {
+        "id": "1681",
+        "district": "Malua"
+    }, {
+        "id": "1682",
+        "district": "Masalle"
+    }]
+}

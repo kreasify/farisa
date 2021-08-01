@@ -1,0 +1,31 @@
+{
+    "title": "184",
+    "id": "184",
+    "city": "Kepulauan Anambas",
+    "type": "Kabupaten",
+    "province_id": "17",
+    "province": "Kepulauan Riau",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "2571",
+        "district": "Jemaja"
+    }, {
+        "id": "2572",
+        "district": "Jemaja Timur"
+    }, {
+        "id": "2573",
+        "district": "Palmatak"
+    }, {
+        "id": "2574",
+        "district": "Siantan"
+    }, {
+        "id": "2575",
+        "district": "Siantan Selatan"
+    }, {
+        "id": "2576",
+        "district": "Siantan Tengah"
+    }, {
+        "id": "2577",
+        "district": "Siantan Timur"
+    }]
+}

@@ -1,0 +1,43 @@
+{
+    "title": "245",
+    "id": "245",
+    "city": "Luwu Timur",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "3470",
+        "district": "Angkona"
+    }, {
+        "id": "3471",
+        "district": "Burau"
+    }, {
+        "id": "3472",
+        "district": "Kalaena"
+    }, {
+        "id": "3473",
+        "district": "Malili"
+    }, {
+        "id": "3474",
+        "district": "Mangkutana"
+    }, {
+        "id": "3475",
+        "district": "Nuha"
+    }, {
+        "id": "3476",
+        "district": "Tomoni"
+    }, {
+        "id": "3477",
+        "district": "Tomoni Timur"
+    }, {
+        "id": "3478",
+        "district": "Towuti"
+    }, {
+        "id": "3479",
+        "district": "Wasuponda"
+    }, {
+        "id": "3480",
+        "district": "Wotu"
+    }]
+}

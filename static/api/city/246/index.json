@@ -1,0 +1,46 @@
+{
+    "title": "246",
+    "id": "246",
+    "city": "Luwu Utara",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "3481",
+        "district": "Baebunta"
+    }, {
+        "id": "3482",
+        "district": "Bone-Bone"
+    }, {
+        "id": "3483",
+        "district": "Limbong"
+    }, {
+        "id": "3484",
+        "district": "Malangke"
+    }, {
+        "id": "3485",
+        "district": "Malangke Barat"
+    }, {
+        "id": "3486",
+        "district": "Mappedeceng"
+    }, {
+        "id": "3487",
+        "district": "Masamba"
+    }, {
+        "id": "3488",
+        "district": "Rampi"
+    }, {
+        "id": "3489",
+        "district": "Sabbang"
+    }, {
+        "id": "3490",
+        "district": "Seko"
+    }, {
+        "id": "3491",
+        "district": "Sukamaju"
+    }, {
+        "id": "3492",
+        "district": "Tana Lili"
+    }]
+}

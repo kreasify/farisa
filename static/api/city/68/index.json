@@ -1,0 +1,64 @@
+{
+    "title": "68",
+    "id": "68",
+    "city": "Bima",
+    "type": "Kabupaten",
+    "province_id": "22",
+    "province": "Nusa Tenggara Barat (NTB)",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "911",
+        "district": "Ambalawi"
+    }, {
+        "id": "912",
+        "district": "Belo"
+    }, {
+        "id": "913",
+        "district": "Bolo"
+    }, {
+        "id": "914",
+        "district": "Donggo"
+    }, {
+        "id": "915",
+        "district": "Lambitu"
+    }, {
+        "id": "916",
+        "district": "Lambu"
+    }, {
+        "id": "917",
+        "district": "Langgudu"
+    }, {
+        "id": "918",
+        "district": "Madapangga"
+    }, {
+        "id": "919",
+        "district": "Monta"
+    }, {
+        "id": "920",
+        "district": "Palibelo"
+    }, {
+        "id": "921",
+        "district": "Parado"
+    }, {
+        "id": "922",
+        "district": "Sanggar"
+    }, {
+        "id": "923",
+        "district": "Sape"
+    }, {
+        "id": "924",
+        "district": "Soromandi"
+    }, {
+        "id": "925",
+        "district": "Tambora"
+    }, {
+        "id": "926",
+        "district": "Wawo"
+    }, {
+        "id": "927",
+        "district": "Wera"
+    }, {
+        "id": "928",
+        "district": "Woha"
+    }]
+}

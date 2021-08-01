@@ -1,0 +1,79 @@
+{
+    "title": "3",
+    "id": "3",
+    "city": "Aceh Besar",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "23",
+    "data" : [{
+        "id": "22",
+        "district": "Baitussalam"
+    }, {
+        "id": "23",
+        "district": "Blank Bintang"
+    }, {
+        "id": "24",
+        "district": "Darul Imarah"
+    }, {
+        "id": "25",
+        "district": "Darul Kamal"
+    }, {
+        "id": "26",
+        "district": "Darussalam"
+    }, {
+        "id": "27",
+        "district": "Indrapuri"
+    }, {
+        "id": "28",
+        "district": "Ingin Jaya"
+    }, {
+        "id": "29",
+        "district": "Kota Cot Glie (Kuta Cot Glie)"
+    }, {
+        "id": "30",
+        "district": "Kota Jantho"
+    }, {
+        "id": "31",
+        "district": "Kota Malaka (Kuta Malaka)"
+    }, {
+        "id": "32",
+        "district": "Krueng Barona Jaya"
+    }, {
+        "id": "33",
+        "district": "Kuta Baro"
+    }, {
+        "id": "34",
+        "district": "Lembah Seulawah"
+    }, {
+        "id": "35",
+        "district": "Leupung"
+    }, {
+        "id": "36",
+        "district": "Lhoknga (Lho'nga)"
+    }, {
+        "id": "37",
+        "district": "Lhoong"
+    }, {
+        "id": "38",
+        "district": "Mantasiek (Montasik)"
+    }, {
+        "id": "39",
+        "district": "Mesjid Raya"
+    }, {
+        "id": "40",
+        "district": "Peukan Bada"
+    }, {
+        "id": "41",
+        "district": "Pulo Aceh"
+    }, {
+        "id": "42",
+        "district": "Seulimeum"
+    }, {
+        "id": "43",
+        "district": "Simpang Tiga"
+    }, {
+        "id": "44",
+        "district": "Suka Makmur"
+    }]
+}

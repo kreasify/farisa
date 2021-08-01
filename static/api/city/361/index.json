@@ -1,0 +1,49 @@
+{
+    "title": "361",
+    "id": "361",
+    "city": "Pohuwato",
+    "type": "Kabupaten",
+    "province_id": "7",
+    "province": "Gorontalo",
+    "number_of_districts" : "13",
+    "data" : [{
+        "id": "5042",
+        "district": "Buntulia"
+    }, {
+        "id": "5043",
+        "district": "Dengilo"
+    }, {
+        "id": "5044",
+        "district": "Duhiadaa"
+    }, {
+        "id": "5045",
+        "district": "Lemito"
+    }, {
+        "id": "5046",
+        "district": "Marisa"
+    }, {
+        "id": "5047",
+        "district": "Paguat"
+    }, {
+        "id": "5048",
+        "district": "Patilanggio"
+    }, {
+        "id": "5049",
+        "district": "Popayato"
+    }, {
+        "id": "5050",
+        "district": "Popayato Barat"
+    }, {
+        "id": "5051",
+        "district": "Popayato Timur"
+    }, {
+        "id": "5052",
+        "district": "Randangan"
+    }, {
+        "id": "5053",
+        "district": "Taluditi (Taluduti)"
+    }, {
+        "id": "5054",
+        "district": "Wanggarasi"
+    }]
+}

@@ -1,0 +1,73 @@
+{
+    "title": "243",
+    "id": "243",
+    "city": "Lumajang",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "3427",
+        "district": "Candipuro"
+    }, {
+        "id": "3428",
+        "district": "Gucialit"
+    }, {
+        "id": "3429",
+        "district": "Jatiroto"
+    }, {
+        "id": "3430",
+        "district": "Kedungjajang"
+    }, {
+        "id": "3431",
+        "district": "Klakah"
+    }, {
+        "id": "3432",
+        "district": "Kunir"
+    }, {
+        "id": "3433",
+        "district": "Lumajang"
+    }, {
+        "id": "3434",
+        "district": "Padang"
+    }, {
+        "id": "3435",
+        "district": "Pasirian"
+    }, {
+        "id": "3436",
+        "district": "Pasrujambe/Pasujambe"
+    }, {
+        "id": "3437",
+        "district": "Pronojiwo"
+    }, {
+        "id": "3438",
+        "district": "Randuagung"
+    }, {
+        "id": "3439",
+        "district": "Ranuyoso"
+    }, {
+        "id": "3440",
+        "district": "Rowokangkung"
+    }, {
+        "id": "3441",
+        "district": "Senduro"
+    }, {
+        "id": "3442",
+        "district": "Sukodono"
+    }, {
+        "id": "3443",
+        "district": "Sumbersuko"
+    }, {
+        "id": "3444",
+        "district": "Tekung"
+    }, {
+        "id": "3445",
+        "district": "Tempeh"
+    }, {
+        "id": "3446",
+        "district": "Tempursari"
+    }, {
+        "id": "3447",
+        "district": "Yosowilangun"
+    }]
+}

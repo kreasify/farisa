@@ -1,0 +1,37 @@
+{
+    "title": "62",
+    "id": "62",
+    "city": "Bengkulu",
+    "type": "Kota",
+    "province_id": "4",
+    "province": "Bengkulu",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "832",
+        "district": "Gading Cempaka"
+    }, {
+        "id": "833",
+        "district": "Kampung Melayu"
+    }, {
+        "id": "834",
+        "district": "Muara Bangka Hulu"
+    }, {
+        "id": "835",
+        "district": "Ratu Agung"
+    }, {
+        "id": "836",
+        "district": "Ratu Samban"
+    }, {
+        "id": "837",
+        "district": "Selebar"
+    }, {
+        "id": "838",
+        "district": "Singaran Pati"
+    }, {
+        "id": "839",
+        "district": "Sungai Serut"
+    }, {
+        "id": "840",
+        "district": "Teluk Segara"
+    }]
+}

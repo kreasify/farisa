@@ -1,0 +1,28 @@
+{
+    "title": "79",
+    "id": "79",
+    "city": "Bogor",
+    "type": "Kota",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "1062",
+        "district": "Bogor Barat - Kota"
+    }, {
+        "id": "1063",
+        "district": "Bogor Selatan - Kota"
+    }, {
+        "id": "1064",
+        "district": "Bogor Tengah - Kota"
+    }, {
+        "id": "1065",
+        "district": "Bogor Timur - Kota"
+    }, {
+        "id": "1066",
+        "district": "Bogor Utara - Kota"
+    }, {
+        "id": "1067",
+        "district": "Tanah Sereal"
+    }]
+}

@@ -1,0 +1,43 @@
+{
+    "title": "127",
+    "id": "127",
+    "city": "Gayo Lues",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "1753",
+        "district": "Blang Jerango"
+    }, {
+        "id": "1754",
+        "district": "Blang Kejeren"
+    }, {
+        "id": "1755",
+        "district": "Blang Pegayon"
+    }, {
+        "id": "1756",
+        "district": "Dabun Gelang (Debun Gelang)"
+    }, {
+        "id": "1757",
+        "district": "Kuta Panjang"
+    }, {
+        "id": "1758",
+        "district": "Pantan Cuaca"
+    }, {
+        "id": "1759",
+        "district": "Pining (Pinding)"
+    }, {
+        "id": "1760",
+        "district": "Putri Betung"
+    }, {
+        "id": "1761",
+        "district": "Rikit Gaib"
+    }, {
+        "id": "1762",
+        "district": "Terangun (Terangon)"
+    }, {
+        "id": "1763",
+        "district": "Teripe/Tripe Jaya"
+    }]
+}

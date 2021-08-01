@@ -1,0 +1,43 @@
+{
+    "title": "400",
+    "id": "400",
+    "city": "Seram Bagian Barat",
+    "type": "Kabupaten",
+    "province_id": "19",
+    "province": "Maluku",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "5514",
+        "district": "Amalatu"
+    }, {
+        "id": "5515",
+        "district": "Elpaputih"
+    }, {
+        "id": "5516",
+        "district": "Huamual"
+    }, {
+        "id": "5517",
+        "district": "Huamual Belakang (Waisala)"
+    }, {
+        "id": "5518",
+        "district": "Inamosol"
+    }, {
+        "id": "5519",
+        "district": "Kairatu"
+    }, {
+        "id": "5520",
+        "district": "Kairatu Barat"
+    }, {
+        "id": "5521",
+        "district": "Kepulauan Manipa"
+    }, {
+        "id": "5522",
+        "district": "Seram Barat"
+    }, {
+        "id": "5523",
+        "district": "Taniwel"
+    }, {
+        "id": "5524",
+        "district": "Taniwel Timur"
+    }]
+}

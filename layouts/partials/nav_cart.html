@@ -1,0 +1,103 @@
+<div x-data="{ showCart: false }" class="nav__cart relative">
+    <button
+        class="nav__cart-button w-full h-full flex lg:justify-end items-center bg-transparent border-0 cursor-pointer hover:text-primary hover:border-primary focus:outline-none"
+        @click="showCart = !showCart">
+        <span
+            class="nav__cart-info w-8 h-8 flex items-center justify-center text-primary hover:text-secondary hover:border-primary">
+            {{ partial "svg/icon-shopping-cart.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
+        </span>
+        <span
+            class="nav__cart-qty w-6 h-6 absolute -top-2 -right-2 text-xs text-center text-white bg-primary flex items-center justify-center rounded-full lg:ml-3"
+            x-text="$store.shop.totalItem()"></span>
+    </button>
+    <div class="nav__cart-checkout hidden lg:block bg-gray-50 w-400px top-12 right-0 absolute box-border rounded-sm shadow-md z-50 py-3 px-2 after:empty-content after:absolute after:w-6 after:h-6 after:bg-gray-50 after:right-4 after:-top-3 after:transform after:rotate-45 after:z-40"
+        x-cloak 
+		x-show="showCart" 
+		x-transition:enter="transition ease-out duration-75"
+        x-transition:enter-start="opacity-0 transform scale-90" 
+		x-transition:enter-end="opacity-100 transform scale-100"
+        x-transition:leave="transition ease-in duration-75" 
+		x-transition:leave-start="opacity-100 transform scale-100"
+        x-transition:leave-end="opacity-0 transform scale-90">
+        <template x-if="$store.shop.totalItem() > 0">
+            <div class="cart w-full">
+                {{ partial "nav_cart_item.html" . }}
+                <div
+                    class="cart__subtotal text-right text-gray-700 border-0 border-t border-dashed border-gray-300 px-2 py-2 mt-2">
+                    <span>Subtotal: </span>
+                    <span x-text="$store.shop.localPrice($store.shop.subtotal())"></span>
+                </div>
+                <div class="cart__footer flex justify-between items-center py-2 px-3">
+                    <a class="cart__checkout text-sm text-white focus:outline-none no-underline uppercase bg-accent hover:bg-lightaccent py-1 px-3 rounded-sm"
+                        href="/checkout">Lanjut Checkout</a>
+                    <button
+                        class="cart__empty-btn text-xs text-gray-500 hover:text-red-400 uppercase focus:outline-none"
+                        @click="$store.shop.clearCarts(); $store.shop.save()">Clear Cart</button>
+                </div>
+            </div>
+        </template>
+        <template x-if="$store.shop.totalItem() < 1">
+            <div class="cart w-full text-center">
+                <p class="text-gray-600 mb-0">Keranjang masih kosong</p>
+            </div>
+        </template>
+    </div>
+    <div class="cart cart__popup-button lg:hidden w-full fixed bottom-0 right-0 bg-white transition-all duration-100 ease-in-out z-50"
+        x-cloak 
+        x-show="showCart" 
+		x-transition:enter="transition ease-out duration-200"
+        x-transition:enter-start="opacity-0 transform translate-y-12"
+        x-transition:enter-end="opacity-100 transform translate-y-0"
+        x-transition:leave="transition ease-in duration-200"
+        x-transition:leave-start="opacity-100 transform translate-y-0"
+        x-transition:leave-end="opacity-0 transform translate-y-12">
+        <div class="cart__header bg-primary hover:bg-secondary flex justify-between items-center text-white cursor-pointer py-1 px-6 mb-2 lg:hidden"
+            @click="showCart = !showCart">
+            <div class="flex items-center">
+                <span
+                    class="cart-checkout__circle w-6 h-6 text-sm text-gray-700 bg-white flex items-center justify-center rounded"
+                    x-text="$store.shop.totalItem()"></span>
+                <div class="ml-3">
+                    <span class="block text-xs">Keranjang</span>
+                    <span class="text-sm font-medium" x-text="$store.shop.localPrice($store.shop.subtotal())"></span>
+                </div>
+            </div>
+            <div class="cart-checkout__info cart-checkout--right">
+                {{ partial "svg/icon-shopping-bag.svg" (dict "class" "w-6 h-6 fill-current text-current") }}
+            </div>
+        </div>
+        <template x-if="$store.shop.totalItem() > 0">
+            <div class="px-3">
+              {{ partial "nav_cart_item.html" . }}
+            </div>
+        </template>
+        <div class="cart__info cart__footer flex justify-between items-center pt-2 pb-4 px-3">
+            <a class="flex-1 cart__item-btn text-sm text-white text-center bg-tertiery hover:bg-secondary py-1 px-3 rounded-sm mr-6"
+                href="/checkout">Lanjut Checkout <span class="cart__subtotal hidden lg:display"
+                    x-text="$store.shop.localPrice($store.shop.subtotal())"></span></a>
+            <button class="cart__item-btn text-xs uppercase text-gray-500 hover:text-red-400 focus:outline-none"
+                @click="clearCarts(); save()">Clear Cart</button>
+        </div>
+    </div>
+    <template x-if="$store.shop.totalItem() > 0">
+        <div
+            class="cart cart__popup-button lg:hidden w-full fixed bottom-0 right-0 transition-all duration-100 ease-in-out z-40 px-4 pb-4">
+            <div class="cart__header bg-primary hover:bg-secondary flex justify-between items-center text-white cursor-pointer py-1 px-6 rounded-md"
+                @click="showCart = !showCart">
+                <div class="flex items-center">
+                    <span
+                        class="cart-checkout__circle w-6 h-6 text-sm text-gray-700 bg-white flex items-center justify-center rounded"
+                        x-text="$store.shop.totalItem()">
+                    </span>
+                    <div class="ml-3">
+                        <span class="block text-xs">Keranjang</span>
+                        <span class="text-sm font-medium" x-text="$store.shop.localPrice($store.shop.subtotal())"></span>
+                    </div>
+                </div>
+                <div class="cart-checkout__info cart-checkout--right">
+                    {{ partial "svg/icon-shopping-bag.svg" (dict "class" "w-6 h-6 fill-current text-current") }}
+                </div>
+            </div>
+        </div>
+    </template>
+</div>

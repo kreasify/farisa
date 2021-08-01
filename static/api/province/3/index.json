@@ -1,0 +1,39 @@
+{
+    "title": "3",
+    "id": "3",
+    "province": "Banten",
+    "number_of_cities" : "8",
+    "data" : [{
+        "id": "106",
+        "city": "Cilegon",
+        "type": "Kota"
+    }, {
+        "id": "232",
+        "city": "Lebak",
+        "type": "Kabupaten"
+    }, {
+        "id": "331",
+        "city": "Pandeglang",
+        "type": "Kabupaten"
+    }, {
+        "id": "402",
+        "city": "Serang",
+        "type": "Kabupaten"
+    }, {
+        "id": "403",
+        "city": "Serang",
+        "type": "Kota"
+    }, {
+        "id": "455",
+        "city": "Tangerang",
+        "type": "Kabupaten"
+    }, {
+        "id": "456",
+        "city": "Tangerang",
+        "type": "Kota"
+    }, {
+        "id": "457",
+        "city": "Tangerang Selatan",
+        "type": "Kota"
+    }]
+}

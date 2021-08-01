@@ -1,0 +1,28 @@
+{
+    "title": "84",
+    "id": "84",
+    "city": "Bolaang Mongondow Utara",
+    "type": "Kabupaten",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "1121",
+        "district": "Bintauna"
+    }, {
+        "id": "1122",
+        "district": "Bolang Itang Barat"
+    }, {
+        "id": "1123",
+        "district": "Bolang Itang Timur"
+    }, {
+        "id": "1124",
+        "district": "Kaidipang"
+    }, {
+        "id": "1125",
+        "district": "Pinogaluman"
+    }, {
+        "id": "1126",
+        "district": "Sangkub"
+    }]
+}

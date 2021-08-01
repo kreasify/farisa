@@ -1,0 +1,67 @@
+{
+    "title": "134",
+    "id": "134",
+    "city": "Grobogan",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "1846",
+        "district": "Brati"
+    }, {
+        "id": "1847",
+        "district": "Gabus"
+    }, {
+        "id": "1848",
+        "district": "Geyer"
+    }, {
+        "id": "1849",
+        "district": "Godong"
+    }, {
+        "id": "1850",
+        "district": "Grobogan"
+    }, {
+        "id": "1851",
+        "district": "Gubug"
+    }, {
+        "id": "1852",
+        "district": "Karangrayung"
+    }, {
+        "id": "1853",
+        "district": "Kedungjati"
+    }, {
+        "id": "1854",
+        "district": "Klambu"
+    }, {
+        "id": "1855",
+        "district": "Kradenan"
+    }, {
+        "id": "1856",
+        "district": "Ngaringan"
+    }, {
+        "id": "1857",
+        "district": "Penawangan"
+    }, {
+        "id": "1858",
+        "district": "Pulokulon"
+    }, {
+        "id": "1859",
+        "district": "Purwodadi"
+    }, {
+        "id": "1860",
+        "district": "Tanggungharjo"
+    }, {
+        "id": "1861",
+        "district": "Tawangharjo"
+    }, {
+        "id": "1862",
+        "district": "Tegowanu"
+    }, {
+        "id": "1863",
+        "district": "Toroh"
+    }, {
+        "id": "1864",
+        "district": "Wirosari"
+    }]
+}

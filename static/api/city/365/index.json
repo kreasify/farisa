@@ -1,0 +1,28 @@
+{
+    "title": "365",
+    "id": "365",
+    "city": "Pontianak",
+    "type": "Kota",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "5101",
+        "district": "Pontianak Barat"
+    }, {
+        "id": "5102",
+        "district": "Pontianak Kota"
+    }, {
+        "id": "5103",
+        "district": "Pontianak Selatan"
+    }, {
+        "id": "5104",
+        "district": "Pontianak Tenggara"
+    }, {
+        "id": "5105",
+        "district": "Pontianak Timur"
+    }, {
+        "id": "5106",
+        "district": "Pontianak Utara"
+    }]
+}

@@ -1,0 +1,55 @@
+{
+    "title": "30",
+    "id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_cities" : "12",
+    "data" : [{
+        "id": "53",
+        "city": "Bau-Bau",
+        "type": "Kota"
+    }, {
+        "id": "85",
+        "city": "Bombana",
+        "type": "Kabupaten"
+    }, {
+        "id": "101",
+        "city": "Buton",
+        "type": "Kabupaten"
+    }, {
+        "id": "102",
+        "city": "Buton Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "182",
+        "city": "Kendari",
+        "type": "Kota"
+    }, {
+        "id": "198",
+        "city": "Kolaka",
+        "type": "Kabupaten"
+    }, {
+        "id": "199",
+        "city": "Kolaka Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "200",
+        "city": "Konawe",
+        "type": "Kabupaten"
+    }, {
+        "id": "201",
+        "city": "Konawe Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "202",
+        "city": "Konawe Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "295",
+        "city": "Muna",
+        "type": "Kabupaten"
+    }, {
+        "id": "494",
+        "city": "Wakatobi",
+        "type": "Kabupaten"
+    }]
+}

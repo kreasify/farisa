@@ -1,0 +1,34 @@
+{
+    "title": "325",
+    "id": "325",
+    "city": "Pakpak Bharat",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "4596",
+        "district": "Kerajaan"
+    }, {
+        "id": "4597",
+        "district": "Pagindar"
+    }, {
+        "id": "4598",
+        "district": "Pergetteng Getteng Sengkut"
+    }, {
+        "id": "4599",
+        "district": "Salak"
+    }, {
+        "id": "4600",
+        "district": "Siempat Rube"
+    }, {
+        "id": "4601",
+        "district": "Sitellu Tali Urang Jehe"
+    }, {
+        "id": "4602",
+        "district": "Sitellu Tali Urang Julu"
+    }, {
+        "id": "4603",
+        "district": "Tinada"
+    }]
+}

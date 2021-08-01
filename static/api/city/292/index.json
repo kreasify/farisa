@@ -1,0 +1,76 @@
+{
+    "title": "292",
+    "id": "292",
+    "city": "Muara Enim",
+    "type": "Kabupaten",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "22",
+    "data" : [{
+        "id": "4109",
+        "district": "Abab"
+    }, {
+        "id": "4110",
+        "district": "Benakat"
+    }, {
+        "id": "4111",
+        "district": "Gelumbang"
+    }, {
+        "id": "4112",
+        "district": "Gunung Megang"
+    }, {
+        "id": "4113",
+        "district": "Kelekar"
+    }, {
+        "id": "4114",
+        "district": "Lawang Kidul"
+    }, {
+        "id": "4115",
+        "district": "Lembak"
+    }, {
+        "id": "4116",
+        "district": "Lubai"
+    }, {
+        "id": "4117",
+        "district": "Muara Belida"
+    }, {
+        "id": "4118",
+        "district": "Muara Enim"
+    }, {
+        "id": "4119",
+        "district": "Penukal (Penukal Abab)"
+    }, {
+        "id": "4120",
+        "district": "Penukal Utara"
+    }, {
+        "id": "4121",
+        "district": "Rambang"
+    }, {
+        "id": "4122",
+        "district": "Rambang Dangku"
+    }, {
+        "id": "4123",
+        "district": "Semendo Darat Laut"
+    }, {
+        "id": "4124",
+        "district": "Semendo Darat Tengah"
+    }, {
+        "id": "4125",
+        "district": "Semendo Darat Ulu"
+    }, {
+        "id": "4126",
+        "district": "Sungai Rotan"
+    }, {
+        "id": "4127",
+        "district": "Talang Ubi"
+    }, {
+        "id": "4128",
+        "district": "Tanah Abang"
+    }, {
+        "id": "4129",
+        "district": "Tanjung Agung"
+    }, {
+        "id": "4130",
+        "district": "Ujan Mas"
+    }]
+}

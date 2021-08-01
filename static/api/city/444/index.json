@@ -1,0 +1,103 @@
+{
+    "title": "444",
+    "id": "444",
+    "city": "Surabaya",
+    "type": "Kota",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "31",
+    "data" : [{
+        "id": "6131",
+        "district": "Asemrowo"
+    }, {
+        "id": "6132",
+        "district": "Benowo"
+    }, {
+        "id": "6133",
+        "district": "Bubutan"
+    }, {
+        "id": "6134",
+        "district": "Bulak"
+    }, {
+        "id": "6135",
+        "district": "Dukuh Pakis"
+    }, {
+        "id": "6136",
+        "district": "Gayungan"
+    }, {
+        "id": "6137",
+        "district": "Genteng"
+    }, {
+        "id": "6138",
+        "district": "Gubeng"
+    }, {
+        "id": "6139",
+        "district": "Gununganyar"
+    }, {
+        "id": "6140",
+        "district": "Jambangan"
+    }, {
+        "id": "6141",
+        "district": "Karangpilang"
+    }, {
+        "id": "6142",
+        "district": "Kenjeran"
+    }, {
+        "id": "6143",
+        "district": "Krembangan"
+    }, {
+        "id": "6144",
+        "district": "Lakar Santri"
+    }, {
+        "id": "6145",
+        "district": "Mulyorejo"
+    }, {
+        "id": "6146",
+        "district": "Pabean Cantikan"
+    }, {
+        "id": "6147",
+        "district": "Pakal"
+    }, {
+        "id": "6148",
+        "district": "Rungkut"
+    }, {
+        "id": "6149",
+        "district": "Sambikerep"
+    }, {
+        "id": "6150",
+        "district": "Sawahan"
+    }, {
+        "id": "6151",
+        "district": "Semampir"
+    }, {
+        "id": "6152",
+        "district": "Simokerto"
+    }, {
+        "id": "6153",
+        "district": "Sukolilo"
+    }, {
+        "id": "6154",
+        "district": "Sukomanunggal"
+    }, {
+        "id": "6155",
+        "district": "Tambaksari"
+    }, {
+        "id": "6156",
+        "district": "Tandes"
+    }, {
+        "id": "6157",
+        "district": "Tegalsari"
+    }, {
+        "id": "6158",
+        "district": "Tenggilis Mejoyo"
+    }, {
+        "id": "6159",
+        "district": "Wiyung"
+    }, {
+        "id": "6160",
+        "district": "Wonocolo"
+    }, {
+        "id": "6161",
+        "district": "Wonokromo"
+    }]
+}

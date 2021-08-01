@@ -1,0 +1,82 @@
+{
+    "title": "10",
+    "id": "10",
+    "city": "Aceh Timur",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "125",
+        "district": "Banda Alam"
+    }, {
+        "id": "126",
+        "district": "Birem Bayeun"
+    }, {
+        "id": "127",
+        "district": "Darul Aman"
+    }, {
+        "id": "128",
+        "district": "Darul Falah"
+    }, {
+        "id": "129",
+        "district": "Darul Iksan (Ihsan)"
+    }, {
+        "id": "130",
+        "district": "Idi Rayeuk"
+    }, {
+        "id": "131",
+        "district": "Idi Timur"
+    }, {
+        "id": "132",
+        "district": "Idi Tunong"
+    }, {
+        "id": "133",
+        "district": "Indra Makmur"
+    }, {
+        "id": "134",
+        "district": "Julok"
+    }, {
+        "id": "135",
+        "district": "Madat"
+    }, {
+        "id": "136",
+        "district": "Nurussalam"
+    }, {
+        "id": "137",
+        "district": "Pante Bidari (Beudari)"
+    }, {
+        "id": "138",
+        "district": "Peudawa"
+    }, {
+        "id": "139",
+        "district": "Peunaron"
+    }, {
+        "id": "140",
+        "district": "Peureulak"
+    }, {
+        "id": "141",
+        "district": "Peureulak Barat"
+    }, {
+        "id": "142",
+        "district": "Peureulak Timur"
+    }, {
+        "id": "143",
+        "district": "Rantau Selamat"
+    }, {
+        "id": "144",
+        "district": "Ranto Peureulak"
+    }, {
+        "id": "145",
+        "district": "Serba Jadi"
+    }, {
+        "id": "146",
+        "district": "Simpang Jernih"
+    }, {
+        "id": "147",
+        "district": "Simpang Ulim"
+    }, {
+        "id": "148",
+        "district": "Sungai Raya"
+    }]
+}

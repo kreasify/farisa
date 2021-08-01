@@ -1,0 +1,61 @@
+{
+    "title": "376",
+    "id": "376",
+    "city": "Purwakarta",
+    "type": "Kabupaten",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "5217",
+        "district": "Babakancikao"
+    }, {
+        "id": "5218",
+        "district": "Bojong"
+    }, {
+        "id": "5219",
+        "district": "Bungursari"
+    }, {
+        "id": "5220",
+        "district": "Campaka"
+    }, {
+        "id": "5221",
+        "district": "Cibatu"
+    }, {
+        "id": "5222",
+        "district": "Darangdan"
+    }, {
+        "id": "5223",
+        "district": "Jatiluhur"
+    }, {
+        "id": "5224",
+        "district": "Kiarapedes"
+    }, {
+        "id": "5225",
+        "district": "Maniis"
+    }, {
+        "id": "5226",
+        "district": "Pasawahan"
+    }, {
+        "id": "5227",
+        "district": "Plered"
+    }, {
+        "id": "5228",
+        "district": "Pondoksalam"
+    }, {
+        "id": "5229",
+        "district": "Purwakarta"
+    }, {
+        "id": "5230",
+        "district": "Sukasari"
+    }, {
+        "id": "5231",
+        "district": "Sukatani"
+    }, {
+        "id": "5232",
+        "district": "Tegal Waru"
+    }, {
+        "id": "5233",
+        "district": "Wanayasa"
+    }]
+}

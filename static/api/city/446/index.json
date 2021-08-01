@@ -1,0 +1,46 @@
+{
+    "title": "446",
+    "id": "446",
+    "city": "Tabalong",
+    "type": "Kabupaten",
+    "province_id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "6167",
+        "district": "Banua Lawas"
+    }, {
+        "id": "6168",
+        "district": "Bintang Ara"
+    }, {
+        "id": "6169",
+        "district": "Haruai"
+    }, {
+        "id": "6170",
+        "district": "Jaro"
+    }, {
+        "id": "6171",
+        "district": "Kelua (Klua)"
+    }, {
+        "id": "6172",
+        "district": "Muara Harus"
+    }, {
+        "id": "6173",
+        "district": "Muara Uya"
+    }, {
+        "id": "6174",
+        "district": "Murung Pudak"
+    }, {
+        "id": "6175",
+        "district": "Pugaan"
+    }, {
+        "id": "6176",
+        "district": "Tanjung"
+    }, {
+        "id": "6177",
+        "district": "Tanta"
+    }, {
+        "id": "6178",
+        "district": "Upau"
+    }]
+}

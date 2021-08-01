@@ -1,0 +1,55 @@
+{
+    "title": "401",
+    "id": "401",
+    "city": "Seram Bagian Timur",
+    "type": "Kabupaten",
+    "province_id": "19",
+    "province": "Maluku",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "5525",
+        "district": "Bula"
+    }, {
+        "id": "5526",
+        "district": "Bula Barat"
+    }, {
+        "id": "5527",
+        "district": "Gorom Timur"
+    }, {
+        "id": "5528",
+        "district": "Kian Darat"
+    }, {
+        "id": "5529",
+        "district": "Kilmury"
+    }, {
+        "id": "5530",
+        "district": "Pulau Gorong (Gorom)"
+    }, {
+        "id": "5531",
+        "district": "Pulau Panjang"
+    }, {
+        "id": "5532",
+        "district": "Seram Timur"
+    }, {
+        "id": "5533",
+        "district": "Siritaun Wida Timur"
+    }, {
+        "id": "5534",
+        "district": "Siwalalat"
+    }, {
+        "id": "5535",
+        "district": "Teluk Waru"
+    }, {
+        "id": "5536",
+        "district": "Teor"
+    }, {
+        "id": "5537",
+        "district": "Tutuk Tolu"
+    }, {
+        "id": "5538",
+        "district": "Wakate"
+    }, {
+        "id": "5539",
+        "district": "Werinama"
+    }]
+}

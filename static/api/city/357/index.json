@@ -1,0 +1,55 @@
+{
+    "title": "357",
+    "id": "357",
+    "city": "Pesisir Selatan",
+    "type": "Kabupaten",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "4984",
+        "district": "Airpura"
+    }, {
+        "id": "4985",
+        "district": "Basa Ampek Balai Tapan"
+    }, {
+        "id": "4986",
+        "district": "Batang Kapas"
+    }, {
+        "id": "4987",
+        "district": "Bayang"
+    }, {
+        "id": "4988",
+        "district": "IV Jurai"
+    }, {
+        "id": "4989",
+        "district": "IV Nagari Bayang Utara"
+    }, {
+        "id": "4990",
+        "district": "Koto XI Tarusan"
+    }, {
+        "id": "4991",
+        "district": "Lengayang"
+    }, {
+        "id": "4992",
+        "district": "Linggo Sari Baganti"
+    }, {
+        "id": "4993",
+        "district": "Lunang"
+    }, {
+        "id": "4994",
+        "district": "Pancung Soal"
+    }, {
+        "id": "4995",
+        "district": "Ranah Ampek Hulu Tapan"
+    }, {
+        "id": "4996",
+        "district": "Ranah Pesisir"
+    }, {
+        "id": "4997",
+        "district": "Silaut"
+    }, {
+        "id": "4998",
+        "district": "Sutera"
+    }]
+}

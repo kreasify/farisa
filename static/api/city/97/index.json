@@ -1,0 +1,61 @@
+{
+    "title": "97",
+    "id": "97",
+    "city": "Bungo",
+    "type": "Kabupaten",
+    "province_id": "8",
+    "province": "Jambi",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "1308",
+        "district": "Bathin II Babeko"
+    }, {
+        "id": "1309",
+        "district": "Bathin II Pelayang"
+    }, {
+        "id": "1310",
+        "district": "Bathin III"
+    }, {
+        "id": "1311",
+        "district": "Bathin III Ulu"
+    }, {
+        "id": "1312",
+        "district": "Bungo Dani"
+    }, {
+        "id": "1313",
+        "district": "Jujuhan"
+    }, {
+        "id": "1314",
+        "district": "Jujuhan Ilir"
+    }, {
+        "id": "1315",
+        "district": "Limbur Lubuk Mengkuang"
+    }, {
+        "id": "1316",
+        "district": "Muko-Muko Batin VII"
+    }, {
+        "id": "1317",
+        "district": "Pasar Muara Bungo"
+    }, {
+        "id": "1318",
+        "district": "Pelepat"
+    }, {
+        "id": "1319",
+        "district": "Pelepat Ilir"
+    }, {
+        "id": "1320",
+        "district": "Rantau Pandan"
+    }, {
+        "id": "1321",
+        "district": "Rimbo Tengah"
+    }, {
+        "id": "1322",
+        "district": "Tanah Sepenggal"
+    }, {
+        "id": "1323",
+        "district": "Tanah Sepenggal Lintas"
+    }, {
+        "id": "1324",
+        "district": "Tanah Tumbuh"
+    }]
+}

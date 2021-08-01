@@ -1,0 +1,70 @@
+{
+    "title": "37",
+    "id": "37",
+    "city": "Banjarnegara",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "509",
+        "district": "Banjarmangu"
+    }, {
+        "id": "510",
+        "district": "Banjarnegara"
+    }, {
+        "id": "511",
+        "district": "Batur"
+    }, {
+        "id": "512",
+        "district": "Bawang"
+    }, {
+        "id": "513",
+        "district": "Kalibening"
+    }, {
+        "id": "514",
+        "district": "Karangkobar"
+    }, {
+        "id": "515",
+        "district": "Madukara"
+    }, {
+        "id": "516",
+        "district": "Mandiraja"
+    }, {
+        "id": "517",
+        "district": "Pagedongan"
+    }, {
+        "id": "518",
+        "district": "Pagentan"
+    }, {
+        "id": "519",
+        "district": "Pandanarum"
+    }, {
+        "id": "520",
+        "district": "Pejawaran"
+    }, {
+        "id": "521",
+        "district": "Punggelan"
+    }, {
+        "id": "522",
+        "district": "Purwonegoro"
+    }, {
+        "id": "523",
+        "district": "Purworejo Klampok"
+    }, {
+        "id": "524",
+        "district": "Rakit"
+    }, {
+        "id": "525",
+        "district": "Sigaluh"
+    }, {
+        "id": "526",
+        "district": "Susukan"
+    }, {
+        "id": "527",
+        "district": "Wanadadi (Wonodadi)"
+    }, {
+        "id": "528",
+        "district": "Wanayasa"
+    }]
+}

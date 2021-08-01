@@ -1,0 +1,40 @@
+{
+    "title": "387",
+    "id": "387",
+    "city": "Samarinda",
+    "type": "Kota",
+    "province_id": "15",
+    "province": "Kalimantan Timur",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "5356",
+        "district": "Loa Janan Ilir"
+    }, {
+        "id": "5357",
+        "district": "Palaran"
+    }, {
+        "id": "5358",
+        "district": "Samarinda Ilir"
+    }, {
+        "id": "5359",
+        "district": "Samarinda Kota"
+    }, {
+        "id": "5360",
+        "district": "Samarinda Seberang"
+    }, {
+        "id": "5361",
+        "district": "Samarinda Ulu"
+    }, {
+        "id": "5362",
+        "district": "Samarinda Utara"
+    }, {
+        "id": "5363",
+        "district": "Sambutan"
+    }, {
+        "id": "5364",
+        "district": "Sungai Kunjang"
+    }, {
+        "id": "5365",
+        "district": "Sungai Pinang"
+    }]
+}

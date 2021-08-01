@@ -1,0 +1,22 @@
+/* Site Footer
+/* ---------------------------------------------------------- */
+
+.widget__footer-menu {
+    .navbar__menu {
+        @apply list-none pl-0;
+    }
+
+    li {
+        @apply text-gray-50 leading-none hover:text-white mb-3;
+
+        a {
+            @apply hover:no-underline text-current capitalize;
+        }
+    }
+}
+
+.footer__copyright {
+    a {
+        @apply text-gray-100;
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "title": "276",
+    "id": "276",
+    "city": "Mataram",
+    "type": "Kota",
+    "province_id": "22",
+    "province": "Nusa Tenggara Barat (NTB)",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "3876",
+        "district": "Ampenan"
+    }, {
+        "id": "3877",
+        "district": "Cakranegara"
+    }, {
+        "id": "3878",
+        "district": "Mataram"
+    }, {
+        "id": "3879",
+        "district": "Sandubaya (Sandujaya)"
+    }, {
+        "id": "3880",
+        "district": "Sekarbela"
+    }, {
+        "id": "3881",
+        "district": "Selaparang (Selaprang)"
+    }]
+}

@@ -1,0 +1,52 @@
+{
+    "title": "275",
+    "id": "275",
+    "city": "Maros",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "3862",
+        "district": "Bantimurung"
+    }, {
+        "id": "3863",
+        "district": "Bontoa (Maros Utara)"
+    }, {
+        "id": "3864",
+        "district": "Camba"
+    }, {
+        "id": "3865",
+        "district": "Cenrana"
+    }, {
+        "id": "3866",
+        "district": "Lau"
+    }, {
+        "id": "3867",
+        "district": "Mallawa"
+    }, {
+        "id": "3868",
+        "district": "Mandai"
+    }, {
+        "id": "3869",
+        "district": "Maros Baru"
+    }, {
+        "id": "3870",
+        "district": "Marusu"
+    }, {
+        "id": "3871",
+        "district": "Moncongloe"
+    }, {
+        "id": "3872",
+        "district": "Simbang"
+    }, {
+        "id": "3873",
+        "district": "Tanralili"
+    }, {
+        "id": "3874",
+        "district": "Tompu Bulu"
+    }, {
+        "id": "3875",
+        "district": "Turikale"
+    }]
+}

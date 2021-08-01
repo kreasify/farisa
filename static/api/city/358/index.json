@@ -1,0 +1,79 @@
+{
+    "title": "358",
+    "id": "358",
+    "city": "Pidie",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "23",
+    "data" : [{
+        "id": "4999",
+        "district": "Batee"
+    }, {
+        "id": "5000",
+        "district": "Delima"
+    }, {
+        "id": "5001",
+        "district": "Geumpang"
+    }, {
+        "id": "5002",
+        "district": "Glumpang Baro"
+    }, {
+        "id": "5003",
+        "district": "Glumpang Tiga (Geulumpang Tiga)"
+    }, {
+        "id": "5004",
+        "district": "Grong Grong"
+    }, {
+        "id": "5005",
+        "district": "Indrajaya"
+    }, {
+        "id": "5006",
+        "district": "Kembang Tanjong (Tanjung)"
+    }, {
+        "id": "5007",
+        "district": "Keumala"
+    }, {
+        "id": "5008",
+        "district": "Kota Sigli"
+    }, {
+        "id": "5009",
+        "district": "Mane"
+    }, {
+        "id": "5010",
+        "district": "Mila"
+    }, {
+        "id": "5011",
+        "district": "Muara Tiga"
+    }, {
+        "id": "5012",
+        "district": "Mutiara"
+    }, {
+        "id": "5013",
+        "district": "Mutiara Timur"
+    }, {
+        "id": "5014",
+        "district": "Padang Tiji"
+    }, {
+        "id": "5015",
+        "district": "Peukan Baro"
+    }, {
+        "id": "5016",
+        "district": "Pidie"
+    }, {
+        "id": "5017",
+        "district": "Sakti"
+    }, {
+        "id": "5018",
+        "district": "Simpang Tiga"
+    }, {
+        "id": "5019",
+        "district": "Tangse"
+    }, {
+        "id": "5020",
+        "district": "Tiro/Truseb"
+    }, {
+        "id": "5021",
+        "district": "Titeue"
+    }]
+}

@@ -1,0 +1,34 @@
+{
+    "title": "152",
+    "id": "152",
+    "city": "Jakarta Pusat",
+    "type": "Kota",
+    "province_id": "6",
+    "province": "DKI Jakarta",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "2095",
+        "district": "Cempaka Putih"
+    }, {
+        "id": "2096",
+        "district": "Gambir"
+    }, {
+        "id": "2097",
+        "district": "Johar Baru"
+    }, {
+        "id": "2098",
+        "district": "Kemayoran"
+    }, {
+        "id": "2099",
+        "district": "Menteng"
+    }, {
+        "id": "2100",
+        "district": "Sawah Besar"
+    }, {
+        "id": "2101",
+        "district": "Senen"
+    }, {
+        "id": "2102",
+        "district": "Tanah Abang"
+    }]
+}

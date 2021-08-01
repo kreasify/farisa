@@ -1,0 +1,64 @@
+{
+    "title": "375",
+    "id": "375",
+    "city": "Purbalingga",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "5199",
+        "district": "Bobotsari"
+    }, {
+        "id": "5200",
+        "district": "Bojongsari"
+    }, {
+        "id": "5201",
+        "district": "Bukateja"
+    }, {
+        "id": "5202",
+        "district": "Kaligondang"
+    }, {
+        "id": "5203",
+        "district": "Kalimanah"
+    }, {
+        "id": "5204",
+        "district": "Karanganyar"
+    }, {
+        "id": "5205",
+        "district": "Karangjambu"
+    }, {
+        "id": "5206",
+        "district": "Karangmoncol"
+    }, {
+        "id": "5207",
+        "district": "Karangreja"
+    }, {
+        "id": "5208",
+        "district": "Kejobong"
+    }, {
+        "id": "5209",
+        "district": "Kemangkon"
+    }, {
+        "id": "5210",
+        "district": "Kertanegara"
+    }, {
+        "id": "5211",
+        "district": "Kutasari"
+    }, {
+        "id": "5212",
+        "district": "Mrebet"
+    }, {
+        "id": "5213",
+        "district": "Padamara"
+    }, {
+        "id": "5214",
+        "district": "Pengadegan"
+    }, {
+        "id": "5215",
+        "district": "Purbalingga"
+    }, {
+        "id": "5216",
+        "district": "Rembang"
+    }]
+}

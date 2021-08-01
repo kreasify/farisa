@@ -1,0 +1,22 @@
+{
+    "title": "343",
+    "id": "343",
+    "city": "Pasuruan",
+    "type": "Kota",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "4817",
+        "district": "Bugul Kidul"
+    }, {
+        "id": "4818",
+        "district": "Gadingrejo"
+    }, {
+        "id": "4819",
+        "district": "Panggungrejo"
+    }, {
+        "id": "4820",
+        "district": "Purworejo"
+    }]
+}

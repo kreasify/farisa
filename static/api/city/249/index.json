@@ -1,0 +1,73 @@
+{
+    "title": "249",
+    "id": "249",
+    "city": "Magelang",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "3511",
+        "district": "Bandongan"
+    }, {
+        "id": "3512",
+        "district": "Borobudur"
+    }, {
+        "id": "3513",
+        "district": "Candimulyo"
+    }, {
+        "id": "3514",
+        "district": "Dukun"
+    }, {
+        "id": "3515",
+        "district": "Grabag"
+    }, {
+        "id": "3516",
+        "district": "Kajoran"
+    }, {
+        "id": "3517",
+        "district": "Kaliangkrik"
+    }, {
+        "id": "3518",
+        "district": "Mertoyudan"
+    }, {
+        "id": "3519",
+        "district": "Mungkid"
+    }, {
+        "id": "3520",
+        "district": "Muntilan"
+    }, {
+        "id": "3521",
+        "district": "Ngablak"
+    }, {
+        "id": "3522",
+        "district": "Ngluwar"
+    }, {
+        "id": "3523",
+        "district": "Pakis"
+    }, {
+        "id": "3524",
+        "district": "Salam"
+    }, {
+        "id": "3525",
+        "district": "Salaman"
+    }, {
+        "id": "3526",
+        "district": "Sawangan"
+    }, {
+        "id": "3527",
+        "district": "Secang"
+    }, {
+        "id": "3528",
+        "district": "Srumbung"
+    }, {
+        "id": "3529",
+        "district": "Tegalrejo"
+    }, {
+        "id": "3530",
+        "district": "Tempuran"
+    }, {
+        "id": "3531",
+        "district": "Windusari"
+    }]
+}

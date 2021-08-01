@@ -1,0 +1,55 @@
+{
+    "title": "410",
+    "id": "410",
+    "city": "Sigi",
+    "type": "Kabupaten",
+    "province_id": "29",
+    "province": "Sulawesi Tengah",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "5649",
+        "district": "Dolo"
+    }, {
+        "id": "5650",
+        "district": "Dolo Barat"
+    }, {
+        "id": "5651",
+        "district": "Dolo Selatan"
+    }, {
+        "id": "5652",
+        "district": "Gumbasa"
+    }, {
+        "id": "5653",
+        "district": "Kinovaru"
+    }, {
+        "id": "5654",
+        "district": "Kulawi"
+    }, {
+        "id": "5655",
+        "district": "Kulawi Selatan"
+    }, {
+        "id": "5656",
+        "district": "Lindu"
+    }, {
+        "id": "5657",
+        "district": "Marawola"
+    }, {
+        "id": "5658",
+        "district": "Marawola Barat"
+    }, {
+        "id": "5659",
+        "district": "Nokilalaki"
+    }, {
+        "id": "5660",
+        "district": "Palolo"
+    }, {
+        "id": "5661",
+        "district": "Pipikoro"
+    }, {
+        "id": "5662",
+        "district": "Sigi Biromaru"
+    }, {
+        "id": "5663",
+        "district": "Tanambulava"
+    }]
+}

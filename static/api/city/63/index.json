@@ -1,0 +1,43 @@
+{
+    "title": "63",
+    "id": "63",
+    "city": "Bengkulu Selatan",
+    "type": "Kabupaten",
+    "province_id": "4",
+    "province": "Bengkulu",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "841",
+        "district": "Air Nipis"
+    }, {
+        "id": "842",
+        "district": "Bunga Mas"
+    }, {
+        "id": "843",
+        "district": "Kedurang"
+    }, {
+        "id": "844",
+        "district": "Kedurang Ilir"
+    }, {
+        "id": "845",
+        "district": "Kota Manna"
+    }, {
+        "id": "846",
+        "district": "Manna"
+    }, {
+        "id": "847",
+        "district": "Pasar Manna"
+    }, {
+        "id": "848",
+        "district": "Pino"
+    }, {
+        "id": "849",
+        "district": "Pinoraya"
+    }, {
+        "id": "850",
+        "district": "Seginim"
+    }, {
+        "id": "851",
+        "district": "Ulu Manna"
+    }]
+}

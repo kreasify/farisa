@@ -1,0 +1,70 @@
+{
+    "title": "21",
+    "id": "21",
+    "city": "Bandar Lampung",
+    "type": "Kota",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "287",
+        "district": "Bumi Waras"
+    }, {
+        "id": "288",
+        "district": "Enggal"
+    }, {
+        "id": "289",
+        "district": "Kedamaian"
+    }, {
+        "id": "290",
+        "district": "Kedaton"
+    }, {
+        "id": "291",
+        "district": "Kemiling"
+    }, {
+        "id": "292",
+        "district": "Labuhan Ratu"
+    }, {
+        "id": "293",
+        "district": "Langkapura"
+    }, {
+        "id": "294",
+        "district": "Panjang"
+    }, {
+        "id": "295",
+        "district": "Rajabasa"
+    }, {
+        "id": "296",
+        "district": "Sukabumi"
+    }, {
+        "id": "297",
+        "district": "Sukarame"
+    }, {
+        "id": "298",
+        "district": "Tanjung Karang Barat"
+    }, {
+        "id": "299",
+        "district": "Tanjung Karang Pusat"
+    }, {
+        "id": "300",
+        "district": "Tanjung Karang Timur"
+    }, {
+        "id": "301",
+        "district": "Tanjung Senang"
+    }, {
+        "id": "302",
+        "district": "Telukbetung Barat"
+    }, {
+        "id": "303",
+        "district": "Telukbetung Selatan"
+    }, {
+        "id": "304",
+        "district": "Telukbetung Timur"
+    }, {
+        "id": "305",
+        "district": "Telukbetung Utara"
+    }, {
+        "id": "306",
+        "district": "Way Halim"
+    }]
+}

@@ -1,0 +1,28 @@
+{
+    "title": "425",
+    "id": "425",
+    "city": "Sorong",
+    "type": "Kota",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "5844",
+        "district": "Sorong"
+    }, {
+        "id": "5845",
+        "district": "Sorong Barat"
+    }, {
+        "id": "5846",
+        "district": "Sorong Kepulauan"
+    }, {
+        "id": "5847",
+        "district": "Sorong Manoi"
+    }, {
+        "id": "5848",
+        "district": "Sorong Timur"
+    }, {
+        "id": "5849",
+        "district": "Sorong Utara"
+    }]
+}

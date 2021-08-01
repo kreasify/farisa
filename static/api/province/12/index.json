@@ -1,0 +1,63 @@
+{
+    "title": "12",
+    "id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_cities" : "14",
+    "data" : [{
+        "id": "61",
+        "city": "Bengkayang",
+        "type": "Kabupaten"
+    }, {
+        "id": "168",
+        "city": "Kapuas Hulu",
+        "type": "Kabupaten"
+    }, {
+        "id": "176",
+        "city": "Kayong Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "195",
+        "city": "Ketapang",
+        "type": "Kabupaten"
+    }, {
+        "id": "208",
+        "city": "Kubu Raya",
+        "type": "Kabupaten"
+    }, {
+        "id": "228",
+        "city": "Landak",
+        "type": "Kabupaten"
+    }, {
+        "id": "279",
+        "city": "Melawi",
+        "type": "Kabupaten"
+    }, {
+        "id": "364",
+        "city": "Pontianak",
+        "type": "Kabupaten"
+    }, {
+        "id": "365",
+        "city": "Pontianak",
+        "type": "Kota"
+    }, {
+        "id": "388",
+        "city": "Sambas",
+        "type": "Kabupaten"
+    }, {
+        "id": "391",
+        "city": "Sanggau",
+        "type": "Kabupaten"
+    }, {
+        "id": "395",
+        "city": "Sekadau",
+        "type": "Kabupaten"
+    }, {
+        "id": "415",
+        "city": "Singkawang",
+        "type": "Kota"
+    }, {
+        "id": "417",
+        "city": "Sintang",
+        "type": "Kabupaten"
+    }]
+}

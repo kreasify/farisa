@@ -1,0 +1,61 @@
+{
+    "title": "65",
+    "id": "65",
+    "city": "Bengkulu Utara",
+    "type": "Kabupaten",
+    "province_id": "4",
+    "province": "Bengkulu",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "862",
+        "district": "Air Besi"
+    }, {
+        "id": "863",
+        "district": "Air Napal"
+    }, {
+        "id": "864",
+        "district": "Air Padang"
+    }, {
+        "id": "865",
+        "district": "Arga Makmur"
+    }, {
+        "id": "866",
+        "district": "Arma Jaya"
+    }, {
+        "id": "867",
+        "district": "Batik Nau"
+    }, {
+        "id": "868",
+        "district": "Enggano"
+    }, {
+        "id": "869",
+        "district": "Giri Mulia"
+    }, {
+        "id": "870",
+        "district": "Hulu Palik"
+    }, {
+        "id": "871",
+        "district": "Kerkap"
+    }, {
+        "id": "872",
+        "district": "Ketahun"
+    }, {
+        "id": "873",
+        "district": "Lais"
+    }, {
+        "id": "874",
+        "district": "Napal Putih"
+    }, {
+        "id": "875",
+        "district": "Padang Jaya"
+    }, {
+        "id": "876",
+        "district": "Putri Hijau"
+    }, {
+        "id": "877",
+        "district": "Tanjung Agung Palik"
+    }, {
+        "id": "878",
+        "district": "Ulok Kupai"
+    }]
+}

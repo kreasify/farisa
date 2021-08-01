@@ -1,0 +1,28 @@
+{
+    "title": "102",
+    "id": "102",
+    "city": "Buton Utara",
+    "type": "Kabupaten",
+    "province_id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "1373",
+        "district": "Bonegunu"
+    }, {
+        "id": "1374",
+        "district": "Kambowa"
+    }, {
+        "id": "1375",
+        "district": "Kulisusu (Kalingsusu/Kalisusu)"
+    }, {
+        "id": "1376",
+        "district": "Kulisusu Barat"
+    }, {
+        "id": "1377",
+        "district": "Kulisusu Utara"
+    }, {
+        "id": "1378",
+        "district": "Wakorumba Utara"
+    }]
+}

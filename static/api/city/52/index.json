@@ -1,0 +1,31 @@
+{
+    "title": "52",
+    "id": "52",
+    "city": "Batu Bara",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "711",
+        "district": "Air Putih"
+    }, {
+        "id": "712",
+        "district": "Limapuluh"
+    }, {
+        "id": "713",
+        "district": "Medang Deras"
+    }, {
+        "id": "714",
+        "district": "Sei Balai"
+    }, {
+        "id": "715",
+        "district": "Sei Suka"
+    }, {
+        "id": "716",
+        "district": "Talawi"
+    }, {
+        "id": "717",
+        "district": "Tanjung Tiram"
+    }]
+}

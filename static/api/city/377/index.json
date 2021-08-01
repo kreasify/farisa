@@ -1,0 +1,58 @@
+{
+    "title": "377",
+    "id": "377",
+    "city": "Purworejo",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "5234",
+        "district": "Bagelen"
+    }, {
+        "id": "5235",
+        "district": "Banyuurip"
+    }, {
+        "id": "5236",
+        "district": "Bayan"
+    }, {
+        "id": "5237",
+        "district": "Bener"
+    }, {
+        "id": "5238",
+        "district": "Bruno"
+    }, {
+        "id": "5239",
+        "district": "Butuh"
+    }, {
+        "id": "5240",
+        "district": "Gebang"
+    }, {
+        "id": "5241",
+        "district": "Grabag"
+    }, {
+        "id": "5242",
+        "district": "Kaligesing"
+    }, {
+        "id": "5243",
+        "district": "Kemiri"
+    }, {
+        "id": "5244",
+        "district": "Kutoarjo"
+    }, {
+        "id": "5245",
+        "district": "Loano"
+    }, {
+        "id": "5246",
+        "district": "Ngombol"
+    }, {
+        "id": "5247",
+        "district": "Pituruh"
+    }, {
+        "id": "5248",
+        "district": "Purwodadi"
+    }, {
+        "id": "5249",
+        "district": "Purworejo"
+    }]
+}

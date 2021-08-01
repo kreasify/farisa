@@ -1,0 +1,34 @@
+{
+    "title": "106",
+    "id": "106",
+    "city": "Cilegon",
+    "type": "Kota",
+    "province_id": "3",
+    "province": "Banten",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "1461",
+        "district": "Cibeber"
+    }, {
+        "id": "1462",
+        "district": "Cilegon"
+    }, {
+        "id": "1463",
+        "district": "Citangkil"
+    }, {
+        "id": "1464",
+        "district": "Ciwandan"
+    }, {
+        "id": "1465",
+        "district": "Gerogol"
+    }, {
+        "id": "1466",
+        "district": "Jombang"
+    }, {
+        "id": "1467",
+        "district": "Pulomerak"
+    }, {
+        "id": "1468",
+        "district": "Purwakarta"
+    }]
+}

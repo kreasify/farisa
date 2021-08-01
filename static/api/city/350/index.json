@@ -1,0 +1,46 @@
+{
+    "title": "350",
+    "id": "350",
+    "city": "Pekanbaru",
+    "type": "Kota",
+    "province_id": "26",
+    "province": "Riau",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "4914",
+        "district": "Bukit Raya"
+    }, {
+        "id": "4915",
+        "district": "Lima Puluh"
+    }, {
+        "id": "4916",
+        "district": "Marpoyan Damai"
+    }, {
+        "id": "4917",
+        "district": "Payung Sekaki"
+    }, {
+        "id": "4918",
+        "district": "Pekanbaru Kota"
+    }, {
+        "id": "4919",
+        "district": "Rumbai"
+    }, {
+        "id": "4920",
+        "district": "Rumbai Pesisir"
+    }, {
+        "id": "4921",
+        "district": "Sail"
+    }, {
+        "id": "4922",
+        "district": "Senapelan"
+    }, {
+        "id": "4923",
+        "district": "Sukajadi"
+    }, {
+        "id": "4924",
+        "district": "Tampan"
+    }, {
+        "id": "4925",
+        "district": "Tenayan Raya"
+    }]
+}

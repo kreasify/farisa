@@ -1,0 +1,28 @@
+{
+    "title": "28",
+    "id": "28",
+    "city": "Bangka Barat",
+    "type": "Kabupaten",
+    "province_id": "2",
+    "province": "Bangka Belitung",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "434",
+        "district": "Jebus"
+    }, {
+        "id": "435",
+        "district": "Kelapa"
+    }, {
+        "id": "436",
+        "district": "Mentok (Muntok)"
+    }, {
+        "id": "437",
+        "district": "Parittiga"
+    }, {
+        "id": "438",
+        "district": "Simpang Teritip"
+    }, {
+        "id": "439",
+        "district": "Tempilang"
+    }]
+}

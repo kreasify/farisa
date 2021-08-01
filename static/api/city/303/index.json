@@ -1,0 +1,106 @@
+{
+    "title": "303",
+    "id": "303",
+    "city": "Nduga",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "32",
+    "data" : [{
+        "id": "4279",
+        "district": "Alama"
+    }, {
+        "id": "4280",
+        "district": "Dal"
+    }, {
+        "id": "4281",
+        "district": "Embetpen"
+    }, {
+        "id": "4282",
+        "district": "Gearek"
+    }, {
+        "id": "4283",
+        "district": "Geselma (Geselema)"
+    }, {
+        "id": "4284",
+        "district": "Inikgal"
+    }, {
+        "id": "4285",
+        "district": "Iniye"
+    }, {
+        "id": "4286",
+        "district": "Kegayem"
+    }, {
+        "id": "4287",
+        "district": "Kenyam"
+    }, {
+        "id": "4288",
+        "district": "Kilmid"
+    }, {
+        "id": "4289",
+        "district": "Kora"
+    }, {
+        "id": "4290",
+        "district": "Koroptak"
+    }, {
+        "id": "4291",
+        "district": "Krepkuri"
+    }, {
+        "id": "4292",
+        "district": "Mam"
+    }, {
+        "id": "4293",
+        "district": "Mapenduma"
+    }, {
+        "id": "4294",
+        "district": "Mbua (Mbuga)"
+    }, {
+        "id": "4295",
+        "district": "Mbua Tengah"
+    }, {
+        "id": "4296",
+        "district": "Mbulmu Yalma"
+    }, {
+        "id": "4297",
+        "district": "Mebarok"
+    }, {
+        "id": "4298",
+        "district": "Moba"
+    }, {
+        "id": "4299",
+        "district": "Mugi"
+    }, {
+        "id": "4300",
+        "district": "Nenggeagin"
+    }, {
+        "id": "4301",
+        "district": "Nirkuri"
+    }, {
+        "id": "4302",
+        "district": "Paro"
+    }, {
+        "id": "4303",
+        "district": "Pasir Putih"
+    }, {
+        "id": "4304",
+        "district": "Pija"
+    }, {
+        "id": "4305",
+        "district": "Wosak"
+    }, {
+        "id": "4306",
+        "district": "Wusi"
+    }, {
+        "id": "4307",
+        "district": "Wutpaga"
+    }, {
+        "id": "4308",
+        "district": "Yal"
+    }, {
+        "id": "4309",
+        "district": "Yenggelo"
+    }, {
+        "id": "4310",
+        "district": "Yigi"
+    }]
+}

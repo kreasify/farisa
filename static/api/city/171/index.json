@@ -1,0 +1,100 @@
+{
+    "title": "171",
+    "id": "171",
+    "city": "Karawang",
+    "type": "Kabupaten",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "30",
+    "data" : [{
+        "id": "2378",
+        "district": "Banyusari"
+    }, {
+        "id": "2379",
+        "district": "Batujaya"
+    }, {
+        "id": "2380",
+        "district": "Ciampel"
+    }, {
+        "id": "2381",
+        "district": "Cibuaya"
+    }, {
+        "id": "2382",
+        "district": "Cikampek"
+    }, {
+        "id": "2383",
+        "district": "Cilamaya Kulon"
+    }, {
+        "id": "2384",
+        "district": "Cilamaya Wetan"
+    }, {
+        "id": "2385",
+        "district": "Cilebar"
+    }, {
+        "id": "2386",
+        "district": "Jatisari"
+    }, {
+        "id": "2387",
+        "district": "Jayakerta"
+    }, {
+        "id": "2388",
+        "district": "Karawang Barat"
+    }, {
+        "id": "2389",
+        "district": "Karawang Timur"
+    }, {
+        "id": "2390",
+        "district": "Klari"
+    }, {
+        "id": "2391",
+        "district": "Kotabaru"
+    }, {
+        "id": "2392",
+        "district": "Kutawaluya"
+    }, {
+        "id": "2393",
+        "district": "Lemahabang"
+    }, {
+        "id": "2394",
+        "district": "Majalaya"
+    }, {
+        "id": "2395",
+        "district": "Pakisjaya"
+    }, {
+        "id": "2396",
+        "district": "Pangkalan"
+    }, {
+        "id": "2397",
+        "district": "Pedes"
+    }, {
+        "id": "2398",
+        "district": "Purwasari"
+    }, {
+        "id": "2399",
+        "district": "Rawamerta"
+    }, {
+        "id": "2400",
+        "district": "Rengasdengklok"
+    }, {
+        "id": "2401",
+        "district": "Talagasari"
+    }, {
+        "id": "2402",
+        "district": "Tegalwaru"
+    }, {
+        "id": "2403",
+        "district": "Telukjambe Barat"
+    }, {
+        "id": "2404",
+        "district": "Telukjambe Timur"
+    }, {
+        "id": "2405",
+        "district": "Tempuran"
+    }, {
+        "id": "2406",
+        "district": "Tirtajaya"
+    }, {
+        "id": "2407",
+        "district": "Tirtamulya"
+    }]
+}

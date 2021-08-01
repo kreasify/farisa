@@ -1,0 +1,61 @@
+{
+    "title": "206",
+    "id": "206",
+    "city": "Kotawaringin Timur",
+    "type": "Kabupaten",
+    "province_id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "2880",
+        "district": "Antang Kalang"
+    }, {
+        "id": "2881",
+        "district": "Baamang"
+    }, {
+        "id": "2882",
+        "district": "Bukit Santuei"
+    }, {
+        "id": "2883",
+        "district": "Cempaga"
+    }, {
+        "id": "2884",
+        "district": "Cempaga Hulu"
+    }, {
+        "id": "2885",
+        "district": "Kota Besi"
+    }, {
+        "id": "2886",
+        "district": "Mentawa Baru (Ketapang)"
+    }, {
+        "id": "2887",
+        "district": "Mentaya Hilir Selatan"
+    }, {
+        "id": "2888",
+        "district": "Mentaya Hilir Utara"
+    }, {
+        "id": "2889",
+        "district": "Mentaya Hulu"
+    }, {
+        "id": "2890",
+        "district": "Parenggean"
+    }, {
+        "id": "2891",
+        "district": "Pulau Hanaut"
+    }, {
+        "id": "2892",
+        "district": "Seranau"
+    }, {
+        "id": "2893",
+        "district": "Telaga Antang"
+    }, {
+        "id": "2894",
+        "district": "Telawang"
+    }, {
+        "id": "2895",
+        "district": "Teluk Sampit"
+    }, {
+        "id": "2896",
+        "district": "Tualan Hulu"
+    }]
+}

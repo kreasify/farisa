@@ -1,0 +1,25 @@
+{
+    "title": "256",
+    "id": "256",
+    "city": "Malang",
+    "type": "Kota",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "3634",
+        "district": "Blimbing"
+    }, {
+        "id": "3635",
+        "district": "Kedungkandang"
+    }, {
+        "id": "3636",
+        "district": "Klojen"
+    }, {
+        "id": "3637",
+        "district": "Lowokwaru"
+    }, {
+        "id": "3638",
+        "district": "Sukun"
+    }]
+}

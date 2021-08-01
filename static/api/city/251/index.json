@@ -1,0 +1,64 @@
+{
+    "title": "251",
+    "id": "251",
+    "city": "Magetan",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "3535",
+        "district": "Barat"
+    }, {
+        "id": "3536",
+        "district": "Bendo"
+    }, {
+        "id": "3537",
+        "district": "Karangrejo"
+    }, {
+        "id": "3538",
+        "district": "Karas"
+    }, {
+        "id": "3539",
+        "district": "Kartoharjo (Kertoharjo)"
+    }, {
+        "id": "3540",
+        "district": "Kawedanan"
+    }, {
+        "id": "3541",
+        "district": "Lembeyan"
+    }, {
+        "id": "3542",
+        "district": "Magetan"
+    }, {
+        "id": "3543",
+        "district": "Maospati"
+    }, {
+        "id": "3544",
+        "district": "Ngariboyo"
+    }, {
+        "id": "3545",
+        "district": "Nguntoronadi"
+    }, {
+        "id": "3546",
+        "district": "Panekan"
+    }, {
+        "id": "3547",
+        "district": "Parang"
+    }, {
+        "id": "3548",
+        "district": "Plaosan"
+    }, {
+        "id": "3549",
+        "district": "Poncol"
+    }, {
+        "id": "3550",
+        "district": "Sidorejo"
+    }, {
+        "id": "3551",
+        "district": "Sukomoro"
+    }, {
+        "id": "3552",
+        "district": "Takeran"
+    }]
+}

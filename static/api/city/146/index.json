@@ -1,0 +1,40 @@
+{
+    "title": "146",
+    "id": "146",
+    "city": "Humbang Hasundutan",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "2006",
+        "district": "Bakti Raja"
+    }, {
+        "id": "2007",
+        "district": "Dolok Sanggul"
+    }, {
+        "id": "2008",
+        "district": "Lintong Nihuta"
+    }, {
+        "id": "2009",
+        "district": "Onan Ganjang"
+    }, {
+        "id": "2010",
+        "district": "Pakkat"
+    }, {
+        "id": "2011",
+        "district": "Paranginan"
+    }, {
+        "id": "2012",
+        "district": "Parlilitan"
+    }, {
+        "id": "2013",
+        "district": "Pollung"
+    }, {
+        "id": "2014",
+        "district": "Sijama Polang"
+    }, {
+        "id": "2015",
+        "district": "Tara Bintang"
+    }]
+}

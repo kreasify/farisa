@@ -1,0 +1,19 @@
+{
+    "title": "75",
+    "id": "75",
+    "city": "Blitar",
+    "type": "Kota",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "3",
+    "data" : [{
+        "id": "996",
+        "district": "Kepanjen Kidul"
+    }, {
+        "id": "997",
+        "district": "Sanan Wetan"
+    }, {
+        "id": "998",
+        "district": "Sukorejo"
+    }]
+}

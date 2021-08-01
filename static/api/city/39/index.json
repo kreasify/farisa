@@ -1,0 +1,61 @@
+{
+    "title": "39",
+    "id": "39",
+    "city": "Bantul",
+    "type": "Kabupaten",
+    "province_id": "5",
+    "province": "DI Yogyakarta",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "537",
+        "district": "Bambang Lipuro"
+    }, {
+        "id": "538",
+        "district": "Banguntapan"
+    }, {
+        "id": "539",
+        "district": "Bantul"
+    }, {
+        "id": "540",
+        "district": "Dlingo"
+    }, {
+        "id": "541",
+        "district": "Imogiri"
+    }, {
+        "id": "542",
+        "district": "Jetis"
+    }, {
+        "id": "543",
+        "district": "Kasihan"
+    }, {
+        "id": "544",
+        "district": "Kretek"
+    }, {
+        "id": "545",
+        "district": "Pajangan"
+    }, {
+        "id": "546",
+        "district": "Pandak"
+    }, {
+        "id": "547",
+        "district": "Piyungan"
+    }, {
+        "id": "548",
+        "district": "Pleret"
+    }, {
+        "id": "549",
+        "district": "Pundong"
+    }, {
+        "id": "550",
+        "district": "Sanden"
+    }, {
+        "id": "551",
+        "district": "Sedayu"
+    }, {
+        "id": "552",
+        "district": "Sewon"
+    }, {
+        "id": "553",
+        "district": "Srandakan"
+    }]
+}

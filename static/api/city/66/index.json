@@ -1,0 +1,49 @@
+{
+    "title": "66",
+    "id": "66",
+    "city": "Berau",
+    "type": "Kabupaten",
+    "province_id": "15",
+    "province": "Kalimantan Timur",
+    "number_of_districts" : "13",
+    "data" : [{
+        "id": "879",
+        "district": "Batu Putih"
+    }, {
+        "id": "880",
+        "district": "Biatan"
+    }, {
+        "id": "881",
+        "district": "Biduk-Biduk"
+    }, {
+        "id": "882",
+        "district": "Derawan (Pulau Derawan)"
+    }, {
+        "id": "883",
+        "district": "Gunung Tabur"
+    }, {
+        "id": "884",
+        "district": "Kelay"
+    }, {
+        "id": "885",
+        "district": "Maratua"
+    }, {
+        "id": "886",
+        "district": "Sambaliung"
+    }, {
+        "id": "887",
+        "district": "Segah"
+    }, {
+        "id": "888",
+        "district": "Tabalar"
+    }, {
+        "id": "889",
+        "district": "Talisayan"
+    }, {
+        "id": "890",
+        "district": "Tanjung Redeb"
+    }, {
+        "id": "891",
+        "district": "Teluk Bayur"
+    }]
+}

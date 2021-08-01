@@ -1,0 +1,73 @@
+{
+    "title": "278",
+    "id": "278",
+    "city": "Medan",
+    "type": "Kota",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "3906",
+        "district": "Medan Amplas"
+    }, {
+        "id": "3907",
+        "district": "Medan Area"
+    }, {
+        "id": "3908",
+        "district": "Medan Barat"
+    }, {
+        "id": "3909",
+        "district": "Medan Baru"
+    }, {
+        "id": "3910",
+        "district": "Medan Belawan Kota"
+    }, {
+        "id": "3911",
+        "district": "Medan Deli"
+    }, {
+        "id": "3912",
+        "district": "Medan Denai"
+    }, {
+        "id": "3913",
+        "district": "Medan Helvetia"
+    }, {
+        "id": "3914",
+        "district": "Medan Johor"
+    }, {
+        "id": "3915",
+        "district": "Medan Kota"
+    }, {
+        "id": "3916",
+        "district": "Medan Labuhan"
+    }, {
+        "id": "3917",
+        "district": "Medan Maimun"
+    }, {
+        "id": "3918",
+        "district": "Medan Marelan"
+    }, {
+        "id": "3919",
+        "district": "Medan Perjuangan"
+    }, {
+        "id": "3920",
+        "district": "Medan Petisah"
+    }, {
+        "id": "3921",
+        "district": "Medan Polonia"
+    }, {
+        "id": "3922",
+        "district": "Medan Selayang"
+    }, {
+        "id": "3923",
+        "district": "Medan Sunggal"
+    }, {
+        "id": "3924",
+        "district": "Medan Tembung"
+    }, {
+        "id": "3925",
+        "district": "Medan Timur"
+    }, {
+        "id": "3926",
+        "district": "Medan Tuntungan"
+    }]
+}

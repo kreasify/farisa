@@ -1,0 +1,67 @@
+{
+    "title": "191",
+    "id": "191",
+    "city": "Kepulauan Sula",
+    "type": "Kabupaten",
+    "province_id": "20",
+    "province": "Maluku Utara",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "2634",
+        "district": "Lede"
+    }, {
+        "id": "2635",
+        "district": "Mangoli Barat"
+    }, {
+        "id": "2636",
+        "district": "Mangoli Selatan"
+    }, {
+        "id": "2637",
+        "district": "Mangoli Tengah"
+    }, {
+        "id": "2638",
+        "district": "Mangoli Timur"
+    }, {
+        "id": "2639",
+        "district": "Mangoli Utara"
+    }, {
+        "id": "2640",
+        "district": "Mangoli Utara Timur"
+    }, {
+        "id": "2641",
+        "district": "Sanana"
+    }, {
+        "id": "2642",
+        "district": "Sanana Utara"
+    }, {
+        "id": "2643",
+        "district": "Sulabesi Barat"
+    }, {
+        "id": "2644",
+        "district": "Sulabesi Selatan"
+    }, {
+        "id": "2645",
+        "district": "Sulabesi Tengah"
+    }, {
+        "id": "2646",
+        "district": "Sulabesi Timur"
+    }, {
+        "id": "2647",
+        "district": "Taliabu Barat"
+    }, {
+        "id": "2648",
+        "district": "Taliabu Barat Laut"
+    }, {
+        "id": "2649",
+        "district": "Taliabu Selatan"
+    }, {
+        "id": "2650",
+        "district": "Taliabu Timur"
+    }, {
+        "id": "2651",
+        "district": "Taliabu Timur Selatan"
+    }, {
+        "id": "2652",
+        "district": "Taliabu Utara"
+    }]
+}

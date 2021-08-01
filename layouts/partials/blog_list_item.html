@@ -1,0 +1,21 @@
+{{- $site := .Site }}
+<div
+    class="feed-item col-span-12 lg:col-span-4 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 rounded-sm shadow-sm">
+    <div class="feed-item__image relative bg-body-secondary">
+        <a class="feed-item__link" href="{{ .RelPermalink }}">
+            {{- if .Params.thumbnail }}
+            {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "aspect" "aspect-w-3 aspect-h-2" "aspect_w" "3" "aspect_h" "2" "resized" "381x q100 webp" }}
+            {{ partial "image.html" $include_dict }}
+            {{- end }}
+        </a>
+    </div>
+    <div class="feed-item__info py-4 px-3">
+        <div class="feed_item__published mb-2">
+            <time
+                class="feed__published text-sm text-body-text-secondary">{{- with .Params.dateFormat }}{{ .Date.Format . }}{{ else }}{{ .Date.Format "02 January 2006" }}{{ end }}</time>
+        </div>
+        <a class="feed-item__link" href="{{ .RelPermalink }}">
+            <h3 class="feed-item__title text-sm lg:text-base text-header-text font-heading font-medium mb-1">{{ .Title }}</h3>
+        </a>
+    </div>
+</div>

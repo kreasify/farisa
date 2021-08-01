@@ -1,0 +1,58 @@
+{
+    "title": "12",
+    "id": "12",
+    "city": "Agam",
+    "type": "Kabupaten",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "176",
+        "district": "Ampek Nagari (IV Nagari )"
+    }, {
+        "id": "177",
+        "district": "Banuhampu"
+    }, {
+        "id": "178",
+        "district": "Baso"
+    }, {
+        "id": "179",
+        "district": "Candung"
+    }, {
+        "id": "180",
+        "district": "IV Angkat Candung (Ampek Angkek)"
+    }, {
+        "id": "181",
+        "district": "IV Koto (Ampek Koto)"
+    }, {
+        "id": "182",
+        "district": "Kamang Magek"
+    }, {
+        "id": "183",
+        "district": "Lubuk Basung"
+    }, {
+        "id": "184",
+        "district": "Malakak"
+    }, {
+        "id": "185",
+        "district": "Matur"
+    }, {
+        "id": "186",
+        "district": "Palembayan"
+    }, {
+        "id": "187",
+        "district": "Palupuh"
+    }, {
+        "id": "188",
+        "district": "Sungai Pua (Puar)"
+    }, {
+        "id": "189",
+        "district": "Tanjung Mutiara"
+    }, {
+        "id": "190",
+        "district": "Tanjung Raya"
+    }, {
+        "id": "191",
+        "district": "Tilatang Kamang"
+    }]
+}

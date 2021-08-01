@@ -1,0 +1,20 @@
+{{- $categories := .Site.Taxonomies.categories }}
+{{- if gt (len $categories) 0 }}
+<section class="widget__category lg:pl-3">
+    <header class=" mb-6">
+        <h3 class="capitalize font-body  mb-0">Categories</h3>
+    </header>
+	<ul class="widget__list list-none pl-0">
+		{{- range $name, $taxonomy := $categories }}
+		{{- with $.Site.GetPage (printf "/categories/%s" $name) }}
+		<li class="mb-2">
+			<a class="text-gray-600" href="{{ .RelPermalink }}" title="{{ .Title }}">{{- .Title -}}</a>
+			{{- if .Site.Params.sidebar.is_categories_counter }}
+			<span class="text-sm text-gray-400">({{- $taxonomy.Count -}})</span>
+			{{- end }}
+		</li>
+		{{- end }}
+		{{- end }}
+	</ul>
+</section>
+{{- end }}

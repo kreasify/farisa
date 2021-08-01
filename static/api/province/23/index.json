@@ -1,0 +1,91 @@
+{
+    "title": "23",
+    "id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_cities" : "21",
+    "data" : [{
+        "id": "13",
+        "city": "Alor",
+        "type": "Kabupaten"
+    }, {
+        "id": "58",
+        "city": "Belu",
+        "type": "Kabupaten"
+    }, {
+        "id": "122",
+        "city": "Ende",
+        "type": "Kabupaten"
+    }, {
+        "id": "125",
+        "city": "Flores Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "212",
+        "city": "Kupang",
+        "type": "Kabupaten"
+    }, {
+        "id": "213",
+        "city": "Kupang",
+        "type": "Kota"
+    }, {
+        "id": "234",
+        "city": "Lembata",
+        "type": "Kabupaten"
+    }, {
+        "id": "269",
+        "city": "Manggarai",
+        "type": "Kabupaten"
+    }, {
+        "id": "270",
+        "city": "Manggarai Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "271",
+        "city": "Manggarai Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "301",
+        "city": "Nagekeo",
+        "type": "Kabupaten"
+    }, {
+        "id": "304",
+        "city": "Ngada",
+        "type": "Kabupaten"
+    }, {
+        "id": "383",
+        "city": "Rote Ndao",
+        "type": "Kabupaten"
+    }, {
+        "id": "385",
+        "city": "Sabu Raijua",
+        "type": "Kabupaten"
+    }, {
+        "id": "412",
+        "city": "Sikka",
+        "type": "Kabupaten"
+    }, {
+        "id": "434",
+        "city": "Sumba Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "435",
+        "city": "Sumba Barat Daya",
+        "type": "Kabupaten"
+    }, {
+        "id": "436",
+        "city": "Sumba Tengah",
+        "type": "Kabupaten"
+    }, {
+        "id": "437",
+        "city": "Sumba Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "479",
+        "city": "Timor Tengah Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "480",
+        "city": "Timor Tengah Utara",
+        "type": "Kabupaten"
+    }]
+}

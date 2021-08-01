@@ -1,0 +1,31 @@
+{
+    "title": "57",
+    "id": "57",
+    "city": "Belitung Timur",
+    "type": "Kabupaten",
+    "province_id": "2",
+    "province": "Bangka Belitung",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "766",
+        "district": "Damar"
+    }, {
+        "id": "767",
+        "district": "Dendang"
+    }, {
+        "id": "768",
+        "district": "Gantung"
+    }, {
+        "id": "769",
+        "district": "Kelapa Kampit"
+    }, {
+        "id": "770",
+        "district": "Manggar"
+    }, {
+        "id": "771",
+        "district": "Simpang Pesak"
+    }, {
+        "id": "772",
+        "district": "Simpang Renggiang"
+    }]
+}

@@ -1,0 +1,83 @@
+{
+    "title": "32",
+    "id": "32",
+    "province": "Sumatera Barat",
+    "number_of_cities" : "19",
+    "data" : [{
+        "id": "12",
+        "city": "Agam",
+        "type": "Kabupaten"
+    }, {
+        "id": "93",
+        "city": "Bukittinggi",
+        "type": "Kota"
+    }, {
+        "id": "116",
+        "city": "Dharmasraya",
+        "type": "Kabupaten"
+    }, {
+        "id": "186",
+        "city": "Kepulauan Mentawai",
+        "type": "Kabupaten"
+    }, {
+        "id": "236",
+        "city": "Lima Puluh Koto/Kota",
+        "type": "Kabupaten"
+    }, {
+        "id": "318",
+        "city": "Padang",
+        "type": "Kota"
+    }, {
+        "id": "321",
+        "city": "Padang Panjang",
+        "type": "Kota"
+    }, {
+        "id": "322",
+        "city": "Padang Pariaman",
+        "type": "Kabupaten"
+    }, {
+        "id": "337",
+        "city": "Pariaman",
+        "type": "Kota"
+    }, {
+        "id": "339",
+        "city": "Pasaman",
+        "type": "Kabupaten"
+    }, {
+        "id": "340",
+        "city": "Pasaman Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "345",
+        "city": "Payakumbuh",
+        "type": "Kota"
+    }, {
+        "id": "357",
+        "city": "Pesisir Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "394",
+        "city": "Sawah Lunto",
+        "type": "Kota"
+    }, {
+        "id": "411",
+        "city": "Sijunjung (Sawah Lunto Sijunjung)",
+        "type": "Kabupaten"
+    }, {
+        "id": "420",
+        "city": "Solok",
+        "type": "Kabupaten"
+    }, {
+        "id": "421",
+        "city": "Solok",
+        "type": "Kota"
+    }, {
+        "id": "422",
+        "city": "Solok Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "453",
+        "city": "Tanah Datar",
+        "type": "Kabupaten"
+    }]
+}

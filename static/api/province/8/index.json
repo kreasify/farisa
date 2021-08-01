@@ -1,0 +1,51 @@
+{
+    "title": "8",
+    "id": "8",
+    "province": "Jambi",
+    "number_of_cities" : "11",
+    "data" : [{
+        "id": "50",
+        "city": "Batang Hari",
+        "type": "Kabupaten"
+    }, {
+        "id": "97",
+        "city": "Bungo",
+        "type": "Kabupaten"
+    }, {
+        "id": "156",
+        "city": "Jambi",
+        "type": "Kota"
+    }, {
+        "id": "194",
+        "city": "Kerinci",
+        "type": "Kabupaten"
+    }, {
+        "id": "280",
+        "city": "Merangin",
+        "type": "Kabupaten"
+    }, {
+        "id": "293",
+        "city": "Muaro Jambi",
+        "type": "Kabupaten"
+    }, {
+        "id": "393",
+        "city": "Sarolangun",
+        "type": "Kabupaten"
+    }, {
+        "id": "442",
+        "city": "Sungaipenuh",
+        "type": "Kota"
+    }, {
+        "id": "460",
+        "city": "Tanjung Jabung Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "461",
+        "city": "Tanjung Jabung Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "471",
+        "city": "Tebo",
+        "type": "Kabupaten"
+    }]
+}

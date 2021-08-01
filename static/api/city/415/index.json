@@ -1,0 +1,25 @@
+{
+    "title": "415",
+    "id": "415",
+    "city": "Singkawang",
+    "type": "Kota",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "5734",
+        "district": "Singkawang Barat"
+    }, {
+        "id": "5735",
+        "district": "Singkawang Selatan"
+    }, {
+        "id": "5736",
+        "district": "Singkawang Tengah"
+    }, {
+        "id": "5737",
+        "district": "Singkawang Timur"
+    }, {
+        "id": "5738",
+        "district": "Singkawang Utara"
+    }]
+}

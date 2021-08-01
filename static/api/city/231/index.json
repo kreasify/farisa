@@ -1,0 +1,40 @@
+{
+    "title": "231",
+    "id": "231",
+    "city": "Lanny Jaya",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "3288",
+        "district": "Balingga"
+    }, {
+        "id": "3289",
+        "district": "Dimba"
+    }, {
+        "id": "3290",
+        "district": "Gamelia"
+    }, {
+        "id": "3291",
+        "district": "Kuyawage"
+    }, {
+        "id": "3292",
+        "district": "Makki (Maki)"
+    }, {
+        "id": "3293",
+        "district": "Malagaineri (Malagineri)"
+    }, {
+        "id": "3294",
+        "district": "Pirime"
+    }, {
+        "id": "3295",
+        "district": "Poga"
+    }, {
+        "id": "3296",
+        "district": "Tiom"
+    }, {
+        "id": "3297",
+        "district": "Tiomneri"
+    }]
+}

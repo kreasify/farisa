@@ -1,0 +1,28 @@
+{
+    "title": "100",
+    "id": "100",
+    "city": "Buru Selatan",
+    "type": "Kabupaten",
+    "province_id": "19",
+    "province": "Maluku",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "1346",
+        "district": "Ambalau"
+    }, {
+        "id": "1347",
+        "district": "Fena Fafan"
+    }, {
+        "id": "1348",
+        "district": "Kepala Madan"
+    }, {
+        "id": "1349",
+        "district": "Leksula"
+    }, {
+        "id": "1350",
+        "district": "Namrole"
+    }, {
+        "id": "1351",
+        "district": "Waesama"
+    }]
+}

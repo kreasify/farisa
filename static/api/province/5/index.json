@@ -1,0 +1,27 @@
+{
+    "title": "5",
+    "id": "5",
+    "province": "DI Yogyakarta",
+    "number_of_cities" : "5",
+    "data" : [{
+        "id": "39",
+        "city": "Bantul",
+        "type": "Kabupaten"
+    }, {
+        "id": "135",
+        "city": "Gunung Kidul",
+        "type": "Kabupaten"
+    }, {
+        "id": "210",
+        "city": "Kulon Progo",
+        "type": "Kabupaten"
+    }, {
+        "id": "419",
+        "city": "Sleman",
+        "type": "Kabupaten"
+    }, {
+        "id": "501",
+        "city": "Yogyakarta",
+        "type": "Kota"
+    }]
+}

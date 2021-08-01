@@ -1,0 +1,100 @@
+{
+    "title": "200",
+    "id": "200",
+    "city": "Konawe",
+    "type": "Kabupaten",
+    "province_id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_districts" : "30",
+    "data" : [{
+        "id": "2787",
+        "district": "Abuki"
+    }, {
+        "id": "2788",
+        "district": "Amonggedo"
+    }, {
+        "id": "2789",
+        "district": "Anggaberi"
+    }, {
+        "id": "2790",
+        "district": "Asinua"
+    }, {
+        "id": "2791",
+        "district": "Besulutu"
+    }, {
+        "id": "2792",
+        "district": "Bondoala"
+    }, {
+        "id": "2793",
+        "district": "Kapoiala (Kapoyala)"
+    }, {
+        "id": "2794",
+        "district": "Konawe"
+    }, {
+        "id": "2795",
+        "district": "Lalonggasumeeto"
+    }, {
+        "id": "2796",
+        "district": "Lambuya"
+    }, {
+        "id": "2797",
+        "district": "Latoma"
+    }, {
+        "id": "2798",
+        "district": "Meluhu"
+    }, {
+        "id": "2799",
+        "district": "Onembute"
+    }, {
+        "id": "2800",
+        "district": "Pondidaha"
+    }, {
+        "id": "2801",
+        "district": "Puriala"
+    }, {
+        "id": "2802",
+        "district": "Routa"
+    }, {
+        "id": "2803",
+        "district": "Sampara"
+    }, {
+        "id": "2804",
+        "district": "Soropia"
+    }, {
+        "id": "2805",
+        "district": "Tongauna"
+    }, {
+        "id": "2806",
+        "district": "Uepai (Uwepai)"
+    }, {
+        "id": "2807",
+        "district": "Unaaha"
+    }, {
+        "id": "2808",
+        "district": "Wawonii Barat"
+    }, {
+        "id": "2809",
+        "district": "Wawonii Selatan"
+    }, {
+        "id": "2810",
+        "district": "Wawonii Tengah"
+    }, {
+        "id": "2811",
+        "district": "Wawonii Tenggara"
+    }, {
+        "id": "2812",
+        "district": "Wawonii Timur"
+    }, {
+        "id": "2813",
+        "district": "Wawonii Timur Laut"
+    }, {
+        "id": "2814",
+        "district": "Wawonii Utara"
+    }, {
+        "id": "2815",
+        "district": "Wawotobi"
+    }, {
+        "id": "2816",
+        "district": "Wonggeduku"
+    }]
+}

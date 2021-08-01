@@ -1,0 +1,55 @@
+{
+    "title": "391",
+    "id": "391",
+    "city": "Sanggau",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "5408",
+        "district": "Balai"
+    }, {
+        "id": "5409",
+        "district": "Beduai (Beduwai)"
+    }, {
+        "id": "5410",
+        "district": "Bonti"
+    }, {
+        "id": "5411",
+        "district": "Entikong"
+    }, {
+        "id": "5412",
+        "district": "Jangkang"
+    }, {
+        "id": "5413",
+        "district": "Kapuas (Sanggau Kapuas)"
+    }, {
+        "id": "5414",
+        "district": "Kembayan"
+    }, {
+        "id": "5415",
+        "district": "Meliau"
+    }, {
+        "id": "5416",
+        "district": "Mukok"
+    }, {
+        "id": "5417",
+        "district": "Noyan"
+    }, {
+        "id": "5418",
+        "district": "Parindu"
+    }, {
+        "id": "5419",
+        "district": "Sekayam"
+    }, {
+        "id": "5420",
+        "district": "Tayan Hilir"
+    }, {
+        "id": "5421",
+        "district": "Tayan Hulu"
+    }, {
+        "id": "5422",
+        "district": "Toba"
+    }]
+}

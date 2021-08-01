@@ -1,0 +1,31 @@
+{
+    "title": "7",
+    "id": "7",
+    "province": "Gorontalo",
+    "number_of_cities" : "6",
+    "data" : [{
+        "id": "77",
+        "city": "Boalemo",
+        "type": "Kabupaten"
+    }, {
+        "id": "88",
+        "city": "Bone Bolango",
+        "type": "Kabupaten"
+    }, {
+        "id": "129",
+        "city": "Gorontalo",
+        "type": "Kabupaten"
+    }, {
+        "id": "130",
+        "city": "Gorontalo",
+        "type": "Kota"
+    }, {
+        "id": "131",
+        "city": "Gorontalo Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "361",
+        "city": "Pohuwato",
+        "type": "Kabupaten"
+    }]
+}

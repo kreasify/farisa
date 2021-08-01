@@ -1,0 +1,41 @@
+{{ $section := .section }}
+<div class="widget widget_section">
+  <div class="contact text-sm text-gray-700">
+    {{ if $section.phone }}
+    <div class="flex items-center mb-2">
+      <span
+        class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
+        {{ partial "svg/icon-telephone.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
+      </span>
+      <p class="text-gray-50 mb-0">WhatsApp • {{ string $section.phone }}</p>
+    </div>
+    {{ end }}
+    {{ if $section.whatsapp }}
+    <div class="flex items-center mb-2">
+      <span
+        class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
+        {{ partial "svg/icon-whatsapp-lite.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
+      </span>
+      <p class="text-gray-50 mb-0">WhatsApp • {{ string $section.whatsapp }}</p>
+    </div>
+    {{ end }}
+    {{ if $section.email }}
+    <div class="flex items-center mb-2">
+      <span
+        class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
+        {{ partial "svg/icon-message.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
+      </span>
+      <p class="text-gray-50 mb-0">Email • {{ $section.email }}</p>
+    </div>
+    {{ end }}
+    {{ if $section.address }}
+    <div class="flex items-center mb-2">
+      <span
+        class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
+        {{ partial "svg/icon-pin.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
+      </span>
+      <p class="text-gray-50 mb-0">{{ $section.address }}</p>
+    </div>
+    {{ end }}
+  </div>
+</div>

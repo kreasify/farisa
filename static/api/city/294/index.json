@@ -1,0 +1,55 @@
+{
+    "title": "294",
+    "id": "294",
+    "city": "Muko Muko",
+    "type": "Kabupaten",
+    "province_id": "4",
+    "province": "Bengkulu",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "4142",
+        "district": "Air Dikit"
+    }, {
+        "id": "4143",
+        "district": "Air Majunto"
+    }, {
+        "id": "4144",
+        "district": "Air Rami"
+    }, {
+        "id": "4145",
+        "district": "Ipuh (Muko-Muko Selatan)"
+    }, {
+        "id": "4146",
+        "district": "Kota Mukomuko (Mukomuko Utara)"
+    }, {
+        "id": "4147",
+        "district": "Lubuk Pinang"
+    }, {
+        "id": "4148",
+        "district": "Malin Deman"
+    }, {
+        "id": "4149",
+        "district": "Penarik"
+    }, {
+        "id": "4150",
+        "district": "Pondok Suguh"
+    }, {
+        "id": "4151",
+        "district": "Selagan Raya"
+    }, {
+        "id": "4152",
+        "district": "Sungai Rumbai"
+    }, {
+        "id": "4153",
+        "district": "Teramang Jaya"
+    }, {
+        "id": "4154",
+        "district": "Teras Terunjam"
+    }, {
+        "id": "4155",
+        "district": "V Koto"
+    }, {
+        "id": "4156",
+        "district": "XIV Koto"
+    }]
+}

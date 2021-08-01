@@ -1,0 +1,40 @@
+{
+    "title": "392",
+    "id": "392",
+    "city": "Sarmi",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "5423",
+        "district": "Apawer Hulu"
+    }, {
+        "id": "5424",
+        "district": "Bonggo"
+    }, {
+        "id": "5425",
+        "district": "Bonggo Timur"
+    }, {
+        "id": "5426",
+        "district": "Pantai Barat"
+    }, {
+        "id": "5427",
+        "district": "Pantai Timur"
+    }, {
+        "id": "5428",
+        "district": "Pantai Timur Barat"
+    }, {
+        "id": "5429",
+        "district": "Sarmi"
+    }, {
+        "id": "5430",
+        "district": "Sarmi Selatan"
+    }, {
+        "id": "5431",
+        "district": "Sarmi Timur"
+    }, {
+        "id": "5432",
+        "district": "Tor Atas"
+    }]
+}

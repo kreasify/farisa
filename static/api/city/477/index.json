@@ -1,0 +1,31 @@
+{
+    "title": "477",
+    "id": "477",
+    "city": "Ternate",
+    "type": "Kota",
+    "province_id": "20",
+    "province": "Maluku Utara",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "6581",
+        "district": "Moti (Pulau Moti)"
+    }, {
+        "id": "6582",
+        "district": "Pulau Batang Dua"
+    }, {
+        "id": "6583",
+        "district": "Pulau Hiri"
+    }, {
+        "id": "6584",
+        "district": "Pulau Ternate"
+    }, {
+        "id": "6585",
+        "district": "Ternate Selatan (Kota)"
+    }, {
+        "id": "6586",
+        "district": "Ternate Tengah (Kota)"
+    }, {
+        "id": "6587",
+        "district": "Ternate Utara (Kota)"
+    }]
+}

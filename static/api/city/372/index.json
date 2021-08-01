@@ -1,0 +1,25 @@
+{
+    "title": "372",
+    "id": "372",
+    "city": "Pulau Morotai",
+    "type": "Kabupaten",
+    "province_id": "20",
+    "province": "Maluku Utara",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "5178",
+        "district": "Morotai Jaya"
+    }, {
+        "id": "5179",
+        "district": "Morotai Selatan"
+    }, {
+        "id": "5180",
+        "district": "Morotai Selatan Barat"
+    }, {
+        "id": "5181",
+        "district": "Morotai Timur"
+    }, {
+        "id": "5182",
+        "district": "Morotai Utara"
+    }]
+}

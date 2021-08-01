@@ -1,0 +1,28 @@
+{
+    "title": "44",
+    "id": "44",
+    "city": "Barito Selatan",
+    "type": "Kabupaten",
+    "province_id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "641",
+        "district": "Dusun Hilir"
+    }, {
+        "id": "642",
+        "district": "Dusun Selatan"
+    }, {
+        "id": "643",
+        "district": "Dusun Utara"
+    }, {
+        "id": "644",
+        "district": "Gunung Bintang Awai"
+    }, {
+        "id": "645",
+        "district": "Jenamas"
+    }, {
+        "id": "646",
+        "district": "Karau Kuala"
+    }]
+}

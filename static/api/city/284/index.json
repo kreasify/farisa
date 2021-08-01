@@ -1,0 +1,46 @@
+{
+    "title": "284",
+    "id": "284",
+    "city": "Mimika",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "3994",
+        "district": "Agimuga"
+    }, {
+        "id": "3995",
+        "district": "Jila"
+    }, {
+        "id": "3996",
+        "district": "Jita"
+    }, {
+        "id": "3997",
+        "district": "Kuala Kencana"
+    }, {
+        "id": "3998",
+        "district": "Mimika Barat (Mibar)"
+    }, {
+        "id": "3999",
+        "district": "Mimika Barat Jauh"
+    }, {
+        "id": "4000",
+        "district": "Mimika Barat Tengah"
+    }, {
+        "id": "4001",
+        "district": "Mimika Baru"
+    }, {
+        "id": "4002",
+        "district": "Mimika Timur"
+    }, {
+        "id": "4003",
+        "district": "Mimika Timur Jauh"
+    }, {
+        "id": "4004",
+        "district": "Mimika Timur Tengah"
+    }, {
+        "id": "4005",
+        "district": "Tembagapura"
+    }]
+}

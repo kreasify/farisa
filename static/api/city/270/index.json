@@ -1,0 +1,40 @@
+{
+    "title": "270",
+    "id": "270",
+    "city": "Manggarai Barat",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "3813",
+        "district": "Boleng"
+    }, {
+        "id": "3814",
+        "district": "Komodo"
+    }, {
+        "id": "3815",
+        "district": "Kuwus"
+    }, {
+        "id": "3816",
+        "district": "Lembor"
+    }, {
+        "id": "3817",
+        "district": "Lembor Selatan"
+    }, {
+        "id": "3818",
+        "district": "Macang Pacar"
+    }, {
+        "id": "3819",
+        "district": "Mbeliling"
+    }, {
+        "id": "3820",
+        "district": "Ndoso"
+    }, {
+        "id": "3821",
+        "district": "Sano Nggoang"
+    }, {
+        "id": "3822",
+        "district": "Welak"
+    }]
+}

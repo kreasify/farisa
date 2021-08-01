@@ -1,0 +1,37 @@
+{
+    "title": "448",
+    "id": "448",
+    "city": "Takalar",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "6189",
+        "district": "Galesong"
+    }, {
+        "id": "6190",
+        "district": "Galesong Selatan"
+    }, {
+        "id": "6191",
+        "district": "Galesong Utara"
+    }, {
+        "id": "6192",
+        "district": "Mangara Bombang"
+    }, {
+        "id": "6193",
+        "district": "Mappakasunggu"
+    }, {
+        "id": "6194",
+        "district": "Patallassang"
+    }, {
+        "id": "6195",
+        "district": "Polombangkeng Selatan (Polobangkeng)"
+    }, {
+        "id": "6196",
+        "district": "Polombangkeng Utara (Polobangkeng)"
+    }, {
+        "id": "6197",
+        "district": "Sanrobone"
+    }]
+}

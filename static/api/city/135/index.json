@@ -1,0 +1,64 @@
+{
+    "title": "135",
+    "id": "135",
+    "city": "Gunung Kidul",
+    "type": "Kabupaten",
+    "province_id": "5",
+    "province": "DI Yogyakarta",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "1865",
+        "district": "Gedang Sari"
+    }, {
+        "id": "1866",
+        "district": "Girisubo"
+    }, {
+        "id": "1867",
+        "district": "Karangmojo"
+    }, {
+        "id": "1868",
+        "district": "Ngawen"
+    }, {
+        "id": "1869",
+        "district": "Nglipar"
+    }, {
+        "id": "1870",
+        "district": "Paliyan"
+    }, {
+        "id": "1871",
+        "district": "Panggang"
+    }, {
+        "id": "1872",
+        "district": "Patuk"
+    }, {
+        "id": "1873",
+        "district": "Playen"
+    }, {
+        "id": "1874",
+        "district": "Ponjong"
+    }, {
+        "id": "1875",
+        "district": "Purwosari"
+    }, {
+        "id": "1876",
+        "district": "Rongkop"
+    }, {
+        "id": "1877",
+        "district": "Sapto Sari"
+    }, {
+        "id": "1878",
+        "district": "Semanu"
+    }, {
+        "id": "1879",
+        "district": "Semin"
+    }, {
+        "id": "1880",
+        "district": "Tanjungsari"
+    }, {
+        "id": "1881",
+        "district": "Tepus"
+    }, {
+        "id": "1882",
+        "district": "Wonosari"
+    }]
+}

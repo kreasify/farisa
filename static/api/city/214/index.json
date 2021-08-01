@@ -1,0 +1,73 @@
+{
+    "title": "214",
+    "id": "214",
+    "city": "Kutai Barat",
+    "type": "Kabupaten",
+    "province_id": "15",
+    "province": "Kalimantan Timur",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "3004",
+        "district": "Barong Tongkok"
+    }, {
+        "id": "3005",
+        "district": "Bentian Besar"
+    }, {
+        "id": "3006",
+        "district": "Bongan"
+    }, {
+        "id": "3007",
+        "district": "Damai"
+    }, {
+        "id": "3008",
+        "district": "Jempang"
+    }, {
+        "id": "3009",
+        "district": "Laham"
+    }, {
+        "id": "3010",
+        "district": "Linggang Bigung"
+    }, {
+        "id": "3011",
+        "district": "Long Apari"
+    }, {
+        "id": "3012",
+        "district": "Long Bagun"
+    }, {
+        "id": "3013",
+        "district": "Long Hubung"
+    }, {
+        "id": "3014",
+        "district": "Long Iram"
+    }, {
+        "id": "3015",
+        "district": "Long Pahangai"
+    }, {
+        "id": "3016",
+        "district": "Manor Bulatin (Mook Manaar Bulatn)"
+    }, {
+        "id": "3017",
+        "district": "Melak"
+    }, {
+        "id": "3018",
+        "district": "Muara Lawa"
+    }, {
+        "id": "3019",
+        "district": "Muara Pahu"
+    }, {
+        "id": "3020",
+        "district": "Nyuatan"
+    }, {
+        "id": "3021",
+        "district": "Penyinggahan"
+    }, {
+        "id": "3022",
+        "district": "Sekolaq Darat"
+    }, {
+        "id": "3023",
+        "district": "Siluq Ngurai"
+    }, {
+        "id": "3024",
+        "district": "Tering"
+    }]
+}

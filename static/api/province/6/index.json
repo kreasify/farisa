@@ -1,0 +1,31 @@
+{
+    "title": "6",
+    "id": "6",
+    "province": "DKI Jakarta",
+    "number_of_cities" : "6",
+    "data" : [{
+        "id": "151",
+        "city": "Jakarta Barat",
+        "type": "Kota"
+    }, {
+        "id": "152",
+        "city": "Jakarta Pusat",
+        "type": "Kota"
+    }, {
+        "id": "153",
+        "city": "Jakarta Selatan",
+        "type": "Kota"
+    }, {
+        "id": "154",
+        "city": "Jakarta Timur",
+        "type": "Kota"
+    }, {
+        "id": "155",
+        "city": "Jakarta Utara",
+        "type": "Kota"
+    }, {
+        "id": "189",
+        "city": "Kepulauan Seribu",
+        "type": "Kabupaten"
+    }]
+}

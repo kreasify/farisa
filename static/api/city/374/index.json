@@ -1,0 +1,34 @@
+{
+    "title": "374",
+    "id": "374",
+    "city": "Puncak Jaya",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "5191",
+        "district": "Fawi"
+    }, {
+        "id": "5192",
+        "district": "Ilu"
+    }, {
+        "id": "5193",
+        "district": "Jigonikme"
+    }, {
+        "id": "5194",
+        "district": "Mewoluk (Mewulok)"
+    }, {
+        "id": "5195",
+        "district": "Mulia"
+    }, {
+        "id": "5196",
+        "district": "Tingginambut"
+    }, {
+        "id": "5197",
+        "district": "Torere"
+    }, {
+        "id": "5198",
+        "district": "Yamo"
+    }]
+}

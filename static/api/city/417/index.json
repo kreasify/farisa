@@ -1,0 +1,52 @@
+{
+    "title": "417",
+    "id": "417",
+    "city": "Sintang",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "5748",
+        "district": "Ambalau"
+    }, {
+        "id": "5749",
+        "district": "Binjai Hulu"
+    }, {
+        "id": "5750",
+        "district": "Dedai"
+    }, {
+        "id": "5751",
+        "district": "Kayan Hilir"
+    }, {
+        "id": "5752",
+        "district": "Kayan Hulu"
+    }, {
+        "id": "5753",
+        "district": "Kelam Permai"
+    }, {
+        "id": "5754",
+        "district": "Ketungau Hilir"
+    }, {
+        "id": "5755",
+        "district": "Ketungau Hulu"
+    }, {
+        "id": "5756",
+        "district": "Ketungau Tengah"
+    }, {
+        "id": "5757",
+        "district": "Sepauk"
+    }, {
+        "id": "5758",
+        "district": "Serawai (Nanga Serawai)"
+    }, {
+        "id": "5759",
+        "district": "Sintang"
+    }, {
+        "id": "5760",
+        "district": "Sungai Tebelian"
+    }, {
+        "id": "5761",
+        "district": "Tempunak"
+    }]
+}

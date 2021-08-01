@@ -1,0 +1,67 @@
+{
+    "title": "67",
+    "id": "67",
+    "city": "Biak Numfor",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "892",
+        "district": "Aimando Padaido"
+    }, {
+        "id": "893",
+        "district": "Andey (Andei)"
+    }, {
+        "id": "894",
+        "district": "Biak Barat"
+    }, {
+        "id": "895",
+        "district": "Biak Kota"
+    }, {
+        "id": "896",
+        "district": "Biak Timur"
+    }, {
+        "id": "897",
+        "district": "Biak Utara"
+    }, {
+        "id": "898",
+        "district": "Bondifuar"
+    }, {
+        "id": "899",
+        "district": "Bruyadori"
+    }, {
+        "id": "900",
+        "district": "Numfor Barat"
+    }, {
+        "id": "901",
+        "district": "Numfor Timur"
+    }, {
+        "id": "902",
+        "district": "Oridek"
+    }, {
+        "id": "903",
+        "district": "Orkeri"
+    }, {
+        "id": "904",
+        "district": "Padaido"
+    }, {
+        "id": "905",
+        "district": "Poiru"
+    }, {
+        "id": "906",
+        "district": "Samofa"
+    }, {
+        "id": "907",
+        "district": "Swandiwe"
+    }, {
+        "id": "908",
+        "district": "Warsa"
+    }, {
+        "id": "909",
+        "district": "Yawosi"
+    }, {
+        "id": "910",
+        "district": "Yendidori"
+    }]
+}

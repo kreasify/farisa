@@ -1,0 +1,43 @@
+{
+    "title": "461",
+    "id": "461",
+    "city": "Tanjung Jabung Timur",
+    "type": "Kabupaten",
+    "province_id": "8",
+    "province": "Jambi",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "6356",
+        "district": "Berbak"
+    }, {
+        "id": "6357",
+        "district": "Dendang"
+    }, {
+        "id": "6358",
+        "district": "Geragai"
+    }, {
+        "id": "6359",
+        "district": "Kuala Jambi"
+    }, {
+        "id": "6360",
+        "district": "Mendahara"
+    }, {
+        "id": "6361",
+        "district": "Mendahara Ulu"
+    }, {
+        "id": "6362",
+        "district": "Muara Sabak Barat"
+    }, {
+        "id": "6363",
+        "district": "Muara Sabak Timur"
+    }, {
+        "id": "6364",
+        "district": "Nipah Panjang"
+    }, {
+        "id": "6365",
+        "district": "Rantau Rasau"
+    }, {
+        "id": "6366",
+        "district": "Sadu"
+    }]
+}

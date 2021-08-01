@@ -1,0 +1,43 @@
+{
+    "title": "279",
+    "id": "279",
+    "city": "Melawi",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "3927",
+        "district": "Belimbing"
+    }, {
+        "id": "3928",
+        "district": "Belimbing Hulu"
+    }, {
+        "id": "3929",
+        "district": "Ella Hilir"
+    }, {
+        "id": "3930",
+        "district": "Menukung"
+    }, {
+        "id": "3931",
+        "district": "Nanga Pinoh"
+    }, {
+        "id": "3932",
+        "district": "Pinoh Selatan"
+    }, {
+        "id": "3933",
+        "district": "Pinoh Utara"
+    }, {
+        "id": "3934",
+        "district": "Sayan"
+    }, {
+        "id": "3935",
+        "district": "Sokan"
+    }, {
+        "id": "3936",
+        "district": "Tanah Pinoh"
+    }, {
+        "id": "3937",
+        "district": "Tanah Pinoh Barat"
+    }]
+}

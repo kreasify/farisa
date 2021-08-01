@@ -1,0 +1,64 @@
+{
+    "title": "88",
+    "id": "88",
+    "city": "Bone Bolango",
+    "type": "Kabupaten",
+    "province_id": "7",
+    "province": "Gorontalo",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "1199",
+        "district": "Bone"
+    }, {
+        "id": "1200",
+        "district": "Bone Raya"
+    }, {
+        "id": "1201",
+        "district": "Bonepantai"
+    }, {
+        "id": "1202",
+        "district": "Botu Pingge"
+    }, {
+        "id": "1203",
+        "district": "Bulango Selatan"
+    }, {
+        "id": "1204",
+        "district": "Bulango Timur"
+    }, {
+        "id": "1205",
+        "district": "Bulango Ulu"
+    }, {
+        "id": "1206",
+        "district": "Bulango Utara"
+    }, {
+        "id": "1207",
+        "district": "Bulawa"
+    }, {
+        "id": "1208",
+        "district": "Kabila"
+    }, {
+        "id": "1209",
+        "district": "Kabila Bone"
+    }, {
+        "id": "1210",
+        "district": "Pinogu"
+    }, {
+        "id": "1211",
+        "district": "Suwawa"
+    }, {
+        "id": "1212",
+        "district": "Suwawa Selatan"
+    }, {
+        "id": "1213",
+        "district": "Suwawa Tengah"
+    }, {
+        "id": "1214",
+        "district": "Suwawa Timur"
+    }, {
+        "id": "1215",
+        "district": "Tapa"
+    }, {
+        "id": "1216",
+        "district": "Tilongkabila"
+    }]
+}

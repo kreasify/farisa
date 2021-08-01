@@ -1,0 +1,43 @@
+{
+    "title": "454",
+    "id": "454",
+    "city": "Tanah Laut",
+    "type": "Kabupaten",
+    "province_id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "6257",
+        "district": "Bajuin"
+    }, {
+        "id": "6258",
+        "district": "Bati-Bati"
+    }, {
+        "id": "6259",
+        "district": "Batu Ampar"
+    }, {
+        "id": "6260",
+        "district": "Bumi Makmur"
+    }, {
+        "id": "6261",
+        "district": "Jorong"
+    }, {
+        "id": "6262",
+        "district": "Kintap"
+    }, {
+        "id": "6263",
+        "district": "Kurau"
+    }, {
+        "id": "6264",
+        "district": "Panyipatan"
+    }, {
+        "id": "6265",
+        "district": "Pelaihari"
+    }, {
+        "id": "6266",
+        "district": "Takisung"
+    }, {
+        "id": "6267",
+        "district": "Tambang Ulang"
+    }]
+}

@@ -1,0 +1,67 @@
+{
+    "title": "306",
+    "id": "306",
+    "city": "Ngawi",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "4343",
+        "district": "Bringin"
+    }, {
+        "id": "4344",
+        "district": "Geneng"
+    }, {
+        "id": "4345",
+        "district": "Gerih"
+    }, {
+        "id": "4346",
+        "district": "Jogorogo"
+    }, {
+        "id": "4347",
+        "district": "Karanganyar"
+    }, {
+        "id": "4348",
+        "district": "Karangjati"
+    }, {
+        "id": "4349",
+        "district": "Kasreman"
+    }, {
+        "id": "4350",
+        "district": "Kedunggalar"
+    }, {
+        "id": "4351",
+        "district": "Kendal"
+    }, {
+        "id": "4352",
+        "district": "Kwadungan"
+    }, {
+        "id": "4353",
+        "district": "Mantingan"
+    }, {
+        "id": "4354",
+        "district": "Ngawi"
+    }, {
+        "id": "4355",
+        "district": "Ngrambe"
+    }, {
+        "id": "4356",
+        "district": "Padas"
+    }, {
+        "id": "4357",
+        "district": "Pangkur"
+    }, {
+        "id": "4358",
+        "district": "Paron"
+    }, {
+        "id": "4359",
+        "district": "Pitu"
+    }, {
+        "id": "4360",
+        "district": "Sine"
+    }, {
+        "id": "4361",
+        "district": "Widodaren"
+    }]
+}

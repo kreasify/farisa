@@ -1,0 +1,37 @@
+{
+    "title": "4",
+    "id": "4",
+    "city": "Aceh Jaya",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "45",
+        "district": "Darul Hikmah"
+    }, {
+        "id": "46",
+        "district": "Indra Jaya"
+    }, {
+        "id": "47",
+        "district": "Jaya"
+    }, {
+        "id": "48",
+        "district": "Keude Panga"
+    }, {
+        "id": "49",
+        "district": "Krueng Sabee"
+    }, {
+        "id": "50",
+        "district": "Pasie Raya"
+    }, {
+        "id": "51",
+        "district": "Sampoiniet"
+    }, {
+        "id": "52",
+        "district": "Setia Bakti"
+    }, {
+        "id": "53",
+        "district": "Teunom"
+    }]
+}

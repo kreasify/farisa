@@ -1,0 +1,21 @@
+{{ $site := .Site }}
+{{ $blog_feed_section := .blog_feed_section }}
+{{ $post := .blog_page }}
+<div class="feed-item bg-body-primary col-span-12 lg:col-span-4 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 rounded-sm shadow-sm">
+    <div class="feed-item__image relative">
+        <a class="feed-item__link" href="{{ $post.RelPermalink }}">
+            {{- if $post.Params.thumbnail }}
+            {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "aspect" "aspect-w-3 aspect-h-2" "aspect_w" "3" "aspect_h" "2" "resized" "381x254 q100 webp" "is_fill" true }}
+            {{ partial "image.html" $include_dict }}
+            {{- end }}
+        </a>
+    </div>
+    <div class="feed-item__info py-4 px-3 lg:px-6">
+        <div class="feed_item__published mb-2">
+            <time class="feed__published text-sm text-header-text-secondary">{{ with $site.Params.dateFormat }}{{ $post.Date.Format . }}{{ else }}{{ $post.Date.Format "02 January 2006" }}{{ end }}</time>
+        </div>
+        <a class="feed-item__link" href="{{ $post.RelPermalink }}">
+            <h3 class="feed-item__title text-base lg:text-lg text-header-text font-heading font-medium mb-1">{{ $post.Title }}</h3>
+        </a>
+    </div>
+</div>

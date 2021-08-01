@@ -1,0 +1,25 @@
+{
+    "title": "69",
+    "id": "69",
+    "city": "Bima",
+    "type": "Kota",
+    "province_id": "22",
+    "province": "Nusa Tenggara Barat (NTB)",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "929",
+        "district": "Asakota"
+    }, {
+        "id": "930",
+        "district": "Mpunda"
+    }, {
+        "id": "931",
+        "district": "Raba"
+    }, {
+        "id": "932",
+        "district": "Rasanae Barat"
+    }, {
+        "id": "933",
+        "district": "Rasanae Timur"
+    }]
+}

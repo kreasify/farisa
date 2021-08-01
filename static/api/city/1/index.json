@@ -1,0 +1,46 @@
+{
+    "title": "1",
+    "id": "1",
+    "city": "Aceh Barat",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "1",
+        "district": "Arongan Lambalek"
+    }, {
+        "id": "2",
+        "district": "Bubon"
+    }, {
+        "id": "3",
+        "district": "Johan Pahlawan"
+    }, {
+        "id": "4",
+        "district": "Kaway XVI"
+    }, {
+        "id": "5",
+        "district": "Meureubo"
+    }, {
+        "id": "6",
+        "district": "Pante Ceureumen (Pantai Ceuremen)"
+    }, {
+        "id": "7",
+        "district": "Panton Reu"
+    }, {
+        "id": "8",
+        "district": "Samatiga"
+    }, {
+        "id": "9",
+        "district": "Sungai Mas"
+    }, {
+        "id": "10",
+        "district": "Woyla"
+    }, {
+        "id": "11",
+        "district": "Woyla Barat"
+    }, {
+        "id": "12",
+        "district": "Woyla Timur"
+    }]
+}

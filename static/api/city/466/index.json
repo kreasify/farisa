@@ -1,0 +1,46 @@
+{
+    "title": "466",
+    "id": "466",
+    "city": "Tapin",
+    "type": "Kabupaten",
+    "province_id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "6420",
+        "district": "Bakarangan"
+    }, {
+        "id": "6421",
+        "district": "Binuang"
+    }, {
+        "id": "6422",
+        "district": "Bungur"
+    }, {
+        "id": "6423",
+        "district": "Candi Laras Selatan"
+    }, {
+        "id": "6424",
+        "district": "Candi Laras Utara"
+    }, {
+        "id": "6425",
+        "district": "Hatungun"
+    }, {
+        "id": "6426",
+        "district": "Lokpaikat"
+    }, {
+        "id": "6427",
+        "district": "Piani"
+    }, {
+        "id": "6428",
+        "district": "Salam Babaris"
+    }, {
+        "id": "6429",
+        "district": "Tapin Selatan"
+    }, {
+        "id": "6430",
+        "district": "Tapin Tengah"
+    }, {
+        "id": "6431",
+        "district": "Tapin Utara"
+    }]
+}

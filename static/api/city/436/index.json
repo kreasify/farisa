@@ -1,0 +1,25 @@
+{
+    "title": "436",
+    "id": "436",
+    "city": "Sumba Tengah",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "6006",
+        "district": "Katikutana"
+    }, {
+        "id": "6007",
+        "district": "Katikutana Selatan"
+    }, {
+        "id": "6008",
+        "district": "Mamboro"
+    }, {
+        "id": "6009",
+        "district": "Umbu Ratu Nggay"
+    }, {
+        "id": "6010",
+        "district": "Umbu Ratu Nggay Barat"
+    }]
+}

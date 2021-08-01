@@ -1,0 +1,67 @@
+{
+    "title": "40",
+    "id": "40",
+    "city": "Banyuasin",
+    "type": "Kabupaten",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "554",
+        "district": "Air Kumbang"
+    }, {
+        "id": "555",
+        "district": "Air Salek"
+    }, {
+        "id": "556",
+        "district": "Banyuasin I"
+    }, {
+        "id": "557",
+        "district": "Banyuasin II"
+    }, {
+        "id": "558",
+        "district": "Banyuasin III"
+    }, {
+        "id": "559",
+        "district": "Betung"
+    }, {
+        "id": "560",
+        "district": "Makarti Jaya"
+    }, {
+        "id": "561",
+        "district": "Muara Padang"
+    }, {
+        "id": "562",
+        "district": "Muara Sugihan"
+    }, {
+        "id": "563",
+        "district": "Muara Telang"
+    }, {
+        "id": "564",
+        "district": "Pulau Rimau"
+    }, {
+        "id": "565",
+        "district": "Rambutan"
+    }, {
+        "id": "566",
+        "district": "Rantau Bayur"
+    }, {
+        "id": "567",
+        "district": "Sembawa"
+    }, {
+        "id": "568",
+        "district": "Suak Tapeh"
+    }, {
+        "id": "569",
+        "district": "Sumber Marga Telang"
+    }, {
+        "id": "570",
+        "district": "Talang Kelapa"
+    }, {
+        "id": "571",
+        "district": "Tanjung Lago"
+    }, {
+        "id": "572",
+        "district": "Tungkal Ilir"
+    }]
+}

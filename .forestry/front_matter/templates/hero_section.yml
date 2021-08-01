@@ -1,0 +1,110 @@
+---
+label: Hero Section
+hide_body: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the section
+- type: text
+  name: subtitle
+  label: Subtitle
+  description: The subtitle of the section
+- type: field_group_list
+  name: actions
+  label: Action Buttons
+  fields:
+  - type: include
+    name: include_action
+    label: Action
+    template: action
+  config:
+    labelField: label
+- type: select
+  name: align
+  label: Align
+  description: The alignment of the text content
+  default: left
+  config:
+    source:
+      type: custom
+    options:
+    - left
+    - right
+    - center
+- type: file
+  name: image
+  label: Image
+  description: The image of the section
+- type: select
+  name: image_position
+  label: Image Position
+  description: The position of the image
+  default: left
+  config:
+    source:
+      type: custom
+    options:
+    - left
+    - right
+- type: boolean
+  name: has_background
+  label: Enable section background
+  default: false
+- type: field_group
+  name: background
+  label: Background Configuration
+  fields:
+  - type: select
+    name: background_color
+    label: Background Color
+    description: The background color of the section
+    default: white
+    config:
+      source:
+        type: custom
+      options:
+      - white
+      - gray
+      - blue
+  - type: file
+    name: background_image
+    label: Background Image
+    description: The image displayed in the background of the section
+  - type: number
+    name: background_image_opacity
+    label: Background Image Opacity
+    description: An integer between 0 and 100. A lower value makes the image more
+      transparent.
+  - type: select
+    name: background_image_size
+    label: Background Image Size
+    description: The size of the background image
+    default: cover
+    config:
+      source:
+        type: custom
+      options:
+      - auto
+      - contain
+      - cover
+  - type: select
+    name: background_image_repeat
+    label: Background Image Repeat
+    description: Repeat the image to cover the whole area.
+    default: no-repeat
+    config:
+      source:
+        type: custom
+      options:
+      - repeat
+      - no-repeat
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: hero_section
+  config:
+    required: true

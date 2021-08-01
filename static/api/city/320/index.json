@@ -1,0 +1,37 @@
+{
+    "title": "320",
+    "id": "320",
+    "city": "Padang Lawas Utara",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "4557",
+        "district": "Batang Onang"
+    }, {
+        "id": "4558",
+        "district": "Dolok"
+    }, {
+        "id": "4559",
+        "district": "Dolok Sigompulon"
+    }, {
+        "id": "4560",
+        "district": "Halongonan"
+    }, {
+        "id": "4561",
+        "district": "Hulu Sihapas"
+    }, {
+        "id": "4562",
+        "district": "Padang Bolak"
+    }, {
+        "id": "4563",
+        "district": "Padang Bolak Julu"
+    }, {
+        "id": "4564",
+        "district": "Portibi"
+    }, {
+        "id": "4565",
+        "district": "Simangambat"
+    }]
+}

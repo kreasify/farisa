@@ -1,0 +1,76 @@
+{
+    "title": "244",
+    "id": "244",
+    "city": "Luwu",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "22",
+    "data" : [{
+        "id": "3448",
+        "district": "Bajo"
+    }, {
+        "id": "3449",
+        "district": "Bajo Barat"
+    }, {
+        "id": "3450",
+        "district": "Basse Sangtempe Utara"
+    }, {
+        "id": "3451",
+        "district": "Bassesang Tempe (Bastem)"
+    }, {
+        "id": "3452",
+        "district": "Belopa"
+    }, {
+        "id": "3453",
+        "district": "Belopa Utara"
+    }, {
+        "id": "3454",
+        "district": "Bua"
+    }, {
+        "id": "3455",
+        "district": "Bua Ponrang (Bupon)"
+    }, {
+        "id": "3456",
+        "district": "Kamanre"
+    }, {
+        "id": "3457",
+        "district": "Lamasi"
+    }, {
+        "id": "3458",
+        "district": "Lamasi Timur"
+    }, {
+        "id": "3459",
+        "district": "Larompong"
+    }, {
+        "id": "3460",
+        "district": "Larompong Selatan"
+    }, {
+        "id": "3461",
+        "district": "Latimojong"
+    }, {
+        "id": "3462",
+        "district": "Ponrang"
+    }, {
+        "id": "3463",
+        "district": "Ponrang Selatan"
+    }, {
+        "id": "3464",
+        "district": "Suli"
+    }, {
+        "id": "3465",
+        "district": "Suli Barat"
+    }, {
+        "id": "3466",
+        "district": "Walenrang"
+    }, {
+        "id": "3467",
+        "district": "Walenrang Barat"
+    }, {
+        "id": "3468",
+        "district": "Walenrang Timur"
+    }, {
+        "id": "3469",
+        "district": "Walenrang Utara"
+    }]
+}

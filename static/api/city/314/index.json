@@ -1,0 +1,46 @@
+{
+    "title": "314",
+    "id": "314",
+    "city": "Ogan Komering Ulu",
+    "type": "Kabupaten",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "4471",
+        "district": "Baturaja Barat"
+    }, {
+        "id": "4472",
+        "district": "Baturaja Timur"
+    }, {
+        "id": "4473",
+        "district": "Lengkiti"
+    }, {
+        "id": "4474",
+        "district": "Lubuk Batang"
+    }, {
+        "id": "4475",
+        "district": "Lubuk Raja"
+    }, {
+        "id": "4476",
+        "district": "Muara Jaya"
+    }, {
+        "id": "4477",
+        "district": "Pengandonan"
+    }, {
+        "id": "4478",
+        "district": "Peninjauan"
+    }, {
+        "id": "4479",
+        "district": "Semidang Aji"
+    }, {
+        "id": "4480",
+        "district": "Sinar Peninjauan"
+    }, {
+        "id": "4481",
+        "district": "Sosoh Buay Rayap"
+    }, {
+        "id": "4482",
+        "district": "Ulu Ogan"
+    }]
+}

@@ -1,0 +1,28 @@
+{
+    "title": "150",
+    "id": "150",
+    "city": "Intan Jaya",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "2081",
+        "district": "Agisiga"
+    }, {
+        "id": "2082",
+        "district": "Biandoga"
+    }, {
+        "id": "2083",
+        "district": "Hitadipa"
+    }, {
+        "id": "2084",
+        "district": "Homeo (Homeyo)"
+    }, {
+        "id": "2085",
+        "district": "Sugapa"
+    }, {
+        "id": "2086",
+        "district": "Wandai"
+    }]
+}

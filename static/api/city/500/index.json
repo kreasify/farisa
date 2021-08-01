@@ -1,0 +1,25 @@
+{
+    "title": "500",
+    "id": "500",
+    "city": "Yalimo",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "6976",
+        "district": "Abenaho"
+    }, {
+        "id": "6977",
+        "district": "Apalapsili"
+    }, {
+        "id": "6978",
+        "district": "Benawa"
+    }, {
+        "id": "6979",
+        "district": "Elelim"
+    }, {
+        "id": "6980",
+        "district": "Welarek"
+    }]
+}

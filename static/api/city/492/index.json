@@ -1,0 +1,67 @@
+{
+    "title": "492",
+    "id": "492",
+    "city": "Tulungagung",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "6821",
+        "district": "Bandung"
+    }, {
+        "id": "6822",
+        "district": "Besuki"
+    }, {
+        "id": "6823",
+        "district": "Boyolangu"
+    }, {
+        "id": "6824",
+        "district": "Campur Darat"
+    }, {
+        "id": "6825",
+        "district": "Gondang"
+    }, {
+        "id": "6826",
+        "district": "Kalidawir"
+    }, {
+        "id": "6827",
+        "district": "Karang Rejo"
+    }, {
+        "id": "6828",
+        "district": "Kauman"
+    }, {
+        "id": "6829",
+        "district": "Kedungwaru"
+    }, {
+        "id": "6830",
+        "district": "Ngantru"
+    }, {
+        "id": "6831",
+        "district": "Ngunut"
+    }, {
+        "id": "6832",
+        "district": "Pagerwojo"
+    }, {
+        "id": "6833",
+        "district": "Pakel"
+    }, {
+        "id": "6834",
+        "district": "Pucanglaban"
+    }, {
+        "id": "6835",
+        "district": "Rejotangan"
+    }, {
+        "id": "6836",
+        "district": "Sendang"
+    }, {
+        "id": "6837",
+        "district": "Sumbergempol"
+    }, {
+        "id": "6838",
+        "district": "Tanggung Gunung"
+    }, {
+        "id": "6839",
+        "district": "Tulungagung"
+    }]
+}

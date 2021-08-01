@@ -1,0 +1,73 @@
+{
+    "title": "122",
+    "id": "122",
+    "city": "Ende",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "1650",
+        "district": "Detukeli"
+    }, {
+        "id": "1651",
+        "district": "Detusoko"
+    }, {
+        "id": "1652",
+        "district": "Ende"
+    }, {
+        "id": "1653",
+        "district": "Ende Selatan"
+    }, {
+        "id": "1654",
+        "district": "Ende Tengah"
+    }, {
+        "id": "1655",
+        "district": "Ende Timur"
+    }, {
+        "id": "1656",
+        "district": "Ende Utara"
+    }, {
+        "id": "1657",
+        "district": "Kelimutu"
+    }, {
+        "id": "1658",
+        "district": "Kotabaru"
+    }, {
+        "id": "1659",
+        "district": "Lepembusu Kelisoke"
+    }, {
+        "id": "1660",
+        "district": "Lio Timur"
+    }, {
+        "id": "1661",
+        "district": "Maukaro"
+    }, {
+        "id": "1662",
+        "district": "Maurole"
+    }, {
+        "id": "1663",
+        "district": "Nangapanda"
+    }, {
+        "id": "1664",
+        "district": "Ndona"
+    }, {
+        "id": "1665",
+        "district": "Ndona Timur"
+    }, {
+        "id": "1666",
+        "district": "Ndori"
+    }, {
+        "id": "1667",
+        "district": "Pulau Ende"
+    }, {
+        "id": "1668",
+        "district": "Wewaria"
+    }, {
+        "id": "1669",
+        "district": "Wolojita"
+    }, {
+        "id": "1670",
+        "district": "Wolowaru"
+    }]
+}

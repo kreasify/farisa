@@ -1,0 +1,20 @@
+{{- $tags := .Site.Taxonomies.tags }}
+{{- if gt (len $tags) 0 }}
+<section class="widget__category lg:pl-3">
+    <header class=" mb-6">
+        <h3 class="capitalize font-body  mb-0">tags</h3>
+    </header>
+	<ul class="widget__list list-none pl-0">
+		{{- range $name, $taxonomy := $tags }}
+		{{- with $.Site.GetPage (printf "/tags/%s" $name) }}
+		<li class="mb-2">
+			<a class="text-gray-600" href="{{ .RelPermalink }}" title="{{ .Title }}">{{- .Title -}}</a>
+			{{- if .Site.Params.sidebar.is_tags_counter }}
+			<span class="text-sm text-gray-400">({{- $taxonomy.Count -}})</span>
+			{{- end }}
+		</li>
+		{{- end }}
+		{{- end }}
+	</ul>
+</section>
+{{- end }}

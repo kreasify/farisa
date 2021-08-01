@@ -1,0 +1,52 @@
+{
+    "title": "148",
+    "id": "148",
+    "city": "Indragiri Hulu",
+    "type": "Kabupaten",
+    "province_id": "26",
+    "province": "Riau",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "2036",
+        "district": "Batang Cenaku"
+    }, {
+        "id": "2037",
+        "district": "Batang Gansal"
+    }, {
+        "id": "2038",
+        "district": "Batang Peranap"
+    }, {
+        "id": "2039",
+        "district": "Kelayang"
+    }, {
+        "id": "2040",
+        "district": "Kuala Cenaku"
+    }, {
+        "id": "2041",
+        "district": "Lirik"
+    }, {
+        "id": "2042",
+        "district": "Lubuk Batu Jaya"
+    }, {
+        "id": "2043",
+        "district": "Pasir Penyu"
+    }, {
+        "id": "2044",
+        "district": "Peranap"
+    }, {
+        "id": "2045",
+        "district": "Rakit Kulim"
+    }, {
+        "id": "2046",
+        "district": "Rengat"
+    }, {
+        "id": "2047",
+        "district": "Rengat Barat"
+    }, {
+        "id": "2048",
+        "district": "Seberida"
+    }, {
+        "id": "2049",
+        "district": "Sungai Lala"
+    }]
+}

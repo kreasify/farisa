@@ -1,0 +1,27 @@
+{
+    "title": "16",
+    "id": "16",
+    "province": "Kalimantan Utara",
+    "number_of_cities" : "5",
+    "data" : [{
+        "id": "96",
+        "city": "Bulungan (Bulongan)",
+        "type": "Kabupaten"
+    }, {
+        "id": "257",
+        "city": "Malinau",
+        "type": "Kabupaten"
+    }, {
+        "id": "311",
+        "city": "Nunukan",
+        "type": "Kabupaten"
+    }, {
+        "id": "450",
+        "city": "Tana Tidung",
+        "type": "Kabupaten"
+    }, {
+        "id": "467",
+        "city": "Tarakan",
+        "type": "Kota"
+    }]
+}

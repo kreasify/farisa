@@ -1,0 +1,79 @@
+{
+    "title": "25",
+    "id": "25",
+    "city": "Banggai",
+    "type": "Kabupaten",
+    "province_id": "29",
+    "province": "Sulawesi Tengah",
+    "number_of_districts" : "23",
+    "data" : [{
+        "id": "384",
+        "district": "Balantak"
+    }, {
+        "id": "385",
+        "district": "Balantak Selatan"
+    }, {
+        "id": "386",
+        "district": "Balantak Utara"
+    }, {
+        "id": "387",
+        "district": "Batui"
+    }, {
+        "id": "388",
+        "district": "Batui Selatan"
+    }, {
+        "id": "389",
+        "district": "Bualemo (Boalemo)"
+    }, {
+        "id": "390",
+        "district": "Bunta"
+    }, {
+        "id": "391",
+        "district": "Kintom"
+    }, {
+        "id": "392",
+        "district": "Lamala"
+    }, {
+        "id": "393",
+        "district": "Lobu"
+    }, {
+        "id": "394",
+        "district": "Luwuk"
+    }, {
+        "id": "395",
+        "district": "Luwuk Selatan"
+    }, {
+        "id": "396",
+        "district": "Luwuk Timur"
+    }, {
+        "id": "397",
+        "district": "Luwuk Utara"
+    }, {
+        "id": "398",
+        "district": "Mantoh"
+    }, {
+        "id": "399",
+        "district": "Masama"
+    }, {
+        "id": "400",
+        "district": "Moilong"
+    }, {
+        "id": "401",
+        "district": "Nambo"
+    }, {
+        "id": "402",
+        "district": "Nuhon"
+    }, {
+        "id": "403",
+        "district": "Pagimana"
+    }, {
+        "id": "404",
+        "district": "Simpang Raya"
+    }, {
+        "id": "405",
+        "district": "Toili"
+    }, {
+        "id": "406",
+        "district": "Toili Barat"
+    }]
+}

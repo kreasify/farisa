@@ -1,0 +1,52 @@
+{
+    "title": "406",
+    "id": "406",
+    "city": "Siak",
+    "type": "Kabupaten",
+    "province_id": "26",
+    "province": "Riau",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "5602",
+        "district": "Bunga Raya"
+    }, {
+        "id": "5603",
+        "district": "Dayun"
+    }, {
+        "id": "5604",
+        "district": "Kandis"
+    }, {
+        "id": "5605",
+        "district": "Kerinci Kanan"
+    }, {
+        "id": "5606",
+        "district": "Koto Gasib"
+    }, {
+        "id": "5607",
+        "district": "Lubuk Dalam"
+    }, {
+        "id": "5608",
+        "district": "Mempura"
+    }, {
+        "id": "5609",
+        "district": "Minas"
+    }, {
+        "id": "5610",
+        "district": "Pusako"
+    }, {
+        "id": "5611",
+        "district": "Sabak Auh"
+    }, {
+        "id": "5612",
+        "district": "Siak"
+    }, {
+        "id": "5613",
+        "district": "Sungai Apit"
+    }, {
+        "id": "5614",
+        "district": "Sungai Mandau"
+    }, {
+        "id": "5615",
+        "district": "Tualang"
+    }]
+}

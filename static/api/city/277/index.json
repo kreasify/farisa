@@ -1,0 +1,82 @@
+{
+    "title": "277",
+    "id": "277",
+    "city": "Maybrat",
+    "type": "Kabupaten",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "3882",
+        "district": "Aifat"
+    }, {
+        "id": "3883",
+        "district": "Aifat Selatan"
+    }, {
+        "id": "3884",
+        "district": "Aifat Timur"
+    }, {
+        "id": "3885",
+        "district": "Aifat Timur Jauh"
+    }, {
+        "id": "3886",
+        "district": "Aifat Timur Selatan"
+    }, {
+        "id": "3887",
+        "district": "Aifat Timur Tengah"
+    }, {
+        "id": "3888",
+        "district": "Aifat Utara"
+    }, {
+        "id": "3889",
+        "district": "Aitinyo"
+    }, {
+        "id": "3890",
+        "district": "Aitinyo Barat"
+    }, {
+        "id": "3891",
+        "district": "Aitinyo Raya"
+    }, {
+        "id": "3892",
+        "district": "Aitinyo Tengah"
+    }, {
+        "id": "3893",
+        "district": "Aitinyo Utara"
+    }, {
+        "id": "3894",
+        "district": "Ayamaru"
+    }, {
+        "id": "3895",
+        "district": "Ayamaru Barat"
+    }, {
+        "id": "3896",
+        "district": "Ayamaru Jaya"
+    }, {
+        "id": "3897",
+        "district": "Ayamaru Selatan"
+    }, {
+        "id": "3898",
+        "district": "Ayamaru Selatan Jaya"
+    }, {
+        "id": "3899",
+        "district": "Ayamaru Tengah"
+    }, {
+        "id": "3900",
+        "district": "Ayamaru Timur"
+    }, {
+        "id": "3901",
+        "district": "Ayamaru Timur Selatan"
+    }, {
+        "id": "3902",
+        "district": "Ayamaru Utara"
+    }, {
+        "id": "3903",
+        "district": "Ayamaru Utara Timur"
+    }, {
+        "id": "3904",
+        "district": "Mare"
+    }, {
+        "id": "3905",
+        "district": "Mare Selatan"
+    }]
+}

@@ -1,0 +1,52 @@
+{
+    "title": "493",
+    "id": "493",
+    "city": "Wajo",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "6840",
+        "district": "Belawa"
+    }, {
+        "id": "6841",
+        "district": "Bola"
+    }, {
+        "id": "6842",
+        "district": "Gilireng"
+    }, {
+        "id": "6843",
+        "district": "Keera"
+    }, {
+        "id": "6844",
+        "district": "Majauleng"
+    }, {
+        "id": "6845",
+        "district": "Maniang Pajo"
+    }, {
+        "id": "6846",
+        "district": "Pammana"
+    }, {
+        "id": "6847",
+        "district": "Penrang"
+    }, {
+        "id": "6848",
+        "district": "Pitumpanua"
+    }, {
+        "id": "6849",
+        "district": "Sabbang Paru"
+    }, {
+        "id": "6850",
+        "district": "Sajoanging"
+    }, {
+        "id": "6851",
+        "district": "Takkalalla"
+    }, {
+        "id": "6852",
+        "district": "Tana Sitolo"
+    }, {
+        "id": "6853",
+        "district": "Tempe"
+    }]
+}

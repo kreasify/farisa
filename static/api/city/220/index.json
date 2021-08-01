@@ -1,0 +1,76 @@
+{
+    "title": "220",
+    "id": "220",
+    "city": "Lahat",
+    "type": "Kabupaten",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "22",
+    "data" : [{
+        "id": "3083",
+        "district": "Gumay Talang"
+    }, {
+        "id": "3084",
+        "district": "Gumay Ulu"
+    }, {
+        "id": "3085",
+        "district": "Jarai"
+    }, {
+        "id": "3086",
+        "district": "Kikim Barat"
+    }, {
+        "id": "3087",
+        "district": "Kikim Selatan"
+    }, {
+        "id": "3088",
+        "district": "Kikim Tengah"
+    }, {
+        "id": "3089",
+        "district": "Kikim Timur"
+    }, {
+        "id": "3090",
+        "district": "Kota Agung"
+    }, {
+        "id": "3091",
+        "district": "Lahat"
+    }, {
+        "id": "3092",
+        "district": "Merapi Barat"
+    }, {
+        "id": "3093",
+        "district": "Merapi Selatan"
+    }, {
+        "id": "3094",
+        "district": "Merapi Timur"
+    }, {
+        "id": "3095",
+        "district": "Muarapayang"
+    }, {
+        "id": "3096",
+        "district": "Mulak Ulu"
+    }, {
+        "id": "3097",
+        "district": "Pagar Gunung"
+    }, {
+        "id": "3098",
+        "district": "Pajar Bulan"
+    }, {
+        "id": "3099",
+        "district": "Pseksu"
+    }, {
+        "id": "3100",
+        "district": "Pulau Pinang"
+    }, {
+        "id": "3101",
+        "district": "Sukamerindu"
+    }, {
+        "id": "3102",
+        "district": "Tanjung Sakti Pumi"
+    }, {
+        "id": "3103",
+        "district": "Tanjung Sakti Pumu"
+    }, {
+        "id": "3104",
+        "district": "Tanjung Tebat"
+    }]
+}

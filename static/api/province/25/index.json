@@ -1,0 +1,59 @@
+{
+    "title": "25",
+    "id": "25",
+    "province": "Papua Barat",
+    "number_of_cities" : "13",
+    "data" : [{
+        "id": "124",
+        "city": "Fakfak",
+        "type": "Kabupaten"
+    }, {
+        "id": "165",
+        "city": "Kaimana",
+        "type": "Kabupaten"
+    }, {
+        "id": "272",
+        "city": "Manokwari",
+        "type": "Kabupaten"
+    }, {
+        "id": "273",
+        "city": "Manokwari Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "277",
+        "city": "Maybrat",
+        "type": "Kabupaten"
+    }, {
+        "id": "346",
+        "city": "Pegunungan Arfak",
+        "type": "Kabupaten"
+    }, {
+        "id": "378",
+        "city": "Raja Ampat",
+        "type": "Kabupaten"
+    }, {
+        "id": "424",
+        "city": "Sorong",
+        "type": "Kabupaten"
+    }, {
+        "id": "425",
+        "city": "Sorong",
+        "type": "Kota"
+    }, {
+        "id": "426",
+        "city": "Sorong Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "449",
+        "city": "Tambrauw",
+        "type": "Kabupaten"
+    }, {
+        "id": "474",
+        "city": "Teluk Bintuni",
+        "type": "Kabupaten"
+    }, {
+        "id": "475",
+        "city": "Teluk Wondama",
+        "type": "Kabupaten"
+    }]
+}

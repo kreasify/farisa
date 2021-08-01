@@ -1,0 +1,76 @@
+{
+    "title": "338",
+    "id": "338",
+    "city": "Parigi Moutong",
+    "type": "Kabupaten",
+    "province_id": "29",
+    "province": "Sulawesi Tengah",
+    "number_of_districts" : "22",
+    "data" : [{
+        "id": "4738",
+        "district": "Ampibabo"
+    }, {
+        "id": "4739",
+        "district": "Balinggi"
+    }, {
+        "id": "4740",
+        "district": "Bolano"
+    }, {
+        "id": "4741",
+        "district": "Bolano Lambunu/Lambulu"
+    }, {
+        "id": "4742",
+        "district": "Kasimbar"
+    }, {
+        "id": "4743",
+        "district": "Mepanga"
+    }, {
+        "id": "4744",
+        "district": "Moutong"
+    }, {
+        "id": "4745",
+        "district": "Ongka Malino"
+    }, {
+        "id": "4746",
+        "district": "Palasa"
+    }, {
+        "id": "4747",
+        "district": "Parigi"
+    }, {
+        "id": "4748",
+        "district": "Parigi Barat"
+    }, {
+        "id": "4749",
+        "district": "Parigi Selatan"
+    }, {
+        "id": "4750",
+        "district": "Parigi Tengah"
+    }, {
+        "id": "4751",
+        "district": "Parigi Utara"
+    }, {
+        "id": "4752",
+        "district": "Sausu"
+    }, {
+        "id": "4753",
+        "district": "Siniu"
+    }, {
+        "id": "4754",
+        "district": "Taopa"
+    }, {
+        "id": "4755",
+        "district": "Tinombo"
+    }, {
+        "id": "4756",
+        "district": "Tinombo Selatan"
+    }, {
+        "id": "4757",
+        "district": "Tomini"
+    }, {
+        "id": "4758",
+        "district": "Toribulu"
+    }, {
+        "id": "4759",
+        "district": "Torue"
+    }]
+}

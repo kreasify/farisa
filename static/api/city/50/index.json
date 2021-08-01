@@ -1,0 +1,34 @@
+{
+    "title": "50",
+    "id": "50",
+    "city": "Batang Hari",
+    "type": "Kabupaten",
+    "province_id": "8",
+    "province": "Jambi",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "700",
+        "district": "Bajubang"
+    }, {
+        "id": "701",
+        "district": "Batin XXIV"
+    }, {
+        "id": "702",
+        "district": "Maro Sebo Ilir"
+    }, {
+        "id": "703",
+        "district": "Maro Sebo Ulu"
+    }, {
+        "id": "704",
+        "district": "Mersam"
+    }, {
+        "id": "705",
+        "district": "Muara Bulian"
+    }, {
+        "id": "706",
+        "district": "Muara Tembesi"
+    }, {
+        "id": "707",
+        "district": "Pemayung"
+    }]
+}

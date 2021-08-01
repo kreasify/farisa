@@ -1,0 +1,16 @@
+{
+    "title": "421",
+    "id": "421",
+    "city": "Solok",
+    "type": "Kota",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "2",
+    "data" : [{
+        "id": "5810",
+        "district": "Lubuk Sikarah"
+    }, {
+        "id": "5811",
+        "district": "Tanjung Harapan"
+    }]
+}

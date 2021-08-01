@@ -1,0 +1,40 @@
+{
+    "title": "332",
+    "id": "332",
+    "city": "Pangandaran",
+    "type": "Kabupaten",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "4690",
+        "district": "Cigugur"
+    }, {
+        "id": "4691",
+        "district": "Cijulang"
+    }, {
+        "id": "4692",
+        "district": "Cimerak"
+    }, {
+        "id": "4693",
+        "district": "Kalipucang"
+    }, {
+        "id": "4694",
+        "district": "Langkaplancar"
+    }, {
+        "id": "4695",
+        "district": "Mangunjaya"
+    }, {
+        "id": "4696",
+        "district": "Padaherang"
+    }, {
+        "id": "4697",
+        "district": "Pangandaran"
+    }, {
+        "id": "4698",
+        "district": "Parigi"
+    }, {
+        "id": "4699",
+        "district": "Sidamulih"
+    }]
+}

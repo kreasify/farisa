@@ -1,0 +1,46 @@
+{
+    "title": "319",
+    "id": "319",
+    "city": "Padang Lawas",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "4545",
+        "district": "Aek Nabara Barumun"
+    }, {
+        "id": "4546",
+        "district": "Barumun"
+    }, {
+        "id": "4547",
+        "district": "Barumun Selatan"
+    }, {
+        "id": "4548",
+        "district": "Barumun Tengah"
+    }, {
+        "id": "4549",
+        "district": "Batang Lubu Sutam"
+    }, {
+        "id": "4550",
+        "district": "Huristak"
+    }, {
+        "id": "4551",
+        "district": "Huta Raja Tinggi"
+    }, {
+        "id": "4552",
+        "district": "Lubuk Barumun"
+    }, {
+        "id": "4553",
+        "district": "Sihapas Barumun"
+    }, {
+        "id": "4554",
+        "district": "Sosa"
+    }, {
+        "id": "4555",
+        "district": "Sosopan"
+    }, {
+        "id": "4556",
+        "district": "Ulu Barumun"
+    }]
+}

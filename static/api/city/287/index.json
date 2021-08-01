@@ -1,0 +1,46 @@
+{
+    "title": "287",
+    "id": "287",
+    "city": "Minahasa Tenggara",
+    "type": "Kabupaten",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "4048",
+        "district": "Belang"
+    }, {
+        "id": "4049",
+        "district": "Pasan"
+    }, {
+        "id": "4050",
+        "district": "Pusomaen"
+    }, {
+        "id": "4051",
+        "district": "Ratahan"
+    }, {
+        "id": "4052",
+        "district": "Ratahan Timur"
+    }, {
+        "id": "4053",
+        "district": "Ratatotok"
+    }, {
+        "id": "4054",
+        "district": "Silian Raya"
+    }, {
+        "id": "4055",
+        "district": "Tombatu"
+    }, {
+        "id": "4056",
+        "district": "Tombatu Timur"
+    }, {
+        "id": "4057",
+        "district": "Tombatu Utara"
+    }, {
+        "id": "4058",
+        "district": "Touluaan"
+    }, {
+        "id": "4059",
+        "district": "Touluaan Selatan"
+    }]
+}

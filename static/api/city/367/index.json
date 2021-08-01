@@ -1,0 +1,28 @@
+{
+    "title": "367",
+    "id": "367",
+    "city": "Prabumulih",
+    "type": "Kota",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "5126",
+        "district": "Cambai"
+    }, {
+        "id": "5127",
+        "district": "Prabumulih Barat"
+    }, {
+        "id": "5128",
+        "district": "Prabumulih Selatan"
+    }, {
+        "id": "5129",
+        "district": "Prabumulih Timur"
+    }, {
+        "id": "5130",
+        "district": "Prabumulih Utara"
+    }, {
+        "id": "5131",
+        "district": "Rambang Kapak Tengah"
+    }]
+}

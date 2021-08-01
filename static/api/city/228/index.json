@@ -1,0 +1,49 @@
+{
+    "title": "228",
+    "id": "228",
+    "city": "Landak",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "13",
+    "data" : [{
+        "id": "3247",
+        "district": "Air Besar"
+    }, {
+        "id": "3248",
+        "district": "Banyuke Hulu"
+    }, {
+        "id": "3249",
+        "district": "Jelimpo"
+    }, {
+        "id": "3250",
+        "district": "Kuala Behe"
+    }, {
+        "id": "3251",
+        "district": "Mandor"
+    }, {
+        "id": "3252",
+        "district": "Mempawah Hulu"
+    }, {
+        "id": "3253",
+        "district": "Menjalin"
+    }, {
+        "id": "3254",
+        "district": "Menyuke"
+    }, {
+        "id": "3255",
+        "district": "Meranti"
+    }, {
+        "id": "3256",
+        "district": "Ngabang"
+    }, {
+        "id": "3257",
+        "district": "Sebangki"
+    }, {
+        "id": "3258",
+        "district": "Sengah Temila"
+    }, {
+        "id": "3259",
+        "district": "Sompak"
+    }]
+}

@@ -1,0 +1,43 @@
+{
+    "title": "310",
+    "id": "310",
+    "city": "Nias Utara",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "4411",
+        "district": "Afulu"
+    }, {
+        "id": "4412",
+        "district": "Alasa"
+    }, {
+        "id": "4413",
+        "district": "Alasa Talumuzoi"
+    }, {
+        "id": "4414",
+        "district": "Lahewa"
+    }, {
+        "id": "4415",
+        "district": "Lahewa Timur"
+    }, {
+        "id": "4416",
+        "district": "Lotu"
+    }, {
+        "id": "4417",
+        "district": "Namohalu Esiwa"
+    }, {
+        "id": "4418",
+        "district": "Sawo"
+    }, {
+        "id": "4419",
+        "district": "Sitolu Ori"
+    }, {
+        "id": "4420",
+        "district": "Tugala Oyo"
+    }, {
+        "id": "4421",
+        "district": "Tuhemberua"
+    }]
+}

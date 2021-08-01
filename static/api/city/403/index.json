@@ -1,0 +1,28 @@
+{
+    "title": "403",
+    "id": "403",
+    "city": "Serang",
+    "type": "Kota",
+    "province_id": "3",
+    "province": "Banten",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "5569",
+        "district": "Cipocok Jaya"
+    }, {
+        "id": "5570",
+        "district": "Curug"
+    }, {
+        "id": "5571",
+        "district": "Kasemen"
+    }, {
+        "id": "5572",
+        "district": "Serang"
+    }, {
+        "id": "5573",
+        "district": "Taktakan"
+    }, {
+        "id": "5574",
+        "district": "Walantaka"
+    }]
+}

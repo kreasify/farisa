@@ -1,0 +1,46 @@
+{
+    "title": "317",
+    "id": "317",
+    "city": "Pacitan",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "4522",
+        "district": "Arjosari"
+    }, {
+        "id": "4523",
+        "district": "Bandar"
+    }, {
+        "id": "4524",
+        "district": "Donorojo"
+    }, {
+        "id": "4525",
+        "district": "Kebon Agung"
+    }, {
+        "id": "4526",
+        "district": "Nawangan"
+    }, {
+        "id": "4527",
+        "district": "Ngadirojo"
+    }, {
+        "id": "4528",
+        "district": "Pacitan"
+    }, {
+        "id": "4529",
+        "district": "Pringkuku"
+    }, {
+        "id": "4530",
+        "district": "Punung"
+    }, {
+        "id": "4531",
+        "district": "Sudimoro"
+    }, {
+        "id": "4532",
+        "district": "Tegalombo"
+    }, {
+        "id": "4533",
+        "district": "Tulakan"
+    }]
+}

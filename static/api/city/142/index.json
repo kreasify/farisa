@@ -1,0 +1,61 @@
+{
+    "title": "142",
+    "id": "142",
+    "city": "Halmahera Utara",
+    "type": "Kabupaten",
+    "province_id": "20",
+    "province": "Maluku Utara",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "1957",
+        "district": "Galela"
+    }, {
+        "id": "1958",
+        "district": "Galela Barat"
+    }, {
+        "id": "1959",
+        "district": "Galela Selatan"
+    }, {
+        "id": "1960",
+        "district": "Galela Utara"
+    }, {
+        "id": "1961",
+        "district": "Kao"
+    }, {
+        "id": "1962",
+        "district": "Kao Barat"
+    }, {
+        "id": "1963",
+        "district": "Kao Teluk"
+    }, {
+        "id": "1964",
+        "district": "Kao Utara"
+    }, {
+        "id": "1965",
+        "district": "Loloda Kepulauan"
+    }, {
+        "id": "1966",
+        "district": "Loloda Utara"
+    }, {
+        "id": "1967",
+        "district": "Malifut"
+    }, {
+        "id": "1968",
+        "district": "Tobelo"
+    }, {
+        "id": "1969",
+        "district": "Tobelo Barat"
+    }, {
+        "id": "1970",
+        "district": "Tobelo Selatan"
+    }, {
+        "id": "1971",
+        "district": "Tobelo Tengah"
+    }, {
+        "id": "1972",
+        "district": "Tobelo Timur"
+    }, {
+        "id": "1973",
+        "district": "Tobelo Utara"
+    }]
+}

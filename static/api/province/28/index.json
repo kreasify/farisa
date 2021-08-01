@@ -1,0 +1,103 @@
+{
+    "title": "28",
+    "id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_cities" : "24",
+    "data" : [{
+        "id": "38",
+        "city": "Bantaeng",
+        "type": "Kabupaten"
+    }, {
+        "id": "47",
+        "city": "Barru",
+        "type": "Kabupaten"
+    }, {
+        "id": "87",
+        "city": "Bone",
+        "type": "Kabupaten"
+    }, {
+        "id": "95",
+        "city": "Bulukumba",
+        "type": "Kabupaten"
+    }, {
+        "id": "123",
+        "city": "Enrekang",
+        "type": "Kabupaten"
+    }, {
+        "id": "132",
+        "city": "Gowa",
+        "type": "Kabupaten"
+    }, {
+        "id": "162",
+        "city": "Jeneponto",
+        "type": "Kabupaten"
+    }, {
+        "id": "244",
+        "city": "Luwu",
+        "type": "Kabupaten"
+    }, {
+        "id": "245",
+        "city": "Luwu Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "246",
+        "city": "Luwu Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "254",
+        "city": "Makassar",
+        "type": "Kota"
+    }, {
+        "id": "275",
+        "city": "Maros",
+        "type": "Kabupaten"
+    }, {
+        "id": "328",
+        "city": "Palopo",
+        "type": "Kota"
+    }, {
+        "id": "333",
+        "city": "Pangkajene Kepulauan",
+        "type": "Kabupaten"
+    }, {
+        "id": "336",
+        "city": "Parepare",
+        "type": "Kota"
+    }, {
+        "id": "360",
+        "city": "Pinrang",
+        "type": "Kabupaten"
+    }, {
+        "id": "396",
+        "city": "Selayar (Kepulauan Selayar)",
+        "type": "Kabupaten"
+    }, {
+        "id": "408",
+        "city": "Sidenreng Rappang/Rapang",
+        "type": "Kabupaten"
+    }, {
+        "id": "416",
+        "city": "Sinjai",
+        "type": "Kabupaten"
+    }, {
+        "id": "423",
+        "city": "Soppeng",
+        "type": "Kabupaten"
+    }, {
+        "id": "448",
+        "city": "Takalar",
+        "type": "Kabupaten"
+    }, {
+        "id": "451",
+        "city": "Tana Toraja",
+        "type": "Kabupaten"
+    }, {
+        "id": "486",
+        "city": "Toraja Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "493",
+        "city": "Wajo",
+        "type": "Kabupaten"
+    }]
+}

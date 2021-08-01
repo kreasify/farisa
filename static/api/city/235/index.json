@@ -1,0 +1,22 @@
+{
+    "title": "235",
+    "id": "235",
+    "city": "Lhokseumawe",
+    "type": "Kota",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "3347",
+        "district": "Banda Sakti"
+    }, {
+        "id": "3348",
+        "district": "Blang Mangat"
+    }, {
+        "id": "3349",
+        "district": "Muara Dua"
+    }, {
+        "id": "3350",
+        "district": "Muara Satu"
+    }]
+}

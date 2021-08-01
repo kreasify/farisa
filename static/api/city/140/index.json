@@ -1,0 +1,34 @@
+{
+    "title": "140",
+    "id": "140",
+    "city": "Halmahera Tengah",
+    "type": "Kabupaten",
+    "province_id": "20",
+    "province": "Maluku Utara",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "1939",
+        "district": "Patani"
+    }, {
+        "id": "1940",
+        "district": "Patani Barat"
+    }, {
+        "id": "1941",
+        "district": "Patani Utara"
+    }, {
+        "id": "1942",
+        "district": "Pulau Gebe"
+    }, {
+        "id": "1943",
+        "district": "Weda"
+    }, {
+        "id": "1944",
+        "district": "Weda Selatan"
+    }, {
+        "id": "1945",
+        "district": "Weda Tengah"
+    }, {
+        "id": "1946",
+        "district": "Weda Utara"
+    }]
+}

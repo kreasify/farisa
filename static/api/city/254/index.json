@@ -1,0 +1,52 @@
+{
+    "title": "254",
+    "id": "254",
+    "city": "Makassar",
+    "type": "Kota",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "3587",
+        "district": "Biring Kanaya"
+    }, {
+        "id": "3588",
+        "district": "Bontoala"
+    }, {
+        "id": "3589",
+        "district": "Makassar"
+    }, {
+        "id": "3590",
+        "district": "Mamajang"
+    }, {
+        "id": "3591",
+        "district": "Manggala"
+    }, {
+        "id": "3592",
+        "district": "Mariso"
+    }, {
+        "id": "3593",
+        "district": "Panakkukang"
+    }, {
+        "id": "3594",
+        "district": "Rappocini"
+    }, {
+        "id": "3595",
+        "district": "Tallo"
+    }, {
+        "id": "3596",
+        "district": "Tamalanrea"
+    }, {
+        "id": "3597",
+        "district": "Tamalate"
+    }, {
+        "id": "3598",
+        "district": "Ujung Pandang"
+    }, {
+        "id": "3599",
+        "district": "Ujung Tanah"
+    }, {
+        "id": "3600",
+        "district": "Wajo"
+    }]
+}

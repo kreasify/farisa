@@ -1,0 +1,46 @@
+{
+    "title": "302",
+    "id": "302",
+    "city": "Natuna",
+    "type": "Kabupaten",
+    "province_id": "17",
+    "province": "Kepulauan Riau",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "4267",
+        "district": "Bunguran Barat"
+    }, {
+        "id": "4268",
+        "district": "Bunguran Selatan"
+    }, {
+        "id": "4269",
+        "district": "Bunguran Tengah"
+    }, {
+        "id": "4270",
+        "district": "Bunguran Timur"
+    }, {
+        "id": "4271",
+        "district": "Bunguran Timur Laut"
+    }, {
+        "id": "4272",
+        "district": "Bunguran Utara"
+    }, {
+        "id": "4273",
+        "district": "Midai"
+    }, {
+        "id": "4274",
+        "district": "Pulau Laut"
+    }, {
+        "id": "4275",
+        "district": "Pulau Tiga"
+    }, {
+        "id": "4276",
+        "district": "Serasan"
+    }, {
+        "id": "4277",
+        "district": "Serasan Timur"
+    }, {
+        "id": "4278",
+        "district": "Subi"
+    }]
+}

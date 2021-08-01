@@ -1,0 +1,76 @@
+{
+    "title": "85",
+    "id": "85",
+    "city": "Bombana",
+    "type": "Kabupaten",
+    "province_id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_districts" : "22",
+    "data" : [{
+        "id": "1127",
+        "district": "Kabaena"
+    }, {
+        "id": "1128",
+        "district": "Kabaena Barat"
+    }, {
+        "id": "1129",
+        "district": "Kabaena Selatan"
+    }, {
+        "id": "1130",
+        "district": "Kabaena Tengah"
+    }, {
+        "id": "1131",
+        "district": "Kabaena Timur"
+    }, {
+        "id": "1132",
+        "district": "Kabaena Utara"
+    }, {
+        "id": "1133",
+        "district": "Kepulauan Masaloka Raya"
+    }, {
+        "id": "1134",
+        "district": "Lentarai Jaya S. (Lantari Jaya)"
+    }, {
+        "id": "1135",
+        "district": "Mata Oleo"
+    }, {
+        "id": "1136",
+        "district": "Mata Usu"
+    }, {
+        "id": "1137",
+        "district": "Poleang"
+    }, {
+        "id": "1138",
+        "district": "Poleang Barat"
+    }, {
+        "id": "1139",
+        "district": "Poleang Selatan"
+    }, {
+        "id": "1140",
+        "district": "Poleang Tengah"
+    }, {
+        "id": "1141",
+        "district": "Poleang Tenggara"
+    }, {
+        "id": "1142",
+        "district": "Poleang Timur"
+    }, {
+        "id": "1143",
+        "district": "Poleang Utara"
+    }, {
+        "id": "1144",
+        "district": "Rarowatu"
+    }, {
+        "id": "1145",
+        "district": "Rarowatu Utara"
+    }, {
+        "id": "1146",
+        "district": "Rumbia"
+    }, {
+        "id": "1147",
+        "district": "Rumbia Tengah"
+    }, {
+        "id": "1148",
+        "district": "Tontonunu (Tontonuwu)"
+    }]
+}

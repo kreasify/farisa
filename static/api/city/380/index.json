@@ -1,0 +1,52 @@
+{
+    "title": "380",
+    "id": "380",
+    "city": "Rembang",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "5289",
+        "district": "Bulu"
+    }, {
+        "id": "5290",
+        "district": "Gunem"
+    }, {
+        "id": "5291",
+        "district": "Kaliori"
+    }, {
+        "id": "5292",
+        "district": "Kragan"
+    }, {
+        "id": "5293",
+        "district": "Lasem"
+    }, {
+        "id": "5294",
+        "district": "Pamotan"
+    }, {
+        "id": "5295",
+        "district": "Pancur"
+    }, {
+        "id": "5296",
+        "district": "Rembang"
+    }, {
+        "id": "5297",
+        "district": "Sale"
+    }, {
+        "id": "5298",
+        "district": "Sarang"
+    }, {
+        "id": "5299",
+        "district": "Sedan"
+    }, {
+        "id": "5300",
+        "district": "Sluke"
+    }, {
+        "id": "5301",
+        "district": "Sulang"
+    }, {
+        "id": "5302",
+        "district": "Sumber"
+    }]
+}

@@ -1,0 +1,91 @@
+{
+    "title": "41",
+    "id": "41",
+    "city": "Banyumas",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "27",
+    "data" : [{
+        "id": "573",
+        "district": "Ajibarang"
+    }, {
+        "id": "574",
+        "district": "Banyumas"
+    }, {
+        "id": "575",
+        "district": "Baturaden"
+    }, {
+        "id": "576",
+        "district": "Cilongok"
+    }, {
+        "id": "577",
+        "district": "Gumelar"
+    }, {
+        "id": "578",
+        "district": "Jatilawang"
+    }, {
+        "id": "579",
+        "district": "Kalibagor"
+    }, {
+        "id": "580",
+        "district": "Karanglewas"
+    }, {
+        "id": "581",
+        "district": "Kebasen"
+    }, {
+        "id": "582",
+        "district": "Kedung Banteng"
+    }, {
+        "id": "583",
+        "district": "Kembaran"
+    }, {
+        "id": "584",
+        "district": "Kemranjen"
+    }, {
+        "id": "585",
+        "district": "Lumbir"
+    }, {
+        "id": "586",
+        "district": "Patikraja"
+    }, {
+        "id": "587",
+        "district": "Pekuncen"
+    }, {
+        "id": "588",
+        "district": "Purwojati"
+    }, {
+        "id": "589",
+        "district": "Purwokerto Barat"
+    }, {
+        "id": "590",
+        "district": "Purwokerto Selatan"
+    }, {
+        "id": "591",
+        "district": "Purwokerto Timur"
+    }, {
+        "id": "592",
+        "district": "Purwokerto Utara"
+    }, {
+        "id": "593",
+        "district": "Rawalo"
+    }, {
+        "id": "594",
+        "district": "Sokaraja"
+    }, {
+        "id": "595",
+        "district": "Somagede"
+    }, {
+        "id": "596",
+        "district": "Sumbang"
+    }, {
+        "id": "597",
+        "district": "Sumpiuh"
+    }, {
+        "id": "598",
+        "district": "Tambak"
+    }, {
+        "id": "599",
+        "district": "Wangon"
+    }]
+}

@@ -1,0 +1,46 @@
+{
+    "title": "210",
+    "id": "210",
+    "city": "Kulon Progo",
+    "type": "Kabupaten",
+    "province_id": "5",
+    "province": "DI Yogyakarta",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "2930",
+        "district": "Galur"
+    }, {
+        "id": "2931",
+        "district": "Girimulyo"
+    }, {
+        "id": "2932",
+        "district": "Kalibawang"
+    }, {
+        "id": "2933",
+        "district": "Kokap"
+    }, {
+        "id": "2934",
+        "district": "Lendah"
+    }, {
+        "id": "2935",
+        "district": "Nanggulan"
+    }, {
+        "id": "2936",
+        "district": "Panjatan"
+    }, {
+        "id": "2937",
+        "district": "Pengasih"
+    }, {
+        "id": "2938",
+        "district": "Samigaluh"
+    }, {
+        "id": "2939",
+        "district": "Sentolo"
+    }, {
+        "id": "2940",
+        "district": "Temon"
+    }, {
+        "id": "2941",
+        "district": "Wates"
+    }]
+}

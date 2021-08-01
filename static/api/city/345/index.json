@@ -1,0 +1,25 @@
+{
+    "title": "345",
+    "id": "345",
+    "city": "Payakumbuh",
+    "type": "Kota",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "4842",
+        "district": "Lamposi Tigo Nagari"
+    }, {
+        "id": "4843",
+        "district": "Payakumbuh Barat"
+    }, {
+        "id": "4844",
+        "district": "Payakumbuh Selatan"
+    }, {
+        "id": "4845",
+        "district": "Payakumbuh Timur"
+    }, {
+        "id": "4846",
+        "district": "Payakumbuh Utara"
+    }]
+}

@@ -1,0 +1,67 @@
+{
+    "title": "33",
+    "id": "33",
+    "city": "Banjar",
+    "type": "Kabupaten",
+    "province_id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "476",
+        "district": "Aluh-Aluh"
+    }, {
+        "id": "477",
+        "district": "Aranio"
+    }, {
+        "id": "478",
+        "district": "Astambul"
+    }, {
+        "id": "479",
+        "district": "Beruntung Baru"
+    }, {
+        "id": "480",
+        "district": "Gambut"
+    }, {
+        "id": "481",
+        "district": "Karang Intan"
+    }, {
+        "id": "482",
+        "district": "Kertak Hanyar"
+    }, {
+        "id": "483",
+        "district": "Martapura Barat"
+    }, {
+        "id": "484",
+        "district": "Martapura Kota"
+    }, {
+        "id": "485",
+        "district": "Martapura Timur"
+    }, {
+        "id": "486",
+        "district": "Mataraman"
+    }, {
+        "id": "487",
+        "district": "Pengaron"
+    }, {
+        "id": "488",
+        "district": "Peramasan"
+    }, {
+        "id": "489",
+        "district": "Sambung Makmur"
+    }, {
+        "id": "490",
+        "district": "Sei/Sungai Pinang"
+    }, {
+        "id": "491",
+        "district": "Sei/Sungai Tabuk"
+    }, {
+        "id": "492",
+        "district": "Simpang Empat"
+    }, {
+        "id": "493",
+        "district": "Tatah Makmur"
+    }, {
+        "id": "494",
+        "district": "Telaga Bauntung"
+    }]
+}

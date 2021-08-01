@@ -1,0 +1,28 @@
+{
+    "title": "19",
+    "id": "19",
+    "city": "Balikpapan",
+    "type": "Kota",
+    "province_id": "15",
+    "province": "Kalimantan Timur",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "272",
+        "district": "Balikpapan Barat"
+    }, {
+        "id": "273",
+        "district": "Balikpapan Kota"
+    }, {
+        "id": "274",
+        "district": "Balikpapan Selatan"
+    }, {
+        "id": "275",
+        "district": "Balikpapan Tengah"
+    }, {
+        "id": "276",
+        "district": "Balikpapan Timur"
+    }, {
+        "id": "277",
+        "district": "Balikpapan Utara"
+    }]
+}

@@ -1,0 +1,55 @@
+{
+    "title": "299",
+    "id": "299",
+    "city": "Nabire",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "4235",
+        "district": "Dipa"
+    }, {
+        "id": "4236",
+        "district": "Makimi"
+    }, {
+        "id": "4237",
+        "district": "Menou"
+    }, {
+        "id": "4238",
+        "district": "Moora"
+    }, {
+        "id": "4239",
+        "district": "Nabire"
+    }, {
+        "id": "4240",
+        "district": "Nabire Barat"
+    }, {
+        "id": "4241",
+        "district": "Napan"
+    }, {
+        "id": "4242",
+        "district": "Siriwo"
+    }, {
+        "id": "4243",
+        "district": "Teluk Kimi"
+    }, {
+        "id": "4244",
+        "district": "Teluk Umar"
+    }, {
+        "id": "4245",
+        "district": "Uwapa"
+    }, {
+        "id": "4246",
+        "district": "Wanggar"
+    }, {
+        "id": "4247",
+        "district": "Wapoga"
+    }, {
+        "id": "4248",
+        "district": "Yaro (Yaro Kabisay)"
+    }, {
+        "id": "4249",
+        "district": "Yaur"
+    }]
+}

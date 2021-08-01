@@ -1,0 +1,82 @@
+{
+    "title": "58",
+    "id": "58",
+    "city": "Belu",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "773",
+        "district": "Atambua Barat"
+    }, {
+        "id": "774",
+        "district": "Atambua Kota"
+    }, {
+        "id": "775",
+        "district": "Atambua Selatan"
+    }, {
+        "id": "776",
+        "district": "Botin Leo Bele"
+    }, {
+        "id": "777",
+        "district": "Io Kufeu"
+    }, {
+        "id": "778",
+        "district": "Kakuluk Mesak"
+    }, {
+        "id": "779",
+        "district": "Kobalima"
+    }, {
+        "id": "780",
+        "district": "Kobalima Timur"
+    }, {
+        "id": "781",
+        "district": "Laen Manen"
+    }, {
+        "id": "782",
+        "district": "Lamaknen"
+    }, {
+        "id": "783",
+        "district": "Lamaknen Selatan"
+    }, {
+        "id": "784",
+        "district": "Lasiolat"
+    }, {
+        "id": "785",
+        "district": "Malaka Barat"
+    }, {
+        "id": "786",
+        "district": "Malaka Tengah"
+    }, {
+        "id": "787",
+        "district": "Malaka Timur"
+    }, {
+        "id": "788",
+        "district": "Nanaet Duabesi"
+    }, {
+        "id": "789",
+        "district": "Raihat"
+    }, {
+        "id": "790",
+        "district": "Raimanuk"
+    }, {
+        "id": "791",
+        "district": "Rinhat"
+    }, {
+        "id": "792",
+        "district": "Sasitamean"
+    }, {
+        "id": "793",
+        "district": "Tasifeto Barat"
+    }, {
+        "id": "794",
+        "district": "Tasifeto Timur"
+    }, {
+        "id": "795",
+        "district": "Weliman"
+    }, {
+        "id": "796",
+        "district": "Wewiku"
+    }]
+}

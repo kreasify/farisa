@@ -1,0 +1,46 @@
+{
+    "title": "351",
+    "id": "351",
+    "city": "Pelalawan",
+    "type": "Kabupaten",
+    "province_id": "26",
+    "province": "Riau",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "4926",
+        "district": "Bandar Petalangan"
+    }, {
+        "id": "4927",
+        "district": "Bandar Sei Kijang"
+    }, {
+        "id": "4928",
+        "district": "Bunut"
+    }, {
+        "id": "4929",
+        "district": "Kerumutan"
+    }, {
+        "id": "4930",
+        "district": "Kuala Kampar"
+    }, {
+        "id": "4931",
+        "district": "Langgam"
+    }, {
+        "id": "4932",
+        "district": "Pangkalan Kerinci"
+    }, {
+        "id": "4933",
+        "district": "Pangkalan Kuras"
+    }, {
+        "id": "4934",
+        "district": "Pangkalan Lesung"
+    }, {
+        "id": "4935",
+        "district": "Pelalawan"
+    }, {
+        "id": "4936",
+        "district": "Teluk Meranti"
+    }, {
+        "id": "4937",
+        "district": "Ukui"
+    }]
+}

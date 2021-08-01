@@ -1,0 +1,16 @@
+{
+    "title": "321",
+    "id": "321",
+    "city": "Padang Panjang",
+    "type": "Kota",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "2",
+    "data" : [{
+        "id": "4566",
+        "district": "Padang Panjang Barat"
+    }, {
+        "id": "4567",
+        "district": "Padang Panjang Timur"
+    }]
+}

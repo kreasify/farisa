@@ -1,0 +1,64 @@
+{
+    "title": "215",
+    "id": "215",
+    "city": "Kutai Kartanegara",
+    "type": "Kabupaten",
+    "province_id": "15",
+    "province": "Kalimantan Timur",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "3025",
+        "district": "Anggana"
+    }, {
+        "id": "3026",
+        "district": "Kembang Janggut"
+    }, {
+        "id": "3027",
+        "district": "Kenohan"
+    }, {
+        "id": "3028",
+        "district": "Kota Bangun"
+    }, {
+        "id": "3029",
+        "district": "Loa Janan"
+    }, {
+        "id": "3030",
+        "district": "Loa Kulu"
+    }, {
+        "id": "3031",
+        "district": "Marang Kayu"
+    }, {
+        "id": "3032",
+        "district": "Muara Badak"
+    }, {
+        "id": "3033",
+        "district": "Muara Jawa"
+    }, {
+        "id": "3034",
+        "district": "Muara Kaman"
+    }, {
+        "id": "3035",
+        "district": "Muara Muntai"
+    }, {
+        "id": "3036",
+        "district": "Muara Wis"
+    }, {
+        "id": "3037",
+        "district": "Samboja (Semboja)"
+    }, {
+        "id": "3038",
+        "district": "Sanga-Sanga"
+    }, {
+        "id": "3039",
+        "district": "Sebulu"
+    }, {
+        "id": "3040",
+        "district": "Tabang"
+    }, {
+        "id": "3041",
+        "district": "Tenggarong"
+    }, {
+        "id": "3042",
+        "district": "Tenggarong Seberang"
+    }]
+}

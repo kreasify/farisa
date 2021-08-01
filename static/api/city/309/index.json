@@ -1,0 +1,103 @@
+{
+    "title": "309",
+    "id": "309",
+    "city": "Nias Selatan",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "31",
+    "data" : [{
+        "id": "4380",
+        "district": "Amandraya"
+    }, {
+        "id": "4381",
+        "district": "Aramo"
+    }, {
+        "id": "4382",
+        "district": "Boronadu"
+    }, {
+        "id": "4383",
+        "district": "Fanayama"
+    }, {
+        "id": "4384",
+        "district": "Gomo"
+    }, {
+        "id": "4385",
+        "district": "Hibala"
+    }, {
+        "id": "4386",
+        "district": "Hilimegai"
+    }, {
+        "id": "4387",
+        "district": "Hilisalawa'ahe (Hilisalawaahe)"
+    }, {
+        "id": "4388",
+        "district": "Huruna"
+    }, {
+        "id": "4389",
+        "district": "Lahusa"
+    }, {
+        "id": "4390",
+        "district": "Lolomatua"
+    }, {
+        "id": "4391",
+        "district": "Lolowau"
+    }, {
+        "id": "4392",
+        "district": "Maniamolo"
+    }, {
+        "id": "4393",
+        "district": "Mazino"
+    }, {
+        "id": "4394",
+        "district": "Mazo"
+    }, {
+        "id": "4395",
+        "district": "O'o'u (Oou)"
+    }, {
+        "id": "4396",
+        "district": "Onohazumba"
+    }, {
+        "id": "4397",
+        "district": "Pulau-Pulau Batu"
+    }, {
+        "id": "4398",
+        "district": "Pulau-Pulau Batu Barat"
+    }, {
+        "id": "4399",
+        "district": "Pulau-Pulau Batu Timur"
+    }, {
+        "id": "4400",
+        "district": "Pulau-Pulau Batu Utara"
+    }, {
+        "id": "4401",
+        "district": "Sidua'ori"
+    }, {
+        "id": "4402",
+        "district": "Simuk"
+    }, {
+        "id": "4403",
+        "district": "Somambawa"
+    }, {
+        "id": "4404",
+        "district": "Susua"
+    }, {
+        "id": "4405",
+        "district": "Tanah Masa"
+    }, {
+        "id": "4406",
+        "district": "Teluk Dalam"
+    }, {
+        "id": "4407",
+        "district": "Toma"
+    }, {
+        "id": "4408",
+        "district": "Ulunoyo"
+    }, {
+        "id": "4409",
+        "district": "Ulususua"
+    }, {
+        "id": "4410",
+        "district": "Umbunasi"
+    }]
+}

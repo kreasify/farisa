@@ -1,0 +1,67 @@
+{
+    "title": "192",
+    "id": "192",
+    "city": "Kepulauan Talaud",
+    "type": "Kabupaten",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "2653",
+        "district": "Beo"
+    }, {
+        "id": "2654",
+        "district": "Beo Selatan"
+    }, {
+        "id": "2655",
+        "district": "Beo Utara"
+    }, {
+        "id": "2656",
+        "district": "Damao (Damau)"
+    }, {
+        "id": "2657",
+        "district": "Essang"
+    }, {
+        "id": "2658",
+        "district": "Essang Selatan"
+    }, {
+        "id": "2659",
+        "district": "Gemeh"
+    }, {
+        "id": "2660",
+        "district": "Kabaruan"
+    }, {
+        "id": "2661",
+        "district": "Kalongan"
+    }, {
+        "id": "2662",
+        "district": "Lirung"
+    }, {
+        "id": "2663",
+        "district": "Melonguane"
+    }, {
+        "id": "2664",
+        "district": "Melonguane Timur"
+    }, {
+        "id": "2665",
+        "district": "Miangas"
+    }, {
+        "id": "2666",
+        "district": "Moronge"
+    }, {
+        "id": "2667",
+        "district": "Nanusa"
+    }, {
+        "id": "2668",
+        "district": "Pulutan"
+    }, {
+        "id": "2669",
+        "district": "Rainis"
+    }, {
+        "id": "2670",
+        "district": "Salibabu"
+    }, {
+        "id": "2671",
+        "district": "Tampan Amma"
+    }]
+}

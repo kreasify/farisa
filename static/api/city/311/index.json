@@ -1,0 +1,55 @@
+{
+    "title": "311",
+    "id": "311",
+    "city": "Nunukan",
+    "type": "Kabupaten",
+    "province_id": "16",
+    "province": "Kalimantan Utara",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "4422",
+        "district": "Krayan"
+    }, {
+        "id": "4423",
+        "district": "Krayan Selatan"
+    }, {
+        "id": "4424",
+        "district": "Lumbis"
+    }, {
+        "id": "4425",
+        "district": "Lumbis Ogong"
+    }, {
+        "id": "4426",
+        "district": "Nunukan"
+    }, {
+        "id": "4427",
+        "district": "Nunukan Selatan"
+    }, {
+        "id": "4428",
+        "district": "Sebatik"
+    }, {
+        "id": "4429",
+        "district": "Sebatik Barat"
+    }, {
+        "id": "4430",
+        "district": "Sebatik Tengah"
+    }, {
+        "id": "4431",
+        "district": "Sebatik Timur"
+    }, {
+        "id": "4432",
+        "district": "Sebatik Utara"
+    }, {
+        "id": "4433",
+        "district": "Sebuku"
+    }, {
+        "id": "4434",
+        "district": "Sei Menggaris"
+    }, {
+        "id": "4435",
+        "district": "Sembakung"
+    }, {
+        "id": "4436",
+        "district": "Tulin Onsoi"
+    }]
+}

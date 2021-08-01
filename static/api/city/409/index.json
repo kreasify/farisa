@@ -1,0 +1,64 @@
+{
+    "title": "409",
+    "id": "409",
+    "city": "Sidoarjo",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "5631",
+        "district": "Balongbendo"
+    }, {
+        "id": "5632",
+        "district": "Buduran"
+    }, {
+        "id": "5633",
+        "district": "Candi"
+    }, {
+        "id": "5634",
+        "district": "Gedangan"
+    }, {
+        "id": "5635",
+        "district": "Jabon"
+    }, {
+        "id": "5636",
+        "district": "Krembung"
+    }, {
+        "id": "5637",
+        "district": "Krian"
+    }, {
+        "id": "5638",
+        "district": "Porong"
+    }, {
+        "id": "5639",
+        "district": "Prambon"
+    }, {
+        "id": "5640",
+        "district": "Sedati"
+    }, {
+        "id": "5641",
+        "district": "Sidoarjo"
+    }, {
+        "id": "5642",
+        "district": "Sukodono"
+    }, {
+        "id": "5643",
+        "district": "Taman"
+    }, {
+        "id": "5644",
+        "district": "Tanggulangin"
+    }, {
+        "id": "5645",
+        "district": "Tarik"
+    }, {
+        "id": "5646",
+        "district": "Tulangan"
+    }, {
+        "id": "5647",
+        "district": "Waru"
+    }, {
+        "id": "5648",
+        "district": "Wonoayu"
+    }]
+}

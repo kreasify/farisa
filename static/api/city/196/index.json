@@ -1,0 +1,88 @@
+{
+    "title": "196",
+    "id": "196",
+    "city": "Klaten",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "26",
+    "data" : [{
+        "id": "2722",
+        "district": "Bayat"
+    }, {
+        "id": "2723",
+        "district": "Cawas"
+    }, {
+        "id": "2724",
+        "district": "Ceper"
+    }, {
+        "id": "2725",
+        "district": "Delanggu"
+    }, {
+        "id": "2726",
+        "district": "Gantiwarno"
+    }, {
+        "id": "2727",
+        "district": "Jatinom"
+    }, {
+        "id": "2728",
+        "district": "Jogonalan"
+    }, {
+        "id": "2729",
+        "district": "Juwiring"
+    }, {
+        "id": "2730",
+        "district": "Kalikotes"
+    }, {
+        "id": "2731",
+        "district": "Karanganom"
+    }, {
+        "id": "2732",
+        "district": "Karangdowo"
+    }, {
+        "id": "2733",
+        "district": "Karangnongko"
+    }, {
+        "id": "2734",
+        "district": "Kebonarum"
+    }, {
+        "id": "2735",
+        "district": "Kemalang"
+    }, {
+        "id": "2736",
+        "district": "Klaten Selatan"
+    }, {
+        "id": "2737",
+        "district": "Klaten Tengah"
+    }, {
+        "id": "2738",
+        "district": "Klaten Utara"
+    }, {
+        "id": "2739",
+        "district": "Manisrenggo"
+    }, {
+        "id": "2740",
+        "district": "Ngawen"
+    }, {
+        "id": "2741",
+        "district": "Pedan"
+    }, {
+        "id": "2742",
+        "district": "Polanharjo"
+    }, {
+        "id": "2743",
+        "district": "Prambanan"
+    }, {
+        "id": "2744",
+        "district": "Trucuk"
+    }, {
+        "id": "2745",
+        "district": "Tulung"
+    }, {
+        "id": "2746",
+        "district": "Wedi"
+    }, {
+        "id": "2747",
+        "district": "Wonosari"
+    }]
+}

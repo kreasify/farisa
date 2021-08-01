@@ -1,0 +1,34 @@
+{
+    "title": "38",
+    "id": "38",
+    "city": "Bantaeng",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "529",
+        "district": "Bantaeng"
+    }, {
+        "id": "530",
+        "district": "Bissappu"
+    }, {
+        "id": "531",
+        "district": "Eremerasa"
+    }, {
+        "id": "532",
+        "district": "Gantarang Keke (Gantareng Keke)"
+    }, {
+        "id": "533",
+        "district": "Pajukukang"
+    }, {
+        "id": "534",
+        "district": "Sinoa"
+    }, {
+        "id": "535",
+        "district": "Tompobulu"
+    }, {
+        "id": "536",
+        "district": "Uluere"
+    }]
+}

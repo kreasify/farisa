@@ -1,0 +1,73 @@
+{
+    "title": "101",
+    "id": "101",
+    "city": "Buton",
+    "type": "Kabupaten",
+    "province_id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "1352",
+        "district": "Batauga"
+    }, {
+        "id": "1353",
+        "district": "Batu Atas"
+    }, {
+        "id": "1354",
+        "district": "Gu"
+    }, {
+        "id": "1355",
+        "district": "Kadatua"
+    }, {
+        "id": "1356",
+        "district": "Kapontori"
+    }, {
+        "id": "1357",
+        "district": "Lakudo"
+    }, {
+        "id": "1358",
+        "district": "Lapandewa"
+    }, {
+        "id": "1359",
+        "district": "Lasalimu"
+    }, {
+        "id": "1360",
+        "district": "Lasalimu Selatan"
+    }, {
+        "id": "1361",
+        "district": "Mawasangka"
+    }, {
+        "id": "1362",
+        "district": "Mawasangka Tengah"
+    }, {
+        "id": "1363",
+        "district": "Mawasangka Timur"
+    }, {
+        "id": "1364",
+        "district": "Pasar Wajo"
+    }, {
+        "id": "1365",
+        "district": "Sampolawa"
+    }, {
+        "id": "1366",
+        "district": "Sangia Mambulu"
+    }, {
+        "id": "1367",
+        "district": "Siompu"
+    }, {
+        "id": "1368",
+        "district": "Siompu Barat"
+    }, {
+        "id": "1369",
+        "district": "Siontapia (Siontapina)"
+    }, {
+        "id": "1370",
+        "district": "Talaga Raya (Telaga Raya)"
+    }, {
+        "id": "1371",
+        "district": "Wabula"
+    }, {
+        "id": "1372",
+        "district": "Wolowa"
+    }]
+}

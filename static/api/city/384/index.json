@@ -1,0 +1,16 @@
+{
+    "title": "384",
+    "id": "384",
+    "city": "Sabang",
+    "type": "Kota",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "2",
+    "data" : [{
+        "id": "5344",
+        "district": "Sukajaya"
+    }, {
+        "id": "5345",
+        "district": "Sukakarya"
+    }]
+}

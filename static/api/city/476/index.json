@@ -1,0 +1,70 @@
+{
+    "title": "476",
+    "id": "476",
+    "city": "Temanggung",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "6561",
+        "district": "Bansari"
+    }, {
+        "id": "6562",
+        "district": "Bejen"
+    }, {
+        "id": "6563",
+        "district": "Bulu"
+    }, {
+        "id": "6564",
+        "district": "Candiroto"
+    }, {
+        "id": "6565",
+        "district": "Gemawang"
+    }, {
+        "id": "6566",
+        "district": "Jumo"
+    }, {
+        "id": "6567",
+        "district": "Kaloran"
+    }, {
+        "id": "6568",
+        "district": "Kandangan"
+    }, {
+        "id": "6569",
+        "district": "Kedu"
+    }, {
+        "id": "6570",
+        "district": "Kledung"
+    }, {
+        "id": "6571",
+        "district": "Kranggan"
+    }, {
+        "id": "6572",
+        "district": "Ngadirejo"
+    }, {
+        "id": "6573",
+        "district": "Parakan"
+    }, {
+        "id": "6574",
+        "district": "Pringsurat"
+    }, {
+        "id": "6575",
+        "district": "Selopampang"
+    }, {
+        "id": "6576",
+        "district": "Temanggung"
+    }, {
+        "id": "6577",
+        "district": "Tembarak"
+    }, {
+        "id": "6578",
+        "district": "Tlogomulyo"
+    }, {
+        "id": "6579",
+        "district": "Tretep"
+    }, {
+        "id": "6580",
+        "district": "Wonoboyo"
+    }]
+}

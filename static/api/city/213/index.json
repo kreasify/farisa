@@ -1,0 +1,28 @@
+{
+    "title": "213",
+    "id": "213",
+    "city": "Kupang",
+    "type": "Kota",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "2998",
+        "district": "Alak"
+    }, {
+        "id": "2999",
+        "district": "Kelapa Lima"
+    }, {
+        "id": "3000",
+        "district": "Kota Lama"
+    }, {
+        "id": "3001",
+        "district": "Kota Raja"
+    }, {
+        "id": "3002",
+        "district": "Maulafa"
+    }, {
+        "id": "3003",
+        "district": "Oebobo"
+    }]
+}
