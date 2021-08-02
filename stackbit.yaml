@@ -141,11 +141,6 @@ models:
         items:
           type: enum
           options:
-            - page
-            - home
-            - section
-            - taxonomy
-            - taxonomyTerm
             - RSS
             - sitemap
             - robotsTXT
