@@ -45,7 +45,16 @@ models:
         label: Base URL
         description: Hostname (and path) to the root
         hidden: true
-        
+      - type: object
+        name: params
+        label: Params
+        description: Site parameters
+        required: true
+        fields:
+          - type: string
+            name: description
+            label: Deskripsi Website
+            description: deskripsi website yang digunakan dalam meta.
       - type: object
         name: params
         label: Params
