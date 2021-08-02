@@ -154,21 +154,11 @@ params:
         links:
           - label: Cara Belanja
             url: /cara-order
-          - type: action
-            template: action
-            label: Konfirmasi Pembayaran
+          - label: Konfirmasi Pembayaran
             url: /konfirmasi-pembayaran
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: Panduan Ukuran
+          - label: Panduan Ukuran
             url: /panduan-ukuran
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: Give Away
+          - label: Give Away
             url: /give-away
             style: link
             css: text-sm
