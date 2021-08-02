@@ -125,9 +125,9 @@ models:
             const: brand
             hidden: true
           - type: string
-            label: Brand
-            name: brand
-            const: brand
+            label: Collection
+            name: collection
+            const: collection
             hidden: true
       - type: list
         name: disableKinds
