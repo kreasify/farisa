@@ -34,7 +34,7 @@ models:
   config:
     type: data
     label: Konfigurasi Website
-    file: config.yml
+    file: config.yaml
 
     type: config
     label: Konfigurasi Website
