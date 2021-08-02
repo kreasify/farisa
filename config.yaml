@@ -19,7 +19,7 @@ outputs:
   section:
     - HTML
 params:
-  
+  palette: 
   colors:
     header_text: ''
   description: Jaket Muslimah Khusus Hijaber
