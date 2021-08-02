@@ -27,8 +27,8 @@
       </span>
       <p class="text-gray-50 mb-0">Email • {{ $site.email }}</p>
     </div>
-    {{ end }}
-    {{ if $site.address }}
+    {{- end }}
+    {{- if $site.address }}
     <div class="flex items-center mb-2">
       <span
         class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
@@ -36,6 +36,6 @@
       </span>
       <p class="text-gray-50 mb-0">{{ $site.address }}</p>
     </div>
-    {{ end }}
+    {{- end }}
   </div>
 </section>
