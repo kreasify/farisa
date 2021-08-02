@@ -625,6 +625,10 @@ models:
         label: Label
         required: true
       - type: string
+        name: name
+        label: Nama
+        required: true
+      - type: string
         name: url
         label: URL
         required: true
