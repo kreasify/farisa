@@ -105,9 +105,9 @@ models:
         hidden: true
         fields:
           - type: string
-            label: Stub
+            label: Tag
             name: tag
-            const: stub
+            const: tag
             hidden: true
       - type: list
         name: disableKinds
