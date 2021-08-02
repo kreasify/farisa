@@ -5,7 +5,7 @@
       {{ range $widget.links }}
       <li>
         <a class="{{ with .css }} {{ . }}{{ end }}"
-          href="{{ .url | relURL }}" {{ if .new_window }}target="_blank" rel="noopener" {{ end }}>{{ .label }}</a>
+          href="{{ .url | absURL }}" {{ if .new_window }}target="_blank" rel="noopener" {{ end }}>{{ .label }}</a>
       </li>
       {{ end }}
     </ul>
