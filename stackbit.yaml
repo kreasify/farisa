@@ -32,6 +32,10 @@ pageData:
       - '[1].fields.palette'
 models:
   config:
+    type: data
+    label: Config
+    file: config.yml
+    
     type: config
     label: Konfigurasi Website
     fields:
