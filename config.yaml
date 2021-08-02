@@ -241,6 +241,7 @@ menu:
       name: Katalog Hijacket
       url: /hijacket
       weight: 2
+      main: true
     - identifier: micromask
       name: Micro Mask
       url: /micromask
