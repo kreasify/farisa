@@ -159,7 +159,7 @@ models:
         hidden: true
   menu:
     type: object
-    label: Header Configuration
+    label: Menu
     labelField: title
     fields:
       - type: list
