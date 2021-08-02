@@ -46,8 +46,8 @@ models:
         description: Hostname (and path) to the root
         hidden: true
       - type: object
-        name: params
-        label: Params
+        name: permalinks
+        label: Permalinks
         description: Site parameters
         required: true
         fields:
