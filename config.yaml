@@ -163,8 +163,6 @@ params:
             style: link
             css: text-sm
           - type: action
-            template: action
-            label: FAQ
             url: /faq
             style: link
             css: text-sm
