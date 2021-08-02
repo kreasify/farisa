@@ -13,17 +13,6 @@ excerpt: >-
   Itaque hoc frequenter dici solet a vobis, non intellegere nos, quam dicat
   Epicurus voluptatem. Sin kakan malitiam dixisses, ad aliud nos unum certum
   vitium consuetudo Latina traduceret.
-sections:
-  - type: slider_section
-    template: slider_section
-    slides:
-      - image: /uploads/hero-1.jpg
-        alt_text: home 1
-        title: Handmade Hand Carved Coffee
-        subtitle: As rich and unique as the coffee beans it is intended for, this little scoop will make your morning ritual a special occasion every day.
-        button_text: order now
-        button_link: /order
-layout: blog
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Teneo, inquit, finem illi videri nihil dolere. Quid est enim aliud esse versutum. Age, inquies, ista parva sunt. Verum hoc idem saepe faciamus. Atque ab his initiis profecti omnium virtutum et originem et progressionem persecuti sunt. Duo Reges: constructio interrete. Itaque eos id agere, ut a se dolores, morbos, debilitates repellant. Estne, quaeso, inquam, sitienti in bibendo voluptas? Iam in altera philosophiae parte. Quem Tiberina descensio festo illo die tanto gaudio affecit, quanto L.
