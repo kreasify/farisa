@@ -673,7 +673,7 @@ models:
       - action
     fields:
       - type: boolean
-        name: has_subnav
+        name: main
         label: Has Sub-Navigation
         default: false
       - type: list
