@@ -159,8 +159,6 @@ params:
             style: link
             css: text-sm
           - type: action
-            template: action
-            label: Kontak Kami
             url: /kontak-kami
             style: link
             css: text-sm
