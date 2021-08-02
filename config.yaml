@@ -143,13 +143,9 @@ params:
     has_widget: true
     sections:
       - type: widget_recent_post
-        template: widget_recent_post
       - type: widget_categories
-        template: widget_categories
       - type: widget_tags
-        template: widget_tags
       - type: widget_contact_section
-        template: widget_contact_section
         phone: 123456789
         whatsapp: 6285156514890
         email: hijacket.cs@gmail.com
