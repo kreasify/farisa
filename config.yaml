@@ -233,7 +233,7 @@ build:
   writeStats: true
 menu:
   main:
-    - identifier: 
+    - identifier: home
       url: '#'
       name: Home
       weight: 1
