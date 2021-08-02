@@ -67,6 +67,7 @@ models:
             name: pages
             label: Halaman
             description: Link Halaman
+            
       - type: object
         name: params
         label: Params
