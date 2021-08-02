@@ -166,7 +166,6 @@ params:
         whatsapp: 6285156514890
         email: hijacket.cs@gmail.com
         address: 'Jl. Mahmud No. 109 Rahayu, Margaasih, Kab. Bandung. 40218'
-      - type: widget_tags
     has_widget_left: true
     has_widget_center: true
     has_widget_right: true
