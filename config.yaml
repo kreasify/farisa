@@ -21,7 +21,7 @@ outputs:
 params:
   palette: coffee
   colors:
-    header_text: 'green'
+    header_text: green
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
   contact:
@@ -235,26 +235,26 @@ menu:
   main:
     - identifier: home
       name: Home
-      url: "/"
+      url: /
       weight: 1
     - identifier: hijacket
       name: Katalog Hijacket
-      url: "/hijacket"
+      url: /hijacket
       weight: 2
-    - identifier: alcavella
-      name: Katalog Alcavella
-      url: "/alcavella"
-      weight: 3
     - identifier: micromask
       name: Micro Mask
-      url: "/micromask"
+      url: /micromask
       weight: 4
+    - identifier: alcavella
+      name: Katalog Alcavella
+      url: /alcavella
+      weight: 3
     - identifier: warna
       name: Koleksi Warna
-      url: "/warna"
+      url: /warna
       weight: 5
     - identifier: avia
       name: Hijacket Avia
-      url: "/warna"
-      parent: "hijacket"
+      url: /warna
+      parent: hijacket
       weight: 1
