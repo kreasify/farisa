@@ -5,6 +5,7 @@
         <h4 class="section__title text-footer-text font-medium mb-3">{{ $widget.title }}</h4>
     </header>
     {{- end }}
+    {{- if $widget.links }}
     <nav class="navbar">
         <ul class="navbar__menu menu">
             {{- range $widget.links }}
@@ -15,4 +16,5 @@
             {{- end }}
         </ul>
     </nav>
+    {{- end }}
 </div>
