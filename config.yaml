@@ -155,12 +155,8 @@ params:
             style: link
 
             url: /tentang-kami
-            style: link
-            css: text-sm
           - type: action
             url: /kontak-kami
-            style: link
-            css: text-sm
           - type: action
             url: /faq
             style: link
