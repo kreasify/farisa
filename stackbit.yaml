@@ -76,7 +76,7 @@ models:
             label: Warna
             description: Link Warna
           - type: string
-            name: color
+            name: shop
             label: Warna
             description: Link Warna
       - type: object
