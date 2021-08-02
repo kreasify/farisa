@@ -70,7 +70,7 @@ models:
           - type: string
             name: collections
             label: Koleksi
-            description: Link Halaman
+            description: Link Koleksi
       - type: object
         name: params
         label: Params
