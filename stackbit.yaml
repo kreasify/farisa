@@ -75,6 +75,10 @@ models:
             name: color
             label: Warna
             description: Link Warna
+          - type: string
+            name: color
+            label: Warna
+            description: Link Warna
       - type: object
         name: params
         label: Params
