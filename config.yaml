@@ -151,8 +151,6 @@ params:
       - type: widget_menu
         links:
           - type: action
-            template: action
-            label: Syarat dan Ketentuan
             url: /syarat-dan-ketentuan
             style: link
             css: text-sm
