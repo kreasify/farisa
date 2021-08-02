@@ -136,7 +136,6 @@ params:
       - type: widget_tags
   footer:
     type: footer
-    template: footer
     has_widget: true
     sections:
       - type: widget_recent_post
