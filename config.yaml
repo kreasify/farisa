@@ -143,6 +143,7 @@ params:
       - type: widget_categories
       - type: widget_tags
       - type: widget_contact_section
+        title: Kontak Kami
         phone: 123456789
         whatsapp: 6285156514890
         email: hijacket.cs@gmail.com
