@@ -1,7 +1,7 @@
 {{- $site := .Site }}
 <section class="footer-widget col-span-3 lg:col-span-1 text-footer-text-primary">
   <div class="contact text-sm text-gray-700">
-    {{ if $site.phone }}
+    {{- if $site.phone }}
     <div class="flex items-center mb-2">
       <span
         class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
@@ -9,8 +9,8 @@
       </span>
       <p class="text-gray-50 mb-0">WhatsApp • {{ string $site.phone }}</p>
     </div>
-    {{ end }}
-    {{ if $site.whatsapp }}
+    {{- end }}
+    {{- if $site.whatsapp }}
     <div class="flex items-center mb-2">
       <span
         class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
@@ -18,8 +18,8 @@
       </span>
       <p class="text-gray-50 mb-0">WhatsApp • {{ string $site.whatsapp }}</p>
     </div>
-    {{ end }}
-    {{ if $site.email }}
+    {{- end }}
+    {{- if $site.email }}
     <div class="flex items-center mb-2">
       <span
         class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
