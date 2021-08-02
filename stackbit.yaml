@@ -38,7 +38,7 @@ models:
       - type: string
         name: title
         label: Judul
-        description: 
+        description: Nama Website
         required: true
       - type: string
         name: baseURL
