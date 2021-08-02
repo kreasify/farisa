@@ -81,10 +81,10 @@ models:
             label: Shop
             description: Link Shop
       - type: model
-        name: header
-        label: Header Configuration
+        name: menu
+        label: Menu Site
         models:
-          - header
+          - menu
       - type: object
         name: params
         label: Params
