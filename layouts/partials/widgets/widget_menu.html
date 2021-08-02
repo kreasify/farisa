@@ -9,7 +9,7 @@
         <ul class="navbar__menu menu">
             {{- range $widget.links }}
             <li>
-            <a class="{{ with .css }} {{ . }}{{ end }}"
+            <a class="text-sm text-footer-text"
                 href="{{ .url | absURL }}" {{ if .new_window }}target="_blank" rel="noopener" {{ end }}>{{ .label }}</a>
             </li>
             {{- end }}
