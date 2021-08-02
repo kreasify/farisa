@@ -48,7 +48,7 @@ models:
       - type: object
         name: permalinks
         label: Permalinks
-        description: Permalink 
+        description: Permalink Website
         required: true
         fields:
           - type: string
