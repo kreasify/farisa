@@ -7,7 +7,7 @@ menu:
   main:
     name: stripes
     weight: 50
-    parent: Katalog Alcavella
+    parent: alcavella
     params:
       label: new
       class: bg-accent
