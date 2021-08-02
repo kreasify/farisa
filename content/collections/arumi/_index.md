@@ -7,7 +7,7 @@ menu:
   main:
     name: arumi
     weight: 10
-    parent: Katalog Alcavella
+    parent: alcavella
     params:
       label: new
       class: bg-accent
