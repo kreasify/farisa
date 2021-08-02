@@ -183,9 +183,7 @@ params:
         url: 'https://www.instagram.com/hijacket_net'
         style: link
         new_window: true
-      - type: social
-        template: social
-        label: Telegram
+      - label: Telegram
         icon: telegram
         url: 'https://t.me/hijacket.net'
         style: link
