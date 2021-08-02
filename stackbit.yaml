@@ -54,7 +54,7 @@ models:
           - type: string
             name: description
             label: Deskripsi Website
-            description: The default site description used in meta data.
+            description: deskripsi website yang digunakan dalam metaThe default site description used in meta data.
           - type: model
             name: header
             label: Header Configuration
