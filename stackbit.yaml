@@ -130,9 +130,9 @@ models:
             const: collection
             hidden: true
           - type: string
-            label: Collection
-            name: collection
-            const: collection
+            label: Color
+            name: color
+            const: color
             hidden: true
       - type: list
         name: disableKinds
