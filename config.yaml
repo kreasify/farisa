@@ -149,6 +149,7 @@ params:
             url: /kontak-kami
           - label: FAQ
             url: /faq
+            
       - type: widget_contact
         title: Kontak Kami
         phone: 123456789
