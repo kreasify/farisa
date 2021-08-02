@@ -5,14 +5,14 @@
         <h4 class="section__title text-footer-text font-medium mb-3">{{ $widget.title }}</h4>
     </header>
     {{- end }}
-  <nav class="navbar">
+    <nav class="navbar">
     <ul class="navbar__menu menu">
-      {{ range $widget.links }}
-      <li>
+        {{ range $widget.links }}
+        <li>
         <a class="{{ with .css }} {{ . }}{{ end }}"
-          href="{{ .url | absURL }}" {{ if .new_window }}target="_blank" rel="noopener" {{ end }}>{{ .label }}</a>
-      </li>
-      {{ end }}
+            href="{{ .url | absURL }}" {{ if .new_window }}target="_blank" rel="noopener" {{ end }}>{{ .label }}</a>
+        </li>
+        {{ end }}
     </ul>
-  </nav>
+    </nav>
 </div>
