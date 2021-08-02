@@ -1,0 +1,52 @@
+{
+    "title": "463",
+    "id": "463",
+    "city": "Tapanuli Selatan",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "6371",
+        "district": "Aek Bilah"
+    }, {
+        "id": "6372",
+        "district": "Angkola Barat (Padang Sidempuan)"
+    }, {
+        "id": "6373",
+        "district": "Angkola Sangkunur"
+    }, {
+        "id": "6374",
+        "district": "Angkola Selatan (Siais)"
+    }, {
+        "id": "6375",
+        "district": "Angkola Timur (Padang Sidempuan)"
+    }, {
+        "id": "6376",
+        "district": "Arse"
+    }, {
+        "id": "6377",
+        "district": "Batang Angkola"
+    }, {
+        "id": "6378",
+        "district": "Batang Toru"
+    }, {
+        "id": "6379",
+        "district": "Marancar"
+    }, {
+        "id": "6380",
+        "district": "Muara Batang Toru"
+    }, {
+        "id": "6381",
+        "district": "Saipar Dolok Hole"
+    }, {
+        "id": "6382",
+        "district": "Sayur Matinggi"
+    }, {
+        "id": "6383",
+        "district": "Sipirok"
+    }, {
+        "id": "6384",
+        "district": "Tano Tombangan Angkola"
+    }]
+}

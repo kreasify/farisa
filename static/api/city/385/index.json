@@ -1,0 +1,28 @@
+{
+    "title": "385",
+    "id": "385",
+    "city": "Sabu Raijua",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "5346",
+        "district": "Hawu Mehara"
+    }, {
+        "id": "5347",
+        "district": "Raijua"
+    }, {
+        "id": "5348",
+        "district": "Sabu Barat"
+    }, {
+        "id": "5349",
+        "district": "Sabu Liae"
+    }, {
+        "id": "5350",
+        "district": "Sabu Tengah"
+    }, {
+        "id": "5351",
+        "district": "Sabu Timur"
+    }]
+}

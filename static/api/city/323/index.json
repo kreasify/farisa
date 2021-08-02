@@ -1,0 +1,28 @@
+{
+    "title": "323",
+    "id": "323",
+    "city": "Padang Sidempuan",
+    "type": "Kota",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "4585",
+        "district": "Padang Sidempuan Angkola Julu"
+    }, {
+        "id": "4586",
+        "district": "Padang Sidempuan Batunadua"
+    }, {
+        "id": "4587",
+        "district": "Padang Sidempuan Hutaimbaru"
+    }, {
+        "id": "4588",
+        "district": "Padang Sidempuan Selatan"
+    }, {
+        "id": "4589",
+        "district": "Padang Sidempuan Tenggara"
+    }, {
+        "id": "4590",
+        "district": "Padang Sidempuan Utara (Padangsidimpuan)"
+    }]
+}

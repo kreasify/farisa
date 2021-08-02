@@ -1,0 +1,34 @@
+{
+    "title": "494",
+    "id": "494",
+    "city": "Wakatobi",
+    "type": "Kabupaten",
+    "province_id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "6854",
+        "district": "Binongko"
+    }, {
+        "id": "6855",
+        "district": "Kaledupa"
+    }, {
+        "id": "6856",
+        "district": "Kaledupa Selatan"
+    }, {
+        "id": "6857",
+        "district": "Togo Binongko"
+    }, {
+        "id": "6858",
+        "district": "Tomia"
+    }, {
+        "id": "6859",
+        "district": "Tomia Timur"
+    }, {
+        "id": "6860",
+        "district": "Wangi-Wangi"
+    }, {
+        "id": "6861",
+        "district": "Wangi-Wangi Selatan"
+    }]
+}

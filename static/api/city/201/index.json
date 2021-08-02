@@ -1,0 +1,76 @@
+{
+    "title": "201",
+    "id": "201",
+    "city": "Konawe Selatan",
+    "type": "Kabupaten",
+    "province_id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_districts" : "22",
+    "data" : [{
+        "id": "2817",
+        "district": "Andoolo"
+    }, {
+        "id": "2818",
+        "district": "Angata"
+    }, {
+        "id": "2819",
+        "district": "Baito"
+    }, {
+        "id": "2820",
+        "district": "Basala"
+    }, {
+        "id": "2821",
+        "district": "Benua"
+    }, {
+        "id": "2822",
+        "district": "Buke"
+    }, {
+        "id": "2823",
+        "district": "Kolono"
+    }, {
+        "id": "2824",
+        "district": "Konda"
+    }, {
+        "id": "2825",
+        "district": "Laeya"
+    }, {
+        "id": "2826",
+        "district": "Lainea"
+    }, {
+        "id": "2827",
+        "district": "Lalembuu / Lalumbuu"
+    }, {
+        "id": "2828",
+        "district": "Landono"
+    }, {
+        "id": "2829",
+        "district": "Laonti"
+    }, {
+        "id": "2830",
+        "district": "Moramo"
+    }, {
+        "id": "2831",
+        "district": "Moramo Utara"
+    }, {
+        "id": "2832",
+        "district": "Mowila"
+    }, {
+        "id": "2833",
+        "district": "Palangga"
+    }, {
+        "id": "2834",
+        "district": "Palangga Selatan"
+    }, {
+        "id": "2835",
+        "district": "Ranomeeto"
+    }, {
+        "id": "2836",
+        "district": "Ranomeeto Barat"
+    }, {
+        "id": "2837",
+        "district": "Tinanggea"
+    }, {
+        "id": "2838",
+        "district": "Wolasi"
+    }]
+}

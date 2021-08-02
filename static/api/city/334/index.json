@@ -1,0 +1,31 @@
+{
+    "title": "334",
+    "id": "334",
+    "city": "Pangkal Pinang",
+    "type": "Kota",
+    "province_id": "2",
+    "province": "Bangka Belitung",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "4713",
+        "district": "Bukit Intan"
+    }, {
+        "id": "4714",
+        "district": "Gabek"
+    }, {
+        "id": "4715",
+        "district": "Gerunggang"
+    }, {
+        "id": "4716",
+        "district": "Girimaya"
+    }, {
+        "id": "4717",
+        "district": "Pangkal Balam"
+    }, {
+        "id": "4718",
+        "district": "Rangkui"
+    }, {
+        "id": "4719",
+        "district": "Taman Sari"
+    }]
+}

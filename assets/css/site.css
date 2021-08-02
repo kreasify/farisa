@@ -1,0 +1,124 @@
+#autoComplete::placeholder {
+  transition: all 0.3s ease;
+}
+
+#autoComplete:hover::placeholder {
+  transition: all 0.3s ease;
+}
+
+#autoComplete::selection {
+  /* color: transparent; */
+  color: #3b5999;
+}
+
+#autoComplete:focus::selection {
+  color: #fff;
+  background-color: #3b5999;
+}
+
+#autoComplete_list {
+  padding: 0;
+  transition: all 0.1s ease-in-out;
+}
+
+.autoComplete_result {
+	@apply text-sm text-body-text-secondary bg-body list-none py-1 px-2 mb-0;
+
+  border-left: 0.05rem solid #e3e3e3;
+  border-right: 0.05rem solid #e3e3e3;
+  transition: all 0.1s ease-in-out;
+
+
+  &:last-child {
+    border-bottom: 0.05rem solid #e3e3e3;
+    border-radius: 0 0 0.5rem 0.5rem
+  }
+}
+
+.autoComplete_result::selection {
+	@apply text-body bg-body-secondary;
+}
+
+.autoComplete_result:hover {
+	@apply cursor-pointer bg-body-secondary;
+
+  border-left: 2px solid #ED8936;
+  border-right: 2px solid #ED8936;
+}
+
+.autoComplete_result:focus {
+  outline: none;
+  background-color: #FFFAF0;
+  border-left: 2px solid #ED8936;
+  border-right: 2px solid #ED8936;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.autoComplete_highlighted {
+	@apply text-body-text-secondary font-bold;
+}
+
+.autoComplete_highlighted::selection {
+	@apply text-primary bg-body-secondary;
+}
+
+.autoComplete_selected {
+	@apply cursor-pointer bg-body-secondary;
+	
+  border-left: 2px solid #ED8936;
+  border-right: 2px solid #ED8936;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+@media only screen and (max-width: 600px) {
+  #autoComplete:focus {
+    background-size: 1.6rem;
+    background-position: left 1.1rem top 0.75rem;
+  }
+
+  .autoComplete_result:first-child {
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .autoComplete_result:last-child {
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  .autoComplete_result:only-child {
+    border-radius: 1rem;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #autoComplete {
+    border-width: 1px;
+  }
+
+  #autoComplete:hover {
+    border-width: 1px;
+  }
+
+  #autoComplete:focus {
+    border-width: 1px;
+  }
+}
+
+@-moz-document url-prefix() {
+  #autoComplete {
+    border-width: 1px;
+    background-size: 1.2rem;
+    background-origin: border-box;
+    background-position: center;
+  }
+
+  #autoComplete:hover {
+    border-width: 1px;
+  }
+
+  #autoComplete:focus {
+    border-width: 1px;
+    background-position: left 1.1rem top 0.8rem;
+  }
+}

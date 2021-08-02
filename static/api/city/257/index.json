@@ -1,0 +1,55 @@
+{
+    "title": "257",
+    "id": "257",
+    "city": "Malinau",
+    "type": "Kabupaten",
+    "province_id": "16",
+    "province": "Kalimantan Utara",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "3639",
+        "district": "Bahau Hulu"
+    }, {
+        "id": "3640",
+        "district": "Kayan Hilir"
+    }, {
+        "id": "3641",
+        "district": "Kayan Hulu"
+    }, {
+        "id": "3642",
+        "district": "Kayan Selatan"
+    }, {
+        "id": "3643",
+        "district": "Malinau Barat"
+    }, {
+        "id": "3644",
+        "district": "Malinau Kota"
+    }, {
+        "id": "3645",
+        "district": "Malinau Selatan"
+    }, {
+        "id": "3646",
+        "district": "Malinau Selatan Hilir"
+    }, {
+        "id": "3647",
+        "district": "Malinau Selatan Hulu"
+    }, {
+        "id": "3648",
+        "district": "Malinau Utara"
+    }, {
+        "id": "3649",
+        "district": "Mentarang"
+    }, {
+        "id": "3650",
+        "district": "Mentarang Hulu"
+    }, {
+        "id": "3651",
+        "district": "Pujungan"
+    }, {
+        "id": "3652",
+        "district": "Sungai Boh"
+    }, {
+        "id": "3653",
+        "district": "Sungai Tubu"
+    }]
+}

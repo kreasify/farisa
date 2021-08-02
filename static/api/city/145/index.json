@@ -1,0 +1,40 @@
+{
+    "title": "145",
+    "id": "145",
+    "city": "Hulu Sungai Utara",
+    "type": "Kabupaten",
+    "province_id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "1996",
+        "district": "Amuntai Selatan"
+    }, {
+        "id": "1997",
+        "district": "Amuntai Tengah"
+    }, {
+        "id": "1998",
+        "district": "Amuntai Utara"
+    }, {
+        "id": "1999",
+        "district": "Babirik"
+    }, {
+        "id": "2000",
+        "district": "Banjang"
+    }, {
+        "id": "2001",
+        "district": "Danau Panggang"
+    }, {
+        "id": "2002",
+        "district": "Haur Gading"
+    }, {
+        "id": "2003",
+        "district": "Paminggir"
+    }, {
+        "id": "2004",
+        "district": "Sungai Pandan"
+    }, {
+        "id": "2005",
+        "district": "Sungai Tabukan"
+    }]
+}

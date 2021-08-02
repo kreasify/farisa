@@ -1,0 +1,73 @@
+{
+    "title": "344",
+    "id": "344",
+    "city": "Pati",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "4821",
+        "district": "Batangan"
+    }, {
+        "id": "4822",
+        "district": "Cluwak"
+    }, {
+        "id": "4823",
+        "district": "Dukuhseti"
+    }, {
+        "id": "4824",
+        "district": "Gabus"
+    }, {
+        "id": "4825",
+        "district": "Gembong"
+    }, {
+        "id": "4826",
+        "district": "Gunungwungkal"
+    }, {
+        "id": "4827",
+        "district": "Jaken"
+    }, {
+        "id": "4828",
+        "district": "Jakenan"
+    }, {
+        "id": "4829",
+        "district": "Juwana"
+    }, {
+        "id": "4830",
+        "district": "Kayen"
+    }, {
+        "id": "4831",
+        "district": "Margorejo"
+    }, {
+        "id": "4832",
+        "district": "Margoyoso"
+    }, {
+        "id": "4833",
+        "district": "Pati"
+    }, {
+        "id": "4834",
+        "district": "Pucakwangi"
+    }, {
+        "id": "4835",
+        "district": "Sukolilo"
+    }, {
+        "id": "4836",
+        "district": "Tambakromo"
+    }, {
+        "id": "4837",
+        "district": "Tayu"
+    }, {
+        "id": "4838",
+        "district": "Tlogowungu"
+    }, {
+        "id": "4839",
+        "district": "Trangkil"
+    }, {
+        "id": "4840",
+        "district": "Wedarijaksa"
+    }, {
+        "id": "4841",
+        "district": "Winong"
+    }]
+}

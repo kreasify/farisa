@@ -1,0 +1,49 @@
+{
+    "title": "460",
+    "id": "460",
+    "city": "Tanjung Jabung Barat",
+    "type": "Kabupaten",
+    "province_id": "8",
+    "province": "Jambi",
+    "number_of_districts" : "13",
+    "data" : [{
+        "id": "6343",
+        "district": "Batang Asam"
+    }, {
+        "id": "6344",
+        "district": "Betara"
+    }, {
+        "id": "6345",
+        "district": "Bram Itam"
+    }, {
+        "id": "6346",
+        "district": "Kuala Betara"
+    }, {
+        "id": "6347",
+        "district": "Merlung"
+    }, {
+        "id": "6348",
+        "district": "Muara Papalik"
+    }, {
+        "id": "6349",
+        "district": "Pengabuan"
+    }, {
+        "id": "6350",
+        "district": "Renah Mendaluh"
+    }, {
+        "id": "6351",
+        "district": "Seberang Kota"
+    }, {
+        "id": "6352",
+        "district": "Senyerang"
+    }, {
+        "id": "6353",
+        "district": "Tebing Tinggi"
+    }, {
+        "id": "6354",
+        "district": "Tungkal Ilir"
+    }, {
+        "id": "6355",
+        "district": "Tungkal Ulu"
+    }]
+}

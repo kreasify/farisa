@@ -1,0 +1,67 @@
+{
+    "title": "451",
+    "id": "451",
+    "city": "Tana Toraja",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "6214",
+        "district": "Bittuang"
+    }, {
+        "id": "6215",
+        "district": "Bonggakaradeng"
+    }, {
+        "id": "6216",
+        "district": "Gandang Batu Sillanan"
+    }, {
+        "id": "6217",
+        "district": "Kurra"
+    }, {
+        "id": "6218",
+        "district": "Makale"
+    }, {
+        "id": "6219",
+        "district": "Makale Selatan"
+    }, {
+        "id": "6220",
+        "district": "Makale Utara"
+    }, {
+        "id": "6221",
+        "district": "Malimbong Balepe"
+    }, {
+        "id": "6222",
+        "district": "Mappak"
+    }, {
+        "id": "6223",
+        "district": "Masanda"
+    }, {
+        "id": "6224",
+        "district": "Mengkendek"
+    }, {
+        "id": "6225",
+        "district": "Rano"
+    }, {
+        "id": "6226",
+        "district": "Rantetayo"
+    }, {
+        "id": "6227",
+        "district": "Rembon"
+    }, {
+        "id": "6228",
+        "district": "Saluputti"
+    }, {
+        "id": "6229",
+        "district": "Sangalla (Sanggala)"
+    }, {
+        "id": "6230",
+        "district": "Sangalla Selatan"
+    }, {
+        "id": "6231",
+        "district": "Sangalla Utara"
+    }, {
+        "id": "6232",
+        "district": "Simbuang"
+    }]
+}

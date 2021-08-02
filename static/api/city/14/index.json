@@ -1,0 +1,25 @@
+{
+    "title": "14",
+    "id": "14",
+    "city": "Ambon",
+    "type": "Kota",
+    "province_id": "19",
+    "province": "Maluku",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "209",
+        "district": "Baguala"
+    }, {
+        "id": "210",
+        "district": "Leitimur Selatan"
+    }, {
+        "id": "211",
+        "district": "Nusaniwe (Nusanive)"
+    }, {
+        "id": "212",
+        "district": "Sirimau"
+    }, {
+        "id": "213",
+        "district": "Teluk Ambon"
+    }]
+}

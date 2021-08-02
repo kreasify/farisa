@@ -1,0 +1,22 @@
+{
+    "title": "467",
+    "id": "467",
+    "city": "Tarakan",
+    "type": "Kota",
+    "province_id": "16",
+    "province": "Kalimantan Utara",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "6432",
+        "district": "Tarakan Barat"
+    }, {
+        "id": "6433",
+        "district": "Tarakan Tengah"
+    }, {
+        "id": "6434",
+        "district": "Tarakan Timur"
+    }, {
+        "id": "6435",
+        "district": "Tarakan Utara"
+    }]
+}

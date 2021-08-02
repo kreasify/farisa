@@ -1,0 +1,58 @@
+{
+    "title": "163",
+    "id": "163",
+    "city": "Jepara",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "2248",
+        "district": "Bangsri"
+    }, {
+        "id": "2249",
+        "district": "Batealit"
+    }, {
+        "id": "2250",
+        "district": "Donorojo"
+    }, {
+        "id": "2251",
+        "district": "Jepara"
+    }, {
+        "id": "2252",
+        "district": "Kalinyamatan"
+    }, {
+        "id": "2253",
+        "district": "Karimunjawa"
+    }, {
+        "id": "2254",
+        "district": "Kedung"
+    }, {
+        "id": "2255",
+        "district": "Keling"
+    }, {
+        "id": "2256",
+        "district": "Kembang"
+    }, {
+        "id": "2257",
+        "district": "Mayong"
+    }, {
+        "id": "2258",
+        "district": "Mlonggo"
+    }, {
+        "id": "2259",
+        "district": "Nalumsari"
+    }, {
+        "id": "2260",
+        "district": "Pakis Aji"
+    }, {
+        "id": "2261",
+        "district": "Pecangaan"
+    }, {
+        "id": "2262",
+        "district": "Tahunan"
+    }, {
+        "id": "2263",
+        "district": "Welahan"
+    }]
+}

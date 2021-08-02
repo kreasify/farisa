@@ -1,0 +1,43 @@
+{
+    "title": "144",
+    "id": "144",
+    "city": "Hulu Sungai Tengah",
+    "type": "Kabupaten",
+    "province_id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "1985",
+        "district": "Barabai"
+    }, {
+        "id": "1986",
+        "district": "Batang Alai Selatan"
+    }, {
+        "id": "1987",
+        "district": "Batang Alai Timur"
+    }, {
+        "id": "1988",
+        "district": "Batang Alai Utara"
+    }, {
+        "id": "1989",
+        "district": "Batu Benawa"
+    }, {
+        "id": "1990",
+        "district": "Hantakan"
+    }, {
+        "id": "1991",
+        "district": "Haruyan"
+    }, {
+        "id": "1992",
+        "district": "Labuan Amas Selatan"
+    }, {
+        "id": "1993",
+        "district": "Labuan Amas Utara"
+    }, {
+        "id": "1994",
+        "district": "Limpasu"
+    }, {
+        "id": "1995",
+        "district": "Pandawan"
+    }]
+}

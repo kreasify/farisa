@@ -1,0 +1,49 @@
+{
+    "title": "475",
+    "id": "475",
+    "city": "Teluk Wondama",
+    "type": "Kabupaten",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "13",
+    "data" : [{
+        "id": "6548",
+        "district": "Kuri Wamesa"
+    }, {
+        "id": "6549",
+        "district": "Naikere (Wasior Barat)"
+    }, {
+        "id": "6550",
+        "district": "Nikiwar"
+    }, {
+        "id": "6551",
+        "district": "Rasiei"
+    }, {
+        "id": "6552",
+        "district": "Roon"
+    }, {
+        "id": "6553",
+        "district": "Roswar"
+    }, {
+        "id": "6554",
+        "district": "Rumberpon"
+    }, {
+        "id": "6555",
+        "district": "Soug Jaya"
+    }, {
+        "id": "6556",
+        "district": "Teluk Duairi (Wasior Utara)"
+    }, {
+        "id": "6557",
+        "district": "Wamesa"
+    }, {
+        "id": "6558",
+        "district": "Wasior"
+    }, {
+        "id": "6559",
+        "district": "Windesi"
+    }, {
+        "id": "6560",
+        "district": "Wondiboy (Wasior Selatan)"
+    }]
+}

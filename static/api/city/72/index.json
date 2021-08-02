@@ -1,0 +1,61 @@
+{
+    "title": "72",
+    "id": "72",
+    "city": "Bireuen",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "949",
+        "district": "Ganda Pura"
+    }, {
+        "id": "950",
+        "district": "Jangka"
+    }, {
+        "id": "951",
+        "district": "Jeumpa"
+    }, {
+        "id": "952",
+        "district": "Jeunieb"
+    }, {
+        "id": "953",
+        "district": "Juli"
+    }, {
+        "id": "954",
+        "district": "Kota Juang"
+    }, {
+        "id": "955",
+        "district": "Kuala"
+    }, {
+        "id": "956",
+        "district": "Kuta Blang"
+    }, {
+        "id": "957",
+        "district": "Makmur"
+    }, {
+        "id": "958",
+        "district": "Pandrah"
+    }, {
+        "id": "959",
+        "district": "Peudada"
+    }, {
+        "id": "960",
+        "district": "Peulimbang (Plimbang)"
+    }, {
+        "id": "961",
+        "district": "Peusangan"
+    }, {
+        "id": "962",
+        "district": "Peusangan Selatan"
+    }, {
+        "id": "963",
+        "district": "Peusangan Siblah Krueng"
+    }, {
+        "id": "964",
+        "district": "Samalanga"
+    }, {
+        "id": "965",
+        "district": "Simpang Mamplam"
+    }]
+}

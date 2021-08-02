@@ -1,0 +1,67 @@
+{
+    "title": "26",
+    "id": "26",
+    "city": "Banggai Kepulauan",
+    "type": "Kabupaten",
+    "province_id": "29",
+    "province": "Sulawesi Tengah",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "407",
+        "district": "Banggai"
+    }, {
+        "id": "408",
+        "district": "Banggai Selatan"
+    }, {
+        "id": "409",
+        "district": "Banggai Tengah"
+    }, {
+        "id": "410",
+        "district": "Banggai Utara"
+    }, {
+        "id": "411",
+        "district": "Bangkurung"
+    }, {
+        "id": "412",
+        "district": "Bokan Kepulauan"
+    }, {
+        "id": "413",
+        "district": "Buko"
+    }, {
+        "id": "414",
+        "district": "Buko Selatan"
+    }, {
+        "id": "415",
+        "district": "Bulagi"
+    }, {
+        "id": "416",
+        "district": "Bulagi Selatan"
+    }, {
+        "id": "417",
+        "district": "Bulagi Utara"
+    }, {
+        "id": "418",
+        "district": "Labobo (Lobangkurung)"
+    }, {
+        "id": "419",
+        "district": "Liang"
+    }, {
+        "id": "420",
+        "district": "Peling Tengah"
+    }, {
+        "id": "421",
+        "district": "Tinangkung"
+    }, {
+        "id": "422",
+        "district": "Tinangkung Selatan"
+    }, {
+        "id": "423",
+        "district": "Tinangkung Utara"
+    }, {
+        "id": "424",
+        "district": "Totikum (Totikung)"
+    }, {
+        "id": "425",
+        "district": "Totikum Selatan"
+    }]
+}

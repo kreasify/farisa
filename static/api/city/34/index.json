@@ -1,0 +1,22 @@
+{
+    "title": "34",
+    "id": "34",
+    "city": "Banjar",
+    "type": "Kota",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "495",
+        "district": "Banjar"
+    }, {
+        "id": "496",
+        "district": "Langensari"
+    }, {
+        "id": "497",
+        "district": "Pataruman"
+    }, {
+        "id": "498",
+        "district": "Purwaharja"
+    }]
+}

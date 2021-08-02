@@ -1,0 +1,31 @@
+{
+    "title": "431",
+    "id": "431",
+    "city": "Sukabumi",
+    "type": "Kota",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "5965",
+        "district": "Baros"
+    }, {
+        "id": "5966",
+        "district": "Cibeureum"
+    }, {
+        "id": "5967",
+        "district": "Cikole"
+    }, {
+        "id": "5968",
+        "district": "Citamiang"
+    }, {
+        "id": "5969",
+        "district": "Gunung Puyuh"
+    }, {
+        "id": "5970",
+        "district": "Lembursitu"
+    }, {
+        "id": "5971",
+        "district": "Warudoyong"
+    }]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "283",
+    "id": "283",
+    "city": "Metro",
+    "type": "Kota",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "3989",
+        "district": "Metro Barat"
+    }, {
+        "id": "3990",
+        "district": "Metro Pusat"
+    }, {
+        "id": "3991",
+        "district": "Metro Selatan"
+    }, {
+        "id": "3992",
+        "district": "Metro Timur"
+    }, {
+        "id": "3993",
+        "district": "Metro Utara"
+    }]
+}

@@ -1,0 +1,37 @@
+{
+    "title": "364",
+    "id": "364",
+    "city": "Pontianak",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "5092",
+        "district": "Anjongan"
+    }, {
+        "id": "5093",
+        "district": "Mempawah Hilir"
+    }, {
+        "id": "5094",
+        "district": "Mempawah Timur"
+    }, {
+        "id": "5095",
+        "district": "Sadaniang"
+    }, {
+        "id": "5096",
+        "district": "Segedong"
+    }, {
+        "id": "5097",
+        "district": "Sei/Sungai Kunyit"
+    }, {
+        "id": "5098",
+        "district": "Sei/Sungai Pinyuh"
+    }, {
+        "id": "5099",
+        "district": "Siantan"
+    }, {
+        "id": "5100",
+        "district": "Toho"
+    }]
+}

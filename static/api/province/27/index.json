@@ -1,0 +1,27 @@
+{
+    "title": "27",
+    "id": "27",
+    "province": "Sulawesi Barat",
+    "number_of_cities" : "5",
+    "data" : [{
+        "id": "253",
+        "city": "Majene",
+        "type": "Kabupaten"
+    }, {
+        "id": "262",
+        "city": "Mamasa",
+        "type": "Kabupaten"
+    }, {
+        "id": "265",
+        "city": "Mamuju",
+        "type": "Kabupaten"
+    }, {
+        "id": "266",
+        "city": "Mamuju Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "362",
+        "city": "Polewali Mandar",
+        "type": "Kabupaten"
+    }]
+}

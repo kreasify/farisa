@@ -1,0 +1,55 @@
+{
+    "title": "223",
+    "id": "223",
+    "city": "Lampung Barat",
+    "type": "Kabupaten",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "3140",
+        "district": "Air Hitam"
+    }, {
+        "id": "3141",
+        "district": "Balik Bukit"
+    }, {
+        "id": "3142",
+        "district": "Bandar Negeri Suoh"
+    }, {
+        "id": "3143",
+        "district": "Batu Brak"
+    }, {
+        "id": "3144",
+        "district": "Batu Ketulis"
+    }, {
+        "id": "3145",
+        "district": "Belalau"
+    }, {
+        "id": "3146",
+        "district": "Gedung Surian"
+    }, {
+        "id": "3147",
+        "district": "Kebun Tebu"
+    }, {
+        "id": "3148",
+        "district": "Lumbok Seminung"
+    }, {
+        "id": "3149",
+        "district": "Pagar Dewa"
+    }, {
+        "id": "3150",
+        "district": "Sekincau"
+    }, {
+        "id": "3151",
+        "district": "Sukau"
+    }, {
+        "id": "3152",
+        "district": "Sumber Jaya"
+    }, {
+        "id": "3153",
+        "district": "Suoh"
+    }, {
+        "id": "3154",
+        "district": "Way Tenong"
+    }]
+}

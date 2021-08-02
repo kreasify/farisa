@@ -1,0 +1,73 @@
+{
+    "title": "412",
+    "id": "412",
+    "city": "Sikka",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "5672",
+        "district": "Alok"
+    }, {
+        "id": "5673",
+        "district": "Alok Barat"
+    }, {
+        "id": "5674",
+        "district": "Alok Timur"
+    }, {
+        "id": "5675",
+        "district": "Bola"
+    }, {
+        "id": "5676",
+        "district": "Doreng"
+    }, {
+        "id": "5677",
+        "district": "Hewokloang"
+    }, {
+        "id": "5678",
+        "district": "Kangae"
+    }, {
+        "id": "5679",
+        "district": "Kewapante"
+    }, {
+        "id": "5680",
+        "district": "Koting"
+    }, {
+        "id": "5681",
+        "district": "Lela"
+    }, {
+        "id": "5682",
+        "district": "Magepanda"
+    }, {
+        "id": "5683",
+        "district": "Mapitara"
+    }, {
+        "id": "5684",
+        "district": "Mego"
+    }, {
+        "id": "5685",
+        "district": "Nelle (Maumerei)"
+    }, {
+        "id": "5686",
+        "district": "Nita"
+    }, {
+        "id": "5687",
+        "district": "Paga"
+    }, {
+        "id": "5688",
+        "district": "Palue"
+    }, {
+        "id": "5689",
+        "district": "Talibura"
+    }, {
+        "id": "5690",
+        "district": "Tana Wawo"
+    }, {
+        "id": "5691",
+        "district": "Waiblama"
+    }, {
+        "id": "5692",
+        "district": "Waigete"
+    }]
+}

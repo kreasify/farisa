@@ -1,0 +1,64 @@
+{
+    "title": "133",
+    "id": "133",
+    "city": "Gresik",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "1828",
+        "district": "Balong Panggang"
+    }, {
+        "id": "1829",
+        "district": "Benjeng"
+    }, {
+        "id": "1830",
+        "district": "Bungah"
+    }, {
+        "id": "1831",
+        "district": "Cerme"
+    }, {
+        "id": "1832",
+        "district": "Driyorejo"
+    }, {
+        "id": "1833",
+        "district": "Duduk Sampeyan"
+    }, {
+        "id": "1834",
+        "district": "Dukun"
+    }, {
+        "id": "1835",
+        "district": "Gresik"
+    }, {
+        "id": "1836",
+        "district": "Kebomas"
+    }, {
+        "id": "1837",
+        "district": "Kedamean"
+    }, {
+        "id": "1838",
+        "district": "Manyar"
+    }, {
+        "id": "1839",
+        "district": "Menganti"
+    }, {
+        "id": "1840",
+        "district": "Panceng"
+    }, {
+        "id": "1841",
+        "district": "Sangkapura"
+    }, {
+        "id": "1842",
+        "district": "Sidayu"
+    }, {
+        "id": "1843",
+        "district": "Tambak"
+    }, {
+        "id": "1844",
+        "district": "Ujung Pangkah"
+    }, {
+        "id": "1845",
+        "district": "Wringin Anom"
+    }]
+}

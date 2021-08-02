@@ -1,0 +1,64 @@
+{
+    "title": "31",
+    "id": "31",
+    "city": "Bangkalan",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "454",
+        "district": "Arosbaya"
+    }, {
+        "id": "455",
+        "district": "Bangkalan"
+    }, {
+        "id": "456",
+        "district": "Blega"
+    }, {
+        "id": "457",
+        "district": "Burneh"
+    }, {
+        "id": "458",
+        "district": "Galis"
+    }, {
+        "id": "459",
+        "district": "Geger"
+    }, {
+        "id": "460",
+        "district": "Kamal"
+    }, {
+        "id": "461",
+        "district": "Klampis"
+    }, {
+        "id": "462",
+        "district": "Kokop"
+    }, {
+        "id": "463",
+        "district": "Konang"
+    }, {
+        "id": "464",
+        "district": "Kwanyar"
+    }, {
+        "id": "465",
+        "district": "Labang"
+    }, {
+        "id": "466",
+        "district": "Modung"
+    }, {
+        "id": "467",
+        "district": "Sepulu"
+    }, {
+        "id": "468",
+        "district": "Socah"
+    }, {
+        "id": "469",
+        "district": "Tanah Merah"
+    }, {
+        "id": "470",
+        "district": "Tanjungbumi"
+    }, {
+        "id": "471",
+        "district": "Tragah"
+    }]
+}

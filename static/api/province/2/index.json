@@ -1,0 +1,35 @@
+{
+    "title": "2",
+    "id": "2",
+    "province": "Bangka Belitung",
+    "number_of_cities" : "7",
+    "data" : [{
+        "id": "27",
+        "city": "Bangka",
+        "type": "Kabupaten"
+    }, {
+        "id": "28",
+        "city": "Bangka Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "29",
+        "city": "Bangka Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "30",
+        "city": "Bangka Tengah",
+        "type": "Kabupaten"
+    }, {
+        "id": "56",
+        "city": "Belitung",
+        "type": "Kabupaten"
+    }, {
+        "id": "57",
+        "city": "Belitung Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "334",
+        "city": "Pangkal Pinang",
+        "type": "Kota"
+    }]
+}

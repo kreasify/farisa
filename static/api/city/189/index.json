@@ -1,0 +1,16 @@
+{
+    "title": "189",
+    "id": "189",
+    "city": "Kepulauan Seribu",
+    "type": "Kabupaten",
+    "province_id": "6",
+    "province": "DKI Jakarta",
+    "number_of_districts" : "2",
+    "data" : [{
+        "id": "2622",
+        "district": "Kepulauan Seribu Selatan"
+    }, {
+        "id": "2623",
+        "district": "Kepulauan Seribu Utara"
+    }]
+}

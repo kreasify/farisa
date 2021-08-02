@@ -1,0 +1,58 @@
+{
+    "title": "399",
+    "id": "399",
+    "city": "Semarang",
+    "type": "Kota",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "5498",
+        "district": "Banyumanik"
+    }, {
+        "id": "5499",
+        "district": "Candisari"
+    }, {
+        "id": "5500",
+        "district": "Gajah Mungkur"
+    }, {
+        "id": "5501",
+        "district": "Gayamsari"
+    }, {
+        "id": "5502",
+        "district": "Genuk"
+    }, {
+        "id": "5503",
+        "district": "Gunungpati"
+    }, {
+        "id": "5504",
+        "district": "Mijen"
+    }, {
+        "id": "5505",
+        "district": "Ngaliyan"
+    }, {
+        "id": "5506",
+        "district": "Pedurungan"
+    }, {
+        "id": "5507",
+        "district": "Semarang Barat"
+    }, {
+        "id": "5508",
+        "district": "Semarang Selatan"
+    }, {
+        "id": "5509",
+        "district": "Semarang Tengah"
+    }, {
+        "id": "5510",
+        "district": "Semarang Timur"
+    }, {
+        "id": "5511",
+        "district": "Semarang Utara"
+    }, {
+        "id": "5512",
+        "district": "Tembalang"
+    }, {
+        "id": "5513",
+        "district": "Tugu"
+    }]
+}

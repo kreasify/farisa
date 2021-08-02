@@ -1,0 +1,148 @@
+{
+    "title": "484",
+    "id": "484",
+    "city": "Tolikara",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "46",
+    "data" : [{
+        "id": "6687",
+        "district": "Airgaram"
+    }, {
+        "id": "6688",
+        "district": "Anawi"
+    }, {
+        "id": "6689",
+        "district": "Aweku"
+    }, {
+        "id": "6690",
+        "district": "Bewani"
+    }, {
+        "id": "6691",
+        "district": "Biuk"
+    }, {
+        "id": "6692",
+        "district": "Bogonuk"
+    }, {
+        "id": "6693",
+        "district": "Bokondini"
+    }, {
+        "id": "6694",
+        "district": "Bokoneri"
+    }, {
+        "id": "6695",
+        "district": "Danime"
+    }, {
+        "id": "6696",
+        "district": "Dow"
+    }, {
+        "id": "6697",
+        "district": "Dundu (Ndundu)"
+    }, {
+        "id": "6698",
+        "district": "Egiam"
+    }, {
+        "id": "6699",
+        "district": "Geya"
+    }, {
+        "id": "6700",
+        "district": "Gika"
+    }, {
+        "id": "6701",
+        "district": "Gilubandu (Gilumbandu/Gilimbandu)"
+    }, {
+        "id": "6702",
+        "district": "Goyage"
+    }, {
+        "id": "6703",
+        "district": "Gundagi (Gudage)"
+    }, {
+        "id": "6704",
+        "district": "Kai"
+    }, {
+        "id": "6705",
+        "district": "Kamboneri"
+    }, {
+        "id": "6706",
+        "district": "Kanggime (Kanggima )"
+    }, {
+        "id": "6707",
+        "district": "Karubaga"
+    }, {
+        "id": "6708",
+        "district": "Kembu"
+    }, {
+        "id": "6709",
+        "district": "Kondaga (Konda)"
+    }, {
+        "id": "6710",
+        "district": "Kuari"
+    }, {
+        "id": "6711",
+        "district": "Kubu"
+    }, {
+        "id": "6712",
+        "district": "Li Anogomma"
+    }, {
+        "id": "6713",
+        "district": "Nabunage"
+    }, {
+        "id": "6714",
+        "district": "Nelawi"
+    }, {
+        "id": "6715",
+        "district": "Numba"
+    }, {
+        "id": "6716",
+        "district": "Nunggawi (Munggawi)"
+    }, {
+        "id": "6717",
+        "district": "Panaga"
+    }, {
+        "id": "6718",
+        "district": "Poganeri"
+    }, {
+        "id": "6719",
+        "district": "Tagime"
+    }, {
+        "id": "6720",
+        "district": "Tagineri"
+    }, {
+        "id": "6721",
+        "district": "Telenggeme"
+    }, {
+        "id": "6722",
+        "district": "Timori"
+    }, {
+        "id": "6723",
+        "district": "Umagi"
+    }, {
+        "id": "6724",
+        "district": "Wakuwo"
+    }, {
+        "id": "6725",
+        "district": "Wari (Taiyeve)"
+    }, {
+        "id": "6726",
+        "district": "Wenam"
+    }, {
+        "id": "6727",
+        "district": "Wina"
+    }, {
+        "id": "6728",
+        "district": "Wonoki (Woniki)"
+    }, {
+        "id": "6729",
+        "district": "Wugi"
+    }, {
+        "id": "6730",
+        "district": "Wunin (Wumin)"
+    }, {
+        "id": "6731",
+        "district": "Yuko"
+    }, {
+        "id": "6732",
+        "district": "Yuneri"
+    }]
+}

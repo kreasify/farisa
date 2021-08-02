@@ -1,0 +1,139 @@
+{
+    "title": "34",
+    "id": "34",
+    "province": "Sumatera Utara",
+    "number_of_cities" : "33",
+    "data" : [{
+        "id": "15",
+        "city": "Asahan",
+        "type": "Kabupaten"
+    }, {
+        "id": "52",
+        "city": "Batu Bara",
+        "type": "Kabupaten"
+    }, {
+        "id": "70",
+        "city": "Binjai",
+        "type": "Kota"
+    }, {
+        "id": "110",
+        "city": "Dairi",
+        "type": "Kabupaten"
+    }, {
+        "id": "112",
+        "city": "Deli Serdang",
+        "type": "Kabupaten"
+    }, {
+        "id": "137",
+        "city": "Gunungsitoli",
+        "type": "Kota"
+    }, {
+        "id": "146",
+        "city": "Humbang Hasundutan",
+        "type": "Kabupaten"
+    }, {
+        "id": "173",
+        "city": "Karo",
+        "type": "Kabupaten"
+    }, {
+        "id": "217",
+        "city": "Labuhan Batu",
+        "type": "Kabupaten"
+    }, {
+        "id": "218",
+        "city": "Labuhan Batu Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "219",
+        "city": "Labuhan Batu Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "229",
+        "city": "Langkat",
+        "type": "Kabupaten"
+    }, {
+        "id": "268",
+        "city": "Mandailing Natal",
+        "type": "Kabupaten"
+    }, {
+        "id": "278",
+        "city": "Medan",
+        "type": "Kota"
+    }, {
+        "id": "307",
+        "city": "Nias",
+        "type": "Kabupaten"
+    }, {
+        "id": "308",
+        "city": "Nias Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "309",
+        "city": "Nias Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "310",
+        "city": "Nias Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "319",
+        "city": "Padang Lawas",
+        "type": "Kabupaten"
+    }, {
+        "id": "320",
+        "city": "Padang Lawas Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "323",
+        "city": "Padang Sidempuan",
+        "type": "Kota"
+    }, {
+        "id": "325",
+        "city": "Pakpak Bharat",
+        "type": "Kabupaten"
+    }, {
+        "id": "353",
+        "city": "Pematang Siantar",
+        "type": "Kota"
+    }, {
+        "id": "389",
+        "city": "Samosir",
+        "type": "Kabupaten"
+    }, {
+        "id": "404",
+        "city": "Serdang Bedagai",
+        "type": "Kabupaten"
+    }, {
+        "id": "407",
+        "city": "Sibolga",
+        "type": "Kota"
+    }, {
+        "id": "413",
+        "city": "Simalungun",
+        "type": "Kabupaten"
+    }, {
+        "id": "459",
+        "city": "Tanjung Balai",
+        "type": "Kota"
+    }, {
+        "id": "463",
+        "city": "Tapanuli Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "464",
+        "city": "Tapanuli Tengah",
+        "type": "Kabupaten"
+    }, {
+        "id": "465",
+        "city": "Tapanuli Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "470",
+        "city": "Tebing Tinggi",
+        "type": "Kota"
+    }, {
+        "id": "481",
+        "city": "Toba Samosir",
+        "type": "Kabupaten"
+    }]
+}

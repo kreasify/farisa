@@ -1,0 +1,61 @@
+{
+    "title": "262",
+    "id": "262",
+    "city": "Mamasa",
+    "type": "Kabupaten",
+    "province_id": "27",
+    "province": "Sulawesi Barat",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "3710",
+        "district": "Aralle (Arrale)"
+    }, {
+        "id": "3711",
+        "district": "Balla"
+    }, {
+        "id": "3712",
+        "district": "Bambang"
+    }, {
+        "id": "3713",
+        "district": "Buntumalangka"
+    }, {
+        "id": "3714",
+        "district": "Mamasa"
+    }, {
+        "id": "3715",
+        "district": "Mambi"
+    }, {
+        "id": "3716",
+        "district": "Mehalaan"
+    }, {
+        "id": "3717",
+        "district": "Messawa"
+    }, {
+        "id": "3718",
+        "district": "Nosu"
+    }, {
+        "id": "3719",
+        "district": "Pana"
+    }, {
+        "id": "3720",
+        "district": "Rantebulahan Timur"
+    }, {
+        "id": "3721",
+        "district": "Sesena Padang"
+    }, {
+        "id": "3722",
+        "district": "Sumarorong"
+    }, {
+        "id": "3723",
+        "district": "Tabang"
+    }, {
+        "id": "3724",
+        "district": "Tabulahan"
+    }, {
+        "id": "3725",
+        "district": "Tanduk Kalua"
+    }, {
+        "id": "3726",
+        "district": "Tawalian"
+    }]
+}

@@ -1,0 +1,46 @@
+{
+    "title": "304",
+    "id": "304",
+    "city": "Ngada",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "4311",
+        "district": "Aimere"
+    }, {
+        "id": "4312",
+        "district": "Bajawa"
+    }, {
+        "id": "4313",
+        "district": "Bajawa Utara"
+    }, {
+        "id": "4314",
+        "district": "Golewa"
+    }, {
+        "id": "4315",
+        "district": "Golewa Barat"
+    }, {
+        "id": "4316",
+        "district": "Golewa Selatan"
+    }, {
+        "id": "4317",
+        "district": "Inerie"
+    }, {
+        "id": "4318",
+        "district": "Jerebuu"
+    }, {
+        "id": "4319",
+        "district": "Riung"
+    }, {
+        "id": "4320",
+        "district": "Riung Barat"
+    }, {
+        "id": "4321",
+        "district": "Soa"
+    }, {
+        "id": "4322",
+        "district": "Wolomeze (Riung Selatan)"
+    }]
+}

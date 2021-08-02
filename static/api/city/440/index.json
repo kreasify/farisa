@@ -1,0 +1,88 @@
+{
+    "title": "440",
+    "id": "440",
+    "city": "Sumedang",
+    "type": "Kabupaten",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "26",
+    "data" : [{
+        "id": "6065",
+        "district": "Buahdua"
+    }, {
+        "id": "6066",
+        "district": "Cibugel"
+    }, {
+        "id": "6067",
+        "district": "Cimalaka"
+    }, {
+        "id": "6068",
+        "district": "Cimanggung"
+    }, {
+        "id": "6069",
+        "district": "Cisarua"
+    }, {
+        "id": "6070",
+        "district": "Cisitu"
+    }, {
+        "id": "6071",
+        "district": "Conggeang"
+    }, {
+        "id": "6072",
+        "district": "Darmaraja"
+    }, {
+        "id": "6073",
+        "district": "Ganeas"
+    }, {
+        "id": "6074",
+        "district": "Jatigede"
+    }, {
+        "id": "6075",
+        "district": "Jatinangor"
+    }, {
+        "id": "6076",
+        "district": "Jatinunggal"
+    }, {
+        "id": "6077",
+        "district": "Pamulihan"
+    }, {
+        "id": "6078",
+        "district": "Paseh"
+    }, {
+        "id": "6079",
+        "district": "Rancakalong"
+    }, {
+        "id": "6080",
+        "district": "Situraja"
+    }, {
+        "id": "6081",
+        "district": "Sukasari"
+    }, {
+        "id": "6082",
+        "district": "Sumedang Selatan"
+    }, {
+        "id": "6083",
+        "district": "Sumedang Utara"
+    }, {
+        "id": "6084",
+        "district": "Surian"
+    }, {
+        "id": "6085",
+        "district": "Tanjungkerta"
+    }, {
+        "id": "6086",
+        "district": "Tanjungmedar"
+    }, {
+        "id": "6087",
+        "district": "Tanjungsari"
+    }, {
+        "id": "6088",
+        "district": "Tomo"
+    }, {
+        "id": "6089",
+        "district": "Ujungjaya"
+    }, {
+        "id": "6090",
+        "district": "Wado"
+    }]
+}

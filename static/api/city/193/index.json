@@ -1,0 +1,52 @@
+{
+    "title": "193",
+    "id": "193",
+    "city": "Kepulauan Yapen (Yapen Waropen)",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "2672",
+        "district": "Angkaisera"
+    }, {
+        "id": "2673",
+        "district": "Kepulauan Ambai"
+    }, {
+        "id": "2674",
+        "district": "Kosiwo"
+    }, {
+        "id": "2675",
+        "district": "Poom"
+    }, {
+        "id": "2676",
+        "district": "Pulau Kurudu"
+    }, {
+        "id": "2677",
+        "district": "Pulau Yerui"
+    }, {
+        "id": "2678",
+        "district": "Raimbawi"
+    }, {
+        "id": "2679",
+        "district": "Teluk Ampimoi"
+    }, {
+        "id": "2680",
+        "district": "Windesi"
+    }, {
+        "id": "2681",
+        "district": "Wonawa"
+    }, {
+        "id": "2682",
+        "district": "Yapen Barat"
+    }, {
+        "id": "2683",
+        "district": "Yapen Selatan"
+    }, {
+        "id": "2684",
+        "district": "Yapen Timur"
+    }, {
+        "id": "2685",
+        "district": "Yapen Utara"
+    }]
+}

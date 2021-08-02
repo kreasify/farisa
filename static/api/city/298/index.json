@@ -1,0 +1,73 @@
+{
+    "title": "298",
+    "id": "298",
+    "city": "Musi Rawas",
+    "type": "Kabupaten",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "4214",
+        "district": "Batukuning Lakitan Ulu (BTS)/Cecar"
+    }, {
+        "id": "4215",
+        "district": "Jaya Loka"
+    }, {
+        "id": "4216",
+        "district": "Karang Dapo"
+    }, {
+        "id": "4217",
+        "district": "Karang Jaya"
+    }, {
+        "id": "4218",
+        "district": "Megang Sakti"
+    }, {
+        "id": "4219",
+        "district": "Muara Beliti"
+    }, {
+        "id": "4220",
+        "district": "Muara Kelingi"
+    }, {
+        "id": "4221",
+        "district": "Muara Lakitan"
+    }, {
+        "id": "4222",
+        "district": "Nibung"
+    }, {
+        "id": "4223",
+        "district": "Purwodadi"
+    }, {
+        "id": "4224",
+        "district": "Rawas Ilir"
+    }, {
+        "id": "4225",
+        "district": "Rawas Ulu"
+    }, {
+        "id": "4226",
+        "district": "Rupit"
+    }, {
+        "id": "4227",
+        "district": "Selangit"
+    }, {
+        "id": "4228",
+        "district": "STL Ulu Terawas"
+    }, {
+        "id": "4229",
+        "district": "Sukakarya"
+    }, {
+        "id": "4230",
+        "district": "Sumber Harta"
+    }, {
+        "id": "4231",
+        "district": "Tiang Pumpung Kepungut"
+    }, {
+        "id": "4232",
+        "district": "Tuah Negeri"
+    }, {
+        "id": "4233",
+        "district": "Tugumulyo"
+    }, {
+        "id": "4234",
+        "district": "Ulu Rawas"
+    }]
+}

@@ -1,0 +1,70 @@
+{
+    "title": "198",
+    "id": "198",
+    "city": "Kolaka",
+    "type": "Kabupaten",
+    "province_id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "2752",
+        "district": "Baula"
+    }, {
+        "id": "2753",
+        "district": "Kolaka"
+    }, {
+        "id": "2754",
+        "district": "Ladongi"
+    }, {
+        "id": "2755",
+        "district": "Lalolae"
+    }, {
+        "id": "2756",
+        "district": "Lambandia (Lambadia)"
+    }, {
+        "id": "2757",
+        "district": "Latambaga"
+    }, {
+        "id": "2758",
+        "district": "Loea"
+    }, {
+        "id": "2759",
+        "district": "Mowewe"
+    }, {
+        "id": "2760",
+        "district": "Poli Polia"
+    }, {
+        "id": "2761",
+        "district": "Polinggona"
+    }, {
+        "id": "2762",
+        "district": "Pomalaa"
+    }, {
+        "id": "2763",
+        "district": "Samaturu"
+    }, {
+        "id": "2764",
+        "district": "Tanggetada"
+    }, {
+        "id": "2765",
+        "district": "Tinondo"
+    }, {
+        "id": "2766",
+        "district": "Tirawuta"
+    }, {
+        "id": "2767",
+        "district": "Toari"
+    }, {
+        "id": "2768",
+        "district": "Uluiwoi"
+    }, {
+        "id": "2769",
+        "district": "Watumbangga (Watubanggo)"
+    }, {
+        "id": "2770",
+        "district": "Wolo"
+    }, {
+        "id": "2771",
+        "district": "Wundulako"
+    }]
+}

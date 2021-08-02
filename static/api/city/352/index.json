@@ -1,0 +1,52 @@
+{
+    "title": "352",
+    "id": "352",
+    "city": "Pemalang",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "4938",
+        "district": "Ampelgading"
+    }, {
+        "id": "4939",
+        "district": "Bantarbolang"
+    }, {
+        "id": "4940",
+        "district": "Belik"
+    }, {
+        "id": "4941",
+        "district": "Bodeh"
+    }, {
+        "id": "4942",
+        "district": "Comal"
+    }, {
+        "id": "4943",
+        "district": "Moga"
+    }, {
+        "id": "4944",
+        "district": "Pemalang"
+    }, {
+        "id": "4945",
+        "district": "Petarukan"
+    }, {
+        "id": "4946",
+        "district": "Pulosari"
+    }, {
+        "id": "4947",
+        "district": "Randudongkal"
+    }, {
+        "id": "4948",
+        "district": "Taman"
+    }, {
+        "id": "4949",
+        "district": "Ulujami"
+    }, {
+        "id": "4950",
+        "district": "Warungpring"
+    }, {
+        "id": "4951",
+        "district": "Watukumpul"
+    }]
+}

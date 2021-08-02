@@ -1,0 +1,52 @@
+{
+    "title": "501",
+    "id": "501",
+    "city": "Yogyakarta",
+    "type": "Kota",
+    "province_id": "5",
+    "province": "DI Yogyakarta",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "6981",
+        "district": "Danurejan"
+    }, {
+        "id": "6982",
+        "district": "Gedong Tengen"
+    }, {
+        "id": "6983",
+        "district": "Gondokusuman"
+    }, {
+        "id": "6984",
+        "district": "Gondomanan"
+    }, {
+        "id": "6985",
+        "district": "Jetis"
+    }, {
+        "id": "6986",
+        "district": "Kotagede"
+    }, {
+        "id": "6987",
+        "district": "Kraton"
+    }, {
+        "id": "6988",
+        "district": "Mantrijeron"
+    }, {
+        "id": "6989",
+        "district": "Mergangsan"
+    }, {
+        "id": "6990",
+        "district": "Ngampilan"
+    }, {
+        "id": "6991",
+        "district": "Pakualaman"
+    }, {
+        "id": "6992",
+        "district": "Tegalrejo"
+    }, {
+        "id": "6993",
+        "district": "Umbulharjo"
+    }, {
+        "id": "6994",
+        "district": "Wirobrajan"
+    }]
+}

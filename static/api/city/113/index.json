@@ -1,0 +1,52 @@
+{
+    "title": "113",
+    "id": "113",
+    "city": "Demak",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "1559",
+        "district": "Bonang"
+    }, {
+        "id": "1560",
+        "district": "Demak"
+    }, {
+        "id": "1561",
+        "district": "Dempet"
+    }, {
+        "id": "1562",
+        "district": "Gajah"
+    }, {
+        "id": "1563",
+        "district": "Guntur"
+    }, {
+        "id": "1564",
+        "district": "Karang Tengah"
+    }, {
+        "id": "1565",
+        "district": "Karanganyar"
+    }, {
+        "id": "1566",
+        "district": "Karangawen"
+    }, {
+        "id": "1567",
+        "district": "Kebonagung"
+    }, {
+        "id": "1568",
+        "district": "Mijen"
+    }, {
+        "id": "1569",
+        "district": "Mranggen"
+    }, {
+        "id": "1570",
+        "district": "Sayung"
+    }, {
+        "id": "1571",
+        "district": "Wedung"
+    }, {
+        "id": "1572",
+        "district": "Wonosalam"
+    }]
+}

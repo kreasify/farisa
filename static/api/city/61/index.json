@@ -1,0 +1,61 @@
+{
+    "title": "61",
+    "id": "61",
+    "city": "Bengkayang",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "815",
+        "district": "Bengkayang"
+    }, {
+        "id": "816",
+        "district": "Capkala"
+    }, {
+        "id": "817",
+        "district": "Jagoi Babang"
+    }, {
+        "id": "818",
+        "district": "Ledo"
+    }, {
+        "id": "819",
+        "district": "Lembah Bawang"
+    }, {
+        "id": "820",
+        "district": "Lumar"
+    }, {
+        "id": "821",
+        "district": "Monterado"
+    }, {
+        "id": "822",
+        "district": "Samalantan"
+    }, {
+        "id": "823",
+        "district": "Sanggau Ledo"
+    }, {
+        "id": "824",
+        "district": "Seluas"
+    }, {
+        "id": "825",
+        "district": "Siding"
+    }, {
+        "id": "826",
+        "district": "Sungai Betung"
+    }, {
+        "id": "827",
+        "district": "Sungai Raya"
+    }, {
+        "id": "828",
+        "district": "Sungai Raya Kepulauan"
+    }, {
+        "id": "829",
+        "district": "Suti Semarang"
+    }, {
+        "id": "830",
+        "district": "Teriak"
+    }, {
+        "id": "831",
+        "district": "Tujuh Belas"
+    }]
+}

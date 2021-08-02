@@ -1,0 +1,46 @@
+{
+    "title": "136",
+    "id": "136",
+    "city": "Gunung Mas",
+    "type": "Kabupaten",
+    "province_id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "1883",
+        "district": "Damang Batu"
+    }, {
+        "id": "1884",
+        "district": "Kahayan Hulu Utara"
+    }, {
+        "id": "1885",
+        "district": "Kurun"
+    }, {
+        "id": "1886",
+        "district": "Manuhing"
+    }, {
+        "id": "1887",
+        "district": "Manuhing Raya"
+    }, {
+        "id": "1888",
+        "district": "Mihing Raya"
+    }, {
+        "id": "1889",
+        "district": "Miri Manasa"
+    }, {
+        "id": "1890",
+        "district": "Rungan"
+    }, {
+        "id": "1891",
+        "district": "Rungan Barat"
+    }, {
+        "id": "1892",
+        "district": "Rungan Hulu"
+    }, {
+        "id": "1893",
+        "district": "Sepang (Sepang Simin)"
+    }, {
+        "id": "1894",
+        "district": "Tewah"
+    }]
+}

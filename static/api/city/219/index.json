@@ -1,0 +1,34 @@
+{
+    "title": "219",
+    "id": "219",
+    "city": "Labuhan Batu Utara",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "3075",
+        "district": "Aek Kuo"
+    }, {
+        "id": "3076",
+        "district": "Aek Natas"
+    }, {
+        "id": "3077",
+        "district": "Kuala Ledong (Kualuh Leidong)"
+    }, {
+        "id": "3078",
+        "district": "Kualuh Hilir"
+    }, {
+        "id": "3079",
+        "district": "Kualuh Hulu"
+    }, {
+        "id": "3080",
+        "district": "Kualuh Selatan"
+    }, {
+        "id": "3081",
+        "district": "Marbau"
+    }, {
+        "id": "3082",
+        "district": "Na IX-X"
+    }]
+}

@@ -1,0 +1,67 @@
+{
+    "title": "157",
+    "id": "157",
+    "city": "Jayapura",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "2137",
+        "district": "Airu"
+    }, {
+        "id": "2138",
+        "district": "Demta"
+    }, {
+        "id": "2139",
+        "district": "Depapre"
+    }, {
+        "id": "2140",
+        "district": "Ebungfau (Ebungfa)"
+    }, {
+        "id": "2141",
+        "district": "Gresi Selatan"
+    }, {
+        "id": "2142",
+        "district": "Kaureh"
+    }, {
+        "id": "2143",
+        "district": "Kemtuk"
+    }, {
+        "id": "2144",
+        "district": "Kemtuk Gresi"
+    }, {
+        "id": "2145",
+        "district": "Nambluong"
+    }, {
+        "id": "2146",
+        "district": "Nimbokrang"
+    }, {
+        "id": "2147",
+        "district": "Nimboran"
+    }, {
+        "id": "2148",
+        "district": "Ravenirara"
+    }, {
+        "id": "2149",
+        "district": "Sentani"
+    }, {
+        "id": "2150",
+        "district": "Sentani Barat"
+    }, {
+        "id": "2151",
+        "district": "Sentani Timur"
+    }, {
+        "id": "2152",
+        "district": "Unurum Guay"
+    }, {
+        "id": "2153",
+        "district": "Waibu"
+    }, {
+        "id": "2154",
+        "district": "Yapsi"
+    }, {
+        "id": "2155",
+        "district": "Yokari"
+    }]
+}

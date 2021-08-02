@@ -1,0 +1,49 @@
+{
+    "title": "236",
+    "id": "236",
+    "city": "Lima Puluh Koto/Kota",
+    "type": "Kabupaten",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "13",
+    "data" : [{
+        "id": "3351",
+        "district": "Akabiluru"
+    }, {
+        "id": "3352",
+        "district": "Bukik Barisan"
+    }, {
+        "id": "3353",
+        "district": "Guguak (Gugu)"
+    }, {
+        "id": "3354",
+        "district": "Gunuang Omeh (Gunung Mas)"
+    }, {
+        "id": "3355",
+        "district": "Harau"
+    }, {
+        "id": "3356",
+        "district": "Kapur IX/Sembilan"
+    }, {
+        "id": "3357",
+        "district": "Lareh Sago Halaban"
+    }, {
+        "id": "3358",
+        "district": "Luak (Luhak)"
+    }, {
+        "id": "3359",
+        "district": "Mungka"
+    }, {
+        "id": "3360",
+        "district": "Pangkalan Koto Baru"
+    }, {
+        "id": "3361",
+        "district": "Payakumbuh"
+    }, {
+        "id": "3362",
+        "district": "Situjuah Limo/Lima Nagari"
+    }, {
+        "id": "3363",
+        "district": "Suliki"
+    }]
+}

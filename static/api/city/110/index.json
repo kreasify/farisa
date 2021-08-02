@@ -1,0 +1,55 @@
+{
+    "title": "110",
+    "id": "110",
+    "city": "Dairi",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "1517",
+        "district": "Berampu (Brampu)"
+    }, {
+        "id": "1518",
+        "district": "Gunung Sitember"
+    }, {
+        "id": "1519",
+        "district": "Lae Parira"
+    }, {
+        "id": "1520",
+        "district": "Parbuluan"
+    }, {
+        "id": "1521",
+        "district": "Pegagan Hilir"
+    }, {
+        "id": "1522",
+        "district": "Sidikalang"
+    }, {
+        "id": "1523",
+        "district": "Siempat Nempu"
+    }, {
+        "id": "1524",
+        "district": "Siempat Nempu Hilir"
+    }, {
+        "id": "1525",
+        "district": "Siempat Nempu Hulu"
+    }, {
+        "id": "1526",
+        "district": "Silahi Sabungan"
+    }, {
+        "id": "1527",
+        "district": "Silima Pungga-Pungga"
+    }, {
+        "id": "1528",
+        "district": "Sitinjo"
+    }, {
+        "id": "1529",
+        "district": "Sumbul"
+    }, {
+        "id": "1530",
+        "district": "Tanah Pinem"
+    }, {
+        "id": "1531",
+        "district": "Tiga Lingga"
+    }]
+}

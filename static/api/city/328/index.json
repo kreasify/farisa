@@ -1,0 +1,37 @@
+{
+    "title": "328",
+    "id": "328",
+    "city": "Palopo",
+    "type": "Kota",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "4625",
+        "district": "Bara"
+    }, {
+        "id": "4626",
+        "district": "Mungkajang"
+    }, {
+        "id": "4627",
+        "district": "Sendana"
+    }, {
+        "id": "4628",
+        "district": "Telluwanua"
+    }, {
+        "id": "4629",
+        "district": "Wara"
+    }, {
+        "id": "4630",
+        "district": "Wara Barat"
+    }, {
+        "id": "4631",
+        "district": "Wara Selatan"
+    }, {
+        "id": "4632",
+        "district": "Wara Timur"
+    }, {
+        "id": "4633",
+        "district": "Wara Utara"
+    }]
+}

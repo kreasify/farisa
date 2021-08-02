@@ -1,0 +1,58 @@
+{
+    "title": "265",
+    "id": "265",
+    "city": "Mamuju",
+    "type": "Kabupaten",
+    "province_id": "27",
+    "province": "Sulawesi Barat",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "3740",
+        "district": "Bonehau"
+    }, {
+        "id": "3741",
+        "district": "Budong-Budong"
+    }, {
+        "id": "3742",
+        "district": "Kalukku"
+    }, {
+        "id": "3743",
+        "district": "Kalumpang"
+    }, {
+        "id": "3744",
+        "district": "Karossa"
+    }, {
+        "id": "3745",
+        "district": "Kep. Bala Balakang"
+    }, {
+        "id": "3746",
+        "district": "Mamuju"
+    }, {
+        "id": "3747",
+        "district": "Pangale"
+    }, {
+        "id": "3748",
+        "district": "Papalang"
+    }, {
+        "id": "3749",
+        "district": "Sampaga"
+    }, {
+        "id": "3750",
+        "district": "Simboro dan Kepulauan"
+    }, {
+        "id": "3751",
+        "district": "Tapalang"
+    }, {
+        "id": "3752",
+        "district": "Tapalang Barat"
+    }, {
+        "id": "3753",
+        "district": "Tobadak"
+    }, {
+        "id": "3754",
+        "district": "Tommo"
+    }, {
+        "id": "3755",
+        "district": "Topoyo"
+    }]
+}

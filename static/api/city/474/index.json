@@ -1,0 +1,82 @@
+{
+    "title": "474",
+    "id": "474",
+    "city": "Teluk Bintuni",
+    "type": "Kabupaten",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "6524",
+        "district": "Aranday"
+    }, {
+        "id": "6525",
+        "district": "Aroba"
+    }, {
+        "id": "6526",
+        "district": "Babo"
+    }, {
+        "id": "6527",
+        "district": "Bintuni"
+    }, {
+        "id": "6528",
+        "district": "Biscoop"
+    }, {
+        "id": "6529",
+        "district": "Dataran Beimes"
+    }, {
+        "id": "6530",
+        "district": "Fafurwar (Irorutu)"
+    }, {
+        "id": "6531",
+        "district": "Kaitaro"
+    }, {
+        "id": "6532",
+        "district": "Kamundan"
+    }, {
+        "id": "6533",
+        "district": "Kuri"
+    }, {
+        "id": "6534",
+        "district": "Manimeri"
+    }, {
+        "id": "6535",
+        "district": "Masyeta"
+    }, {
+        "id": "6536",
+        "district": "Mayado"
+    }, {
+        "id": "6537",
+        "district": "Merdey"
+    }, {
+        "id": "6538",
+        "district": "Moskona Barat"
+    }, {
+        "id": "6539",
+        "district": "Moskona Selatan"
+    }, {
+        "id": "6540",
+        "district": "Moskona Timur"
+    }, {
+        "id": "6541",
+        "district": "Moskona Utara"
+    }, {
+        "id": "6542",
+        "district": "Sumuri (Simuri)"
+    }, {
+        "id": "6543",
+        "district": "Tembuni"
+    }, {
+        "id": "6544",
+        "district": "Tomu"
+    }, {
+        "id": "6545",
+        "district": "Tuhiba"
+    }, {
+        "id": "6546",
+        "district": "Wamesa (Idoor)"
+    }, {
+        "id": "6547",
+        "district": "Weriagar"
+    }]
+}

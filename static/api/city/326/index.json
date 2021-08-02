@@ -1,0 +1,25 @@
+{
+    "title": "326",
+    "id": "326",
+    "city": "Palangka Raya",
+    "type": "Kota",
+    "province_id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "4604",
+        "district": "Bukit Batu"
+    }, {
+        "id": "4605",
+        "district": "Jekan Raya"
+    }, {
+        "id": "4606",
+        "district": "Pahandut"
+    }, {
+        "id": "4607",
+        "district": "Rakumpit"
+    }, {
+        "id": "4608",
+        "district": "Sebangau"
+    }]
+}

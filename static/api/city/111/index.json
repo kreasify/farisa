@@ -1,0 +1,25 @@
+{
+    "title": "111",
+    "id": "111",
+    "city": "Deiyai (Deliyai)",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "1532",
+        "district": "Bowobado"
+    }, {
+        "id": "1533",
+        "district": "Kapiraya"
+    }, {
+        "id": "1534",
+        "district": "Tigi"
+    }, {
+        "id": "1535",
+        "district": "Tigi Barat"
+    }, {
+        "id": "1536",
+        "district": "Tigi Timur"
+    }]
+}

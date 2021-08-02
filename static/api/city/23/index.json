@@ -1,0 +1,100 @@
+{
+    "title": "23",
+    "id": "23",
+    "city": "Bandung",
+    "type": "Kota",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "30",
+    "data" : [{
+        "id": "338",
+        "district": "Andir"
+    }, {
+        "id": "339",
+        "district": "Antapani (Cicadas)"
+    }, {
+        "id": "340",
+        "district": "Arcamanik"
+    }, {
+        "id": "341",
+        "district": "Astana Anyar"
+    }, {
+        "id": "342",
+        "district": "Babakan Ciparay"
+    }, {
+        "id": "343",
+        "district": "Bandung Kidul"
+    }, {
+        "id": "344",
+        "district": "Bandung Kulon"
+    }, {
+        "id": "345",
+        "district": "Bandung Wetan"
+    }, {
+        "id": "346",
+        "district": "Batununggal"
+    }, {
+        "id": "347",
+        "district": "Bojongloa Kaler"
+    }, {
+        "id": "348",
+        "district": "Bojongloa Kidul"
+    }, {
+        "id": "349",
+        "district": "Buahbatu (Margacinta)"
+    }, {
+        "id": "350",
+        "district": "Cibeunying Kaler"
+    }, {
+        "id": "351",
+        "district": "Cibeunying Kidul"
+    }, {
+        "id": "352",
+        "district": "Cibiru"
+    }, {
+        "id": "353",
+        "district": "Cicendo"
+    }, {
+        "id": "354",
+        "district": "Cidadap"
+    }, {
+        "id": "355",
+        "district": "Cinambo"
+    }, {
+        "id": "356",
+        "district": "Coblong"
+    }, {
+        "id": "357",
+        "district": "Gedebage"
+    }, {
+        "id": "358",
+        "district": "Kiaracondong"
+    }, {
+        "id": "359",
+        "district": "Lengkong"
+    }, {
+        "id": "360",
+        "district": "Mandalajati"
+    }, {
+        "id": "361",
+        "district": "Panyileukan"
+    }, {
+        "id": "362",
+        "district": "Rancasari"
+    }, {
+        "id": "363",
+        "district": "Regol"
+    }, {
+        "id": "364",
+        "district": "Sukajadi"
+    }, {
+        "id": "365",
+        "district": "Sukasari"
+    }, {
+        "id": "366",
+        "district": "Sumur Bandung"
+    }, {
+        "id": "367",
+        "district": "Ujung Berung"
+    }]
+}

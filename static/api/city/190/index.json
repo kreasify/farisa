@@ -1,0 +1,40 @@
+{
+    "title": "190",
+    "id": "190",
+    "city": "Kepulauan Siau Tagulandang Biaro (Sitaro)",
+    "type": "Kabupaten",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "2624",
+        "district": "Biaro"
+    }, {
+        "id": "2625",
+        "district": "Siau Barat"
+    }, {
+        "id": "2626",
+        "district": "Siau Barat Selatan"
+    }, {
+        "id": "2627",
+        "district": "Siau Barat Utara"
+    }, {
+        "id": "2628",
+        "district": "Siau Tengah"
+    }, {
+        "id": "2629",
+        "district": "Siau Timur"
+    }, {
+        "id": "2630",
+        "district": "Siau Timur Selatan"
+    }, {
+        "id": "2631",
+        "district": "Tagulandang"
+    }, {
+        "id": "2632",
+        "district": "Tagulandang Selatan"
+    }, {
+        "id": "2633",
+        "district": "Tagulandang Utara"
+    }]
+}

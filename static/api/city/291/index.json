@@ -1,0 +1,67 @@
+{
+    "title": "291",
+    "id": "291",
+    "city": "Morowali",
+    "type": "Kabupaten",
+    "province_id": "29",
+    "province": "Sulawesi Tengah",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "4090",
+        "district": "Bahodopi"
+    }, {
+        "id": "4091",
+        "district": "Bumi Raya"
+    }, {
+        "id": "4092",
+        "district": "Bungku Barat"
+    }, {
+        "id": "4093",
+        "district": "Bungku Pesisir"
+    }, {
+        "id": "4094",
+        "district": "Bungku Selatan"
+    }, {
+        "id": "4095",
+        "district": "Bungku Tengah"
+    }, {
+        "id": "4096",
+        "district": "Bungku Timur"
+    }, {
+        "id": "4097",
+        "district": "Bungku Utara"
+    }, {
+        "id": "4098",
+        "district": "Lembo"
+    }, {
+        "id": "4099",
+        "district": "Lembo Raya"
+    }, {
+        "id": "4100",
+        "district": "Mamosalato"
+    }, {
+        "id": "4101",
+        "district": "Menui Kepulauan"
+    }, {
+        "id": "4102",
+        "district": "Mori Atas"
+    }, {
+        "id": "4103",
+        "district": "Mori Utara"
+    }, {
+        "id": "4104",
+        "district": "Petasia"
+    }, {
+        "id": "4105",
+        "district": "Petasia Barat"
+    }, {
+        "id": "4106",
+        "district": "Petasia Timur"
+    }, {
+        "id": "4107",
+        "district": "Soyo Jaya"
+    }, {
+        "id": "4108",
+        "district": "Wita Ponda"
+    }]
+}

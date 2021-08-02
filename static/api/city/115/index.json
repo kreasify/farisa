@@ -1,0 +1,43 @@
+{
+    "title": "115",
+    "id": "115",
+    "city": "Depok",
+    "type": "Kota",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "1577",
+        "district": "Beji"
+    }, {
+        "id": "1578",
+        "district": "Bojongsari"
+    }, {
+        "id": "1579",
+        "district": "Cilodong"
+    }, {
+        "id": "1580",
+        "district": "Cimanggis"
+    }, {
+        "id": "1581",
+        "district": "Cinere"
+    }, {
+        "id": "1582",
+        "district": "Cipayung"
+    }, {
+        "id": "1583",
+        "district": "Limo"
+    }, {
+        "id": "1584",
+        "district": "Pancoran Mas"
+    }, {
+        "id": "1585",
+        "district": "Sawangan"
+    }, {
+        "id": "1586",
+        "district": "Sukmajaya"
+    }, {
+        "id": "1587",
+        "district": "Tapos"
+    }]
+}

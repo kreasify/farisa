@@ -1,0 +1,82 @@
+{
+    "title": "342",
+    "id": "342",
+    "city": "Pasuruan",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "4793",
+        "district": "Bangil"
+    }, {
+        "id": "4794",
+        "district": "Beji"
+    }, {
+        "id": "4795",
+        "district": "Gempol"
+    }, {
+        "id": "4796",
+        "district": "Gondang Wetan"
+    }, {
+        "id": "4797",
+        "district": "Grati"
+    }, {
+        "id": "4798",
+        "district": "Kejayan"
+    }, {
+        "id": "4799",
+        "district": "Kraton"
+    }, {
+        "id": "4800",
+        "district": "Lekok"
+    }, {
+        "id": "4801",
+        "district": "Lumbang"
+    }, {
+        "id": "4802",
+        "district": "Nguling"
+    }, {
+        "id": "4803",
+        "district": "Pandaan"
+    }, {
+        "id": "4804",
+        "district": "Pasrepan"
+    }, {
+        "id": "4805",
+        "district": "Pohjentrek"
+    }, {
+        "id": "4806",
+        "district": "Prigen"
+    }, {
+        "id": "4807",
+        "district": "Purwodadi"
+    }, {
+        "id": "4808",
+        "district": "Purwosari"
+    }, {
+        "id": "4809",
+        "district": "Puspo"
+    }, {
+        "id": "4810",
+        "district": "Rejoso"
+    }, {
+        "id": "4811",
+        "district": "Rembang"
+    }, {
+        "id": "4812",
+        "district": "Sukorejo"
+    }, {
+        "id": "4813",
+        "district": "Tosari"
+    }, {
+        "id": "4814",
+        "district": "Tutur"
+    }, {
+        "id": "4815",
+        "district": "Winongan"
+    }, {
+        "id": "4816",
+        "district": "Wonorejo"
+    }]
+}

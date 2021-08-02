@@ -1,0 +1,49 @@
+{
+    "title": "174",
+    "id": "174",
+    "city": "Katingan",
+    "type": "Kabupaten",
+    "province_id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_districts" : "13",
+    "data" : [{
+        "id": "2437",
+        "district": "Bukit Raya"
+    }, {
+        "id": "2438",
+        "district": "Kamipang"
+    }, {
+        "id": "2439",
+        "district": "Katingan Hilir"
+    }, {
+        "id": "2440",
+        "district": "Katingan Hulu"
+    }, {
+        "id": "2441",
+        "district": "Katingan Kuala"
+    }, {
+        "id": "2442",
+        "district": "Katingan Tengah"
+    }, {
+        "id": "2443",
+        "district": "Marikit"
+    }, {
+        "id": "2444",
+        "district": "Mendawai"
+    }, {
+        "id": "2445",
+        "district": "Petak Malai"
+    }, {
+        "id": "2446",
+        "district": "Pulau Malan"
+    }, {
+        "id": "2447",
+        "district": "Sanaman Mantikei (Senamang Mantikei)"
+    }, {
+        "id": "2448",
+        "district": "Tasik Payawan"
+    }, {
+        "id": "2449",
+        "district": "Tewang Sanggalang Garing (Sangalang)"
+    }]
+}

@@ -1,0 +1,11 @@
+{{/* styles */}}
+{{- $options := dict "inlineImports" true }}
+{{- $colors := resources.Get "css/colors.css" }}
+{{- $color := $colors | resources.ExecuteAsTemplate "_colors.css" . }}
+{{- $styles := resources.Get "css/styles.css" }}
+{{- $stylepartial := slice $color $styles | resources.Concat "css/main.css" }}
+{{- $styles = $stylepartial | resources.PostCSS $options }}
+{{- if  hugo.IsProduction }}
+{{- $styles = $styles | minify | fingerprint | resources.PostProcess }}
+{{- end }}
+<link href="{{ $styles.RelPermalink }}" rel="stylesheet" />

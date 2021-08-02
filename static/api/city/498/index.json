@@ -1,0 +1,55 @@
+{
+    "title": "498",
+    "id": "498",
+    "city": "Wonosobo",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "6910",
+        "district": "Garung"
+    }, {
+        "id": "6911",
+        "district": "Kalibawang"
+    }, {
+        "id": "6912",
+        "district": "Kalikajar"
+    }, {
+        "id": "6913",
+        "district": "Kaliwiro"
+    }, {
+        "id": "6914",
+        "district": "Kejajar"
+    }, {
+        "id": "6915",
+        "district": "Kepil"
+    }, {
+        "id": "6916",
+        "district": "Kertek"
+    }, {
+        "id": "6917",
+        "district": "Leksono"
+    }, {
+        "id": "6918",
+        "district": "Mojotengah"
+    }, {
+        "id": "6919",
+        "district": "Sapuran"
+    }, {
+        "id": "6920",
+        "district": "Selomerto"
+    }, {
+        "id": "6921",
+        "district": "Sukoharjo"
+    }, {
+        "id": "6922",
+        "district": "Wadaslintang"
+    }, {
+        "id": "6923",
+        "district": "Watumalang"
+    }, {
+        "id": "6924",
+        "district": "Wonosobo"
+    }]
+}

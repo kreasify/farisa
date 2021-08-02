@@ -1,0 +1,25 @@
+{
+    "title": "485",
+    "id": "485",
+    "city": "Tomohon",
+    "type": "Kota",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "6733",
+        "district": "Tomohon Barat"
+    }, {
+        "id": "6734",
+        "district": "Tomohon Selatan"
+    }, {
+        "id": "6735",
+        "district": "Tomohon Tengah"
+    }, {
+        "id": "6736",
+        "district": "Tomohon Timur"
+    }, {
+        "id": "6737",
+        "district": "Tomohon Utara"
+    }]
+}

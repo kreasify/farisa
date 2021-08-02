@@ -1,0 +1,82 @@
+{
+    "title": "226",
+    "id": "226",
+    "city": "Lampung Timur",
+    "type": "Kabupaten",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "3200",
+        "district": "Bandar Sribawono"
+    }, {
+        "id": "3201",
+        "district": "Batanghari"
+    }, {
+        "id": "3202",
+        "district": "Batanghari Nuban"
+    }, {
+        "id": "3203",
+        "district": "Braja Slebah"
+    }, {
+        "id": "3204",
+        "district": "Bumi Agung"
+    }, {
+        "id": "3205",
+        "district": "Gunung Pelindung"
+    }, {
+        "id": "3206",
+        "district": "Jabung"
+    }, {
+        "id": "3207",
+        "district": "Labuhan Maringgai"
+    }, {
+        "id": "3208",
+        "district": "Labuhan Ratu"
+    }, {
+        "id": "3209",
+        "district": "Marga Sekampung"
+    }, {
+        "id": "3210",
+        "district": "Margatiga"
+    }, {
+        "id": "3211",
+        "district": "Mataram Baru"
+    }, {
+        "id": "3212",
+        "district": "Melinting"
+    }, {
+        "id": "3213",
+        "district": "Metro Kibang"
+    }, {
+        "id": "3214",
+        "district": "Pasir Sakti"
+    }, {
+        "id": "3215",
+        "district": "Pekalongan"
+    }, {
+        "id": "3216",
+        "district": "Purbolinggo"
+    }, {
+        "id": "3217",
+        "district": "Raman Utara"
+    }, {
+        "id": "3218",
+        "district": "Sekampung"
+    }, {
+        "id": "3219",
+        "district": "Sekampung Udik"
+    }, {
+        "id": "3220",
+        "district": "Sukadana"
+    }, {
+        "id": "3221",
+        "district": "Waway Karya"
+    }, {
+        "id": "3222",
+        "district": "Way Bungur (Purbolinggo Utara)"
+    }, {
+        "id": "3223",
+        "district": "Way Jepara"
+    }]
+}

@@ -1,0 +1,58 @@
+{
+    "title": "481",
+    "id": "481",
+    "city": "Toba Samosir",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "6652",
+        "district": "Ajibata"
+    }, {
+        "id": "6653",
+        "district": "Balige"
+    }, {
+        "id": "6654",
+        "district": "Bonatua Lunasi"
+    }, {
+        "id": "6655",
+        "district": "Bor-Bor"
+    }, {
+        "id": "6656",
+        "district": "Habinsaran"
+    }, {
+        "id": "6657",
+        "district": "Laguboti"
+    }, {
+        "id": "6658",
+        "district": "Lumban Julu"
+    }, {
+        "id": "6659",
+        "district": "Nassau"
+    }, {
+        "id": "6660",
+        "district": "Parmaksian"
+    }, {
+        "id": "6661",
+        "district": "Pintu Pohan Meranti"
+    }, {
+        "id": "6662",
+        "district": "Porsea"
+    }, {
+        "id": "6663",
+        "district": "Siantar Narumonda"
+    }, {
+        "id": "6664",
+        "district": "Sigumpar"
+    }, {
+        "id": "6665",
+        "district": "Silaen"
+    }, {
+        "id": "6666",
+        "district": "Tampahan"
+    }, {
+        "id": "6667",
+        "district": "Uluan"
+    }]
+}

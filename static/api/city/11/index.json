@@ -1,0 +1,91 @@
+{
+    "title": "11",
+    "id": "11",
+    "city": "Aceh Utara",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "27",
+    "data" : [{
+        "id": "149",
+        "district": "Baktiya"
+    }, {
+        "id": "150",
+        "district": "Baktiya Barat"
+    }, {
+        "id": "151",
+        "district": "Banda Baro"
+    }, {
+        "id": "152",
+        "district": "Cot Girek"
+    }, {
+        "id": "153",
+        "district": "Dewantara"
+    }, {
+        "id": "154",
+        "district": "Geuredong Pase"
+    }, {
+        "id": "155",
+        "district": "Kuta Makmur"
+    }, {
+        "id": "156",
+        "district": "Langkahan"
+    }, {
+        "id": "157",
+        "district": "Lapang"
+    }, {
+        "id": "158",
+        "district": "Lhoksukon"
+    }, {
+        "id": "159",
+        "district": "Matangkuli"
+    }, {
+        "id": "160",
+        "district": "Meurah Mulia"
+    }, {
+        "id": "161",
+        "district": "Muara Batu"
+    }, {
+        "id": "162",
+        "district": "Nibong"
+    }, {
+        "id": "163",
+        "district": "Nisam"
+    }, {
+        "id": "164",
+        "district": "Nisam Antara"
+    }, {
+        "id": "165",
+        "district": "Paya Bakong"
+    }, {
+        "id": "166",
+        "district": "Pirak Timur"
+    }, {
+        "id": "167",
+        "district": "Samudera"
+    }, {
+        "id": "168",
+        "district": "Sawang"
+    }, {
+        "id": "169",
+        "district": "Seunuddon (Seunudon)"
+    }, {
+        "id": "170",
+        "district": "Simpang Kramat (Keramat)"
+    }, {
+        "id": "171",
+        "district": "Syamtalira Aron"
+    }, {
+        "id": "172",
+        "district": "Syamtalira Bayu"
+    }, {
+        "id": "173",
+        "district": "Tanah Jambo Aye"
+    }, {
+        "id": "174",
+        "district": "Tanah Luas"
+    }, {
+        "id": "175",
+        "district": "Tanah Pasir"
+    }]
+}

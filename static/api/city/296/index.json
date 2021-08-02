@@ -1,0 +1,40 @@
+{
+    "title": "296",
+    "id": "296",
+    "city": "Murung Raya",
+    "type": "Kabupaten",
+    "province_id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "4190",
+        "district": "Barito Tuhup Raya"
+    }, {
+        "id": "4191",
+        "district": "Laung Tuhup"
+    }, {
+        "id": "4192",
+        "district": "Murung"
+    }, {
+        "id": "4193",
+        "district": "Permata Intan"
+    }, {
+        "id": "4194",
+        "district": "Seribu Riam"
+    }, {
+        "id": "4195",
+        "district": "Sumber Barito"
+    }, {
+        "id": "4196",
+        "district": "Sungai Babuat"
+    }, {
+        "id": "4197",
+        "district": "Tanah Siang"
+    }, {
+        "id": "4198",
+        "district": "Tanah Siang Selatan"
+    }, {
+        "id": "4199",
+        "district": "Uut Murung"
+    }]
+}

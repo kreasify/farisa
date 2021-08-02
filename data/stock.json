@@ -1,0 +1,1834 @@
+[
+    {
+        "produk": "ACVL-HMDR-ZAIBA-GREEN-JUMBO",
+        "stock": "15"
+    },
+    {
+        "produk": "ACVL-HMDR-ZAIBA-MAROON-JUMBO",
+        "stock": "9"
+    },
+    {
+        "produk": "ACVL-DLWR-ARM-BLACK-JUMBO",
+        "stock": "35"
+    },
+    {
+        "produk": "ACVL-DLWR-ARM-OLIVE-GREEN-JUMBO",
+        "stock": "35"
+    },
+    {
+        "produk": "ACVL-DLWR-OLV-BLACK-JUMBO",
+        "stock": "22"
+    },
+    {
+        "produk": "ACVL-DLWR-OLV-TERACOTTA-JUMBO",
+        "stock": "17"
+    },
+    {
+        "produk": "ACVL-HMDR-NDR-BLACK-JUMBO",
+        "stock": "6"
+    },
+    {
+        "produk": "ACVL-HMDR-NDR-NAVY-JUMBO",
+        "stock": "7"
+    },
+    {
+        "produk": "ACVL-HMDR-CML-OLIVE-GREEN-L",
+        "stock": "25"
+    },
+    {
+        "produk": "ACVL-HMDR-CML-TERACOTTA-L",
+        "stock": "10"
+    },
+    {
+        "produk": "ACVL-HMDR-NDR-NAVY-L",
+        "stock": "5"
+    },
+    {
+        "produk": "ACVL-DLWR-MAIDA -ALPRICOT-M",
+        "stock": "11"
+    },
+    {
+        "produk": "ACVL-DLWR-MAIDA-BLUEBERRY-M",
+        "stock": "7"
+    },
+    {
+        "produk": "ACVL-DLWR-MAIDA-MONOCHROME-M",
+        "stock": "8"
+    },
+    {
+        "produk": "ACVL-HMDR-ZAIBA-BLACK-M",
+        "stock": "9"
+    },
+    {
+        "produk": "ACVL-DLWR-ARM-BLACK-M",
+        "stock": "11"
+    },
+    {
+        "produk": "ACVL-DLWR-ARM-OLIVE-GREEN-M",
+        "stock": "15"
+    },
+    {
+        "produk": "ACVL-DLWR-OLV-BLACK-M",
+        "stock": "11"
+    },
+    {
+        "produk": "ACVL-DLWR-OLV-TERACOTTA-M",
+        "stock": "11"
+    },
+    {
+        "produk": "ACVL-HMDR-CML-OLIVE-GREEN-M",
+        "stock": "33"
+    },
+    {
+        "produk": "ACVL-HMDR-CML-TERACOTTA-M",
+        "stock": "13"
+    },
+    {
+        "produk": "ACVL-HMDR-NDR-BLACK-M",
+        "stock": "16"
+    },
+    {
+        "produk": "ACVL-HMDR-NDR-NAVY-M",
+        "stock": "9"
+    },
+    {
+        "produk": "ACVL-HMDR-CML-OLIVE-GREEN-XL",
+        "stock": "31"
+    },
+    {
+        "produk": "ACVL-HMDR-CML-TERACOTTA-XL",
+        "stock": "9"
+    },
+    {
+        "produk": "ACVL-HMDR-NDR-BLACK-XL",
+        "stock": "12"
+    },
+    {
+        "produk": "ACVL-HMDR-NDR-NAVY-XL",
+        "stock": "16"
+    },
+    {
+        "produk": "ACVL-HMDR-CML-OLIVE-GREEN-XXL",
+        "stock": "5"
+    },
+    {
+        "produk": "ACVL-HMDR-CML-TERACOTTA-XXL",
+        "stock": "4"
+    },
+    {
+        "produk": "GYB-HJ-1",
+        "stock": "10"
+    },
+    {
+        "produk": "GYB-HJ-10",
+        "stock": "10"
+    },
+    {
+        "produk": "GYB-HJ-11",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-12",
+        "stock": "9"
+    },
+    {
+        "produk": "GYB-HJ-13",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-14",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-15",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-16",
+        "stock": "6"
+    },
+    {
+        "produk": "GYB-HJ-2",
+        "stock": "10"
+    },
+    {
+        "produk": "GYB-HJ-21",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-22",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-23",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-24",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-3",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-4",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-5",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-6",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-7",
+        "stock": "9"
+    },
+    {
+        "produk": "GYB-HJ-8",
+        "stock": "7"
+    },
+    {
+        "produk": "GYB-HJ-9",
+        "stock": "5"
+    },
+    {
+        "produk": "GYB-HJ-IXR-BONDI-GREEN",
+        "stock": "4"
+    },
+    {
+        "produk": "GYB-HJ-IXR-CANDY-PINK",
+        "stock": "4"
+    },
+    {
+        "produk": "GYB-HJ-IXR-CRIMSON",
+        "stock": "5"
+    },
+    {
+        "produk": "GYB-HJ-IXR-DEEP-PINK",
+        "stock": "5"
+    },
+    {
+        "produk": "GYB-HJ-IXR-SNOW",
+        "stock": "5"
+    },
+    {
+        "produk": "GYB-TOTEBAG-HIJACKET",
+        "stock": "739"
+    },
+    {
+        "produk": "GYB-HJ-1-XL",
+        "stock": "10"
+    },
+    {
+        "produk": "GYB-HJ-10-XL",
+        "stock": "10"
+    },
+    {
+        "produk": "GYB-HJ-11-XL",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-12-XL",
+        "stock": "10"
+    },
+    {
+        "produk": "GYB-HJ-13-XL",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-14-XL",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-15-XL",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-2-XL",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-20-XL",
+        "stock": "3"
+    },
+    {
+        "produk": "GYB-HJ-21-XL",
+        "stock": "9"
+    },
+    {
+        "produk": "GYB-HJ-22-XL",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-23-XL",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-24-XL",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-3-XL",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-4-XL",
+        "stock": "10"
+    },
+    {
+        "produk": "GYB-HJ-5-XL",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-6-XL",
+        "stock": "10"
+    },
+    {
+        "produk": "GYB-HJ-7-XL",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-8-XL",
+        "stock": "5"
+    },
+    {
+        "produk": "GYB-HJ-9-XL",
+        "stock": "4"
+    },
+    {
+        "produk": "GYB-HJ-IXR-CANDY-PINK-XL",
+        "stock": "5"
+    },
+    {
+        "produk": "GYB-HJ-IXR-CRIMSON-XL",
+        "stock": "2"
+    },
+    {
+        "produk": "GYB-HJ-IXR-DEEP-PINK-XL",
+        "stock": "5"
+    },
+    {
+        "produk": "GYB-HJ-IXR-SNOW-XL",
+        "stock": "6"
+    },
+    {
+        "produk": "GYB-HJ-1-XXL",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-10-XXL",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-12-XXL",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-15-XXL",
+        "stock": "12"
+    },
+    {
+        "produk": "GYB-HJ-16-XXL",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-2-XXL",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-20-XXL",
+        "stock": "8"
+    },
+    {
+        "produk": "GYB-HJ-21-XXL",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-24-XXL",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-5-XXL",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-7-XXL",
+        "stock": "11"
+    },
+    {
+        "produk": "GYB-HJ-8-XXL",
+        "stock": "8"
+    },
+    {
+        "produk": "GYB-HJ-9-XXL",
+        "stock": "7"
+    },
+    {
+        "produk": "GYB-HJ-IXR-BONDI-GREEN-XXL",
+        "stock": "5"
+    },
+    {
+        "produk": "GYB-HJ-IXR-CANDY-PINK-XXL",
+        "stock": "6"
+    },
+    {
+        "produk": "GYB-HJ-IXR-DEEP-PINK-XXL",
+        "stock": "5"
+    },
+    {
+        "produk": "GYB-HJ-IXR-GOLDENROD-XXL",
+        "stock": "3"
+    },
+    {
+        "produk": "GYB-HJ-IXR-SNOW-XXL",
+        "stock": "6"
+    },
+    {
+        "produk": "ACVL-DLWR-SAFFANA-BLACK-JUMBO",
+        "stock": "53"
+    },
+    {
+        "produk": "ACVL-DLWR-MAIDA -ALPRICOT-JUMBO",
+        "stock": "4"
+    },
+    {
+        "produk": "ACVL-DLWR-MAIDA -BLUEBERRY-JUMBO",
+        "stock": "8"
+    },
+    {
+        "produk": "ACVL-DLWR-SAFFANA-MAROON-JUMBO",
+        "stock": "52"
+    },
+    {
+        "produk": "ACVL-DLWR-SAFFANA-SKYBLUE-JUMBO",
+        "stock": "52"
+    },
+    {
+        "produk": "ACVL-HMDR-01-BLACK-JUMBO",
+        "stock": "12"
+    },
+    {
+        "produk": "ACVL-HMDR-01-CREAM-JUMBO",
+        "stock": "6"
+    },
+    {
+        "produk": "ACVL-HMDR-01-GREY-JUMBO",
+        "stock": "12"
+    },
+    {
+        "produk": "ACVL-HMDR-01-NAVY-JUMBO",
+        "stock": "15"
+    },
+    {
+        "produk": "ACVL-HMDR-02-MAROON-JUMBO",
+        "stock": "2"
+    },
+    {
+        "produk": "ACVL-HMDR-02-MUSTARD-JUMBO",
+        "stock": "13"
+    },
+    {
+        "produk": "ACVL-HMDR-02-NAVY-JUMBO",
+        "stock": "13"
+    },
+    {
+        "produk": "ACVL-HMDR-02-WHITE-JUMBO",
+        "stock": "10"
+    },
+    {
+        "produk": "ACVL-HMDR-03-MAROON-JUMBO",
+        "stock": "15"
+    },
+    {
+        "produk": "ACVL-HMDR-03-MUSTARD-JUMBO",
+        "stock": "8"
+    },
+    {
+        "produk": "ACVL-HMDR-03-NAVY-JUMBO",
+        "stock": "1"
+    },
+    {
+        "produk": "ACVL-HMDR-03-TOSKA-JUMBO",
+        "stock": "14"
+    },
+    {
+        "produk": "ACVL-DLWR-STR-BLACK-L",
+        "stock": "2"
+    },
+    {
+        "produk": "ACVL-DLWR-STR-MUSTARD-L",
+        "stock": "3"
+    },
+    {
+        "produk": "ACVL-DLWR-YSN-BROWN-L",
+        "stock": "9"
+    },
+    {
+        "produk": "ACVL-DLWR-SAFFANA-BLACK-M",
+        "stock": "34"
+    },
+    {
+        "produk": "ACVL-DLWR-SAFFANA-MAROON-M",
+        "stock": "50"
+    },
+    {
+        "produk": "ACVL-DLWR-SKYBLUE-BLACK-M",
+        "stock": "66"
+    },
+    {
+        "produk": "ACVL-DLWR-STR-BLACK-M",
+        "stock": "3"
+    },
+    {
+        "produk": "ACVL-DLWR-STR-MUSTARD-M",
+        "stock": "7"
+    },
+    {
+        "produk": "ACVL-DLWR-YSN-BROWN-M",
+        "stock": "5"
+    },
+    {
+        "produk": "ACVL-DLWR-YSN-NAVY-M",
+        "stock": "6"
+    },
+    {
+        "produk": "ACVL-HMDR-MDN-BLACK-M",
+        "stock": "6"
+    },
+    {
+        "produk": "ACVL-HMDR-MDN-MUSTARD-M",
+        "stock": "1"
+    },
+    {
+        "produk": "ACVL-HMDR-PLK-MAROON-M",
+        "stock": "5"
+    },
+    {
+        "produk": "ACVL-HMDR-PLK-ORCHID-M",
+        "stock": "5"
+    },
+    {
+        "produk": "HJ-AGZ-BLACK-XL",
+        "stock": "22"
+    },
+    {
+        "produk": "HJ-AGZ-CREAM-XL",
+        "stock": "44"
+    },
+    {
+        "produk": "HJ-AGZ-GREEN-XL",
+        "stock": "40"
+    },
+    {
+        "produk": "HJ-AGZ-GREY-XL",
+        "stock": "36"
+    },
+    {
+        "produk": "HJ-AGZ-TERACOTTA-XL",
+        "stock": "19"
+    },
+    {
+        "produk": "ACVL-DLWR-STR-BLACK-XL",
+        "stock": "4"
+    },
+    {
+        "produk": "ACVL-DLWR-STR-MUSTARD-XL",
+        "stock": "5"
+    },
+    {
+        "produk": "HJ-1-XL",
+        "stock": "35"
+    },
+    {
+        "produk": "HJ-11-XL",
+        "stock": "32"
+    },
+    {
+        "produk": "HJ-13-XL",
+        "stock": "16"
+    },
+    {
+        "produk": "HJ-14-XL",
+        "stock": "24"
+    },
+    {
+        "produk": "HJ-15-XL",
+        "stock": "31"
+    },
+    {
+        "produk": "HJ-16-XL",
+        "stock": "50"
+    },
+    {
+        "produk": "HJ-2-XL",
+        "stock": "28"
+    },
+    {
+        "produk": "HJ-20-XL",
+        "stock": "41"
+    },
+    {
+        "produk": "HJ-21-XL",
+        "stock": "48"
+    },
+    {
+        "produk": "HJ-22-XL",
+        "stock": "70"
+    },
+    {
+        "produk": "HJ-23-XL",
+        "stock": "15"
+    },
+    {
+        "produk": "HJ-24-XL",
+        "stock": "18"
+    },
+    {
+        "produk": "HJ-3-XL",
+        "stock": "67"
+    },
+    {
+        "produk": "HJ-4-XL",
+        "stock": "37"
+    },
+    {
+        "produk": "HJ-5-XL",
+        "stock": "18"
+    },
+    {
+        "produk": "HJ-6-XL",
+        "stock": "28"
+    },
+    {
+        "produk": "HJ-8-XL",
+        "stock": "2"
+    },
+    {
+        "produk": "HJ-AUR-BURGUNDY-XL",
+        "stock": "84"
+    },
+    {
+        "produk": "HJ-AUR-GREY-XL",
+        "stock": "121"
+    },
+    {
+        "produk": "HJ-AUR-JET-BLACK-XL",
+        "stock": "57"
+    },
+    {
+        "produk": "HJ-AUR-ORCHID-XL",
+        "stock": "55"
+    },
+    {
+        "produk": "HJ-AUR-TERACOTTA-XL",
+        "stock": "73"
+    },
+    {
+        "produk": "HJ-AVA-BLACK-XL",
+        "stock": "39"
+    },
+    {
+        "produk": "HJ-AVA-BROWN-XL",
+        "stock": "15"
+    },
+    {
+        "produk": "HJ-AVA-MAROON-XL",
+        "stock": "50"
+    },
+    {
+        "produk": "HJ-AVA-NAVY-XL",
+        "stock": "85"
+    },
+    {
+        "produk": "HJ-BLV-BLACK-EBONY-XL",
+        "stock": "58"
+    },
+    {
+        "produk": "HJ-BLV-CLOUDGREY-XL",
+        "stock": "45"
+    },
+    {
+        "produk": "HJ-BLV-INDIGO-BLUE-XL",
+        "stock": "42"
+    },
+    {
+        "produk": "HJ-BLV-IVORY-XL",
+        "stock": "30"
+    },
+    {
+        "produk": "HJ-BLV-SEAWEED-XL",
+        "stock": "1"
+    },
+    {
+        "produk": "HJ-BX-HARBOR-XL",
+        "stock": "55"
+    },
+    {
+        "produk": "HJ-BX-MAGNUM-XL",
+        "stock": "24"
+    },
+    {
+        "produk": "HJ-BX-MARIGOLD-XL",
+        "stock": "14"
+    },
+    {
+        "produk": "HJ-BX-MOSSGREEN-XL",
+        "stock": "2"
+    },
+    {
+        "produk": "HJ-BX-ORCHID-XL",
+        "stock": "17"
+    },
+    {
+        "produk": "HJ-BX-ROYAL-BLUE-XL",
+        "stock": "41"
+    },
+    {
+        "produk": "HJ-BX-RUBY-XL",
+        "stock": "48"
+    },
+    {
+        "produk": "HJ-BX-SKYGREY-XL",
+        "stock": "77"
+    },
+    {
+        "produk": "HJ-EL-PEACHINK-XL",
+        "stock": "96"
+    },
+    {
+        "produk": "HJ-ELK-BLACK-XL",
+        "stock": "49"
+    },
+    {
+        "produk": "HJ-ELK-BROWN-XL",
+        "stock": "18"
+    },
+    {
+        "produk": "HJ-ELK-GREEN-XL",
+        "stock": "70"
+    },
+    {
+        "produk": "HJ-ELK-TERACOTTA-XL",
+        "stock": "24"
+    },
+    {
+        "produk": "HJ-ELN-PURPLE-XL",
+        "stock": "4"
+    },
+    {
+        "produk": "HJ-ELN-ROYAL-BLUE-XL",
+        "stock": "19"
+    },
+    {
+        "produk": "HJ-ELN-RUBY-XL",
+        "stock": "17"
+    },
+    {
+        "produk": "HJ-GRC-BLACK-XL",
+        "stock": "14"
+    },
+    {
+        "produk": "HJ-GRC-CREAM-XL",
+        "stock": "26"
+    },
+    {
+        "produk": "HJ-GRC-GREEN-XL",
+        "stock": "16"
+    },
+    {
+        "produk": "HJ-GRC-GREY-XL",
+        "stock": "51"
+    },
+    {
+        "produk": "HJ-GRC-MAROON-XL",
+        "stock": "61"
+    },
+    {
+        "produk": "HJ-HYR-ALPINE-XL",
+        "stock": "45"
+    },
+    {
+        "produk": "HJ-HYR-PURPLE-XL",
+        "stock": "26"
+    },
+    {
+        "produk": "HJ-HYR-ROYAL-BLUE-XL",
+        "stock": "50"
+    },
+    {
+        "produk": "HJ-HYR-TERACOTTA-XL",
+        "stock": "48"
+    },
+    {
+        "produk": "HJ-IXR-CANDY-PINK-XL",
+        "stock": "8"
+    },
+    {
+        "produk": "HJ-IXR-DEEP-PINK-XL",
+        "stock": "91"
+    },
+    {
+        "produk": "HJ-IXR-SNOW-XL",
+        "stock": "17"
+    },
+    {
+        "produk": "HJ-JS5-XL",
+        "stock": "5"
+    },
+    {
+        "produk": "HJ-MT-TERACOTTA-XL",
+        "stock": "23"
+    },
+    {
+        "produk": "HJ-OK-RED-XL",
+        "stock": "10"
+    },
+    {
+        "produk": "HJ-OK-YELLOW-XL",
+        "stock": "2"
+    },
+    {
+        "produk": "HJ-UB-ALPINE-XL",
+        "stock": "38"
+    },
+    {
+        "produk": "HJ-UB-HARBOR-XL",
+        "stock": "74"
+    },
+    {
+        "produk": "HJ-UB-MAGNUM-XL",
+        "stock": "36"
+    },
+    {
+        "produk": "HJ-UB-MARIGOLD-XL",
+        "stock": "8"
+    },
+    {
+        "produk": "HJ-UB-RAVEN-BLACK-XL",
+        "stock": "52"
+    },
+    {
+        "produk": "HJ-UB-ROSEPINK-XL",
+        "stock": "48"
+    },
+    {
+        "produk": "HJ-UB-ROYAL-BLUE-XL",
+        "stock": "13"
+    },
+    {
+        "produk": "HJ-UB-RUBY-XL",
+        "stock": "41"
+    },
+    {
+        "produk": "HJ-UB-SKY-BLUE-XL",
+        "stock": "99"
+    },
+    {
+        "produk": "HJ-UB-SKYGREY-XL",
+        "stock": "16"
+    },
+    {
+        "produk": "HJ-UB-TURQUOISE-XL",
+        "stock": "42"
+    },
+    {
+        "produk": "HJ-VD-ELOWEN-COCO-XL",
+        "stock": "9"
+    },
+    {
+        "produk": "HJ-VD-ONYX-BLACK-XL",
+        "stock": "60"
+    },
+    {
+        "produk": "HJ-VD-SPARROW-RED-XL",
+        "stock": "23"
+    },
+    {
+        "produk": "HJ-VD-WOLF-GREY-XL",
+        "stock": "35"
+    },
+    {
+        "produk": "HJ-YK-DARK-GREY-XL",
+        "stock": "19"
+    },
+    {
+        "produk": "HJ-YK-GREEN-XL",
+        "stock": "45"
+    },
+    {
+        "produk": "HJ-YK-GREY-XL",
+        "stock": "75"
+    },
+    {
+        "produk": "HJ-YK-MARIGOLD-XL",
+        "stock": "35"
+    },
+    {
+        "produk": "HJ-YK-ORCHID-XL",
+        "stock": "83"
+    },
+    {
+        "produk": "HJ-YK-ROYAL-BLUE-XL",
+        "stock": "118"
+    },
+    {
+        "produk": "HJ-YK-RUBY-XL",
+        "stock": "33"
+    },
+    {
+        "produk": "HJ-YK-SKY-BLUE-XL",
+        "stock": "22"
+    },
+    {
+        "produk": "HJ-QNB-CREAM-XXL",
+        "stock": "12"
+    },
+    {
+        "produk": "HJ-QNB-TERACOTTA-XXL",
+        "stock": "16"
+    },
+    {
+        "produk": "HJ-1-XXL",
+        "stock": "21"
+    },
+    {
+        "produk": "HJ-10-XXL",
+        "stock": "68"
+    },
+    {
+        "produk": "HJ-12-XXL",
+        "stock": "67"
+    },
+    {
+        "produk": "HJ-15-XXL",
+        "stock": "35"
+    },
+    {
+        "produk": "HJ-16-XXL",
+        "stock": "51"
+    },
+    {
+        "produk": "HJ-2-XXL",
+        "stock": "60"
+    },
+    {
+        "produk": "HJ-20-XXL",
+        "stock": "75"
+    },
+    {
+        "produk": "HJ-21-XXL",
+        "stock": "85"
+    },
+    {
+        "produk": "HJ-24-XXL",
+        "stock": "48"
+    },
+    {
+        "produk": "HJ-5-XXL",
+        "stock": "15"
+    },
+    {
+        "produk": "HJ-7-XXL",
+        "stock": "87"
+    },
+    {
+        "produk": "HJ-8-XXL",
+        "stock": "43"
+    },
+    {
+        "produk": "HJ-9-XXL",
+        "stock": "43"
+    },
+    {
+        "produk": "HJ-AGZ-BLACK-XXL",
+        "stock": "25"
+    },
+    {
+        "produk": "HJ-AGZ-CREAM-XXL",
+        "stock": "32"
+    },
+    {
+        "produk": "HJ-AGZ-GREY-XXL",
+        "stock": "33"
+    },
+    {
+        "produk": "HJ-AGZ-TERACOTTA-XXL",
+        "stock": "4"
+    },
+    {
+        "produk": "HJ-AVA-BROWN-XXL",
+        "stock": "51"
+    },
+    {
+        "produk": "HJ-AVA-DARK-GREY-XXL",
+        "stock": "35"
+    },
+    {
+        "produk": "HJ-AVA-MAROON-XXL",
+        "stock": "89"
+    },
+    {
+        "produk": "HJ-AVA-NAVY-XXL",
+        "stock": "118"
+    },
+    {
+        "produk": "HJ-BLV-CLOUDGREY-XXL",
+        "stock": "65"
+    },
+    {
+        "produk": "HJ-BLV-INDIGO-BLUE-XXL",
+        "stock": "30"
+    },
+    {
+        "produk": "HJ-BLV-IVORY-XXL",
+        "stock": "33"
+    },
+    {
+        "produk": "HJ-BLV-RED-BURGUNDY-XXL",
+        "stock": "49"
+    },
+    {
+        "produk": "HJ-BLV-SCARLETT-BROWN-XXL",
+        "stock": "60"
+    },
+    {
+        "produk": "HJ-BLV-SEAWEED-XXL",
+        "stock": "26"
+    },
+    {
+        "produk": "HJ-BX-HARBOR-XXL",
+        "stock": "35"
+    },
+    {
+        "produk": "HJ-BX-MAGNUM-XXL",
+        "stock": "42"
+    },
+    {
+        "produk": "HJ-BX-MARIGOLD-XXL",
+        "stock": "42"
+    },
+    {
+        "produk": "HJ-BX-ORCHID-XXL",
+        "stock": "28"
+    },
+    {
+        "produk": "HJ-BX-ROYAL-BLUE-XXL",
+        "stock": "27"
+    },
+    {
+        "produk": "HJ-BX-RUBY-XXL",
+        "stock": "15"
+    },
+    {
+        "produk": "HJ-BX-SKYGREY-XXL",
+        "stock": "47"
+    },
+    {
+        "produk": "HJ-ELK-BLACK-XXL",
+        "stock": "66"
+    },
+    {
+        "produk": "HJ-ELK-BROWN-XXL",
+        "stock": "69"
+    },
+    {
+        "produk": "HJ-ELK-GREEN-XXL",
+        "stock": "74"
+    },
+    {
+        "produk": "HJ-ELK-GREY-XXL",
+        "stock": "45"
+    },
+    {
+        "produk": "HJ-ELK-TERACOTTA-XXL",
+        "stock": "43"
+    },
+    {
+        "produk": "HJ-IXR-CANDY-PINK-XXL",
+        "stock": "34"
+    },
+    {
+        "produk": "HJ-IXR-SNOW-XXL",
+        "stock": "48"
+    },
+    {
+        "produk": "HJ-MT-BLACK-XXL",
+        "stock": "63"
+    },
+    {
+        "produk": "HJ-MT-CREAM-XXL",
+        "stock": "71"
+    },
+    {
+        "produk": "HJ-MT-GREY-XXL",
+        "stock": "71"
+    },
+    {
+        "produk": "HJ-MT-MOSSGREEN-XXL",
+        "stock": "34"
+    },
+    {
+        "produk": "HJ-MT-NAVY-XXL",
+        "stock": "33"
+    },
+    {
+        "produk": "HJ-UB-ALPINE-XXL",
+        "stock": "28"
+    },
+    {
+        "produk": "HJ-UB-HARBOR-XXL",
+        "stock": "61"
+    },
+    {
+        "produk": "HJ-UB-MAGNUM-XXL",
+        "stock": "51"
+    },
+    {
+        "produk": "HJ-UB-MARIGOLD-XXL",
+        "stock": "24"
+    },
+    {
+        "produk": "HJ-UB-RAVEN-BLACK-XXL",
+        "stock": "9"
+    },
+    {
+        "produk": "HJ-UB-ROSEPINK-XXL",
+        "stock": "89"
+    },
+    {
+        "produk": "HJ-UB-ROYAL-BLUE-XXL",
+        "stock": "50"
+    },
+    {
+        "produk": "HJ-UB-RUBY-XXL",
+        "stock": "56"
+    },
+    {
+        "produk": "HJ-UB-SKY-BLUE-XXL",
+        "stock": "53"
+    },
+    {
+        "produk": "HJ-UB-SKYGREY-XXL",
+        "stock": "45"
+    },
+    {
+        "produk": "HJ-UB-TURQUOISE-XXL",
+        "stock": "49"
+    },
+    {
+        "produk": "HJ-YK-BLACK-XXL",
+        "stock": "70"
+    },
+    {
+        "produk": "HJ-YK-DARK-GREY-XXL",
+        "stock": "21"
+    },
+    {
+        "produk": "HJ-YK-GREEN-XXL",
+        "stock": "15"
+    },
+    {
+        "produk": "HJ-YK-GREY-XXL",
+        "stock": "16"
+    },
+    {
+        "produk": "HJ-YK-MARIGOLD-XXL",
+        "stock": "17"
+    },
+    {
+        "produk": "HJ-YK-ORCHID-XXL",
+        "stock": "39"
+    },
+    {
+        "produk": "HJ-YK-ROYAL-BLUE-XXL",
+        "stock": "110"
+    },
+    {
+        "produk": "HJ-YK-RUBY-XXL",
+        "stock": "49"
+    },
+    {
+        "produk": "HJ-YK-SKY-BLUE-XXL",
+        "stock": "55"
+    },
+    {
+        "produk": "ACVL-DLWR-MAIDA -ALPRICOT",
+        "stock": "11"
+    },
+    {
+        "produk": "ACVL-DLWR-MAIDA -BLUEBERRY",
+        "stock": "9"
+    },
+    {
+        "produk": "ACVL-DLWR-SAFFANA-BLACK",
+        "stock": "51"
+    },
+    {
+        "produk": "ACVL-DLWR-SAFFANA-MAROON",
+        "stock": "50"
+    },
+    {
+        "produk": "ACVL-DLWR-SAFFANA-SKYBLUE",
+        "stock": "49"
+    },
+    {
+        "produk": "ACVL-HMDR-ZAIBA-BLACK",
+        "stock": "38"
+    },
+    {
+        "produk": "ACVL-HMDR-ZAIBA-GREEN",
+        "stock": "8"
+    },
+    {
+        "produk": "ACVL-HMDR-ZAIBA-GREY",
+        "stock": "24"
+    },
+    {
+        "produk": "ACVL-HMDR-ZAIBA-MAROON",
+        "stock": "2"
+    },
+    {
+        "produk": "ACVL-HMDR-ZAIBA-PINK",
+        "stock": "24"
+    },
+    {
+        "produk": "ACVL-HMDR-ZAIBA-PUMPKIN",
+        "stock": "18"
+    },
+    {
+        "produk": "ACVL-HMDR-01-BLACK",
+        "stock": "5"
+    },
+    {
+        "produk": "ACVL-HMDR-01-NAVY",
+        "stock": "4"
+    },
+    {
+        "produk": "ACVL-HMDR-02-MAROON",
+        "stock": "9"
+    },
+    {
+        "produk": "ACVL-HMDR-02-MUSTARD",
+        "stock": "12"
+    },
+    {
+        "produk": "ACVL-HMDR-02-NAVY",
+        "stock": "10"
+    },
+    {
+        "produk": "ACVL-HMDR-03-MAROON",
+        "stock": "5"
+    },
+    {
+        "produk": "ACVL-HMDR-03-MUSTARD",
+        "stock": "4"
+    },
+    {
+        "produk": "ACVL-HMDR-03-TOSKA",
+        "stock": "7"
+    },
+    {
+        "produk": "ACVL-SCRH-CHN-01-GOLDEN-BLACK",
+        "stock": "57"
+    },
+    {
+        "produk": "ACVL-DLWR-ARM-BLACK",
+        "stock": "40"
+    },
+    {
+        "produk": "ACVL-DLWR-ARM-OLIVE-GREEN",
+        "stock": "24"
+    },
+    {
+        "produk": "ACVL-DLWR-OLV-BLACK",
+        "stock": "20"
+    },
+    {
+        "produk": "ACVL-DLWR-OLV-TERACOTTA",
+        "stock": "11"
+    },
+    {
+        "produk": "HJ-10",
+        "stock": "69"
+    },
+    {
+        "produk": "HJ-11",
+        "stock": "48"
+    },
+    {
+        "produk": "HJ-12",
+        "stock": "32"
+    },
+    {
+        "produk": "HJ-13",
+        "stock": "35"
+    },
+    {
+        "produk": "HJ-14",
+        "stock": "47"
+    },
+    {
+        "produk": "HJ-15",
+        "stock": "39"
+    },
+    {
+        "produk": "HJ-2",
+        "stock": "17"
+    },
+    {
+        "produk": "HJ-20",
+        "stock": "48"
+    },
+    {
+        "produk": "HJ-21",
+        "stock": "85"
+    },
+    {
+        "produk": "HJ-22",
+        "stock": "19"
+    },
+    {
+        "produk": "HJ-23",
+        "stock": "46"
+    },
+    {
+        "produk": "HJ-24",
+        "stock": "47"
+    },
+    {
+        "produk": "HJ-3",
+        "stock": "54"
+    },
+    {
+        "produk": "HJ-4",
+        "stock": "44"
+    },
+    {
+        "produk": "HJ-5",
+        "stock": "40"
+    },
+    {
+        "produk": "HJ-6",
+        "stock": "61"
+    },
+    {
+        "produk": "HJ-7",
+        "stock": "26"
+    },
+    {
+        "produk": "HJ-8",
+        "stock": "75"
+    },
+    {
+        "produk": "HJ-9",
+        "stock": "69"
+    },
+    {
+        "produk": "HJ-ADV-BLACK",
+        "stock": "10"
+    },
+    {
+        "produk": "HJ-ADV-PURPLE",
+        "stock": "20"
+    },
+    {
+        "produk": "HJ-AGZ-CREAM",
+        "stock": "64"
+    },
+    {
+        "produk": "HJ-AGZ-GREEN",
+        "stock": "16"
+    },
+    {
+        "produk": "HJ-AGZ-GREY",
+        "stock": "31"
+    },
+    {
+        "produk": "HJ-AGZ-MAROON",
+        "stock": "14"
+    },
+    {
+        "produk": "HJ-AUR-ALPINE",
+        "stock": "52"
+    },
+    {
+        "produk": "HJ-AUR-JET-BLACK",
+        "stock": "72"
+    },
+    {
+        "produk": "HJ-AUR-ORCHID",
+        "stock": "71"
+    },
+    {
+        "produk": "HJ-AUR-TERACOTTA",
+        "stock": "73"
+    },
+    {
+        "produk": "HJ-AVA-BLACK",
+        "stock": "29"
+    },
+    {
+        "produk": "HJ-AVA-DARK-GREY",
+        "stock": "31"
+    },
+    {
+        "produk": "HJ-AVA-MAROON",
+        "stock": "20"
+    },
+    {
+        "produk": "HJ-AVA-NAVY",
+        "stock": "60"
+    },
+    {
+        "produk": "HJ-BLV-BLACK-EBONY",
+        "stock": "70"
+    },
+    {
+        "produk": "HJ-BLV-CLOUDGREY",
+        "stock": "86"
+    },
+    {
+        "produk": "HJ-BLV-INDIGO-BLUE",
+        "stock": "53"
+    },
+    {
+        "produk": "HJ-BLV-IVORY",
+        "stock": "40"
+    },
+    {
+        "produk": "HJ-BLV-MARIGOLD",
+        "stock": "23"
+    },
+    {
+        "produk": "HJ-BLV-RED-BURGUNDY",
+        "stock": "46"
+    },
+    {
+        "produk": "HJ-BLV-SCARLETT-BROWN",
+        "stock": "21"
+    },
+    {
+        "produk": "HJ-BLV-SEAWEED",
+        "stock": "31"
+    },
+    {
+        "produk": "HJ-BX-HARBOR",
+        "stock": "10"
+    },
+    {
+        "produk": "HJ-BX-MARIGOLD",
+        "stock": "15"
+    },
+    {
+        "produk": "HJ-BX-RUBY",
+        "stock": "1"
+    },
+    {
+        "produk": "HJ-BX-SKYGREY",
+        "stock": "38"
+    },
+    {
+        "produk": "HJ-CF-RUBY",
+        "stock": "7"
+    },
+    {
+        "produk": "HJ-ELK-BLACK",
+        "stock": "12"
+    },
+    {
+        "produk": "HJ-ELN-MOSSGREEN",
+        "stock": "54"
+    },
+    {
+        "produk": "HJ-ELN-PURPLE",
+        "stock": "25"
+    },
+    {
+        "produk": "HJ-ELN-RAVEN-BLACK",
+        "stock": "26"
+    },
+    {
+        "produk": "HJ-ELN-ROYAL-BLUE",
+        "stock": "34"
+    },
+    {
+        "produk": "HJ-ELN-RUBY",
+        "stock": "45"
+    },
+    {
+        "produk": "HJ-GHN-GREEN",
+        "stock": "8"
+    },
+    {
+        "produk": "HJ-GHN-PINK",
+        "stock": "15"
+    },
+    {
+        "produk": "HJ-GRC-BLACK",
+        "stock": "22"
+    },
+    {
+        "produk": "HJ-GRC-MAROON",
+        "stock": "30"
+    },
+    {
+        "produk": "HJ-GRC-NAVY",
+        "stock": "19"
+    },
+    {
+        "produk": "HJ-HYR-ALPINE",
+        "stock": "45"
+    },
+    {
+        "produk": "HJ-HYR-PURPLE",
+        "stock": "2"
+    },
+    {
+        "produk": "HJ-HYR-ROYAL-BLUE",
+        "stock": "38"
+    },
+    {
+        "produk": "HJ-HYR-TERACOTTA",
+        "stock": "35"
+    },
+    {
+        "produk": "HJ-IXR-BONDI-GREEN",
+        "stock": "104"
+    },
+    {
+        "produk": "HJ-IXR-CANDY-PINK",
+        "stock": "147"
+    },
+    {
+        "produk": "HJ-IXR-CRIMSON",
+        "stock": "106"
+    },
+    {
+        "produk": "HJ-IXR-DEEP-PINK",
+        "stock": "143"
+    },
+    {
+        "produk": "HJ-IXR-SNOW",
+        "stock": "65"
+    },
+    {
+        "produk": "HJ-NR-FUJI",
+        "stock": "17"
+    },
+    {
+        "produk": "HJ-QNB-CREAM",
+        "stock": "64"
+    },
+    {
+        "produk": "HJ-QNB-MAROON",
+        "stock": "89"
+    },
+    {
+        "produk": "HJ-QNB-TERACOTTA",
+        "stock": "35"
+    },
+    {
+        "produk": "HJ-UB-ALPINE",
+        "stock": "51"
+    },
+    {
+        "produk": "HJ-UB-HARBOR",
+        "stock": "22"
+    },
+    {
+        "produk": "HJ-UB-MAGNUM",
+        "stock": "110"
+    },
+    {
+        "produk": "HJ-UB-MARIGOLD",
+        "stock": "9"
+    },
+    {
+        "produk": "HJ-UB-RAVEN-BLACK",
+        "stock": "66"
+    },
+    {
+        "produk": "HJ-UB-ROSEPINK",
+        "stock": "12"
+    },
+    {
+        "produk": "HJ-UB-ROYAL-BLUE",
+        "stock": "51"
+    },
+    {
+        "produk": "HJ-UB-RUBY",
+        "stock": "61"
+    },
+    {
+        "produk": "HJ-UB-SKYGREY",
+        "stock": "14"
+    },
+    {
+        "produk": "HJ-UB-TURQUOISE",
+        "stock": "8"
+    },
+    {
+        "produk": "HJ-VD-CORA-BLUE",
+        "stock": "5"
+    },
+    {
+        "produk": "HJ-VD-ELOWEN-COCO",
+        "stock": "19"
+    },
+    {
+        "produk": "HJ-VD-OLIVE-GREEN",
+        "stock": "9"
+    },
+    {
+        "produk": "HJ-VD-SPARROW-RED",
+        "stock": "29"
+    },
+    {
+        "produk": "HJ-YK-DARK-GREY",
+        "stock": "29"
+    },
+    {
+        "produk": "HJ-YK-GREEN",
+        "stock": "1"
+    },
+    {
+        "produk": "HJ-YK-GREY",
+        "stock": "33"
+    },
+    {
+        "produk": "HJ-YK-ORCHID",
+        "stock": "76"
+    },
+    {
+        "produk": "HJ-YK-SKY-BLUE",
+        "stock": "10"
+    },
+    {
+        "produk": "MM-BASIC-ORCHID",
+        "stock": "857"
+    },
+    {
+        "produk": "MM-BASIC-PURPLE",
+        "stock": "557"
+    },
+    {
+        "produk": "MM-BASIC-SKYBLUE",
+        "stock": "877"
+    },
+    {
+        "produk": "MM-BASIC-TERACOTTA",
+        "stock": "2181"
+    },
+    {
+        "produk": "MM-KDS-SBR-02",
+        "stock": "276"
+    },
+    {
+        "produk": "MM-KDS-SBR-03",
+        "stock": "292"
+    },
+    {
+        "produk": "MM-KDS-SBR-04",
+        "stock": "371"
+    },
+    {
+        "produk": "MM-KDS-BAG-02",
+        "stock": "505"
+    },
+    {
+        "produk": "MM-KDS-DOA-02",
+        "stock": "204"
+    },
+    {
+        "produk": "MM-KDS-DOA-03",
+        "stock": "348"
+    },
+    {
+        "produk": "MM-KDS-HLL-01",
+        "stock": "409"
+    },
+    {
+        "produk": "MM-KDS-HLL-02",
+        "stock": "372"
+    },
+    {
+        "produk": "MM-KDS-HLL-03",
+        "stock": "316"
+    },
+    {
+        "produk": "MM-KDS-HLL-04",
+        "stock": "182"
+    },
+    {
+        "produk": "MM-KDS-HLL-05",
+        "stock": "285"
+    },
+    {
+        "produk": "MM-KDS-HJB-01",
+        "stock": "126"
+    },
+    {
+        "produk": "MM-KDS-HJB-02",
+        "stock": "336"
+    },
+    {
+        "produk": "MM-KDS-KS-01",
+        "stock": "176"
+    },
+    {
+        "produk": "MM-KDS-KS-03",
+        "stock": "225"
+    },
+    {
+        "produk": "MM-KDS-KS-04",
+        "stock": "583"
+    },
+    {
+        "produk": "MM-KDS-KS-05",
+        "stock": "229"
+    },
+    {
+        "produk": "MM-KDS-LM-01",
+        "stock": "120"
+    },
+    {
+        "produk": "MM-KDS-SCD-01",
+        "stock": "61"
+    },
+    {
+        "produk": "MM-KDS-SCD-02",
+        "stock": "102"
+    },
+    {
+        "produk": "MM-KDS-SCD-03",
+        "stock": "133"
+    },
+    {
+        "produk": "MM-KDS-SCD-04",
+        "stock": "148"
+    },
+    {
+        "produk": "MM-KDS-SYK-01",
+        "stock": "187"
+    },
+    {
+        "produk": "MM-KDS-SYK-02",
+        "stock": "58"
+    },
+    {
+        "produk": "MM-KDS-SYK-03",
+        "stock": "248"
+    },
+    {
+        "produk": "MM-KDS-SYK-04",
+        "stock": "222"
+    },
+    {
+        "produk": "MM-SPC-BLUEBELL",
+        "stock": "170"
+    },
+    {
+        "produk": "MM-SPC-CHROMATIC",
+        "stock": "288"
+    },
+    {
+        "produk": "MM-SPC-CONVALLARIA",
+        "stock": "370"
+    },
+    {
+        "produk": "MM-SPC-DELONIX",
+        "stock": "177"
+    },
+    {
+        "produk": "MM-SPC-EVENTIDE",
+        "stock": "184"
+    },
+    {
+        "produk": "MM-SPC-FLOWERCHROME",
+        "stock": "306"
+    },
+    {
+        "produk": "MM-SPC-GERANIUM",
+        "stock": "246"
+    },
+    {
+        "produk": "MM-SPC-HIBISCUS",
+        "stock": "136"
+    },
+    {
+        "produk": "MM-SPC-LAFANDULA",
+        "stock": "131"
+    },
+    {
+        "produk": "MM-SPC-LEAVES-BLUE",
+        "stock": "2"
+    },
+    {
+        "produk": "MM-SPC-LOBELIA",
+        "stock": "395"
+    },
+    {
+        "produk": "MM-SPC-MAGNOLIA",
+        "stock": "305"
+    },
+    {
+        "produk": "MM-SPC-MONOCHROME",
+        "stock": "228"
+    },
+    {
+        "produk": "MM-SPC-PRIMROSE",
+        "stock": "171"
+    },
+    {
+        "produk": "MM-SPC-ROSELIA",
+        "stock": "230"
+    },
+    {
+        "produk": "MM-SPC-SALVIA",
+        "stock": "211"
+    },
+    {
+        "produk": "MM-SPC-SINCERE",
+        "stock": "573"
+    },
+    {
+        "produk": "TOTEBAG-ALCAVELLA",
+        "stock": "2492"
+    },
+    {
+        "produk": "TOTEBAG-HIJACKET",
+        "stock": "1051"
+    },
+    {
+        "produk": "HJ-AUR-ALPINE-XXL",
+        "stock": "79"
+    },
+    {
+        "produk": "HJ-AUR-BROWN-XXL",
+        "stock": "109"
+    },
+    {
+        "produk": "HJ-AUR-BURGUNDY-XXL",
+        "stock": "92"
+    },
+    {
+        "produk": "HJ-AUR-GREY-XXL",
+        "stock": "128"
+    },
+    {
+        "produk": "HJ-AUR-JET-BLACK-XXL",
+        "stock": "86"
+    },
+    {
+        "produk": "HJ-AUR-ORCHID-XXL",
+        "stock": "117"
+    },
+    {
+        "produk": "HJ-AUR-TERACOTTA-XXL",
+        "stock": "77"
+    }
+]

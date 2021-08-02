@@ -1,0 +1,31 @@
+{
+    "title": "47",
+    "id": "47",
+    "city": "Barru",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "666",
+        "district": "Balusu"
+    }, {
+        "id": "667",
+        "district": "Barru"
+    }, {
+        "id": "668",
+        "district": "Mallusetasi"
+    }, {
+        "id": "669",
+        "district": "Pujananting"
+    }, {
+        "id": "670",
+        "district": "Soppeng Riaja"
+    }, {
+        "id": "671",
+        "district": "Tanete Riaja"
+    }, {
+        "id": "672",
+        "district": "Tanete Rilau"
+    }]
+}

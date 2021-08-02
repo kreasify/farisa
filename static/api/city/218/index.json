@@ -1,0 +1,25 @@
+{
+    "title": "218",
+    "id": "218",
+    "city": "Labuhan Batu Selatan",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "3070",
+        "district": "Kampung Rakyat"
+    }, {
+        "id": "3071",
+        "district": "Kota Pinang"
+    }, {
+        "id": "3072",
+        "district": "Sei/Sungai Kanan"
+    }, {
+        "id": "3073",
+        "district": "Silangkitang"
+    }, {
+        "id": "3074",
+        "district": "Torgamba"
+    }]
+}

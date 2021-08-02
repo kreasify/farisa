@@ -1,0 +1,43 @@
+{
+    "title": "356",
+    "id": "356",
+    "city": "Pesisir Barat",
+    "type": "Kabupaten",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "4973",
+        "district": "Bengkunat"
+    }, {
+        "id": "4974",
+        "district": "Bengkunat Belimbing"
+    }, {
+        "id": "4975",
+        "district": "Karya Penggawa"
+    }, {
+        "id": "4976",
+        "district": "Krui Selatan"
+    }, {
+        "id": "4977",
+        "district": "Lemong"
+    }, {
+        "id": "4978",
+        "district": "Ngambur"
+    }, {
+        "id": "4979",
+        "district": "Pesisir Selatan"
+    }, {
+        "id": "4980",
+        "district": "Pesisir Tengah"
+    }, {
+        "id": "4981",
+        "district": "Pesisir Utara"
+    }, {
+        "id": "4982",
+        "district": "Pulau Pisang"
+    }, {
+        "id": "4983",
+        "district": "Way Krui"
+    }]
+}

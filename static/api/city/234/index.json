@@ -1,0 +1,37 @@
+{
+    "title": "234",
+    "id": "234",
+    "city": "Lembata",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "3338",
+        "district": "Atadei"
+    }, {
+        "id": "3339",
+        "district": "Buyasuri (Buyasari)"
+    }, {
+        "id": "3340",
+        "district": "Ile Ape"
+    }, {
+        "id": "3341",
+        "district": "Ile Ape Timur"
+    }, {
+        "id": "3342",
+        "district": "Lebatukan"
+    }, {
+        "id": "3343",
+        "district": "Nagawutung"
+    }, {
+        "id": "3344",
+        "district": "Nubatukan"
+    }, {
+        "id": "3345",
+        "district": "Omesuri"
+    }, {
+        "id": "3346",
+        "district": "Wulandoni (Wulandioni)"
+    }]
+}

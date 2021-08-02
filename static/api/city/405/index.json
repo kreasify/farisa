@@ -1,0 +1,40 @@
+{
+    "title": "405",
+    "id": "405",
+    "city": "Seruyan",
+    "type": "Kabupaten",
+    "province_id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "5592",
+        "district": "Batu Ampar"
+    }, {
+        "id": "5593",
+        "district": "Danau Seluluk"
+    }, {
+        "id": "5594",
+        "district": "Danau Sembuluh"
+    }, {
+        "id": "5595",
+        "district": "Hanau"
+    }, {
+        "id": "5596",
+        "district": "Seruyan Hilir"
+    }, {
+        "id": "5597",
+        "district": "Seruyan Hilir Timur"
+    }, {
+        "id": "5598",
+        "district": "Seruyan Hulu"
+    }, {
+        "id": "5599",
+        "district": "Seruyan Raya"
+    }, {
+        "id": "5600",
+        "district": "Seruyan Tengah"
+    }, {
+        "id": "5601",
+        "district": "Suling Tambun"
+    }]
+}

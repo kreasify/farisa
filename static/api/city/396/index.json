@@ -1,0 +1,43 @@
+{
+    "title": "396",
+    "id": "396",
+    "city": "Selayar (Kepulauan Selayar)",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "5454",
+        "district": "Benteng"
+    }, {
+        "id": "5455",
+        "district": "Bontoharu"
+    }, {
+        "id": "5456",
+        "district": "Bontomanai"
+    }, {
+        "id": "5457",
+        "district": "Bontomatene"
+    }, {
+        "id": "5458",
+        "district": "Bontosikuyu"
+    }, {
+        "id": "5459",
+        "district": "Buki"
+    }, {
+        "id": "5460",
+        "district": "Pasilambena"
+    }, {
+        "id": "5461",
+        "district": "Pasimarannu"
+    }, {
+        "id": "5462",
+        "district": "Pasimassunggu"
+    }, {
+        "id": "5463",
+        "district": "Pasimasunggu Timur"
+    }, {
+        "id": "5464",
+        "district": "Takabonerate"
+    }]
+}

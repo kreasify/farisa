@@ -1,0 +1,67 @@
+{
+    "title": "129",
+    "id": "129",
+    "city": "Gorontalo",
+    "type": "Kabupaten",
+    "province_id": "7",
+    "province": "Gorontalo",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "1771",
+        "district": "Asparaga"
+    }, {
+        "id": "1772",
+        "district": "Batudaa"
+    }, {
+        "id": "1773",
+        "district": "Batudaa Pantai"
+    }, {
+        "id": "1774",
+        "district": "Bilato"
+    }, {
+        "id": "1775",
+        "district": "Biluhu"
+    }, {
+        "id": "1776",
+        "district": "Boliohuto (Boliyohuto)"
+    }, {
+        "id": "1777",
+        "district": "Bongomeme"
+    }, {
+        "id": "1778",
+        "district": "Dungaliyo"
+    }, {
+        "id": "1779",
+        "district": "Limboto"
+    }, {
+        "id": "1780",
+        "district": "Limboto Barat"
+    }, {
+        "id": "1781",
+        "district": "Mootilango"
+    }, {
+        "id": "1782",
+        "district": "Pulubala"
+    }, {
+        "id": "1783",
+        "district": "Tabongo"
+    }, {
+        "id": "1784",
+        "district": "Telaga"
+    }, {
+        "id": "1785",
+        "district": "Telaga Biru"
+    }, {
+        "id": "1786",
+        "district": "Telaga Jaya"
+    }, {
+        "id": "1787",
+        "district": "Tibawa"
+    }, {
+        "id": "1788",
+        "district": "Tilango"
+    }, {
+        "id": "1789",
+        "district": "Tolangohula"
+    }]
+}

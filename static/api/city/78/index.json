@@ -1,0 +1,130 @@
+{
+    "title": "78",
+    "id": "78",
+    "city": "Bogor",
+    "type": "Kabupaten",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "40",
+    "data" : [{
+        "id": "1022",
+        "district": "Babakan Madang"
+    }, {
+        "id": "1023",
+        "district": "Bojonggede"
+    }, {
+        "id": "1024",
+        "district": "Caringin"
+    }, {
+        "id": "1025",
+        "district": "Cariu"
+    }, {
+        "id": "1026",
+        "district": "Ciampea"
+    }, {
+        "id": "1027",
+        "district": "Ciawi"
+    }, {
+        "id": "1028",
+        "district": "Cibinong"
+    }, {
+        "id": "1029",
+        "district": "Cibungbulang"
+    }, {
+        "id": "1030",
+        "district": "Cigombong"
+    }, {
+        "id": "1031",
+        "district": "Cigudeg"
+    }, {
+        "id": "1032",
+        "district": "Cijeruk"
+    }, {
+        "id": "1033",
+        "district": "Cileungsi"
+    }, {
+        "id": "1034",
+        "district": "Ciomas"
+    }, {
+        "id": "1035",
+        "district": "Cisarua"
+    }, {
+        "id": "1036",
+        "district": "Ciseeng"
+    }, {
+        "id": "1037",
+        "district": "Citeureup"
+    }, {
+        "id": "1038",
+        "district": "Dramaga"
+    }, {
+        "id": "1039",
+        "district": "Gunung Putri"
+    }, {
+        "id": "1040",
+        "district": "Gunung Sindur"
+    }, {
+        "id": "1041",
+        "district": "Jasinga"
+    }, {
+        "id": "1042",
+        "district": "Jonggol"
+    }, {
+        "id": "1043",
+        "district": "Kemang"
+    }, {
+        "id": "1044",
+        "district": "Klapa Nunggal (Kelapa Nunggal)"
+    }, {
+        "id": "1045",
+        "district": "Leuwiliang"
+    }, {
+        "id": "1046",
+        "district": "Leuwisadeng"
+    }, {
+        "id": "1047",
+        "district": "Megamendung"
+    }, {
+        "id": "1048",
+        "district": "Nanggung"
+    }, {
+        "id": "1049",
+        "district": "Pamijahan"
+    }, {
+        "id": "1050",
+        "district": "Parung"
+    }, {
+        "id": "1051",
+        "district": "Parung Panjang"
+    }, {
+        "id": "1052",
+        "district": "Ranca Bungur"
+    }, {
+        "id": "1053",
+        "district": "Rumpin"
+    }, {
+        "id": "1054",
+        "district": "Sukajaya"
+    }, {
+        "id": "1055",
+        "district": "Sukamakmur"
+    }, {
+        "id": "1056",
+        "district": "Sukaraja"
+    }, {
+        "id": "1057",
+        "district": "Tajurhalang"
+    }, {
+        "id": "1058",
+        "district": "Tamansari"
+    }, {
+        "id": "1059",
+        "district": "Tanjungsari"
+    }, {
+        "id": "1060",
+        "district": "Tenjo"
+    }, {
+        "id": "1061",
+        "district": "Tenjolaya"
+    }]
+}

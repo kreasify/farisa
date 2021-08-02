@@ -1,0 +1,76 @@
+{
+    "title": "74",
+    "id": "74",
+    "city": "Blitar",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "22",
+    "data" : [{
+        "id": "974",
+        "district": "Bakung"
+    }, {
+        "id": "975",
+        "district": "Binangun"
+    }, {
+        "id": "976",
+        "district": "Doko"
+    }, {
+        "id": "977",
+        "district": "Gandusari"
+    }, {
+        "id": "978",
+        "district": "Garum"
+    }, {
+        "id": "979",
+        "district": "Kademangan"
+    }, {
+        "id": "980",
+        "district": "Kanigoro"
+    }, {
+        "id": "981",
+        "district": "Kesamben"
+    }, {
+        "id": "982",
+        "district": "Nglegok"
+    }, {
+        "id": "983",
+        "district": "Panggungrejo"
+    }, {
+        "id": "984",
+        "district": "Ponggok"
+    }, {
+        "id": "985",
+        "district": "Sanan Kulon"
+    }, {
+        "id": "986",
+        "district": "Selopuro"
+    }, {
+        "id": "987",
+        "district": "Selorejo"
+    }, {
+        "id": "988",
+        "district": "Srengat"
+    }, {
+        "id": "989",
+        "district": "Sutojayan"
+    }, {
+        "id": "990",
+        "district": "Talun"
+    }, {
+        "id": "991",
+        "district": "Udanawu"
+    }, {
+        "id": "992",
+        "district": "Wates"
+    }, {
+        "id": "993",
+        "district": "Wlingi"
+    }, {
+        "id": "994",
+        "district": "Wonodadi"
+    }, {
+        "id": "995",
+        "district": "Wonotirto"
+    }]
+}

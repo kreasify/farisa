@@ -1,0 +1,34 @@
+{
+    "title": "138",
+    "id": "138",
+    "city": "Halmahera Barat",
+    "type": "Kabupaten",
+    "province_id": "20",
+    "province": "Maluku Utara",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "1901",
+        "district": "Ibu"
+    }, {
+        "id": "1902",
+        "district": "Ibu Selatan"
+    }, {
+        "id": "1903",
+        "district": "Ibu Utara"
+    }, {
+        "id": "1904",
+        "district": "Jailolo"
+    }, {
+        "id": "1905",
+        "district": "Jailolo Selatan"
+    }, {
+        "id": "1906",
+        "district": "Loloda"
+    }, {
+        "id": "1907",
+        "district": "Sahu"
+    }, {
+        "id": "1908",
+        "district": "Sahu Timur"
+    }]
+}

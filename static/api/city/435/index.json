@@ -1,0 +1,43 @@
+{
+    "title": "435",
+    "id": "435",
+    "city": "Sumba Barat Daya",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "5995",
+        "district": "Kodi"
+    }, {
+        "id": "5996",
+        "district": "Kodi Balaghar"
+    }, {
+        "id": "5997",
+        "district": "Kodi Bangedo"
+    }, {
+        "id": "5998",
+        "district": "Kodi Utara"
+    }, {
+        "id": "5999",
+        "district": "Kota Tambolaka"
+    }, {
+        "id": "6000",
+        "district": "Loura (Laura)"
+    }, {
+        "id": "6001",
+        "district": "Wewewa Barat"
+    }, {
+        "id": "6002",
+        "district": "Wewewa Selatan"
+    }, {
+        "id": "6003",
+        "district": "Wewewa Tengah (Wewera Tengah)"
+    }, {
+        "id": "6004",
+        "district": "Wewewa Timur"
+    }, {
+        "id": "6005",
+        "district": "Wewewa Utara"
+    }]
+}

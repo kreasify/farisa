@@ -1,0 +1,67 @@
+{
+    "title": "366",
+    "id": "366",
+    "city": "Poso",
+    "type": "Kabupaten",
+    "province_id": "29",
+    "province": "Sulawesi Tengah",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "5107",
+        "district": "Lage"
+    }, {
+        "id": "5108",
+        "district": "Lore Barat"
+    }, {
+        "id": "5109",
+        "district": "Lore Piore"
+    }, {
+        "id": "5110",
+        "district": "Lore Selatan"
+    }, {
+        "id": "5111",
+        "district": "Lore Tengah"
+    }, {
+        "id": "5112",
+        "district": "Lore Timur"
+    }, {
+        "id": "5113",
+        "district": "Lore Utara"
+    }, {
+        "id": "5114",
+        "district": "Pamona Barat"
+    }, {
+        "id": "5115",
+        "district": "Pamona Puselemba"
+    }, {
+        "id": "5116",
+        "district": "Pamona Selatan"
+    }, {
+        "id": "5117",
+        "district": "Pamona Tenggara"
+    }, {
+        "id": "5118",
+        "district": "Pamona Timur"
+    }, {
+        "id": "5119",
+        "district": "Pamona Utara"
+    }, {
+        "id": "5120",
+        "district": "Poso Kota"
+    }, {
+        "id": "5121",
+        "district": "Poso Kota Selatan"
+    }, {
+        "id": "5122",
+        "district": "Poso Kota Utara"
+    }, {
+        "id": "5123",
+        "district": "Poso Pesisir"
+    }, {
+        "id": "5124",
+        "district": "Poso Pesisir Selatan"
+    }, {
+        "id": "5125",
+        "district": "Poso Pesisir Utara"
+    }]
+}

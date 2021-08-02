@@ -1,0 +1,67 @@
+{
+    "title": "18",
+    "id": "18",
+    "province": "Lampung",
+    "number_of_cities" : "15",
+    "data" : [{
+        "id": "21",
+        "city": "Bandar Lampung",
+        "type": "Kota"
+    }, {
+        "id": "223",
+        "city": "Lampung Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "224",
+        "city": "Lampung Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "225",
+        "city": "Lampung Tengah",
+        "type": "Kabupaten"
+    }, {
+        "id": "226",
+        "city": "Lampung Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "227",
+        "city": "Lampung Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "282",
+        "city": "Mesuji",
+        "type": "Kabupaten"
+    }, {
+        "id": "283",
+        "city": "Metro",
+        "type": "Kota"
+    }, {
+        "id": "355",
+        "city": "Pesawaran",
+        "type": "Kabupaten"
+    }, {
+        "id": "356",
+        "city": "Pesisir Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "368",
+        "city": "Pringsewu",
+        "type": "Kabupaten"
+    }, {
+        "id": "458",
+        "city": "Tanggamus",
+        "type": "Kabupaten"
+    }, {
+        "id": "490",
+        "city": "Tulang Bawang",
+        "type": "Kabupaten"
+    }, {
+        "id": "491",
+        "city": "Tulang Bawang Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "496",
+        "city": "Way Kanan",
+        "type": "Kabupaten"
+    }]
+}

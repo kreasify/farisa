@@ -1,0 +1,37 @@
+{
+    "title": "271",
+    "id": "271",
+    "city": "Manggarai Timur",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "3823",
+        "district": "Borong"
+    }, {
+        "id": "3824",
+        "district": "Elar"
+    }, {
+        "id": "3825",
+        "district": "Elar Selatan"
+    }, {
+        "id": "3826",
+        "district": "Kota Komba"
+    }, {
+        "id": "3827",
+        "district": "Lamba Leda"
+    }, {
+        "id": "3828",
+        "district": "Poco Ranaka"
+    }, {
+        "id": "3829",
+        "district": "Poco Ranaka Timur"
+    }, {
+        "id": "3830",
+        "district": "Rana Mese"
+    }, {
+        "id": "3831",
+        "district": "Sambi Rampas"
+    }]
+}

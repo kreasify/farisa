@@ -1,0 +1,52 @@
+{
+    "title": "390",
+    "id": "390",
+    "city": "Sampang",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "5394",
+        "district": "Banyuates"
+    }, {
+        "id": "5395",
+        "district": "Camplong"
+    }, {
+        "id": "5396",
+        "district": "Jrengik"
+    }, {
+        "id": "5397",
+        "district": "Karang Penang"
+    }, {
+        "id": "5398",
+        "district": "Kedungdung"
+    }, {
+        "id": "5399",
+        "district": "Ketapang"
+    }, {
+        "id": "5400",
+        "district": "Omben"
+    }, {
+        "id": "5401",
+        "district": "Pangarengan"
+    }, {
+        "id": "5402",
+        "district": "Robatal"
+    }, {
+        "id": "5403",
+        "district": "Sampang"
+    }, {
+        "id": "5404",
+        "district": "Sokobanah"
+    }, {
+        "id": "5405",
+        "district": "Sreseh"
+    }, {
+        "id": "5406",
+        "district": "Tambelangan"
+    }, {
+        "id": "5407",
+        "district": "Torjun"
+    }]
+}

@@ -1,0 +1,70 @@
+{
+    "title": "427",
+    "id": "427",
+    "city": "Sragen",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "5863",
+        "district": "Gemolong"
+    }, {
+        "id": "5864",
+        "district": "Gesi"
+    }, {
+        "id": "5865",
+        "district": "Gondang"
+    }, {
+        "id": "5866",
+        "district": "Jenar"
+    }, {
+        "id": "5867",
+        "district": "Kalijambe"
+    }, {
+        "id": "5868",
+        "district": "Karangmalang"
+    }, {
+        "id": "5869",
+        "district": "Kedawung"
+    }, {
+        "id": "5870",
+        "district": "Masaran"
+    }, {
+        "id": "5871",
+        "district": "Miri"
+    }, {
+        "id": "5872",
+        "district": "Mondokan"
+    }, {
+        "id": "5873",
+        "district": "Ngrampal"
+    }, {
+        "id": "5874",
+        "district": "Plupuh"
+    }, {
+        "id": "5875",
+        "district": "Sambirejo"
+    }, {
+        "id": "5876",
+        "district": "Sambung Macan"
+    }, {
+        "id": "5877",
+        "district": "Sidoharjo"
+    }, {
+        "id": "5878",
+        "district": "Sragen"
+    }, {
+        "id": "5879",
+        "district": "Sukodono"
+    }, {
+        "id": "5880",
+        "district": "Sumberlawang"
+    }, {
+        "id": "5881",
+        "district": "Tangen"
+    }, {
+        "id": "5882",
+        "district": "Tanon"
+    }]
+}

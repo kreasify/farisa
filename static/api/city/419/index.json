@@ -1,0 +1,61 @@
+{
+    "title": "419",
+    "id": "419",
+    "city": "Sleman",
+    "type": "Kabupaten",
+    "province_id": "5",
+    "province": "DI Yogyakarta",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "5779",
+        "district": "Berbah"
+    }, {
+        "id": "5780",
+        "district": "Cangkringan"
+    }, {
+        "id": "5781",
+        "district": "Depok"
+    }, {
+        "id": "5782",
+        "district": "Gamping"
+    }, {
+        "id": "5783",
+        "district": "Godean"
+    }, {
+        "id": "5784",
+        "district": "Kalasan"
+    }, {
+        "id": "5785",
+        "district": "Minggir"
+    }, {
+        "id": "5786",
+        "district": "Mlati"
+    }, {
+        "id": "5787",
+        "district": "Moyudan"
+    }, {
+        "id": "5788",
+        "district": "Ngaglik"
+    }, {
+        "id": "5789",
+        "district": "Ngemplak"
+    }, {
+        "id": "5790",
+        "district": "Pakem"
+    }, {
+        "id": "5791",
+        "district": "Prambanan"
+    }, {
+        "id": "5792",
+        "district": "Seyegan"
+    }, {
+        "id": "5793",
+        "district": "Sleman"
+    }, {
+        "id": "5794",
+        "district": "Tempel"
+    }, {
+        "id": "5795",
+        "district": "Turi"
+    }]
+}

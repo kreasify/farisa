@@ -1,0 +1,37 @@
+{
+    "title": "368",
+    "id": "368",
+    "city": "Pringsewu",
+    "type": "Kabupaten",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "5132",
+        "district": "Adi Luwih"
+    }, {
+        "id": "5133",
+        "district": "Ambarawa"
+    }, {
+        "id": "5134",
+        "district": "Banyumas"
+    }, {
+        "id": "5135",
+        "district": "Gading Rejo"
+    }, {
+        "id": "5136",
+        "district": "Pagelaran"
+    }, {
+        "id": "5137",
+        "district": "Pagelaran Utara"
+    }, {
+        "id": "5138",
+        "district": "Pardasuka"
+    }, {
+        "id": "5139",
+        "district": "Pringsewu"
+    }, {
+        "id": "5140",
+        "district": "Sukoharjo"
+    }]
+}

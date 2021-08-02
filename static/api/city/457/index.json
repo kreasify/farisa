@@ -1,0 +1,31 @@
+{
+    "title": "457",
+    "id": "457",
+    "city": "Tangerang Selatan",
+    "type": "Kota",
+    "province_id": "3",
+    "province": "Banten",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "6310",
+        "district": "Ciputat"
+    }, {
+        "id": "6311",
+        "district": "Ciputat Timur"
+    }, {
+        "id": "6312",
+        "district": "Pamulang"
+    }, {
+        "id": "6313",
+        "district": "Pondok Aren"
+    }, {
+        "id": "6314",
+        "district": "Serpong"
+    }, {
+        "id": "6315",
+        "district": "Serpong Utara"
+    }, {
+        "id": "6316",
+        "district": "Setu"
+    }]
+}

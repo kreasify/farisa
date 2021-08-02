@@ -1,0 +1,40 @@
+{
+    "title": "59",
+    "id": "59",
+    "city": "Bener Meriah",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "797",
+        "district": "Bandar"
+    }, {
+        "id": "798",
+        "district": "Bener Kelipah"
+    }, {
+        "id": "799",
+        "district": "Bukit"
+    }, {
+        "id": "800",
+        "district": "Gajah Putih"
+    }, {
+        "id": "801",
+        "district": "Mesidah"
+    }, {
+        "id": "802",
+        "district": "Permata"
+    }, {
+        "id": "803",
+        "district": "Pintu Rime Gayo"
+    }, {
+        "id": "804",
+        "district": "Syiah Utama"
+    }, {
+        "id": "805",
+        "district": "Timang Gajah"
+    }, {
+        "id": "806",
+        "district": "Wih Pesam"
+    }]
+}

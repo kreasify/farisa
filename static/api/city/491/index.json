@@ -1,0 +1,34 @@
+{
+    "title": "491",
+    "id": "491",
+    "city": "Tulang Bawang Barat",
+    "type": "Kabupaten",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "6813",
+        "district": "Gunung Agung"
+    }, {
+        "id": "6814",
+        "district": "Gunung Terang"
+    }, {
+        "id": "6815",
+        "district": "Lambu Kibang"
+    }, {
+        "id": "6816",
+        "district": "Pagar Dewa"
+    }, {
+        "id": "6817",
+        "district": "Tulang Bawang Tengah"
+    }, {
+        "id": "6818",
+        "district": "Tulang Bawang Udik"
+    }, {
+        "id": "6819",
+        "district": "Tumijajar"
+    }, {
+        "id": "6820",
+        "district": "Way Kenanga"
+    }]
+}

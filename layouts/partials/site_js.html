@@ -1,0 +1,346 @@
+{{ if eq .RelPermalink "/checkout/" }}
+<script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
+{{ end }}
+<script type="text/javascript">
+    function slider() {
+        return {
+            splide() {
+                const slider = new Splide(this.$refs.splidejs, {
+                    type: 'fade',
+                    rewind: true,
+                    lazyLoad: 'nearby',
+                    autoplay: true,
+                    classes: {
+                        arrows: 'splide__arrows',
+                        arrow: 'splide__arrow text-gray-600 hover:text-white bg-white hover:bg-accent transition ease-out duration-300 shadow-md box-content lg:py-1 lg:px-1',
+                        prev: 'splide__arrow--prev transform opacity-0 -translate-x-20 group-hover:translate-x-0 group-hover:opacity-80',
+                        next: 'splide__arrow--next transform opacity-0 translate-x-20 group-hover:translate-x-0 group-hover:opacity-80',
+						pagination: 'splide__pagination',
+						page: 'splide__pagination__page bg-white transition-all duration-400 ease-in-out shadow-md my-1 mx-1',
+                    },
+                }).mount();
+
+                if (this.$refs.splidejs) {
+                    return slider;
+                }
+            }
+        }
+    }
+    function product() {
+        const storage = Storage();
+        const {
+            carts
+        } = storage.get();
+
+        return {
+            atTop: true,
+            showCart: false,
+            showSearch: false,
+            sideNav: false,
+            display_drop_menu() {
+                const drop_menu = event.target.parentElement.getElementsByClassName("nav__submenu-wrapper")[0];
+                const drop_menus = document.getElementsByClassName("nav__submenu-wrapper");
+
+                Array.from(drop_menus).forEach(function(e) {
+                    if (e != drop_menu) {
+                        e.classList.remove("active");
+                    }
+                });
+
+                const list = document.getElementById("menu").getElementsByTagName("li");
+                Array.from(list).forEach(function(e) {
+                    e.classList.remove("submenu-opened");
+                    e.style.marginBottom = 0;
+                });
+
+                if (drop_menu) {
+                    (!drop_menu.classList.contains("active")) ? drop_menu.classList.add("active"): drop_menu.classList.remove("active")
+                    if (drop_menu.classList.contains("active")) {
+                        event.target.parentElement.classList.add("submenu-opened");
+                        event.target.parentElement.style.marginBottom = drop_menu.clientHeight + "px";
+                    }
+                }
+            },
+            galleries() {
+                const gallery = document.querySelectorAll('.gallery__item a img');
+				
+				if(gallery) {
+					return gallery; 
+				}
+            },
+            product: [],
+            activeSlide: 0,
+            activeVariant: 0, 
+            name() {
+                return this.product.title
+            },
+            size() {
+                return this.product.variants[this.activeVariant].size
+            },
+            price() {
+                return this.product.variants[this.activeVariant].price
+            },
+            weight() {
+                return this.product.variants[this.activeVariant].weight
+            },
+            count: 1,
+            increment() {
+                this.count++;
+            },
+            decrement() {
+                this.count--;
+            },
+            carts,
+            inCarts() {
+                const sku = this.product.sku + '-' + this.product.variants[this.activeVariant].name
+                let product = this.carts.find(item => item.sku == sku);
+
+                return product ? true : false
+
+            },
+            listCarts() {
+                return this.carts
+            },
+            addItem() {
+                const sku = this.product.sku + '-' + this.product.variants[this.activeVariant].name
+                const id = this.carts.some(item => item.sku === sku)
+
+                if (!id) {
+                    this.carts.push({
+                        sku: this.product.sku + '-' + this.product.variants[this.activeVariant].name,
+                        name: this.product.title,
+                        image: this.product.image,
+                        size: this.product.variants[this.activeVariant].size,
+                        price: this.product.variants[this.activeVariant].price,
+                        weight: this.product.variants[this.activeVariant].weight,
+                        qty: this.count,
+                    })
+                } else {
+                    for (let item of this.carts) {
+                        if (item.sku == sku) {
+                            item.qty++
+                        }
+                    }
+                }
+            },
+            deleteItem(sku) {
+                this.carts = this.carts.filter(item => sku !== item.sku);
+            },
+            clearCarts() {
+                this.carts = []
+            },
+            totalItem() {
+                let qty = 0
+                for (let item of this.carts) {
+                    qty += item.qty
+                }
+                return qty
+            },
+            totalWeight() {
+                let weight = 0
+                for (let item of this.carts) {
+                    weight += item.weight * item.qty
+                }
+                return weight
+            },
+            getWeight(weight) {
+                const getSribu = weight > 1000 ? Math.round((weight + 399 / 2) / 1000) : 1;
+                return Math.ceil(weight) % 1000 == 0 / 1000 ? Math.ceil(weight) / 1000 : getSribu;
+            },
+            subtotal() {
+                const total = this.carts.map((product, index) => product.price * product.qty);
+                return total.reduce((current, next) =>
+                    current + next, 0);
+            },
+            localPrice(amount) {
+                return amount.toLocaleString('id-ID', {
+                    style: 'currency',
+                    currency: 'IDR',
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 0
+                });
+            },
+            save() {
+                this.$nextTick(() => {
+                    storage.set({
+                        carts: this.carts
+                    })
+
+                    console.log(this.carts)
+                })
+            },
+            activeStyle: false,
+            destination: '',
+            couriers: [],
+            destinationName: '',
+            fetchCourier() {
+                if (this.destination !== '') {
+                    fetch(`/api/cost/23/${this.destination.split(',')[0]}/index.json`)
+                        .then(response => response.json())
+                        .then(data => {
+                            this.couriers = data.couriers, this.destinationName = data.destination
+                        })
+                }
+            },
+            courierActive: null,
+            courier: '',
+            name: '',
+            hp: '',
+            email: '',
+            address: '',
+            postcode: '',
+            autoComplete() {
+                const autoCompletejs = new autoComplete({
+                    data: {
+                        src: async () => {
+                            // Loading placeholder text
+                            this.$refs.autoComplete.setAttribute("placeholder", "Loading...");
+                            // Fetch External Data Source
+                            const source = await fetch(
+                                "/api/destination.json"
+                            );
+                            const data = await source.json();
+                            // Post loading placeholder text
+                            this.$refs.autoComplete.setAttribute("placeholder", "Masukkan Kota / Kecamatan");
+                            // Returns Fetched data
+                            return data;
+                        },
+                        key: ["id", "name"],
+                        cache: false
+                    },
+                    sort: (a, b) => {
+                        if (a.match < b.match) return -1;
+                        if (a.match > b.match) return 1;
+                        return 0;
+                    },
+                    placeHolder: "Masukkan Kota / Kecamatan",
+                    selector: "#autoComplete",
+                    threshold: 0,
+                    debounce: 0,
+                    searchEngine: "strict",
+                    highlight: true,
+                    maxResults: 10,
+                    resultsList: {
+                        render: true,
+                        container: source => {
+                            source.setAttribute("id", "autoComplete_list"),
+                                source.setAttribute("class", "list-none")
+                        },
+                        destination: this.$refs.autoComplete,
+                        position: "afterend",
+                        element: "ul"
+                    },
+                    resultItem: {
+                        content: (data, source) => {
+                            source.innerHTML = data.match;
+                        },
+                        element: "li"
+                    },
+                    noResults: () => {
+                        const result = document.createElement("li");
+                        result.setAttribute("class", "no_result text-red-500 list-none focus:outline-none py-1 px-2");
+                        result.setAttribute("tabindex", "1");
+                        result.innerHTML = "Hasil tidak ditemukan";
+                        this.$el.querySelector("#autoComplete_list").appendChild(result);
+                    },
+                    onSelection: feedback => {
+                        const selection = feedback.selection.value.name;
+                        const toDestination = feedback.selection.value.id + ', ' + feedback.selection.value.name;
+                        this.$refs.autoComplete.setAttribute("placeholder", selection);
+                        this.$refs.autoComplete.value = "";
+                        this.activeStyle = true;
+                        this.destination = toDestination;
+                        this.fetchCourier();
+                        this.courier = '';
+                        this.courierActive = null
+
+                        // Concole log autoComplete data feedback
+                        console.log(feedback);
+                    }
+                });
+                return autoCompletejs;
+            },
+            query: '',
+            searchResults: [],
+            searchById: null,
+            search() {
+                const url = `/feed/index.json`;
+                fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        const allResults = data.items
+                        const itemById = allResults.reduce((byId, item) => {
+                            byId[item.id] = item
+                            return byId
+                        }, {})
+                        const miniSearch = new MiniSearch({
+                            fields: ['title'],
+                            storeFields: ['title', 'image', 'price', 'category'],
+                            processTerm: (term, _fieldName) => (term.length <= 1) ? null : term.toLowerCase()
+                        })
+
+                        miniSearch.addAll(allResults)
+                        this.searchById = itemById
+
+                        let results = miniSearch.search(this.query, {
+                            combineWith: 'AND',
+                            prefix: true
+                        }).map(({
+                            id
+                        }) => itemById[id])
+
+                        this.searchResults = results
+
+                        console.log(results)
+
+                        return this.searchResults.filter((item) => {
+                            return item.title.toLowerCase()
+                        });
+
+                    })
+                    .catch(error => {
+                        console.log(error);
+                    });
+            }
+        }
+    }
+
+    function Storage() {
+        const KEY = 'cart-vitoko'
+        const defaultData = '{ "carts": [] }'
+
+        return {
+            get() {
+                return JSON.parse(localStorage.getItem(KEY) || defaultData)
+            },
+            set({
+                carts,
+                ...rest
+            }) {
+                localStorage.setItem(
+                    KEY,
+                    JSON.stringify({
+                        ...rest,
+                        carts: carts.map(({
+                            name,
+                            sku,
+                            image,
+                            size,
+                            price,
+                            weight,
+                            qty
+                        }) => ({
+                            name,
+                            sku,
+                            image,
+                            size,
+                            price,
+                            weight,
+                            qty,
+                        })),
+                    }),
+                )
+            },
+        }
+    }
+</script>

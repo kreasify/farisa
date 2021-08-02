@@ -1,0 +1,46 @@
+---
+label: Person
+hide_body: true
+fields:
+- type: text
+  name: id
+  label: ID
+  description: A unique identifier used when filtering posts, e.g. "john-doe"
+  config:
+    required: true
+- type: text
+  name: link
+  label: Link
+  description: The link to the author page, e.g. "blog/author/john-doe"
+- type: text
+  name: first_name
+  label: First Name
+  config:
+    required: true
+- type: text
+  name: last_name
+  label: Last Name
+- type: file
+  name: photo
+  label: Photo
+- type: textarea
+  name: bio
+  label: Bio
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: person
+  config:
+    required: true
+pages:
+- data/team/dianne-ameter.json
+- data/team/eleanor-carr.json
+- data/team/gordon-norman.json
+- data/team/hanson-deck.json
+- data/team/miles-tone.json

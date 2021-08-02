@@ -1,0 +1,46 @@
+{
+    "title": "55",
+    "id": "55",
+    "city": "Bekasi",
+    "type": "Kota",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "749",
+        "district": "Bantar Gebang"
+    }, {
+        "id": "750",
+        "district": "Bekasi Barat"
+    }, {
+        "id": "751",
+        "district": "Bekasi Selatan"
+    }, {
+        "id": "752",
+        "district": "Bekasi Timur"
+    }, {
+        "id": "753",
+        "district": "Bekasi Utara"
+    }, {
+        "id": "754",
+        "district": "Jati Sampurna"
+    }, {
+        "id": "755",
+        "district": "Jatiasih"
+    }, {
+        "id": "756",
+        "district": "Medan Satria"
+    }, {
+        "id": "757",
+        "district": "Mustika Jaya"
+    }, {
+        "id": "758",
+        "district": "Pondok Gede"
+    }, {
+        "id": "759",
+        "district": "Pondok Melati"
+    }, {
+        "id": "760",
+        "district": "Rawalumbu"
+    }]
+}

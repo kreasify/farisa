@@ -1,0 +1,52 @@
+{
+    "title": "487",
+    "id": "487",
+    "city": "Trenggalek",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "6759",
+        "district": "Bendungan"
+    }, {
+        "id": "6760",
+        "district": "Dongko"
+    }, {
+        "id": "6761",
+        "district": "Durenan"
+    }, {
+        "id": "6762",
+        "district": "Gandusari"
+    }, {
+        "id": "6763",
+        "district": "Kampak"
+    }, {
+        "id": "6764",
+        "district": "Karangan"
+    }, {
+        "id": "6765",
+        "district": "Munjungan"
+    }, {
+        "id": "6766",
+        "district": "Panggul"
+    }, {
+        "id": "6767",
+        "district": "Pogalan"
+    }, {
+        "id": "6768",
+        "district": "Pule"
+    }, {
+        "id": "6769",
+        "district": "Suruh"
+    }, {
+        "id": "6770",
+        "district": "Trenggalek"
+    }, {
+        "id": "6771",
+        "district": "Tugu"
+    }, {
+        "id": "6772",
+        "district": "Watulimo"
+    }]
+}

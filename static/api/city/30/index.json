@@ -1,0 +1,28 @@
+{
+    "title": "30",
+    "id": "30",
+    "city": "Bangka Tengah",
+    "type": "Kabupaten",
+    "province_id": "2",
+    "province": "Bangka Belitung",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "448",
+        "district": "Koba"
+    }, {
+        "id": "449",
+        "district": "Lubuk Besar"
+    }, {
+        "id": "450",
+        "district": "Namang"
+    }, {
+        "id": "451",
+        "district": "Pangkalan Baru"
+    }, {
+        "id": "452",
+        "district": "Simpang Katis"
+    }, {
+        "id": "453",
+        "district": "Sungai Selan"
+    }]
+}

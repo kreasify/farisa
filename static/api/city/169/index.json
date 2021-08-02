@@ -1,0 +1,61 @@
+{
+    "title": "169",
+    "id": "169",
+    "city": "Karanganyar",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "2353",
+        "district": "Colomadu"
+    }, {
+        "id": "2354",
+        "district": "Gondangrejo"
+    }, {
+        "id": "2355",
+        "district": "Jaten"
+    }, {
+        "id": "2356",
+        "district": "Jatipuro"
+    }, {
+        "id": "2357",
+        "district": "Jatiyoso"
+    }, {
+        "id": "2358",
+        "district": "Jenawi"
+    }, {
+        "id": "2359",
+        "district": "Jumantono"
+    }, {
+        "id": "2360",
+        "district": "Jumapolo"
+    }, {
+        "id": "2361",
+        "district": "Karanganyar"
+    }, {
+        "id": "2362",
+        "district": "Karangpandan"
+    }, {
+        "id": "2363",
+        "district": "Kebakkramat"
+    }, {
+        "id": "2364",
+        "district": "Kerjo"
+    }, {
+        "id": "2365",
+        "district": "Matesih"
+    }, {
+        "id": "2366",
+        "district": "Mojogedang"
+    }, {
+        "id": "2367",
+        "district": "Ngargoyoso"
+    }, {
+        "id": "2368",
+        "district": "Tasikmadu"
+    }, {
+        "id": "2369",
+        "district": "Tawangmangu"
+    }]
+}

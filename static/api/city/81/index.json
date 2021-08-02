@@ -1,0 +1,55 @@
+{
+    "title": "81",
+    "id": "81",
+    "city": "Bolaang Mongondow (Bolmong)",
+    "type": "Kabupaten",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "1096",
+        "district": "Bilalang"
+    }, {
+        "id": "1097",
+        "district": "Bolaang"
+    }, {
+        "id": "1098",
+        "district": "Bolaang Timur"
+    }, {
+        "id": "1099",
+        "district": "Dumoga"
+    }, {
+        "id": "1100",
+        "district": "Dumoga Barat"
+    }, {
+        "id": "1101",
+        "district": "Dumoga Tengah"
+    }, {
+        "id": "1102",
+        "district": "Dumoga Tenggara"
+    }, {
+        "id": "1103",
+        "district": "Dumoga Timur"
+    }, {
+        "id": "1104",
+        "district": "Dumoga Utara"
+    }, {
+        "id": "1105",
+        "district": "Lolak"
+    }, {
+        "id": "1106",
+        "district": "Lolayan"
+    }, {
+        "id": "1107",
+        "district": "Passi Barat"
+    }, {
+        "id": "1108",
+        "district": "Passi Timur"
+    }, {
+        "id": "1109",
+        "district": "Poigar"
+    }, {
+        "id": "1110",
+        "district": "Sangtombolang"
+    }]
+}

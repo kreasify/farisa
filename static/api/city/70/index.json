@@ -1,0 +1,25 @@
+{
+    "title": "70",
+    "id": "70",
+    "city": "Binjai",
+    "type": "Kota",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "934",
+        "district": "Binjai Barat"
+    }, {
+        "id": "935",
+        "district": "Binjai Kota"
+    }, {
+        "id": "936",
+        "district": "Binjai Selatan"
+    }, {
+        "id": "937",
+        "district": "Binjai Timur"
+    }, {
+        "id": "938",
+        "district": "Binjai Utara"
+    }]
+}

@@ -1,0 +1,67 @@
+{
+    "title": "31",
+    "id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_cities" : "15",
+    "data" : [{
+        "id": "73",
+        "city": "Bitung",
+        "type": "Kota"
+    }, {
+        "id": "81",
+        "city": "Bolaang Mongondow (Bolmong)",
+        "type": "Kabupaten"
+    }, {
+        "id": "82",
+        "city": "Bolaang Mongondow Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "83",
+        "city": "Bolaang Mongondow Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "84",
+        "city": "Bolaang Mongondow Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "188",
+        "city": "Kepulauan Sangihe",
+        "type": "Kabupaten"
+    }, {
+        "id": "190",
+        "city": "Kepulauan Siau Tagulandang Biaro (Sitaro)",
+        "type": "Kabupaten"
+    }, {
+        "id": "192",
+        "city": "Kepulauan Talaud",
+        "type": "Kabupaten"
+    }, {
+        "id": "204",
+        "city": "Kotamobagu",
+        "type": "Kota"
+    }, {
+        "id": "267",
+        "city": "Manado",
+        "type": "Kota"
+    }, {
+        "id": "285",
+        "city": "Minahasa",
+        "type": "Kabupaten"
+    }, {
+        "id": "286",
+        "city": "Minahasa Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "287",
+        "city": "Minahasa Tenggara",
+        "type": "Kabupaten"
+    }, {
+        "id": "288",
+        "city": "Minahasa Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "485",
+        "city": "Tomohon",
+        "type": "Kota"
+    }]
+}

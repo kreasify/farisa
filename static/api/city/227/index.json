@@ -1,0 +1,79 @@
+{
+    "title": "227",
+    "id": "227",
+    "city": "Lampung Utara",
+    "type": "Kabupaten",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "23",
+    "data" : [{
+        "id": "3224",
+        "district": "Abung Barat"
+    }, {
+        "id": "3225",
+        "district": "Abung Kunang"
+    }, {
+        "id": "3226",
+        "district": "Abung Pekurun"
+    }, {
+        "id": "3227",
+        "district": "Abung Selatan"
+    }, {
+        "id": "3228",
+        "district": "Abung Semuli"
+    }, {
+        "id": "3229",
+        "district": "Abung Surakarta"
+    }, {
+        "id": "3230",
+        "district": "Abung Tengah"
+    }, {
+        "id": "3231",
+        "district": "Abung Timur"
+    }, {
+        "id": "3232",
+        "district": "Abung Tinggi"
+    }, {
+        "id": "3233",
+        "district": "Blambangan Pagar"
+    }, {
+        "id": "3234",
+        "district": "Bukit Kemuning"
+    }, {
+        "id": "3235",
+        "district": "Bunga Mayang"
+    }, {
+        "id": "3236",
+        "district": "Hulu Sungkai"
+    }, {
+        "id": "3237",
+        "district": "Kotabumi"
+    }, {
+        "id": "3238",
+        "district": "Kotabumi Selatan"
+    }, {
+        "id": "3239",
+        "district": "Kotabumi Utara"
+    }, {
+        "id": "3240",
+        "district": "Muara Sungkai"
+    }, {
+        "id": "3241",
+        "district": "Sungkai Barat"
+    }, {
+        "id": "3242",
+        "district": "Sungkai Jaya"
+    }, {
+        "id": "3243",
+        "district": "Sungkai Selatan"
+    }, {
+        "id": "3244",
+        "district": "Sungkai Tengah"
+    }, {
+        "id": "3245",
+        "district": "Sungkai Utara"
+    }, {
+        "id": "3246",
+        "district": "Tanjung Raja"
+    }]
+}

@@ -1,0 +1,67 @@
+{
+    "title": "398",
+    "id": "398",
+    "city": "Semarang",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "5479",
+        "district": "Ambarawa"
+    }, {
+        "id": "5480",
+        "district": "Bancak"
+    }, {
+        "id": "5481",
+        "district": "Bandungan"
+    }, {
+        "id": "5482",
+        "district": "Banyubiru"
+    }, {
+        "id": "5483",
+        "district": "Bawen"
+    }, {
+        "id": "5484",
+        "district": "Bergas"
+    }, {
+        "id": "5485",
+        "district": "Bringin"
+    }, {
+        "id": "5486",
+        "district": "Getasan"
+    }, {
+        "id": "5487",
+        "district": "Jambu"
+    }, {
+        "id": "5488",
+        "district": "Kaliwungu"
+    }, {
+        "id": "5489",
+        "district": "Pabelan"
+    }, {
+        "id": "5490",
+        "district": "Pringapus"
+    }, {
+        "id": "5491",
+        "district": "Sumowono"
+    }, {
+        "id": "5492",
+        "district": "Suruh"
+    }, {
+        "id": "5493",
+        "district": "Susukan"
+    }, {
+        "id": "5494",
+        "district": "Tengaran"
+    }, {
+        "id": "5495",
+        "district": "Tuntang"
+    }, {
+        "id": "5496",
+        "district": "Ungaran Barat"
+    }, {
+        "id": "5497",
+        "district": "Ungaran Timur"
+    }]
+}

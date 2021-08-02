@@ -1,0 +1,58 @@
+{
+    "title": "312",
+    "id": "312",
+    "city": "Ogan Ilir",
+    "type": "Kabupaten",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "4437",
+        "district": "Indralaya"
+    }, {
+        "id": "4438",
+        "district": "Indralaya Selatan"
+    }, {
+        "id": "4439",
+        "district": "Indralaya Utara"
+    }, {
+        "id": "4440",
+        "district": "Kandis"
+    }, {
+        "id": "4441",
+        "district": "Lubuk Keliat"
+    }, {
+        "id": "4442",
+        "district": "Muara Kuang"
+    }, {
+        "id": "4443",
+        "district": "Payaraman"
+    }, {
+        "id": "4444",
+        "district": "Pemulutan"
+    }, {
+        "id": "4445",
+        "district": "Pemulutan Barat"
+    }, {
+        "id": "4446",
+        "district": "Pemulutan Selatan"
+    }, {
+        "id": "4447",
+        "district": "Rambang Kuang"
+    }, {
+        "id": "4448",
+        "district": "Rantau Alai"
+    }, {
+        "id": "4449",
+        "district": "Rantau Panjang"
+    }, {
+        "id": "4450",
+        "district": "Sungai Pinang"
+    }, {
+        "id": "4451",
+        "district": "Tanjung Batu"
+    }, {
+        "id": "4452",
+        "district": "Tanjung Raja"
+    }]
+}

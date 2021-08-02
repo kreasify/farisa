@@ -1,0 +1,70 @@
+{
+    "title": "305",
+    "id": "305",
+    "city": "Nganjuk",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "4323",
+        "district": "Bagor"
+    }, {
+        "id": "4324",
+        "district": "Baron"
+    }, {
+        "id": "4325",
+        "district": "Berbek"
+    }, {
+        "id": "4326",
+        "district": "Gondang"
+    }, {
+        "id": "4327",
+        "district": "Jatikalen"
+    }, {
+        "id": "4328",
+        "district": "Kertosono"
+    }, {
+        "id": "4329",
+        "district": "Lengkong"
+    }, {
+        "id": "4330",
+        "district": "Loceret"
+    }, {
+        "id": "4331",
+        "district": "Nganjuk"
+    }, {
+        "id": "4332",
+        "district": "Ngetos"
+    }, {
+        "id": "4333",
+        "district": "Ngluyu"
+    }, {
+        "id": "4334",
+        "district": "Ngronggot"
+    }, {
+        "id": "4335",
+        "district": "Pace"
+    }, {
+        "id": "4336",
+        "district": "Patianrowo"
+    }, {
+        "id": "4337",
+        "district": "Prambon"
+    }, {
+        "id": "4338",
+        "district": "Rejoso"
+    }, {
+        "id": "4339",
+        "district": "Sawahan"
+    }, {
+        "id": "4340",
+        "district": "Sukomoro"
+    }, {
+        "id": "4341",
+        "district": "Tanjunganom"
+    }, {
+        "id": "4342",
+        "district": "Wilangan"
+    }]
+}

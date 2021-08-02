@@ -1,0 +1,55 @@
+{
+    "title": "188",
+    "id": "188",
+    "city": "Kepulauan Sangihe",
+    "type": "Kabupaten",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "2607",
+        "district": "Kendahe"
+    }, {
+        "id": "2608",
+        "district": "Kepulauan Marore"
+    }, {
+        "id": "2609",
+        "district": "Manganitu"
+    }, {
+        "id": "2610",
+        "district": "Manganitu Selatan"
+    }, {
+        "id": "2611",
+        "district": "Nusa Tabukan"
+    }, {
+        "id": "2612",
+        "district": "Tabukan Selatan"
+    }, {
+        "id": "2613",
+        "district": "Tabukan Selatan Tengah"
+    }, {
+        "id": "2614",
+        "district": "Tabukan Selatan Tenggara"
+    }, {
+        "id": "2615",
+        "district": "Tabukan Tengah"
+    }, {
+        "id": "2616",
+        "district": "Tabukan Utara"
+    }, {
+        "id": "2617",
+        "district": "Tahuna"
+    }, {
+        "id": "2618",
+        "district": "Tahuna Barat"
+    }, {
+        "id": "2619",
+        "district": "Tahuna Timur"
+    }, {
+        "id": "2620",
+        "district": "Tamako"
+    }, {
+        "id": "2621",
+        "district": "Tatoareng"
+    }]
+}

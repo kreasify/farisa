@@ -1,0 +1,40 @@
+{
+    "title": "99",
+    "id": "99",
+    "city": "Buru",
+    "type": "Kabupaten",
+    "province_id": "19",
+    "province": "Maluku",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "1336",
+        "district": "Airbuaya"
+    }, {
+        "id": "1337",
+        "district": "Batabual"
+    }, {
+        "id": "1338",
+        "district": "Fena Leisela"
+    }, {
+        "id": "1339",
+        "district": "Lilialy"
+    }, {
+        "id": "1340",
+        "district": "Lolong Guba"
+    }, {
+        "id": "1341",
+        "district": "Namlea"
+    }, {
+        "id": "1342",
+        "district": "Teluk Kaiely"
+    }, {
+        "id": "1343",
+        "district": "Waeapo"
+    }, {
+        "id": "1344",
+        "district": "Waelata"
+    }, {
+        "id": "1345",
+        "district": "Waplau"
+    }]
+}

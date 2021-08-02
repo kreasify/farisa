@@ -1,0 +1,34 @@
+{
+    "title": "263",
+    "id": "263",
+    "city": "Mamberamo Raya",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "3727",
+        "district": "Benuki"
+    }, {
+        "id": "3728",
+        "district": "Mamberamo Hilir/Ilir"
+    }, {
+        "id": "3729",
+        "district": "Mamberamo Hulu/Ulu"
+    }, {
+        "id": "3730",
+        "district": "Mamberamo Tengah"
+    }, {
+        "id": "3731",
+        "district": "Mamberamo Tengah Timur"
+    }, {
+        "id": "3732",
+        "district": "Rofaer (Rufaer)"
+    }, {
+        "id": "3733",
+        "district": "Sawai"
+    }, {
+        "id": "3734",
+        "district": "Waropen Atas"
+    }]
+}

@@ -1,0 +1,55 @@
+{
+    "title": "381",
+    "id": "381",
+    "city": "Rokan Hilir",
+    "type": "Kabupaten",
+    "province_id": "26",
+    "province": "Riau",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "5303",
+        "district": "Bagan Sinembah"
+    }, {
+        "id": "5304",
+        "district": "Bangko"
+    }, {
+        "id": "5305",
+        "district": "Bangko Pusaka (Pusako)"
+    }, {
+        "id": "5306",
+        "district": "Batu Hampar"
+    }, {
+        "id": "5307",
+        "district": "Kubu"
+    }, {
+        "id": "5308",
+        "district": "Kubu Babussalam"
+    }, {
+        "id": "5309",
+        "district": "Pasir Limau Kapas"
+    }, {
+        "id": "5310",
+        "district": "Pekaitan"
+    }, {
+        "id": "5311",
+        "district": "Pujud"
+    }, {
+        "id": "5312",
+        "district": "Rantau Kopar"
+    }, {
+        "id": "5313",
+        "district": "Rimba Melintang"
+    }, {
+        "id": "5314",
+        "district": "Simpang Kanan"
+    }, {
+        "id": "5315",
+        "district": "Sinaboi (Senaboi)"
+    }, {
+        "id": "5316",
+        "district": "Tanah Putih"
+    }, {
+        "id": "5317",
+        "district": "Tanah Putih Tanjung Melawan"
+    }]
+}

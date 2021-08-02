@@ -1,0 +1,46 @@
+{
+    "title": "471",
+    "id": "471",
+    "city": "Tebo",
+    "type": "Kabupaten",
+    "province_id": "8",
+    "province": "Jambi",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "6490",
+        "district": "Muara Tabir"
+    }, {
+        "id": "6491",
+        "district": "Rimbo Bujang"
+    }, {
+        "id": "6492",
+        "district": "Rimbo Ilir"
+    }, {
+        "id": "6493",
+        "district": "Rimbo Ulu"
+    }, {
+        "id": "6494",
+        "district": "Serai Serumpun"
+    }, {
+        "id": "6495",
+        "district": "Sumay"
+    }, {
+        "id": "6496",
+        "district": "Tebo Ilir"
+    }, {
+        "id": "6497",
+        "district": "Tebo Tengah"
+    }, {
+        "id": "6498",
+        "district": "Tebo Ulu"
+    }, {
+        "id": "6499",
+        "district": "Tengah Ilir"
+    }, {
+        "id": "6500",
+        "district": "VII Koto"
+    }, {
+        "id": "6501",
+        "district": "VII Koto Ilir"
+    }]
+}

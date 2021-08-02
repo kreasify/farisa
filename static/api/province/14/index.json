@@ -1,0 +1,63 @@
+{
+    "title": "14",
+    "id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_cities" : "14",
+    "data" : [{
+        "id": "44",
+        "city": "Barito Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "45",
+        "city": "Barito Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "46",
+        "city": "Barito Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "136",
+        "city": "Gunung Mas",
+        "type": "Kabupaten"
+    }, {
+        "id": "167",
+        "city": "Kapuas",
+        "type": "Kabupaten"
+    }, {
+        "id": "174",
+        "city": "Katingan",
+        "type": "Kabupaten"
+    }, {
+        "id": "205",
+        "city": "Kotawaringin Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "206",
+        "city": "Kotawaringin Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "221",
+        "city": "Lamandau",
+        "type": "Kabupaten"
+    }, {
+        "id": "296",
+        "city": "Murung Raya",
+        "type": "Kabupaten"
+    }, {
+        "id": "326",
+        "city": "Palangka Raya",
+        "type": "Kota"
+    }, {
+        "id": "371",
+        "city": "Pulang Pisau",
+        "type": "Kabupaten"
+    }, {
+        "id": "405",
+        "city": "Seruyan",
+        "type": "Kabupaten"
+    }, {
+        "id": "432",
+        "city": "Sukamara",
+        "type": "Kabupaten"
+    }]
+}

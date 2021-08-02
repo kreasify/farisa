@@ -1,0 +1,43 @@
+{
+    "title": "20",
+    "id": "20",
+    "province": "Maluku Utara",
+    "number_of_cities" : "9",
+    "data" : [{
+        "id": "138",
+        "city": "Halmahera Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "139",
+        "city": "Halmahera Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "140",
+        "city": "Halmahera Tengah",
+        "type": "Kabupaten"
+    }, {
+        "id": "141",
+        "city": "Halmahera Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "142",
+        "city": "Halmahera Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "191",
+        "city": "Kepulauan Sula",
+        "type": "Kabupaten"
+    }, {
+        "id": "372",
+        "city": "Pulau Morotai",
+        "type": "Kabupaten"
+    }, {
+        "id": "477",
+        "city": "Ternate",
+        "type": "Kota"
+    }, {
+        "id": "478",
+        "city": "Tidore Kepulauan",
+        "type": "Kota"
+    }]
+}

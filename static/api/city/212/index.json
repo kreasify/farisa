@@ -1,0 +1,82 @@
+{
+    "title": "212",
+    "id": "212",
+    "city": "Kupang",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "2974",
+        "district": "Amabi Oefeto"
+    }, {
+        "id": "2975",
+        "district": "Amabi Oefeto Timur"
+    }, {
+        "id": "2976",
+        "district": "Amarasi"
+    }, {
+        "id": "2977",
+        "district": "Amarasi Barat"
+    }, {
+        "id": "2978",
+        "district": "Amarasi Selatan"
+    }, {
+        "id": "2979",
+        "district": "Amarasi Timur"
+    }, {
+        "id": "2980",
+        "district": "Amfoang Barat Daya"
+    }, {
+        "id": "2981",
+        "district": "Amfoang Barat Laut"
+    }, {
+        "id": "2982",
+        "district": "Amfoang Selatan"
+    }, {
+        "id": "2983",
+        "district": "Amfoang Tengah"
+    }, {
+        "id": "2984",
+        "district": "Amfoang Timur"
+    }, {
+        "id": "2985",
+        "district": "Amfoang Utara"
+    }, {
+        "id": "2986",
+        "district": "Fatuleu"
+    }, {
+        "id": "2987",
+        "district": "Fatuleu Barat"
+    }, {
+        "id": "2988",
+        "district": "Fatuleu Tengah"
+    }, {
+        "id": "2989",
+        "district": "Kupang Barat"
+    }, {
+        "id": "2990",
+        "district": "Kupang Tengah"
+    }, {
+        "id": "2991",
+        "district": "Kupang Timur"
+    }, {
+        "id": "2992",
+        "district": "Nekamese"
+    }, {
+        "id": "2993",
+        "district": "Semau"
+    }, {
+        "id": "2994",
+        "district": "Semau Selatan"
+    }, {
+        "id": "2995",
+        "district": "Sulamu"
+    }, {
+        "id": "2996",
+        "district": "Taebenu"
+    }, {
+        "id": "2997",
+        "district": "Takari"
+    }]
+}

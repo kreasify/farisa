@@ -1,0 +1,76 @@
+{
+    "title": "437",
+    "id": "437",
+    "city": "Sumba Timur",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "22",
+    "data" : [{
+        "id": "6011",
+        "district": "Haharu"
+    }, {
+        "id": "6012",
+        "district": "Kahaunguweti (Kahaungu Eti)"
+    }, {
+        "id": "6013",
+        "district": "Kambata Mapambuhang"
+    }, {
+        "id": "6014",
+        "district": "Kambera"
+    }, {
+        "id": "6015",
+        "district": "Kanatang"
+    }, {
+        "id": "6016",
+        "district": "Karera"
+    }, {
+        "id": "6017",
+        "district": "Katala Hamu Lingu"
+    }, {
+        "id": "6018",
+        "district": "Kota Waingapu"
+    }, {
+        "id": "6019",
+        "district": "Lewa"
+    }, {
+        "id": "6020",
+        "district": "Lewa Tidahu"
+    }, {
+        "id": "6021",
+        "district": "Mahu"
+    }, {
+        "id": "6022",
+        "district": "Matawai Lappau (La Pawu)"
+    }, {
+        "id": "6023",
+        "district": "Ngadu Ngala"
+    }, {
+        "id": "6024",
+        "district": "Nggaha Oriangu"
+    }, {
+        "id": "6025",
+        "district": "Paberiwai"
+    }, {
+        "id": "6026",
+        "district": "Pahunga Lodu"
+    }, {
+        "id": "6027",
+        "district": "Pandawai"
+    }, {
+        "id": "6028",
+        "district": "Pinupahar (Pirapahar)"
+    }, {
+        "id": "6029",
+        "district": "Rindi"
+    }, {
+        "id": "6030",
+        "district": "Tabundung"
+    }, {
+        "id": "6031",
+        "district": "Umalulu"
+    }, {
+        "id": "6032",
+        "district": "Wula Waijelu"
+    }]
+}

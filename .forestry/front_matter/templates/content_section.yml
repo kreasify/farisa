@@ -1,0 +1,25 @@
+---
+label: Content Section
+hide_body: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the section
+- type: textarea
+  name: content
+  label: Content
+  description: The text content of the section
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: content_section
+  config:
+    required: true

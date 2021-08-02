@@ -1,0 +1,111 @@
+/* Site Header
+/* ---------------------------------------------------------- */
+.open svg {
+    transform: scale(0.85)
+}
+
+.open #top {
+    transform: translate(6px, 0px) rotate(45deg)
+}
+
+.open #middle {
+    opacity: 0;
+}
+
+.open #bottom {
+    transform: translate(-11px, 7px) rotate(-45deg)
+}
+
+.mobile__menu {
+    .navbar__menu {
+        @apply list-none bg-header-primary pl-0 pb-6 mb-0;
+    }
+
+    li {
+        @apply text-header-text leading-none hover:text-header-text-secondary hover:bg-header-secondary mb-0;
+
+        a {
+            @apply block hover:no-underline text-current capitalize py-2 px-6;
+        }
+    }
+
+    .has-submenu {
+        @apply relative text-header-text leading-none hover:text-header-text-secondary hover:bg-header-secondary mb-0;
+    }
+
+    .submenu__dropdown {
+        @apply relative bg-gray-100;
+    }
+    
+    .submenu {
+        @apply whitespace-nowrap list-none py-0 pl-0 my-2;
+
+        li {
+            @apply mb-0;
+
+            a {
+                @apply block text-header-text hover:text-header-text-secondary capitalize hover:bg-header-secondary leading-none py-2 px-8;
+            }
+        }
+    }
+}
+
+.nav__menu {
+    .navbar__menu {
+        @apply list-none lg:flex pl-0 mb-0;
+    }
+
+    li {
+        @apply text-header-text hover:text-header-text-secondary border-b border-solid border-gray-300 lg:border-0 py-3 px-3 mb-0;
+
+        a {
+            @apply hover:no-underline capitalize;
+        }
+    }
+
+    .has-submenu {
+        @apply relative text-header-text hover:text-header-text-secondary border-b border-solid border-gray-300 lg:border-0 py-3 px-3 mb-0;
+
+        a {
+            @apply text-current hover:no-underline flex items-center;
+        }
+    }
+
+    .submenu {
+        @apply whitespace-nowrap list-none bg-header-primary absolute invisible opacity-0 z-10 shadow-md pb-4 pl-0 mb-0;
+
+        li {
+            @apply text-header-text text-sm hover:text-header-text-secondary hover:bg-header-secondary py-2 px-4 mb-0;
+
+            a {
+                @apply text-current capitalize leading-none;
+            }
+        }
+    }
+}
+
+@screen lg {
+    .submenu {
+        top: 100%;
+        transform: translateY(-2em);
+        transform-origin: top;
+        transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+        width: 230px;
+    }
+
+    .has-submenu:active>.submenu,
+    .has-submenu:focus>.submenu,
+    .has-submenu:hover>.submenu {
+        visibility: visible;
+        opacity: 1;
+        z-index: 11;
+        transform: translateY(0%);
+        transition-delay: 0s, 0s, 0.3s;
+    }
+
+    .has-submenu:active a svg,
+    .has-submenu:focus a svg,
+    .has-submenu:hover>a svg {
+        @apply transform rotate-180;
+    }
+}

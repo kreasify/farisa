@@ -1,0 +1,25 @@
+{
+    "title": "56",
+    "id": "56",
+    "city": "Belitung",
+    "type": "Kabupaten",
+    "province_id": "2",
+    "province": "Bangka Belitung",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "761",
+        "district": "Badau"
+    }, {
+        "id": "762",
+        "district": "Membalong"
+    }, {
+        "id": "763",
+        "district": "Selat Nasik"
+    }, {
+        "id": "764",
+        "district": "Sijuk"
+    }, {
+        "id": "765",
+        "district": "Tanjung Pandan"
+    }]
+}

@@ -1,0 +1,47 @@
+{
+    "title": "22",
+    "id": "22",
+    "province": "Nusa Tenggara Barat (NTB)",
+    "number_of_cities" : "10",
+    "data" : [{
+        "id": "68",
+        "city": "Bima",
+        "type": "Kabupaten"
+    }, {
+        "id": "69",
+        "city": "Bima",
+        "type": "Kota"
+    }, {
+        "id": "118",
+        "city": "Dompu",
+        "type": "Kabupaten"
+    }, {
+        "id": "238",
+        "city": "Lombok Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "239",
+        "city": "Lombok Tengah",
+        "type": "Kabupaten"
+    }, {
+        "id": "240",
+        "city": "Lombok Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "241",
+        "city": "Lombok Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "276",
+        "city": "Mataram",
+        "type": "Kota"
+    }, {
+        "id": "438",
+        "city": "Sumbawa",
+        "type": "Kabupaten"
+    }, {
+        "id": "439",
+        "city": "Sumbawa Barat",
+        "type": "Kabupaten"
+    }]
+}

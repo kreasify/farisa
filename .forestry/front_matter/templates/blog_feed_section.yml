@@ -1,0 +1,44 @@
+---
+label: Blog Feed Section
+hide_body: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the section
+- type: boolean
+  name: show_recent
+  label: Show recent posts
+  description: Show the specified number of recent posts. Should not be used with
+    author and category filters.
+  default: false
+  config:
+    required: true
+- type: number
+  name: recent_count
+  label: Number of recent posts to show
+- type: select
+  name: author
+  label: Author Filter
+  description: Filter posts by an author
+  config:
+    source:
+      type: pages
+      section: person
+- type: select
+  name: category
+  label: Category Filter
+  description: Filter posts by category
+  config:
+    source:
+      type: pages
+      section: category
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: blog_feed_section
+  config:
+    required: true

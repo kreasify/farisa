@@ -1,0 +1,99 @@
+{
+    "title": "21",
+    "id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_cities" : "23",
+    "data" : [{
+        "id": "1",
+        "city": "Aceh Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "2",
+        "city": "Aceh Barat Daya",
+        "type": "Kabupaten"
+    }, {
+        "id": "3",
+        "city": "Aceh Besar",
+        "type": "Kabupaten"
+    }, {
+        "id": "4",
+        "city": "Aceh Jaya",
+        "type": "Kabupaten"
+    }, {
+        "id": "5",
+        "city": "Aceh Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "6",
+        "city": "Aceh Singkil",
+        "type": "Kabupaten"
+    }, {
+        "id": "7",
+        "city": "Aceh Tamiang",
+        "type": "Kabupaten"
+    }, {
+        "id": "8",
+        "city": "Aceh Tengah",
+        "type": "Kabupaten"
+    }, {
+        "id": "9",
+        "city": "Aceh Tenggara",
+        "type": "Kabupaten"
+    }, {
+        "id": "10",
+        "city": "Aceh Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "11",
+        "city": "Aceh Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "20",
+        "city": "Banda Aceh",
+        "type": "Kota"
+    }, {
+        "id": "59",
+        "city": "Bener Meriah",
+        "type": "Kabupaten"
+    }, {
+        "id": "72",
+        "city": "Bireuen",
+        "type": "Kabupaten"
+    }, {
+        "id": "127",
+        "city": "Gayo Lues",
+        "type": "Kabupaten"
+    }, {
+        "id": "230",
+        "city": "Langsa",
+        "type": "Kota"
+    }, {
+        "id": "235",
+        "city": "Lhokseumawe",
+        "type": "Kota"
+    }, {
+        "id": "300",
+        "city": "Nagan Raya",
+        "type": "Kabupaten"
+    }, {
+        "id": "358",
+        "city": "Pidie",
+        "type": "Kabupaten"
+    }, {
+        "id": "359",
+        "city": "Pidie Jaya",
+        "type": "Kabupaten"
+    }, {
+        "id": "384",
+        "city": "Sabang",
+        "type": "Kota"
+    }, {
+        "id": "414",
+        "city": "Simeulue",
+        "type": "Kabupaten"
+    }, {
+        "id": "429",
+        "city": "Subulussalam",
+        "type": "Kota"
+    }]
+}

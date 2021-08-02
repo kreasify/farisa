@@ -1,0 +1,46 @@
+{
+    "title": "239",
+    "id": "239",
+    "city": "Lombok Tengah",
+    "type": "Kabupaten",
+    "province_id": "22",
+    "province": "Nusa Tenggara Barat (NTB)",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "3382",
+        "district": "Batukliang"
+    }, {
+        "id": "3383",
+        "district": "Batukliang Utara"
+    }, {
+        "id": "3384",
+        "district": "Janapria"
+    }, {
+        "id": "3385",
+        "district": "Jonggat"
+    }, {
+        "id": "3386",
+        "district": "Kopang"
+    }, {
+        "id": "3387",
+        "district": "Praya"
+    }, {
+        "id": "3388",
+        "district": "Praya Barat"
+    }, {
+        "id": "3389",
+        "district": "Praya Barat Daya"
+    }, {
+        "id": "3390",
+        "district": "Praya Tengah"
+    }, {
+        "id": "3391",
+        "district": "Praya Timur"
+    }, {
+        "id": "3392",
+        "district": "Pringgarata"
+    }, {
+        "id": "3393",
+        "district": "Pujut"
+    }]
+}

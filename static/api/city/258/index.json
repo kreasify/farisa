@@ -1,0 +1,61 @@
+{
+    "title": "258",
+    "id": "258",
+    "city": "Maluku Barat Daya",
+    "type": "Kabupaten",
+    "province_id": "19",
+    "province": "Maluku",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "3654",
+        "district": "Damer"
+    }, {
+        "id": "3655",
+        "district": "Dawelor Dawera"
+    }, {
+        "id": "3656",
+        "district": "Kepulauan Romang"
+    }, {
+        "id": "3657",
+        "district": "Kisar Utara"
+    }, {
+        "id": "3658",
+        "district": "Mdona Hyera/Hiera"
+    }, {
+        "id": "3659",
+        "district": "Moa Lakor"
+    }, {
+        "id": "3660",
+        "district": "Pulau Lakor"
+    }, {
+        "id": "3661",
+        "district": "Pulau Letti (Leti Moa Lakor)"
+    }, {
+        "id": "3662",
+        "district": "Pulau Masela"
+    }, {
+        "id": "3663",
+        "district": "Pulau Pulau Babar"
+    }, {
+        "id": "3664",
+        "district": "Pulau Pulau Terselatan"
+    }, {
+        "id": "3665",
+        "district": "Pulau Wetang"
+    }, {
+        "id": "3666",
+        "district": "Pulau-Pulau Babar Timur"
+    }, {
+        "id": "3667",
+        "district": "Wetar"
+    }, {
+        "id": "3668",
+        "district": "Wetar Barat"
+    }, {
+        "id": "3669",
+        "district": "Wetar Timur"
+    }, {
+        "id": "3670",
+        "district": "Wetar Utara"
+    }]
+}

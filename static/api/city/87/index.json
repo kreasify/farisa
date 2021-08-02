@@ -1,0 +1,91 @@
+{
+    "title": "87",
+    "id": "87",
+    "city": "Bone",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "27",
+    "data" : [{
+        "id": "1172",
+        "district": "Ajangale"
+    }, {
+        "id": "1173",
+        "district": "Amali"
+    }, {
+        "id": "1174",
+        "district": "Awangpone"
+    }, {
+        "id": "1175",
+        "district": "Barebbo"
+    }, {
+        "id": "1176",
+        "district": "Bengo"
+    }, {
+        "id": "1177",
+        "district": "Bontocani"
+    }, {
+        "id": "1178",
+        "district": "Cenrana"
+    }, {
+        "id": "1179",
+        "district": "Cina"
+    }, {
+        "id": "1180",
+        "district": "Dua Boccoe"
+    }, {
+        "id": "1181",
+        "district": "Kahu"
+    }, {
+        "id": "1182",
+        "district": "Kajuara"
+    }, {
+        "id": "1183",
+        "district": "Lamuru"
+    }, {
+        "id": "1184",
+        "district": "Lappariaja"
+    }, {
+        "id": "1185",
+        "district": "Libureng"
+    }, {
+        "id": "1186",
+        "district": "Mare"
+    }, {
+        "id": "1187",
+        "district": "Palakka"
+    }, {
+        "id": "1188",
+        "district": "Patimpeng"
+    }, {
+        "id": "1189",
+        "district": "Ponre"
+    }, {
+        "id": "1190",
+        "district": "Salomekko"
+    }, {
+        "id": "1191",
+        "district": "Sibulue"
+    }, {
+        "id": "1192",
+        "district": "Tanete Riattang"
+    }, {
+        "id": "1193",
+        "district": "Tanete Riattang Barat"
+    }, {
+        "id": "1194",
+        "district": "Tanete Riattang Timur"
+    }, {
+        "id": "1195",
+        "district": "Tellu Limpoe"
+    }, {
+        "id": "1196",
+        "district": "Tellu Siattinge"
+    }, {
+        "id": "1197",
+        "district": "Tonra"
+    }, {
+        "id": "1198",
+        "district": "Ulaweng"
+    }]
+}

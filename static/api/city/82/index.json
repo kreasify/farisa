@@ -1,0 +1,25 @@
+{
+    "title": "82",
+    "id": "82",
+    "city": "Bolaang Mongondow Selatan",
+    "type": "Kabupaten",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "1111",
+        "district": "Bolaang Uki"
+    }, {
+        "id": "1112",
+        "district": "Pinolosian"
+    }, {
+        "id": "1113",
+        "district": "Pinolosian Tengah"
+    }, {
+        "id": "1114",
+        "district": "Pinolosian Timur"
+    }, {
+        "id": "1115",
+        "district": "Posigadan"
+    }]
+}

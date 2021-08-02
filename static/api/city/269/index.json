@@ -1,0 +1,43 @@
+{
+    "title": "269",
+    "id": "269",
+    "city": "Manggarai",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "3802",
+        "district": "Cibal"
+    }, {
+        "id": "3803",
+        "district": "Cibal Barat"
+    }, {
+        "id": "3804",
+        "district": "Langke Rembong"
+    }, {
+        "id": "3805",
+        "district": "Lelak"
+    }, {
+        "id": "3806",
+        "district": "Rahong Utara"
+    }, {
+        "id": "3807",
+        "district": "Reok"
+    }, {
+        "id": "3808",
+        "district": "Reok Barat"
+    }, {
+        "id": "3809",
+        "district": "Ruteng"
+    }, {
+        "id": "3810",
+        "district": "Satar Mese"
+    }, {
+        "id": "3811",
+        "district": "Satar Mese Barat"
+    }, {
+        "id": "3812",
+        "district": "Wae Rii"
+    }]
+}

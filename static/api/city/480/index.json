@@ -1,0 +1,82 @@
+{
+    "title": "480",
+    "id": "480",
+    "city": "Timor Tengah Utara",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "6628",
+        "district": "Biboki Anleu"
+    }, {
+        "id": "6629",
+        "district": "Biboki Feotleu"
+    }, {
+        "id": "6630",
+        "district": "Biboki Moenleu"
+    }, {
+        "id": "6631",
+        "district": "Biboki Selatan"
+    }, {
+        "id": "6632",
+        "district": "Biboki Tan Pah"
+    }, {
+        "id": "6633",
+        "district": "Biboki Utara"
+    }, {
+        "id": "6634",
+        "district": "Bikomi Nilulat"
+    }, {
+        "id": "6635",
+        "district": "Bikomi Selatan"
+    }, {
+        "id": "6636",
+        "district": "Bikomi Tengah"
+    }, {
+        "id": "6637",
+        "district": "Bikomi Utara"
+    }, {
+        "id": "6638",
+        "district": "Insana"
+    }, {
+        "id": "6639",
+        "district": "Insana Barat"
+    }, {
+        "id": "6640",
+        "district": "Insana Fafinesu"
+    }, {
+        "id": "6641",
+        "district": "Insana Tengah"
+    }, {
+        "id": "6642",
+        "district": "Insana Utara"
+    }, {
+        "id": "6643",
+        "district": "Kota Kefamenanu"
+    }, {
+        "id": "6644",
+        "district": "Miomaffo Barat"
+    }, {
+        "id": "6645",
+        "district": "Miomaffo Tengah"
+    }, {
+        "id": "6646",
+        "district": "Miomaffo Timur"
+    }, {
+        "id": "6647",
+        "district": "Musi"
+    }, {
+        "id": "6648",
+        "district": "Mutis"
+    }, {
+        "id": "6649",
+        "district": "Naibenu"
+    }, {
+        "id": "6650",
+        "district": "Noemuti"
+    }, {
+        "id": "6651",
+        "district": "Noemuti Timur"
+    }]
+}

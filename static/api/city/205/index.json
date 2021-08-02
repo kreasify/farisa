@@ -1,0 +1,28 @@
+{
+    "title": "205",
+    "id": "205",
+    "city": "Kotawaringin Barat",
+    "type": "Kabupaten",
+    "province_id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "2874",
+        "district": "Arut Selatan"
+    }, {
+        "id": "2875",
+        "district": "Arut Utara"
+    }, {
+        "id": "2876",
+        "district": "Kotawaringin Lama"
+    }, {
+        "id": "2877",
+        "district": "Kumai"
+    }, {
+        "id": "2878",
+        "district": "Pangkalan Banteng"
+    }, {
+        "id": "2879",
+        "district": "Pangkalan Lada"
+    }]
+}

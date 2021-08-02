@@ -1,0 +1,37 @@
+{
+    "title": "495",
+    "id": "495",
+    "city": "Waropen",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "6862",
+        "district": "Demba Masirei"
+    }, {
+        "id": "6863",
+        "district": "Inggerus"
+    }, {
+        "id": "6864",
+        "district": "Kirihi"
+    }, {
+        "id": "6865",
+        "district": "Masirei"
+    }, {
+        "id": "6866",
+        "district": "Oudate Waropen"
+    }, {
+        "id": "6867",
+        "district": "Risei Sayati"
+    }, {
+        "id": "6868",
+        "district": "Ureifasei"
+    }, {
+        "id": "6869",
+        "district": "Wapoga Inggerus"
+    }, {
+        "id": "6870",
+        "district": "Waropen Bawah"
+    }]
+}

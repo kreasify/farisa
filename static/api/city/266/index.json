@@ -1,0 +1,46 @@
+{
+    "title": "266",
+    "id": "266",
+    "city": "Mamuju Utara",
+    "type": "Kabupaten",
+    "province_id": "27",
+    "province": "Sulawesi Barat",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "3756",
+        "district": "Bambaira"
+    }, {
+        "id": "3757",
+        "district": "Bambalamotu"
+    }, {
+        "id": "3758",
+        "district": "Baras"
+    }, {
+        "id": "3759",
+        "district": "Bulu Taba"
+    }, {
+        "id": "3760",
+        "district": "Dapurang"
+    }, {
+        "id": "3761",
+        "district": "Duripoku"
+    }, {
+        "id": "3762",
+        "district": "Lariang"
+    }, {
+        "id": "3763",
+        "district": "Pasangkayu"
+    }, {
+        "id": "3764",
+        "district": "Pedongga"
+    }, {
+        "id": "3765",
+        "district": "Sarjo"
+    }, {
+        "id": "3766",
+        "district": "Sarudu"
+    }, {
+        "id": "3767",
+        "district": "Tikke Raya"
+    }]
+}

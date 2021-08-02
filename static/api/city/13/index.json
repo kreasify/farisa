@@ -1,0 +1,61 @@
+{
+    "title": "13",
+    "id": "13",
+    "city": "Alor",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "192",
+        "district": "Alor Barat Daya"
+    }, {
+        "id": "193",
+        "district": "Alor Barat Laut"
+    }, {
+        "id": "194",
+        "district": "Alor Selatan"
+    }, {
+        "id": "195",
+        "district": "Alor Tengah Utara"
+    }, {
+        "id": "196",
+        "district": "Alor Timur"
+    }, {
+        "id": "197",
+        "district": "Alor Timur Laut"
+    }, {
+        "id": "198",
+        "district": "Kabola"
+    }, {
+        "id": "199",
+        "district": "Lembur"
+    }, {
+        "id": "200",
+        "district": "Mataru"
+    }, {
+        "id": "201",
+        "district": "Pantar"
+    }, {
+        "id": "202",
+        "district": "Pantar Barat"
+    }, {
+        "id": "203",
+        "district": "Pantar Barat Laut"
+    }, {
+        "id": "204",
+        "district": "Pantar Tengah"
+    }, {
+        "id": "205",
+        "district": "Pantar Timur"
+    }, {
+        "id": "206",
+        "district": "Pulau Pura"
+    }, {
+        "id": "207",
+        "district": "Pureman"
+    }, {
+        "id": "208",
+        "district": "Teluk Mutiara"
+    }]
+}

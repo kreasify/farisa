@@ -1,0 +1,34 @@
+{
+    "title": "53",
+    "id": "53",
+    "city": "Bau-Bau",
+    "type": "Kota",
+    "province_id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "718",
+        "district": "Batupoaro"
+    }, {
+        "id": "719",
+        "district": "Betoambari"
+    }, {
+        "id": "720",
+        "district": "Bungi"
+    }, {
+        "id": "721",
+        "district": "Kokalukuna"
+    }, {
+        "id": "722",
+        "district": "Lea-Lea"
+    }, {
+        "id": "723",
+        "district": "Murhum"
+    }, {
+        "id": "724",
+        "district": "Sora Walio (Sorowalio)"
+    }, {
+        "id": "725",
+        "district": "Wolio"
+    }]
+}

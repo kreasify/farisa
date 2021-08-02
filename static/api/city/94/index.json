@@ -1,0 +1,37 @@
+{
+    "title": "94",
+    "id": "94",
+    "city": "Buleleng",
+    "type": "Kabupaten",
+    "province_id": "1",
+    "province": "Bali",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "1279",
+        "district": "Banjar"
+    }, {
+        "id": "1280",
+        "district": "Buleleng"
+    }, {
+        "id": "1281",
+        "district": "Busungbiu"
+    }, {
+        "id": "1282",
+        "district": "Gerokgak"
+    }, {
+        "id": "1283",
+        "district": "Kubutambahan"
+    }, {
+        "id": "1284",
+        "district": "Sawan"
+    }, {
+        "id": "1285",
+        "district": "Seririt"
+    }, {
+        "id": "1286",
+        "district": "Sukasada"
+    }, {
+        "id": "1287",
+        "district": "Tejakula"
+    }]
+}

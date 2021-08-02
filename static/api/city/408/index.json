@@ -1,0 +1,43 @@
+{
+    "title": "408",
+    "id": "408",
+    "city": "Sidenreng Rappang/Rapang",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "5620",
+        "district": "Baranti"
+    }, {
+        "id": "5621",
+        "district": "Dua Pitue"
+    }, {
+        "id": "5622",
+        "district": "Kulo"
+    }, {
+        "id": "5623",
+        "district": "Maritengngae"
+    }, {
+        "id": "5624",
+        "district": "Panca Lautan (Lautang)"
+    }, {
+        "id": "5625",
+        "district": "Panca Rijang"
+    }, {
+        "id": "5626",
+        "district": "Pitu Raise/Riase"
+    }, {
+        "id": "5627",
+        "district": "Pitu Riawa"
+    }, {
+        "id": "5628",
+        "district": "Tellu Limpoe"
+    }, {
+        "id": "5629",
+        "district": "Watang Pulu"
+    }, {
+        "id": "5630",
+        "district": "Wattang Sidenreng (Watang Sidenreng)"
+    }]
+}

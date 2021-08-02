@@ -1,0 +1,61 @@
+{
+    "title": "322",
+    "id": "322",
+    "city": "Padang Pariaman",
+    "type": "Kabupaten",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "4568",
+        "district": "2 X 11 Enam Lingkung"
+    }, {
+        "id": "4569",
+        "district": "2 X 11 Kayu Tanam"
+    }, {
+        "id": "4570",
+        "district": "Batang Anai"
+    }, {
+        "id": "4571",
+        "district": "Batang Gasan"
+    }, {
+        "id": "4572",
+        "district": "Enam Lingkung"
+    }, {
+        "id": "4573",
+        "district": "IV Koto Aur Malintang"
+    }, {
+        "id": "4574",
+        "district": "Lubuk Alung"
+    }, {
+        "id": "4575",
+        "district": "Nan Sabaris"
+    }, {
+        "id": "4576",
+        "district": "Padang Sago"
+    }, {
+        "id": "4577",
+        "district": "Patamuan"
+    }, {
+        "id": "4578",
+        "district": "Sintuk/Sintuak Toboh Gadang"
+    }, {
+        "id": "4579",
+        "district": "Sungai Geringging/Garingging"
+    }, {
+        "id": "4580",
+        "district": "Sungai Limau"
+    }, {
+        "id": "4581",
+        "district": "Ulakan Tapakih/Tapakis"
+    }, {
+        "id": "4582",
+        "district": "V Koto Kampung Dalam"
+    }, {
+        "id": "4583",
+        "district": "V Koto Timur"
+    }, {
+        "id": "4584",
+        "district": "VII Koto Sungai Sarik"
+    }]
+}

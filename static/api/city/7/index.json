@@ -1,0 +1,46 @@
+{
+    "title": "7",
+    "id": "7",
+    "city": "Aceh Tamiang",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "83",
+        "district": "Banda Mulia"
+    }, {
+        "id": "84",
+        "district": "Bandar Pusaka"
+    }, {
+        "id": "85",
+        "district": "Bendahara"
+    }, {
+        "id": "86",
+        "district": "Karang Baru"
+    }, {
+        "id": "87",
+        "district": "Kejuruan Muda"
+    }, {
+        "id": "88",
+        "district": "Kota Kuala Simpang"
+    }, {
+        "id": "89",
+        "district": "Manyak Payed"
+    }, {
+        "id": "90",
+        "district": "Rantau"
+    }, {
+        "id": "91",
+        "district": "Sekerak"
+    }, {
+        "id": "92",
+        "district": "Seruway"
+    }, {
+        "id": "93",
+        "district": "Tamiang Hulu"
+    }, {
+        "id": "94",
+        "district": "Tenggulun"
+    }]
+}

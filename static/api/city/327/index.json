@@ -1,0 +1,58 @@
+{
+    "title": "327",
+    "id": "327",
+    "city": "Palembang",
+    "type": "Kota",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "4609",
+        "district": "Alang-Alang Lebar"
+    }, {
+        "id": "4610",
+        "district": "Bukit Kecil"
+    }, {
+        "id": "4611",
+        "district": "Gandus"
+    }, {
+        "id": "4612",
+        "district": "Ilir Barat I"
+    }, {
+        "id": "4613",
+        "district": "Ilir Barat II"
+    }, {
+        "id": "4614",
+        "district": "Ilir Timur I"
+    }, {
+        "id": "4615",
+        "district": "Ilir Timur II"
+    }, {
+        "id": "4616",
+        "district": "Kalidoni"
+    }, {
+        "id": "4617",
+        "district": "Kemuning"
+    }, {
+        "id": "4618",
+        "district": "Kertapati"
+    }, {
+        "id": "4619",
+        "district": "Plaju"
+    }, {
+        "id": "4620",
+        "district": "Sako"
+    }, {
+        "id": "4621",
+        "district": "Seberang Ulu I"
+    }, {
+        "id": "4622",
+        "district": "Seberang Ulu II"
+    }, {
+        "id": "4623",
+        "district": "Sematang Borang"
+    }, {
+        "id": "4624",
+        "district": "Sukarami"
+    }]
+}

@@ -1,0 +1,85 @@
+{
+    "title": "15",
+    "id": "15",
+    "city": "Asahan",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "25",
+    "data" : [{
+        "id": "214",
+        "district": "Aek Kuasan"
+    }, {
+        "id": "215",
+        "district": "Aek Ledong"
+    }, {
+        "id": "216",
+        "district": "Aek Songsongan"
+    }, {
+        "id": "217",
+        "district": "Air Batu"
+    }, {
+        "id": "218",
+        "district": "Air Joman"
+    }, {
+        "id": "219",
+        "district": "Bandar Pasir Mandoge"
+    }, {
+        "id": "220",
+        "district": "Bandar Pulau"
+    }, {
+        "id": "221",
+        "district": "Buntu Pane"
+    }, {
+        "id": "222",
+        "district": "Kisaran Barat Kota"
+    }, {
+        "id": "223",
+        "district": "Kisaran Timur Kota"
+    }, {
+        "id": "224",
+        "district": "Meranti"
+    }, {
+        "id": "225",
+        "district": "Pulau Rakyat"
+    }, {
+        "id": "226",
+        "district": "Pulo Bandring"
+    }, {
+        "id": "227",
+        "district": "Rahuning"
+    }, {
+        "id": "228",
+        "district": "Rawang Panca Arga"
+    }, {
+        "id": "229",
+        "district": "Sei Dadap"
+    }, {
+        "id": "230",
+        "district": "Sei Kepayang"
+    }, {
+        "id": "231",
+        "district": "Sei Kepayang Barat"
+    }, {
+        "id": "232",
+        "district": "Sei Kepayang Timur"
+    }, {
+        "id": "233",
+        "district": "Setia Janji"
+    }, {
+        "id": "234",
+        "district": "Silau Laut"
+    }, {
+        "id": "235",
+        "district": "Simpang Empat"
+    }, {
+        "id": "236",
+        "district": "Tanjung Balai"
+    }, {
+        "id": "237",
+        "district": "Teluk Dalam"
+    }, {
+        "id": "238",
+        "district": "Tinggi Raja"
+    }]
+}

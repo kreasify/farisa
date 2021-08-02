@@ -1,0 +1,19 @@
+{
+    "title": "250",
+    "id": "250",
+    "city": "Magelang",
+    "type": "Kota",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "3",
+    "data" : [{
+        "id": "3532",
+        "district": "Magelang Selatan"
+    }, {
+        "id": "3533",
+        "district": "Magelang Tengah"
+    }, {
+        "id": "3534",
+        "district": "Magelang Utara"
+    }]
+}

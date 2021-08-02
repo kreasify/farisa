@@ -1,0 +1,12 @@
+---
+label: Contact Section
+hide_body: true
+fields:
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: contact_section
+  config:
+    required: true

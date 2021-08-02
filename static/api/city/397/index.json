@@ -1,0 +1,52 @@
+{
+    "title": "397",
+    "id": "397",
+    "city": "Seluma",
+    "type": "Kabupaten",
+    "province_id": "4",
+    "province": "Bengkulu",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "5465",
+        "district": "Air Periukan"
+    }, {
+        "id": "5466",
+        "district": "Ilir Talo"
+    }, {
+        "id": "5467",
+        "district": "Lubuk Sandi"
+    }, {
+        "id": "5468",
+        "district": "Seluma"
+    }, {
+        "id": "5469",
+        "district": "Seluma Barat"
+    }, {
+        "id": "5470",
+        "district": "Seluma Selatan"
+    }, {
+        "id": "5471",
+        "district": "Seluma Timur"
+    }, {
+        "id": "5472",
+        "district": "Seluma Utara"
+    }, {
+        "id": "5473",
+        "district": "Semidang Alas"
+    }, {
+        "id": "5474",
+        "district": "Semidang Alas Maras"
+    }, {
+        "id": "5475",
+        "district": "Sukaraja"
+    }, {
+        "id": "5476",
+        "district": "Talo"
+    }, {
+        "id": "5477",
+        "district": "Talo Kecil"
+    }, {
+        "id": "5478",
+        "district": "Ulu Talo"
+    }]
+}

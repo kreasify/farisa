@@ -1,0 +1,70 @@
+{
+    "title": "240",
+    "id": "240",
+    "city": "Lombok Timur",
+    "type": "Kabupaten",
+    "province_id": "22",
+    "province": "Nusa Tenggara Barat (NTB)",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "3394",
+        "district": "Aikmel"
+    }, {
+        "id": "3395",
+        "district": "Jerowaru"
+    }, {
+        "id": "3396",
+        "district": "Keruak"
+    }, {
+        "id": "3397",
+        "district": "Labuhan Haji"
+    }, {
+        "id": "3398",
+        "district": "Masbagik"
+    }, {
+        "id": "3399",
+        "district": "Montong Gading"
+    }, {
+        "id": "3400",
+        "district": "Pringgabaya"
+    }, {
+        "id": "3401",
+        "district": "Pringgasela"
+    }, {
+        "id": "3402",
+        "district": "Sakra"
+    }, {
+        "id": "3403",
+        "district": "Sakra Barat"
+    }, {
+        "id": "3404",
+        "district": "Sakra Timur"
+    }, {
+        "id": "3405",
+        "district": "Sambalia (Sambelia)"
+    }, {
+        "id": "3406",
+        "district": "Selong"
+    }, {
+        "id": "3407",
+        "district": "Sembalun"
+    }, {
+        "id": "3408",
+        "district": "Sikur"
+    }, {
+        "id": "3409",
+        "district": "Suela (Suwela)"
+    }, {
+        "id": "3410",
+        "district": "Sukamulia"
+    }, {
+        "id": "3411",
+        "district": "Suralaga"
+    }, {
+        "id": "3412",
+        "district": "Terara"
+    }, {
+        "id": "3413",
+        "district": "Wanasaba"
+    }]
+}

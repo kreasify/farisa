@@ -1,0 +1,58 @@
+{
+    "title": "76",
+    "id": "76",
+    "city": "Blora",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "999",
+        "district": "Banjarejo"
+    }, {
+        "id": "1000",
+        "district": "Blora kota"
+    }, {
+        "id": "1001",
+        "district": "Bogorejo"
+    }, {
+        "id": "1002",
+        "district": "Cepu"
+    }, {
+        "id": "1003",
+        "district": "Japah"
+    }, {
+        "id": "1004",
+        "district": "Jati"
+    }, {
+        "id": "1005",
+        "district": "Jepon"
+    }, {
+        "id": "1006",
+        "district": "Jiken"
+    }, {
+        "id": "1007",
+        "district": "Kedungtuban"
+    }, {
+        "id": "1008",
+        "district": "Kradenan"
+    }, {
+        "id": "1009",
+        "district": "Kunduran"
+    }, {
+        "id": "1010",
+        "district": "Ngawen"
+    }, {
+        "id": "1011",
+        "district": "Randublatung"
+    }, {
+        "id": "1012",
+        "district": "Sambong"
+    }, {
+        "id": "1013",
+        "district": "Todanan"
+    }, {
+        "id": "1014",
+        "district": "Tunjungan"
+    }]
+}

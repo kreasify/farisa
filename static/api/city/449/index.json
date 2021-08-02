@@ -1,0 +1,46 @@
+{
+    "title": "449",
+    "id": "449",
+    "city": "Tambrauw",
+    "type": "Kabupaten",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "6198",
+        "district": "Abun"
+    }, {
+        "id": "6199",
+        "district": "Amberbaken"
+    }, {
+        "id": "6200",
+        "district": "Fef (Peef)"
+    }, {
+        "id": "6201",
+        "district": "Kebar"
+    }, {
+        "id": "6202",
+        "district": "Kwoor"
+    }, {
+        "id": "6203",
+        "district": "Miyah (Meyah)"
+    }, {
+        "id": "6204",
+        "district": "Moraid"
+    }, {
+        "id": "6205",
+        "district": "Mubrani"
+    }, {
+        "id": "6206",
+        "district": "Sausapor"
+    }, {
+        "id": "6207",
+        "district": "Senopi"
+    }, {
+        "id": "6208",
+        "district": "Syujak"
+    }, {
+        "id": "6209",
+        "district": "Yembun"
+    }]
+}

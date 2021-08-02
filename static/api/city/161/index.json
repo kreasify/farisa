@@ -1,0 +1,25 @@
+{
+    "title": "161",
+    "id": "161",
+    "city": "Jembrana",
+    "type": "Kabupaten",
+    "province_id": "1",
+    "province": "Bali",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "2232",
+        "district": "Jembrana"
+    }, {
+        "id": "2233",
+        "district": "Melaya"
+    }, {
+        "id": "2234",
+        "district": "Mendoyo"
+    }, {
+        "id": "2235",
+        "district": "Negara"
+    }, {
+        "id": "2236",
+        "district": "Pekutatan"
+    }]
+}

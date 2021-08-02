@@ -1,0 +1,22 @@
+{
+    "title": "354",
+    "id": "354",
+    "city": "Penajam Paser Utara",
+    "type": "Kabupaten",
+    "province_id": "15",
+    "province": "Kalimantan Timur",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "4960",
+        "district": "Babulu"
+    }, {
+        "id": "4961",
+        "district": "Penajam"
+    }, {
+        "id": "4962",
+        "district": "Sepaku"
+    }, {
+        "id": "4963",
+        "district": "Waru"
+    }]
+}

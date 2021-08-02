@@ -1,0 +1,55 @@
+{
+    "title": "274",
+    "id": "274",
+    "city": "Mappi",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "3847",
+        "district": "Assue"
+    }, {
+        "id": "3848",
+        "district": "Bamgi"
+    }, {
+        "id": "3849",
+        "district": "Citakmitak"
+    }, {
+        "id": "3850",
+        "district": "Edera"
+    }, {
+        "id": "3851",
+        "district": "Haju"
+    }, {
+        "id": "3852",
+        "district": "Kaibar"
+    }, {
+        "id": "3853",
+        "district": "Minyamur"
+    }, {
+        "id": "3854",
+        "district": "Nambioman Bapai (Mambioman)"
+    }, {
+        "id": "3855",
+        "district": "Obaa"
+    }, {
+        "id": "3856",
+        "district": "Passue"
+    }, {
+        "id": "3857",
+        "district": "Passue Bawah"
+    }, {
+        "id": "3858",
+        "district": "Syahcame"
+    }, {
+        "id": "3859",
+        "district": "Ti Zain"
+    }, {
+        "id": "3860",
+        "district": "Venaha"
+    }, {
+        "id": "3861",
+        "district": "Yakomi"
+    }]
+}

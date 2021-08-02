@@ -1,0 +1,40 @@
+{
+    "title": "202",
+    "id": "202",
+    "city": "Konawe Utara",
+    "type": "Kabupaten",
+    "province_id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "2839",
+        "district": "Andowia"
+    }, {
+        "id": "2840",
+        "district": "Asera"
+    }, {
+        "id": "2841",
+        "district": "Langgikima"
+    }, {
+        "id": "2842",
+        "district": "Lasolo"
+    }, {
+        "id": "2843",
+        "district": "Lembo"
+    }, {
+        "id": "2844",
+        "district": "Molawe"
+    }, {
+        "id": "2845",
+        "district": "Motui"
+    }, {
+        "id": "2846",
+        "district": "Oheo"
+    }, {
+        "id": "2847",
+        "district": "Sawa"
+    }, {
+        "id": "2848",
+        "district": "Wiwirano"
+    }]
+}

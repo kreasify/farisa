@@ -1,0 +1,40 @@
+{
+    "title": "95",
+    "id": "95",
+    "city": "Bulukumba",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "1288",
+        "district": "Bonto Bahari"
+    }, {
+        "id": "1289",
+        "district": "Bontotiro"
+    }, {
+        "id": "1290",
+        "district": "Bulukumba (Bulukumpa)"
+    }, {
+        "id": "1291",
+        "district": "Gantorang/Gantarang (Gangking)"
+    }, {
+        "id": "1292",
+        "district": "Hero Lange-Lange (Herlang)"
+    }, {
+        "id": "1293",
+        "district": "Kajang"
+    }, {
+        "id": "1294",
+        "district": "Kindang"
+    }, {
+        "id": "1295",
+        "district": "Rilau Ale"
+    }, {
+        "id": "1296",
+        "district": "Ujung Bulu"
+    }, {
+        "id": "1297",
+        "district": "Ujung Loe"
+    }]
+}

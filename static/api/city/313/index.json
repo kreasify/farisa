@@ -1,0 +1,64 @@
+{
+    "title": "313",
+    "id": "313",
+    "city": "Ogan Komering Ilir",
+    "type": "Kabupaten",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "4453",
+        "district": "Air Sugihan"
+    }, {
+        "id": "4454",
+        "district": "Cengal"
+    }, {
+        "id": "4455",
+        "district": "Jejawi"
+    }, {
+        "id": "4456",
+        "district": "Kayu Agung"
+    }, {
+        "id": "4457",
+        "district": "Lempuing"
+    }, {
+        "id": "4458",
+        "district": "Lempuing Jaya"
+    }, {
+        "id": "4459",
+        "district": "Mesuji"
+    }, {
+        "id": "4460",
+        "district": "Mesuji Makmur"
+    }, {
+        "id": "4461",
+        "district": "Mesuji Raya"
+    }, {
+        "id": "4462",
+        "district": "Pampangan"
+    }, {
+        "id": "4463",
+        "district": "Pangkalan Lampam"
+    }, {
+        "id": "4464",
+        "district": "Pedamaran"
+    }, {
+        "id": "4465",
+        "district": "Pedamaran Timur"
+    }, {
+        "id": "4466",
+        "district": "Sirah Pulau Padang"
+    }, {
+        "id": "4467",
+        "district": "Sungai Menang"
+    }, {
+        "id": "4468",
+        "district": "Tanjung Lubuk"
+    }, {
+        "id": "4469",
+        "district": "Teluk Gelam"
+    }, {
+        "id": "4470",
+        "district": "Tulung Selapan"
+    }]
+}

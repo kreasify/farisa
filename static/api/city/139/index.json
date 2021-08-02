@@ -1,0 +1,100 @@
+{
+    "title": "139",
+    "id": "139",
+    "city": "Halmahera Selatan",
+    "type": "Kabupaten",
+    "province_id": "20",
+    "province": "Maluku Utara",
+    "number_of_districts" : "30",
+    "data" : [{
+        "id": "1909",
+        "district": "Bacan"
+    }, {
+        "id": "1910",
+        "district": "Bacan Barat"
+    }, {
+        "id": "1911",
+        "district": "Bacan Barat Utara"
+    }, {
+        "id": "1912",
+        "district": "Bacan Selatan"
+    }, {
+        "id": "1913",
+        "district": "Bacan Timur"
+    }, {
+        "id": "1914",
+        "district": "Bacan Timur Selatan"
+    }, {
+        "id": "1915",
+        "district": "Bacan Timur Tengah"
+    }, {
+        "id": "1916",
+        "district": "Gane Barat"
+    }, {
+        "id": "1917",
+        "district": "Gane Barat Selatan"
+    }, {
+        "id": "1918",
+        "district": "Gane Barat Utara"
+    }, {
+        "id": "1919",
+        "district": "Gane Timur"
+    }, {
+        "id": "1920",
+        "district": "Gane Timur Selatan"
+    }, {
+        "id": "1921",
+        "district": "Gane Timur Tengah"
+    }, {
+        "id": "1922",
+        "district": "Kasiruta Barat"
+    }, {
+        "id": "1923",
+        "district": "Kasiruta Timur"
+    }, {
+        "id": "1924",
+        "district": "Kayoa"
+    }, {
+        "id": "1925",
+        "district": "Kayoa Barat"
+    }, {
+        "id": "1926",
+        "district": "Kayoa Selatan"
+    }, {
+        "id": "1927",
+        "district": "Kayoa Utara"
+    }, {
+        "id": "1928",
+        "district": "Kepulauan Botanglomang"
+    }, {
+        "id": "1929",
+        "district": "Kepulauan Joronga"
+    }, {
+        "id": "1930",
+        "district": "Makian (Pulau Makian)"
+    }, {
+        "id": "1931",
+        "district": "Makian Barat (Pulau Makian)"
+    }, {
+        "id": "1932",
+        "district": "Mandioli Selatan"
+    }, {
+        "id": "1933",
+        "district": "Mandioli Utara"
+    }, {
+        "id": "1934",
+        "district": "Obi"
+    }, {
+        "id": "1935",
+        "district": "Obi Barat"
+    }, {
+        "id": "1936",
+        "district": "Obi Selatan"
+    }, {
+        "id": "1937",
+        "district": "Obi Timur"
+    }, {
+        "id": "1938",
+        "district": "Obi Utara"
+    }]
+}

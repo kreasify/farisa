@@ -1,0 +1,28 @@
+{
+    "title": "273",
+    "id": "273",
+    "city": "Manokwari Selatan",
+    "type": "Kabupaten",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "3841",
+        "district": "Dataran Isim"
+    }, {
+        "id": "3842",
+        "district": "Momi Waren"
+    }, {
+        "id": "3843",
+        "district": "Neney (Nenei)"
+    }, {
+        "id": "3844",
+        "district": "Oransbari"
+    }, {
+        "id": "3845",
+        "district": "Ransiki"
+    }, {
+        "id": "3846",
+        "district": "Tahota (Tohota)"
+    }]
+}

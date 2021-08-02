@@ -1,0 +1,73 @@
+{
+    "title": "486",
+    "id": "486",
+    "city": "Toraja Utara",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "6738",
+        "district": "Awan Rante Karua"
+    }, {
+        "id": "6739",
+        "district": "Balusu"
+    }, {
+        "id": "6740",
+        "district": "Bangkelekila"
+    }, {
+        "id": "6741",
+        "district": "Baruppu"
+    }, {
+        "id": "6742",
+        "district": "Buntao"
+    }, {
+        "id": "6743",
+        "district": "Buntu Pepasan"
+    }, {
+        "id": "6744",
+        "district": "Dende' Piongan Napo"
+    }, {
+        "id": "6745",
+        "district": "Kapalla Pitu (Kapala Pitu)"
+    }, {
+        "id": "6746",
+        "district": "Kesu"
+    }, {
+        "id": "6747",
+        "district": "Nanggala"
+    }, {
+        "id": "6748",
+        "district": "Rantebua"
+    }, {
+        "id": "6749",
+        "district": "Rantepao"
+    }, {
+        "id": "6750",
+        "district": "Rindingallo"
+    }, {
+        "id": "6751",
+        "district": "Sa'dan"
+    }, {
+        "id": "6752",
+        "district": "Sanggalangi"
+    }, {
+        "id": "6753",
+        "district": "Sesean"
+    }, {
+        "id": "6754",
+        "district": "Sesean Suloara"
+    }, {
+        "id": "6755",
+        "district": "Sopai"
+    }, {
+        "id": "6756",
+        "district": "Tallunglipu"
+    }, {
+        "id": "6757",
+        "district": "Tikala"
+    }, {
+        "id": "6758",
+        "district": "Tondon"
+    }]
+}

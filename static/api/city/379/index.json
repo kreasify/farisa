@@ -1,0 +1,55 @@
+{
+    "title": "379",
+    "id": "379",
+    "city": "Rejang Lebong",
+    "type": "Kabupaten",
+    "province_id": "4",
+    "province": "Bengkulu",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "5274",
+        "district": "Bermani Ulu"
+    }, {
+        "id": "5275",
+        "district": "Bermani Ulu Raya"
+    }, {
+        "id": "5276",
+        "district": "Binduriang"
+    }, {
+        "id": "5277",
+        "district": "Curup"
+    }, {
+        "id": "5278",
+        "district": "Curup Selatan"
+    }, {
+        "id": "5279",
+        "district": "Curup Tengah"
+    }, {
+        "id": "5280",
+        "district": "Curup Timur"
+    }, {
+        "id": "5281",
+        "district": "Curup Utara"
+    }, {
+        "id": "5282",
+        "district": "Kota Padang"
+    }, {
+        "id": "5283",
+        "district": "Padang Ulak Tanding"
+    }, {
+        "id": "5284",
+        "district": "Selupu Rejang"
+    }, {
+        "id": "5285",
+        "district": "Sindang Beliti Ilir"
+    }, {
+        "id": "5286",
+        "district": "Sindang Beliti Ulu"
+    }, {
+        "id": "5287",
+        "district": "Sindang Daratan"
+    }, {
+        "id": "5288",
+        "district": "Sindang Kelingi"
+    }]
+}

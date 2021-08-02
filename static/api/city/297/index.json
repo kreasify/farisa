@@ -1,0 +1,52 @@
+{
+    "title": "297",
+    "id": "297",
+    "city": "Musi Banyuasin",
+    "type": "Kabupaten",
+    "province_id": "33",
+    "province": "Sumatera Selatan",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "4200",
+        "district": "Babat Supat"
+    }, {
+        "id": "4201",
+        "district": "Babat Toman"
+    }, {
+        "id": "4202",
+        "district": "Batanghari Leko"
+    }, {
+        "id": "4203",
+        "district": "Bayung Lencir"
+    }, {
+        "id": "4204",
+        "district": "Keluang"
+    }, {
+        "id": "4205",
+        "district": "Lais"
+    }, {
+        "id": "4206",
+        "district": "Lalan (Sungai Lalan)"
+    }, {
+        "id": "4207",
+        "district": "Lawang Wetan"
+    }, {
+        "id": "4208",
+        "district": "Plakat Tinggi (Pelakat Tinggi)"
+    }, {
+        "id": "4209",
+        "district": "Sanga Desa"
+    }, {
+        "id": "4210",
+        "district": "Sekayu"
+    }, {
+        "id": "4211",
+        "district": "Sungai Keruh"
+    }, {
+        "id": "4212",
+        "district": "Sungai Lilin"
+    }, {
+        "id": "4213",
+        "district": "Tungkal Jaya"
+    }]
+}

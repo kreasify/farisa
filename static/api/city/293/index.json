@@ -1,0 +1,43 @@
+{
+    "title": "293",
+    "id": "293",
+    "city": "Muaro Jambi",
+    "type": "Kabupaten",
+    "province_id": "8",
+    "province": "Jambi",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "4131",
+        "district": "Bahar Selatan"
+    }, {
+        "id": "4132",
+        "district": "Bahar Utara"
+    }, {
+        "id": "4133",
+        "district": "Jambi Luar Kota"
+    }, {
+        "id": "4134",
+        "district": "Kumpeh"
+    }, {
+        "id": "4135",
+        "district": "Kumpeh Ulu"
+    }, {
+        "id": "4136",
+        "district": "Maro Sebo"
+    }, {
+        "id": "4137",
+        "district": "Mestong"
+    }, {
+        "id": "4138",
+        "district": "Sekernan"
+    }, {
+        "id": "4139",
+        "district": "Sungai Bahar"
+    }, {
+        "id": "4140",
+        "district": "Sungai Gelam"
+    }, {
+        "id": "4141",
+        "district": "Taman Rajo / Rejo"
+    }]
+}

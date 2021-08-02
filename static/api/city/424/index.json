@@ -1,0 +1,61 @@
+{
+    "title": "424",
+    "id": "424",
+    "city": "Sorong",
+    "type": "Kabupaten",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "5827",
+        "district": "Aimas"
+    }, {
+        "id": "5828",
+        "district": "Beraur"
+    }, {
+        "id": "5829",
+        "district": "Klabot"
+    }, {
+        "id": "5830",
+        "district": "Klamono"
+    }, {
+        "id": "5831",
+        "district": "Klaso"
+    }, {
+        "id": "5832",
+        "district": "Klawak"
+    }, {
+        "id": "5833",
+        "district": "Klayili"
+    }, {
+        "id": "5834",
+        "district": "Makbon"
+    }, {
+        "id": "5835",
+        "district": "Mariat"
+    }, {
+        "id": "5836",
+        "district": "Maudus"
+    }, {
+        "id": "5837",
+        "district": "Mayamuk"
+    }, {
+        "id": "5838",
+        "district": "Moisegen"
+    }, {
+        "id": "5839",
+        "district": "Salawati"
+    }, {
+        "id": "5840",
+        "district": "Salawati Selatan"
+    }, {
+        "id": "5841",
+        "district": "Sayosa"
+    }, {
+        "id": "5842",
+        "district": "Seget"
+    }, {
+        "id": "5843",
+        "district": "Segun"
+    }]
+}

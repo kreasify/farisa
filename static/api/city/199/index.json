@@ -1,0 +1,55 @@
+{
+    "title": "199",
+    "id": "199",
+    "city": "Kolaka Utara",
+    "type": "Kabupaten",
+    "province_id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "2772",
+        "district": "Batu Putih"
+    }, {
+        "id": "2773",
+        "district": "Katoi"
+    }, {
+        "id": "2774",
+        "district": "Kodeoha"
+    }, {
+        "id": "2775",
+        "district": "Lasusua"
+    }, {
+        "id": "2776",
+        "district": "Lombai (Lambai)"
+    }, {
+        "id": "2777",
+        "district": "Ngapa"
+    }, {
+        "id": "2778",
+        "district": "Pakue"
+    }, {
+        "id": "2779",
+        "district": "Pakue Tengah"
+    }, {
+        "id": "2780",
+        "district": "Pakue Utara"
+    }, {
+        "id": "2781",
+        "district": "Porehu"
+    }, {
+        "id": "2782",
+        "district": "Ranteangin"
+    }, {
+        "id": "2783",
+        "district": "Tiwu"
+    }, {
+        "id": "2784",
+        "district": "Tolala"
+    }, {
+        "id": "2785",
+        "district": "Watunohu"
+    }, {
+        "id": "2786",
+        "district": "Wawo"
+    }]
+}

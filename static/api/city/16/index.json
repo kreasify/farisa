@@ -1,0 +1,67 @@
+{
+    "title": "16",
+    "id": "16",
+    "city": "Asmat",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "239",
+        "district": "Agats"
+    }, {
+        "id": "240",
+        "district": "Akat"
+    }, {
+        "id": "241",
+        "district": "Atsy / Atsj"
+    }, {
+        "id": "242",
+        "district": "Ayip"
+    }, {
+        "id": "243",
+        "district": "Betcbamu"
+    }, {
+        "id": "244",
+        "district": "Der Koumur"
+    }, {
+        "id": "245",
+        "district": "Fayit"
+    }, {
+        "id": "246",
+        "district": "Jetsy"
+    }, {
+        "id": "247",
+        "district": "Joerat"
+    }, {
+        "id": "248",
+        "district": "Kolf Braza"
+    }, {
+        "id": "249",
+        "district": "Kopay"
+    }, {
+        "id": "250",
+        "district": "Pantai Kasuari"
+    }, {
+        "id": "251",
+        "district": "Pulau Tiga"
+    }, {
+        "id": "252",
+        "district": "Safan"
+    }, {
+        "id": "253",
+        "district": "Sawa Erma"
+    }, {
+        "id": "254",
+        "district": "Sirets"
+    }, {
+        "id": "255",
+        "district": "Suator"
+    }, {
+        "id": "256",
+        "district": "Suru-suru"
+    }, {
+        "id": "257",
+        "district": "Unir Sirau"
+    }]
+}

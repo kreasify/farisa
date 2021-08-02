@@ -1,0 +1,82 @@
+{
+    "title": "280",
+    "id": "280",
+    "city": "Merangin",
+    "type": "Kabupaten",
+    "province_id": "8",
+    "province": "Jambi",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "3938",
+        "district": "Bangko"
+    }, {
+        "id": "3939",
+        "district": "Bangko Barat"
+    }, {
+        "id": "3940",
+        "district": "Batang Masumai"
+    }, {
+        "id": "3941",
+        "district": "Jangkat"
+    }, {
+        "id": "3942",
+        "district": "Lembah Masurai"
+    }, {
+        "id": "3943",
+        "district": "Margo Tabir"
+    }, {
+        "id": "3944",
+        "district": "Muara Siau"
+    }, {
+        "id": "3945",
+        "district": "Nalo Tantan"
+    }, {
+        "id": "3946",
+        "district": "Pamenang"
+    }, {
+        "id": "3947",
+        "district": "Pamenang Barat"
+    }, {
+        "id": "3948",
+        "district": "Pamenang Selatan"
+    }, {
+        "id": "3949",
+        "district": "Pangkalan Jambu"
+    }, {
+        "id": "3950",
+        "district": "Renah Pembarap"
+    }, {
+        "id": "3951",
+        "district": "Renah Pemenang"
+    }, {
+        "id": "3952",
+        "district": "Sungai Manau"
+    }, {
+        "id": "3953",
+        "district": "Sungai Tenang"
+    }, {
+        "id": "3954",
+        "district": "Tabir"
+    }, {
+        "id": "3955",
+        "district": "Tabir Barat"
+    }, {
+        "id": "3956",
+        "district": "Tabir Ilir"
+    }, {
+        "id": "3957",
+        "district": "Tabir Lintas"
+    }, {
+        "id": "3958",
+        "district": "Tabir Selatan"
+    }, {
+        "id": "3959",
+        "district": "Tabir Timur"
+    }, {
+        "id": "3960",
+        "district": "Tabir Ulu"
+    }, {
+        "id": "3961",
+        "district": "Tiang Pumpung"
+    }]
+}

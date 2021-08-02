@@ -1,0 +1,27 @@
+<div class="social-share flex items-center justify-end">
+    {{ if .Site.Params.social_share.facebook | default true }}
+    <a class="social-share__icon text-gray-500 hover:text-primary fb-icon" href="https://www.facebook.com/sharer.php?u={{ .RelPermalink | html }}"
+        target="_blank" rel="noopener">
+        {{ partial "svg/icon-facebook.svg" (dict "class" "w-4 h-4 fill-current text-current") }}
+    </a>
+    {{ end }}
+    {{ if .Site.Params.social_share.twitter | default true }}
+    <a class="social-share__icon text-gray-500 hover:text-primary tw-icon"
+        href="https://twitter.com/intent/tweet?text={{ .Title | html }}&amp;url={{ .RelPermalink | html }}" target="_blank"
+        rel="noopener">
+        {{ partial "svg/icon-twitter.svg" (dict "class" "w-4 h-4 fill-current text-current ml-3") }}
+    </a>
+    {{ end }}
+    {{ if .Site.Params.social_share.telegram | default true }}
+    <a class="social-share__icon text-gray-500 hover:text-primary telegram-icon" href="https://t.me/share/url?url={{ .RelPermalink | html }}}&text={{ .Title | html }}"
+        target="_blank" rel="noopener">
+        {{ partial "svg/icon-telegram.svg" (dict "class" "w-4 h-4 fill-current text-current ml-3") }}
+    </a>
+    {{ end }}
+    {{ if .Site.Params.social_share.whatsapp | default true }}
+    <a class="social-share__icon text-gray-500 hover:text-primary wa-icon" href="whatsapp://send?text={{ .RelPermalink | html }}"
+        data-action="share/whatsapp/share" target="_blank" rel="noopener">
+        {{ partial "svg/icon-whatsapp.svg" (dict "class" "w-4 h-4 fill-current text-current ml-3") }}
+    </a>
+    {{ end }}
+</div>

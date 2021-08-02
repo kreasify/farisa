@@ -1,0 +1,28 @@
+{
+    "title": "459",
+    "id": "459",
+    "city": "Tanjung Balai",
+    "type": "Kota",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "6337",
+        "district": "Datuk Bandar"
+    }, {
+        "id": "6338",
+        "district": "Datuk Bandar Timur"
+    }, {
+        "id": "6339",
+        "district": "Sei Tualang Raso"
+    }, {
+        "id": "6340",
+        "district": "Tanjung Balai Selatan"
+    }, {
+        "id": "6341",
+        "district": "Tanjung Balai Utara"
+    }, {
+        "id": "6342",
+        "district": "Teluk Nibung"
+    }]
+}

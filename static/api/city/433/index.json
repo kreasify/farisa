@@ -1,0 +1,46 @@
+{
+    "title": "433",
+    "id": "433",
+    "city": "Sukoharjo",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "5977",
+        "district": "Baki"
+    }, {
+        "id": "5978",
+        "district": "Bendosari"
+    }, {
+        "id": "5979",
+        "district": "Bulu"
+    }, {
+        "id": "5980",
+        "district": "Gatak"
+    }, {
+        "id": "5981",
+        "district": "Grogol"
+    }, {
+        "id": "5982",
+        "district": "Kartasura"
+    }, {
+        "id": "5983",
+        "district": "Mojolaban"
+    }, {
+        "id": "5984",
+        "district": "Nguter"
+    }, {
+        "id": "5985",
+        "district": "Polokarto"
+    }, {
+        "id": "5986",
+        "district": "Sukoharjo"
+    }, {
+        "id": "5987",
+        "district": "Tawangsari"
+    }, {
+        "id": "5988",
+        "district": "Weru"
+    }]
+}

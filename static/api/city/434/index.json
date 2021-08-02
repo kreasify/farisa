@@ -1,0 +1,28 @@
+{
+    "title": "434",
+    "id": "434",
+    "city": "Sumba Barat",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "5989",
+        "district": "Kota Waikabubak"
+    }, {
+        "id": "5990",
+        "district": "Lamboya"
+    }, {
+        "id": "5991",
+        "district": "Lamboya Barat"
+    }, {
+        "id": "5992",
+        "district": "Loli"
+    }, {
+        "id": "5993",
+        "district": "Tana Righu"
+    }, {
+        "id": "5994",
+        "district": "Wanokaka"
+    }]
+}

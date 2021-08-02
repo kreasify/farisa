@@ -1,0 +1,22 @@
+{
+    "title": "197",
+    "id": "197",
+    "city": "Klungkung",
+    "type": "Kabupaten",
+    "province_id": "1",
+    "province": "Bali",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "2748",
+        "district": "Banjarangkan"
+    }, {
+        "id": "2749",
+        "district": "Dawan"
+    }, {
+        "id": "2750",
+        "district": "Klungkung"
+    }, {
+        "id": "2751",
+        "district": "Nusapenida"
+    }]
+}

@@ -1,0 +1,31 @@
+{
+    "title": "128",
+    "id": "128",
+    "city": "Gianyar",
+    "type": "Kabupaten",
+    "province_id": "1",
+    "province": "Bali",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "1764",
+        "district": "Belah Batuh (Blahbatuh)"
+    }, {
+        "id": "1765",
+        "district": "Gianyar"
+    }, {
+        "id": "1766",
+        "district": "Payangan"
+    }, {
+        "id": "1767",
+        "district": "Sukawati"
+    }, {
+        "id": "1768",
+        "district": "Tampak Siring"
+    }, {
+        "id": "1769",
+        "district": "Tegallalang"
+    }, {
+        "id": "1770",
+        "district": "Ubud"
+    }]
+}

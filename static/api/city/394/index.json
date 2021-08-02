@@ -1,0 +1,22 @@
+{
+    "title": "394",
+    "id": "394",
+    "city": "Sawah Lunto",
+    "type": "Kota",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "5443",
+        "district": "Barangin"
+    }, {
+        "id": "5444",
+        "district": "Lembah Segar"
+    }, {
+        "id": "5445",
+        "district": "Silungkang"
+    }, {
+        "id": "5446",
+        "district": "Talawi"
+    }]
+}

@@ -1,0 +1,46 @@
+{
+    "title": "233",
+    "id": "233",
+    "city": "Lebong",
+    "type": "Kabupaten",
+    "province_id": "4",
+    "province": "Bengkulu",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "3326",
+        "district": "Amen"
+    }, {
+        "id": "3327",
+        "district": "Bingin Kuning"
+    }, {
+        "id": "3328",
+        "district": "Lebong Atas"
+    }, {
+        "id": "3329",
+        "district": "Lebong Sakti"
+    }, {
+        "id": "3330",
+        "district": "Lebong Selatan"
+    }, {
+        "id": "3331",
+        "district": "Lebong Tengah"
+    }, {
+        "id": "3332",
+        "district": "Lebong Utara"
+    }, {
+        "id": "3333",
+        "district": "Pelabai"
+    }, {
+        "id": "3334",
+        "district": "Pinang Belapis"
+    }, {
+        "id": "3335",
+        "district": "Rimbo Pengadang"
+    }, {
+        "id": "3336",
+        "district": "Topos"
+    }, {
+        "id": "3337",
+        "district": "Uram Jaya"
+    }]
+}

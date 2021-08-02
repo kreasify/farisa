@@ -1,0 +1,46 @@
+{{- $site := .Site }}
+<div x-data="{activeSlide: 0}" class="shop__media col-span-12 lg:col-span-6 lg:py-4">
+    <div class="shop__slider relative flex group overflow-hidden">
+        {{- if .Params.images }}
+        {{- range $index, $img := .Params.images }}
+        {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( .image | relURL )) }}
+        {{- $resized := $imageResource.Fill "576x692 q100" }}
+        <div class="shop__slider-item relative aspect-w-5 aspect-h-6"
+            :class="{'selected': activeSlide === {{ $index }} }">
+            <img class="shop__image absolute w-full h-full left-0 top-0 object-cover transition duration-500 ease-in-out transform group-hover:scale-110 group-hover:origin-center group-hover:cursor-pointer"
+                src="{{ $resized.RelPermalink }}">
+        </div>
+        {{- end }}
+        {{- end }}
+        <div class="shop__arrow w-full block">
+            {{- $imgCount := len .Params.images }}
+            <button
+                class="arrow--left absolute w-10 h-10 left-0 text-center text-gray-50 hover:text-white bg-gray-500 hover:bg-primary hover:shadow-lg transition duration-300 ease-in-out focus:outline-none transform opacity-0 -translate-x-20 group-hover:translate-x-0 group-hover:opacity-70"
+                x-on:click="activeSlide = activeSlide === 0 ? {{ $imgCount }} - 1 : activeSlide - 1">
+                {{ partial "svg/icon-angle-left.svg" (dict "class" "inline-block w-6 h-6") }}
+            </button>
+            <button
+                class="arrow--right absolute w-10 h-10 right-0 text-center text-gray-50 hover:text-white bg-gray-500 hover:bg-primary hover:shadow-lg transition duration-300 ease-in-out focus:outline-none transform opacity-0 translate-x-20 group-hover:translate-x-0 group-hover:opacity-70"
+                x-on:click="activeSlide = activeSlide === {{ $imgCount }} - 1 ? 0 : activeSlide + 1">
+                {{ partial "svg/icon-angle-right.svg" (dict "class" "inline-block w-6 h-6") }}
+            </button>
+        </div>
+    </div>
+    {{- if .Params.images }}
+    <div class="shop__slide-nav grid grid-cols-10 gap-3 pt-3">
+        {{- range $index, $img := .Params.images }}
+        {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( .image | relURL )) }}
+        {{- $resized := $imageResource.Fill "106x127 q100" }}
+        <button
+            class="shop__slide-btn col-span-2 relative aspect-w-5 aspect-h-6 bg-transparent border-transparent focus:outline-none overflow-hidden"
+            :class="{ 
+                'bg-orange-600 selected': activeSlide === {{ $index }},
+                'bg-teal-300': activeSlide !== {{ $index }} 
+            }" x-on:click="activeSlide = {{ $index }}">
+            <img class="shop__slide-thumb absolute w-full h-full left-0 top-0 object-cover transition duration-500 ease-in-out transform hover:scale-110 hover:origin-center"
+                src="{{ $resized.RelPermalink }}" />
+        </button>
+        {{- end }}
+    </div>
+    {{- end }}
+</div>

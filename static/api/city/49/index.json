@@ -1,0 +1,55 @@
+{
+    "title": "49",
+    "id": "49",
+    "city": "Batang",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "685",
+        "district": "Bandar"
+    }, {
+        "id": "686",
+        "district": "Banyuputih"
+    }, {
+        "id": "687",
+        "district": "Batang"
+    }, {
+        "id": "688",
+        "district": "Bawang"
+    }, {
+        "id": "689",
+        "district": "Blado"
+    }, {
+        "id": "690",
+        "district": "Gringsing"
+    }, {
+        "id": "691",
+        "district": "Kandeman"
+    }, {
+        "id": "692",
+        "district": "Limpung"
+    }, {
+        "id": "693",
+        "district": "Pecalungan"
+    }, {
+        "id": "694",
+        "district": "Reban"
+    }, {
+        "id": "695",
+        "district": "Subah"
+    }, {
+        "id": "696",
+        "district": "Tersono"
+    }, {
+        "id": "697",
+        "district": "Tulis"
+    }, {
+        "id": "698",
+        "district": "Warungasem"
+    }, {
+        "id": "699",
+        "district": "Wonotunggal"
+    }]
+}

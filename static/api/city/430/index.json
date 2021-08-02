@@ -1,0 +1,151 @@
+{
+    "title": "430",
+    "id": "430",
+    "city": "Sukabumi",
+    "type": "Kabupaten",
+    "province_id": "9",
+    "province": "Jawa Barat",
+    "number_of_districts" : "47",
+    "data" : [{
+        "id": "5918",
+        "district": "Bantargadung"
+    }, {
+        "id": "5919",
+        "district": "Bojong Genteng"
+    }, {
+        "id": "5920",
+        "district": "Caringin"
+    }, {
+        "id": "5921",
+        "district": "Ciambar"
+    }, {
+        "id": "5922",
+        "district": "Cibadak"
+    }, {
+        "id": "5923",
+        "district": "Cibitung"
+    }, {
+        "id": "5924",
+        "district": "Cicantayan"
+    }, {
+        "id": "5925",
+        "district": "Cicurug"
+    }, {
+        "id": "5926",
+        "district": "Cidadap"
+    }, {
+        "id": "5927",
+        "district": "Cidahu"
+    }, {
+        "id": "5928",
+        "district": "Cidolog"
+    }, {
+        "id": "5929",
+        "district": "Ciemas"
+    }, {
+        "id": "5930",
+        "district": "Cikakak"
+    }, {
+        "id": "5931",
+        "district": "Cikembar"
+    }, {
+        "id": "5932",
+        "district": "Cikidang"
+    }, {
+        "id": "5933",
+        "district": "Cimanggu"
+    }, {
+        "id": "5934",
+        "district": "Ciracap"
+    }, {
+        "id": "5935",
+        "district": "Cireunghas"
+    }, {
+        "id": "5936",
+        "district": "Cisaat"
+    }, {
+        "id": "5937",
+        "district": "Cisolok"
+    }, {
+        "id": "5938",
+        "district": "Curugkembar"
+    }, {
+        "id": "5939",
+        "district": "Geger Bitung"
+    }, {
+        "id": "5940",
+        "district": "Gunung Guruh"
+    }, {
+        "id": "5941",
+        "district": "Jampang Kulon"
+    }, {
+        "id": "5942",
+        "district": "Jampang Tengah"
+    }, {
+        "id": "5943",
+        "district": "Kabandungan"
+    }, {
+        "id": "5944",
+        "district": "Kadudampit"
+    }, {
+        "id": "5945",
+        "district": "Kalapa Nunggal"
+    }, {
+        "id": "5946",
+        "district": "Kali Bunder"
+    }, {
+        "id": "5947",
+        "district": "Kebonpedes"
+    }, {
+        "id": "5948",
+        "district": "Lengkong"
+    }, {
+        "id": "5949",
+        "district": "Nagrak"
+    }, {
+        "id": "5950",
+        "district": "Nyalindung"
+    }, {
+        "id": "5951",
+        "district": "Pabuaran"
+    }, {
+        "id": "5952",
+        "district": "Parakan Salak"
+    }, {
+        "id": "5953",
+        "district": "Parung Kuda"
+    }, {
+        "id": "5954",
+        "district": "Pelabuhan/Palabuhan Ratu"
+    }, {
+        "id": "5955",
+        "district": "Purabaya"
+    }, {
+        "id": "5956",
+        "district": "Sagaranten"
+    }, {
+        "id": "5957",
+        "district": "Simpenan"
+    }, {
+        "id": "5958",
+        "district": "Sukabumi"
+    }, {
+        "id": "5959",
+        "district": "Sukalarang"
+    }, {
+        "id": "5960",
+        "district": "Sukaraja"
+    }, {
+        "id": "5961",
+        "district": "Surade"
+    }, {
+        "id": "5962",
+        "district": "Tegal Buleud"
+    }, {
+        "id": "5963",
+        "district": "Waluran"
+    }, {
+        "id": "5964",
+        "district": "Warung Kiara"
+    }]
+}

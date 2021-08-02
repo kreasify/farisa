@@ -1,0 +1,25 @@
+{
+    "title": "470",
+    "id": "470",
+    "city": "Tebing Tinggi",
+    "type": "Kota",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "6485",
+        "district": "Bajenis"
+    }, {
+        "id": "6486",
+        "district": "Padang Hilir"
+    }, {
+        "id": "6487",
+        "district": "Padang Hulu"
+    }, {
+        "id": "6488",
+        "district": "Rambutan"
+    }, {
+        "id": "6489",
+        "district": "Tebing Tinggi Kota"
+    }]
+}

@@ -1,0 +1,79 @@
+{
+    "title": "86",
+    "id": "86",
+    "city": "Bondowoso",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "23",
+    "data" : [{
+        "id": "1149",
+        "district": "Binakal"
+    }, {
+        "id": "1150",
+        "district": "Bondowoso"
+    }, {
+        "id": "1151",
+        "district": "Botolinggo"
+    }, {
+        "id": "1152",
+        "district": "Cermee"
+    }, {
+        "id": "1153",
+        "district": "Curahdami"
+    }, {
+        "id": "1154",
+        "district": "Grujugan"
+    }, {
+        "id": "1155",
+        "district": "Jambe Sari Darus Sholah"
+    }, {
+        "id": "1156",
+        "district": "Klabang"
+    }, {
+        "id": "1157",
+        "district": "Maesan"
+    }, {
+        "id": "1158",
+        "district": "Pakem"
+    }, {
+        "id": "1159",
+        "district": "Prajekan"
+    }, {
+        "id": "1160",
+        "district": "Pujer"
+    }, {
+        "id": "1161",
+        "district": "Sempol"
+    }, {
+        "id": "1162",
+        "district": "Sukosari"
+    }, {
+        "id": "1163",
+        "district": "Sumber Wringin"
+    }, {
+        "id": "1164",
+        "district": "Taman Krocok"
+    }, {
+        "id": "1165",
+        "district": "Tamanan"
+    }, {
+        "id": "1166",
+        "district": "Tapen"
+    }, {
+        "id": "1167",
+        "district": "Tegalampel"
+    }, {
+        "id": "1168",
+        "district": "Tenggarang"
+    }, {
+        "id": "1169",
+        "district": "Tlogosari"
+    }, {
+        "id": "1170",
+        "district": "Wonosari"
+    }, {
+        "id": "1171",
+        "district": "Wringin"
+    }]
+}

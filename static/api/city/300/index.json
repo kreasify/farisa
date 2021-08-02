@@ -1,0 +1,40 @@
+{
+    "title": "300",
+    "id": "300",
+    "city": "Nagan Raya",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "4250",
+        "district": "Beutong"
+    }, {
+        "id": "4251",
+        "district": "Beutong Ateuh Banggalang"
+    }, {
+        "id": "4252",
+        "district": "Darul Makmur"
+    }, {
+        "id": "4253",
+        "district": "Kuala"
+    }, {
+        "id": "4254",
+        "district": "Kuala Pesisir"
+    }, {
+        "id": "4255",
+        "district": "Seunagan"
+    }, {
+        "id": "4256",
+        "district": "Seunagan Timur"
+    }, {
+        "id": "4257",
+        "district": "Suka Makmue"
+    }, {
+        "id": "4258",
+        "district": "Tadu Raya"
+    }, {
+        "id": "4259",
+        "district": "Tripa Makmur"
+    }]
+}

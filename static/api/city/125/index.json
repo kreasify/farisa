@@ -1,0 +1,67 @@
+{
+    "title": "125",
+    "id": "125",
+    "city": "Flores Timur",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "1692",
+        "district": "Adonara"
+    }, {
+        "id": "1693",
+        "district": "Adonara Barat"
+    }, {
+        "id": "1694",
+        "district": "Adonara Tengah"
+    }, {
+        "id": "1695",
+        "district": "Adonara Timur"
+    }, {
+        "id": "1696",
+        "district": "Demon Pagong"
+    }, {
+        "id": "1697",
+        "district": "Ile Boleng"
+    }, {
+        "id": "1698",
+        "district": "Ile Bura"
+    }, {
+        "id": "1699",
+        "district": "Ile Mandiri"
+    }, {
+        "id": "1700",
+        "district": "Kelubagolit (Klubagolit)"
+    }, {
+        "id": "1701",
+        "district": "Larantuka"
+    }, {
+        "id": "1702",
+        "district": "Lewolema"
+    }, {
+        "id": "1703",
+        "district": "Solor Barat"
+    }, {
+        "id": "1704",
+        "district": "Solor Selatan"
+    }, {
+        "id": "1705",
+        "district": "Solor Timur"
+    }, {
+        "id": "1706",
+        "district": "Tanjung Bunga"
+    }, {
+        "id": "1707",
+        "district": "Titehena"
+    }, {
+        "id": "1708",
+        "district": "Witihama (Watihama)"
+    }, {
+        "id": "1709",
+        "district": "Wotan Ulumado"
+    }, {
+        "id": "1710",
+        "district": "Wulanggitang"
+    }]
+}

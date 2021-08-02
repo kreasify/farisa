@@ -1,0 +1,70 @@
+{
+    "title": "195",
+    "id": "195",
+    "city": "Ketapang",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "2702",
+        "district": "Air Upas"
+    }, {
+        "id": "2703",
+        "district": "Benua Kayong"
+    }, {
+        "id": "2704",
+        "district": "Delta Pawan"
+    }, {
+        "id": "2705",
+        "district": "Hulu Sungai"
+    }, {
+        "id": "2706",
+        "district": "Jelai Hulu"
+    }, {
+        "id": "2707",
+        "district": "Kendawangan"
+    }, {
+        "id": "2708",
+        "district": "Manis Mata"
+    }, {
+        "id": "2709",
+        "district": "Marau"
+    }, {
+        "id": "2710",
+        "district": "Matan Hilir Selatan"
+    }, {
+        "id": "2711",
+        "district": "Matan Hilir Utara"
+    }, {
+        "id": "2712",
+        "district": "Muara Pawan"
+    }, {
+        "id": "2713",
+        "district": "Nanga Tayap"
+    }, {
+        "id": "2714",
+        "district": "Pemahan"
+    }, {
+        "id": "2715",
+        "district": "Sandai"
+    }, {
+        "id": "2716",
+        "district": "Simpang Dua"
+    }, {
+        "id": "2717",
+        "district": "Simpang Hulu"
+    }, {
+        "id": "2718",
+        "district": "Singkup"
+    }, {
+        "id": "2719",
+        "district": "Sungai Laur"
+    }, {
+        "id": "2720",
+        "district": "Sungai Melayu Rayak"
+    }, {
+        "id": "2721",
+        "district": "Tumbang Titi"
+    }]
+}

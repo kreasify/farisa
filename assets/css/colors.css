@@ -1,0 +1,55 @@
+/* purgecss start ignore */
+:root {
+    --body: #ffffff;
+    --body-primary: #fafafa;
+    --body-secondary: #f5f5f5;
+    --body-text: #000000;
+    --body-text-primary: #111827;
+    --body-text-secondary: #1F2937;
+    --header: #ffffff;
+    --header-primary: #fafafa;
+    --header-secondary: #f5f5f5;
+    --header-text: {{ .Site.Params.colors.header_text | default "#000000" }};
+    --header-text-primary: #111827;
+    --header-text-secondary: #1F2937;
+    --footer: #000000;
+    --footer-primary: #111111;
+    --footer-secondary: #949494;
+    --footer-text: #ffffff;
+    --footer-text-primary: #fafafa;
+    --footer-text-secondary: #f5f5f5;
+    --accent: #fafafa;
+    --accent-primary: #fafafa;
+    --accent-text: #fafafa;
+    --accent-text-primary: #fafafa;
+	--hint-text: #E5E7EB;
+	--border-color: #D1D5DB;
+  }
+  
+  [data-theme="dark"] {
+    --body: #121212;
+    --body-primary: #1e1e1e;
+    --body-secondary: #2e2e2e;
+    --body-text: #ffffff;
+    --body-text-primary: #F3F4F6;
+    --body-text-secondary: #E5E7EB;
+    --header: #121212;
+    --header-primary: #1e1e1e;
+    --header-secondary: #2e2e2e;
+    --header-text: #ffffff;
+    --header-text-primary: #fafafa;
+    --header-text-secondary: #9CA3AF;
+    --footer: #121212;
+    --footer-primary: #1e1e1e;
+    --footer-secondary: #2e2e2e;
+    --footer-text: #ffffff;
+    --footer-text-primary: #fafafa;
+    --footer-text-secondary: #f5f5f5;
+    --accent: #fafafa;
+    --accent-primary: #fafafa;
+    --accent-text: #fafafa;
+    --accent-text-primary: #fafafa;
+	--hint-text: #6B7280;
+	--border-color: #D1D5DB;
+  }
+  /* purgecss end ignore */

@@ -1,0 +1,52 @@
+{
+    "title": "8",
+    "id": "8",
+    "city": "Aceh Tengah",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "95",
+        "district": "Atu Lintang"
+    }, {
+        "id": "96",
+        "district": "Bebesen"
+    }, {
+        "id": "97",
+        "district": "Bies"
+    }, {
+        "id": "98",
+        "district": "Bintang"
+    }, {
+        "id": "99",
+        "district": "Celala"
+    }, {
+        "id": "100",
+        "district": "Jagong Jeget"
+    }, {
+        "id": "101",
+        "district": "Kebayakan"
+    }, {
+        "id": "102",
+        "district": "Ketol"
+    }, {
+        "id": "103",
+        "district": "Kute Panang"
+    }, {
+        "id": "104",
+        "district": "Linge"
+    }, {
+        "id": "105",
+        "district": "Lut Tawar"
+    }, {
+        "id": "106",
+        "district": "Pegasing"
+    }, {
+        "id": "107",
+        "district": "Rusip Antara"
+    }, {
+        "id": "108",
+        "district": "Silih Nara"
+    }]
+}

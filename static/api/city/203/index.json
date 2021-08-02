@@ -1,0 +1,73 @@
+{
+    "title": "203",
+    "id": "203",
+    "city": "Kotabaru",
+    "type": "Kabupaten",
+    "province_id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_districts" : "21",
+    "data" : [{
+        "id": "2849",
+        "district": "Hampang"
+    }, {
+        "id": "2850",
+        "district": "Kelumpang Barat"
+    }, {
+        "id": "2851",
+        "district": "Kelumpang Hilir"
+    }, {
+        "id": "2852",
+        "district": "Kelumpang Hulu"
+    }, {
+        "id": "2853",
+        "district": "Kelumpang Selatan"
+    }, {
+        "id": "2854",
+        "district": "Kelumpang Tengah"
+    }, {
+        "id": "2855",
+        "district": "Kelumpang Utara"
+    }, {
+        "id": "2856",
+        "district": "Pamukan Barat"
+    }, {
+        "id": "2857",
+        "district": "Pamukan Selatan"
+    }, {
+        "id": "2858",
+        "district": "Pamukan Utara"
+    }, {
+        "id": "2859",
+        "district": "Pulau Laut Barat"
+    }, {
+        "id": "2860",
+        "district": "Pulau Laut Kepulauan"
+    }, {
+        "id": "2861",
+        "district": "Pulau Laut Selatan"
+    }, {
+        "id": "2862",
+        "district": "Pulau Laut Tanjung Selayar"
+    }, {
+        "id": "2863",
+        "district": "Pulau Laut Tengah"
+    }, {
+        "id": "2864",
+        "district": "Pulau Laut Timur"
+    }, {
+        "id": "2865",
+        "district": "Pulau Laut Utara"
+    }, {
+        "id": "2866",
+        "district": "Pulau Sebuku"
+    }, {
+        "id": "2867",
+        "district": "Pulau Sembilan"
+    }, {
+        "id": "2868",
+        "district": "Sampanahan"
+    }, {
+        "id": "2869",
+        "district": "Sungai Durian"
+    }]
+}

@@ -1,0 +1,55 @@
+{
+    "title": "490",
+    "id": "490",
+    "city": "Tulang Bawang",
+    "type": "Kabupaten",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "6798",
+        "district": "Banjar Agung"
+    }, {
+        "id": "6799",
+        "district": "Banjar Baru"
+    }, {
+        "id": "6800",
+        "district": "Banjar Margo"
+    }, {
+        "id": "6801",
+        "district": "Dente Teladas"
+    }, {
+        "id": "6802",
+        "district": "Gedung Aji"
+    }, {
+        "id": "6803",
+        "district": "Gedung Aji Baru"
+    }, {
+        "id": "6804",
+        "district": "Gedung Meneng"
+    }, {
+        "id": "6805",
+        "district": "Menggala"
+    }, {
+        "id": "6806",
+        "district": "Menggala Timur"
+    }, {
+        "id": "6807",
+        "district": "Meraksa Aji"
+    }, {
+        "id": "6808",
+        "district": "Penawar Aji"
+    }, {
+        "id": "6809",
+        "district": "Penawar Tama"
+    }, {
+        "id": "6810",
+        "district": "Rawa Pitu"
+    }, {
+        "id": "6811",
+        "district": "Rawajitu Selatan"
+    }, {
+        "id": "6812",
+        "district": "Rawajitu Timur"
+    }]
+}

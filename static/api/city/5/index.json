@@ -1,0 +1,64 @@
+{
+    "title": "5",
+    "id": "5",
+    "city": "Aceh Selatan",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "54",
+        "district": "Bakongan"
+    }, {
+        "id": "55",
+        "district": "Bakongan Timur"
+    }, {
+        "id": "56",
+        "district": "Kluet Selatan"
+    }, {
+        "id": "57",
+        "district": "Kluet Tengah"
+    }, {
+        "id": "58",
+        "district": "Kluet Timur"
+    }, {
+        "id": "59",
+        "district": "Kluet Utara"
+    }, {
+        "id": "60",
+        "district": "Kota Bahagia"
+    }, {
+        "id": "61",
+        "district": "Labuhan Haji"
+    }, {
+        "id": "62",
+        "district": "Labuhan Haji Barat"
+    }, {
+        "id": "63",
+        "district": "Labuhan Haji Timur"
+    }, {
+        "id": "64",
+        "district": "Meukek"
+    }, {
+        "id": "65",
+        "district": "Pasie Raja"
+    }, {
+        "id": "66",
+        "district": "Sama Dua"
+    }, {
+        "id": "67",
+        "district": "Sawang"
+    }, {
+        "id": "68",
+        "district": "Tapak Tuan"
+    }, {
+        "id": "69",
+        "district": "Trumon"
+    }, {
+        "id": "70",
+        "district": "Trumon Tengah"
+    }, {
+        "id": "71",
+        "district": "Trumon Timur"
+    }]
+}

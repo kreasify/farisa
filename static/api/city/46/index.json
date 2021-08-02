@@ -1,0 +1,37 @@
+{
+    "title": "46",
+    "id": "46",
+    "city": "Barito Utara",
+    "type": "Kabupaten",
+    "province_id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "657",
+        "district": "Gunung Purei"
+    }, {
+        "id": "658",
+        "district": "Gunung Timang"
+    }, {
+        "id": "659",
+        "district": "Lahei"
+    }, {
+        "id": "660",
+        "district": "Lahei Barat"
+    }, {
+        "id": "661",
+        "district": "Montallat (Montalat)"
+    }, {
+        "id": "662",
+        "district": "Teweh Baru"
+    }, {
+        "id": "663",
+        "district": "Teweh Selatan"
+    }, {
+        "id": "664",
+        "district": "Teweh Tengah"
+    }, {
+        "id": "665",
+        "district": "Teweh Timur"
+    }]
+}

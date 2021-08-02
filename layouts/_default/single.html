@@ -1,0 +1,9 @@
+{{- define "content" }}
+<main id="site-main" class="site__main bg-body">
+    {{- if eq .Section "shop"}}
+    {{ partial "shop_single.html" . }}
+    {{- else }}
+    {{ partial "blog_single.html" . }}
+    {{- end }}
+</main>
+{{- end }}

@@ -1,0 +1,25 @@
+{
+    "title": "432",
+    "id": "432",
+    "city": "Sukamara",
+    "type": "Kabupaten",
+    "province_id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "5972",
+        "district": "Balai Riam"
+    }, {
+        "id": "5973",
+        "district": "Jelai"
+    }, {
+        "id": "5974",
+        "district": "Pantai Lunci"
+    }, {
+        "id": "5975",
+        "district": "Permata Kecubung"
+    }, {
+        "id": "5976",
+        "district": "Sukamara"
+    }]
+}

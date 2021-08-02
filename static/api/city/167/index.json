@@ -1,0 +1,61 @@
+{
+    "title": "167",
+    "id": "167",
+    "city": "Kapuas",
+    "type": "Kabupaten",
+    "province_id": "14",
+    "province": "Kalimantan Tengah",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "2313",
+        "district": "Basarang"
+    }, {
+        "id": "2314",
+        "district": "Bataguh"
+    }, {
+        "id": "2315",
+        "district": "Dadahup"
+    }, {
+        "id": "2316",
+        "district": "Kapuas Barat"
+    }, {
+        "id": "2317",
+        "district": "Kapuas Hilir"
+    }, {
+        "id": "2318",
+        "district": "Kapuas Hulu"
+    }, {
+        "id": "2319",
+        "district": "Kapuas Kuala"
+    }, {
+        "id": "2320",
+        "district": "Kapuas Murung"
+    }, {
+        "id": "2321",
+        "district": "Kapuas Tengah"
+    }, {
+        "id": "2322",
+        "district": "Kapuas Timur"
+    }, {
+        "id": "2323",
+        "district": "Mandau Talawang"
+    }, {
+        "id": "2324",
+        "district": "Mantangai"
+    }, {
+        "id": "2325",
+        "district": "Pasak Talawang"
+    }, {
+        "id": "2326",
+        "district": "Pulau Petak"
+    }, {
+        "id": "2327",
+        "district": "Selat"
+    }, {
+        "id": "2328",
+        "district": "Tamban Catur"
+    }, {
+        "id": "2329",
+        "district": "Timpah"
+    }]
+}

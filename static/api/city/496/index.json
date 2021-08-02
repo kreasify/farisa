@@ -1,0 +1,52 @@
+{
+    "title": "496",
+    "id": "496",
+    "city": "Way Kanan",
+    "type": "Kabupaten",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "6871",
+        "district": "Bahuga"
+    }, {
+        "id": "6872",
+        "district": "Banjit"
+    }, {
+        "id": "6873",
+        "district": "Baradatu"
+    }, {
+        "id": "6874",
+        "district": "Blambangan Umpu"
+    }, {
+        "id": "6875",
+        "district": "Buay Bahuga"
+    }, {
+        "id": "6876",
+        "district": "Bumi Agung"
+    }, {
+        "id": "6877",
+        "district": "Gunung Labuhan"
+    }, {
+        "id": "6878",
+        "district": "Kasui"
+    }, {
+        "id": "6879",
+        "district": "Negara Batin"
+    }, {
+        "id": "6880",
+        "district": "Negeri Agung"
+    }, {
+        "id": "6881",
+        "district": "Negeri Besar"
+    }, {
+        "id": "6882",
+        "district": "Pakuan Ratu"
+    }, {
+        "id": "6883",
+        "district": "Rebang Tangkas"
+    }, {
+        "id": "6884",
+        "district": "Way Tuba"
+    }]
+}

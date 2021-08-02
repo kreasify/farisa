@@ -1,0 +1,31 @@
+---
+label: Category
+hide_body: true
+fields:
+- type: text
+  name: id
+  label: ID
+  description: A unique identifier used when filtering posts, e.g. "news"
+  config:
+    required: true
+- type: text
+  name: link
+  label: Link
+  description: The link to the category page, e.g. "blog/category/news"
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: category
+  config:
+    required: true
+pages:
+- data/categories/general.json
+- data/categories/news.json
+- data/categories/tutorials.json

@@ -1,0 +1,97 @@
+{
+    "title": "455",
+    "id": "455",
+    "city": "Tangerang",
+    "type": "Kabupaten",
+    "province_id": "3",
+    "province": "Banten",
+    "number_of_districts" : "29",
+    "data" : [{
+        "id": "6268",
+        "district": "Balaraja"
+    }, {
+        "id": "6269",
+        "district": "Cikupa"
+    }, {
+        "id": "6270",
+        "district": "Cisauk"
+    }, {
+        "id": "6271",
+        "district": "Cisoka"
+    }, {
+        "id": "6272",
+        "district": "Curug"
+    }, {
+        "id": "6273",
+        "district": "Gunung Kaler"
+    }, {
+        "id": "6274",
+        "district": "Jambe"
+    }, {
+        "id": "6275",
+        "district": "Jayanti"
+    }, {
+        "id": "6276",
+        "district": "Kelapa Dua"
+    }, {
+        "id": "6277",
+        "district": "Kemiri"
+    }, {
+        "id": "6278",
+        "district": "Kosambi"
+    }, {
+        "id": "6279",
+        "district": "Kresek"
+    }, {
+        "id": "6280",
+        "district": "Kronjo"
+    }, {
+        "id": "6281",
+        "district": "Legok"
+    }, {
+        "id": "6282",
+        "district": "Mauk"
+    }, {
+        "id": "6283",
+        "district": "Mekar Baru"
+    }, {
+        "id": "6284",
+        "district": "Pagedangan"
+    }, {
+        "id": "6285",
+        "district": "Pakuhaji"
+    }, {
+        "id": "6286",
+        "district": "Panongan"
+    }, {
+        "id": "6287",
+        "district": "Pasar Kemis"
+    }, {
+        "id": "6288",
+        "district": "Rajeg"
+    }, {
+        "id": "6289",
+        "district": "Sepatan"
+    }, {
+        "id": "6290",
+        "district": "Sepatan Timur"
+    }, {
+        "id": "6291",
+        "district": "Sindang Jaya"
+    }, {
+        "id": "6292",
+        "district": "Solear"
+    }, {
+        "id": "6293",
+        "district": "Sukadiri"
+    }, {
+        "id": "6294",
+        "district": "Sukamulya"
+    }, {
+        "id": "6295",
+        "district": "Teluknaga"
+    }, {
+        "id": "6296",
+        "district": "Tigaraksa"
+    }]
+}

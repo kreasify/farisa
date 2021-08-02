@@ -1,0 +1,79 @@
+{
+    "title": "168",
+    "id": "168",
+    "city": "Kapuas Hulu",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "23",
+    "data" : [{
+        "id": "2330",
+        "district": "Badau"
+    }, {
+        "id": "2331",
+        "district": "Batang Lupar"
+    }, {
+        "id": "2332",
+        "district": "Bika"
+    }, {
+        "id": "2333",
+        "district": "Boyan Tanjung"
+    }, {
+        "id": "2334",
+        "district": "Bunut Hilir"
+    }, {
+        "id": "2335",
+        "district": "Bunut Hulu"
+    }, {
+        "id": "2336",
+        "district": "Embaloh Hilir"
+    }, {
+        "id": "2337",
+        "district": "Embaloh Hulu"
+    }, {
+        "id": "2338",
+        "district": "Empanang"
+    }, {
+        "id": "2339",
+        "district": "Hulu Gurung"
+    }, {
+        "id": "2340",
+        "district": "Jongkong (Jengkong)"
+    }, {
+        "id": "2341",
+        "district": "Kalis"
+    }, {
+        "id": "2342",
+        "district": "Mentebah"
+    }, {
+        "id": "2343",
+        "district": "Pengkadan (Batu Datu)"
+    }, {
+        "id": "2344",
+        "district": "Puring Kencana"
+    }, {
+        "id": "2345",
+        "district": "Putussibau Selatan"
+    }, {
+        "id": "2346",
+        "district": "Putussibau Utara"
+    }, {
+        "id": "2347",
+        "district": "Seberuang"
+    }, {
+        "id": "2348",
+        "district": "Selimbau"
+    }, {
+        "id": "2349",
+        "district": "Semitau"
+    }, {
+        "id": "2350",
+        "district": "Silat Hilir"
+    }, {
+        "id": "2351",
+        "district": "Silat Hulu"
+    }, {
+        "id": "2352",
+        "district": "Suhaid"
+    }]
+}

@@ -1,0 +1,40 @@
+{
+    "title": "393",
+    "id": "393",
+    "city": "Sarolangun",
+    "type": "Kabupaten",
+    "province_id": "8",
+    "province": "Jambi",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "5433",
+        "district": "Air Hitam"
+    }, {
+        "id": "5434",
+        "district": "Batang Asai"
+    }, {
+        "id": "5435",
+        "district": "Bathin VIII (Batin VIII)"
+    }, {
+        "id": "5436",
+        "district": "Cermin Nan Gadang"
+    }, {
+        "id": "5437",
+        "district": "Limun"
+    }, {
+        "id": "5438",
+        "district": "Mandiangin"
+    }, {
+        "id": "5439",
+        "district": "Pauh"
+    }, {
+        "id": "5440",
+        "district": "Pelawan"
+    }, {
+        "id": "5441",
+        "district": "Sarolangun"
+    }, {
+        "id": "5442",
+        "district": "Singkut"
+    }]
+}

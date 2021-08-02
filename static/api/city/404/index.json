@@ -1,0 +1,61 @@
+{
+    "title": "404",
+    "id": "404",
+    "city": "Serdang Bedagai",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "5575",
+        "district": "Bandar Khalifah"
+    }, {
+        "id": "5576",
+        "district": "Bintang Bayu"
+    }, {
+        "id": "5577",
+        "district": "Dolok Masihul"
+    }, {
+        "id": "5578",
+        "district": "Dolok Merawan"
+    }, {
+        "id": "5579",
+        "district": "Kotarih"
+    }, {
+        "id": "5580",
+        "district": "Pantai Cermin"
+    }, {
+        "id": "5581",
+        "district": "Pegajahan"
+    }, {
+        "id": "5582",
+        "district": "Perbaungan"
+    }, {
+        "id": "5583",
+        "district": "Sei Bamban"
+    }, {
+        "id": "5584",
+        "district": "Sei Rampah"
+    }, {
+        "id": "5585",
+        "district": "Serba Jadi"
+    }, {
+        "id": "5586",
+        "district": "Silinda"
+    }, {
+        "id": "5587",
+        "district": "Sipispis"
+    }, {
+        "id": "5588",
+        "district": "Tanjung Beringin"
+    }, {
+        "id": "5589",
+        "district": "Tebing Syahbandar"
+    }, {
+        "id": "5590",
+        "district": "Tebing Tinggi"
+    }, {
+        "id": "5591",
+        "district": "Teluk Mengkudu"
+    }]
+}

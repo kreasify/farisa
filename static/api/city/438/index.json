@@ -1,0 +1,82 @@
+{
+    "title": "438",
+    "id": "438",
+    "city": "Sumbawa",
+    "type": "Kabupaten",
+    "province_id": "22",
+    "province": "Nusa Tenggara Barat (NTB)",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "6033",
+        "district": "Alas"
+    }, {
+        "id": "6034",
+        "district": "Alas Barat"
+    }, {
+        "id": "6035",
+        "district": "Batulanteh"
+    }, {
+        "id": "6036",
+        "district": "Buer"
+    }, {
+        "id": "6037",
+        "district": "Empang"
+    }, {
+        "id": "6038",
+        "district": "Labangka"
+    }, {
+        "id": "6039",
+        "district": "Labuhan Badas"
+    }, {
+        "id": "6040",
+        "district": "Lantung"
+    }, {
+        "id": "6041",
+        "district": "Lape (Lape Lopok)"
+    }, {
+        "id": "6042",
+        "district": "Lenangguar"
+    }, {
+        "id": "6043",
+        "district": "Lopok"
+    }, {
+        "id": "6044",
+        "district": "Lunyuk"
+    }, {
+        "id": "6045",
+        "district": "Maronge"
+    }, {
+        "id": "6046",
+        "district": "Moyo Hilir"
+    }, {
+        "id": "6047",
+        "district": "Moyo Hulu"
+    }, {
+        "id": "6048",
+        "district": "Moyo Utara"
+    }, {
+        "id": "6049",
+        "district": "Orong Telu"
+    }, {
+        "id": "6050",
+        "district": "Plampang"
+    }, {
+        "id": "6051",
+        "district": "Rhee"
+    }, {
+        "id": "6052",
+        "district": "Ropang"
+    }, {
+        "id": "6053",
+        "district": "Sumbawa"
+    }, {
+        "id": "6054",
+        "district": "Tarano"
+    }, {
+        "id": "6055",
+        "district": "Unter Iwes (Unterwiris)"
+    }, {
+        "id": "6056",
+        "district": "Utan"
+    }]
+}

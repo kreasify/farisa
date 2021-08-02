@@ -1,0 +1,58 @@
+{
+    "title": "9",
+    "id": "9",
+    "city": "Aceh Tenggara",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "109",
+        "district": "Babul Makmur"
+    }, {
+        "id": "110",
+        "district": "Babul Rahmah"
+    }, {
+        "id": "111",
+        "district": "Babussalam"
+    }, {
+        "id": "112",
+        "district": "Badar"
+    }, {
+        "id": "113",
+        "district": "Bambel"
+    }, {
+        "id": "114",
+        "district": "Bukit Tusam"
+    }, {
+        "id": "115",
+        "district": "Darul Hasanah"
+    }, {
+        "id": "116",
+        "district": "Deleng Pokhisen"
+    }, {
+        "id": "117",
+        "district": "Ketambe"
+    }, {
+        "id": "118",
+        "district": "Lawe Alas"
+    }, {
+        "id": "119",
+        "district": "Lawe Bulan"
+    }, {
+        "id": "120",
+        "district": "Lawe Sigala-Gala"
+    }, {
+        "id": "121",
+        "district": "Lawe Sumur"
+    }, {
+        "id": "122",
+        "district": "Leuser"
+    }, {
+        "id": "123",
+        "district": "Semadam"
+    }, {
+        "id": "124",
+        "district": "Tanah Alas"
+    }]
+}

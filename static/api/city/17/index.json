@@ -1,0 +1,28 @@
+{
+    "title": "17",
+    "id": "17",
+    "city": "Badung",
+    "type": "Kabupaten",
+    "province_id": "1",
+    "province": "Bali",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "258",
+        "district": "Abiansemal"
+    }, {
+        "id": "259",
+        "district": "Kuta"
+    }, {
+        "id": "260",
+        "district": "Kuta Selatan"
+    }, {
+        "id": "261",
+        "district": "Kuta Utara"
+    }, {
+        "id": "262",
+        "district": "Mengwi"
+    }, {
+        "id": "263",
+        "district": "Petang"
+    }]
+}

@@ -1,0 +1,46 @@
+{
+    "title": "172",
+    "id": "172",
+    "city": "Karimun",
+    "type": "Kabupaten",
+    "province_id": "17",
+    "province": "Kepulauan Riau",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "2408",
+        "district": "Belat"
+    }, {
+        "id": "2409",
+        "district": "Buru"
+    }, {
+        "id": "2410",
+        "district": "Durai"
+    }, {
+        "id": "2411",
+        "district": "Karimun"
+    }, {
+        "id": "2412",
+        "district": "Kundur"
+    }, {
+        "id": "2413",
+        "district": "Kundur Barat"
+    }, {
+        "id": "2414",
+        "district": "Kundur Utara"
+    }, {
+        "id": "2415",
+        "district": "Meral"
+    }, {
+        "id": "2416",
+        "district": "Meral Barat"
+    }, {
+        "id": "2417",
+        "district": "Moro"
+    }, {
+        "id": "2418",
+        "district": "Tebing"
+    }, {
+        "id": "2419",
+        "district": "Ungar"
+    }]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "158",
+    "id": "158",
+    "city": "Jayapura",
+    "type": "Kota",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "2156",
+        "district": "Abepura"
+    }, {
+        "id": "2157",
+        "district": "Heram"
+    }, {
+        "id": "2158",
+        "district": "Jayapura Selatan"
+    }, {
+        "id": "2159",
+        "district": "Jayapura Utara"
+    }, {
+        "id": "2160",
+        "district": "Muara Tami"
+    }]
+}

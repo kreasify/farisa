@@ -1,0 +1,25 @@
+{
+    "title": "370",
+    "id": "370",
+    "city": "Probolinggo",
+    "type": "Kota",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "5165",
+        "district": "Kademangan"
+    }, {
+        "id": "5166",
+        "district": "Kanigaran"
+    }, {
+        "id": "5167",
+        "district": "Kedopok (Kedopak)"
+    }, {
+        "id": "5168",
+        "district": "Mayangan"
+    }, {
+        "id": "5169",
+        "district": "Wonoasih"
+    }]
+}

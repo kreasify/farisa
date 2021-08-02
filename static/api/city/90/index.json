@@ -1,0 +1,70 @@
+{
+    "title": "90",
+    "id": "90",
+    "city": "Boven Digoel",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "1220",
+        "district": "Ambatkwi (Ambatkui)"
+    }, {
+        "id": "1221",
+        "district": "Arimop"
+    }, {
+        "id": "1222",
+        "district": "Bomakia"
+    }, {
+        "id": "1223",
+        "district": "Firiwage"
+    }, {
+        "id": "1224",
+        "district": "Fofi"
+    }, {
+        "id": "1225",
+        "district": "Iniyandit"
+    }, {
+        "id": "1226",
+        "district": "Jair"
+    }, {
+        "id": "1227",
+        "district": "Kawagit"
+    }, {
+        "id": "1228",
+        "district": "Ki"
+    }, {
+        "id": "1229",
+        "district": "Kombay"
+    }, {
+        "id": "1230",
+        "district": "Kombut"
+    }, {
+        "id": "1231",
+        "district": "Kouh"
+    }, {
+        "id": "1232",
+        "district": "Mandobo"
+    }, {
+        "id": "1233",
+        "district": "Manggelum"
+    }, {
+        "id": "1234",
+        "district": "Mindiptana"
+    }, {
+        "id": "1235",
+        "district": "Ninati"
+    }, {
+        "id": "1236",
+        "district": "Sesnuk"
+    }, {
+        "id": "1237",
+        "district": "Subur"
+    }, {
+        "id": "1238",
+        "district": "Waropko"
+    }, {
+        "id": "1239",
+        "district": "Yaniruma"
+    }]
+}

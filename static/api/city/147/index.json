@@ -1,0 +1,70 @@
+{
+    "title": "147",
+    "id": "147",
+    "city": "Indragiri Hilir",
+    "type": "Kabupaten",
+    "province_id": "26",
+    "province": "Riau",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "2016",
+        "district": "Batang Tuaka"
+    }, {
+        "id": "2017",
+        "district": "Concong"
+    }, {
+        "id": "2018",
+        "district": "Enok"
+    }, {
+        "id": "2019",
+        "district": "Gaung"
+    }, {
+        "id": "2020",
+        "district": "Gaung Anak Serka"
+    }, {
+        "id": "2021",
+        "district": "Kateman"
+    }, {
+        "id": "2022",
+        "district": "Kempas"
+    }, {
+        "id": "2023",
+        "district": "Kemuning"
+    }, {
+        "id": "2024",
+        "district": "Keritang"
+    }, {
+        "id": "2025",
+        "district": "Kuala Indragiri"
+    }, {
+        "id": "2026",
+        "district": "Mandah"
+    }, {
+        "id": "2027",
+        "district": "Pelangiran"
+    }, {
+        "id": "2028",
+        "district": "Pulau Burung"
+    }, {
+        "id": "2029",
+        "district": "Reteh"
+    }, {
+        "id": "2030",
+        "district": "Sungai Batang"
+    }, {
+        "id": "2031",
+        "district": "Tanah Merah"
+    }, {
+        "id": "2032",
+        "district": "Teluk Belengkong"
+    }, {
+        "id": "2033",
+        "district": "Tembilahan"
+    }, {
+        "id": "2034",
+        "district": "Tembilahan Hulu"
+    }, {
+        "id": "2035",
+        "district": "Tempuling"
+    }]
+}

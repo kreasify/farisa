@@ -1,0 +1,22 @@
+{
+    "title": "349",
+    "id": "349",
+    "city": "Pekalongan",
+    "type": "Kota",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "4910",
+        "district": "Pekalongan Barat"
+    }, {
+        "id": "4911",
+        "district": "Pekalongan Selatan"
+    }, {
+        "id": "4912",
+        "district": "Pekalongan Timur"
+    }, {
+        "id": "4913",
+        "district": "Pekalongan Utara"
+    }]
+}

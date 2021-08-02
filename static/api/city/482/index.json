@@ -1,0 +1,37 @@
+{
+    "title": "482",
+    "id": "482",
+    "city": "Tojo Una-Una",
+    "type": "Kabupaten",
+    "province_id": "29",
+    "province": "Sulawesi Tengah",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "6668",
+        "district": "Ampana Kota"
+    }, {
+        "id": "6669",
+        "district": "Ampana Tete"
+    }, {
+        "id": "6670",
+        "district": "Togean"
+    }, {
+        "id": "6671",
+        "district": "Tojo"
+    }, {
+        "id": "6672",
+        "district": "Tojo Barat"
+    }, {
+        "id": "6673",
+        "district": "Ulu Bongka"
+    }, {
+        "id": "6674",
+        "district": "Una - Una"
+    }, {
+        "id": "6675",
+        "district": "Walea Besar"
+    }, {
+        "id": "6676",
+        "district": "Walea Kepulauan"
+    }]
+}

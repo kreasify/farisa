@@ -1,0 +1,58 @@
+{
+    "title": "382",
+    "id": "382",
+    "city": "Rokan Hulu",
+    "type": "Kabupaten",
+    "province_id": "26",
+    "province": "Riau",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "5318",
+        "district": "Bangun Purba"
+    }, {
+        "id": "5319",
+        "district": "Bonai Darussalam"
+    }, {
+        "id": "5320",
+        "district": "Kabun"
+    }, {
+        "id": "5321",
+        "district": "Kepenuhan"
+    }, {
+        "id": "5322",
+        "district": "Kepenuhan Hulu"
+    }, {
+        "id": "5323",
+        "district": "Kunto Darussalam"
+    }, {
+        "id": "5324",
+        "district": "Pagaran Tapah Darussalam"
+    }, {
+        "id": "5325",
+        "district": "Pendalian IV Koto"
+    }, {
+        "id": "5326",
+        "district": "Rambah"
+    }, {
+        "id": "5327",
+        "district": "Rambah Hilir"
+    }, {
+        "id": "5328",
+        "district": "Rambah Samo"
+    }, {
+        "id": "5329",
+        "district": "Rokan IV Koto"
+    }, {
+        "id": "5330",
+        "district": "Tambusai"
+    }, {
+        "id": "5331",
+        "district": "Tambusai Utara"
+    }, {
+        "id": "5332",
+        "district": "Tandun"
+    }, {
+        "id": "5333",
+        "district": "Ujung Batu"
+    }]
+}

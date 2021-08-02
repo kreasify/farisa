@@ -1,0 +1,82 @@
+{
+    "title": "369",
+    "id": "369",
+    "city": "Probolinggo",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "24",
+    "data" : [{
+        "id": "5141",
+        "district": "Bantaran"
+    }, {
+        "id": "5142",
+        "district": "Banyu Anyar"
+    }, {
+        "id": "5143",
+        "district": "Besuk"
+    }, {
+        "id": "5144",
+        "district": "Dringu"
+    }, {
+        "id": "5145",
+        "district": "Gading"
+    }, {
+        "id": "5146",
+        "district": "Gending"
+    }, {
+        "id": "5147",
+        "district": "Kota Anyar"
+    }, {
+        "id": "5148",
+        "district": "Kraksaan"
+    }, {
+        "id": "5149",
+        "district": "Krejengan"
+    }, {
+        "id": "5150",
+        "district": "Krucil"
+    }, {
+        "id": "5151",
+        "district": "Kuripan"
+    }, {
+        "id": "5152",
+        "district": "Leces"
+    }, {
+        "id": "5153",
+        "district": "Lumbang"
+    }, {
+        "id": "5154",
+        "district": "Maron"
+    }, {
+        "id": "5155",
+        "district": "Paiton"
+    }, {
+        "id": "5156",
+        "district": "Pajarakan"
+    }, {
+        "id": "5157",
+        "district": "Pakuniran"
+    }, {
+        "id": "5158",
+        "district": "Sukapura"
+    }, {
+        "id": "5159",
+        "district": "Sumber"
+    }, {
+        "id": "5160",
+        "district": "Sumberasih"
+    }, {
+        "id": "5161",
+        "district": "Tegal Siwalan"
+    }, {
+        "id": "5162",
+        "district": "Tiris"
+    }, {
+        "id": "5163",
+        "district": "Tongas"
+    }, {
+        "id": "5164",
+        "district": "Wonomerto"
+    }]
+}

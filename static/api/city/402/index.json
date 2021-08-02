@@ -1,0 +1,97 @@
+{
+    "title": "402",
+    "id": "402",
+    "city": "Serang",
+    "type": "Kabupaten",
+    "province_id": "3",
+    "province": "Banten",
+    "number_of_districts" : "29",
+    "data" : [{
+        "id": "5540",
+        "district": "Anyar"
+    }, {
+        "id": "5541",
+        "district": "Bandung"
+    }, {
+        "id": "5542",
+        "district": "Baros"
+    }, {
+        "id": "5543",
+        "district": "Binuang"
+    }, {
+        "id": "5544",
+        "district": "Bojonegara"
+    }, {
+        "id": "5545",
+        "district": "Carenang (Cerenang)"
+    }, {
+        "id": "5546",
+        "district": "Cikande"
+    }, {
+        "id": "5547",
+        "district": "Cikeusal"
+    }, {
+        "id": "5548",
+        "district": "Cinangka"
+    }, {
+        "id": "5549",
+        "district": "Ciomas"
+    }, {
+        "id": "5550",
+        "district": "Ciruas"
+    }, {
+        "id": "5551",
+        "district": "Gunungsari"
+    }, {
+        "id": "5552",
+        "district": "Jawilan"
+    }, {
+        "id": "5553",
+        "district": "Kibin"
+    }, {
+        "id": "5554",
+        "district": "Kopo"
+    }, {
+        "id": "5555",
+        "district": "Kragilan"
+    }, {
+        "id": "5556",
+        "district": "Kramatwatu"
+    }, {
+        "id": "5557",
+        "district": "Lebak Wangi"
+    }, {
+        "id": "5558",
+        "district": "Mancak"
+    }, {
+        "id": "5559",
+        "district": "Pabuaran"
+    }, {
+        "id": "5560",
+        "district": "Padarincang"
+    }, {
+        "id": "5561",
+        "district": "Pamarayan"
+    }, {
+        "id": "5562",
+        "district": "Petir"
+    }, {
+        "id": "5563",
+        "district": "Pontang"
+    }, {
+        "id": "5564",
+        "district": "Pulo Ampel"
+    }, {
+        "id": "5565",
+        "district": "Tanara"
+    }, {
+        "id": "5566",
+        "district": "Tirtayasa"
+    }, {
+        "id": "5567",
+        "district": "Tunjung Teja"
+    }, {
+        "id": "5568",
+        "district": "Waringin Kurung"
+    }]
+}

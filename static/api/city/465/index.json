@@ -1,0 +1,55 @@
+{
+    "title": "465",
+    "id": "465",
+    "city": "Tapanuli Utara",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "6405",
+        "district": "Adian Koting"
+    }, {
+        "id": "6406",
+        "district": "Garoga"
+    }, {
+        "id": "6407",
+        "district": "Muara"
+    }, {
+        "id": "6408",
+        "district": "Pagaran"
+    }, {
+        "id": "6409",
+        "district": "Pahae Jae"
+    }, {
+        "id": "6410",
+        "district": "Pahae Julu"
+    }, {
+        "id": "6411",
+        "district": "Pangaribuan"
+    }, {
+        "id": "6412",
+        "district": "Parmonangan"
+    }, {
+        "id": "6413",
+        "district": "Purbatua"
+    }, {
+        "id": "6414",
+        "district": "Siatas Barita"
+    }, {
+        "id": "6415",
+        "district": "Siborong-Borong"
+    }, {
+        "id": "6416",
+        "district": "Simangumban"
+    }, {
+        "id": "6417",
+        "district": "Sipahutar"
+    }, {
+        "id": "6418",
+        "district": "Sipoholon"
+    }, {
+        "id": "6419",
+        "district": "Tarutung"
+    }]
+}

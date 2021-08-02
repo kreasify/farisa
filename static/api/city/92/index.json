@@ -1,0 +1,61 @@
+{
+    "title": "92",
+    "id": "92",
+    "city": "Brebes",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "1259",
+        "district": "Banjarharjo"
+    }, {
+        "id": "1260",
+        "district": "Bantarkawung"
+    }, {
+        "id": "1261",
+        "district": "Brebes"
+    }, {
+        "id": "1262",
+        "district": "Bulakamba"
+    }, {
+        "id": "1263",
+        "district": "Bumiayu"
+    }, {
+        "id": "1264",
+        "district": "Jatibarang"
+    }, {
+        "id": "1265",
+        "district": "Kersana"
+    }, {
+        "id": "1266",
+        "district": "Ketanggungan"
+    }, {
+        "id": "1267",
+        "district": "Larangan"
+    }, {
+        "id": "1268",
+        "district": "Losari"
+    }, {
+        "id": "1269",
+        "district": "Paguyangan"
+    }, {
+        "id": "1270",
+        "district": "Salem"
+    }, {
+        "id": "1271",
+        "district": "Sirampog"
+    }, {
+        "id": "1272",
+        "district": "Songgom"
+    }, {
+        "id": "1273",
+        "district": "Tanjung"
+    }, {
+        "id": "1274",
+        "district": "Tonjong"
+    }, {
+        "id": "1275",
+        "district": "Wanasari"
+    }]
+}

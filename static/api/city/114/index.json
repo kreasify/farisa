@@ -1,0 +1,22 @@
+{
+    "title": "114",
+    "id": "114",
+    "city": "Denpasar",
+    "type": "Kota",
+    "province_id": "1",
+    "province": "Bali",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "1573",
+        "district": "Denpasar Barat"
+    }, {
+        "id": "1574",
+        "district": "Denpasar Selatan"
+    }, {
+        "id": "1575",
+        "district": "Denpasar Timur"
+    }, {
+        "id": "1576",
+        "district": "Denpasar Utara"
+    }]
+}

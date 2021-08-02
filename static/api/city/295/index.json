@@ -1,0 +1,109 @@
+{
+    "title": "295",
+    "id": "295",
+    "city": "Muna",
+    "type": "Kabupaten",
+    "province_id": "30",
+    "province": "Sulawesi Tenggara",
+    "number_of_districts" : "33",
+    "data" : [{
+        "id": "4157",
+        "district": "Barangka"
+    }, {
+        "id": "4158",
+        "district": "Batalaiwaru (Batalaiworu)"
+    }, {
+        "id": "4159",
+        "district": "Batukara"
+    }, {
+        "id": "4160",
+        "district": "Bone (Bone Tondo)"
+    }, {
+        "id": "4161",
+        "district": "Duruka"
+    }, {
+        "id": "4162",
+        "district": "Kabangka"
+    }, {
+        "id": "4163",
+        "district": "Kabawo"
+    }, {
+        "id": "4164",
+        "district": "Katobu"
+    }, {
+        "id": "4165",
+        "district": "Kontu Kowuna"
+    }, {
+        "id": "4166",
+        "district": "Kontunaga"
+    }, {
+        "id": "4167",
+        "district": "Kusambi"
+    }, {
+        "id": "4168",
+        "district": "Lasalepa"
+    }, {
+        "id": "4169",
+        "district": "Lawa"
+    }, {
+        "id": "4170",
+        "district": "Lohia"
+    }, {
+        "id": "4171",
+        "district": "Maginti"
+    }, {
+        "id": "4172",
+        "district": "Maligano"
+    }, {
+        "id": "4173",
+        "district": "Marobo"
+    }, {
+        "id": "4174",
+        "district": "Napabalano"
+    }, {
+        "id": "4175",
+        "district": "Napano Kusambi"
+    }, {
+        "id": "4176",
+        "district": "Parigi"
+    }, {
+        "id": "4177",
+        "district": "Pasi Kolaga"
+    }, {
+        "id": "4178",
+        "district": "Pasir Putih"
+    }, {
+        "id": "4179",
+        "district": "Sawerigadi (Sawerigading/Sewergadi)"
+    }, {
+        "id": "4180",
+        "district": "Tiworo Kepulauan"
+    }, {
+        "id": "4181",
+        "district": "Tiworo Selatan"
+    }, {
+        "id": "4182",
+        "district": "Tiworo Tengah"
+    }, {
+        "id": "4183",
+        "district": "Tiworo Utara"
+    }, {
+        "id": "4184",
+        "district": "Tongkuno"
+    }, {
+        "id": "4185",
+        "district": "Tongkuno Selatan"
+    }, {
+        "id": "4186",
+        "district": "Towea"
+    }, {
+        "id": "4187",
+        "district": "Wa Daga"
+    }, {
+        "id": "4188",
+        "district": "Wakorumba Selatan"
+    }, {
+        "id": "4189",
+        "district": "Watopute"
+    }]
+}

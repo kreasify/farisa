@@ -1,0 +1,58 @@
+{
+    "title": "194",
+    "id": "194",
+    "city": "Kerinci",
+    "type": "Kabupaten",
+    "province_id": "8",
+    "province": "Jambi",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "2686",
+        "district": "Air Hangat"
+    }, {
+        "id": "2687",
+        "district": "Air Hangat Barat"
+    }, {
+        "id": "2688",
+        "district": "Air Hangat Timur"
+    }, {
+        "id": "2689",
+        "district": "Batang Merangin"
+    }, {
+        "id": "2690",
+        "district": "Bukitkerman"
+    }, {
+        "id": "2691",
+        "district": "Danau Kerinci"
+    }, {
+        "id": "2692",
+        "district": "Depati Tujuh"
+    }, {
+        "id": "2693",
+        "district": "Gunung Kerinci"
+    }, {
+        "id": "2694",
+        "district": "Gunung Raya"
+    }, {
+        "id": "2695",
+        "district": "Gunung Tujuh"
+    }, {
+        "id": "2696",
+        "district": "Kayu Aro"
+    }, {
+        "id": "2697",
+        "district": "Kayu Aro Barat"
+    }, {
+        "id": "2698",
+        "district": "Keliling Danau"
+    }, {
+        "id": "2699",
+        "district": "Sitinjau Laut"
+    }, {
+        "id": "2700",
+        "district": "Siulak"
+    }, {
+        "id": "2701",
+        "district": "Siulak Mukai"
+    }]
+}

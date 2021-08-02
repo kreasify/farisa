@@ -1,0 +1,25 @@
+{
+    "title": "241",
+    "id": "241",
+    "city": "Lombok Utara",
+    "type": "Kabupaten",
+    "province_id": "22",
+    "province": "Nusa Tenggara Barat (NTB)",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "3414",
+        "district": "Bayan"
+    }, {
+        "id": "3415",
+        "district": "Gangga"
+    }, {
+        "id": "3416",
+        "district": "Kayangan"
+    }, {
+        "id": "3417",
+        "district": "Pemenang"
+    }, {
+        "id": "3418",
+        "district": "Tanjung"
+    }]
+}

@@ -1,0 +1,51 @@
+{
+    "title": "29",
+    "id": "29",
+    "province": "Sulawesi Tengah",
+    "number_of_cities" : "11",
+    "data" : [{
+        "id": "25",
+        "city": "Banggai",
+        "type": "Kabupaten"
+    }, {
+        "id": "26",
+        "city": "Banggai Kepulauan",
+        "type": "Kabupaten"
+    }, {
+        "id": "98",
+        "city": "Buol",
+        "type": "Kabupaten"
+    }, {
+        "id": "119",
+        "city": "Donggala",
+        "type": "Kabupaten"
+    }, {
+        "id": "291",
+        "city": "Morowali",
+        "type": "Kabupaten"
+    }, {
+        "id": "329",
+        "city": "Palu",
+        "type": "Kota"
+    }, {
+        "id": "338",
+        "city": "Parigi Moutong",
+        "type": "Kabupaten"
+    }, {
+        "id": "366",
+        "city": "Poso",
+        "type": "Kabupaten"
+    }, {
+        "id": "410",
+        "city": "Sigi",
+        "type": "Kabupaten"
+    }, {
+        "id": "482",
+        "city": "Tojo Una-Una",
+        "type": "Kabupaten"
+    }, {
+        "id": "483",
+        "city": "Toli-Toli",
+        "type": "Kabupaten"
+    }]
+}

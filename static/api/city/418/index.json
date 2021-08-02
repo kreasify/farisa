@@ -1,0 +1,61 @@
+{
+    "title": "418",
+    "id": "418",
+    "city": "Situbondo",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "5762",
+        "district": "Arjasa"
+    }, {
+        "id": "5763",
+        "district": "Asembagus"
+    }, {
+        "id": "5764",
+        "district": "Banyuglugur"
+    }, {
+        "id": "5765",
+        "district": "Banyuputih"
+    }, {
+        "id": "5766",
+        "district": "Besuki"
+    }, {
+        "id": "5767",
+        "district": "Bungatan"
+    }, {
+        "id": "5768",
+        "district": "Jangkar"
+    }, {
+        "id": "5769",
+        "district": "Jatibanteng"
+    }, {
+        "id": "5770",
+        "district": "Kapongan"
+    }, {
+        "id": "5771",
+        "district": "Kendit"
+    }, {
+        "id": "5772",
+        "district": "Mangaran"
+    }, {
+        "id": "5773",
+        "district": "Mlandingan"
+    }, {
+        "id": "5774",
+        "district": "Panarukan"
+    }, {
+        "id": "5775",
+        "district": "Panji"
+    }, {
+        "id": "5776",
+        "district": "Situbondo"
+    }, {
+        "id": "5777",
+        "district": "Suboh"
+    }, {
+        "id": "5778",
+        "district": "Sumbermalang"
+    }]
+}

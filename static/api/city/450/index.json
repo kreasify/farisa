@@ -1,0 +1,22 @@
+{
+    "title": "450",
+    "id": "450",
+    "city": "Tana Tidung",
+    "type": "Kabupaten",
+    "province_id": "16",
+    "province": "Kalimantan Utara",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "6210",
+        "district": "Betayau"
+    }, {
+        "id": "6211",
+        "district": "Sesayap"
+    }, {
+        "id": "6212",
+        "district": "Sesayap Hilir"
+    }, {
+        "id": "6213",
+        "district": "Tana Lia (Tanah Lia)"
+    }]
+}

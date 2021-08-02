@@ -1,0 +1,51 @@
+{
+    "title": "19",
+    "id": "19",
+    "province": "Maluku",
+    "number_of_cities" : "11",
+    "data" : [{
+        "id": "14",
+        "city": "Ambon",
+        "type": "Kota"
+    }, {
+        "id": "99",
+        "city": "Buru",
+        "type": "Kabupaten"
+    }, {
+        "id": "100",
+        "city": "Buru Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "185",
+        "city": "Kepulauan Aru",
+        "type": "Kabupaten"
+    }, {
+        "id": "258",
+        "city": "Maluku Barat Daya",
+        "type": "Kabupaten"
+    }, {
+        "id": "259",
+        "city": "Maluku Tengah",
+        "type": "Kabupaten"
+    }, {
+        "id": "260",
+        "city": "Maluku Tenggara",
+        "type": "Kabupaten"
+    }, {
+        "id": "261",
+        "city": "Maluku Tenggara Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "400",
+        "city": "Seram Bagian Barat",
+        "type": "Kabupaten"
+    }, {
+        "id": "401",
+        "city": "Seram Bagian Timur",
+        "type": "Kabupaten"
+    }, {
+        "id": "488",
+        "city": "Tual",
+        "type": "Kota"
+    }]
+}

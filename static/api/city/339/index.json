@@ -1,0 +1,46 @@
+{
+    "title": "339",
+    "id": "339",
+    "city": "Pasaman",
+    "type": "Kabupaten",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "4760",
+        "district": "Bonjol"
+    }, {
+        "id": "4761",
+        "district": "Duo Koto (II Koto)"
+    }, {
+        "id": "4762",
+        "district": "Lubuk Sikaping"
+    }, {
+        "id": "4763",
+        "district": "Mapat Tunggul"
+    }, {
+        "id": "4764",
+        "district": "Mapat Tunggul Selatan"
+    }, {
+        "id": "4765",
+        "district": "Padang Gelugur"
+    }, {
+        "id": "4766",
+        "district": "Panti"
+    }, {
+        "id": "4767",
+        "district": "Rao"
+    }, {
+        "id": "4768",
+        "district": "Rao Selatan"
+    }, {
+        "id": "4769",
+        "district": "Rao Utara"
+    }, {
+        "id": "4770",
+        "district": "Simpang Alahan Mati"
+    }, {
+        "id": "4771",
+        "district": "Tigo Nagari (III Nagari)"
+    }]
+}

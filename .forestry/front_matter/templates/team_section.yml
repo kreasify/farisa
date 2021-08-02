@@ -1,0 +1,25 @@
+---
+label: Team Section
+hide_body: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the section
+- type: list
+  name: team
+  label: Team
+  config:
+    use_select: true
+    source:
+      type: pages
+      section: person
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: team_section
+  config:
+    required: true

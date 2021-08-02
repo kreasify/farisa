@@ -1,0 +1,43 @@
+{
+    "title": "267",
+    "id": "267",
+    "city": "Manado",
+    "type": "Kota",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "11",
+    "data" : [{
+        "id": "3768",
+        "district": "Bunaken"
+    }, {
+        "id": "3769",
+        "district": "Bunaken Kepulauan"
+    }, {
+        "id": "3770",
+        "district": "Malalayang"
+    }, {
+        "id": "3771",
+        "district": "Mapanget"
+    }, {
+        "id": "3772",
+        "district": "Paal Dua"
+    }, {
+        "id": "3773",
+        "district": "Sario"
+    }, {
+        "id": "3774",
+        "district": "Singkil"
+    }, {
+        "id": "3775",
+        "district": "Tikala"
+    }, {
+        "id": "3776",
+        "district": "Tuminiting"
+    }, {
+        "id": "3777",
+        "district": "Wanea"
+    }, {
+        "id": "3778",
+        "district": "Wenang"
+    }]
+}

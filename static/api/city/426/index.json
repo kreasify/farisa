@@ -1,0 +1,49 @@
+{
+    "title": "426",
+    "id": "426",
+    "city": "Sorong Selatan",
+    "type": "Kabupaten",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "13",
+    "data" : [{
+        "id": "5850",
+        "district": "Fokour"
+    }, {
+        "id": "5851",
+        "district": "Inanwatan (Inawatan)"
+    }, {
+        "id": "5852",
+        "district": "Kais (Matemani Kais)"
+    }, {
+        "id": "5853",
+        "district": "Kokoda"
+    }, {
+        "id": "5854",
+        "district": "Kokoda Utara"
+    }, {
+        "id": "5855",
+        "district": "Konda"
+    }, {
+        "id": "5856",
+        "district": "Matemani"
+    }, {
+        "id": "5857",
+        "district": "Moswaren"
+    }, {
+        "id": "5858",
+        "district": "Saifi"
+    }, {
+        "id": "5859",
+        "district": "Sawiat"
+    }, {
+        "id": "5860",
+        "district": "Seremuk"
+    }, {
+        "id": "5861",
+        "district": "Teminabuan"
+    }, {
+        "id": "5862",
+        "district": "Wayer"
+    }]
+}

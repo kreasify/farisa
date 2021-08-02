@@ -1,0 +1,28 @@
+{{-  $site := .Site }}
+{{-  $shop_feed_section := .shop_feed_section }}
+{{-  $post := .shop_page }}
+<div
+    class="feed-item col-span-5 lg:col-span-2 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 hover:shadow-lg">
+    <div class="feed-item__image relative  bg-body-primary">
+        <a class="feed-item__link" href="{{ $post.RelPermalink }}">
+            {{- if $post.Params.thumbnail }}
+            {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "aspect" "aspect-w-5 aspect-h-6" "aspect_w" "5" "aspect_h" "6" "resized" "213x256 q100 webp" "is_fill" true }}
+            {{-  partial "image.html" $include_dict }}
+            {{- end }}
+        </a>
+        {{-  if isset $post.Params "badge" }}
+        <span
+            class="feed-item__badge absolute text-sm text-white top-2 left-2 px-2 {{-  if eq $post.Params.badge "limited" }}bg-warning {{-  else if eq $post.Params.badge "terlaris" }}bg-warning {{-  else }}bg-green-500{{-  end }}">{{ index $post.Params "badge" }}</span>
+        {{-  end }}
+    </div>
+    <div class="feed-item__info py-3 px-2">
+        <a class="feed-item__link" href="{{ $post.RelPermalink }}">
+            <h3 class="feed-item__title text-xs lg:text-sm text-header-text font-heading font-medium mb-1">{{ $post.Title }}</h3>
+        </a>
+        {{-  with $post.Params.variants }}{{ range first 1 . }}
+        <p class="feed-item__price mb-3">
+            <span class="text-header-text-secondary text-xs lg:text-sm font-medium">Rp {{-  lang.NumFmt 0 .price "- , ." }}</span>
+        </p>
+        {{-  end }}{{- end }}
+    </div>
+</div>

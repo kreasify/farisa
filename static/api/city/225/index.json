@@ -1,0 +1,94 @@
+{
+    "title": "225",
+    "id": "225",
+    "city": "Lampung Tengah",
+    "type": "Kabupaten",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "28",
+    "data" : [{
+        "id": "3172",
+        "district": "Anak Ratu Aji"
+    }, {
+        "id": "3173",
+        "district": "Anak Tuha"
+    }, {
+        "id": "3174",
+        "district": "Bandar Mataram"
+    }, {
+        "id": "3175",
+        "district": "Bandar Surabaya"
+    }, {
+        "id": "3176",
+        "district": "Bangunrejo"
+    }, {
+        "id": "3177",
+        "district": "Bekri"
+    }, {
+        "id": "3178",
+        "district": "Bumi Nabung"
+    }, {
+        "id": "3179",
+        "district": "Bumi Ratu Nuban"
+    }, {
+        "id": "3180",
+        "district": "Gunung Sugih"
+    }, {
+        "id": "3181",
+        "district": "Kalirejo"
+    }, {
+        "id": "3182",
+        "district": "Kota Gajah"
+    }, {
+        "id": "3183",
+        "district": "Padang Ratu"
+    }, {
+        "id": "3184",
+        "district": "Pubian"
+    }, {
+        "id": "3185",
+        "district": "Punggur"
+    }, {
+        "id": "3186",
+        "district": "Putra Rumbia"
+    }, {
+        "id": "3187",
+        "district": "Rumbia"
+    }, {
+        "id": "3188",
+        "district": "Selagai Lingga"
+    }, {
+        "id": "3189",
+        "district": "Sendang Agung"
+    }, {
+        "id": "3190",
+        "district": "Seputih Agung"
+    }, {
+        "id": "3191",
+        "district": "Seputih Banyak"
+    }, {
+        "id": "3192",
+        "district": "Seputih Mataram"
+    }, {
+        "id": "3193",
+        "district": "Seputih Raman"
+    }, {
+        "id": "3194",
+        "district": "Seputih Surabaya"
+    }, {
+        "id": "3195",
+        "district": "Terbanggi Besar"
+    }, {
+        "id": "3196",
+        "district": "Terusan Nunyai"
+    }, {
+        "id": "3197",
+        "district": "Trimurjo"
+    }, {
+        "id": "3198",
+        "district": "Way Pangubuan (Pengubuan)"
+    }, {
+        "id": "3199",
+        "district": "Way Seputih"
+    }]
+}

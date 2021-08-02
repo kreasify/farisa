@@ -1,0 +1,31 @@
+{
+    "title": "77",
+    "id": "77",
+    "city": "Boalemo",
+    "type": "Kabupaten",
+    "province_id": "7",
+    "province": "Gorontalo",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "1015",
+        "district": "Botumoita (Botumoito)"
+    }, {
+        "id": "1016",
+        "district": "Dulupi"
+    }, {
+        "id": "1017",
+        "district": "Mananggu"
+    }, {
+        "id": "1018",
+        "district": "Paguyaman"
+    }, {
+        "id": "1019",
+        "district": "Paguyaman Pantai"
+    }, {
+        "id": "1020",
+        "district": "Tilamuta"
+    }, {
+        "id": "1021",
+        "district": "Wonosari"
+    }]
+}

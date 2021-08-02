@@ -1,0 +1,70 @@
+{
+    "title": "281",
+    "id": "281",
+    "city": "Merauke",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "20",
+    "data" : [{
+        "id": "3962",
+        "district": "Animha"
+    }, {
+        "id": "3963",
+        "district": "Eligobel"
+    }, {
+        "id": "3964",
+        "district": "Ilyawab"
+    }, {
+        "id": "3965",
+        "district": "Jagebob"
+    }, {
+        "id": "3966",
+        "district": "Kaptel"
+    }, {
+        "id": "3967",
+        "district": "Kimaam"
+    }, {
+        "id": "3968",
+        "district": "Kurik"
+    }, {
+        "id": "3969",
+        "district": "Malind"
+    }, {
+        "id": "3970",
+        "district": "Merauke"
+    }, {
+        "id": "3971",
+        "district": "Muting"
+    }, {
+        "id": "3972",
+        "district": "Naukenjerai"
+    }, {
+        "id": "3973",
+        "district": "Ngguti (Nggunti)"
+    }, {
+        "id": "3974",
+        "district": "Okaba"
+    }, {
+        "id": "3975",
+        "district": "Semangga"
+    }, {
+        "id": "3976",
+        "district": "Sota"
+    }, {
+        "id": "3977",
+        "district": "Tabonji"
+    }, {
+        "id": "3978",
+        "district": "Tanah Miring"
+    }, {
+        "id": "3979",
+        "district": "Tubang"
+    }, {
+        "id": "3980",
+        "district": "Ulilin"
+    }, {
+        "id": "3981",
+        "district": "Waan"
+    }]
+}

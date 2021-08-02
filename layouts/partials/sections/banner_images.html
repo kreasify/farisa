@@ -1,0 +1,40 @@
+{{ $site := .Site }}
+{{ $section := .section }}
+{{ $column := $section.design.column | default 2 }}
+
+{{ $col_span := "" }}
+{{ if eq $column 1 }}
+{{ $col_span = "col-span-12" }}
+{{ else if eq $column 2 }}
+{{ $col_span = "col-span-12 lg:col-span-6" }}
+{{ else if eq $column 3 }}
+{{ $col_span = "colspan-12 lg:col-span-4" }}
+{{ else if eq $column 4 }}
+{{ $col_span = "col-span-6 lg:col-span-3" }}
+{{ else }}
+{{ $col_span = "col-span-6 lg:col-span-3" }}
+{{ end }}
+{{ with $section.images }}
+<div class="grid grid-cols-12">
+    {{ range . }}
+    <div class="{{ $col_span }} relative overflow-hidden">
+        <div class="relative aspect-w-4 aspect-h-3 " {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
+            {{ $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .image ) }}
+            {{ $resized := $imageResource.Fit "674x379 q90 webp" }}
+            <img class="absolute w-full h-full left-0 top-0 object-cover transition duration-300 ease-in-out transform scale-100 group-hover:scale-110" alt="{{ .alt_text }}" src="{{ $resized.RelPermalink }}" />
+        </div>
+        <div class="absolute w-full h-full top-0 left-0 flex flex-col justify-center">
+            <header class="w-80pr mx-auto">
+                <h4 class="text-primary text-thin lg:text-thin text-base lg:text-3xl mb-3">
+                    {{ .title | safeHTML }}
+                </h4>
+                <h3 class="text-primary text-bold lg:text-bold text-lg lg:text-4xl leading-tight lg:leading-tight mb-4">
+                    {{ .subtitle | safeHTML }}
+                </h3>
+                <p class="mb-2"><del class="font-semibold lg:font-semibold mr-2">{{ .reg_price | safeHTML }}</del><span class="text-lg lg:text-3xl">{{ .sale_price | safeHTML }}</span></p>
+            </header>
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

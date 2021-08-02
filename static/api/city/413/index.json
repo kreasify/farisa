@@ -1,0 +1,103 @@
+{
+    "title": "413",
+    "id": "413",
+    "city": "Simalungun",
+    "type": "Kabupaten",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "31",
+    "data" : [{
+        "id": "5693",
+        "district": "Bandar"
+    }, {
+        "id": "5694",
+        "district": "Bandar Huluan"
+    }, {
+        "id": "5695",
+        "district": "Bandar Masilam"
+    }, {
+        "id": "5696",
+        "district": "Bosar Maligas"
+    }, {
+        "id": "5697",
+        "district": "Dolok Batu Nanggar"
+    }, {
+        "id": "5698",
+        "district": "Dolok Panribuan"
+    }, {
+        "id": "5699",
+        "district": "Dolok Pardamean"
+    }, {
+        "id": "5700",
+        "district": "Dolok Silau"
+    }, {
+        "id": "5701",
+        "district": "Girsang Sipangan Bolon"
+    }, {
+        "id": "5702",
+        "district": "Gunung Malela"
+    }, {
+        "id": "5703",
+        "district": "Gunung Maligas"
+    }, {
+        "id": "5704",
+        "district": "Haranggaol Horison"
+    }, {
+        "id": "5705",
+        "district": "Hatonduhan"
+    }, {
+        "id": "5706",
+        "district": "Huta Bayu Raja"
+    }, {
+        "id": "5707",
+        "district": "Jawa Maraja Bah Jambi"
+    }, {
+        "id": "5708",
+        "district": "Jorlang Hataran"
+    }, {
+        "id": "5709",
+        "district": "Panei"
+    }, {
+        "id": "5710",
+        "district": "Panombeian Panei"
+    }, {
+        "id": "5711",
+        "district": "Pematang Bandar"
+    }, {
+        "id": "5712",
+        "district": "Pematang Sidamanik"
+    }, {
+        "id": "5713",
+        "district": "Pematang Silima Huta"
+    }, {
+        "id": "5714",
+        "district": "Purba"
+    }, {
+        "id": "5715",
+        "district": "Raya"
+    }, {
+        "id": "5716",
+        "district": "Raya Kahean"
+    }, {
+        "id": "5717",
+        "district": "Siantar"
+    }, {
+        "id": "5718",
+        "district": "Sidamanik"
+    }, {
+        "id": "5719",
+        "district": "Silimakuta"
+    }, {
+        "id": "5720",
+        "district": "Silou Kahean"
+    }, {
+        "id": "5721",
+        "district": "Tanah Jawa"
+    }, {
+        "id": "5722",
+        "district": "Tapian Dolok"
+    }, {
+        "id": "5723",
+        "district": "Ujung Padang"
+    }]
+}

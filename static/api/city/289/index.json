@@ -1,0 +1,64 @@
+{
+    "title": "289",
+    "id": "289",
+    "city": "Mojokerto",
+    "type": "Kabupaten",
+    "province_id": "11",
+    "province": "Jawa Timur",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "4070",
+        "district": "Bangsal"
+    }, {
+        "id": "4071",
+        "district": "Dawar Blandong"
+    }, {
+        "id": "4072",
+        "district": "Dlanggu"
+    }, {
+        "id": "4073",
+        "district": "Gedeg"
+    }, {
+        "id": "4074",
+        "district": "Gondang"
+    }, {
+        "id": "4075",
+        "district": "Jatirejo"
+    }, {
+        "id": "4076",
+        "district": "Jetis"
+    }, {
+        "id": "4077",
+        "district": "Kemlagi"
+    }, {
+        "id": "4078",
+        "district": "Kutorejo"
+    }, {
+        "id": "4079",
+        "district": "Mojoanyar"
+    }, {
+        "id": "4080",
+        "district": "Mojosari"
+    }, {
+        "id": "4081",
+        "district": "Ngoro"
+    }, {
+        "id": "4082",
+        "district": "Pacet"
+    }, {
+        "id": "4083",
+        "district": "Pungging"
+    }, {
+        "id": "4084",
+        "district": "Puri"
+    }, {
+        "id": "4085",
+        "district": "Sooko"
+    }, {
+        "id": "4086",
+        "district": "Trawas"
+    }, {
+        "id": "4087",
+        "district": "Trowulan"
+    }]
+}

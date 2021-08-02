@@ -1,0 +1,31 @@
+{
+    "title": "301",
+    "id": "301",
+    "city": "Nagekeo",
+    "type": "Kabupaten",
+    "province_id": "23",
+    "province": "Nusa Tenggara Timur (NTT)",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "4260",
+        "district": "Aesesa"
+    }, {
+        "id": "4261",
+        "district": "Aesesa Selatan"
+    }, {
+        "id": "4262",
+        "district": "Boawae"
+    }, {
+        "id": "4263",
+        "district": "Keo Tengah"
+    }, {
+        "id": "4264",
+        "district": "Mauponggo"
+    }, {
+        "id": "4265",
+        "district": "Nangaroro"
+    }, {
+        "id": "4266",
+        "district": "Wolowae"
+    }]
+}

@@ -1,0 +1,40 @@
+{
+    "title": "238",
+    "id": "238",
+    "city": "Lombok Barat",
+    "type": "Kabupaten",
+    "province_id": "22",
+    "province": "Nusa Tenggara Barat (NTB)",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "3372",
+        "district": "Batu Layar"
+    }, {
+        "id": "3373",
+        "district": "Gerung"
+    }, {
+        "id": "3374",
+        "district": "Gunungsari"
+    }, {
+        "id": "3375",
+        "district": "Kediri"
+    }, {
+        "id": "3376",
+        "district": "Kuripan"
+    }, {
+        "id": "3377",
+        "district": "Labuapi"
+    }, {
+        "id": "3378",
+        "district": "Lembar"
+    }, {
+        "id": "3379",
+        "district": "Lingsar"
+    }, {
+        "id": "3380",
+        "district": "Narmada"
+    }, {
+        "id": "3381",
+        "district": "Sekotong"
+    }]
+}

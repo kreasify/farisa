@@ -1,0 +1,40 @@
+{
+    "title": "414",
+    "id": "414",
+    "city": "Simeulue",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "5724",
+        "district": "Alapan (Alafan)"
+    }, {
+        "id": "5725",
+        "district": "Salang"
+    }, {
+        "id": "5726",
+        "district": "Simeuleu Barat"
+    }, {
+        "id": "5727",
+        "district": "Simeuleu Tengah"
+    }, {
+        "id": "5728",
+        "district": "Simeuleu Timur"
+    }, {
+        "id": "5729",
+        "district": "Simeulue Cut"
+    }, {
+        "id": "5730",
+        "district": "Teluk Dalam"
+    }, {
+        "id": "5731",
+        "district": "Teupah Barat"
+    }, {
+        "id": "5732",
+        "district": "Teupah Selatan"
+    }, {
+        "id": "5733",
+        "district": "Teupah Tengah"
+    }]
+}

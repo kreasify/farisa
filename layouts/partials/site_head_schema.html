@@ -1,0 +1,75 @@
+{{ if .IsHome }}
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "{{ .Site.BaseURL }}",
+    "name": "{{ $.Site.Title }}",
+    "headline": "{{ $.Site.Title }},
+    "author": {
+    "@type": "Person",
+    "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ if $.Site.Params.logo }}{{ $.Site.Params.logo }}{{ end }}",
+        "width": 130,
+        "height": 36
+      }
+    },
+      "description": "{{ $.Site.Params.description }}"
+  }
+</script>
+{{ else }}
+<script type="application/ld+json">
+{{if eq .Section "post"}}
+    {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage":{
+    "@type":"WebPage",
+    "@id":"{{ .RelPermalink }}"
+    },
+    "headline": "{{ .Title }}",
+    "image": {
+    "@type": "ImageObject",
+    "url": "{{ if .Params.image }}{{ .Params.image | relURL }}{{ end }}",
+    "height": 600,
+    "width": 420
+    },
+    "datePublished": "{{ time .Date }}",
+    "dateModified": "{{ time .Date }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}"
+    },
+    "publisher": {
+    "@type": "Organization",
+    "name": "{{ $.Site.Title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ if $.Site.Params.logo }}{{ $.Site.Params.logo }}{{ end }}",
+      "width": 130,
+      "height": 36
+    }
+    },
+    "description": "{{ .Description }}"
+    }
+{{ else }}
+    {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "url": "{{ .RelPermalink }}",
+    "name": "{{ .Title }}",
+    "author": {
+    "@type": "Person",
+    "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}"
+    },
+    "description": "{{ $.Site.Params.description }}",
+    }
+{{ end }}
+</script>
+{{ end }}

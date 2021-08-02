@@ -1,0 +1,40 @@
+{
+    "title": "346",
+    "id": "346",
+    "city": "Pegunungan Arfak",
+    "type": "Kabupaten",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "4847",
+        "district": "Anggi"
+    }, {
+        "id": "4848",
+        "district": "Anggi Gida"
+    }, {
+        "id": "4849",
+        "district": "Catubouw"
+    }, {
+        "id": "4850",
+        "district": "Didohu"
+    }, {
+        "id": "4851",
+        "district": "Hingk"
+    }, {
+        "id": "4852",
+        "district": "Membey"
+    }, {
+        "id": "4853",
+        "district": "Menyambouw (Minyambouw)"
+    }, {
+        "id": "4854",
+        "district": "Sururey"
+    }, {
+        "id": "4855",
+        "district": "Taige"
+    }, {
+        "id": "4856",
+        "district": "Testega"
+    }]
+}

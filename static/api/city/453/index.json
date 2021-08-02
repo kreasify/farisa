@@ -1,0 +1,52 @@
+{
+    "title": "453",
+    "id": "453",
+    "city": "Tanah Datar",
+    "type": "Kabupaten",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "14",
+    "data" : [{
+        "id": "6243",
+        "district": "Batipuh"
+    }, {
+        "id": "6244",
+        "district": "Batipuh Selatan"
+    }, {
+        "id": "6245",
+        "district": "Lima Kaum"
+    }, {
+        "id": "6246",
+        "district": "Lintau Buo"
+    }, {
+        "id": "6247",
+        "district": "Lintau Buo Utara"
+    }, {
+        "id": "6248",
+        "district": "Padang Ganting"
+    }, {
+        "id": "6249",
+        "district": "Pariangan"
+    }, {
+        "id": "6250",
+        "district": "Rambatan"
+    }, {
+        "id": "6251",
+        "district": "Salimpaung"
+    }, {
+        "id": "6252",
+        "district": "Sepuluh Koto (X Koto)"
+    }, {
+        "id": "6253",
+        "district": "Sungai Tarab"
+    }, {
+        "id": "6254",
+        "district": "Sungayang"
+    }, {
+        "id": "6255",
+        "district": "Tanjung Baru"
+    }, {
+        "id": "6256",
+        "district": "Tanjung Emas"
+    }]
+}

@@ -1,0 +1,27 @@
+---
+label: Features Section
+hide_body: true
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+  description: The title of the section
+- type: field_group_list
+  name: features
+  label: Features
+  fields:
+  - type: include
+    name: include_feature
+    label: Feature
+    template: feature
+  config:
+    labelField: title
+- type: text
+  name: type
+  label: Object Type
+  description: The type of the object
+  hidden: true
+  default: features_section
+  config:
+    required: true

@@ -1,0 +1,40 @@
+{
+    "title": "96",
+    "id": "96",
+    "city": "Bulungan (Bulongan)",
+    "type": "Kabupaten",
+    "province_id": "16",
+    "province": "Kalimantan Utara",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "1298",
+        "district": "Peso"
+    }, {
+        "id": "1299",
+        "district": "Peso Hilir/Ilir"
+    }, {
+        "id": "1300",
+        "district": "Pulau Bunyu"
+    }, {
+        "id": "1301",
+        "district": "Sekatak"
+    }, {
+        "id": "1302",
+        "district": "Tanjung Palas"
+    }, {
+        "id": "1303",
+        "district": "Tanjung Palas Barat"
+    }, {
+        "id": "1304",
+        "district": "Tanjung Palas Tengah"
+    }, {
+        "id": "1305",
+        "district": "Tanjung Palas Timur"
+    }, {
+        "id": "1306",
+        "district": "Tanjung Palas Utara"
+    }, {
+        "id": "1307",
+        "district": "Tanjung Selor"
+    }]
+}

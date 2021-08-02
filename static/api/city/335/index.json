@@ -1,0 +1,40 @@
+{
+    "title": "335",
+    "id": "335",
+    "city": "Paniai",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "10",
+    "data" : [{
+        "id": "4720",
+        "district": "Aradide"
+    }, {
+        "id": "4721",
+        "district": "Bibida"
+    }, {
+        "id": "4722",
+        "district": "Bogobaida"
+    }, {
+        "id": "4723",
+        "district": "Dumadama"
+    }, {
+        "id": "4724",
+        "district": "Ekadide"
+    }, {
+        "id": "4725",
+        "district": "Kebo"
+    }, {
+        "id": "4726",
+        "district": "Paniai Barat"
+    }, {
+        "id": "4727",
+        "district": "Paniai Timur"
+    }, {
+        "id": "4728",
+        "district": "Siriwo"
+    }, {
+        "id": "4729",
+        "district": "Yatamo"
+    }]
+}

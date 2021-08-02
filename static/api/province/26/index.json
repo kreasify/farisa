@@ -1,0 +1,55 @@
+{
+    "title": "26",
+    "id": "26",
+    "province": "Riau",
+    "number_of_cities" : "12",
+    "data" : [{
+        "id": "60",
+        "city": "Bengkalis",
+        "type": "Kabupaten"
+    }, {
+        "id": "120",
+        "city": "Dumai",
+        "type": "Kota"
+    }, {
+        "id": "147",
+        "city": "Indragiri Hilir",
+        "type": "Kabupaten"
+    }, {
+        "id": "148",
+        "city": "Indragiri Hulu",
+        "type": "Kabupaten"
+    }, {
+        "id": "166",
+        "city": "Kampar",
+        "type": "Kabupaten"
+    }, {
+        "id": "187",
+        "city": "Kepulauan Meranti",
+        "type": "Kabupaten"
+    }, {
+        "id": "207",
+        "city": "Kuantan Singingi",
+        "type": "Kabupaten"
+    }, {
+        "id": "350",
+        "city": "Pekanbaru",
+        "type": "Kota"
+    }, {
+        "id": "351",
+        "city": "Pelalawan",
+        "type": "Kabupaten"
+    }, {
+        "id": "381",
+        "city": "Rokan Hilir",
+        "type": "Kabupaten"
+    }, {
+        "id": "382",
+        "city": "Rokan Hulu",
+        "type": "Kabupaten"
+    }, {
+        "id": "406",
+        "city": "Siak",
+        "type": "Kabupaten"
+    }]
+}

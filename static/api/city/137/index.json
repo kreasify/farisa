@@ -1,0 +1,28 @@
+{
+    "title": "137",
+    "id": "137",
+    "city": "Gunungsitoli",
+    "type": "Kota",
+    "province_id": "34",
+    "province": "Sumatera Utara",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "1895",
+        "district": "Gunungsitoli"
+    }, {
+        "id": "1896",
+        "district": "Gunungsitoli Alo'oa"
+    }, {
+        "id": "1897",
+        "district": "Gunungsitoli Barat"
+    }, {
+        "id": "1898",
+        "district": "Gunungsitoli Idanoi"
+    }, {
+        "id": "1899",
+        "district": "Gunungsitoli Selatan"
+    }, {
+        "id": "1900",
+        "district": "Gunungsitoli Utara"
+    }]
+}

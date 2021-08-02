@@ -1,0 +1,58 @@
+{
+    "title": "362",
+    "id": "362",
+    "city": "Polewali Mandar",
+    "type": "Kabupaten",
+    "province_id": "27",
+    "province": "Sulawesi Barat",
+    "number_of_districts" : "16",
+    "data" : [{
+        "id": "5055",
+        "district": "Alu (Allu)"
+    }, {
+        "id": "5056",
+        "district": "Anreapi"
+    }, {
+        "id": "5057",
+        "district": "Balanipa"
+    }, {
+        "id": "5058",
+        "district": "Binuang"
+    }, {
+        "id": "5059",
+        "district": "Bulo"
+    }, {
+        "id": "5060",
+        "district": "Campalagian"
+    }, {
+        "id": "5061",
+        "district": "Limboro"
+    }, {
+        "id": "5062",
+        "district": "Luyo"
+    }, {
+        "id": "5063",
+        "district": "Mapilli"
+    }, {
+        "id": "5064",
+        "district": "Matakali"
+    }, {
+        "id": "5065",
+        "district": "Matangnga"
+    }, {
+        "id": "5066",
+        "district": "Polewali"
+    }, {
+        "id": "5067",
+        "district": "Tapango"
+    }, {
+        "id": "5068",
+        "district": "Tinambung"
+    }, {
+        "id": "5069",
+        "district": "Tubbi Taramanu (Tutar/Tutallu)"
+    }, {
+        "id": "5070",
+        "district": "Wonomulyo"
+    }]
+}

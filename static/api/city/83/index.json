@@ -1,0 +1,25 @@
+{
+    "title": "83",
+    "id": "83",
+    "city": "Bolaang Mongondow Timur",
+    "type": "Kabupaten",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "1116",
+        "district": "Kotabunan"
+    }, {
+        "id": "1117",
+        "district": "Modayag"
+    }, {
+        "id": "1118",
+        "district": "Modayag Barat"
+    }, {
+        "id": "1119",
+        "district": "Nuangan"
+    }, {
+        "id": "1120",
+        "district": "Tutuyan"
+    }]
+}

@@ -1,0 +1,25 @@
+{
+    "title": "35",
+    "id": "35",
+    "city": "Banjarbaru",
+    "type": "Kota",
+    "province_id": "13",
+    "province": "Kalimantan Selatan",
+    "number_of_districts" : "5",
+    "data" : [{
+        "id": "499",
+        "district": "Banjar Baru Selatan"
+    }, {
+        "id": "500",
+        "district": "Banjar Baru Utara"
+    }, {
+        "id": "501",
+        "district": "Cempaka"
+    }, {
+        "id": "502",
+        "district": "Landasan Ulin"
+    }, {
+        "id": "503",
+        "district": "Liang Anggang"
+    }]
+}

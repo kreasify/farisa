@@ -1,0 +1,22 @@
+{
+    "title": "204",
+    "id": "204",
+    "city": "Kotamobagu",
+    "type": "Kota",
+    "province_id": "31",
+    "province": "Sulawesi Utara",
+    "number_of_districts" : "4",
+    "data" : [{
+        "id": "2870",
+        "district": "Kotamobagu Barat"
+    }, {
+        "id": "2871",
+        "district": "Kotamobagu Selatan"
+    }, {
+        "id": "2872",
+        "district": "Kotamobagu Timur"
+    }, {
+        "id": "2873",
+        "district": "Kotamobagu Utara"
+    }]
+}

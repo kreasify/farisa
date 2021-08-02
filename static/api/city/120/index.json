@@ -1,0 +1,31 @@
+{
+    "title": "120",
+    "id": "120",
+    "city": "Dumai",
+    "type": "Kota",
+    "province_id": "26",
+    "province": "Riau",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "1633",
+        "district": "Bukit Kapur"
+    }, {
+        "id": "1634",
+        "district": "Dumai Barat"
+    }, {
+        "id": "1635",
+        "district": "Dumai Kota"
+    }, {
+        "id": "1636",
+        "district": "Dumai Selatan"
+    }, {
+        "id": "1637",
+        "district": "Dumai Timur"
+    }, {
+        "id": "1638",
+        "district": "Medang Kampai"
+    }, {
+        "id": "1639",
+        "district": "Sungai Sembilan"
+    }]
+}

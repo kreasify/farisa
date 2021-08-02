@@ -1,0 +1,28 @@
+{
+    "title": "155",
+    "id": "155",
+    "city": "Jakarta Utara",
+    "type": "Kota",
+    "province_id": "6",
+    "province": "DKI Jakarta",
+    "number_of_districts" : "6",
+    "data" : [{
+        "id": "2123",
+        "district": "Cilincing"
+    }, {
+        "id": "2124",
+        "district": "Kelapa Gading"
+    }, {
+        "id": "2125",
+        "district": "Koja"
+    }, {
+        "id": "2126",
+        "district": "Pademangan"
+    }, {
+        "id": "2127",
+        "district": "Penjaringan"
+    }, {
+        "id": "2128",
+        "district": "Tanjung Priok"
+    }]
+}

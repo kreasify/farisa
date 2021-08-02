@@ -1,0 +1,26 @@
+{{ $site := .Site }}
+{{ $section := .section }}
+<div class="{{ if $section.cover }}relative {{ end }}">
+  {{ if $section.cover }}
+  <div class="relative aspect-w-21 aspect-h-9">
+    {{ $include_dict := dict "image" $section.cover "alt_text" $section.title "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover" }}
+    {{ partial "functions/get_image.html" $include_dict }}
+  </div>
+  {{ end }}
+  <div class="section__body flex flex-col items-center justify-center {{ if $section.cover }}absolute w-full h-full left-0 top-0 z-30{{end}}">
+    {{ if $section.title }}
+    <h1 class="section__title capitalize mb-3">{{ $section.title | humanize }}</h1>
+    {{ end }}
+    {{ if $section.subtitle }}
+    <div class="section__copy">
+      <h4 class="mb-4">{{ $section.subtitle }}</h4>
+    </div>
+    {{ end }}
+    {{ if $section.actions }}
+    <div class="section__actions btn-group">
+      {{ $include_dict := dict "actions" $section.actions }}
+      {{ partial "section_actions.html" $include_dict }}
+    </div>
+    {{ end }}
+  </div>
+</div>

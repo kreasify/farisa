@@ -1,0 +1,31 @@
+{
+    "title": "422",
+    "id": "422",
+    "city": "Solok Selatan",
+    "type": "Kabupaten",
+    "province_id": "32",
+    "province": "Sumatera Barat",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "5812",
+        "district": "Koto Parik Gadang Diateh"
+    }, {
+        "id": "5813",
+        "district": "Pauh Duo"
+    }, {
+        "id": "5814",
+        "district": "Sangir"
+    }, {
+        "id": "5815",
+        "district": "Sangir Balai Janggo"
+    }, {
+        "id": "5816",
+        "district": "Sangir Batang Hari"
+    }, {
+        "id": "5817",
+        "district": "Sangir Jujuan"
+    }, {
+        "id": "5818",
+        "district": "Sungai Pagu"
+    }]
+}

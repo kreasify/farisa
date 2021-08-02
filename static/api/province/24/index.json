@@ -1,0 +1,123 @@
+{
+    "title": "24",
+    "id": "24",
+    "province": "Papua",
+    "number_of_cities" : "29",
+    "data" : [{
+        "id": "16",
+        "city": "Asmat",
+        "type": "Kabupaten"
+    }, {
+        "id": "67",
+        "city": "Biak Numfor",
+        "type": "Kabupaten"
+    }, {
+        "id": "90",
+        "city": "Boven Digoel",
+        "type": "Kabupaten"
+    }, {
+        "id": "111",
+        "city": "Deiyai (Deliyai)",
+        "type": "Kabupaten"
+    }, {
+        "id": "117",
+        "city": "Dogiyai",
+        "type": "Kabupaten"
+    }, {
+        "id": "150",
+        "city": "Intan Jaya",
+        "type": "Kabupaten"
+    }, {
+        "id": "157",
+        "city": "Jayapura",
+        "type": "Kabupaten"
+    }, {
+        "id": "158",
+        "city": "Jayapura",
+        "type": "Kota"
+    }, {
+        "id": "159",
+        "city": "Jayawijaya",
+        "type": "Kabupaten"
+    }, {
+        "id": "180",
+        "city": "Keerom",
+        "type": "Kabupaten"
+    }, {
+        "id": "193",
+        "city": "Kepulauan Yapen (Yapen Waropen)",
+        "type": "Kabupaten"
+    }, {
+        "id": "231",
+        "city": "Lanny Jaya",
+        "type": "Kabupaten"
+    }, {
+        "id": "263",
+        "city": "Mamberamo Raya",
+        "type": "Kabupaten"
+    }, {
+        "id": "264",
+        "city": "Mamberamo Tengah",
+        "type": "Kabupaten"
+    }, {
+        "id": "274",
+        "city": "Mappi",
+        "type": "Kabupaten"
+    }, {
+        "id": "281",
+        "city": "Merauke",
+        "type": "Kabupaten"
+    }, {
+        "id": "284",
+        "city": "Mimika",
+        "type": "Kabupaten"
+    }, {
+        "id": "299",
+        "city": "Nabire",
+        "type": "Kabupaten"
+    }, {
+        "id": "303",
+        "city": "Nduga",
+        "type": "Kabupaten"
+    }, {
+        "id": "335",
+        "city": "Paniai",
+        "type": "Kabupaten"
+    }, {
+        "id": "347",
+        "city": "Pegunungan Bintang",
+        "type": "Kabupaten"
+    }, {
+        "id": "373",
+        "city": "Puncak",
+        "type": "Kabupaten"
+    }, {
+        "id": "374",
+        "city": "Puncak Jaya",
+        "type": "Kabupaten"
+    }, {
+        "id": "392",
+        "city": "Sarmi",
+        "type": "Kabupaten"
+    }, {
+        "id": "443",
+        "city": "Supiori",
+        "type": "Kabupaten"
+    }, {
+        "id": "484",
+        "city": "Tolikara",
+        "type": "Kabupaten"
+    }, {
+        "id": "495",
+        "city": "Waropen",
+        "type": "Kabupaten"
+    }, {
+        "id": "499",
+        "city": "Yahukimo",
+        "type": "Kabupaten"
+    }, {
+        "id": "500",
+        "city": "Yalimo",
+        "type": "Kabupaten"
+    }]
+}

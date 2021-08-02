@@ -1,0 +1,55 @@
+{
+    "title": "175",
+    "id": "175",
+    "city": "Kaur",
+    "type": "Kabupaten",
+    "province_id": "4",
+    "province": "Bengkulu",
+    "number_of_districts" : "15",
+    "data" : [{
+        "id": "2450",
+        "district": "Kaur Selatan"
+    }, {
+        "id": "2451",
+        "district": "Kaur Tengah"
+    }, {
+        "id": "2452",
+        "district": "Kaur Utara"
+    }, {
+        "id": "2453",
+        "district": "Kelam Tengah"
+    }, {
+        "id": "2454",
+        "district": "Kinal"
+    }, {
+        "id": "2455",
+        "district": "Luas"
+    }, {
+        "id": "2456",
+        "district": "Lungkang Kule"
+    }, {
+        "id": "2457",
+        "district": "Maje"
+    }, {
+        "id": "2458",
+        "district": "Muara Sahung"
+    }, {
+        "id": "2459",
+        "district": "Nasal"
+    }, {
+        "id": "2460",
+        "district": "Padang Guci Hilir"
+    }, {
+        "id": "2461",
+        "district": "Padang Guci Hulu"
+    }, {
+        "id": "2462",
+        "district": "Semidang Gumai (Gumay)"
+    }, {
+        "id": "2463",
+        "district": "Tanjung Kemuning"
+    }, {
+        "id": "2464",
+        "district": "Tetap (Muara Tetap)"
+    }]
+}

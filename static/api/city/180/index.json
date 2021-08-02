@@ -1,0 +1,31 @@
+{
+    "title": "180",
+    "id": "180",
+    "city": "Keerom",
+    "type": "Kabupaten",
+    "province_id": "24",
+    "province": "Papua",
+    "number_of_districts" : "7",
+    "data" : [{
+        "id": "2526",
+        "district": "Arso"
+    }, {
+        "id": "2527",
+        "district": "Arso Timur"
+    }, {
+        "id": "2528",
+        "district": "Senggi"
+    }, {
+        "id": "2529",
+        "district": "Skamto (Skanto)"
+    }, {
+        "id": "2530",
+        "district": "Towe"
+    }, {
+        "id": "2531",
+        "district": "Waris"
+    }, {
+        "id": "2532",
+        "district": "Web"
+    }]
+}

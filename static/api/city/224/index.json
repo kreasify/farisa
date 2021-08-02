@@ -1,0 +1,61 @@
+{
+    "title": "224",
+    "id": "224",
+    "city": "Lampung Selatan",
+    "type": "Kabupaten",
+    "province_id": "18",
+    "province": "Lampung",
+    "number_of_districts" : "17",
+    "data" : [{
+        "id": "3155",
+        "district": "Bakauheni"
+    }, {
+        "id": "3156",
+        "district": "Candipuro"
+    }, {
+        "id": "3157",
+        "district": "Jati Agung"
+    }, {
+        "id": "3158",
+        "district": "Kalianda"
+    }, {
+        "id": "3159",
+        "district": "Katibung"
+    }, {
+        "id": "3160",
+        "district": "Ketapang"
+    }, {
+        "id": "3161",
+        "district": "Merbau Mataram"
+    }, {
+        "id": "3162",
+        "district": "Natar"
+    }, {
+        "id": "3163",
+        "district": "Palas"
+    }, {
+        "id": "3164",
+        "district": "Penengahan"
+    }, {
+        "id": "3165",
+        "district": "Rajabasa"
+    }, {
+        "id": "3166",
+        "district": "Sidomulyo"
+    }, {
+        "id": "3167",
+        "district": "Sragi"
+    }, {
+        "id": "3168",
+        "district": "Tanjung Bintang"
+    }, {
+        "id": "3169",
+        "district": "Tanjung Sari"
+    }, {
+        "id": "3170",
+        "district": "Way Panji"
+    }, {
+        "id": "3171",
+        "district": "Way Sulan"
+    }]
+}

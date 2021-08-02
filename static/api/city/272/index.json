@@ -1,0 +1,37 @@
+{
+    "title": "272",
+    "id": "272",
+    "city": "Manokwari",
+    "type": "Kabupaten",
+    "province_id": "25",
+    "province": "Papua Barat",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "3832",
+        "district": "Manokwari Barat"
+    }, {
+        "id": "3833",
+        "district": "Manokwari Selatan"
+    }, {
+        "id": "3834",
+        "district": "Manokwari Timur"
+    }, {
+        "id": "3835",
+        "district": "Manokwari Utara"
+    }, {
+        "id": "3836",
+        "district": "Masni"
+    }, {
+        "id": "3837",
+        "district": "Prafi"
+    }, {
+        "id": "3838",
+        "district": "Sidey"
+    }, {
+        "id": "3839",
+        "district": "Tanah Rubuh"
+    }, {
+        "id": "3840",
+        "district": "Warmare"
+    }]
+}

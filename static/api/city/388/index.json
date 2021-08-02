@@ -1,0 +1,67 @@
+{
+    "title": "388",
+    "id": "388",
+    "city": "Sambas",
+    "type": "Kabupaten",
+    "province_id": "12",
+    "province": "Kalimantan Barat",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "5366",
+        "district": "Galing"
+    }, {
+        "id": "5367",
+        "district": "Jawai"
+    }, {
+        "id": "5368",
+        "district": "Jawai Selatan"
+    }, {
+        "id": "5369",
+        "district": "Paloh"
+    }, {
+        "id": "5370",
+        "district": "Pemangkat"
+    }, {
+        "id": "5371",
+        "district": "Sajad"
+    }, {
+        "id": "5372",
+        "district": "Sajingan Besar"
+    }, {
+        "id": "5373",
+        "district": "Salatiga"
+    }, {
+        "id": "5374",
+        "district": "Sambas"
+    }, {
+        "id": "5375",
+        "district": "Sebawi"
+    }, {
+        "id": "5376",
+        "district": "Sejangkung"
+    }, {
+        "id": "5377",
+        "district": "Selakau"
+    }, {
+        "id": "5378",
+        "district": "Selakau Timur"
+    }, {
+        "id": "5379",
+        "district": "Semparuk"
+    }, {
+        "id": "5380",
+        "district": "Subah"
+    }, {
+        "id": "5381",
+        "district": "Tangaran"
+    }, {
+        "id": "5382",
+        "district": "Tebas"
+    }, {
+        "id": "5383",
+        "district": "Tekarang"
+    }, {
+        "id": "5384",
+        "district": "Teluk Keramat"
+    }]
+}

@@ -1,0 +1,64 @@
+{
+    "title": "132",
+    "id": "132",
+    "city": "Gowa",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "18",
+    "data" : [{
+        "id": "1810",
+        "district": "Bajeng"
+    }, {
+        "id": "1811",
+        "district": "Bajeng Barat"
+    }, {
+        "id": "1812",
+        "district": "Barombong"
+    }, {
+        "id": "1813",
+        "district": "Biringbulu"
+    }, {
+        "id": "1814",
+        "district": "Bontolempangang"
+    }, {
+        "id": "1815",
+        "district": "Bontomarannu"
+    }, {
+        "id": "1816",
+        "district": "Bontonompo"
+    }, {
+        "id": "1817",
+        "district": "Bontonompo Selatan"
+    }, {
+        "id": "1818",
+        "district": "Bungaya"
+    }, {
+        "id": "1819",
+        "district": "Manuju"
+    }, {
+        "id": "1820",
+        "district": "Pallangga"
+    }, {
+        "id": "1821",
+        "district": "Parangloe"
+    }, {
+        "id": "1822",
+        "district": "Parigi"
+    }, {
+        "id": "1823",
+        "district": "Pattallassang"
+    }, {
+        "id": "1824",
+        "district": "Somba Opu (Upu)"
+    }, {
+        "id": "1825",
+        "district": "Tinggimoncong"
+    }, {
+        "id": "1826",
+        "district": "Tombolo Pao"
+    }, {
+        "id": "1827",
+        "district": "Tompobulu"
+    }]
+}

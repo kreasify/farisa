@@ -1,0 +1,70 @@
+<footer class="site-footer footer">
+    <div class="bg-footer-primary">
+        <div class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-6">
+            <div class="grid grid-cols-3 gap-6">
+                {{- if $.Site.Params.footer.has_widget }}
+                {{- if $.Site.Params.footer.has_widget_left }}
+                <div class="col-span-3 lg:col-span-1">
+                    <section class="footer-widget text-footer-text-primary">
+                        {{ range $section := $.Site.Params.footer.widgets_left }}
+                        {{- $include_dict := dict "section" $section }}
+                        {{- $component := print $section.type ".html" }}
+                        {{ partial $component $include_dict }}
+                        {{- end }}
+                    </section>
+                </div>
+                {{- end }}
+                {{- if $.Site.Params.footer.has_widget_center }}
+                <div class="col-span-3 lg:col-span-1">
+                    <section class="footer-widget text-footer-text-primary">
+                        {{- range $section := $.Site.Params.footer.widgets_center }}
+                        {{- $include_dict := dict "section" $section }}
+                        {{- $component := print $section.type ".html" }}
+                        {{ partial $component $include_dict }}
+                        {{- end }}
+                    </section>
+                </div>
+                {{- end }}
+                {{- if $.Site.Params.footer.has_widget_right }}
+                <div class="col-span-3 lg:col-span-1">
+                    <section class="sidebar-widget text-footer-text-primary">
+                        {{- range $section := $.Site.Params.footer.widgets_right }}
+                        {{- $include_dict := dict "section" $section }}
+                        {{- $component := print $section.type ".html" }}
+                        {{ partial $component $include_dict }}
+                        {{- end }}
+                    </section>
+                </div>
+                {{- end }}
+                {{- end }}
+            </div>
+        </div>
+    </div>
+    <div class="bg-footer border-t border-solid border-footer-text-secondary">
+        <div
+            class="footer__copyright container w-full max-w-screen-xl mx-auto grid grid-cols-12 px-3 lg:px-12 pt-6 pb-6">
+            <div class="footer__credit col-span-12 lg:col-span-6 mb-6 lg:mb-0">
+                {{- if .Site.Params.footer.content }}
+                <span class="text-footer-text-primary">{{ $.Site.Params.footer.content | safeHTML }}</span>
+                {{- end }}
+            </div>
+            <div class="footer__social col-span-12 lg:col-span-6">
+                {{- $data := site.Params }}
+                {{- if $data.footer.has_social }}
+                <div class="footer__social-content flex items-center justify-center lg:justify-end">
+                    {{- range $social := $data.footer.social_links }}
+                    {{- $include_dict := dict "social" $social }}
+                    {{ partial "social.html" $include_dict }}
+                    {{- end }}
+                </div>
+                {{- end }}
+                <div class="footer__arrow fixed bottom-6 right-6">
+                    <a href="#site-main"
+                        class="scroll-top text-footer-text-primary border border-solid border-gray-300 inline-block py-1 px-2">
+                        {{ partial "svg/icon-arrow-up.svg" (dict "class" "w-4 h-4 inline-block fill-current text-current") }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,34 @@
+{
+    "title": "423",
+    "id": "423",
+    "city": "Soppeng",
+    "type": "Kabupaten",
+    "province_id": "28",
+    "province": "Sulawesi Selatan",
+    "number_of_districts" : "8",
+    "data" : [{
+        "id": "5819",
+        "district": "Citta"
+    }, {
+        "id": "5820",
+        "district": "Donri-Donri"
+    }, {
+        "id": "5821",
+        "district": "Ganra"
+    }, {
+        "id": "5822",
+        "district": "Lalabata"
+    }, {
+        "id": "5823",
+        "district": "Lili Rilau"
+    }, {
+        "id": "5824",
+        "district": "Liliraja (Lili Riaja)"
+    }, {
+        "id": "5825",
+        "district": "Mario Riawa"
+    }, {
+        "id": "5826",
+        "district": "Mario Riwawo"
+    }]
+}

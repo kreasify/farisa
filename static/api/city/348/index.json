@@ -1,0 +1,67 @@
+{
+    "title": "348",
+    "id": "348",
+    "city": "Pekalongan",
+    "type": "Kabupaten",
+    "province_id": "10",
+    "province": "Jawa Tengah",
+    "number_of_districts" : "19",
+    "data" : [{
+        "id": "4891",
+        "district": "Bojong"
+    }, {
+        "id": "4892",
+        "district": "Buaran"
+    }, {
+        "id": "4893",
+        "district": "Doro"
+    }, {
+        "id": "4894",
+        "district": "Kajen"
+    }, {
+        "id": "4895",
+        "district": "Kandangserang"
+    }, {
+        "id": "4896",
+        "district": "Karanganyar"
+    }, {
+        "id": "4897",
+        "district": "Karangdadap"
+    }, {
+        "id": "4898",
+        "district": "Kedungwuni"
+    }, {
+        "id": "4899",
+        "district": "Kesesi"
+    }, {
+        "id": "4900",
+        "district": "Lebakbarang"
+    }, {
+        "id": "4901",
+        "district": "Paninggaran"
+    }, {
+        "id": "4902",
+        "district": "Petungkriono/Petungkriyono"
+    }, {
+        "id": "4903",
+        "district": "Siwalan"
+    }, {
+        "id": "4904",
+        "district": "Sragi"
+    }, {
+        "id": "4905",
+        "district": "Talun"
+    }, {
+        "id": "4906",
+        "district": "Tirto"
+    }, {
+        "id": "4907",
+        "district": "Wiradesa"
+    }, {
+        "id": "4908",
+        "district": "Wonokerto"
+    }, {
+        "id": "4909",
+        "district": "Wonopringgo"
+    }]
+}

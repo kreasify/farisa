@@ -1,0 +1,32 @@
+{{- $site := .Site }}
+{{- $recent := where .Site.RegularPages "Type" "in" "blog" }}
+{{- $recent_num := (.Site.Params.sidebar.recent_num | default 10) }}
+{{- if $recent }}
+<section class="widget__category lg:pl-3 mb-6">
+    <header class=" mb-4">
+        <h3 class="capitalize text-header-text font-heading  mb-0">Artikel Terbaru</h3>
+    </header>
+	<ul class="list-none pl-0">
+		{{- range first $recent_num $recent }}
+		<li class="mb-3">
+			<a href="{{ .RelPermalink }}">
+				<div class="grid grid-cols-12 gap-4">
+					{{- if .Params.thumbnail }}
+					<div class="widget__recent-media col-span-3">
+						{{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "class" "rounded-md" "aspect" "aspect-w-1 aspect-h-1" "aspect_w" "1" "aspect_h" "1" "resized" "110x110 q100 webp" "is_fill" true }}
+						{{ partial "image.html" $include_dict }}
+					</div>
+					{{- end }}
+					<div class="widget__recent-body col-span-9">
+						<h4 class="font-heading mb-0">{{ .Title }}</h4>
+						<div class="widget__recent-meta mb-2">
+							<time class="text-sm text-header-text-secondary">{{ with .Params.dateFormat }}{{ .Date.Format . }}{{ else }}{{ .Date.Format "02 January 2006" }}{{ end }}</time>
+						</div>
+					</div>
+				</div>
+			</a>
+		</li>
+		{{- end }}
+	</ul>
+</section>
+{{- end }}

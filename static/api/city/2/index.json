@@ -1,0 +1,37 @@
+{
+    "title": "2",
+    "id": "2",
+    "city": "Aceh Barat Daya",
+    "type": "Kabupaten",
+    "province_id": "21",
+    "province": "Nanggroe Aceh Darussalam (NAD)",
+    "number_of_districts" : "9",
+    "data" : [{
+        "id": "13",
+        "district": "Babah Rot"
+    }, {
+        "id": "14",
+        "district": "Blang Pidie"
+    }, {
+        "id": "15",
+        "district": "Jeumpa"
+    }, {
+        "id": "16",
+        "district": "Kuala Batee"
+    }, {
+        "id": "17",
+        "district": "Lembah Sabil"
+    }, {
+        "id": "18",
+        "district": "Manggeng"
+    }, {
+        "id": "19",
+        "district": "Setia"
+    }, {
+        "id": "20",
+        "district": "Susoh"
+    }, {
+        "id": "21",
+        "district": "Tangan-Tangan"
+    }]
+}

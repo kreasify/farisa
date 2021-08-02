@@ -1,0 +1,47 @@
+{
+    "title": "4",
+    "id": "4",
+    "province": "Bengkulu",
+    "number_of_cities" : "10",
+    "data" : [{
+        "id": "62",
+        "city": "Bengkulu",
+        "type": "Kota"
+    }, {
+        "id": "63",
+        "city": "Bengkulu Selatan",
+        "type": "Kabupaten"
+    }, {
+        "id": "64",
+        "city": "Bengkulu Tengah",
+        "type": "Kabupaten"
+    }, {
+        "id": "65",
+        "city": "Bengkulu Utara",
+        "type": "Kabupaten"
+    }, {
+        "id": "175",
+        "city": "Kaur",
+        "type": "Kabupaten"
+    }, {
+        "id": "183",
+        "city": "Kepahiang",
+        "type": "Kabupaten"
+    }, {
+        "id": "233",
+        "city": "Lebong",
+        "type": "Kabupaten"
+    }, {
+        "id": "294",
+        "city": "Muko Muko",
+        "type": "Kabupaten"
+    }, {
+        "id": "379",
+        "city": "Rejang Lebong",
+        "type": "Kabupaten"
+    }, {
+        "id": "397",
+        "city": "Seluma",
+        "type": "Kabupaten"
+    }]
+}

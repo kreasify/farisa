@@ -1,0 +1,46 @@
+{
+    "title": "48",
+    "id": "48",
+    "city": "Batam",
+    "type": "Kota",
+    "province_id": "17",
+    "province": "Kepulauan Riau",
+    "number_of_districts" : "12",
+    "data" : [{
+        "id": "673",
+        "district": "Batam Kota"
+    }, {
+        "id": "674",
+        "district": "Batu Aji"
+    }, {
+        "id": "675",
+        "district": "Batu Ampar"
+    }, {
+        "id": "676",
+        "district": "Belakang Padang"
+    }, {
+        "id": "677",
+        "district": "Bengkong"
+    }, {
+        "id": "678",
+        "district": "Bulang"
+    }, {
+        "id": "679",
+        "district": "Galang"
+    }, {
+        "id": "680",
+        "district": "Lubuk Baja"
+    }, {
+        "id": "681",
+        "district": "Nongsa"
+    }, {
+        "id": "682",
+        "district": "Sagulung"
+    }, {
+        "id": "683",
+        "district": "Sei/Sungai Beduk"
+    }, {
+        "id": "684",
+        "district": "Sekupang"
+    }]
+}
