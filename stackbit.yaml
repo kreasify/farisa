@@ -119,6 +119,11 @@ models:
             name: author
             const: author
             hidden: true
+          - type: string
+            label: Author
+            name: author
+            const: author
+            hidden: true
       - type: list
         name: disableKinds
         label: Disable Kinds
