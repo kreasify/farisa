@@ -235,7 +235,7 @@ menu:
   main:
     - identifier: home
       name: Home
-      url: '/'
+      url: "/"
       weight: 1
     - identifier: hijacket
       name: Katalog Hijacket
