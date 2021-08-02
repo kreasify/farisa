@@ -120,9 +120,9 @@ models:
             const: author
             hidden: true
           - type: string
-            label: Author
-            name: author
-            const: author
+            label: Brand
+            name: brand
+            const: brand
             hidden: true
       - type: list
         name: disableKinds
