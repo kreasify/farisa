@@ -129,6 +129,11 @@ models:
             name: collection
             const: collection
             hidden: true
+          - type: string
+            label: Collection
+            name: collection
+            const: collection
+            hidden: true
       - type: list
         name: disableKinds
         label: Disable Kinds
