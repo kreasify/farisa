@@ -142,9 +142,7 @@ models:
           type: enum
           options:
             - RSS
-            - sitemap
             - robotsTXT
-            - '404'
         hidden: true
       - type: boolean
         name: uglyURLs
