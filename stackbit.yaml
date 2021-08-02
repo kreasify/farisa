@@ -72,9 +72,9 @@ models:
             label: Koleksi
             description: Link Koleksi
           - type: string
-            name: collections
-            label: Koleksi
-            description: Link Koleksi
+            name: color
+            label: Warna
+            description: Link Warna
       - type: object
         name: params
         label: Params
