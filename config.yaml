@@ -21,7 +21,7 @@ outputs:
 params:
   palette: coffee
   colors:
-    header_text: ''
+    header_text: 'red'
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
   contact:
