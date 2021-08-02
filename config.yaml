@@ -150,7 +150,7 @@ params:
         template: widget_tags
       - type: widget_contact_section
         template: widget_contact_section
-                phone: 123456789
+        phone: 123456789
         whatsapp: 6285156514890
         email: hijacket.cs@gmail.com
         address: 'Jl. Mahmud No. 109 Rahayu, Margaasih, Kab. Bandung. 40218'
