@@ -233,7 +233,7 @@ build:
   writeStats: true
 menu:
   main:
-    - identifier = "category1"
+    - identifier: 
       url: '#'
       name: Home
       weight: 1
