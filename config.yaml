@@ -243,6 +243,7 @@ menu:
       weight: 2
     - identifier: alcavella
       name: Katalog Alcavella
+      url: "/alcavella"
       weight: 3
     - url: '#'
       name: Micro Mask
