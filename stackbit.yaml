@@ -52,7 +52,7 @@ models:
         required: true
         fields:
           - type: string
-            name: description
+            name: authors
             label: Deskripsi Website
             description: deskripsi website yang digunakan dalam meta.
       - type: object
