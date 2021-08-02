@@ -115,9 +115,9 @@ models:
             const: category
             hidden: true
           - type: string
-            label: Category
-            name: category
-            const: category
+            label: Author
+            name: author
+            const: author
             hidden: true
       - type: list
         name: disableKinds
