@@ -60,9 +60,9 @@ models:
             label: Tags
             description: Tags
           - type: string
-            name: tags
-            label: Tags
-            description: Tags
+            name: categories
+            label: Kategori
+            description: Kategori
       - type: object
         name: params
         label: Params
