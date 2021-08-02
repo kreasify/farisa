@@ -80,11 +80,11 @@ models:
             name: shop
             label: Shop
             description: Link Shop
-          - type: model
-            name: header
-            label: Header Configuration
-            models:
-              - header
+      - type: model
+        name: header
+        label: Header Configuration
+        models:
+          - header
       - type: object
         name: params
         label: Params
