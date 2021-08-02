@@ -7,7 +7,7 @@ menu:
   main:
     name: camila
     weight: 70
-    parent: Katalog Alcavella
+    parent: alcavella
     params:
       label: new
       class: bg-accent
