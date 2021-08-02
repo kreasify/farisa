@@ -249,6 +249,6 @@ menu:
       name: Micro Mask
       url: "/micromask"
       weight: 4
-    - url: '#'
+    - identifier: warna
       name: Koleksi Warna
       weight: 5
