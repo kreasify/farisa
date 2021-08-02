@@ -56,8 +56,8 @@ models:
             label: Penulis
             description: Nama Penulis
           - type: string
-            name: authors
-            label: Penulis
+            name: tags
+            label: Tags
             description: Nama Penulis
       - type: object
         name: params
