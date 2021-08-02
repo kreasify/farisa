@@ -1,5 +1,10 @@
 {{ $widget := .widget }}
 <div class="widget widget__footer-menu col-span-3 lg:col-span-1">
+    {{- if $widget.title }}
+    <header class="widget widget_section relative after:empty-content after:absolute after:w-12 after:h-2px after:bg-white after:transition after:duration-500 after:ease-out mb-8">
+        <h4 class="section__title text-footer-text font-medium mb-3">{{ $widget.title }}</h4>
+    </header>
+    {{- end }}
   <nav class="navbar">
     <ul class="navbar__menu menu">
       {{ range $widget.links }}
