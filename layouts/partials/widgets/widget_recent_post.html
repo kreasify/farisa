@@ -2,7 +2,7 @@
 {{- $recent := where .Site.RegularPages "Type" "in" "blog" }}
 {{- $recent_num := (.Site.Params.sidebar.recent_num | default 10) }}
 {{- if $recent }}
-<section class="widget__category lg:pl-3 mb-6">
+<section class="widget__category col-span-3 lg:col-span-1 lg:pl-3 mb-6">
     <header class=" mb-4">
         <h3 class="capitalize text-header-text font-heading  mb-0">Artikel Terbaru</h3>
     </header>
