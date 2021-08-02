@@ -71,6 +71,10 @@ models:
             name: collections
             label: Koleksi
             description: Link Koleksi
+          - type: string
+            name: collections
+            label: Koleksi
+            description: Link Koleksi
       - type: object
         name: params
         label: Params
