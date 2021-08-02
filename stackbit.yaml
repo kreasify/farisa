@@ -53,7 +53,7 @@ models:
         fields:
           - type: string
             name: authors
-            label: Deskripsi Website
+            label: Penulis
             description: deskripsi website yang digunakan dalam meta.
       - type: object
         name: params
