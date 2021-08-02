@@ -237,7 +237,7 @@ menu:
       name: Home
       url: '#'
       weight: 1
-    - url: '#'
+    - identifier: hijacket
       name: Katalog Hijacket
       weight: 2
     - url: '#'
