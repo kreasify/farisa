@@ -109,6 +109,11 @@ models:
             name: tag
             const: tag
             hidden: true
+          - type: string
+            label: Tag
+            name: tag
+            const: tag
+            hidden: true
       - type: list
         name: disableKinds
         label: Disable Kinds
