@@ -173,9 +173,7 @@ params:
         url: 'https://facebook.com/hijacket.net'
         style: link
         new_window: true
-      - type: social
-        template: social
-        label: Twitter
+      - label: Twitter
         icon: twitter
         url: 'https://twitter.com/hijacket'
         style: link
