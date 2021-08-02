@@ -39,3 +39,13 @@
     {{ end }}
   </div>
 </div>
+
+                <div class="col-span-3 lg:col-span-1">
+                    <section class="footer-widget text-footer-text-primary">
+                        {{ range $section := $.Site.Params.footer.widgets_left }}
+                        {{- $include_dict := dict "section" $section }}
+                        {{- $component := print $section.type ".html" }}
+                        {{ partial $component $include_dict }}
+                        {{- end }}
+                    </section>
+                </div>
