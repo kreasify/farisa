@@ -256,4 +256,4 @@ menu:
     - identifier: avia
       name: Hijacket Avia
       url: "/warna"
-      weight: 5
+      weight: 1
