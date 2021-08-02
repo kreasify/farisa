@@ -37,8 +37,8 @@ models:
     fields:
       - type: string
         name: title
-        label: Title
-        description: Site title
+        label: Judul
+        description: 
         required: true
       - type: string
         name: baseURL
