@@ -1,40 +1,40 @@
-{{- $site := .widget }}
+{{- $widget := .widget }}
 <section class="footer-widget col-span-3 lg:col-span-1 text-footer-text-primary">
   <div class="contact text-sm text-gray-700">
-    {{- if $site.phone }}
+    {{- if $widget.phone }}
     <div class="flex items-center mb-2">
       <span
         class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
         {{ partial "svg/icon-telephone.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
       </span>
-      <p class="text-gray-50 mb-0">WhatsApp • {{ string $site.phone }}</p>
+      <p class="text-gray-50 mb-0">WhatsApp • {{ string $widget.phone }}</p>
     </div>
     {{- end }}
-    {{- if $site.whatsapp }}
+    {{- if $widget.whatsapp }}
     <div class="flex items-center mb-2">
       <span
         class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
         {{ partial "svg/icon-whatsapp-lite.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
       </span>
-      <p class="text-gray-50 mb-0">WhatsApp • {{ string $site.whatsapp }}</p>
+      <p class="text-gray-50 mb-0">WhatsApp • {{ string $widget.whatsapp }}</p>
     </div>
     {{- end }}
-    {{- if $site.email }}
+    {{- if $widget.email }}
     <div class="flex items-center mb-2">
       <span
         class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
         {{ partial "svg/icon-message.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
       </span>
-      <p class="text-gray-50 mb-0">Email • {{ $site.email }}</p>
+      <p class="text-gray-50 mb-0">Email • {{ $widget.email }}</p>
     </div>
     {{- end }}
-    {{- if $site.address }}
+    {{- if $widget.address }}
     <div class="flex items-center mb-2">
       <span
         class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
         {{ partial "svg/icon-pin.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
       </span>
-      <p class="text-gray-50 mb-0">{{ $site.address }}</p>
+      <p class="text-gray-50 mb-0">{{ $widget.address }}</p>
     </div>
     {{- end }}
   </div>
