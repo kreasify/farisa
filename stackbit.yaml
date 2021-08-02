@@ -77,7 +77,7 @@ models:
             description: Link Warna
           - type: string
             name: shop
-            label: Warna
+            label: Shop
             description: Link Warna
       - type: object
         name: params
