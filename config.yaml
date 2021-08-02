@@ -132,11 +132,8 @@ params:
     recent_num: 8
     sections:
       - type: widget_recent_post
-        template: widget_recent_post
       - type: widget_categories
-        template: widget_categories
       - type: widget_tags
-        template: widget_tags
   footer:
     type: footer
     template: footer
