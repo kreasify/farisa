@@ -64,8 +64,8 @@ models:
             label: Kategori
             description: Kategori
           - type: string
-            name: categories
-            label: Kategori
+            name: pages
+            label: Halaman
             description: Kategori
       - type: object
         name: params
