@@ -54,7 +54,7 @@ models:
           - type: string
             name: authors
             label: Penulis
-            description: Nama Penulis
+            description: Link Penulis
           - type: string
             name: tags
             label: Tags
