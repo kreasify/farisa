@@ -677,7 +677,7 @@ models:
         label: Has Sub-Navigation
         default: false
       - type: list
-        name: subnav_links
+        name: main
         label: Sub-Navigation Links
         items:
           type: model
