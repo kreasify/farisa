@@ -157,6 +157,7 @@ params:
             url: /kontak-kami
           - type: action
             url: /faq
+      - type: widget_tags
     has_widget_left: true
     has_widget_center: true
     has_widget_right: true
