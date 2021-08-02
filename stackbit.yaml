@@ -62,7 +62,7 @@ models:
           - type: string
             name: categories
             label: Kategori
-            description: Kategori
+            description: Link Kategori
           - type: string
             name: pages
             label: Halaman
