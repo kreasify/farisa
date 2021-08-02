@@ -35,9 +35,6 @@ models:
     type: data
     label: Konfigurasi Website
     file: config.yaml
-
-    type: config
-    label: Konfigurasi Website
     fields:
       - type: string
         name: title
