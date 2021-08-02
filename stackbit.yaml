@@ -59,6 +59,7 @@ models:
             name: tags
             label: Tags
             description: Tags
+            
       - type: object
         name: params
         label: Params
