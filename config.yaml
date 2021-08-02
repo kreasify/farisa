@@ -253,3 +253,7 @@ menu:
       name: Koleksi Warna
       url: "/warna"
       weight: 5
+    - identifier: avia
+      name: Koleksi Warna
+      url: "/warna"
+      weight: 5
