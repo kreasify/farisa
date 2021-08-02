@@ -1,20 +1,20 @@
-{{- $categories := .Site.Taxonomies.categories }}
-{{- if gt (len $categories) 0 }}
-<section class="widget__category col-span-3 lg:col-span-1 lg:pl-3 mb-6">
-    <header class=" mb-4">
-        <h3 class="capitalize text-header-text font-heading mb-0">Categories</h3>
+{{ $widget := .widget }}
+<section class="widget widget__footer-menu col-span-3 lg:col-span-1">
+    {{- if $widget.title }}
+    <header class="widget widget_section relative after:empty-content after:absolute after:w-12 after:h-2px after:bg-white after:transition after:duration-500 after:ease-out mb-8">
+        <h4 class="section__title text-footer-text font-medium mb-3">{{ $widget.title }}</h4>
     </header>
-	<ul class="widget__list list-none pl-0">
-		{{- range $name, $taxonomy := $categories }}
-		{{- with $.Site.GetPage (printf "/categories/%s" $name) }}
-		<li class="mb-2">
-			<a class="text-header-text-primary" href="{{ .RelPermalink }}" title="{{ .Title }}">{{- .Title }}</a>
-			{{- if .Site.Params.sidebar.is_categories_counter }}
-			<span class="text-sm text-header-text-primary">({{- $taxonomy.Count }})</span>
-			{{- end }}
-		</li>
-		{{- end }}
-		{{- end }}
-	</ul>
+    {{- end }}
+    {{- if $widget.links }}
+    <nav class="navbar">
+        <ul class="navbar__menu menu">
+            {{- range $widget.links }}
+            <li>
+            <a class="text-sm text-footer-text"
+                href="{{ .url | absURL }}" {{ if .new_window }}target="_blank" rel="noopener" {{ end }}>{{ .label }}</a>
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+    {{- end }}
 </section>
-{{- end }}
