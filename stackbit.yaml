@@ -163,7 +163,7 @@ models:
     labelField: title
     fields:
       - type: list
-        name: nav_links
+        name: main
         label: Navigation Menu Links
         description: List of navigation links in header
         items:
