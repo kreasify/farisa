@@ -33,9 +33,9 @@ pageData:
 models:
   config:
     type: data
-    label: Config
+    label: Konfigurasi Website
     file: config.yml
-    
+
     type: config
     label: Konfigurasi Website
     fields:
