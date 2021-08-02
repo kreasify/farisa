@@ -58,7 +58,7 @@ models:
           - type: string
             name: tags
             label: Tags
-            description: Nama Penulis
+            description: Tags
       - type: object
         name: params
         label: Params
