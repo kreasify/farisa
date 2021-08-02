@@ -140,6 +140,17 @@ params:
     sections:
       - type: widget_categories
       - type: widget_tags
+      - type: widget_menu
+        title: Informasi
+        links:
+          - label: Syarat dan Ketentuan
+            url: /syarat-dan-ketentuan
+          - label: Tentang Kami
+            url: /tentang-kami
+          - label: Kontak Kami
+            url: /kontak-kami
+          - label: FAQ
+            url: /faq
       - type: widget_contact
         title: Kontak Kami
         phone: 123456789
