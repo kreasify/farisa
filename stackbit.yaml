@@ -239,19 +239,6 @@ models:
           type: model
           models:
             - action
-  menu:
-    type: object
-    label: Header Configuration
-    labelField: title
-    fields:
-      - type: list
-        name: main
-        label: Navigation Menu Links
-        description: List of navigation links in header
-        items:
-          type: model
-          models:
-            - action
   person:
     type: data
     label: Person
