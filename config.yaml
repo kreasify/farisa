@@ -1,26 +1,26 @@
-title: Hijacket.net
-baseURL: "/"
+title: Vitoko
+baseURL: /
 LanguageCode: id
 preserveTaxonomyNames: true
 metaDataFormat: yaml
 permalinks:
-  authors: "/author/:slug/"
-  tags: "/tag/:slug/"
-  categories: "/category/:slug/"
-  pages: "/:slug/"
-  collections: "/collection/:slug/"
-  color: "/:slug/"
-  shop: "/:slug/"
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  pages: '/:slug/'
+  collections: '/collection/:slug/'
+  color: '/:slug/'
+  shop: '/:slug/'
 outputs:
   home:
-  - HTML
+    - HTML
   page:
-  - HTML
+    - HTML
   section:
-  - HTML
+    - HTML
 params:
   colors:
-    header_text: ""
+    header_text: ''
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
   contact:
@@ -30,7 +30,7 @@ params:
     shop_name: Hijacket.net
   shipping:
     origin_city: '106'
-    origin_province: 'order'
+    origin_province: order
     jne_oke: true
     jne_reg: true
     jne_yes: true
@@ -57,7 +57,7 @@ params:
   post_author: true
   post_navigation: true
   mainSection:
-  - shop
+    - shop
   header:
     type: header
     template: header
@@ -239,7 +239,7 @@ params:
         phone: 123456789
         whatsapp: 6285156514890
         email: hijacket.cs@gmail.com
-        address: Jl. Mahmud No. 109 Rahayu, Margaasih, Kab. Bandung. 40218
+        address: 'Jl. Mahmud No. 109 Rahayu, Margaasih, Kab. Bandung. 40218'
     has_social: true
     social_links:
       - type: social
@@ -270,8 +270,9 @@ params:
         url: 'https://t.me/hijacket.net'
         style: link
         new_window: true
-    content: '&copy; Copyright 2020 <a href="/">Hijacket.net </a>| Official Partner Of
-          Hijacket Brand Indonesia.'
+    content: >-
+      &copy; Copyright 2020 <a href="/">Hijacket.net </a>| Official Partner Of
+      Hijacket Brand Indonesia.
 taxonomies:
   tag: tags
   category: categories
@@ -282,12 +283,12 @@ taxonomies:
 disableKinds:
   - RSS
 ignoreFiles:
-- "\\.ipynb$"
-- ".ipynb_checkpoints$"
-- "\\.Rmd$"
-- "\\.Rmarkdown$"
-- _files$
-- _cache$
+  - \.ipynb$
+  - .ipynb_checkpoints$
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _files$
+  - _cache$
 imaging:
   resampleFilter: lanczos
   quality: 90
@@ -311,22 +312,21 @@ markup:
       unsafe: false
       xhtml: false
 build:
-  # Used by PurgeCSS
   writeStats: true
 menu:
   main:
-  - url: "#"
-    name: Home
-    weight: 1
-  - url: "#"
-    name: Katalog Hijacket
-    weight: 2
-  - url: "#"
-    name: Katalog Alcavella
-    weight: 3
-  - url: "#"
-    name: Micro Mask
-    weight: 4
-  - url: "#"
-    name: Koleksi Warna
-    weight: 5
+    - url: '#'
+      name: Home
+      weight: 1
+    - url: '#'
+      name: Katalog Hijacket
+      weight: 2
+    - url: '#'
+      name: Katalog Alcavella
+      weight: 3
+    - url: '#'
+      name: Micro Mask
+      weight: 4
+    - url: '#'
+      name: Koleksi Warna
+      weight: 5
