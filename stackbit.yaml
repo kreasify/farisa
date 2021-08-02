@@ -63,6 +63,10 @@ models:
             name: categories
             label: Kategori
             description: Kategori
+          - type: string
+            name: categories
+            label: Kategori
+            description: Kategori
       - type: object
         name: params
         label: Params
