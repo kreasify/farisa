@@ -160,8 +160,6 @@ params:
             url: /panduan-ukuran
           - label: Give Away
             url: /give-away
-            style: link
-            css: text-sm
       - type: widget_contact
         title: Kontak Kami
         phone: 123456789
