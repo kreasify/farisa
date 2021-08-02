@@ -1,5 +1,18 @@
 <footer class="site-footer footer">
     <div class="bg-footer-primary">
+
+
+        {{- if .Site.Params.sidebar.has_widget }}
+        <aside class="sidebar widget col-span-12 lg:col-span-4">
+			 {{- range $widget := .Site.Params.sidebar.sections }}
+			 {{- $include_dict := dict "widget" $widget "Site" $.Site }}
+			 {{- $component := print "widgets/" $widget.type ".html" }}
+			 {{ partial $component $include_dict }}
+			 {{- end }}
+        </aside>
+        {{- end }}
+
+
         <div class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-6">
             <div class="grid grid-cols-3 gap-6">
                 {{- if $.Site.Params.footer.has_widget }}
