@@ -68,8 +68,8 @@ models:
             label: Halaman
             description: Link Halaman
           - type: string
-            name: pages
-            label: Halaman
+            name: collections
+            label: Koleksi
             description: Link Halaman
       - type: object
         name: params
