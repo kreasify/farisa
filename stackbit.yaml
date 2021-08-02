@@ -106,7 +106,7 @@ models:
         fields:
           - type: string
             label: Stub
-            name: stub
+            name: tag
             const: stub
             hidden: true
       - type: list
