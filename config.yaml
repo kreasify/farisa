@@ -234,8 +234,8 @@ build:
 menu:
   main:
     - identifier: home
-      url: '#'
       name: Home
+      url: '#'
       weight: 1
     - url: '#'
       name: Katalog Hijacket
