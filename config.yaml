@@ -153,8 +153,7 @@ params:
           - type: action
             url: /syarat-dan-ketentuan
             style: link
-            css: text-sm
-          - type: action
+
             url: /tentang-kami
             style: link
             css: text-sm
