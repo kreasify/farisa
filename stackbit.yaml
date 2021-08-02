@@ -55,6 +55,7 @@ models:
             name: authors
             label: Penulis
             description: Nama Penulis
+            
       - type: object
         name: params
         label: Params
