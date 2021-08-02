@@ -251,4 +251,5 @@ menu:
       weight: 4
     - identifier: warna
       name: Koleksi Warna
+      url: "/warna"
       weight: 5
