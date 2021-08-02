@@ -150,7 +150,7 @@ params:
           - label: FAQ
             url: /faq
       - type: widget_menu
-        title: Informasi
+        title: Bantuan
         links:
           - label: Syarat dan Ketentuan
             url: /syarat-dan-ketentuan
