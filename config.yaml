@@ -152,12 +152,8 @@ params:
       - type: widget_menu
         title: Bantuan
         links:
-          - type: action
-            template: action
-            label: Cara Belanja
+          - label: Cara Belanja
             url: /cara-order
-            style: link
-            css: text-sm
           - type: action
             template: action
             label: Konfirmasi Pembayaran
