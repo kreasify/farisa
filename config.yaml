@@ -63,7 +63,7 @@ params:
     template: header
     title: Starter
     logo: images/logo-hijacket.png
-    has_nav: true
+    has_nav: false
     sticky_nav: true
     has_navbar: true
     nav_links:
