@@ -168,9 +168,7 @@ params:
         address: 'Jl. Mahmud No. 109 Rahayu, Margaasih, Kab. Bandung. 40218'
     has_social: true
     social_links:
-      - type: social
-        template: social
-        label: Facebook
+      - label: Facebook
         icon: facebook
         url: 'https://facebook.com/hijacket.net'
         style: link
