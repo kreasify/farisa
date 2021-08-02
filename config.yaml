@@ -149,7 +149,7 @@ params:
       - type: widget_tags
         template: widget_tags
       - type: widget_contact_section
-        template: widget_tags
+        template: widget_contact_section
     has_widget_left: true
     has_widget_center: true
     has_widget_right: true
