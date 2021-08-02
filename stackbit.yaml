@@ -221,7 +221,7 @@ models:
           type: model
           models:
             - action
-  header:
+  menu:
     type: object
     label: Header Configuration
     labelField: title
