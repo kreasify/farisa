@@ -60,7 +60,6 @@ params:
     - shop
   header:
     type: header
-    template: header
     title: Starter
     logo: images/logo-hijacket.png
     has_nav: false
