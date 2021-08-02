@@ -30,5 +30,5 @@ menu:
   main:
     name: All Alcavella
     weight: 9
-    parent: Katalog Alcavella
+    parent: alcavella
 ---
