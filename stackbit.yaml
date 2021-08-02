@@ -66,7 +66,7 @@ models:
           - type: string
             name: pages
             label: Halaman
-            description: Kategori
+            description: Link Halaman
       - type: object
         name: params
         label: Params
