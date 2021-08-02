@@ -142,7 +142,7 @@ params:
       - type: widget_recent_post
       - type: widget_categories
       - type: widget_tags
-      - type: widget_contact_section
+      - type: widget_contact
         title: Kontak Kami
         phone: 123456789
         whatsapp: 6285156514890
