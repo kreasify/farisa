@@ -58,7 +58,7 @@ models:
           - type: string
             name: tags
             label: Tags
-            description: Tags
+            description: Link Tags
           - type: string
             name: categories
             label: Kategori
