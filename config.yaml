@@ -252,6 +252,11 @@ menu:
       weight: 4
       params:
         has_submenu: false
+      main:
+        - identifier: lorem-ipsum
+          name: lorem-ipsum
+          url: '#'
+          type: action
     - identifier: alcavella
       name: Katalog Alcavella
       url: /alcavella
