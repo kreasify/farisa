@@ -649,7 +649,7 @@ models:
         label: URL
         required: true
         default: '#'
-  menu_item:
+  submenu_item:
     type: object
     label: Menu Item
     labelField: label
