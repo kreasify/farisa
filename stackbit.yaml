@@ -638,10 +638,6 @@ models:
     extends:
       - action
     fields:
-      - type: model
-        name: params
-        label: Has submenu
-        models: [submenu]
       - type: object
         label: Submenu
         labelField: label
