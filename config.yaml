@@ -241,13 +241,10 @@ menu:
       name: Katalog Hijacket
       url: /hijacket
       weight: 2
-      main: {}
-      params: []
     - identifier: micromask
       name: Micro Mask
       url: /micromask
       weight: 4
-      main: {}
     - identifier: alcavella
       name: Katalog Alcavella
       url: /alcavella
