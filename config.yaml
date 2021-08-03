@@ -244,6 +244,7 @@ menu:
       main: {}
       params:
         - lorem-ipsum
+        - lorem-ipsum
     - identifier: micromask
       name: Micro Mask
       url: /micromask
