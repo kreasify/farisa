@@ -622,49 +622,16 @@ models:
     fields:
       - type: string
         name: identifier
-        label: Label
+        label: Id
       - type: string
         name: name
-        label: Nama
+        label: Label
         required: true
       - type: string
         name: url
         label: URL
         required: true
         default: '#'
-      - type: enum
-        name: style
-        label: Style
-        options:
-          - link
-          - primary
-          - secondary
-          - icon
-        default: link
-        required: true
-      - type: enum
-        name: icon_class
-        label: Icon
-        options:
-          - dev
-          - facebook
-          - github
-          - instagram
-          - linkedin
-          - pinterest
-          - reddit
-          - twitter
-          - vimeo
-          - youtube
-      - type: boolean
-        name: new_window
-        label: Open in new tab/window
-        default: false
-      - type: boolean
-        name: no_follow
-        label: No follow
-        default: false
-        description: Add rel="nofollow" attribute to the link
   action_menu:
     type: object
     label: Parent Action
