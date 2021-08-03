@@ -661,6 +661,7 @@ models:
         name: name
         label: Label
         required: true
+        
       - type: string
         name: url
         label: URL
