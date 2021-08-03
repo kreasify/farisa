@@ -241,12 +241,12 @@ menu:
       name: Katalog Hijacket
       url: /hijacket
       weight: 2
-      main: false
+      main: {}
     - identifier: micromask
       name: Micro Mask
       url: /micromask
       weight: 4
-      main: true
+      main: {}
     - identifier: alcavella
       name: Katalog Alcavella
       url: /alcavella
@@ -260,3 +260,9 @@ menu:
       url: /warna
       parent: hijacket
       weight: 1
+    - identifier: lorem-ipsum
+      name: lorem-ipsum
+      url: '#'
+      parent: lorem-ipsum
+      main: []
+      type: action_menu
