@@ -649,7 +649,7 @@ models:
           type: model
           models:
             - action
-   submenu:
+  submenu:
     type: object
     label: Submenu
     labelField: label
