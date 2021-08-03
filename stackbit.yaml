@@ -634,7 +634,7 @@ models:
         default: '#'
   action_menu:
     type: object
-    label: Parent Action
+    label: Parent Menu
     extends:
       - action
     fields:
