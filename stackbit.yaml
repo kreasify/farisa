@@ -662,7 +662,7 @@ models:
         label: Label
         required: true
       - type: string
-        name: name
+        name: parent
         label: Label
         required: true
       - type: string
