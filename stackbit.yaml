@@ -643,7 +643,7 @@ models:
         label: Has submenu
         models: [submenu]
       - type: boolean
-        name: has_submenu
+        name: params.has_submenu
         label: has submenu
         default: false
       - type: list
