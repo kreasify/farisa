@@ -617,7 +617,7 @@ models:
             - action
   action:
     type: object
-    label: Action
+    label: Action menu
     labelField: label
     fields:
       - type: string
