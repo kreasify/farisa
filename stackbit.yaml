@@ -623,7 +623,6 @@ models:
       - type: string
         name: identifier
         label: Label
-        required: true
       - type: string
         name: name
         label: Nama
