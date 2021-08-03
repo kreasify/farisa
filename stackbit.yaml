@@ -634,7 +634,7 @@ models:
         default: '#'
   menu_item:
     type: object
-    label: Action Menu
+    label: Menu Item
     labelField: label
     fields:
       - type: string
