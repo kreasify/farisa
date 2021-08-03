@@ -164,7 +164,7 @@ models:
     fields:
       - type: list
         name: main
-        label: Navigation Menu
+        label: main Menu
         description: List of navigation links
         items:
           type: model
