@@ -642,6 +642,14 @@ models:
         name: params
         label: Has submenu
         models: [submenu]
+      - type: object
+        label: Submenu
+        labelField: label
+        fields:
+          - type: boolean
+            name: params.has_submenu
+            label: has submenu
+            default: false
       - type: list
         name: main
         label: Sub-Navigation Links
