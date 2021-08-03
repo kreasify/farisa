@@ -687,7 +687,7 @@ models:
         items:
           type: model
           models:
-            - submenu
+            - submenu_item
   submenu:
     type: object
     label: Submenu
