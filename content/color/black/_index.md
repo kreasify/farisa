@@ -4,7 +4,7 @@ description: "warna black"
 date: 2020-12-11T10:30:32+07:00
 slug: black
 sections:
-  - type: hero_s
+  - type: her
     template: hero_section
     title: Warna black
     align: center
