@@ -621,7 +621,7 @@ models:
     labelField: label
     fields:
       - type: string
-        name: label
+        name: identifier
         label: Label
         required: true
       - type: string
