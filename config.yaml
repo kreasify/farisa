@@ -242,8 +242,7 @@ menu:
       url: /hijacket
       weight: 2
       main: {}
-      params:
-        - lorem-ipsum
+      params: []
     - identifier: micromask
       name: Micro Mask
       url: /micromask
