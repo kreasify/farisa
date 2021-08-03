@@ -632,7 +632,7 @@ models:
         label: URL
         required: true
         default: '#'
-  action:
+  menu_item:
     type: object
     label: Action Menu
     labelField: label
