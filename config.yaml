@@ -260,9 +260,3 @@ menu:
       url: /warna
       parent: hijacket
       weight: 1
-    - identifier: lorem-ipsum
-      name: lorem-ipsum
-      url: '#'
-      parent: lorem-ipsum
-      main: []
-      type: action_menu
