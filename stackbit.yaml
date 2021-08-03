@@ -663,7 +663,7 @@ models:
         required: true
       - type: string
         name: parent
-        label: parent Menu
+        label: Parent Menu
         required: true
       - type: string
         name: url
