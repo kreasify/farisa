@@ -649,6 +649,23 @@ models:
         label: URL
         required: true
         default: '#'
+  menu_item:
+    type: object
+    label: Menu Item
+    labelField: label
+    fields:
+      - type: string
+        name: identifier
+        label: Id
+      - type: string
+        name: name
+        label: Label
+        required: true
+      - type: string
+        name: url
+        label: URL
+        required: true
+        default: '#'
   action_menu:
     type: object
     label: Parent Menu
