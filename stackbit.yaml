@@ -638,10 +638,9 @@ models:
     extends:
       - action
     fields:
-      - type: boolean
-        name: main
+      - type: string
+        name: parent
         label: Has Sub-Navigation
-        default: false
       - type: list
         name: main
         label: Sub-Navigation Links
