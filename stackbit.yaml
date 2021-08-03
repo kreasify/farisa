@@ -674,7 +674,7 @@ models:
     type: object
     label: Parent Menu
     extends:
-      - action
+      - menu_item
     fields:
       - type: model
         name: params
