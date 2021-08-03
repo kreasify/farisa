@@ -165,7 +165,7 @@ models:
       - type: list
         name: main
         label: Navigation Menu
-        description: List of navigation links in header
+        description: List of navigation links
         items:
           type: model
           models:
