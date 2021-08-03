@@ -638,9 +638,14 @@ models:
     extends:
       - action
     fields:
-      - type: string
-        name: parent
-        label: Has Sub-Navigation
+      - type: list
+        name: params
+        label: Has submenu
+        items:
+          - type: boolean
+            name: has_subnav
+            label: Has Sub-Navigation
+            default: false
       - type: list
         name: main
         label: Sub-Navigation Links
