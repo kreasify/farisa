@@ -266,9 +266,3 @@ menu:
       parent: lorem-ipsum
       main: []
       type: action_menu
-    - identifier: lorem-ipsum
-      name: lorem-ipsum
-      url: '#'
-      parent: lorem-ipsum
-      main: []
-      type: action_menu
