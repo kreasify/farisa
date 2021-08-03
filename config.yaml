@@ -242,15 +242,6 @@ menu:
       url: /hijacket
       weight: 2
       main: false
-    - label: lorem-ipsum
-      name: lorem-ipsum
-      url: '#'
-      style: link
-      icon_class: dev
-      new_window: false
-      no_follow: false
-      main: []
-      type: action_menu
     - identifier: micromask
       name: Micro Mask
       url: /micromask
