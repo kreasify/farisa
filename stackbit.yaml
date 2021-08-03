@@ -638,14 +638,10 @@ models:
     extends:
       - action
     fields:
-      - type: list
+      - type: model
         name: params
         label: Has submenu
-        items:
-          - type: boolean
-            name: has_subnav
-            label: Has Sub-Navigation
-            default: false
+        models: [submenu]
       - type: list
         name: main
         label: Sub-Navigation Links
@@ -653,3 +649,12 @@ models:
           type: model
           models:
             - action
+   submenu:
+    type: object
+    label: Submenu
+    labelField: label
+    fields:
+      - type: boolean
+        name: has_submenu
+        label: has submenu
+        default: false
