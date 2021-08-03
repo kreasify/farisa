@@ -644,7 +644,7 @@ models:
         fields:
           - type: boolean
             name: params.has_submenu
-            label: has submenu
+            label: has sub
             default: false
       - type: list
         name: main
