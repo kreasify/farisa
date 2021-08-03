@@ -245,7 +245,6 @@ menu:
       weight: 2
       params:
         has_submenu: true
-      params.has_submenu: true
     - identifier: micromask
       name: Micro Mask
       url: /micromask
