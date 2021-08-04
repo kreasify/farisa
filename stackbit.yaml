@@ -680,7 +680,6 @@ models:
         name: params
         label: Has submenu
         models: [submenu]
-        hidden: true
       - type: list
         name: main
         label: Sub-Navigation Links
