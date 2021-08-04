@@ -177,7 +177,7 @@ models:
         items:
           type: model
           models:
-            - action_menu
+            - submenu
   header:
     type: object
     label: Header Configuration
