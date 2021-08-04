@@ -678,7 +678,7 @@ models:
     fields:
       - type: model
         name: params
-        label: Has submenu
+        label: suubmenu
         models: [submenu_item]
       - type: list
         name: main
