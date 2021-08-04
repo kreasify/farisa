@@ -680,7 +680,7 @@ models:
         name: params
         label: submenu Item
         models:
-        submenu
+          - submenu
       - type: list
         name: main
         label: Sub-Navigation Links
