@@ -245,12 +245,7 @@ menu:
       weight: 2
       params:
         has_submenu: true
-      main:
-        - identifier: lorem-ipsum
-          name: lorem-ipsum
-          parent: lorem-ipsum
-          url: '#'
-          type: submenu_item
+      main: []
     - identifier: micromask
       name: Micro Mask
       url: /micromask
