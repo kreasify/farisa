@@ -170,6 +170,7 @@ models:
           type: model
           models:
             - action_menu
+            
   header:
     type: object
     label: Header Configuration
