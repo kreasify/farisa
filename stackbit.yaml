@@ -172,7 +172,7 @@ models:
             - action_menu
       - type: list
         name: main
-        label: Main Menu
+        label: sub Menu
         description: List of navigation links
         items:
           type: model
