@@ -679,7 +679,7 @@ models:
       - type: model
         name: params
         label: Has submenu
-        models: [submenu]
+        models: [submenu_item]
       - type: list
         name: main
         label: Sub-Navigation Links
