@@ -170,7 +170,14 @@ models:
           type: model
           models:
             - action_menu
-            
+      - type: list
+        name: main
+        label: Main Menu
+        description: List of navigation links
+        items:
+          type: model
+          models:
+            - action_menu
   header:
     type: object
     label: Header Configuration
