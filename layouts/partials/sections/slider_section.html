@@ -5,10 +5,10 @@
         <ul class="splide__list">
             {{ range . }}
             <li class="splide__slide relative">
-                <div class="relative aspect-w-16 aspect-h-9">
+                {{- if }}
                     {{ $include_dict := dict "image" .image "class" "absolute w-full h-full left-0 top-0" "alt_text" .alt_text "Site" $.Site }}
                     {{ partial "functions/get_image.html" $include_dict }}
-                </div>
+                
                 <div class="absolute w-full h-full left-0 top-0 flex items-center align-center z-30">
                     <div class="container w-full max-w-screen-xl mx-auto px-6 lg:px-12">
                         <header class="lg:w-1/2 relative">
