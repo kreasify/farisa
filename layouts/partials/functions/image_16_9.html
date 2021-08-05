@@ -21,10 +21,6 @@
         <source media="(max-width: 640px)" srcset="{{ $resizedsm.RelPermalink }} 1x,
             {{- $resizedmd.RelPermalink }} 2x,
             {{- $resizedlg.RelPermalink }} 3x">
-        <img class="image w-full" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}" srcset="{{ $resizedsm.RelPermalink }} 640w,
-            {{- $resizedmd.RelPermalink }} 768w,
-            {{- $resizedlg.RelPermalink }} 1024w,
-            {{- $resizedxl.RelPermalink }} 1280w,
-            {{- $resized2xl.RelPermalink }} 1536w" sizes="90vw" />
+        <img class="image w-full" alt="{{ $alt }}" />
     </picture>
 </div>
