@@ -1,12 +1,11 @@
 stackbitVersion: ~0.3.0
 ssgName: hugo
-ssgVersion: '0.86.1'
-nodeVersion: 12assets
+ssgVersion: 0.86.1
 buildCommand: hugo --gc --minify
 publishDir: public
 staticDir: static
 uploadDir: content/uploads
-dataDir: ""
+dataDir: ''
 pagesDir: content
 pageLayoutKey: layout
 logicFields:
@@ -30,6 +29,7 @@ pageData:
       - '[0].fields.sections.items[0].fields.actions.items[0].fields.label'
       - '[1]'
       - '[1].fields.palette'
+cmsName: git
 models:
   config:
     type: data
@@ -298,7 +298,8 @@ models:
     type: page
     label: Page
     layout: page
-    exclude: blog/**/*
+    exclude:
+      - blog/**/*
     fields:
       - type: string
         name: title
@@ -681,9 +682,19 @@ models:
   action_menu:
     type: object
     label: Parent Menu
-    extends:
-      - menu_item
     fields:
+      - type: string
+        name: identifier
+        label: Id
+      - type: string
+        name: name
+        label: Label
+        required: true
+      - type: string
+        name: url
+        label: URL
+        required: true
+        default: '#'
       - type: model
         name: params
         label: submenu Item
@@ -696,6 +707,7 @@ models:
           type: model
           models:
             - submenu_item
+    labelField: label
   submenu:
     type: object
     label: Submenu
