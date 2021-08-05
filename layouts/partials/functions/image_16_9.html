@@ -33,10 +33,6 @@
     {{- $resizedmd.RelPermalink }} 2x,
     {{- $resizedlg.RelPermalink }} 3x">
 
-  <source media="(min-width: 640px)" srcset="{{ $resizedxs.RelPermalink }} 1x,
-    {{- $resizedsm.RelPermalink }} 2x,
-    {{- $resizedmd.RelPermalink }} 3x">
-
   <img class="absolute w-full h-full left-0 top-0" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}" />
 </picture>
 </div>
