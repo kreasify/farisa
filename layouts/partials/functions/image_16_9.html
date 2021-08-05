@@ -5,7 +5,7 @@
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" $image ) }}
 
 {{- $resizedsm := $imageResource.Fill "640x480 webp" }}
-{{- $resizedmd := $imageResource.Resize "768x432 webp" }}
+{{- $resizedmd := $imageResource.Fill "768x432 webp" }}
 {{- $resizedlg := $imageResource.Resize "1024x webp" }}
 {{- $resizedxl := $imageResource.Resize "1366x webp" }}
 {{- $resized2xl := $imageResource.Resize "1536x webp" }}
