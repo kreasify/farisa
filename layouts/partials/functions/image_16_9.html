@@ -6,7 +6,7 @@
 
 {{- $resizedsm := $imageResource.Fill "640x480 webp" }}
 {{- $resizedmd := $imageResource.Fill "768x432 webp" }}
-{{- $resizedlg := $imageResource.Resize "1024x webp" }}
+{{- $resizedlg := $imageResource.Fill "1024x576 webp" }}
 {{- $resizedxl := $imageResource.Resize "1366x webp" }}
 {{- $resized2xl := $imageResource.Resize "1536x webp" }}
 
