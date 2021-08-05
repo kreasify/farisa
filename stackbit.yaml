@@ -1,6 +1,6 @@
 stackbitVersion: ~0.3.0
 ssgName: hugo
-ssgVersion: 0.86.1
+ssgVersion: 0.87.1
 buildCommand: hugo --gc --minify
 publishDir: public
 staticDir: static
