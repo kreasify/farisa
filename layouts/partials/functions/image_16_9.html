@@ -21,6 +21,6 @@
         <source media="(max-width: 640px)" srcset="{{ $resizedsm.RelPermalink }} 1x,
             {{- $resizedmd.RelPermalink }} 2x,
             {{- $resizedlg.RelPermalink }} 3x">
-        <img class="image w-full" alt="{{ $alt }}" />
+        <img class="image w-full" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}"/>
     </picture>
 </div>
