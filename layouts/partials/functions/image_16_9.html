@@ -7,7 +7,7 @@
 {{- $resizedsm := $imageResource.Fill "640x480 webp" }}
 {{- $resizedmd := $imageResource.Fill "768x432 webp" }}
 {{- $resizedlg := $imageResource.Fill "1024x576 webp" }}
-{{- $resizedxl := $imageResource.Resize "1280x webp" }}
+{{- $resizedxl := $imageResource.Fill "1280x720 webp" }}
 {{- $resized2xl := $imageResource.Resize "1536x webp" }}
 
 <div class="relative aspect-w-16 aspect-h-9">
