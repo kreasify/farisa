@@ -15,9 +15,4 @@ sections:
     url: /color
     label: lihat warna
     filter: color
-menu:
-  main:
-    name: Semua Warna
-    weight: 9
-    parent: Koleksi Warna
 ---

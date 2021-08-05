@@ -1,0 +1,20 @@
+{{- $widget := .widget }}
+<section class="widget col-span-3 lg:col-span-1">
+    {{- if $widget.title }}
+    <header class="widget__header relative after:empty-content after:absolute after:w-12 after:h-2px after:bg-white after:transition after:duration-500 after:ease-out mb-8">
+        <h4 class="widget__title text-footer-text font-medium mb-3">{{ $widget.title }}</h4>
+    </header>
+    {{- end }}
+    {{- if $widget.links }}
+    <nav class="widget_menu">
+        <ul class="list-none px-0">
+            {{- range $widget.links }}
+            <li>
+            <a class="text-sm text-footer-text"
+                href="{{ .url | absURL }}" {{ if .new_window }}target="_blank" rel="noopener" {{ end }}>{{ .label }}</a>
+            </li>
+            {{- end }}
+        </ul>
+    </nav>
+    {{- end }}
+</section>

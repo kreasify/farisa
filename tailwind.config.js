@@ -1,14 +1,7 @@
 const theme = require('tailwindcss/defaultTheme');
-const typography = require('@tailwindcss/typography');
 const aspect_ratio = require('@tailwindcss/aspect-ratio');
-
-//const colorBrand = 'var(--color-pretty)';
-
-// Utils
-const round = (num) => num.toFixed(7).replace(/(\.[0-9]+?)0+$/, '$1').replace(/\.0$/, '');
-const rem = (px) => `${round(px / 16)}rem`;
-const em = (px, base) => `${round(px / base)}em`;
-const px = (px) => `${px}px`;
+const pseudo_elements = require('tailwindcss-pseudo-elements');
+const tailwindcss_plugin = require('tailwindcss/plugin');
 
 module.exports = {
 	important: false,
@@ -36,26 +29,14 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				facebook: '#3b5999',
-				twitter: '#55acee',
-				pinterest: '#bd081c',
-				youtube: '#cd201f',
-				whatsapp: '#25D366',
-				line: '#00c300',
-				instagram: '#e4405f',
-
-				primary: '#55acee',
-
+				primary: 'var(--primary)',
+				'primary-text': 'var(--primary-text)',
+				secondary: 'var(--secondary)',
+				'secondary-text': 'var(--secondary-text)',
 				accent: 'var(--accent)',
 				'accent-primary': 'var(--accent-primary)',
 				'accent-text': 'var(--accent-text)',
 				'accent-text-primary': 'var(--accent-text-primary)',
-
-				// lGray: 'var(--color-light-gray)',
-				// danger: 'var(--color-danger)',
-				// success: 'var(--color-success)',
-				// warning: 'var(--color-warning)', 
-
 				body: 'var(--body)',
 				'body-primary': 'var(--body-primary)',
 				'body-secondary': 'var(--body-secondary)',
@@ -76,6 +57,14 @@ module.exports = {
 				'footer-text-secondary': 'var(--footer-text-secondary)',
 				'hint-text': 'var(--hint-text)',
 				'border-color': 'var(--border-color)',
+				
+				facebook: '#3b5999',
+				twitter: '#55acee',
+				pinterest: '#bd081c',
+				youtube: '#cd201f',
+				whatsapp: '#25D366',
+				line: '#00c300',
+				instagram: '#e4405f',
 			},
 			spacing: {
 				'-px': '-1px',
@@ -143,9 +132,8 @@ module.exports = {
 				'3': '3',
 			},
 			fontFamily: {
-				openSans: ['"Open Sans"', 'sans-serif'],
-				heading: ['Josefin Sans', 'sans-serif'],
-				body: ['Lato', 'sans-serif'],
+				heading: ['var(--font-heading)'],
+				body: ['var(--font-body)'],
 			},
 			fontSize: {
 				'3xs': '0.5rem',
@@ -183,8 +171,8 @@ module.exports = {
 				'full-40px': 'calc(100% + 40px)',
 			}),
 			fill: theme => ({
-				'primary': theme('colors.gray.500'),
-				'secondary': theme('colors.gray.500'),
+				'primary': 'var(--primary)',
+				'secondary': 'var(--secondary)',
 				'teal': theme('colors.teal.500'),
 			}),
 			placeholderColor: theme => ({
@@ -313,16 +301,14 @@ module.exports = {
 			transitionTimingFunction: ['hover', 'before', 'after'],
 			transitionDuration: ['hover', 'before', 'after'],
 			transitionDelay: ['hover'],
-			aspectRatio: ['hover']
+			aspectRatio: ['responsive', 'hover']
 		},
 	},
 	corePlugins: {},
 	plugins: [
-		typography,
 		aspect_ratio,
-		require('tailwindcss-pseudo-elements'),
-		require('tailwindcss/plugin'),
-		// This plugin is useful in combination with tailwindcss-aspect-ratio.
+		pseudo_elements,
+		tailwindcss_plugin,
 		function ({
 			addBase,
 			config
@@ -418,7 +404,6 @@ module.exports = {
 					opacity: '1',
 				},
 			}
-
 			addUtilities(newUtilities, ['before', 'after', 'hover', 'important'])
 		},
 		function ({

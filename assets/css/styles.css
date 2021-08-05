@@ -10,13 +10,7 @@ Last change: 	09/01/2020
 @import "partials/splide.min.css";
 /* purgecss end ignore */
 @tailwind utilities;
-/* purgecss start ignore */
-/* @import "partials/amp.css"; */
-/* purgecss end ignore */
-/* @import "partials/color.css"; */
 @import "partials/header.css";
 @import "partials/global.css";
 @import "partials/footer.css";
 @import "site.css";
-
-[x-cloak] { display: none !important; } 

@@ -26,9 +26,4 @@ sections:
     url: /collections
     label: lihat koleksi
     filter: collections
-menu:
-  main:
-    name: All Alcavella
-    weight: 9
-    parent: Katalog Alcavella
 ---

@@ -1,3 +1,12 @@
+<div id="hero-section" class="section__hero-section bg-image bg-body py-12 px-3 mb-8"
+style="background-color: gray;background-image: url('/images/banner.jpg');background-size: cover;background-position: center;">
+    <div class="flex items-center justify-center">
+        <div class="section__body text-center">
+        <h1 class="section__title text-xl lg:text-4xl capitalize">{{ .Title }}</h1>
+        {{ partial "breadcrumb.html" . }}
+        </div>
+    </div>
+</div>
 <div class="container w-full {{ if .Site.Params.sidebar.has_widget }}max-w-screen-xl{{ else }}max-w-screen-lg{{ end }} mx-auto px-4 lg:px-12 py-4">
     <div class="blog grid grid-cols-12 lg:gap-8">
         <article class="post__article article col-span-12  {{ if .Site.Params.sidebar.has_widget }}lg:col-span-8 {{ end }}">

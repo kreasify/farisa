@@ -1,44 +1,16 @@
 <footer class="site-footer footer">
     <div class="bg-footer-primary">
+        {{- if .Site.Params.footer.has_widget }}
         <div class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-6">
             <div class="grid grid-cols-3 gap-6">
-                {{- if $.Site.Params.footer.has_widget }}
-                {{- if $.Site.Params.footer.has_widget_left }}
-                <div class="col-span-3 lg:col-span-1">
-                    <section class="footer-widget text-footer-text-primary">
-                        {{ range $section := $.Site.Params.footer.widgets_left }}
-                        {{- $include_dict := dict "section" $section }}
-                        {{- $component := print $section.type ".html" }}
-                        {{ partial $component $include_dict }}
-                        {{- end }}
-                    </section>
-                </div>
-                {{- end }}
-                {{- if $.Site.Params.footer.has_widget_center }}
-                <div class="col-span-3 lg:col-span-1">
-                    <section class="footer-widget text-footer-text-primary">
-                        {{- range $section := $.Site.Params.footer.widgets_center }}
-                        {{- $include_dict := dict "section" $section }}
-                        {{- $component := print $section.type ".html" }}
-                        {{ partial $component $include_dict }}
-                        {{- end }}
-                    </section>
-                </div>
-                {{- end }}
-                {{- if $.Site.Params.footer.has_widget_right }}
-                <div class="col-span-3 lg:col-span-1">
-                    <section class="sidebar-widget text-footer-text-primary">
-                        {{- range $section := $.Site.Params.footer.widgets_right }}
-                        {{- $include_dict := dict "section" $section }}
-                        {{- $component := print $section.type ".html" }}
-                        {{ partial $component $include_dict }}
-                        {{- end }}
-                    </section>
-                </div>
-                {{- end }}
+                {{- range $widget := .Site.Params.footer.sections }}
+                {{- $include_dict := dict "widget" $widget "Site" $.Site }}
+                {{- $component := print "widgets/" $widget.type ".html" }}
+                {{ partial $component $include_dict }}
                 {{- end }}
             </div>
         </div>
+        {{- end }}
     </div>
     <div class="bg-footer border-t border-solid border-footer-text-secondary">
         <div
@@ -49,10 +21,9 @@
                 {{- end }}
             </div>
             <div class="footer__social col-span-12 lg:col-span-6">
-                {{- $data := site.Params }}
-                {{- if $data.footer.has_social }}
+                {{- if .Site.Params.footer.has_social }}
                 <div class="footer__social-content flex items-center justify-center lg:justify-end">
-                    {{- range $social := $data.footer.social_links }}
+                    {{- range $social := .Site.Params.footer.social_links }}
                     {{- $include_dict := dict "social" $social }}
                     {{ partial "social.html" $include_dict }}
                     {{- end }}

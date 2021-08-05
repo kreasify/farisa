@@ -1,6 +1,8 @@
 /* Site Global
 /* ---------------------------------------------------------- */
 
+[x-cloak] { display: none !important; }
+
 .content-stretch {
     align-content: stretch;
 }

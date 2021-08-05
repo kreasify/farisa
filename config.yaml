@@ -1,26 +1,27 @@
-title: Hijacket.net
-baseURL: "/"
+title: Vitoko.site
+baseURL: /
 LanguageCode: id
 preserveTaxonomyNames: true
 metaDataFormat: yaml
 permalinks:
-  authors: "/author/:slug/"
-  tags: "/tag/:slug/"
-  categories: "/category/:slug/"
-  pages: "/:slug/"
-  collections: "/collection/:slug/"
-  color: "/:slug/"
-  shop: "/:slug/"
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  pages: '/:slug/'
+  collections: '/collection/:slug/'
+  color: '/:slug/'
+  shop: '/:slug/'
 outputs:
   home:
-  - HTML
+    - HTML
   page:
-  - HTML
+    - HTML
   section:
-  - HTML
+    - HTML
 params:
+  palette: coffee
   colors:
-    header_text: ""
+    header_text: green
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
   contact:
@@ -30,7 +31,7 @@ params:
     shop_name: Hijacket.net
   shipping:
     origin_city: '106'
-    origin_province: 'order'
+    origin_province: order
     jne_oke: true
     jne_reg: true
     jne_yes: true
@@ -57,13 +58,12 @@ params:
   post_author: true
   post_navigation: true
   mainSection:
-  - shop
+    - shop
   header:
     type: header
-    template: header
     title: Starter
     logo: images/logo-hijacket.png
-    has_nav: true
+    has_nav: false
     sticky_nav: true
     has_navbar: true
     nav_links:
@@ -132,146 +132,65 @@ params:
     recent_num: 8
     sections:
       - type: widget_recent_post
-        template: widget_recent_post
       - type: widget_categories
-        template: widget_categories
       - type: widget_tags
-        template: widget_tags
   footer:
     type: footer
-    template: footer
     has_widget: true
-    has_widget_left: true
-    has_widget_center: true
-    has_widget_right: true
-    widgets_left:
-      - type: widget_title_section
-        template: widget_title_section
+    sections:
+      - type: widget_menu
         title: Informasi
-      - type: widget_menu_section
-        template: widget_menu_section
         links:
-          - type: action
-            template: action
-            label: Syarat dan Ketentuan
+          - label: Syarat dan Ketentuan
             url: /syarat-dan-ketentuan
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: Tentang Kami
+          - label: Tentang Kami
             url: /tentang-kami
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: Kontak Kami
+          - label: Kontak Kami
             url: /kontak-kami
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: FAQ
+          - label: FAQ
             url: /faq
-            style: link
-            css: text-sm
-    widgets_center:
-      - type: widget_title_section
-        template: widget_title_section
+      - type: widget_menu
         title: Bantuan
-      - type: widget_menu_section
-        template: widget_menu_section
         links:
-          - type: action
-            template: action
-            label: Koleksi Jaket Hijaber
-            url: /product
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: Koleksi Home Dress
-            url: /collections
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: Koleksi Micro Mask
-            url: /collections
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: Pilihan Seleb
-            url: /pilihan-seleb
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: Cara Belanja
+          - label: Cara Belanja
             url: /cara-order
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: Konfirmasi Pembayaran
+          - label: Konfirmasi Pembayaran
             url: /konfirmasi-pembayaran
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: Panduan Ukuran
+          - label: Panduan Ukuran
             url: /panduan-ukuran
-            style: link
-            css: text-sm
-          - type: action
-            template: action
-            label: Give Away
+          - label: Give Away
             url: /give-away
-            style: link
-            css: text-sm
-    widgets_right:
-      - type: widget_title_section
-        template: widget_title_section
+      - type: widget_contact
         title: Kontak Kami
-      - type: widget_contact_section
-        template: widget_contact_section
         phone: 123456789
         whatsapp: 6285156514890
         email: hijacket.cs@gmail.com
-        address: Jl. Mahmud No. 109 Rahayu, Margaasih, Kab. Bandung. 40218
+        address: 'Jl. Mahmud No. 109 Rahayu, Margaasih, Kab. Bandung. 40218'
     has_social: true
     social_links:
-      - type: social
-        template: social
-        label: Facebook
+      - label: Facebook
         icon: facebook
         url: 'https://facebook.com/hijacket.net'
         style: link
         new_window: true
-      - type: social
-        template: social
-        label: Twitter
+      - label: Twitter
         icon: twitter
         url: 'https://twitter.com/hijacket'
         style: link
         new_window: true
-      - type: social
-        template: social
-        label: Instagram
+      - label: Instagram
         icon: instagram
         url: 'https://www.instagram.com/hijacket_net'
         style: link
         new_window: true
-      - type: social
-        template: social
-        label: Telegram
+      - label: Telegram
         icon: telegram
         url: 'https://t.me/hijacket.net'
         style: link
         new_window: true
-    content: '&copy; Copyright 2020 <a href="/">Hijacket.net </a>| Official Partner Of
-          Hijacket Brand Indonesia.'
+    content: >-
+      &copy; Copyright 2020 <a href="/">Hijacket.net </a>| Official Partner Of
+      Hijacket Brand Indonesia.
 taxonomies:
   tag: tags
   category: categories
@@ -282,12 +201,12 @@ taxonomies:
 disableKinds:
   - RSS
 ignoreFiles:
-- "\\.ipynb$"
-- ".ipynb_checkpoints$"
-- "\\.Rmd$"
-- "\\.Rmarkdown$"
-- _files$
-- _cache$
+  - \.ipynb$
+  - .ipynb_checkpoints$
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _files$
+  - _cache$
 imaging:
   resampleFilter: lanczos
   quality: 90
@@ -311,22 +230,41 @@ markup:
       unsafe: false
       xhtml: false
 build:
-  # Used by PurgeCSS
   writeStats: true
 menu:
   main:
-  - url: "#"
-    name: Home
-    weight: 1
-  - url: "#"
-    name: Katalog Hijacket
-    weight: 2
-  - url: "#"
-    name: Katalog Alcavella
-    weight: 3
-  - url: "#"
-    name: Micro Mask
-    weight: 4
-  - url: "#"
-    name: Koleksi Warna
-    weight: 5
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+      params:
+        has_submenu: false
+    - identifier: hijacket
+      name: Katalog Hijacket
+      url: /hijacket
+      weight: 2
+      params:
+        has_submenu: true
+    - identifier: micromask
+      name: Micro Mask
+      url: /micromask
+      weight: 4
+      params:
+        has_submenu: false
+    - identifier: alcavella
+      name: Katalog Alcavella
+      url: /alcavella
+      weight: 3
+      params:
+        has_submenu: true
+    - identifier: warna
+      name: Koleksi Warna
+      url: /warna
+      weight: 5
+      params:
+        has_submenu: false
+    - identifier: avia
+      name: Hijacket Avia
+      url: /warna
+      parent: hijacket
+      weight: 1
