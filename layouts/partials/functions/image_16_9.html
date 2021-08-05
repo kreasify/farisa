@@ -7,7 +7,6 @@
 {{- $resizedlg := $imageResource.Fill "1024x576 webp" }}
 {{- $resizedxl := $imageResource.Fill "1280x720 webp" }}
 {{- $resized2xl := $imageResource.Fill "1536x864 webp" }}
-
 <div class="relative aspect-w-16 sm:aspect-w-4 aspect-h-9 sm:aspect-h-3">
     <picture>
         <source media="(min-width: 1536px)" srcset="{{ $resized2xl.RelPermalink }}">
