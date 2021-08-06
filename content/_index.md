@@ -104,7 +104,6 @@ sections:
       author: ''
       exclude_featured: false
   - type: banner_images
-    template: banner_images
     images:
       - image: /uploads/banner_image_1.png
         alt_text: home 1
