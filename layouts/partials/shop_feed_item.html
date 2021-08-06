@@ -8,6 +8,13 @@
             {{- if $post.Params.thumbnail }}
             {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "aspect" "aspect-w-5 aspect-h-6" "aspect_w" "5" "aspect_h" "6" "resized" "213x256 q100 webp" "is_fill" true }}
             {{  partial "image.html" $include_dict }}
+
+                        {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
+            {{- if or (eq $index 0) (eq $index 2) (eq $index 4) }}
+            {{ partial "functions/image_6_7.html" $include_dict }}
+            {{- else }}
+            {{ partial "functions/image_16_9.html" $include_dict }}
+            {{- end }}
             {{- end }}
         </a>
         {{- if isset $post.Params "badge" }}
