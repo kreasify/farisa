@@ -47,7 +47,7 @@
             {{- $include_dict := dict "section" $section "Site" $.Site }}
             {{- $component := print "sections/" $section.type ".html" }}
             {{ partial $component $include_dict }}
-            {{- if $use_container }}
+        {{- if $use_container }}
         </div>
         {{- end }}
     </div>
