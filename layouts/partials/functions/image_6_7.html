@@ -9,11 +9,6 @@
 {{- $resized2xl := $imageResource.Fill "1536x658 webp" }}
 <div class="image__wrapper relative">
     <picture>
-        <source media="min-width: 1536px)" srcset="{{ $resized2xl.RelPermalink }}">
-        <source media="(min-width: 1280px)" srcset="{{ $resizedxl.RelPermalink }} 1x,
-            {{- $resized2xl.RelPermalink }} 2x">
-        <source media="(min-width: 1024px)" srcset="{{ $resizedlg.RelPermalink }} 1x,
-            {{- $resizedxl.RelPermalink }} 2x,
             {{- $resized2xl.RelPermalink }} 3x">
         <source media="(min-width: 768px)" srcset="{{ $resizedmd.RelPermalink }} 1x,
             {{- $resizedlg.RelPermalink }} 2x,
