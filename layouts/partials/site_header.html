@@ -22,12 +22,12 @@
                 </div>
                 <div class="nav__brand logo col-span-4 lg:col-span-2 col-start-5 lg:col-start-1 lg:pr-8">
                     <a class="sr-only" href="#content">Skip to main content</a>
-                    {{ if .Site.Params.header.logo }}
+                    {{- if .Site.Params.header.logo }}
                     <a class="nav__brand-link" href="{{ "/" | relURL }}"><img
                             src="{{ $.Site.Params.header.logo | relURL }}" alt="{{ $.Site.Params.header.title }}" /></a>
-                    {{ else }}
+                    {{- else }}
                     <a class="nav__brand-title" href='{{ "/" | relURL }}'>{{ $.Site.Params.header.title }}</a>
-                    {{ end }}
+                    {{- end }}
                 </div>
                 <div class="nav__menu col-span-8 hidden lg:block">
                     <nav class="navbar">
