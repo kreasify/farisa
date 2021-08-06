@@ -121,7 +121,7 @@
         </div>
     </div>
 </header>
-{{- define "content" }}
+
 {{ if ne .Params.layout "advanced" }}
 
 <p>bukan advance {{ .Params.layout }}</p>
@@ -129,5 +129,5 @@
 {{ else}}
 <p>advance</p>
 {{ end }}
-{{ end }}
+
 <!-- {{ partial "nav_mobile" . }} -->
