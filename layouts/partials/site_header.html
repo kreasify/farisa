@@ -32,12 +32,12 @@
                 <div class="nav__menu col-span-8 hidden lg:block">
                     <nav class="navbar">
                         <ul class="navbar__menu menu">
-                            {{ $menu_text := "" }}
-                            {{ if ne .Params.layout "advanced" }}
-                            {{ $menu_text := "" }}
-                            {{ else}}
+                            {{- $menu_text := "" }}
+                            {{- if ne .Params.layout "advanced" }}
+                            {{- $menu_text := "" }}
+                            {{- else}}
                             <p>advance {{ .Params.layout }}</p>
-                            {{ end }}
+                            {{- end }}
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
                             {{- if .HasChildren }}
