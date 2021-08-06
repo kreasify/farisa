@@ -9,7 +9,7 @@
 
             {{- if $post.Params.thumbnail }}
             {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "aspect" "aspect-w-5 aspect-h-6" "aspect_w" "5" "aspect_h" "6" "resized" "213x256 q100 webp" "is_fill" true }}
-            {{ partial "image.html" $include_dict }}
+            {{ partial "card_image_5_6.html" $include_dict }}
             {{- end }}
         </a>
         {{- if isset $post.Params "badge" }}
