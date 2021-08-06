@@ -1,11 +1,11 @@
 {{- $section := .section }}
 {{- if $section.title }}
 <header class="text-center">
-  <h2 class="section__title text-header-text">{{- $section.title }}</h2>
+  <h2 class="section__title text-header-text">{{ $section.title }}</h2>
 </header>
 {{- end }}
 <div class="grid grid-cols-10 gap-3 lg:gap-6">
-  {{-/* Query */}}
+  {{/* Query */}}
   {{- $items_type := $section.page_type | default "shop" }}
   {{- $items_offset := $section.offset | default 0 }}
   {{- $items_count := $section.count }}
