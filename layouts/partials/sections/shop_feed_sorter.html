@@ -77,20 +77,20 @@
         {{- $count := len $query }}
 
         {{/* Offset and Limit */}}
-        {{ if gt $items_offset 0 }}
-        {{ $query = first $items_count (after $items_offset $query) }}
-        {{ else }}
-        {{ $query = first $items_count $query }}
-        {{ end }}
+        {{- if gt $items_offset 0 }}
+        {{- $query = first $items_count (after $items_offset $query) }}
+        {{- else }}
+        {{- $query = first $items_count $query }}
+        {{- end }}
 
-        {{ $show_recent := $section.show_recent }}
-        {{ $recent_count := $section.recent_count }}
-        {{ $shop_count := 0 }}
+        {{- $show_recent := $section.show_recent }}
+        {{- $recent_count := $section.recent_count }}
+        {{- $shop_count := 0 }}
 
-        {{ range $shop := $query }}
-        {{ if or (eq $show_recent false) (lt $shop_count $recent_count) }}
-        {{ $shop_count = add $shop_count 1 }}
-        {{ $include_dict := dict "shop_feed_section" $section "shop_page" $shop "Site" $.Site }}
+        {{- range $shop := $query }}
+        {{- if or (eq $show_recent false) (lt $shop_count $recent_count) }}
+        {{- $shop_count = add $shop_count 1 }}
+        {{- $include_dict := dict "shop_feed_section" $section "shop_page" $shop "Site" $.Site }}
         {{ partial "shop_feed_item_sorter.html" $include_dict }}
         {{ end }}
         {{ end }}
