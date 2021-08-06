@@ -76,7 +76,6 @@ sections:
       container_style: ''
       container_class: ''
   - type: shop_feed_section
-    template: shop_feed_section
     title: What's New
     show_recent: false
     page_type: shop
