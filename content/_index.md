@@ -23,8 +23,8 @@ sections:
         subtitle:  High Beam is an adjustable desk or shelf light that offers a wide variety of <br> lighting possibilities.
         button_text: order now
         button_link: /order
+    
     design:
-      
       container: false
     advanced:
       section_class: ''
