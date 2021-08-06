@@ -1,14 +1,6 @@
 {{- $site := .Site }}
 <div
     class="feed-item col-span-12 lg:col-span-4 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 rounded-sm shadow-sm">
-    <div class="feed-item__image relative bg-body-secondary">
-        <a class="feed-item__link" href="{{ .RelPermalink }}">
-            {{- if .Params.thumbnail }}
-            {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "aspect" "aspect-w-3 aspect-h-2" "aspect_w" "3" "aspect_h" "2" "resized" "381x q100 webp" }}
-            {{ partial "image.html" $include_dict }}
-            {{- end }}
-        </a>
-    </div>
     {{- if .Params.thumbnail }}
     <a class="feed-item__link" href="{{ .RelPermalink }}">
     {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site }}
