@@ -4,7 +4,6 @@ description: Metro Theme for Hugo Static Site Generator
 thumbnail: /uploads/hero-1.jpg
 sections:
   - type: slider_section
-    template: slider_section
     slides:
       - image: /uploads/hero-1.jpg
         alt_text: home 1
