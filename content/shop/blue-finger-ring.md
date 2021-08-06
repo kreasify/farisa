@@ -13,6 +13,7 @@ brand:
   - armani
 badge: baru
 badge_color: 
+#FCD34D
 sku: JW2D-1-1-1
 thumbnail: /uploads/Blue_Finger_Ring.jpg
 images:
