@@ -11,6 +11,7 @@
             {{- if $post.Params.thumbnail }}
             {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
             {{ partial "functions/image_4_3.html" $include_dict }}
+            {{- end }}
         </a>
     </div>
     {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
