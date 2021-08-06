@@ -36,7 +36,7 @@
                             {{- if ne .Params.layout "advanced" }}
                             {{- $menu_text := "text-header-text" }}
                             {{- else }}
-                            <p>advance {{ .Params.layout }}</p>
+                            {{- $menu_text := "text-gray-700" }}
                             {{- end }}
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
