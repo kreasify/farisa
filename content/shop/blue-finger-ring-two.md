@@ -12,6 +12,7 @@ color:
 brand:
   - armani
 badge: best
+badge_
 sku: JW21
 thumbnail: /uploads/Blue_Finger_Ring_Two.jpg
 images:
