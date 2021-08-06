@@ -12,7 +12,7 @@
     {{- if .Params.thumbnail }}
     <a class="feed-item__link" href="{{ .RelPermalink }}">
     {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site }}
-    {{ partial "functions/image_4_3.html" $include_dict }}
+    {{ partial "functions/image_3_2.html" $include_dict }}
     </a>
     {{- end }}
     <div class="feed-item__info py-4 px-3">
