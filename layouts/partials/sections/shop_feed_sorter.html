@@ -30,51 +30,51 @@
     </div>
     <div class="grid grid-cols-10 gap-3 lg:gap-6">
         {{/* Query */}}
-        {{ $items_type := $section.page_type | default "shop" }}
-        {{ $items_offset := $section.offset | default 0 }}
-        {{ $items_count := $section.count }}
-        {{ if eq $items_count 0 }}
-        {{ $items_count = 65535 }}
-        {{ else }}
-        {{ $items_count = $items_count | default 5 }}
-        {{ end }}
-        {{ $items_sort := $section.order | default "desc" }}
-        {{ $query := where site.RegularPages "Type" $items_type }}
+        {{- $items_type := $section.page_type | default "shop" }}
+        {{- $items_offset := $section.offset | default 0 }}
+        {{- $items_count := $section.count }}
+        {{- if eq $items_count 0 }}
+        {{- $items_count = 65535 }}
+        {{- else }}
+        {{- $items_count = $items_count | default 5 }}
+        {{- end }}
+        {{- $items_sort := $section.order | default "desc" }}
+        {{- $query := where site.RegularPages "Type" $items_type }}
 
-        {{/* Filters */}}
-        {{ if $section.filters.tag }}
-        {{ $query = (site.GetPage (printf "tags/%s" (urlize $section.filters.tag))).Pages }}
-        {{ end }}
+        {{-/* Filters */}}
+        {{- if $section.filters.tag }}
+        {{- $query = (site.GetPage (printf "tags/%s" (urlize $section.filters.tag))).Pages }}
+        {{- end }}
 
-        {{ if $section.filters.collection }}
-        {{ $query = (site.GetPage (printf "collections/%s" (urlize $section.filters.collection))).Pages }}
-        {{ end }}
+        {{- if $section.filters.collection }}
+        {{- $query = (site.GetPage (printf "collections/%s" (urlize $section.filters.collection))).Pages }}
+        {{- end }}
 
-        {{ if $section.filters.color }}
-        {{ $query = (site.GetPage (printf "color/%s" (urlize $section.filters.color))).Pages }}
-        {{ end }}
+        {{- if $section.filters.color }}
+        {{- $query = (site.GetPage (printf "color/%s" (urlize $section.filters.color))).Pages }}
+        {{- end }}
 
-        {{ if $section.filters.author }}
-        {{ $query = (site.GetPage (printf "authors/%s" (urlize $section.filters.author))).Pages }}
-        {{ end }}
+        {{- if $section.filters.author }}
+        {{- $query = (site.GetPage (printf "authors/%s" (urlize $section.filters.author))).Pages }}
+        {{- end }}
 
-        {{ if $section.filters.brand }}
-        {{ $query = (site.GetPage (printf "brand/%s" (urlize $section.filters.brand))).Pages }}
-        {{ end }}
+        {{- if $section.filters.brand }}
+        {{- $query = (site.GetPage (printf "brand/%s" (urlize $section.filters.brand))).Pages }}
+        {{- end }}
 
-        {{ if $section.filters.exclude_featured }}
-        {{ $query = where $query "Params.featured" "!=" true }}
-        {{ end }}
+        {{- if $section.filters.exclude_featured }}
+        {{- $query = where $query "Params.featured" "!=" true }}
+        {{- end }}
 
-        {{ if $section.filters.exclude_past }}
-        {{ $query = where $query "Date" ">=" now }}
-        {{ end }}
+        {{- if $section.filters.exclude_past }}
+        {{- $query = where $query "Date" ">=" now }}
+        {{- end }}
 
-        {{ if $section.filters.exclude_future }}
-        {{ $query = where $query "Date" "<" now }}
-        {{ end }}
+        {{- if $section.filters.exclude_future }}
+        {{- $query = where $query "Date" "<" now }}
+        {{- end }}
 
-        {{ $count := len $query }}
+        {{- $count := len $query }}
 
         {{/* Offset and Limit */}}
         {{ if gt $items_offset 0 }}
