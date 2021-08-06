@@ -90,7 +90,6 @@ sections:
       author: ''
       exclude_featured: false
   - type: shop_feed_sorter
-    template: shop_feed_sorter
     title: ''
     show_recent: false
     page_type: shop
