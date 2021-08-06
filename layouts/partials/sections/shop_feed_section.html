@@ -16,7 +16,6 @@
   {{- end }}
   {{- $items_sort := $section.order | default "desc" }}
   {{- $query := where site.RegularPages "Type" $items_type }}
-
   {{/* Filters */}}
   {{- if $section.filters.tag }}
   {{- $query = (site.GetPage (printf "tags/%s" (urlize $section.filters.tag))).Pages }}
