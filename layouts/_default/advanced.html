@@ -41,7 +41,7 @@
     {{- $use_container := $section.design.container | default true }}
 
     <div id="{{ replace $section.type "_" "-" }}"
-        class="section {{if $bg.text_color_light}} dark{{end}}{{if $bg.image}} bg-image{{if ($bg.image_parallax | default true) }} parallax{{end}}{{end}}{{with $section_classes}} {{.}}{{end}}"
+        class="section"
         {{with $style}}style="{{. | safeCSS}}" {{end}} {{print $extra_attributes | safeHTMLAttr}}>
         {{- if $use_container }}
         <div class="container w-full mx-auto {{with $container_classes}}{{.}}{{end}}">{{end}}
