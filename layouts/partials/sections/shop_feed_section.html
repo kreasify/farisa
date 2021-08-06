@@ -9,6 +9,7 @@
   {{- $items_type := $section.page_type | default "shop" }}
   {{- $items_offset := $section.offset | default 0 }}
   {{- $items_count := $section.count }}
+  
   {{- if eq $items_count 0 }}
   {{- $items_count = 65535 }}
   {{- else }}
@@ -16,7 +17,7 @@
   {{- end }}
   {{- $items_sort := $section.order | default "desc" }}
   {{- $query := where site.RegularPages "Type" $items_type }}
-  
+
   {{/* Filters */}}
   {{- if $section.filters.tag }}
   {{- $query = (site.GetPage (printf "tags/%s" (urlize $section.filters.tag))).Pages }}
