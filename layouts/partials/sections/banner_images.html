@@ -20,9 +20,9 @@
     <div class="{{ $col_span }} relative overflow-hidden" {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
         {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
         {{- if or (eq $index 0) (eq $index 2) (eq $index 4) }}
-        {{ partial "functions/image_6_7.html" $include_dict }}
+        {{ partial "functions/image_4_3.html" $include_dict }}
         {{- else }}
-        {{ partial "functions/image_16_9.html" $include_dict }}
+        {{ partial "functions/image_4_3.html" $include_dict }}
         {{- end }}
         <div class="absolute w-full h-full top-0 left-0 flex flex-col justify-center">
             <header class="w-80pr mx-auto">
