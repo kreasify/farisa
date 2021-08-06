@@ -15,7 +15,7 @@
         </a>
     </div>
     {{- if $post.Params.thumbnail }}
-    {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" .alt_text "Site" $site }}
+    {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" $site }}
     {{ partial "functions/image_4_3.html" $include_dict }}
     {{- end }}
     <div class="feed-item__info py-4 px-3 lg:px-6">
