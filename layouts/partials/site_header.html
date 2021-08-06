@@ -85,7 +85,7 @@
                             {{- end }}
                             <li
                                 class="menu__item font-heading">
-                                <a class='menu__item-link {{ if eq .Params.layout "advanced" }}text-header-text{{ end }} {{ if $is_link_in_current_path }} active{{ end }}'
+                                <a class='menu__item-link{{ if $is_link_in_current_path }} active{{ end }}'
                                     href="{{.URL | relLangURL}}" {{ if and $is_widget_page $is_same_page }}
                                     data-target="{{$hash}}"
                                     {{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>{{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}</a>
@@ -121,4 +121,5 @@
         </div>
     </div>
 </header>
+
 <!-- {{ partial "nav_mobile" . }} -->
