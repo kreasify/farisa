@@ -92,8 +92,8 @@
         {{- $shop_count = add $shop_count 1 }}
         {{- $include_dict := dict "shop_feed_section" $section "shop_page" $shop "Site" $.Site }}
         {{ partial "shop_feed_item_sorter.html" $include_dict }}
-        {{ end }}
-        {{ end }}
+        {{- end }}
+        {{- end }}
 
     </div>
 </div>
