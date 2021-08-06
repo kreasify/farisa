@@ -6,7 +6,7 @@
     <div class="feed-item__image relative bg-body-primary">
         <a class="feed-item__link" href="{{ $post.RelPermalink }}">
             {{- if $post.Params.thumbnail }}
-            {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" .alt_text "Site" $site }}
+            {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" .alt_text "Site" .Site }}
             {{ partial "functions/card_image_5_6.html" $include_dict }}
             {{- end }}
         </a>
