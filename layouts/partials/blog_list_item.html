@@ -10,7 +10,7 @@
         </a>
     </div>
     {{- if .Params.thumbnail }}
-    <a class="feed-item__link" href="{{ $post.RelPermalink }}">
+    <a class="feed-item__link" href="{{ .RelPermalink }}">
     {{- $include_dict := dict "image" .Params.thumbnail "alt_text" $post.Title "Site" .Site }}
     {{ partial "functions/image_4_3.html" $include_dict }}
     </a>
