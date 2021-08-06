@@ -22,7 +22,7 @@
             <li
                 class="link-item text-header-text text-xl font-medium leading-none border-r border-solid border-gray-300 px-3">
                 <a class="text-current" href="#" @click.prevent="tab = $badge "
-                    :class="{ 'active text-primary' : tab === 'new' }">New</a>
+                    :class="{ 'active text-primary' : tab === $badge }">New</a>
             </li>
             {{- end }}
             <li class="link-item text-header-text text-xl font-medium leading-none pl-3">
