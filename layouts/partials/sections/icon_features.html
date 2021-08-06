@@ -25,6 +25,7 @@
             <h4 class="text-base lg:text-xl text-header-text font-medium leading-none lg:leading-none uppercase mb-3">
                 {{ .title | safeHTML }}</h4>
             {{- end }}
+            {{- if .subtitle }}
             <p class="text-sm leading-none text-body-text-secondary mb-0">
                 {{ .subtitle | safeHTML }}</p>
         </div>
