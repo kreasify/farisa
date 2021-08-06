@@ -19,9 +19,9 @@ outputs:
   section:
     - HTML
 params:
-  palette: coffee
+  palette: pink
   colors:
-    header_text: green
+    header_text: ''
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
   contact:
