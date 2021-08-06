@@ -5,37 +5,36 @@
         <div class="nav__container container w-full max-w-screen-xl relative mx-auto py-4 lg:py-0 px-3 lg:px-12">
             <div class="nav__wrapper grid grid-cols-12 items-center">
                 <div class="nav__toggle col-span-2 flex items-center lg:hidden">
-                    <button class="text-gray-600 hover:text-gray-700 cursor-pointer border-none focus:outline-none"
+                    <button class="text-body-text hover:text-gray-700 cursor-pointer border-none focus:outline-none"
                         :class="{ 'open': sideNav === true }" @click="sideNav = !sideNav">
                         <svg class="transition duration-300 ease-in-out transform" width="22" height="24">
                             <line
-                                class="stroke-current stroke-2 transition duration-300 ease-in-out transform svelte-1nq7v2e"
+                                class="stroke-current stroke-2 transition duration-300 ease-in-out transform"
                                 id="top" x1="0" x2="22" y1="6" y2="6"></line>
                             <line
-                                class="stroke-current stroke-2 transition duration-300 ease-in-out transform svelte-1nq7v2e"
+                                class="stroke-current stroke-2 transition duration-300 ease-in-out transform"
                                 id="middle" x1="0" x2="18" y1="12" y2="12"></line>
                             <line
-                                class="stroke-current stroke-2 transition duration-300 ease-in-out transform svelte-1nq7v2e"
+                                class="stroke-current stroke-2 transition duration-300 ease-in-out transform"
                                 id="bottom" x1="0" x2="22" y1="18" y2="18"></line>
                         </svg>
                     </button>
                 </div>
                 <div class="nav__brand logo col-span-4 lg:col-span-2 col-start-5 lg:col-start-1 lg:pr-8">
                     <a class="sr-only" href="#content">Skip to main content</a>
-
-                    {{ if .Site.Params.header.logo }}
+                    {{- if .Site.Params.header.logo }}
                     <a class="nav__brand-link" href="{{ "/" | relURL }}"><img
                             src="{{ $.Site.Params.header.logo | relURL }}" alt="{{ $.Site.Params.header.title }}" /></a>
-                    {{ else }}
+                    {{- else }}
                     <a class="nav__brand-title" href='{{ "/" | relURL }}'>{{ $.Site.Params.header.title }}</a>
-                    {{ end }}
+                    {{- end }}
                 </div>
                 <div class="nav__menu col-span-8 hidden lg:block">
                     <nav class="navbar">
                         <ul class="navbar__menu menu">
-                            {{ $current_page := . }}
-                            {{ range .Site.Menus.main }}
-                            {{ if .HasChildren }}
+                            {{- $current_page := . }}
+                            {{- range .Site.Menus.main }}
+                            {{- if .HasChildren }}
                             <li
                                 class="has-submenu menu__item font-heading">
                                 <a class="menu__item-link text-header-text" href="#">
@@ -44,46 +43,46 @@
                                 </a> 
                                 <ul class="submenu"
                                     aria-hidden="true"> 
-                                    {{ range .Children }}
+                                    {{- range .Children }}
                                     <li
                                         class="submenu__item">
                                         <a class="submenu__item-link text-header-text"
                                             href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}"
                                             {{ end }}>
                                             {{- .Pre -}}<span>{{ .Name | humanize | safeHTML }}</span>
-                                            {{ if ge hugo.Version 0.79 }}
+                                            {{- if ge hugo.Version 0.79 }}
                                             <span
                                                 class="text-white text-2xs uppercase leading-none rounded-sm py-3px px-2 ml-3 {{ with .Params.class }}{{ . }}{{ end }}">{{ with .Params.label }}{{ . }}{{ end }}</span>
-                                            {{ end }}
+                                            {{- end }}
                                             {{- .Post -}}
                                         </a>
                                     </li>
-                                    {{ end }}
+                                    {{- end }}
                                 </ul>
                             </li>
-                            {{ else }}
+                            {{- else }}
 
                             {{/* Set target for link. */}}
-                            {{ $.Scratch.Set "target" "" }}
-                            {{ if gt (len .URL) 4 }}
-                            {{ if eq "http" (slicestr .URL 0 4) }}
-                            {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
-                            {{ end }}
-                            {{ end }}
+                            {{- $.Scratch.Set "target" "" }}
+                            {{- if gt (len .URL) 4 }}
+                            {{- if eq "http" (slicestr .URL 0 4) }}
+                            {{- $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
+                            {{- end }}
+                            {{- end }}
 
                             {{/* Get active page. */}}
-                            {{ $is_link_in_current_path := in $current_page.RelPermalink .URL }}
-                            {{ $is_widget_page := or $current_page.IsHome (eq $current_page.Type "widget_page") }}
-                            {{ $hash := findRE "#(.+)" .URL }}
-                            {{ $is_same_page := $is_link_in_current_path }}
-                            {{ if gt (len $hash) 0 }}
-                            {{ $hash = index $hash 0 }}
-                            {{ $hash_removed := replace .URL $hash "" }}
-                            {{ if eq (len $hash_removed) 0 }}
-                            {{ $hash_removed = "/" }}{{/* Add robustness for `/#SECTION` or `#SECTION` in `menus.toml`. */}}
-                            {{ end }}
-                            {{ $is_same_page = eq (path.Dir $current_page.RelPermalink) (path.Dir ($hash_removed|relLangURL)) }}
-                            {{ end }}
+                            {{- $is_link_in_current_path := in $current_page.RelPermalink .URL }}
+                            {{- $is_widget_page := or $current_page.IsHome (eq $current_page.Type "widget_page") }}
+                            {{- $hash := findRE "#(.+)" .URL }}
+                            {{- $is_same_page := $is_link_in_current_path }}
+                            {{- if gt (len $hash) 0 }}
+                            {{- $hash = index $hash 0 }}
+                            {{- $hash_removed := replace .URL $hash "" }}
+                            {{- if eq (len $hash_removed) 0 }}
+                            {{- $hash_removed = "/" }}{{/* Add robustness for `/#SECTION` or `#SECTION` in `menus.toml`. */}}
+                            {{- end }}
+                            {{- $is_same_page = eq (path.Dir $current_page.RelPermalink) (path.Dir ($hash_removed|relLangURL)) }}
+                            {{- end }}
                             <li
                                 class="menu__item font-heading">
                                 <a class='menu__item-link {{ if ne .Params.layout "advanced" }}text-header-text{{ end }} {{ if $is_link_in_current_path }} active{{ end }}'
@@ -91,8 +90,8 @@
                                     data-target="{{$hash}}"
                                     {{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>{{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}</a>
                             </li>
-                            {{ end }}
-                            {{ end }}
+                            {{- end }}
+                            {{- end }}
                         </ul>
                     </nav>
                 </div>
