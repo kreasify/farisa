@@ -17,7 +17,7 @@
     </div>
     <div class="feed-item__info py-3 px-2">
         <a class="feed-item__link" href="{{ $post.RelPermalink }}">
-            <h3 class="feed-item__title text-xs lg:text-sm text-header-text font-heading font-medium mb-1">{{ $post.Title }}</h3>
+            <h3 class="feed-item__title text-sm lg:text-sm text-header-text font-heading font-medium mb-1">{{ $post.Title }}</h3>
         </a>
         {{- with $post.Params.variants }}
         {{- range first 1 . }}
