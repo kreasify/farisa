@@ -12,8 +12,8 @@
             {{ partial "functions/image_4_3.html" $include_dict }}
         </a>
     </div>
-                {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
-            {{ partial "functions/image_4_3.html" $include_dict }}
+    {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
+    {{ partial "functions/image_4_3.html" $include_dict }}
     <div class="feed-item__info py-4 px-3 lg:px-6">
         <div class="feed_item__published mb-2">
             <time class="feed__published text-sm text-header-text-secondary">{{ with $site.Params.dateFormat }}{{ $post.Date.Format . }}{{ else }}{{ $post.Date.Format "02 January 2006" }}{{ end }}</time>
