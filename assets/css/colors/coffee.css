@@ -28,7 +28,7 @@
     --accent-text-primary: #fafafa;
 	--hint-text: #E5E7EB;
 	--border-color: #D1D5DB;
-    --badge: {{ .Params.badge_color | default "transparant" }};
+    --badge: {{ .Params.badge_color | default "transparent" }};
 	--font-heading: {{ .Site.Params.colors.font_heading | default "Josefin Sans" }}, 'sans-serif';
 	--font-body: {{ .Site.Params.colors.font_body | default "Lato" }}, 'sans-serif';
   }
