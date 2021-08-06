@@ -12,7 +12,7 @@
         </a>
         {{- if isset $post.Params "badge" }}
         <span
-            class="feed-item__badge absolute text-sm text-white top-2 left-2 px-2 {{- if eq $post.Params.badge "limited" }}bg-orange-500 {{-  else if eq $post.Params.badge "terlaris" }}bg-orange-500 {{-  else }}bg-green-500{{-  end }}">{{ index $post.Params "badge" }}</span>
+            class="feed-item__badge absolute text-sm text-white top-2 left-2 px-2 {{- if eq $post.Params.badge "limited" }}bg-orange-500 {{-  else if eq $post.Params.badge "terlaris" }}bg-orange-500 {{- else }}bg-green-500{{- end }}">{{ index $post.Params "badge" }}</span>
         {{- end }}
     </div>
     <div class="feed-item__info py-3 px-2">
