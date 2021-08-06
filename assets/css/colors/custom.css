@@ -18,8 +18,8 @@
     --footer-text: #ffffff;
     --footer-text-primary: #fafafa;
     --footer-text-secondary: #f5f5f5;
-    --primary: #fafafa;
-    --secondary: #fafafa;
+    --primary: #55acee;
+    --secondary: #55acee;
     --primary-text: #fafafa;
     --secondary-text: #fafafa;
     --accent: #fafafa;
@@ -28,6 +28,7 @@
     --accent-text-primary: #fafafa;
 	--hint-text: #E5E7EB;
 	--border-color: #D1D5DB;
+    --badge-color: {{ .Params.badge_color | default "transparent" }};
 	--font-heading: {{ .Site.Params.colors.font_heading | default "Josefin Sans" }}, 'sans-serif';
 	--font-body: {{ .Site.Params.colors.font_body | default "Lato" }}, 'sans-serif';
   }
