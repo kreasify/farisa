@@ -38,6 +38,7 @@
                             {{- else }}
                             {{- $menu_text := "text-gray-700" }}
                             {{- end }}
+                            
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
                             {{- if .HasChildren }}
