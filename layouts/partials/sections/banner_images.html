@@ -23,12 +23,12 @@
             {{ $resized := $imageResource.Fit "674x379 q90 webp" }}
             <img class="absolute w-full h-full left-0 top-0 object-cover transition duration-300 ease-in-out transform scale-100 group-hover:scale-110" alt="{{ .alt_text }}" src="{{ $resized.RelPermalink }}" />
         </div>
-                    {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
-            {{- if or (eq $index 0) (eq $index 2) (eq $index 4) }}
-            {{ partial "functions/image_6_7.html" $include_dict }}
-            {{- else }}
-            {{ partial "functions/image_16_9.html" $include_dict }}
-            {{- end }}
+        {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
+        {{- if or (eq $index 0) (eq $index 2) (eq $index 4) }}
+        {{ partial "functions/image_6_7.html" $include_dict }}
+        {{- else }}
+        {{ partial "functions/image_16_9.html" $include_dict }}
+        {{- end }}
         <div class="absolute w-full h-full top-0 left-0 flex flex-col justify-center">
             <header class="w-80pr mx-auto">
                 <h4 class="text-primary text-thin lg:text-thin text-base lg:text-3xl mb-3">
