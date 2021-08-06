@@ -16,7 +16,7 @@
 {{ end }}
 {{ with $section.images }}
 <div class="grid grid-cols-12">
-    {{ range . }}
+    {{- range $index, $el := . }}
     <div class="{{ $col_span }} relative overflow-hidden">
         <div class="relative aspect-w-4 aspect-h-3 " {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
             {{ $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .image ) }}
