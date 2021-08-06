@@ -41,8 +41,7 @@
     {{- $use_container := $section.design.container | default true }}
 
     <div id="{{ replace $section.type "_" "-" }}"
-        class="section"
-        {{with $style}}style="{{ . | safeCSS}}" {{end}} {{print $extra_attributes | safeHTMLAttr}}>
+        class="section" {{with $style}}style="{{ . | safeCSS}}" {{end}} {{print $extra_attributes | safeHTMLAttr}}>
         {{- if $use_container }}
         <div class="container w-full mx-auto {{with $container_classes}}{{.}}{{end}}">{{end}}
             {{- $include_dict := dict "section" $section "Site" $.Site }}
