@@ -96,7 +96,9 @@ sections:
     count: 30
     offset: 0
     order: desc
-    badge_
+    badges:
+      - new
+      - best
     filters:
       tag: ''
       category: ''
