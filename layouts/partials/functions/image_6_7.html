@@ -1,0 +1,26 @@
+{{- $site := .Site }}
+{{- $image := .image }}
+{{- $alt := .alt_text | default "alt text" }}
+{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" $image ) }}
+{{- $resizedsm := $imageResource.Fill "640x480 webp" }}
+{{- $resizedmd := $imageResource.Fill "768x432 webp" }}
+{{- $resizedlg := $imageResource.Fill "1024x576 webp" }}
+{{- $resizedxl := $imageResource.Fill "1280x549 webp" }}
+{{- $resized2xl := $imageResource.Fill "1536x658 webp" }}
+<div class="image__wrapper relative">
+    <picture>
+        <source media="min-width: 1536px)" srcset="{{ $resized2xl.RelPermalink }}">
+        <source media="(min-width: 1280px)" srcset="{{ $resizedxl.RelPermalink }} 1x,
+            {{- $resized2xl.RelPermalink }} 2x">
+        <source media="(min-width: 1024px)" srcset="{{ $resizedlg.RelPermalink }} 1x,
+            {{- $resizedxl.RelPermalink }} 2x,
+            {{- $resized2xl.RelPermalink }} 3x">
+        <source media="(min-width: 768px)" srcset="{{ $resizedmd.RelPermalink }} 1x,
+            {{- $resizedlg.RelPermalink }} 2x,
+            {{- $resizedxl.RelPermalink }} 3x">
+        <source media="(min-width: 640px)" srcset="{{ $resizedsm.RelPermalink }} 1x,
+            {{- $resizedmd.RelPermalink }} 2x,
+            {{- $resizedlg.RelPermalink }} 3x">
+        <img class="image w-full" alt="{{ $alt }}" src="{{ $resizedsm.RelPermalink }}" />
+    </picture>
+</div>
