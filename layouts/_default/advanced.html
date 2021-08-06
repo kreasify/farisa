@@ -21,6 +21,7 @@
 
     {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken (printf "img/%s" $bg.image | absURL) }}
     {{- with $bg.image_size }}
+    
     {{/* Allow sizes: actual, cover, and contain. */}}
     {{- $style = printf "%sbackground-size: %s;" $style (replace . "actual" "auto") }}
     {{- end }}
