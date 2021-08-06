@@ -5,5 +5,5 @@
 {{- $resizedsm := $imageResource.Fill "640x747 webp" }}
 {{- $resizedmd := $imageResource.Fill "768x896 webp" }}
 <div class="image__wrapper relative">
-    <img class="image w-full" alt="{{ $alt }}" src="{{ $resizedsm.RelPermalink }}" />
+    <img class="image w-full" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}" />
 </div>
