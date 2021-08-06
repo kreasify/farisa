@@ -2,7 +2,7 @@
 {{- $image := .image }}
 {{- $alt := .alt_text | default "alt text" }}
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" $image ) }}
-{{- $resizedsm := $imageResource.Fill "640x747 webp" }}
+{{- $resizedsm := $imageResource.Fill "170x204 webp" }}
 {{- $resizedmd := $imageResource.Fill "768x896 webp" }}
 <div class="image__wrapper relative">
     <picture>
