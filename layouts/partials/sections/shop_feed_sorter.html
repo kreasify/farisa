@@ -17,14 +17,14 @@
                 <a class="text-current" href="#" @click.prevent="tab = 'featured'"
                     :class="{ 'active text-primary' : tab === 'featured' }">Featured</a>
             </li>
-            {{ if isset $section.Params "badge" }}
+            {{- if isset $section.Params "badge" }}
             {{- $badge := index $section.Params "badge" }}
             <li
                 class="link-item text-header-text text-xl font-medium leading-none border-r border-solid border-gray-300 px-3">
                 <a class="text-current" href="#" @click.prevent="tab = 'new'"
                     :class="{ 'active text-primary' : tab === 'new' }">New</a>
             </li>
-            {{ end }}
+            {{- end }}
             <li class="link-item text-header-text text-xl font-medium leading-none pl-3">
                 <a class="text-current" href="#" @click.prevent="tab = 'best'"
                     :class="{ 'active text-primary' : tab === 'best' }">Best</a>
