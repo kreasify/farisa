@@ -4,65 +4,65 @@
   <header class="text-center">
     <h2 class="section__title text-header-text">{{ $section.title }}</h2>
   </header>
-  {{ end }}
+  {{- end }}
   <div class="grid grid-cols-12 gap-3 lg:gap-6">
     {{/* Query */}}
-    {{ $items_type := $section.page_type | default "blog" }}
-    {{ $items_offset := $section.offset | default 0 }}
-    {{ $items_count := $section.count }}
-    {{ if eq $items_count 0 }}
-    {{ $items_count = 65535 }}
-    {{ else }}
-    {{ $items_count = $items_count | default 5 }}
-    {{ end }}
-    {{ $items_sort := $section.order | default "desc" }}
-    {{ $query := where site.RegularPages "Type" $items_type }}
+    {{- $items_type := $section.page_type | default "blog" }}
+    {{- $items_offset := $section.offset | default 0 }}
+    {{- $items_count := $section.count }}
+    {{- if eq $items_count 0 }}
+    {{- $items_count = 65535 }}
+    {{- else }}
+    {{- $items_count = $items_count | default 5 }}
+    {{- end }}
+    {{- $items_sort := $section.order | default "desc" }}
+    {{- $query := where site.RegularPages "Type" $items_type }}
 
     {{/* Filters */}}
-    {{ if $section.filters.tag }}
-    {{ $query = (site.GetPage (printf "tags/%s" (urlize $section.filters.tag))).Pages }}
-    {{ end }}
+    {{- if $section.filters.tag }}
+    {{- $query = (site.GetPage (printf "tags/%s" (urlize $section.filters.tag))).Pages }}
+    {{- end }}
 
-    {{ if $section.filters.category }}
-    {{ $query = (site.GetPage (printf "categories/%s" (urlize $section.filters.categories))).Pages }}
-    {{ end }}
+    {{- if $section.filters.category }}
+    {{- $query = (site.GetPage (printf "categories/%s" (urlize $section.filters.categories))).Pages }}
+    {{- end }}
 
-    {{ if $section.filters.author }}
-    {{ $query = (site.GetPage (printf "authors/%s" (urlize $section.filters.author))).Pages }}
-    {{ end }}
+    {{- if $section.filters.author }}
+    {{- $query = (site.GetPage (printf "authors/%s" (urlize $section.filters.author))).Pages }}
+    {{- end }}
 
-    {{ if $section.filters.exclude_featured }}
-    {{ $query = where $query "Params.featured" "!=" true }}
-    {{ end }}
+    {{- if $section.filters.exclude_featured }}
+    {{- $query = where $query "Params.featured" "!=" true }}
+    {{- end }}
 
-    {{ if $section.filters.exclude_past }}
-    {{ $query = where $query "Date" ">=" now }}
-    {{ end }}
+    {{- if $section.filters.exclude_past }}
+    {{- $query = where $query "Date" ">=" now }}
+    {{- end }}
 
-    {{ if $section.filters.exclude_future }}
-    {{ $query = where $query "Date" "<" now }}
-    {{ end }}
+    {{- if $section.filters.exclude_future }}
+    {{- $query = where $query "Date" "<" now }}
+    {{- end }}
 
-    {{ $count := len $query }}
+    {{- $count := len $query }}
 
     {{/* Offset and Limit */}}
-    {{ if gt $items_offset 0 }}
-    {{ $query = first $items_count (after $items_offset $query) }}
-    {{ else }}
-    {{ $query = first $items_count $query }}
-    {{ end }}
+    {{- if gt $items_offset 0 }}
+    {{- $query = first $items_count (after $items_offset $query) }}
+    {{- else }}
+    {{- $query = first $items_count $query }}
+    {{- end }}
 
-    {{ $show_recent := $section.show_recent }}
-    {{ $recent_count := $section.recent_count }}
-    {{ $blog_count := 0 }}
+    {{- $show_recent := $section.show_recent }}
+    {{- $recent_count := $section.recent_count }}
+    {{- $blog_count := 0 }}
 
-    {{ range $blog := $query }}
-    {{ if or (eq $show_recent false) (lt $blog_count $recent_count) }}
-    {{ $blog_count = add $blog_count 1 }}
-    {{ $include_dict := dict "blog_feed_section" $section "blog_page" $blog "Site" $.Site }}
+    {{- range $blog := $query }}
+    {{- if or (eq $show_recent false) (lt $blog_count $recent_count) }}
+    {{- $blog_count = add $blog_count 1 }}
+    {{- $include_dict := dict "blog_feed_section" $section "blog_page" $blog "Site" $.Site }}
     {{ partial "blog_feed_item.html" $include_dict }}
-    {{ end }}
-    {{ end }}
+    {{- end }}
+    {{- end }}
 
   </div>
 </div>
