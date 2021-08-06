@@ -34,7 +34,7 @@
                         <ul class="navbar__menu menu">
                             {{ $menu_text := "" }}
                             {{ if ne .Params.layout "advanced" }}
-                            $menu_text := ""
+                            {{ $menu_text := "" }}
                             {{ else}}
                             <p>advance {{ .Params.layout }}</p>
                             {{ end }}
