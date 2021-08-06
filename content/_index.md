@@ -127,7 +127,6 @@ sections:
       container_style: ''
       container_class: ''
   - type: blog_feed_section
-    template: blog_feed_section
     title: What's New
     show_recent: false
     page_type: blog
