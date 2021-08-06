@@ -6,9 +6,7 @@
 {{- $resizedmd := $imageResource.Fill "768x896 webp" }}
 <div class="image__wrapper relative">
     <picture>
-        <source media="(min-width: 768px)" srcset="{{ $resizedmd.RelPermalink }} 1x,
-            {{- $resizedlg.RelPermalink }} 2x,
-            {{- $resizedxl.RelPermalink }} 3x">
+        <source media="(min-width: 768px)" srcset="{{ $resizedmd.RelPermalink }}">
         <source media="(min-width: 640px)" srcset="{{ $resizedsm.RelPermalink }} 1x,
             {{- $resizedmd.RelPermalink }} 2x,
             {{- $resizedlg.RelPermalink }} 3x">
