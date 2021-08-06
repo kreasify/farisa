@@ -274,7 +274,7 @@ module.exports = {
 			borderColor: ['before'],
 			borderRadius: ['before'],
 			borderStyle: ['before'],
-			borderWidth: ['before', 'focus'],
+			borderWidth: ['before', 'focus', 'last'],
 			boxShadow: ['after'],
 			cursor: ['hover', 'group-hover'],
 			display: ['last', 'before', 'after'],
