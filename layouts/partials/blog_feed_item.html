@@ -2,18 +2,6 @@
 {{ $blog_feed_section := .blog_feed_section }}
 {{ $post := .blog_page }}
 <div class="feed-item bg-body-primary col-span-12 lg:col-span-4 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 rounded-sm shadow-sm">
-    <div class="feed-item__image relative">
-        <a class="feed-item__link" href="{{ $post.RelPermalink }}">
-            {{- if $post.Params.thumbnail }}
-            {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "aspect" "aspect-w-3 aspect-h-2" "aspect_w" "3" "aspect_h" "2" "resized" "381x254 q100 webp" "is_fill" true }}
-            {{ partial "image.html" $include_dict }}
-            {{- end }}
-            {{- if $post.Params.thumbnail }}
-            {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
-            {{ partial "functions/image_4_3.html" $include_dict }}
-            {{- end }}
-        </a>
-    </div>
     {{- if $post.Params.thumbnail }}
     <a class="feed-item__link" href="{{ $post.RelPermalink }}">
     {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site }}
