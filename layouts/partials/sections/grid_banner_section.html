@@ -15,7 +15,7 @@
             </div>
             {{- if .image }}
             {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
-            {{- if eq $index 0 }}
+            {{- if or eq $index 0 }}
             {{ partial "functions/image_6_7.html" $include_dict }}
              {{- else if eq $index 1 }}
             {{ partial "functions/image_16_9.html" $include_dict }}
