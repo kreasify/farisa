@@ -9,7 +9,7 @@
             {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "aspect" "aspect-w-5 aspect-h-6" "aspect_w" "5" "aspect_h" "6" "resized" "213x256 q100 webp" "is_fill" true }}
             {{  partial "image.html" $include_dict }}
 
-            {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
+            {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" .alt_text "Site" $site }}
             {{ partial "functions/image_6_7.html" $include_dict }}
             {{- end }}
             {{- end }}
