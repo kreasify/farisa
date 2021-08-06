@@ -57,6 +57,7 @@ module.exports = {
 				'footer-text-secondary': 'var(--footer-text-secondary)',
 				'hint-text': 'var(--hint-text)',
 				'border-color': 'var(--border-color)',
+                'badge-color': 'var(--border-color)',
 				
 				facebook: '#3b5999',
 				twitter: '#55acee',
