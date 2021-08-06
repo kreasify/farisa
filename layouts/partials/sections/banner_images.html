@@ -19,11 +19,7 @@
     {{- range $index, $el := . }}
     <div class="{{ $col_span }} relative overflow-hidden" {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
         {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
-        {{- if or (eq $index 0) (eq $index 2) (eq $index 4) }}
         {{ partial "functions/image_4_3.html" $include_dict }}
-        {{- else }}
-        {{ partial "functions/image_4_3.html" $include_dict }}
-        {{- end }}
         <div class="absolute w-full h-full top-0 left-0 flex flex-col justify-center">
             <header class="w-80pr mx-auto">
                 <h4 class="text-primary text-thin lg:text-thin text-base lg:text-3xl mb-3">
