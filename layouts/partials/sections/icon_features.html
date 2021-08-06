@@ -1,7 +1,6 @@
-{{ $section := .section }}
-{{ $column := $section.design.column | default 3 }}
-
-{{ $col_span := "" }}
+{{- $section := .section }}
+{{- $column := $section.design.column | default 3 }}
+{{- $col_span := "" }}
 {{ if eq $column 1 }}
 {{ $col_span = "col-span-12" }}
 {{ else if eq $column 2 }}
