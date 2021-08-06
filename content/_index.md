@@ -24,6 +24,7 @@ sections:
         button_text: order now
         button_link: /order
     design:
+      
       container: false
     advanced:
       section_class: ''
