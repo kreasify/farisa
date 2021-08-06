@@ -1,20 +1,20 @@
-{{ $site := .Site }}
-{{ $section := .section }}
-{{ $column := $section.design.column | default 2 }}
+{{- $site := .Site }}
+{{- $section := .section }}
+{{- $column := $section.design.column | default 2 }}
 
-{{ $col_span := "" }}
-{{ if eq $column 1 }}
-{{ $col_span = "col-span-12" }}
-{{ else if eq $column 2 }}
-{{ $col_span = "col-span-12 lg:col-span-6" }}
-{{ else if eq $column 3 }}
-{{ $col_span = "colspan-12 lg:col-span-4" }}
-{{ else if eq $column 4 }}
-{{ $col_span = "col-span-6 lg:col-span-3" }}
-{{ else }}
-{{ $col_span = "col-span-6 lg:col-span-3" }}
-{{ end }}
-{{ with $section.images }}
+{{- $col_span := "" }}
+{{- if eq $column 1 }}
+{{- $col_span = "col-span-12" }}
+{{- else if eq $column 2 }}
+{{- $col_span = "col-span-12 lg:col-span-6" }}
+{{- else if eq $column 3 }}
+{{- $col_span = "colspan-12 lg:col-span-4" }}
+{{- else if eq $column 4 }}
+{{- $col_span = "col-span-6 lg:col-span-3" }}
+{{- else }}
+{{- $col_span = "col-span-6 lg:col-span-3" }}
+{{- end }}
+{{- with $section.images }}
 <div class="grid grid-cols-12">
     {{- range $index, $el := . }}
     <div class="{{ $col_span }} relative overflow-hidden">
