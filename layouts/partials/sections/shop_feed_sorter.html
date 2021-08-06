@@ -8,21 +8,22 @@
     <div class="sort">
         <ul class="list-none flex items-center justify-center">
             <li
-                class="link-item text-header-text text-xl font-medium leading-none border-r border-solid border-gray-300 pr-3">
+                class="link-item text-header-text text-xl font-medium leading-none border-r last:border-r-0 border-solid border-gray-300 pr-3">
                 <a class="text-current" href="#" @click.prevent="tab = 'all'"
                     :class="{ 'active text-primary' : tab === 'all' }">All</a>
             </li>
             <li
-                class="link-item text-header-text text-xl font-medium leading-none border-r border-solid border-gray-300 px-3">
+                class="link-item text-header-text text-xl font-medium leading-none border-r last:border-r-0 border-solid border-gray-300 px-3">
                 <a class="text-current" href="#" @click.prevent="tab = 'featured'"
                     :class="{ 'active text-primary' : tab === 'featured' }">Featured</a>
             </li>
             {{- if $section.badges }}
             {{- range $section.badges }}
+            {{- $badge := . }}
             <li
                 class="link-item text-header-text text-xl capitalize font-medium leading-none border-r last:border-r-0 border-solid border-gray-300 px-3">
-                <a class="text-current" href="#" @click.prevent="tab = . "
-                    :class="{ 'active text-primary' : tab === . }">{{ . }}</a>
+                <a class="text-current" href="#" @click.prevent="tab = '{{ $badge }}'"
+                    :class="{ 'active text-primary' : tab === '{{ $badge }}' }">{{ $badge }}</a>
             </li>
             {{- end }}
             {{- end }}
