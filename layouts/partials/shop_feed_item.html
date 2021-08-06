@@ -10,7 +10,7 @@
             {{  partial "image.html" $include_dict }}
 
             {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" .alt_text "Site" $site }}
-            {{ partial "functions/image_6_7.html" $include_dict }}
+            {{ partial "functions/card_image_6_7.html" $include_dict }}
             {{- end }}
             {{- end }}
         </a>
