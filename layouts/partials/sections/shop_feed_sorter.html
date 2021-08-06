@@ -17,7 +17,7 @@
                 <a class="text-current" href="#" @click.prevent="tab = 'featured'"
                     :class="{ 'active text-primary' : tab === 'featured' }">Featured</a>
             </li>
-            
+            {{ if isset $post.Params "badge" }}tab === '{{ index $post.Params "badge" }}' || {{ end }}{{ if eq $featured true }}tab === 'featured' || {{ end }}tab === 'all'">
             <li
                 class="link-item text-header-text text-xl font-medium leading-none border-r border-solid border-gray-300 px-3">
                 <a class="text-current" href="#" @click.prevent="tab = 'new'"
