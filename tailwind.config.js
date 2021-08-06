@@ -30,7 +30,7 @@ module.exports = {
 		extend: {
 			colors: {
 				primary: 'var(--primary)',
-                'primary-hover': 'var(--primary)',
+                'primary-hover': 'var(--primary-hover)',
 				'primary-text': 'var(--primary-text)',
 				secondary: 'var(--secondary)',
 				'secondary-text': 'var(--secondary-text)',
