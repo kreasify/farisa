@@ -1,21 +1,21 @@
 {{ $section := .section }}
-{{ if $section.title }}
+{{- if $section.title }}
 <header class="text-center">
-  <h2 class="section__title text-header-text">{{ $section.title }}</h2>
+  <h2 class="section__title text-header-text">{{- $section.title }}</h2>
 </header>
-{{ end }}
+{{- end }}
 <div class="grid grid-cols-10 gap-3 lg:gap-6">
-  {{/* Query */}}
-  {{ $items_type := $section.page_type | default "shop" }}
-  {{ $items_offset := $section.offset | default 0 }}
-  {{ $items_count := $section.count }}
-  {{ if eq $items_count 0 }}
-  {{ $items_count = 65535 }}
-  {{ else }}
-  {{ $items_count = $items_count | default 5 }}
-  {{ end }}
-  {{ $items_sort := $section.order | default "desc" }}
-  {{ $query := where site.RegularPages "Type" $items_type }}
+  {{-/* Query */}}
+  {{- $items_type := $section.page_type | default "shop" }}
+  {{- $items_offset := $section.offset | default 0 }}
+  {{- $items_count := $section.count }}
+  {{- if eq $items_count 0 }}
+  {{- $items_count = 65535 }}
+  {{- else }}
+  {{- $items_count = $items_count | default 5 }}
+  {{- end }}
+  {{- $items_sort := $section.order | default "desc" }}
+  {{- $query := where site.RegularPages "Type" $items_type }}
 
   {{/* Filters */}}
   {{ if $section.filters.tag }}
