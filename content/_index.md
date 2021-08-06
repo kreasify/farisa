@@ -47,7 +47,7 @@ sections:
       section_class: ''
       container_style: ''
       container_class: 'max-w-screen-xl pt-12 pb-6 px-3 lg:px-8'
-  - type: banner_section
+  - type: grid_banner_section
     features:
       - image: /uploads/banner_style_1_01.png
         alt_text: home 1
