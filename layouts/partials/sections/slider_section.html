@@ -1,9 +1,9 @@
-{{ $section := .section }}
-{{ with $section.slides }}
+{{- $section := .section }}
+{{- with $section.slides }}
 <div x-ref="splidejs" id="image-slider" class="splide relative group overflow-hidden" x-data="slider()" x-init='splide()'>
     <div class="splide__track">
         <ul class="splide__list">
-            {{ range . }}
+            {{- range . }}
             <li class="splide__slide relative">
                 {{- if .image }}
                     {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $.Site }}
