@@ -1,4 +1,5 @@
 /* purgecss start ignore */
+{{- $shop := where site.RegularPages "Type" $items_type }}
 :root {
     --body: #ffffff;
     --body-primary: #fafafa;
