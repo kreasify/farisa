@@ -26,11 +26,10 @@
     --accent-primary: #fafafa;
     --accent-text: #fafafa;
     --accent-text-primary: #fafafa;
-	--hint-text: #E5E7EB;
-	--border-color: #D1D5DB;
-    --badge-color: {{ .Params.badge_color | default "transparent" }};
-	--font-heading: {{ .Site.Params.colors.font_heading | default "Josefin Sans" }}, 'sans-serif';
-	--font-body: {{ .Site.Params.colors.font_body | default "Lato" }}, 'sans-serif';
+    --hint-text: #E5E7EB;
+    --border-color: #D1D5DB;
+    --font-heading: {{ .Site.Params.colors.font_heading | default "Josefin Sans" }}, 'sans-serif';
+    --font-body: {{ .Site.Params.colors.font_body | default "Lato" }}, 'sans-serif';
   }
   
   [data-theme="dark"] {
