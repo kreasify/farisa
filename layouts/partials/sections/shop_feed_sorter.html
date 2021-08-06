@@ -1,11 +1,10 @@
-{{ $section := .section }}
+{{- $section := .section }}
 <div x-data="{ tab: 'all' }">
-    {{ if $section.title }}
+    {{- if $section.title }}
     <header class="text-center">
         <h2 class="section__title text-header-text">{{ $section.title }}</h2>
     </header>
-    {{ end }}
-
+    {{- end }}
     <div class="sort">
         <ul class="list-none flex items-center justify-center">
             <li
@@ -18,83 +17,82 @@
                 <a class="text-current" href="#" @click.prevent="tab = 'featured'"
                     :class="{ 'active text-primary' : tab === 'featured' }">Featured</a>
             </li>
+            {{- if $section.badges }}
+            {{- range $section.badges }}
             <li
-                class="link-item text-header-text text-xl font-medium leading-none border-r border-solid border-gray-300 px-3">
-                <a class="text-current" href="#" @click.prevent="tab = 'new'"
-                    :class="{ 'active text-primary' : tab === 'new' }">New</a>
+                class="link-item text-header-text text-xl capitalize font-medium leading-none border-r last:border-r-0 border-solid border-gray-300 px-3">
+                <a class="text-current" href="#" @click.prevent="tab = . "
+                    :class="{ 'active text-primary' : tab === . }">{{ . }}</a>
             </li>
-            <li class="link-item text-header-text text-xl font-medium leading-none pl-3">
-                <a class="text-current" href="#" @click.prevent="tab = 'best'"
-                    :class="{ 'active text-primary' : tab === 'best' }">Best</a>
-            </li>
+            {{- end }}
+            {{- end }}
         </ul>
     </div>
     <div class="grid grid-cols-10 gap-3 lg:gap-6">
         {{/* Query */}}
-        {{ $items_type := $section.page_type | default "shop" }}
-        {{ $items_offset := $section.offset | default 0 }}
-        {{ $items_count := $section.count }}
-        {{ if eq $items_count 0 }}
-        {{ $items_count = 65535 }}
-        {{ else }}
-        {{ $items_count = $items_count | default 5 }}
-        {{ end }}
-        {{ $items_sort := $section.order | default "desc" }}
-        {{ $query := where site.RegularPages "Type" $items_type }}
+        {{- $items_type := $section.page_type | default "shop" }}
+        {{- $items_offset := $section.offset | default 0 }}
+        {{- $items_count := $section.count }}
+        {{- if eq $items_count 0 }}
+        {{- $items_count = 65535 }}
+        {{- else }}
+        {{- $items_count = $items_count | default 5 }}
+        {{- end }}
+        {{- $items_sort := $section.order | default "desc" }}
+        {{- $query := where site.RegularPages "Type" $items_type }}
 
         {{/* Filters */}}
-        {{ if $section.filters.tag }}
-        {{ $query = (site.GetPage (printf "tags/%s" (urlize $section.filters.tag))).Pages }}
-        {{ end }}
+        {{- if $section.filters.tag }}
+        {{- $query = (site.GetPage (printf "tags/%s" (urlize $section.filters.tag))).Pages }}
+        {{- end }}
 
-        {{ if $section.filters.collection }}
-        {{ $query = (site.GetPage (printf "collections/%s" (urlize $section.filters.collection))).Pages }}
-        {{ end }}
+        {{- if $section.filters.collection }}
+        {{- $query = (site.GetPage (printf "collections/%s" (urlize $section.filters.collection))).Pages }}
+        {{- end }}
 
-        {{ if $section.filters.color }}
-        {{ $query = (site.GetPage (printf "color/%s" (urlize $section.filters.color))).Pages }}
-        {{ end }}
+        {{- if $section.filters.color }}
+        {{- $query = (site.GetPage (printf "color/%s" (urlize $section.filters.color))).Pages }}
+        {{- end }}
 
-        {{ if $section.filters.author }}
-        {{ $query = (site.GetPage (printf "authors/%s" (urlize $section.filters.author))).Pages }}
-        {{ end }}
+        {{- if $section.filters.author }}
+        {{- $query = (site.GetPage (printf "authors/%s" (urlize $section.filters.author))).Pages }}
+        {{- end }}
 
-        {{ if $section.filters.brand }}
-        {{ $query = (site.GetPage (printf "brand/%s" (urlize $section.filters.brand))).Pages }}
-        {{ end }}
+        {{- if $section.filters.brand }}
+        {{- $query = (site.GetPage (printf "brand/%s" (urlize $section.filters.brand))).Pages }}
+        {{- end }}
 
-        {{ if $section.filters.exclude_featured }}
-        {{ $query = where $query "Params.featured" "!=" true }}
-        {{ end }}
+        {{- if $section.filters.exclude_featured }}
+        {{- $query = where $query "Params.featured" "!=" true }}
+        {{- end }}
 
-        {{ if $section.filters.exclude_past }}
-        {{ $query = where $query "Date" ">=" now }}
-        {{ end }}
+        {{- if $section.filters.exclude_past }}
+        {{- $query = where $query "Date" ">=" now }}
+        {{- end }}
 
-        {{ if $section.filters.exclude_future }}
-        {{ $query = where $query "Date" "<" now }}
-        {{ end }}
+        {{- if $section.filters.exclude_future }}
+        {{- $query = where $query "Date" "<" now }}
+        {{- end }}
 
-        {{ $count := len $query }}
+        {{- $count := len $query }}
 
         {{/* Offset and Limit */}}
-        {{ if gt $items_offset 0 }}
-        {{ $query = first $items_count (after $items_offset $query) }}
-        {{ else }}
-        {{ $query = first $items_count $query }}
-        {{ end }}
+        {{- if gt $items_offset 0 }}
+        {{- $query = first $items_count (after $items_offset $query) }}
+        {{- else }}
+        {{- $query = first $items_count $query }}
+        {{- end }}
 
-        {{ $show_recent := $section.show_recent }}
-        {{ $recent_count := $section.recent_count }}
-        {{ $shop_count := 0 }}
+        {{- $show_recent := $section.show_recent }}
+        {{- $recent_count := $section.recent_count }}
+        {{- $shop_count := 0 }}
 
-        {{ range $shop := $query }}
-        {{ if or (eq $show_recent false) (lt $shop_count $recent_count) }}
-        {{ $shop_count = add $shop_count 1 }}
-        {{ $include_dict := dict "shop_feed_section" $section "shop_page" $shop "Site" $.Site }}
+        {{- range $shop := $query }}
+        {{- if or (eq $show_recent false) (lt $shop_count $recent_count) }}
+        {{- $shop_count = add $shop_count 1 }}
+        {{- $include_dict := dict "shop_feed_section" $section "shop_page" $shop "Site" $.Site }}
         {{ partial "shop_feed_item_sorter.html" $include_dict }}
-        {{ end }}
-        {{ end }}
-
+        {{- end }}
+        {{- end }}
     </div>
 </div>
