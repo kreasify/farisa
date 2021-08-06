@@ -17,6 +17,8 @@
             {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
             {{- if eq $index 0 }}
             {{ partial "functions/image_6_7.html" $include_dict }}
+             {{- else if eq $index 0 }}
+            {{ partial "functions/image_6_7.html" $include_dict }}
             {{- end }}
             {{- end }}
             <div class="absolute w-full h-full left-0 top-0 flex items-end z-30">
