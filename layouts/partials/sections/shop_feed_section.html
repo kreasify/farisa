@@ -9,7 +9,7 @@
   {{- $items_type := $section.page_type | default "shop" }}
   {{- $items_offset := $section.offset | default 0 }}
   {{- $items_count := $section.count }}
-  
+
   {{- if eq $items_count 0 }}
   {{- $items_count = 65535 }}
   {{- else }}
@@ -64,7 +64,7 @@
   {{- if or (eq $show_recent false) (lt $shop_count $recent_count) }}
   {{- $shop_count = add $shop_count 1 }}
   {{- $include_dict := dict "shop_feed_section" $section "shop_page" $shop "Site" $.Site }}
-  {{- partial "shop_feed_item.html" $include_dict }}
+  {{ partial "shop_feed_item.html" $include_dict }}
   {{- end }}
   {{- end }}
 </div>
