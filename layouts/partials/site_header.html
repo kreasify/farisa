@@ -51,7 +51,7 @@
                                     {{- range .Children }}
                                     <li
                                         class="submenu__item">
-                                        <a class="submenu__item-link"
+                                        <a class="submenu__item-link hover:text-accent"
                                             href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}"
                                             {{ end }}>
                                             {{- .Pre -}}<span>{{ .Name | humanize | safeHTML }}</span>
