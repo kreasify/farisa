@@ -99,7 +99,7 @@
                                     data-target="{{$hash}}"
                                     {{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>{{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}</a>
                             </li>
-                             <li>{{ $class_menu }} {{ if eq .Params.layout }}{{ end }}</li>
+                             <li>{{ $class_menu }} {{ if eq .Params.layout "advanced" }}{{ end }}</li>
                             {{- end }}
                             {{- end }}
                         </ul>
