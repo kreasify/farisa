@@ -275,6 +275,7 @@ module.exports = {
 	variants: {
 		extend: {
 			backgroundColor: ['before', 'after', 'dark'],
+            backgroundOpacity: ['active'],
 			borderColor: ['before'],
 			borderRadius: ['before'],
 			borderStyle: ['before'],
