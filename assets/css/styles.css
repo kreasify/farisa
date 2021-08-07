@@ -16,5 +16,5 @@ Last change: 	09/01/2020
 @import "site.css";
 
 .banner__image:hover:before {
-    @apply left-0 hover:before:right-0 hover:before:opacity-0 hover:before:transition hover:before:duration-1000 hover:before:ease-linear;
+    @apply hover:before:left-0 hover:before:right-0 hover:before:opacity-0 hover:before:transition hover:before:duration-1000 hover:before:ease-linear;
 }
