@@ -191,6 +191,9 @@ module.exports = {
 				'90': '90',
 				'100': '100',
 			},
+            transitionTimingFunction: {
+                'ease': 'ease',
+            },
 			transitionDelay: {
 				'10000': '10000ms'
 			},
@@ -290,7 +293,7 @@ module.exports = {
 			inset: ['hover', 'group-hover', 'before', 'after'],
 			lineHeight: ['after'],
 			margin: ['first', 'last', 'before', 'after'],
-            opacity: ['hover', 'before', 'after'],
+            opacity: ['hover', 'group-hover', 'before', 'after'],
 			outline: ['hover'],
 			padding: ['before', 'after', 'first', 'last'],
 			placeholderColor: ['hover', 'active'],
@@ -303,9 +306,9 @@ module.exports = {
 			transform: ['hover', 'focus', 'active', 'before', 'after', 'group-hover'],
 			transformOrigin: ['group-hover'],
 			translate: ['group-hover'],
-			transitionProperty: ['hover', 'focus', 'before', 'after'],
-			transitionTimingFunction: ['hover', 'before', 'after'],
-			transitionDuration: ['hover', 'before', 'after'],
+			transitionProperty: ['hover', 'group-hover', 'focus', 'before', 'after'],
+			transitionTimingFunction: ['hover', 'group-hover', 'before', 'after'],
+			transitionDuration: ['hover', 'group-hover', 'before', 'after'],
 			transitionDelay: ['hover'],
 			aspectRatio: ['responsive', 'hover']
 		},

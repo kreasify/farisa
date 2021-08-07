@@ -14,3 +14,12 @@ Last change: 	09/01/2020
 @import "partials/global.css";
 @import "partials/footer.css";
 @import "site.css";
+
+.banner__image {
+    transition: 0.5s ease;
+}
+
+.banner__image:hover:before {
+    transition: all 900ms linear;
+    @apply left-0 right-0 opacity-0;
+}
