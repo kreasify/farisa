@@ -39,6 +39,8 @@
                             {{- $class_menu := "text-gray-700" }}
                             {{- end }}
 
+                             <li>{{ $class_menu }}</li>
+
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
                             {{- if .HasChildren }}
