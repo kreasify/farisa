@@ -39,7 +39,7 @@
                             {{- $class_menu := "text-gray-700" }}
                             {{- end }}
 
-                             <li>{{ $class_menu }} {{ .Params.layout }}</li>
+                             <li> {{ .Params.layout }}</li>
 
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
