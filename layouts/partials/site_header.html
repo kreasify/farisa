@@ -35,7 +35,10 @@
                             {{- $class_menu := "" }}
                             {{- if ne .Params.layout "advanced" }}
                             {{- $class_menu := "text-header-text" }}
+                            {{- else }}
+                            {{- $class_menu := ""}}
                             {{- end }}
+
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
                             {{- if .HasChildren }}
