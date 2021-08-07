@@ -10,7 +10,7 @@
 <!-- Aspect ratio 21:9 -->
 {{- $resizedxl := $imageResource.Fill "1280x549 webp" }}
 {{- $resized2xl := $imageResource.Fill "1536x658 webp" }}
-<div class="image__wrapper relative">
+<div class="image__wrapper relative aspect-w-16 aspect-h-9 lg:aspect-none">
     <picture>
         <source media="min-width: 1536px)" srcset="{{ $resized2xl.RelPermalink }}">
         <source media="(min-width: 1280px)" srcset="{{ $resizedxl.RelPermalink }} 1x,
