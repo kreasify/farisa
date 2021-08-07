@@ -38,8 +38,8 @@
                             {{- end }} 
                             {{- $sticky_class := "" }}
                             {{- if .Site.Params.header.sticky_nav }}
-                            {{- $sticky_class := . }}
-                            <p>{{ .}}</p>
+                            {{- $sticky_class := .Site.Params.header.sticky_nav }}
+                            <p>{{ .Site.Params.header.sticky_nav}}</p>
                             {{- end }}
 
                             {{- $current_page := . }}
