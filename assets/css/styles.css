@@ -15,4 +15,6 @@ Last change: 	09/01/2020
 @import "partials/footer.css";
 @import "site.css";
 
-.banner__image:hover
+.banner__image:hover:before {
+    @apply 
+}
