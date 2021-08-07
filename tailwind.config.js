@@ -192,7 +192,7 @@ module.exports = {
 				'100': '100',
 			},
             transitionTimingFunction: {
-                'in-expo': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
+                'ease': 'cubic-bezier(0.95, 0.05, 0.795, 0.035)',
             },
 			transitionDelay: {
 				'10000': '10000ms'
