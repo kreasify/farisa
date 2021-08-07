@@ -32,12 +32,17 @@
                 <div class="nav__menu col-span-8 hidden lg:block">
                     <nav class="navbar">
                         <ul class="navbar__menu menu">
+                            {{- $menu_class := "" }}
+                            {{- with .Params.layout }} 
+                            {{- $menu_class = . }}
+                            {{- end }} 
+
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
                             {{- if .HasChildren }}
                             <li
-                                class="has-submenu menu__item font-heading">
-                                <a class="menu__item-link text-header-text" href="#">
+                                class="has-submenu menu__item font-heading {{ if $menu_class }}text-gray-700{{ else }}text-header-text{{ end }} hover:text-header-text-primary">
+                                <a class="menu__item-link" href="#">
                                     {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
                                     {{ partial "svg/icon-angle-down.svg" (dict "class" "w-3 h-3 fill-current text-current ml-2") }}
                                 </a> 
@@ -46,7 +51,7 @@
                                     {{- range .Children }}
                                     <li
                                         class="submenu__item">
-                                        <a class="submenu__item-link text-header-text"
+                                        <a class="submenu__item-link hover:text-accent"
                                             href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}"
                                             {{ end }}>
                                             {{- .Pre -}}<span>{{ .Name | humanize | safeHTML }}</span>
@@ -84,8 +89,8 @@
                             {{- $is_same_page = eq (path.Dir $current_page.RelPermalink) (path.Dir ($hash_removed|relLangURL)) }}
                             {{- end }}
                             <li
-                                class="menu__item font-heading">
-                                <a class='menu__item-link{{ if $is_link_in_current_path }} active{{ end }}'
+                                class="menu__item font-heading  {{ if $menu_class }}text-gray-700{{ else }}text-header-text{{ end }} hover:text-header-text-primary">
+                                <a class='menu__item-link {{ if $is_link_in_current_path }} active{{ end }}'
                                     href="{{.URL | relLangURL}}" {{ if and $is_widget_page $is_same_page }}
                                     data-target="{{$hash}}"
                                     {{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>{{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}</a>

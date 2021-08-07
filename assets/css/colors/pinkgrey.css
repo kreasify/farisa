@@ -14,7 +14,7 @@
     --header-secondary: #f5f5f5;
     --header-text: {{ .Site.Params.colors.header_text | default "#000000" }};
     --header-text-primary: #111827;
-    --header-text-secondary: #1F2937;
+    --header-text-secondary: #F87171;
     --footer: #000000;
     --footer-primary: #111111;
     --footer-secondary: #949494;
@@ -51,8 +51,8 @@
     --header-primary: #1e1e1e;
     --header-secondary: #2e2e2e;
     --header-text: #ffffff;
-    --header-text-primary: #fafafa;
-    --header-text-secondary: #9CA3AF;
+    --header-text-primary: #F87171;
+    --header-text-secondary: #FCA5A5;
     --footer: #121212;
     --footer-primary: #1e1e1e;
     --footer-secondary: #2e2e2e;

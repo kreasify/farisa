@@ -9,8 +9,8 @@ Last change: 	09/01/2020
 /* purgecss start ignore */
 @import "partials/splide.min.css";
 /* purgecss end ignore */
-@tailwind utilities;
 @import "partials/header.css";
+@tailwind utilities;
 @import "partials/global.css";
 @import "partials/footer.css";
 @import "site.css";
