@@ -42,7 +42,6 @@
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
                             {{- if .HasChildren }}
-                            <li>{{ $class_menu }}</li>
                             <li
                                 class="has-submenu menu__item font-heading">
                                 <a class="menu__item-link text-header-text" href="#">
