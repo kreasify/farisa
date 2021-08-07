@@ -275,6 +275,7 @@ module.exports = {
 	variants: {
 		extend: {
 			backgroundColor: ['before', 'after', 'dark'],
+            backgroundOpacity: ['before', 'after'],
 			borderColor: ['before'],
 			borderRadius: ['before'],
 			borderStyle: ['before'],
@@ -289,10 +290,11 @@ module.exports = {
 			inset: ['hover', 'group-hover', 'before', 'after'],
 			lineHeight: ['after'],
 			margin: ['first', 'last', 'before', 'after'],
+            opacity: ['hover', 'before', 'after'],
 			outline: ['hover'],
 			padding: ['before', 'after', 'first', 'last'],
 			placeholderColor: ['hover', 'active'],
-			position: ['before', 'after', 'focus', 'important'],
+			position: ['hover', 'before', 'after', 'focus', 'important'],
 			textColor: ['before', 'after'],
 			width: ['hover', 'focus', 'before', 'after', 'group-hover'],
 			zIndex: ['before', 'after'],
