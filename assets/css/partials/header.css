@@ -64,7 +64,7 @@
     }
 
     .has-submenu {
-        @apply relative text-header-text hover:text-header-text-secondary border-b border-solid border-gray-300 lg:border-0 py-3 px-3 mb-0;
+        @apply relative;
 
         a {
             @apply text-current hover:no-underline flex items-center;
