@@ -94,7 +94,7 @@
                             {{- end }}
                             <li
                                 class="menu__item font-heading  {{ if $menu_class }}text-gray-700 hover:text-gray-500{{ else }}text-header-text hover:text-header-text-primary{{ end }}"
-                                {{ if $sticky_nav }}:class="{ 'absolute w-full left-0 top-0 py-4': atTop, 'fixed w-full left-0 top-0 bg-header delay-300 animate-fadeInDown shadow-lg py-0': !atTop }">
+                                {{ if $sticky_class }}:class="{ 'absolute w-full left-0 top-0 py-4': atTop, 'fixed w-full left-0 top-0 bg-header delay-300 animate-fadeInDown shadow-lg py-0': !atTop }">
                                 <a class='menu__item-link {{ if $is_link_in_current_path }} active{{ end }}'
                                     href="{{.URL | relLangURL}}" {{ if and $is_widget_page $is_same_page }}
                                     data-target="{{$hash}}"
