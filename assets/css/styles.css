@@ -15,7 +15,7 @@ Last change: 	09/01/2020
 @import "partials/footer.css";
 @import "site.css";
 
-
+/* banner section */
 .banner__image {
     transition: 0.5s ease;
 }
