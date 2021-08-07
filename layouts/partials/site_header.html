@@ -34,7 +34,7 @@
                         <ul class="navbar__menu menu">
                         {{ $greeting := "" }} {{ with .Params.layout }} {{ $greeting = . }} {{ end }} 
 
-                             <li> {{ .Params.layout }} {{ $greeting }}</li>
+                             <li> {{ $greeting }} {{if $greeting }}{{end}}</li>
 
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
