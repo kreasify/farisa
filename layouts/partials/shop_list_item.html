@@ -10,10 +10,6 @@
         </a>
         {{- if isset .Params "badge" }}
         <span
-            class="feed-item__badge absolute text-sm text-white top-2 left-2 px-2 {{ if eq .Params.badge "limited" }}bg-warning {{ else if eq .Params.badge "terlaris" }}bg-warning {{ else }}bg-green-500{{ end }}">{{ index .Params "badge" }}</span>
-        {{- end }}
-        {{- if isset .Params "badge" }}
-        <span
             class="feed-item__badge absolute text-sm text-white rounded-sm top-2 left-2 px-2" {{ if .Params.badge_color }}style="background-color: {{ .Params.badge_color }}"{{ end }}>{{ index .Params "badge" }}</span>
         {{- end }}
     </div>
