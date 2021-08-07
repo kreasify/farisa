@@ -305,7 +305,7 @@ module.exports = {
 			translate: ['group-hover'],
 			transitionProperty: ['hover', 'group-hover', 'focus', 'before', 'after'],
 			transitionTimingFunction: ['hover', 'before', 'after'],
-			transitionDuration: ['hover', 'before', 'after'],
+			transitionDuration: ['hover', 'group-hover', 'before', 'after'],
 			transitionDelay: ['hover'],
 			aspectRatio: ['responsive', 'hover']
 		},
