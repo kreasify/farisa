@@ -8,6 +8,6 @@
     <picture>
         <source media="(min-width: 768px)" srcset="{{ $resizedmd.RelPermalink }}">
         <source media="(min-width: 640px)" srcset="{{ $resizedsm.RelPermalink }}">
-        <img class="image w-full" alt="{{ $alt }}" src="{{ $resizedsm.RelPermalink }}" />
+        <img class="image absolute w-full h-full object-cover" alt="{{ $alt }}" src="{{ $resizedsm.RelPermalink }}" />
     </picture>
 </div>
