@@ -32,7 +32,8 @@
                 <div class="nav__menu col-span-8 hidden lg:block">
                     <nav class="navbar">
                         <ul class="navbar__menu menu">
-                        {{ $menu_class := "" }} {{ with .Params.layout }} {{ $menu_class = . }} {{ end }} 
+                            {{- $menu_class := "" }}
+                            {{ with .Params.layout }} {{ $menu_class = . }} {{ end }} 
 
                              <li>{{ $menu_class }} {{if $menu_class }}grey {{else}}red{{end}}</li>
 
