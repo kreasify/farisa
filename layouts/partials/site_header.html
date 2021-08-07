@@ -51,7 +51,7 @@
                                     {{- range .Children }}
                                     <li
                                         class="submenu__item">
-                                        <a class="submenu__item-link {{ if $menu_class }}text-gray-700{{ else }}text-header-text{{ end }} hover:text-"
+                                        <a class="submenu__item-link {{ if $menu_class }}text-gray-700{{ else }}text-header-text{{ end }} hover:text-accent"
                                             href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}"
                                             {{ end }}>
                                             {{- .Pre -}}<span>{{ .Name | humanize | safeHTML }}</span>
