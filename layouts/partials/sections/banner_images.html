@@ -17,7 +17,7 @@
 {{- with $section.images }}
 <div class="grid grid-cols-12">
     {{- range $index, $el := . }}
-    <div class="{{ $col_span }} relative overflow-hidden" {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
+    <div class="{{ $col_span }} relative group overflow-hidden" {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
         {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
         {{ partial "functions/image_4_3.html" $include_dict }}
         <div class="absolute w-full h-full top-0 left-0 flex flex-col justify-center">
