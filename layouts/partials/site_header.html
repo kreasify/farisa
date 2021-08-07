@@ -37,7 +37,7 @@
                             {{- $menu_class = . }}
                             {{- end }} 
                             {{- $sticky_class := "" }}
-                            {{- .Site.Params.header.sticky_nav }}
+                            {{- with .Site.Params.header.sticky_nav }}
                             {{- end }}
 
                             {{- $current_page := . }}
