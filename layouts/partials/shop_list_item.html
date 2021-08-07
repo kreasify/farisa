@@ -4,18 +4,18 @@
     <div class="feed-item__image relative bg-body-primary">
         <a class="feed-item__link" href="{{ .RelPermalink }}">
             {{- if .Params.thumbnail }}
-            {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "aspect" "aspect-w-5 aspect-h-6" "aspect_w" "5" "aspect_h" "6" "resized" "213x256 q100 webp" "is_fill" true }}
-            {{ partial "image.html" $include_dict }}
+            {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site ".image_resized" "224x269 q100 webp" }}
+            {{ partial "functions/image_5_6.html" $include_dict }}
             {{- end }}
         </a>
         {{- if isset .Params "badge" }}
         <span
-            class="feed-item__badge absolute text-sm text-white top-2 left-2 px-2 {{ if eq .Params.badge "limited" }}bg-warning {{ else if eq .Params.badge "terlaris" }}bg-warning {{ else }}bg-green-500{{ end }}">{{ index .Params "badge" }}</span>
+            class="feed-item__badge absolute text-sm text-white rounded-sm top-2 left-2 px-2" {{ if .Params.badge_color }}style="background-color: {{ .Params.badge_color }}"{{ end }}>{{ index .Params "badge" }}</span>
         {{- end }}
     </div>
     <div class="feed-item__info py-3 px-2">
         <a class="feed-item__link" href="{{ .RelPermalink }}">
-            <h3 class="feed-item__title text-xs lg:text-sm text-header-text font-heading font-medium mb-1">{{ .Title }}</h3>
+            <h3 class="feed-item__title text-sm lg:text-base text-header-text font-heading font-medium mb-1">{{ .Title }}</h3>
         </a>
         {{- with .Params.variants }}{{ range first 1 . }}
         <p class="feed-item__price mb-3">
