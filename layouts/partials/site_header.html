@@ -32,7 +32,7 @@
                 <div class="nav__menu col-span-8 hidden lg:block">
                     <nav class="navbar">
                         <ul class="navbar__menu menu">
-                        {{ with .Site.Params }} {{ $.Scratch.Set "greeting" "Hello" }} {{ end }} {{ .Scratch.Get "greeting" }}
+                        {{ with .Params }} {{ $.Scratch.Set "greeting" "Hello" }} {{ end }} {{ .Scratch.Get "greeting" }}
                         {{ $greeting := "" }} {{ with .Params.layout }} {{ $greeting = . }} {{ end }} 
 
                              <li> {{ $greeting }} {{if $greeting }}grey {{else}}red{{end}}</li>
