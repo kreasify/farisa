@@ -41,7 +41,7 @@
                             {{- range .Site.Menus.main }}
                             {{- if .HasChildren }}
                             <li
-                                class="has-submenu menu__item font-heading">
+                                class="has-submenu menu__item font-heading {{ if $menu_class }}text-gray-700{{ else }}text-header-text{{ end }} hover:text-accent">
                                 <a class="menu__item-link {{ if $menu_class }}text-gray-700{{ else }}text-header-text{{ end }}" href="#">
                                     {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
                                     {{ partial "svg/icon-angle-down.svg" (dict "class" "w-3 h-3 fill-current text-current ml-2") }}
