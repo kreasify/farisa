@@ -290,7 +290,7 @@ module.exports = {
 			inset: ['hover', 'group-hover', 'before', 'after'],
 			lineHeight: ['after'],
 			margin: ['first', 'last', 'before', 'after'],
-            opacity: ['active'],
+            opacity: ['before', 'after'],
 			outline: ['hover'],
 			padding: ['before', 'after', 'first', 'last'],
 			placeholderColor: ['hover', 'active'],
