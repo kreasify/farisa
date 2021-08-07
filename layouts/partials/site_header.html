@@ -33,9 +33,9 @@
                     <nav class="navbar">
                         <ul class="navbar__menu menu">
                             {{- $class_menu := "" }}
-                            {{ if ne .Params.layout "advanced" }}
+                            {{- if ne .Params.layout "advanced" }}
                             {{- $class_menu := "text-header-text" }}
-                            {{ end }}
+                            {{- end }}
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
                             {{- if .HasChildren }}
