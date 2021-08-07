@@ -303,7 +303,7 @@ module.exports = {
 			transform: ['hover', 'focus', 'active', 'before', 'after', 'group-hover'],
 			transformOrigin: ['group-hover'],
 			translate: ['group-hover'],
-			transitionProperty: ['hover', 'focus', 'before', 'after'],
+			transitionProperty: ['hover', 'group-hover', 'focus', 'before', 'after'],
 			transitionTimingFunction: ['hover', 'before', 'after'],
 			transitionDuration: ['hover', 'before', 'after'],
 			transitionDelay: ['hover'],
