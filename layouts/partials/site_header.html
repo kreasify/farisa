@@ -89,7 +89,7 @@
                             {{- $is_same_page = eq (path.Dir $current_page.RelPermalink) (path.Dir ($hash_removed|relLangURL)) }}
                             {{- end }}
                             <li
-                                class="menu__item font-heading  {{ if $menu_class }}{{ if .Site.Params.header.sticky_nav }}text-gray-700 hover:text-gray-500{{ else }}text-header-text hover:text-header-text-primary{{ end }}">
+                                class="menu__item font-heading  {{ if $menu_class }}{{ if .Site.Params.header.sticky_nav }}text-gray-700 hover:text-gray-500{{end }}{{ else }}text-header-text hover:text-header-text-primary{{ end }}">
                                 <a class='menu__item-link {{ if $is_link_in_current_path }} active{{ end }}'
                                     href="{{.URL | relLangURL}}" {{ if and $is_widget_page $is_same_page }}
                                     data-target="{{$hash}}"
