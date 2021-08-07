@@ -16,8 +16,9 @@ Last change: 	09/01/2020
 @import "site.css";
 
 .banner__image {
-    
+
 }
+
 .banner__image:hover:before {
     @apply left-0 right-0 opacity-0 transition duration-1000 ease-linear;
 }
