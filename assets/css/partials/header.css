@@ -59,7 +59,7 @@
         @apply border-b border-solid border-gray-300 lg:border-0 py-3 px-3 mb-0;
 
         a {
-            @apply hover:no-underline capitalize;
+            @apply text-current hover:no-underline capitalize;
         }
     }
 
