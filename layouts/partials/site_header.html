@@ -32,9 +32,9 @@
                 <div class="nav__menu col-span-8 hidden lg:block">
                     <nav class="navbar">
                         <ul class="navbar__menu menu">
-                        {{ $greeting := "" }} {{ with .Params.layout }} {{ $greeting = . }} {{ end }} 
+                        {{ $menu_class := "" }} {{ with .Params.layout }} {{ $menu_class = . }} {{ end }} 
 
-                             <li>{{ $greeting }} {{if $greeting }}grey {{else}}red{{end}}</li>
+                             <li>{{ $menu_class }} {{if $menu_class }}grey {{else}}red{{end}}</li>
 
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
