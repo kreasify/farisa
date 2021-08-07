@@ -36,7 +36,7 @@
                             {{- with .Params.layout }} 
                             {{- $menu_class = . }}
                             {{- end }} 
-                            {{- $sticky_class := false }}
+                            {{- $sticky_class := "" }}
                             {{- with .Site.Params.header.sticky_nav }}
                             {{- $sticky_class := . }}
                             <p>{{ .}}</p>
