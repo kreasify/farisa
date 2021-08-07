@@ -32,7 +32,7 @@
                 <div class="nav__menu col-span-8 hidden lg:block">
                     <nav class="navbar">
                         <ul class="navbar__menu menu">
-                        {{ $greeting := "" }} {{ with .Params.layout }} {{ $greeting = "Hello" }} {{ end }} {{ $greeting }}
+                        {{ $greeting := "" }} {{ with .Params.layout }} {{ $greeting = . }} {{ end }} {{ $greeting }}
 
                              <li> {{ .Params.layout }}</li>
 
