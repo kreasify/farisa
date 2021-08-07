@@ -4,7 +4,7 @@
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
 {{- $resizedsm := $imageResource.Fill "640x360 webp" }}
 {{- $resizedmd := $imageResource.Fill "768x432 webp" }}
-<div class="image__wrapper relative aspect-w-4 aspect-h-3">
+<div class="image__wrapper relative aspect-w-16 aspect-h-9">
     <picture>
         <source media="(min-width: 768px)" srcset="{{ $resizedmd.RelPermalink }}">
         <source media="(min-width: 640px)" srcset="{{ $resizedsm.RelPermalink }}">
