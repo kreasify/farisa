@@ -36,11 +36,6 @@
                             {{- with .Params.layout }} 
                             {{- $menu_class = . }}
                             {{- end }} 
-                            {{- $sticky_class := "" }}
-                            {{- if .Site.Params.header.sticky_nav }}
-                            {{- $sticky_class := true }}
-                            <p>{{ .Site.Params.header.sticky_nav}}</p>
-                            {{- end }}
 
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
