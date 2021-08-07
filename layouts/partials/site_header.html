@@ -32,13 +32,6 @@
                 <div class="nav__menu col-span-8 hidden lg:block">
                     <nav class="navbar">
                         <ul class="navbar__menu menu">
-                            {{- $class_menu := "bi" }}
-                            {{- if ne .Params.layout "advanced" }}
-                            {{- $class_menu := "text-header-text" }}
-                            {{- else }}
-                            {{- $class_menu := "text-gray-700" }}
-                            {{- end }}
-
                              <li> {{ .Params.layout }}</li>
 
                             {{- $current_page := . }}
