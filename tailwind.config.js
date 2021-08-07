@@ -294,7 +294,7 @@ module.exports = {
 			outline: ['hover'],
 			padding: ['before', 'after', 'first', 'last'],
 			placeholderColor: ['hover', 'active'],
-			position: ['before', 'after', 'focus', 'important'],
+			position: ['hover', 'before', 'after', 'focus', 'important'],
 			textColor: ['before', 'after'],
 			width: ['hover', 'focus', 'before', 'after', 'group-hover'],
 			zIndex: ['before', 'after'],
