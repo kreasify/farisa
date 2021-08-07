@@ -4,5 +4,5 @@
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
 {{- $resizedmd := $imageResource.Fill "674x379 q90 webp" }}
 <div class="image__wrapper relative">
-    <img class="image w-full before:bg-white before:bg-opacity-30 before:absolute before:bottom-0" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}" />
+    <img class="image w-full before:bg-white before:bg-opacity-30 before:absolute before:bottom-0 before:top-0" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}" />
 </div>
