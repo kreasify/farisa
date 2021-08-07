@@ -15,11 +15,11 @@ Last change: 	09/01/2020
 @import "partials/footer.css";
 @import "site.css";
 
-.banner__image {
-    transition: 0.5s ease;
+/* banner section */
+.banner__image:hover:before {
+    @apply left-0 right-0 opacity-0 transition-all duration-1000 ease-linear;
 }
 
-.banner__image:hover:before {
-    transition: all 900ms linear;
-    @apply left-0 right-0 opacity-0;
+.banner__image:hover:after {
+    @apply top-0 bottom-0 opacity-0 transition-all duration-1000 ease-linear;
 }
