@@ -17,7 +17,7 @@
 {{- with $section.images }}
 <div class="grid grid-cols-12">
     {{- range $index, $el := . }}
-    <div class="{{ $col_span }} relative group overflow-hidden transition duration-500 ease-in-out before:empty-content before:bg-white before:bg-opacity-30 before:absolute before:bottom-0 before:top-0 before:left-1/2 before:right-1/2 before:opacity-100 group-hover:before:left-0 group-hover:before:right-0 group-hover:before:opacity-0 hover:before:transition hover:before:duration-1000 hover:before:ease-linear" {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
+    <div class="{{ $col_span }} relative group overflow-hidden transition duration-500 ease-in-out before:empty-content before:bg-white before:bg-opacity-30 before:absolute before:bottom-0 before:top-0 before:left-1/2 before:right-1/2 before:opacity-100 group-hover:before:left-0 hover:before:right-0 hover:before:opacity-0 hover:before:transition hover:before:duration-1000 hover:before:ease-linear" {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
         {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
         {{ partial "functions/image_4_3.html" $include_dict }}
         <div class="absolute w-full h-full top-0 left-0 flex flex-col justify-center">
