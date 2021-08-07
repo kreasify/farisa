@@ -292,7 +292,7 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
 		  baseURL: {{ .Site.BaseURL }},
           items: {
             "title": {{ .Title }},{{ if .Params.sku }}
-            "sku": {{ .Params.sku }},{{ end }}{{ if .Params.images }}{{range first 1 .Params.images }}{{- $image := .image }}{{- $imageResource := (.Site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}{{- $resized := $imageResource.Fill "70x81" }}
+            "sku": {{ .Params.sku }},{{ end }}{{ if .Params.images }}{{range first 1 .Params.images }}{{- $image := .image }}{{- $imageResource := (.Site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}{{- $resized := $imageResource.Fill "70x84" }}
             "thumbnail": {{ $resized | absURL }}
             "image": {{ $resized | relURL }},{{ end }}{{ end }}{{ if .Params.variants }}
             "variants": [ {{range $index, $el := .Params.variants }}{{ if gt $index 0 }}, {{ end }}
