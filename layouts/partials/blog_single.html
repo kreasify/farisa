@@ -13,7 +13,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
             {{- if .Params.thumbnail }}
             {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "aspect" "aspect-w-3 aspect-h-2" "aspect_w" "3" "aspect_h" "2" "resized" "381x q100 webp" }}
             {{ partial "image.html" $include_dict }}
-            <div class="responsive aspect-w-1 aspect-h-1">
+            <div class="responsive aspect-w-3 aspect-h-2">
             {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-md" "resized" "78x78 webp" "fill" true }}
             {{ partial "functions/get_image.html" $include_dict }}
             </div>
