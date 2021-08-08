@@ -5,6 +5,12 @@ thumbnail: /uploads/hero-1.jpg
 sections:
   - type: slider_section
     slides:
+      - image: /uploads/slider_1.png
+        alt_text: home 1
+        title: Handmade Hand Carved Coffee
+        subtitle: As rich and unique as the coffee beans it is intended for, this little scoop will make your morning ritual a special occasion every day.
+        button_text: order now
+        button_link: /order
       - image: /uploads/hero-1.jpg
         alt_text: home 1
         title: Handmade Hand Carved Coffee
