@@ -1,7 +1,7 @@
 {{- $site := .Site }}
 {{- $image := .image }}
 {{- $alt := .alt_text | default "alt text" }}
-{{- $class := .class }}
+{{- $class := .class | default "alt text" }}
 {{- $fill := .fill | default "true" }}
 <!-- aspect ratio 5:6 -->
 {{- $resized := .resized | default "213x256 q100 webp" }}
