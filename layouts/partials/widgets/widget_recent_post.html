@@ -14,7 +14,7 @@
 					{{- if .Params.thumbnail }}
 					<div class="widget__recent-media col-span-3 responsive aspect-w-1 aspect-h-1">
 						{{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "class" "rounded-md" "aspect" "aspect-w-1 aspect-h-1" "aspect_w" "1" "aspect_h" "1" "resized" "110x110 q100 webp" "is_fill" true }}
-						{{ partial "image.html" $include_dict }}
+						{{ partial "get_image.html" $include_dict }}
 					</div>
 					{{- end }}
 					<div class="widget__recent-body col-span-9">
