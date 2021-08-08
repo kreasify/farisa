@@ -5,7 +5,7 @@
 {{- $aspect := .aspect | default "aspect-w-3 aspect-h-2" }}
 {{- $aspect_w := .aspect_w | default "3" }}
 {{- $aspect_h := .aspect_h | default "2" }}
-{{- $fill := .fill | default "" }}
+{{- $fill := .fill | default "true" }}
 {{- $resized := .resized | default "381x q100" }}
 
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
