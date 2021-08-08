@@ -6,7 +6,7 @@
 {{- $aspect_w := .aspect_w | default "3" }}
 {{- $aspect_h := .aspect_h | default "2" }}
 {{- $fill := .fill | default "true" }}
-<!-- aspect ratio  -->
+<!-- aspect ratio 5:6 -->
 {{- $resized := .resized | default "213x256 q100 webp" }}
 
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
