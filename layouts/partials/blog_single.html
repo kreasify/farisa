@@ -110,10 +110,10 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                                     {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "class" "rounded-md" "aspect" "aspect-w-1 aspect-h-1" "aspect_w" "1" "aspect_h" "1" "resized" "120x120 q100 webp" "is_fill" true }}
                                     {{ partial "image.html" $include_dict }}
 
-                            <div class="responsive aspect-w-1 aspect-h-1">
-                            {{- $include_dict := dict "image" .Params.avatar "alt_text" .Title "Site" .Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-full" "resized" "110x110 webp" "fill" true }}
-                            {{ partial "functions/get_image.html" $include_dict }}
-                            </div>
+                                    <div class="responsive aspect-w-1 aspect-h-1">
+                                    {{- $include_dict := dict "image" .Params.avatar "alt_text" .Title "Site" .Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-full" "resized" "110x110 webp" "fill" true }}
+                                    {{ partial "functions/get_image.html" $include_dict }}
+                                    </div>
                                 </div>
                                 {{- end }}
                                 <div class="col-span-8">
