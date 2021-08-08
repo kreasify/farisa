@@ -3,6 +3,4 @@
 {{- $alt := .alt_text | default "alt text" }}
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
 {{- $resizedmd := $imageResource.Fill "768x896 webp" }}
-<div class="image__wrapper relative aspect-w-6 aspect-h-7">
-    <img class="image absolute w-full h-full object-cover" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}" />
-</div>
+<img class="image absolute w-full h-full object-cover" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}" />
