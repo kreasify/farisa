@@ -12,7 +12,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
         <article class="post__article article col-span-12  {{ if .Site.Params.sidebar.has_widget }}lg:col-span-8 {{ end }}">
             {{- if .Params.thumbnail }}
             <div class="responsive aspect-w-3 aspect-h-2">
-            {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-md" "resized" "381x webp" "fill" true }}
+            {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-md" "resized" "381x webp" }}
             {{ partial "functions/get_image.html" $include_dict }}
             </div>
             {{- end }}
