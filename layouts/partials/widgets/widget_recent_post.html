@@ -12,8 +12,8 @@
 			<a href="{{ .RelPermalink }}">
 				<div class="grid grid-cols-12 gap-4">
 					{{- if .Params.thumbnail }}
-					<div class="widget__recent-media col-span-3 responsive aspect-w-1 aspect-h-1">
-                        <div class="widget__recent-media col-span-3 responsive aspect-w-1 aspect-h-1">
+					<div class="widget__recent-media col-span-3">
+                        <div class="responsive aspect-w-1 aspect-h-1">
 						{{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-md" "resized" "78x78 webp" "fill" true }}
 						{{ partial "functions/get_image.html" $include_dict }}
 					</div>
