@@ -9,7 +9,7 @@
 
 {{- if $fill }}
 {{- $resized := $imageResource.Fill $resized }}
-<img class="absolute w-full h-full left-0 top-0 object-cover {{ $class }}" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
+<img class="{{ $class }}" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
 {{- else }}
 {{- $resized := $imageResource.Resize $resized }}
 <img class="{{ $class }}" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
