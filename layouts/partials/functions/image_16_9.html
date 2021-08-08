@@ -4,6 +4,7 @@
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
 {{- $resizedsm := $imageResource.Fill "640x360 webp" }}
 {{- $resizedmd := $imageResource.Fill "768x432 webp" }}
+<img class="image absolute w-full h-full object-cover" alt="{{ $alt }}" src="{{ $resized.RelPermalink }}" />
 <picture>
     <source media="(min-width: 768px)" srcset="{{ $resizedmd.RelPermalink }}">
     <source media="(min-width: 640px)" srcset="{{ $resizedsm.RelPermalink }}">
