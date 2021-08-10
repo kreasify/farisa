@@ -23,12 +23,6 @@ sections:
         subtitle: Claritas est etiam processus dynamicus, qui sequitur mutationem <br> consuetudium lectorum.
         button_text: order now
         button_link: /order
-      - image: /uploads/hero-3.jpg
-        alt_text: home 3
-        title:  High Beam <br>by Tom Chung
-        subtitle:  High Beam is an adjustable desk or shelf light that offers a wide variety of <br> lighting possibilities.
-        button_text: order now
-        button_link: /order
     design:
       container: false
     advanced:
