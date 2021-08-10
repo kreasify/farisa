@@ -115,7 +115,7 @@ sections:
         reg_price: $99.00
         sale_price: $69.00
         background_color: '#c8daea'
-      - image: /uploads/banner_image_2.png
+      - image: /uploads/large_banner_1.png
         alt_text: home 1
         title: Exclusive
         subtitle: Women's<br> Dress
