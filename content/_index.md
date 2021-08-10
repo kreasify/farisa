@@ -108,7 +108,7 @@ sections:
       exclude_featured: false
   - type: banner_images
     images:
-      - image: /uploads/banner_image_1.png
+      - image: /uploads/large_banner_1.png
         alt_text: home 1
         title: New Summer
         subtitle: Collection<br> 2019
