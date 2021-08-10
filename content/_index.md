@@ -54,7 +54,7 @@ sections:
         title: Summer
         subtitle: Woman Collection
         url: /collections
-      - image: /uploads/banner_style_1_02.png
+      - image: /uploads/grid_banner_2.png
         alt_text: home 1
         title: Backpack
         subtitle: Collection
