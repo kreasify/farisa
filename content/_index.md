@@ -59,12 +59,12 @@ sections:
         title: Backpack
         subtitle: Collection
         url: /collections
-      - image: /uploads/banner_style_1_04.png
+      - image: /uploads/grid_banner_3.png
         alt_text: home 1
         title: Electronics
         subtitle: Tren 2020
         url: /collections
-      - image: /uploads/banner_style_1_03.png
+      - image: /uploads/grid_banner_4.png
         alt_text: home 1
         title: Spring
         subtitle: Men's Collecction
