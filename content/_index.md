@@ -17,7 +17,7 @@ sections:
         subtitle: As rich and unique as the coffee beans it is intended for, this little scoop will make your morning ritual a special occasion every day.
         button_text: order now
         button_link: /order
-      - image: /uploads/hero-2.jpg
+      - image: /uploads/slider_1.png
         alt_text: home 2
         title: Think different Do otherwise
         subtitle: Claritas est etiam processus dynamicus, qui sequitur mutationem <br> consuetudium lectorum.
