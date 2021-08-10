@@ -11,22 +11,16 @@ sections:
         subtitle: As rich and unique as the coffee beans it is intended for, this little scoop will make your morning ritual a special occasion every day.
         button_text: order now
         button_link: /order
-      - image: /uploads/hero-1.jpg
+      - image: /uploads/slider_2.png
         alt_text: home 1
         title: Handmade Hand Carved Coffee
         subtitle: As rich and unique as the coffee beans it is intended for, this little scoop will make your morning ritual a special occasion every day.
         button_text: order now
         button_link: /order
-      - image: /uploads/hero-2.jpg
+      - image: /uploads/slider_3.png
         alt_text: home 2
         title: Think different Do otherwise
         subtitle: Claritas est etiam processus dynamicus, qui sequitur mutationem <br> consuetudium lectorum.
-        button_text: order now
-        button_link: /order
-      - image: /uploads/hero-3.jpg
-        alt_text: home 3
-        title:  High Beam <br>by Tom Chung
-        subtitle:  High Beam is an adjustable desk or shelf light that offers a wide variety of <br> lighting possibilities.
         button_text: order now
         button_link: /order
     design:
