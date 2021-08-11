@@ -116,7 +116,7 @@ sections:
         reg_price: Rp 320.00
         sale_price: Rp 249.000
         background_color: '#c8daea'
-      - image: /uploads/large_banner_1.png
+      - image: /uploads/large_banner_2.png
         alt_text: home 1
         title: Exclusive
         subtitle: Women's<br> Dress
