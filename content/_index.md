@@ -120,6 +120,7 @@ sections:
         alt_text: home 1
         title: Exclusive
         subtitle: Hijab Essential
+        url: https://hijabenka.com/square-hijab/hijab-essential/288987/sadina-square-in-dark-grey?trc_sale=hijab-essential
         reg_price: Rp 289.000
         sale_price: Rp 239.000
         background_color: '#edd4c8'
