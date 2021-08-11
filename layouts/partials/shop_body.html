@@ -63,7 +63,7 @@
             {{- end }}
         </div>
         {{- end }}
-        {{ $collections := "directors" }}
+        {{ $collections := "collections" }}
         {{ with .Param $collections }}
         <strong>Director{{ if gt (len .) 1 }}s{{ end }}:</strong>
         {{ range $index, $director := . }}
