@@ -57,7 +57,7 @@ sections:
       - image: /uploads/grid_banner_2.png
         alt_text: home 1
         title: Bawahan
-        subtitle: Collection
+        subtitle: Woman Collection
         url: /collections
       - image: /uploads/grid_banner_3.png
         alt_text: home 1
