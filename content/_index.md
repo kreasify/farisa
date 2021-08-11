@@ -111,7 +111,7 @@ sections:
       - image: /uploads/large_banner_1.png
         alt_text: home 1
         title: New Summer
-        subtitle: Collection<br> 2019
+        subtitle: Collection<br> 2021
         url: https://hijabenka.com/clothing/tops/289609/vlesa-blouse-brown?trc_sale=clothing+96
         reg_price: $99.00
         sale_price: $69.00
