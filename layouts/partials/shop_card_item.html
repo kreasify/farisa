@@ -4,21 +4,21 @@
     class="feed-item col-span-5 lg:col-span-2 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 hover:shadow-lg">
     <div class="feed-item__image relative bg-body-primary">
         <a class="feed-item__link" href="{{ .RelPermalink }}">
-            {{- if .Params.thumbnail }}
-            {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site ".image_resized" "224x269 q100 Top webp" }}
+            {{- if $post.thumbnail }}
+            {{- $include_dict := dict "image" $post.thumbnail "alt_text" .Title "Site" .Site ".image_resized" "224x269 q100 Top webp" }}
             {{ partial "functions/image_5_6.html" $include_dict }}
             {{- end }}
         </a>
-        {{- if isset .Params "badge" }}
+        {{- if isset $post "badge" }}
         <span
-            class="feed-item__badge absolute text-sm text-white rounded-sm top-2 left-2 px-2" {{ if .Params.badge_color }}style="background-color: {{ .Params.badge_color }}"{{ end }}>{{ index .Params "badge" }}</span>
+            class="feed-item__badge absolute text-sm text-white rounded-sm top-2 left-2 px-2" {{ if $post.badge_color }}style="background-color: {{ $post.badge_color }}"{{ end }}>{{ index $post "badge" }}</span>
         {{- end }}
     </div>
     <div class="feed-item__info py-3 px-2">
         <a class="feed-item__link" href="{{ .RelPermalink }}">
             <h3 class="feed-item__title text-sm lg:text-base text-header-text font-heading font-medium mb-1">{{ .Title }}</h3>
         </a>
-        {{- with .Params.variants }}{{ range first 1 . }}
+        {{- with $post.variants }}{{ range first 1 . }}
         <p class="feed-item__price mb-3">
             {{- if .discount }}
             <del class="block lg:inline-block text-header-text-secondary text-xs lg:text-base lg:mr-2">Rp {{ lang.NumFmt 0 (add .price .discount) "- , ." }}</del>
