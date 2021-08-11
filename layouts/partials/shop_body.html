@@ -67,7 +67,7 @@
         {{- $collections := "collections" }}
         {{- with .Param $collections }}
         <div class="shop__color flex items-center">
-            <span class="text-header-text-primary">Tag:</span>
+            <span class="text-header-text-primary">Tag{{ if gt (len .) 1 }}s{{ end }}:</span>
             <strong>Director{{ if gt (len .) 1 }}s{{ end }}:</strong>
             {{- range $index, $collection := . }}
             {{- if gt $index 0 }}, {{ end -}}
