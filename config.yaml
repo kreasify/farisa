@@ -210,7 +210,6 @@ ignoreFiles:
 imaging:
   resampleFilter: lanczos
   quality: 90
-  anchor: smart
 markup:
   goldmark:
     extensions:
