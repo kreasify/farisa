@@ -200,13 +200,6 @@ taxonomies:
   color: color
 disableKinds:
   - RSS
-ignoreFiles:
-  - \.ipynb$
-  - .ipynb_checkpoints$
-  - \.Rmd$
-  - \.Rmarkdown$
-  - _files$
-  - _cache$
 imaging:
   quality: 90
 markup:
