@@ -81,7 +81,7 @@
         <label class="shop__variant-label w-16 inline-block">
             <span class="text-header-text-primary">Size</span>
         </label>:
-        {{ range $index, $el := .Params.variants }}
+        {{- range $index, $el := .Params.variants }}
         <button
             class="shop__variant-button relative text-sm border border-solid focus:outline-none transition duration-75 ease-in-out py-3px px-3 mr-2"
             x-on:click="$store.shop.activeVariant = {{ $index }}" :class="{ 
