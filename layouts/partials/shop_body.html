@@ -77,7 +77,7 @@
         </div>
         {{- end }}
 
-        {{- $collections := "collections" }}
+        {{- $collections := "tags" }}
         {{- with .Param $collections }}
         <div class="shop__color flex items-center">
             <span class="text-header-text-primary">Collection{{ if gt (len .) 1 }}s{{ end }}:</span>
