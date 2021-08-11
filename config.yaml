@@ -238,7 +238,7 @@ menu:
         has_submenu: true
     - identifier: shop
       name: Shop
-      url: /micromask
+      url: /shop
       weight: 4
       params:
         has_submenu: false
