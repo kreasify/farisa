@@ -63,12 +63,12 @@
             {{- end }}
         </div>
         {{- end }}
-        {{ $taxo := "directors" }}
-        {{ with .Param $taxo }}
+        {{ $collections := "directors" }}
+        {{ with .Param $collections }}
         <strong>Director{{ if gt (len .) 1 }}s{{ end }}:</strong>
         {{ range $index, $director := . }}
         {{- if gt $index 0 }}, {{ end -}}
-        {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
+        {{ with $.Site.GetPage (printf "/%s/%s" $collections $director) -}}
         <a href="{{ .Permalink }}">{{ $director }}</a>
         {{- end -}}
         {{- end -}}
