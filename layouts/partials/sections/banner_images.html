@@ -33,7 +33,7 @@
                 </h3>
                 {{- end }}
                 {{- if .sale_price }}
-                <p class="mb-2">{{ if .reg_price }}<del class="font-semibold lg:font-semibold mr-2">{{ .reg_price | safeHTML }}</del>{{ end }}<span class="text-lg lg:text-3xl">{{ .sale_price | safeHTML }}</span></p>
+                <p class="mb-2">{{ if .reg_price }}<del class="text-secondary font-semibold lg:font-semibold mr-2">{{ .reg_price | safeHTML }}</del>{{ end }}<span class="text-lg lg:text-3xl">{{ .sale_price | safeHTML }}</span></p>
                 {{- end }}
             </header>
         </div>
