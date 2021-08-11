@@ -71,7 +71,7 @@
             {{- range $index, $collection := . }}
             {{- if gt $index 0 }}, {{ end -}}
             {{- with $.Site.GetPage (printf "/%s/%s" $collections $collection) -}}
-            <a href="{{ .Permalink }}">{{ $collection }}</a>
+            <a class="inline-block text-header-text-secondary capitalize hover:text-primary ml-1" href="{{ .Permalink }}">{{ $collection }}</a>
             {{- end }}
             {{- end }}
         </div>
