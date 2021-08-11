@@ -236,7 +236,7 @@ menu:
       weight: 2
       params:
         has_submenu: true
-    - identifier: micromask
+    - identifier: shop
       name: Micro Mask
       url: /micromask
       weight: 4
