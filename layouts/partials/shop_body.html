@@ -72,8 +72,8 @@
         </label>: {{ range (.GetTerms "color") }}
         <a class="shop__color-item inline-block text-header-text-secondary capitalize hover:text-primary ml-1"
             href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
-    </div>{{ end }}
-
+    </div>
+    {{- end }}
     {{- if gt $variantsCount 1 }}
     <div class="shop__variant mb-6">
         <label class="shop__variant-label w-16 inline-block">
