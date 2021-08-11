@@ -80,7 +80,7 @@
         {{- $tags := "tags" }}
         {{- with .Param $tags }}
         <div class="shop__color flex items-center">
-            <span class="text-header-text-primary">Collection{{ if gt (len .) 1 }}s{{ end }}:</span>
+            <span class="text-header-text-primary">Tag{{ if gt (len .) 1 }}s{{ end }}:</span>
             {{- range $index, $tag := . }}
             {{- if gt $index 0 }}, {{ end -}}
             {{- with $.Site.GetPage (printf "/%s/%s" $tags $tag) -}}
