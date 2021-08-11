@@ -67,7 +67,7 @@ sections:
       - image: /uploads/grid_banner_4.png
         alt_text: home 1
         title: Outerwear
-        subtitle: Men's Collecction
+        subtitle: Woman Collecction
         url: /collections
     design:
       container: true
