@@ -61,7 +61,7 @@ sections:
         url: /collections
       - image: /uploads/grid_banner_3.png
         alt_text: home 1
-        title: Electronics
+        title: Jump
         subtitle: Tren 2020
         url: /collections
       - image: /uploads/grid_banner_4.png
