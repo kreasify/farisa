@@ -7,7 +7,7 @@
         {{- with $related }}
         {{- range . }}
         {{ partial "shop_list_item" . }}
-        {{- $include_dict := dict "shop_feed_section" $section "shop_page" $shop "Site" $.Site }}
+        {{- $include_dict := dict "shop_page" $shop "Site" $.Site }}
         {{ partial "shop_card_item.html" $include_dict }}
         {{- end }}
         {{- end }}
