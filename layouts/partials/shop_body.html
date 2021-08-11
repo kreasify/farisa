@@ -64,15 +64,15 @@
         </div>
         {{- end }}
         {{ $taxo := "directors" }} <!-- Use the plural form here -->
-{{ with .Param $taxo }}
-    <strong>Director{{ if gt (len .) 1 }}s{{ end }}:</strong>
-    {{ range $index, $director := . }}
+        {{ with .Param $taxo }}
+        <strong>Director{{ if gt (len .) 1 }}s{{ end }}:</strong>
+        {{ range $index, $director := . }}
         {{- if gt $index 0 }}, {{ end -}}
         {{ with $.Site.GetPage (printf "/%s/%s" $taxo $director) -}}
-            <a href="{{ .Permalink }}">{{ $director }}</a>
+        <a href="{{ .Permalink }}">{{ $director }}</a>
         {{- end -}}
-    {{- end -}}
-{{ end }}
+        {{- end -}}
+        {{ end }}
     </div>
     {{- if .Params.color }}
     <div class="shop__color flex items-center mb-6">
