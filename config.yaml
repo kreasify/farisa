@@ -208,7 +208,6 @@ ignoreFiles:
   - _files$
   - _cache$
 imaging:
-  resampleFilter: lanczos
   quality: 90
 markup:
   goldmark:
