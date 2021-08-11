@@ -66,7 +66,7 @@ sections:
         url: /collections
       - image: /uploads/grid_banner_4.png
         alt_text: home 1
-        title: Spring
+        title: Outerwear
         subtitle: Men's Collecction
         url: /collections
     design:
