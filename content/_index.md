@@ -119,7 +119,7 @@ sections:
       - image: /uploads/large_banner_2.png
         alt_text: home 1
         title: Exclusive
-        subtitle: Women's<br> Dress
+        subtitle: Hijab Essential
         reg_price: $59.00
         sale_price: $39.00
         background_color: '#edd4c8'
