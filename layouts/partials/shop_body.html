@@ -71,9 +71,9 @@
         {{- if gt $index 0 }}, {{ end -}}
         {{- with $.Site.GetPage (printf "/%s/%s" $collections $collection) -}}
         <a href="{{ .Permalink }}">{{ $collection }}</a>
-        {{- end -}}
-        {{- end -}}
-        {{ end }}
+        {{- end }}
+        {{- end }}
+        {{- end }}
     </div>
     {{- if .Params.color }}
     <div class="shop__color flex items-center mb-6">
