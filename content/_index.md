@@ -93,7 +93,7 @@ sections:
     title: ''
     show_recent: false
     page_type: shop
-    count: 30
+    count: 15
     offset: 0
     order: desc
     badges:
