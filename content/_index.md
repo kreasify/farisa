@@ -62,7 +62,7 @@ sections:
       - image: /uploads/grid_banner_3.png
         alt_text: home 1
         title: Jumpsuit
-        subtitle: Tren 2020
+        subtitle: Tren 2021
         url: /collections
       - image: /uploads/grid_banner_4.png
         alt_text: banner 4
