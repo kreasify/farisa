@@ -9,6 +9,7 @@
                     {{- range $paginator.Pages }}
                     {{- if eq .Section "shop" }}
                     {{ partial "shop_list_item" . }}
+                    
                     {{- else }}
                     {{ partial "blog_list_item" . }}
                     {{- end }}
