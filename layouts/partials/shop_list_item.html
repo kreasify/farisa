@@ -22,7 +22,7 @@
             {{- if .discount }}
             <del class="block lg:inline-block text-header-text-secondary text-xs lg:text-base lg:mr-2">Rp {{ lang.NumFmt 0 (add .price .discount) "- , ." }}</del>
             {{- end }}
-            <span class="text-body-text-secondary text-xs lg:text-sm font-medium">Rp {{ lang.NumFmt 0 .price "- , ." }} {{ int "123" }}</span>
+            <span class="text-body-text-secondary text-xs lg:text-sm font-medium">Rp {{ lang.NumFmt 0 .price "- , ." }} {{ int "123000" }}</span>
         </p>
         {{- end }}{{- end }}
     </div>
