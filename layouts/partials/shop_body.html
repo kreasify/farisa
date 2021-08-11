@@ -67,9 +67,9 @@
         {{- $collections := "collections" }}
         {{- with .Param $collections }}
         <strong>Director{{ if gt (len .) 1 }}s{{ end }}:</strong>
-        {{ range $index, $collection := . }}
+        {{- range $index, $collection := . }}
         {{- if gt $index 0 }}, {{ end -}}
-        {{ with $.Site.GetPage (printf "/%s/%s" $collections $collection) -}}
+        {{- with $.Site.GetPage (printf "/%s/%s" $collections $collection) -}}
         <a href="{{ .Permalink }}">{{ $collection }}</a>
         {{- end -}}
         {{- end -}}
