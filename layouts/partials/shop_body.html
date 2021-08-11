@@ -63,7 +63,7 @@
             {{- end }}
         </div>
         {{- end }}
-        {{ $taxo := "directors" }} <!-- Use the plural form here -->
+        {{ $taxo := "directors" }}
         {{ with .Param $taxo }}
         <strong>Director{{ if gt (len .) 1 }}s{{ end }}:</strong>
         {{ range $index, $director := . }}
