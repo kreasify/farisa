@@ -7,8 +7,6 @@
         {{- with $related }}
         {{- range . }}
         {{ partial "shop_list_item" . }}
-        {{- $include_dict := dict "card" .Params "Site" $.Site }}
-        {{ partial "shop_card_item.html" $include_dict }}
         {{- end }}
         {{- end }}
     </div>
