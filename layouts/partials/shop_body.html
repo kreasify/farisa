@@ -66,10 +66,10 @@
         {{ $collections := "collections" }}
         {{ with .Param $collections }}
         <strong>Director{{ if gt (len .) 1 }}s{{ end }}:</strong>
-        {{ range $index, $director := . }}
+        {{ range $index, $collection := . }}
         {{- if gt $index 0 }}, {{ end -}}
-        {{ with $.Site.GetPage (printf "/%s/%s" $collections $director) -}}
-        <a href="{{ .Permalink }}">{{ $director }}</a>
+        {{ with $.Site.GetPage (printf "/%s/%s" $collections $collection) -}}
+        <a href="{{ .Permalink }}">{{ $collection }}</a>
         {{- end -}}
         {{- end -}}
         {{ end }}
