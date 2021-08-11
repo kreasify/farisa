@@ -67,7 +67,7 @@
         {{- $collections := "collections" }}
         {{- with .Param $collections }}
         <div class="shop__color flex items-center">
-            <span class="text-header-text-primary">Tag{{ if gt (len .) 1 }}s{{ end }}:</span>
+            <span class="text-header-text-primary">Category{{ if gt (len .) 1 }}s{{ end }}:</span>
             {{- range $index, $collection := . }}
             {{- if gt $index 0 }}, {{ end -}}
             {{- with $.Site.GetPage (printf "/%s/%s" $collections $collection) -}}
