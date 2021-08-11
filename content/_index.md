@@ -120,7 +120,7 @@ sections:
         alt_text: home 1
         title: Exclusive
         subtitle: Hijab Essential
-        reg_price: Rp 2
+        reg_price: Rp 289.000
         sale_price: Rp 239.000
         background_color: '#edd4c8'
     design:
