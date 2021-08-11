@@ -56,7 +56,7 @@ sections:
         url: /collections
       - image: /uploads/grid_banner_2.png
         alt_text: home 1
-        title: Backpack
+        title: Bawahan
         subtitle: Collection
         url: /collections
       - image: /uploads/grid_banner_3.png
