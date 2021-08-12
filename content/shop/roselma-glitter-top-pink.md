@@ -2,7 +2,7 @@
 title: Roselma Glitter Top Pink
 slug: roselma-glitter-top-pink
 description: "Tampil cantik dengan atasan ini! Padankan dengan celana palazzo serta heels dan clutch!"
-date: 2021-08-11T20:30:08+07:00
+date: 2021-08-12T10:25:05+07:00
 tags: [clothing, plain]
 collections: [pakaian, atasan, blus]
 color:

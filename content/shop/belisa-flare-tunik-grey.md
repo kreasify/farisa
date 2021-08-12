@@ -2,7 +2,7 @@
 title: Belisa Flare Tunik Grey
 slug: belisa-flare-tunik-grey
 description: "Tampil gaya dengan atasan yang cocok kamu padankan dengan celana palazzo serta hijab dan sepatu warna senada."
-date: 2021-08-11T20:30:08+07:00
+date: 2021-08-12T10:25:05+07:00
 tags: [clothing, dress]
 collections: [pakaian, atasan]
 color:

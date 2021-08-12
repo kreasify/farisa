@@ -2,7 +2,7 @@
 title: Kiyoko Tunik Peach
 slug: kiyoko-tunik-peach
 description: "Tampil gaya dengan atasan yang cocok kamu padankan dengan celana palazzo serta hijab dan heels warna senada."
-date: 2021-08-11T20:30:08+07:00
+date: 2021-08-12T10:25:05+07:00
 tags: [clothing]
 collections: [pakaian, atasan]
 color:

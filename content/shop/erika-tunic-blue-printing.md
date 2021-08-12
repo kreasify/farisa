@@ -2,7 +2,7 @@
 title: Erika Tunic Blue Printing
 slug: erika-tunic-blue-printing
 description: "Miliki atasan dengan model menarik yang dapat kamu padankan dengan celana dan hijab favoritmu."
-date: 2021-08-11T20:30:08+07:00
+date: 2021-08-12T10:25:05+07:00
 tags: [clothing, baju kerja wanita]
 collections: [pakaian, atasan]
 color:

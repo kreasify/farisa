@@ -2,7 +2,7 @@
 title: Wanola Floral Loose Blouse White
 slug: wanola-floral-loose-blouse-white
 description: "Tampil feminin dengan blouse yang memiliki motif menarik. Padankan dengan celana slim fit serta hijab dan mules warna"
-date: 2021-08-11T20:30:08+07:00
+date: 2021-08-12T10:25:05+07:00
 tags: [clothing, baju kerja wanita]
 collections: [pakaian, atasan]
 color:

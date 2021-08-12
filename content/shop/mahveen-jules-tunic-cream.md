@@ -2,7 +2,7 @@
 title: Mahveen Jules Tunic Cream
 slug: mahveen-jules-tunic-cream
 description: "Tampil gaya dengan atasan lengan panjang yang cocok dikenakan sehari-hari dengan hijab warna favoritmu!"
-date: 2021-08-11T20:30:08+07:00
+date: 2021-08-12T10:25:05+07:00
 tags: [clothing]
 collections: [pakaian, atasan]
 color:

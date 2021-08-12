@@ -2,7 +2,7 @@
 title: Lacy Scrunch Up Detail Top Light Brown
 slug: lacy-scrunch-up-detail-top-light-brown
 description: "Tampil gaya dengan mengenakan atasan lengan panjang ini! Memiliki model simpel dengan detail tali kerut di bagian lengan. Padankan dengan celana kulot dan hijab warna netral serta loafers favoritmu!"
-date: 2021-08-11T20:30:08+07:00
+date: 2021-08-12T10:25:05+07:00
 tags: [clothing]
 collections: [pakaian, atasan]
 color:
