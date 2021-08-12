@@ -8,6 +8,10 @@
             {{- if $post.Params.thumbnail }}
             {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "image_resized" "224x269 Top q100" }}
             {{ partial "functions/image_5_6.html" $include_dict }}
+                                    <div class="responsive aspect-w-1 aspect-h-1">
+						{{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-md" "resized" "78x78 webp" "fill" true }}
+						{{ partial "functions/get_image.html" $include_dict }}
+                        </div>
             {{- end }}
         </a>
         {{- if isset $post.Params "badge" }}
