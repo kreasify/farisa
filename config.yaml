@@ -147,7 +147,7 @@ params:
             url: /tentang-kami
           - label: Kontak Kami
             url: /kontak-kami
-          - label: FAQ
+          - label: About
             url: /about
           - label: Alamat
             url: /alamat
