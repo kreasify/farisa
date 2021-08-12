@@ -201,7 +201,7 @@ taxonomies:
 disableKinds:
   - RSS
 imaging:
-  quality: 90
+  quality: 100
 markup:
   goldmark:
     extensions:
