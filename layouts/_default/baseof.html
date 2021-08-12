@@ -14,7 +14,7 @@
   {{ $splide := resources.Get "js/splide.min.js" }}
   {{ $alpine := resources.Get "js/alpine.min.js" }}
   {{ $autocomplete := resources.Get "js/autoComplete.min.js" }}
-  {{ $js := slice $lazysizes $minisearch $splide $autocomplete $alpine | resources.Concat "js/main.js" }}
+  
   {{- if eq .RelPermalink "/checkout/" }}
   <script defer src="{{ $js.RelPermalink }}"></script>
   {{- end }}
