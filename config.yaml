@@ -150,7 +150,7 @@ params:
           - label: FAQ
             url: /faq
           - label: Alamat
-            url: /faq
+            url: /alamat
       - type: widget_menu
         title: Bantuan
         links:
