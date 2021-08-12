@@ -331,7 +331,7 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
 
             if (!id) {
                 this.carts.push({
-                    sku: this.items.sku + '-' + this.items.variants[this.activeVariant].name,
+                    sku: this.items.variants[this.activeVariant].sku,
                     name: this.items.title,
                     image: this.items.image,
 					thumbnail: this.items.thumbnail,
