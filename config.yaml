@@ -147,8 +147,10 @@ params:
             url: /tentang-kami
           - label: Kontak Kami
             url: /kontak-kami
-          - label: FAQ
-            url: /faq
+          - label: About
+            url: /about
+          - label: Alamat
+            url: /alamat
       - type: widget_menu
         title: Bantuan
         links:

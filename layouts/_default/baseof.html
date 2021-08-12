@@ -52,6 +52,9 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
   <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
   {{ end }} -->
   
+  <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/autoComplete.min.js"></script>
+
+  
   {{- range $section := .Params.sections }}
   {{ with $section.slides }}
   <script type="text/javascript">
@@ -190,72 +193,67 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
             init() {
                 const autoCompletejs = new autoComplete({
                     data: {
-                        src: async () => {
-                            // Loading placeholder text
+						src: async (query) => {
+							try {
+							 // Loading placeholder text
                             this.$refs.autoComplete.setAttribute("placeholder", "Loading...");
-                            // Fetch External Data Source
-                            const source = await fetch(
-                                "/api/destination.json"
-                            );
-                            const data = await source.json();
+							// Fetch Data from external Source
+							const source = await fetch("/api/destination.json");
+							// Data is array of `Objects` | `Strings`
+							const data = await source.json();
                             // Post loading placeholder text
-                            this.$refs.autoComplete.setAttribute("placeholder", "Masukkan Kecamatan");
-                            // Returns Fetched data
-                            return data;
-                        },
+                            this.$refs.autoComplete.setAttribute("placeholder", autoCompleteJS.placeHolder);
+							return data;
+							} catch (error) {
+							return error;
+							}
+						},
                         key: ["id", "name"],
-                        cache: false
+                        cache: true
                     },
-                    sort: (a, b) => {
-                        if (a.match < b.match) return -1;
-                        if (a.match > b.match) return 1;
-                        return 0;
-                    },
+					filter: (list) => {
+						// Filter duplicates
+						// incase of multiple data keys usage
+						const filteredResults = Array.from(
+							new Set(list.map((value) => value.match))
+						).map((id) => {
+							return list.find((value) => value.match === id);
+						});
+
+						return filteredResults;
+					},
                     placeHolder: "Masukkan Kecamatan",
                     selector: "#autoComplete",
-                    threshold: 0,
-                    debounce: 0,
-                    searchEngine: "strict",
-                    highlight: true,
-                    maxResults: 10,
-                    resultsList: {
-                        render: true,
-                        container: source => {
-                            source.setAttribute("id", "autoComplete_list"),
-                                source.setAttribute("class", "list-none")
-                        },
-                        destination: this.$refs.autoComplete,
-                        position: "afterend",
-                        element: "ul"
-                    },
-                    resultItem: {
-                        content: (data, source) => {
-                            source.innerHTML = data.match;
-                        },
-                        element: "li"
-                    },
-                    noResults: () => {
-                        const result = document.createElement("li");
-                        result.setAttribute("class", "no_result text-red-500 list-none focus:outline-none py-1 px-2");
-                        result.setAttribute("tabindex", "1");
-                        result.innerHTML = "Hasil tidak ditemukan";
-                        this.$el.querySelector("#autoComplete_list").appendChild(result);
-                    },
-                    onSelection: feedback => {
-                        const selection = feedback.selection.value.name;
-                        const toDestination = feedback.selection.value.id + ', ' + feedback.selection.value.name;
-                        this.$refs.autoComplete.setAttribute("placeholder", selection);
-                        this.$refs.autoComplete.value = "";
-                        this.activeStyle = true;
-                        this.destination = toDestination;
-                        this.fetchCourier();
-                        this.courier = '';
-                        this.courierActive = null;
-						event.preventDefault(); // prevent
-
-                        // Concole log autoComplete data feedback
-                        console.log(feedback);
-                    }
+                    threshold: 2,
+                    debounce: 300,
+					resultsList: {
+						tag: "ul",
+						id: "autoComplete_list",
+						class: "results_list list-none",
+						destination: this.$refs.autoComplete,
+						position: "afterend",
+						maxResults: 15,
+						noResults: true,
+						element: (list, data) => {
+							list.setAttribute("data-parent", "food-list");
+						},
+					},
+					resultItem: {
+						tag: "li",
+						class: "autoComplete_result",
+						element: (item, data) => {
+							item.setAttribute("data-parent", "food-item");
+						},
+						highlight: "autoComplete_highlight",
+						selected: "autoComplete_selected"
+					},
+					events: {
+						input: {
+							focus: () => {
+								if (autoCompleteJS.input.value.length) autoCompleteJS.start();
+							}
+						}
+					}
                 });
                 return autoCompletejs;
             },
@@ -399,7 +397,7 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
     })
 
 function Storage() {
-  const KEY = 'cart-vitoko'
+  const KEY = 'vitoko'
   const defaultData = '{ "carts": [] }'
 
   return {
@@ -438,6 +436,91 @@ function Storage() {
       },
   }
 }
+</script>
+
+
+<script>
+    document.addEventListener('alpine:init', () => {
+        Alpine.data('autocomplete', () => ({
+            init() {
+				const autoCompleteJS = new autoComplete({
+					data: {
+						src: async () => {
+							try {
+								// Loading placeholder text
+								this.$refs.autoComplete.setAttribute("placeholder", "Loading...");
+								// Fetch External Data Source
+								const source = await fetch(
+									"/api/destination.json"
+								);
+								const data = await source.json();
+								// Post Loading placeholder text
+								this.$refs.autoComplete.setAttribute("placeholder", autoCompleteJS.placeHolder);
+								// Returns Fetched data
+								return data;
+							} catch (error) {
+								return error;
+							}
+						},
+						keys: ["id", "name"],
+						cache: true,
+						filter: (list) => {
+							// Filter duplicates
+							// incase of multiple data keys usage
+							const filteredResults = Array.from(
+								new Set(list.map((value) => value.match))
+							).map((id) => {
+								return list.find((value) => value.match === id);
+							});
+
+							return filteredResults;
+						}
+					},
+					placeHolder: "Masukkan Kecamatan",
+					resultsList: {
+					    tag: "ul",
+						id: "autoComplete__list",
+						class: "results_list list-none",
+						element: (list, data) => {
+							const info = document.createElement("p");
+							if (data.results.length > 0) {
+								info.innerHTML = `Displaying <strong>${data.results.length}</strong> out of <strong>${data.matches.length}</strong> results`;
+							} else {
+								info.innerHTML = `Found <strong>${data.matches.length}</strong> matching results for <strong>"${data.query}"</strong>`;
+							}
+							list.prepend(info);
+						},
+						noResults: true,
+						maxResults: 15,
+						tabSelect: true
+					},
+					resultItem: {
+						element: (item, data) => {
+							// Modify Results Item Style
+							item.style = "display: flex; justify-content: space-between;";
+							// Modify Results Item Content
+							item.innerHTML = `
+					  <span style="text-overflow: ellipsis; white-space: nowrap; overflow: hidden;">
+						${data.match}
+					  </span>
+					  <span style="display: flex; align-items: center; font-size: 13px; font-weight: 100; text-transform: uppercase; color: rgba(0,0,0,.2);">
+						${data.key}
+					  </span>`;
+						},
+						highlight: true
+					},
+					events: {
+						input: {
+							focus: () => {
+								if (autoCompleteJS.input.value.length) autoCompleteJS.start();
+							}
+						}
+					}
+				});
+                return autoCompleteJS ;
+            },
+        }))
+    })
 </script>
 </body>
 </html>
