@@ -13,7 +13,7 @@
   {{- $splide := resources.Get "js/splide.min.js" }}
   {{- $alpine := resources.Get "js/alpine.min.js" }}
   {{- $autocomplete := resources.Get "js/autoComplete.min.js" }}
-  
+
   {{- if eq .RelPermalink "/checkout/" }}
   {{- $js := slice $lazysizes $minisearch $autocomplete $alpine | resources.Concat "js/main.js" }}
   <script defer src="{{ $js.RelPermalink }}"></script>
@@ -275,12 +275,12 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
 				window.open(link);
 			},
 			localPrice(amount) {
-            return amount.toLocaleString('id-ID', {
-                style: 'currency',
-                currency: 'IDR',
-                minimumFractionDigits: 0,
-                maximumFractionDigits: 0
-            });
+                return amount.toLocaleString('id-ID', {
+                    style: 'currency',
+                    currency: 'IDR',
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 0
+                });
 			},
         }))
     })
