@@ -316,7 +316,7 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
         count: 1,
         carts,
         inCarts() {
-            const sku = this.items.sku + '-' + this.items.variants[this.activeVariant].name
+            const sku = this.items.sku + '-' + this.items.variants[this.activeVariant].sku
             let product = this.carts.find(item => item.sku == sku);
 
             return product ? true : false
