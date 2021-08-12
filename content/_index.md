@@ -51,7 +51,7 @@ sections:
     features:
       - image: /uploads/grid_banner_1.png
         alt_text: banner 1
-        title: Atasan
+        title: Atasanku
         subtitle: Woman Collection
         url: /collections
       - image: /uploads/grid_banner_2.png
