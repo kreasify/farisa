@@ -22,7 +22,7 @@
             {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
             {{ partial "functions/image_4_3.html" $include_dict }}
             <div class="relative aspect-w-4 aspect-h-3">
-            {{ $include_dict := dict "image" .image "alt_text" $section.title "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover" }}
+            {{ $include_dict := dict "image" .image "alt_text" .alt_text "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover" }}
             {{ partial "functions/get_image.html" $include_dict }}
             </div>
             <div class="absolute w-full h-full top-0 left-0 flex flex-col justify-center">
