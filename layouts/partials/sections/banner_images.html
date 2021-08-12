@@ -21,7 +21,7 @@
         <a class="banner_link" href="{{ if .url }}{{ .url }}{{ end }}">
             {{- $include_dict := dict "image" .image "alt_text" .alt_text "Site" $site }}
             {{ partial "functions/image_4_3.html" $include_dict }}
-            <div class="relative aspect-w-21 aspect-h-9">
+            <div class="relative aspect-w-4 aspect-h-9">
             {{ $include_dict := dict "image" $section.cover "alt_text" $section.title "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover" }}
             {{ partial "functions/get_image.html" $include_dict }}
             </div>
