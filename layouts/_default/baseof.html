@@ -479,7 +479,7 @@ function Storage() {
 					},
 					placeHolder: "Masukkan Kecamatan",
 					resultsList: {
-						class: "results_list list-none",
+						class: "results__list list-none",
 						element: (list, data) => {
 							const info = document.createElement("p");
 							if (data.results.length > 0) {
@@ -494,7 +494,7 @@ function Storage() {
 						tabSelect: true
 					},
 					resultItem: {
-                        class: "autoComplete__result",
+                        class: "autoComplete__result text-sm",
 						element: (item, data) => {
 							// Modify Results Item Content
 							item.innerHTML = `
