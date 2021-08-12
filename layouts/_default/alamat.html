@@ -1,0 +1,27 @@
+{{ define "content" }}
+
+<section x-data class="section section-checkout">
+    <div x-data="autocomplete" class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-4">
+                <div class="py-4 px-4">
+                    <form  method="POST"
+                    action="https://script.google.com/macros/s/AKfycbzPNB6AeIPa1j-f0QA8DDdIVCJ-RPD-A7mCS10MGOZdytzNociYO6DUsFfa1nFJYSCLEw/exec">
+                        <div class="checkout__form form-address">
+                            <header class="checkout__form-header mb-6">
+                                <h3 class="text-body-text">Detail Alamat Pengiriman</h3> 
+                            </header>
+                            <div class="grid grid-cols-2 gap-6">
+                                <div class="form-address__item relative col-span-2 mb-2">
+                                    <label class="block text-body-text-primary mb-2" for="name">Kecamatan</label>
+                                    <input x-ref="autoComplete" id="autoComplete"
+                                        class="relative z-20 w-full text-sm text-body-text-secondary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out hover:placeholder-transparent py-3px px-3"
+                                        type="text" tabindex="1">
+                                </div>
+                            </div>
+                        </div>			
+                    </form>
+                </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}
