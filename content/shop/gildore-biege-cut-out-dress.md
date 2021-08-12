@@ -2,7 +2,7 @@
 title: Gildore Biege Cut Out Dress
 slug: gildore-biege-cut-out-dress
 description: "Dress tanpa lengan dengan model yang simpel memiliki detil kerah v neck. padu padankan dengan heels dan clutch bag untuk melengkapi penampilan kamu."
-date: 2021-08-12T10:25:05+07:00
+date: 2021-08-12T14:07:56+07:00
 tags: [clothing, layering]
 collections: [pakaian, dress, mini dress]
 color:

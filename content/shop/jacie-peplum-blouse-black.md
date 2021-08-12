@@ -2,7 +2,7 @@
 title: Jacie Peplum Blouse Black
 slug: jacie-peplum-blouse-black
 description: "Atasan lengan 3/4 untuk tampilan feminin kamu! Memiliki model simpel dengan aksen peplum. Padankan dengan celana panjang slim fit dan heels warna netral favoritmu!"
-date: 2021-08-12T10:25:05+07:00
+date: 2021-08-12T14:07:56+07:00
 tags: [clothing, asymmetric]
 collections: [pakaian, atasan, blus]
 color:

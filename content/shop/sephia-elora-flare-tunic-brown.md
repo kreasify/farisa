@@ -2,7 +2,7 @@
 title: Sephia Elora Flare Tunic Brown
 slug: sephia-elora-flare-tunic-brown
 description: "Tampil gaya dengan tunik yang cocok kamu padankan dengan heels serta hijab warna netral."
-date: 2021-08-12T10:25:05+07:00
+date: 2021-08-12T14:07:56+07:00
 tags: [clothing]
 collections: [pakaian, atasan]
 color:

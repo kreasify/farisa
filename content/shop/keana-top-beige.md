@@ -2,7 +2,7 @@
 title: Keana Top Beige
 slug: keana-top-beige
 description: "Atasan dengan model menarik yang cocok kamu padankan dengan hijab favoritmu!"
-date: 2021-08-12T10:25:05+07:00
+date: 2021-08-12T14:07:56+07:00
 tags: [clothing]
 collections: [pakaian, atasan]
 color:

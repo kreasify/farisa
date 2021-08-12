@@ -2,7 +2,7 @@
 title: Salvia Tunik Brown
 slug: salvia-tunik-brown
 description: "Tampil trendi dengan atasan lengan panjang yang cocok kamu padankan dengan celana serta hijab warna senada favoritmu!"
-date: 2021-08-12T10:25:05+07:00
+date: 2021-08-12T14:07:56+07:00
 tags: [clothing, baju kerja wanita]
 collections: [pakaian, atasan]
 color:

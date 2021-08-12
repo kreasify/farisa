@@ -2,7 +2,7 @@
 title: Hristina Dress Pink
 slug: hristina-dress-pink
 description: "Tampil gaya dengan blouse yang memiliki aksen drapery. Padankan dengan celana palazzo serta heels."
-date: 2021-08-12T10:25:05+07:00
+date: 2021-08-12T14:07:56+07:00
 tags: [clothing, tied]
 collections: [pakaian, atasan, blus]
 color:

@@ -2,7 +2,7 @@
 title: Sabella Top Grey
 slug: sabella-top-grey
 description: "Tampil gaya dengan atasan lengan panjang yang cocok kamu padankan dengan celana panjng serta hijab dan sepatu warna netral."
-date: 2021-08-12T10:25:05+07:00
+date: 2021-08-12T14:07:56+07:00
 tags: [clothing, baju kerja wanita]
 collections: [pakaian, atasan]
 color:
