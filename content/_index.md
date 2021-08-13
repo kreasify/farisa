@@ -67,10 +67,6 @@ sections:
     design:
       container: true
       style: ''
-    advanced:
-      section_class: ''
-      container_style: ''
-      container_class: ''
   - type: shop_feed_section
     title: What's New
     show_recent: false
