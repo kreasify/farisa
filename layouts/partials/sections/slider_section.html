@@ -1,5 +1,5 @@
 {{- $section := .section }}
-{{- $bounce := "" }}
+{{- $bounce := $section.is_animation }}
 {{- with $section.is_animation }}
 {{- $bounce := . }}
 {{- end }}
