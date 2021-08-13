@@ -10,7 +10,7 @@
                 <div class="absolute w-full h-full left-0 top-0 flex items-center align-center z-30">
                     <div class="container w-full max-w-screen-xl mx-auto px-6 lg:px-12">
                         {{- $bounce := "" }}
-                        {{- if $section.is_animation }}
+                        {{- with $section.is_animation }}
                         {{- $bounce := . }}
                         {{- end }}
                         {{- if $section.is_text }}
