@@ -3,7 +3,6 @@
     {{- range $section := .Params.sections }}
     {{- $style := $section.design.style }}
     {{- $use_container := $section.design.container | default true }}
-
     <div id="{{ replace $section.type "_" "-" }}"
         class="section bg-body transition duration-500 ease-ease" {{with $style}}style="{{ . | safeCSS}}" {{end}}>
         {{- if $use_container }}
