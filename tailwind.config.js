@@ -279,7 +279,7 @@ module.exports = {
 		extend: {
 			backgroundColor: ['before', 'after', 'dark', 'focus'],
             backgroundOpacity: ['before', 'after'],
-			borderColor: ['before', 'focus'],
+			borderColor: ['hover', 'before', 'focus'],
 			borderRadius: ['before'],
 			borderStyle: ['before', 'focus'],
 			borderWidth: ['before', 'focus', 'last'],
