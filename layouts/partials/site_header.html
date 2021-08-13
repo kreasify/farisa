@@ -102,26 +102,26 @@
                     </nav>
                 </div>
                 <div>
-                <div class="nav__search bg-green-200 col-span-2 flex justify-center">
-                {{ partial "nav_search" . }}
-                </div>
-                <div class="nav__dark-light col-span-1 bg-yellow-200 flex justify-end items-center">
-                    <button class="cursor-pointer" @click="darkMode = !darkMode">
-                        <template x-if="!darkMode">
-                        <span class="nav__cart-info w-8 h-8 flex items-center justify-center text-primary hover:text-secondary hover:border-primary">
-                        {{ partial "svg/icon-moon.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
-                        </span>
-                        </template>
-                        <template x-if="darkMode">
-                        <span class="nav__cart-info w-8 h-8 flex items-center justify-center text-primary hover:text-secondary hover:border-primary">
-                        {{ partial "svg/icon-sun.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
-                        </span>
-                        </template>
-                    </button>
-                </div>
-                <div class="nav__shopping col-span-2 bg-red-200 flex justify-end items-center pr-2">
-                    {{ partial "nav_cart" . }}
-                </div>
+                    <div class="nav__search bg-green-200 col-span-2 flex justify-center">
+                    {{ partial "nav_search" . }}
+                    </div>
+                    <div class="nav__dark-light col-span-1 bg-yellow-200 flex justify-end items-center">
+                        <button class="cursor-pointer" @click="darkMode = !darkMode">
+                            <template x-if="!darkMode">
+                            <span class="nav__cart-info w-8 h-8 flex items-center justify-center text-primary hover:text-secondary hover:border-primary">
+                            {{ partial "svg/icon-moon.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
+                            </span>
+                            </template>
+                            <template x-if="darkMode">
+                            <span class="nav__cart-info w-8 h-8 flex items-center justify-center text-primary hover:text-secondary hover:border-primary">
+                            {{ partial "svg/icon-sun.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
+                            </span>
+                            </template>
+                        </button>
+                    </div>
+                    <div class="nav__shopping col-span-2 bg-red-200 flex justify-end items-center pr-2">
+                        {{ partial "nav_cart" . }}
+                    </div>
                 </div>
             </div>
         </div>
