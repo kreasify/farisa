@@ -1,12 +1,12 @@
 {{- $section := .section }}
-            {{- $bounce_1 := "" }}
-            {{- $bounce_2 := "" }}
-            {{- $bounce_3 := "" }}
-            {{- if $section.is_animation }}
-            {{- $bounce_1 := "bounce-left-3" }}
-            {{- $bounce_2 := "bounce-left-4" }}
-            {{- $bounce_3 := "bounce-left-5" }}
-            {{- end }}
+{{- $bounce_1 := "" }}
+{{- $bounce_2 := "" }}
+{{- $bounce_3 := "" }}
+{{- if $section.is_animation }}
+{{- $bounce_1 := "bounce-left-3" }}
+{{- $bounce_2 := "bounce-left-4" }}
+{{- $bounce_3 := "bounce-left-5" }}
+{{- end }}
 {{- with $section.slides }}
 <div x-ref="splidejs" id="image-slider" class="splide relative group overflow-hidden" x-data="slider()" x-init='splide()'>
     <div class="splide__track">
