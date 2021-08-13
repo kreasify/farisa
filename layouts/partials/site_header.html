@@ -24,7 +24,7 @@
                 <div class="nav__search order-2 bg-green-200 col-span-2 flex justify-center">
                 {{ partial "nav_search" . }}
                 </div>
-                <div class="nav__brand logo order-3 lg:order-1 bg-blue-200 col-span-6 lg:col-span-2 lg:pr-8">
+                <div class="nav__brand logo lg:order-1 bg-blue-200 col-span-6 lg:col-span-2 lg:pr-8">
                     <a class="sr-only" href="#content">Skip to main content</a>
                     {{- if .Site.Params.header.logo }}
                     <a class="nav__brand-link" href="{{ "/" | relURL }}"><img
