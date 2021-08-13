@@ -2,6 +2,7 @@
 title: Metro Theme for Hugo SSG
 description: Metro Theme for Hugo Static Site Generator
 thumbnail: /uploads/hero-1.jpg
+
 sections:
   - type: slider_section
     slides:
