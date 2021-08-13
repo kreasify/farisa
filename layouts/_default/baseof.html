@@ -131,7 +131,7 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
                             byId[item.id] = item
                             return byId
                         }, {})
-                        const miniSearch = new MiniSearch({
+                        let miniSearch = new MiniSearch({
                             fields: ['title'],
                             storeFields: ['title', 'image', 'price', 'category'],
                             processTerm: (term, _fieldName) => (term.length <= 1) ? null : term.toLowerCase()
