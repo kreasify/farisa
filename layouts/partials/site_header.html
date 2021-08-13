@@ -21,7 +21,7 @@
                         </svg>
                     </button>
                 </div>
-                <div class="nav__search order-2 bg-green-200 col-span-2 flex justify-center">
+                <div class="nav__search bg-green-200 col-span-2 flex justify-center">
                 {{ partial "nav_search" . }}
                 </div>
                 <div class="nav__brand logo lg:order-1 bg-blue-200 col-span-6 lg:col-span-2 lg:pr-8">
@@ -33,7 +33,7 @@
                     <a class="nav__brand-title" href='{{ "/" | relURL }}'>{{ $.Site.Params.header.title }}</a>
                     {{- end }}
                 </div>
-                <div class="nav__menu lg:order-2 col-span-8 hidden lg:block">
+                <div class="nav__menu col-span-8 hidden lg:block">
                     <nav class="navbar">
                         <ul class="navbar__menu menu">
                             {{- $fixed_menu := "" }}
