@@ -1,7 +1,7 @@
 {{- define "content" }}
 <main id="content" class="site-content section">
     {{- range $section := .Params.sections }}
-    {{- $style := $section.design.container | default true }}
+    {{- $style := $section.design.style }}
     {{- $use_container := $section.design.container | default true }}
 
     <div id="{{ replace $section.type "_" "-" }}"
