@@ -37,7 +37,6 @@
     {{- $style = print $style $style_padding }}
     {{- end }}
 
-    {{- $extra_attributes := "" }}
     {{- $use_container := $section.design.container | default true }}
 
     <div id="{{ replace $section.type "_" "-" }}"
