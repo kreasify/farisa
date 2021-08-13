@@ -9,10 +9,8 @@
 
 {{- if $fill }}
 {{- $resized := $imageResource.Fill $resized }}
-<img class="{{ $class }} blur-up lazyload" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
+<img class="{{ $class }} blur-up lazyload" lazy="loaded" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
 {{- else }}
 {{- $resized := $imageResource.Resize $resized }}
-<img class="{{ $class }} blur-up lazyload" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
+<img class="{{ $class }} blur-up lazyload" lazy="loaded" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
 {{- end }}
-
-blur-up lazyload" :alt="`${item.title}`" lazy="loaded">
