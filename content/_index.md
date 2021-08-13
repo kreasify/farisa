@@ -5,7 +5,7 @@ thumbnail: /uploads/hero-1.jpg
 fixed_menu: true
 sections:
   - type: slider_section
-    is_animation: false
+    is_animation: true
     is_text: true
     slides:
       - image: /uploads/slider_1.png
