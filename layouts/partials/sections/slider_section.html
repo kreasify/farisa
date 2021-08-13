@@ -2,7 +2,7 @@
 {{- $bounce_1 := "" }}
 {{- $bounce_2 := "" }}
 {{- $bounce_3 := "" }}
-{{- if $section.is_animation }}
+{{- with $section.is_animation }}
 {{- $bounce_1 := "bounce-left-3" }}
 {{- $bounce_2 := "bounce-left-4" }}
 {{- $bounce_3 := "bounce-left-5" }}
