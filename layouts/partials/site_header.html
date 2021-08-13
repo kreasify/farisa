@@ -1,4 +1,4 @@
-<header x-data="rivebit" class='header {{ if ne .Params.layout "advanced" }}bg-header{{ end }} {{ if .Site.Params.header.sticky_nav }}{{ if .Params.sections }}lg:pt-0{{ end }}{{ end }}'>
+<header x-data="rivebit" class='header {{ if ne .Params.layout "advanced" }}bg-header{{ end }} {{ if .Site.Params.header.sticky_nav }}relative pt-20{{ if .Params.sections }}lg:pt-0{{ end }}{{ end }}'>
     <div class="nav {{ if .Site.Params.header.sticky_nav }}transition-all duration-300 ease-in-out delay-300 animate-fadeInDown z-50{{ else }}py-4{{ end }}"
         {{ if .Site.Params.header.sticky_nav }}:class="{ 'absolute w-full left-0 top-0 py-4': atTop, 'fixed w-full left-0 top-0 bg-header delay-300 animate-fadeInDown shadow-lg py-0': !atTop }"
         x-on:scroll.window="atTop = (window.pageYOffset > 200) ? false : true;" {{ end }}>
