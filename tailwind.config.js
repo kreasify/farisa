@@ -281,7 +281,7 @@ module.exports = {
             backgroundOpacity: ['before', 'after'],
 			borderColor: ['hover', 'before', 'focus'],
 			borderRadius: ['before'],
-			borderStyle: ['before', 'focus'],
+			borderStyle: ['hover', 'before', 'focus'],
 			borderWidth: ['before', 'focus', 'last'],
 			boxShadow: ['after'],
 			cursor: ['hover', 'group-hover'],
