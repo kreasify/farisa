@@ -20,17 +20,5 @@ sections:
       Egestas tellus rutrum tellus pellentesque eu. Auctor augue mauris augue
       neque. Lectus arcu bibendum at varius vel pharetra. Enim sed faucibus
       turpis in eu mi bibendum neque egestas.
-  - type: cta_section
-    template: cta_section
-    title: Join the Team
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-    actions:
-      - type: action
-        template: action
-        label: Contact Us
-        url: /contact
-        style: secondary
-    has_background: true
-    background_color: blue
 layout: advanced
 ---
