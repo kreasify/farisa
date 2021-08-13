@@ -34,9 +34,9 @@
                     <nav class="navbar">
                         <ul class="navbar__menu menu">
                             {{- $menu_class := "" }}
-                            {{- with .Params.fixed_menu }} 
+                            {{- with .Params.fixed_menu }}
                             {{- $menu_class = . }}
-                            {{- end }} 
+                            {{- end }}
 
                             {{- $current_page := . }}
                             {{- range .Site.Menus.main }}
