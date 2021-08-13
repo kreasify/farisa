@@ -66,6 +66,7 @@ sections:
         url: /collections
     design:
       container: true
+      style: ''
     advanced:
       section_class: ''
       container_style: ''
