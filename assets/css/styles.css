@@ -24,4 +24,11 @@ Last change: 	09/01/2020
     @apply top-0 bottom-0 opacity-0 transition-all duration-1000 ease-linear;
 }
 
-autocomplete
+/* autocomplete */
+#autoComplete::placeholder {
+  transition: all 0.3s ease;
+}
+
+#autoComplete:hover::placeholder {
+  transition: all 0.3s ease;
+}
