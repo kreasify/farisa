@@ -5,7 +5,7 @@
         x-on:scroll.window="atTop = (window.pageYOffset > 200) ? false : true;" {{ end }}>
         <div class="nav__container container w-full max-w-screen-xl relative mx-auto py-4 lg:py-0 px-3 lg:px-12">
             <div class="nav__wrapper grid grid-cols-12 items-center">
-                <div class="nav__toggle col-span-2 bg-red-200 flex items-center order-1 lg:hidden">
+                <div class="nav__toggle col-span-1 bg-red-200 flex items-center order-1 lg:hidden">
                     <button class="{{ if .Params.fixed_menu }}text-gray-700{{ else }}text-body-text hover:text-body-text-secondary{{ end }} cursor-pointer border-none focus:outline-none"
                         :class="{ 'open': sideNav === true }" @click="sideNav = !sideNav">
                         <svg class="fill-current transition duration-300 ease-in-out transform" width="22" height="24">
