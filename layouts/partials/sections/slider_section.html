@@ -12,7 +12,7 @@
                         {{- if $section.is_text }}
                         <header class="lg:w-1/2 relative">
                             {{- if .title }}
-                            <h2 class="text-primary font-semibold text-lg lg:text-3xl bounce-left-3 mb-3">{{ .title | safeHTML }}</h2>
+                            <h2 class="text-primary font-semibold text-lg lg:text-3xl {{- if $section.is_text }}bounce-left-3 mb-3">{{ .title | safeHTML }}</h2>
                             {{- end }}
                             {{- if .subtitle }}
                             <h4 class="text-secondary text-xs lg:text-base bounce-left-4 mb-4">{{ .subtitle | safeHTML }}</h4>
