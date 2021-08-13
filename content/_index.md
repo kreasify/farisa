@@ -119,10 +119,7 @@ sections:
     design:
       container: false
       column: 2
-    advanced:
-      section_class: 'bg-white'
-      container_style: ''
-      container_class: ''
+      style: ''
   - type: blog_feed_section
     title: What's New
     show_recent: false
