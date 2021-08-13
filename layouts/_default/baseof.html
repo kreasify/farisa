@@ -365,8 +365,6 @@ function Storage() {
 						keys: ["id", "name"],
 						cache: false,
 						filter: (list) => {
-							// Filter duplicates
-							// incase of multiple data keys usage
 							const filteredResults = Array.from(
 								new Set(list.map((value) => value.match))
 							).map((id) => {
