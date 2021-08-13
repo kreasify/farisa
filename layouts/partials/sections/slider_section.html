@@ -11,7 +11,7 @@
                     <div class="container w-full max-w-screen-xl mx-auto px-6 lg:px-12">
                         {{- if .is_text }}
                         <header class="lg:w-1/2 relative">
-                            {{- if .is_text }}
+                            {{- if .title }}
                             <h2 class="text-primary font-semibold text-lg lg:text-3xl bounce-left-3 mb-3">{{ .title | safeHTML }}</h2>
                             <h4 class="text-secondary text-xs lg:text-base bounce-left-4 mb-4">{{ .subtitle | safeHTML }}</h4>
                             <a class="text-primary hover:text-secondary text-2xs lg:text-lg inline-block font-semibold uppercase transition duration-300 ease-in-out border-2 border-solid border-primary hover:border-secondary bounce-left-5 py-1 lg:py-2 px-3"
