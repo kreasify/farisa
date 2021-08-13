@@ -3,7 +3,7 @@
 {{- $alt := .alt_text | default "alt text" }}
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
 <!-- Aspect ratio 4:3 -->
-{{- $resizedxs := $imageResource.Fill "414x480 center webp" }}
+{{- $resizedxs := $imageResource.Fill "414x310 center webp" }}
 {{- $resizedsm := $imageResource.Fill "640x480 center webp" }}
 <!-- Aspect ratio 16:9 -->
 {{- $resizedmd := $imageResource.Fill "768x432 webp" }}
