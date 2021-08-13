@@ -41,10 +41,7 @@ sections:
     design:
       container: true
       column: 3
-    advanced:
-      section_class: ''
-      container_style: ''
-      container_class: 'max-w-screen-xl pt-12 pb-6 px-3 lg:px-8'
+      style: ''
   - type: grid_banner_section
     features:
       - image: /uploads/grid_banner_1.png
