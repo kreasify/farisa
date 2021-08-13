@@ -18,7 +18,7 @@
                             <h4 class="text-secondary text-xs lg:text-base {{- if $section.is_animation }}bounce-left-4{{ end }} mb-4">{{ .subtitle | safeHTML }}</h4>
                             {{- end }}
                             {{- if .button_text }}
-                            <a class="text-primary hover:text-secondary text-2xs lg:text-lg inline-block font-semibold uppercase transition duration-300 ease-in-out border-2 border-solid border-primary hover:border-secondary bounce-left-5 py-1 lg:py-2 px-3 {{- if $section.is_animation }}"
+                            <a class="text-primary hover:text-secondary text-2xs lg:text-lg inline-block font-semibold uppercase transition duration-300 ease-in-out border-2 border-solid border-primary hover:border-secondary py-1 lg:py-2 px-3 {{- if $section.is_animation }}"
                                 href="{{ .button_link }}">{{ .button_text }}</a>
                             {{- end }}
                         </header>
