@@ -5,6 +5,7 @@ thumbnail: /uploads/hero-1.jpg
 fixed_menu: true
 sections:
   - type: slider_section
+    
     slides:
       - image: /uploads/slider_1.png
         alt_text: home 1
