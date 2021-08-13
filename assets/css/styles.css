@@ -23,3 +23,5 @@ Last change: 	09/01/2020
 .banner__image:hover:after {
     @apply top-0 bottom-0 opacity-0 transition-all duration-1000 ease-linear;
 }
+
+autocomplete
