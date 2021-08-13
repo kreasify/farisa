@@ -13,7 +13,7 @@ Last change: 	09/01/2020
 @tailwind utilities;
 @import "partials/global.css";
 @import "partials/footer.css";
-@import "site.css"; 
+/* @import "site.css";  */
 
 /* banner section */
 .banner__image:hover:before {
