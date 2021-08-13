@@ -113,7 +113,7 @@
                             </span>
                             </template>
                             <template x-if="darkMode">
-                            <span class="nav__cart-info w-8 h-8 flex items-center justify-center text-primary hover:text-secondary hover:border-primary">
+                            <span class="nav__cart-info w-8 h-8 flex items-center justify-center {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-body-text-primary hover:text-body-text-secondary{{ end }} hover:border-primary">
                             {{ partial "svg/icon-sun.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
                             </span>
                             </template>
