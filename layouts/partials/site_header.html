@@ -108,7 +108,7 @@
                     <div class="nav__dark-light flex-none w-8 h-8">
                         <button class="cursor-pointer" @click="darkMode = !darkMode">
                             <template x-if="!darkMode">
-                            <span class="nav__cart-info w-8 h-8 flex items-center justify-center {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-body-text-primary hover:text-body-text-secondary{{ end }} hover:border-primary">
+                            <span class="nav__cart-info w-8 h-8 flex items-center justify-center {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-header-text hover:text-header-text-primary{{ end }} hover:border-primary">
                             {{ partial "svg/icon-moon.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
                             </span>
                             </template>
