@@ -8,12 +8,12 @@
 
 #autoComplete::selection {
   /* color: transparent; */
-  color: #3b5999;
+  color: red;
 }
 
 #autoComplete:focus::selection {
   color: #fff;
-  background-color: #3b5999;
+  background-color: green;
 }
 
 #autoComplete_list {
@@ -47,12 +47,9 @@
 }
 
 .autoComplete_result:focus {
-  outline: none;
-  background-color: #FFFAF0;
+	@apply outline-none;
   border-left: 2px solid #ED8936;
   border-right: 2px solid #ED8936;
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
 }
 
 .autoComplete_highlighted {

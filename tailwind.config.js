@@ -277,11 +277,11 @@ module.exports = {
 	},
 	variants: {
 		extend: {
-			backgroundColor: ['before', 'after', 'dark'],
+			backgroundColor: ['before', 'after', 'dark', 'focus'],
             backgroundOpacity: ['before', 'after'],
-			borderColor: ['before'],
+			borderColor: ['before', 'focus'],
 			borderRadius: ['before'],
-			borderStyle: ['before'],
+			borderStyle: ['before', 'focus'],
 			borderWidth: ['before', 'focus', 'last'],
 			boxShadow: ['after'],
 			cursor: ['hover', 'group-hover'],

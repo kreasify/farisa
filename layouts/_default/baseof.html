@@ -345,71 +345,85 @@ function Storage() {
             postcode: '',
             products: [],
             init() {
-                const autoCompletejs = new autoComplete({
-                    data: {
-						src: async (query) => {
+				const autoCompleteJS = new autoComplete({
+					data: {
+						src: async () => {
 							try {
-							 // Loading placeholder text
-                            this.$refs.autoComplete.setAttribute("placeholder", "Loading...");
-							// Fetch Data from external Source
-							const source = await fetch("/api/destination.json");
-							// Data is array of `Objects` | `Strings`
-							const data = await source.json();
-                            // Post loading placeholder text
-                            this.$refs.autoComplete.setAttribute("placeholder", autoCompleteJS.placeHolder);
-							return data;
+								// Loading placeholder text
+								this.$refs.autoComplete.setAttribute("placeholder", "Loading...");
+								// Fetch External Data Source
+								const source = await fetch(
+									"/api/destination.json"
+								);
+								const data = await source.json();
+								// Post Loading placeholder text
+								this.$refs.autoComplete.setAttribute("placeholder", autoCompleteJS.placeHolder);
+								// Returns Fetched data
+								return data;
 							} catch (error) {
-							return error;
+								return error;
 							}
 						},
-                        key: ["id", "name"],
-                        cache: true
-                    },
-					filter: (list) => {
-						// Filter duplicates
-						// incase of multiple data keys usage
-						const filteredResults = Array.from(
-							new Set(list.map((value) => value.match))
-						).map((id) => {
-							return list.find((value) => value.match === id);
-						});
+						keys: ["id", "name"],
+						cache: false,
+						filter: (list) => {
+							// Filter duplicates
+							// incase of multiple data keys usage
+							const filteredResults = Array.from(
+								new Set(list.map((value) => value.match))
+							).map((id) => {
+								return list.find((value) => value.match === id);
+							});
 
-						return filteredResults;
+							return filteredResults;
+						}
 					},
-                    placeHolder: "Masukkan Kecamatan",
-                    selector: "#autoComplete",
-                    threshold: 2,
-                    debounce: 300,
+					placeHolder: "Masukkan Kecamatan",
 					resultsList: {
-						tag: "ul",
-						id: "autoComplete_list",
-						class: "results_list list-none bg-body-secondary",
-						destination: this.$refs.autoComplete,
-						position: "afterend",
-						maxResults: 15,
-						noResults: true,
+						class: "results__list list-none bg-body-secondary pl-0",
 						element: (list, data) => {
-							list.setAttribute("data-parent", "food-list");
+							list.setAttribute("data-parent", "name-list");
 						},
+						noResults: true,
+						maxResults: 15,
+						tabSelect: true
 					},
 					resultItem: {
-						tag: "li",
-						class: "autoComplete_result hover:bg-body",
+                        class: "autoComplete__result text-sm hover:bg-body focus:bg-body group py-1 px-3 mb-0",
 						element: (item, data) => {
-							item.setAttribute("data-parent", "food-item");
+							// Modify Results Item Content
+							item.innerHTML = `
+						  <span style="text-overflow: ellipsis; white-space: nowrap; overflow: hidden;">
+							${data.match}
+						  </span>`;
 						},
-						highlight: "autoComplete_highlight",
-						selected: "autoComplete_selected"
+                        highlight: "autoComplete_highlight bg-body group-hover:bg-body-secondary rounded-sm px-1",
+                        selected: "autoComplete_selected"
 					},
 					events: {
 						input: {
 							focus: () => {
 								if (autoCompleteJS.input.value.length) autoCompleteJS.start();
+							},
+							selection: () => {
+							    const feedback = event.detail;
+								const selection = feedback.selection.value.name;
+								const toDestination = feedback.selection.value.id + ', ' + feedback.selection.value.name;
+								this.$refs.autoComplete.setAttribute("placeholder", selection);
+								this.$refs.autoComplete.value = "";
+								this.activeStyle = true;
+								this.destination = toDestination;
+								this.fetchCourier();
+								this.courier = '';
+								this.courierActive = null;
+								event.preventDefault();
+								
+								console.log(event.detail);
 							}
-						}
+						},
 					}
-                });
-                return autoCompletejs;
+				});
+                return autoCompleteJS ;
             },
             localPrice(amount) {
                 return amount.toLocaleString('id-ID', {
