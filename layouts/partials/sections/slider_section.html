@@ -1,11 +1,7 @@
 {{- $section := .section }}
 {{- $bounce_1 := "" }}
-{{- $bounce_2 := "" }}
-{{- $bounce_3 := "" }}
 {{- with $section.is_animation }}
 {{- $bounce_1 := . }}
-{{- $bounce_2 := . }}
-{{- $bounce_3 := . }}
 {{- end }}
 {{- with $section.slides }}
 <div x-ref="splidejs" id="image-slider" class="splide relative group overflow-hidden" x-data="slider()" x-init='splide()'>
