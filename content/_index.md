@@ -132,9 +132,7 @@ sections:
       category: ''
       author: ''
       exclude_featured: false
-    advanced:
-      section_class: ''
-      container_style: ''
-      container_class: '' 
+    design:
+      style: '' 
 layout: advanced
 ---
