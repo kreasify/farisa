@@ -26,6 +26,7 @@ sections:
         button_link: /order
     design:
       container: false
+      style: ''
     advanced:
       section_class: ''
       container_style: ''
