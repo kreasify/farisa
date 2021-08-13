@@ -15,7 +15,7 @@
                             <h2 class="text-primary font-semibold text-lg lg:text-3xl {{- if $section.is_animation }}bounce-left-3{{ end }} mb-3">{{ .title | safeHTML }}</h2>
                             {{- end }}
                             {{- if .subtitle }}
-                            <h4 class="text-secondary text-xs lg:text-base bounce-left-4{{ end }} mb-4">{{ .subtitle | safeHTML }}</h4>
+                            <h4 class="text-secondary text-xs lg:text-base bounce-left-4 mb-4">{{ .subtitle | safeHTML }}</h4>
                             {{- end }}
                             {{- if .button_text }}
                             <a class="text-primary hover:text-secondary text-2xs lg:text-lg inline-block font-semibold uppercase transition duration-300 ease-in-out border-2 border-solid border-primary hover:border-secondary py-1 lg:py-2 px-3 {{- if $section.is_animation }}bounce-left-5{{ end }}"
