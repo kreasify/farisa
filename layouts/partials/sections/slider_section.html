@@ -1,8 +1,4 @@
 {{- $section := .section }}
-{{- $bounce := "" }}
-{{- with $section.is_animation }}
-{{- $bounce := . }}
-{{- end }}
 {{- with $section.slides }}
 <div x-ref="splidejs" id="image-slider" class="splide relative group overflow-hidden" x-data="slider()" x-init='splide()'>
     <div class="splide__track">
