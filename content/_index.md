@@ -70,7 +70,7 @@ sections:
       container: true
       style: ''
   - type: shop_feed_section
-    title: What's New
+    title: Produk Baru
     show_recent: false
     page_type: shop
     count: 5
