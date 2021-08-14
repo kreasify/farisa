@@ -3,7 +3,6 @@ title: Koleksi Produk
 description: Koleksi Produk
 sections:
   - type: hero_section
-    template: hero_section
     title: Semua Koleksi Produk
     align: center
     has_background: true
