@@ -400,6 +400,9 @@ module.exports = {
 				'.dot-content': {
 					content: "'.'",
 				},
+                '.dot-content': {
+					content: "'.'",
+				},
 				'.bg-mask': {
 					content: "''",
 					position: 'absolute',
