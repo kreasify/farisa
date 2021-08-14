@@ -400,7 +400,7 @@ module.exports = {
 				'.dot-content': {
 					content: "'.'",
 				},
-                '.dot-content': {
+                '.comma-content': {
 					content: "'.'",
 				},
 				'.bg-mask': {
