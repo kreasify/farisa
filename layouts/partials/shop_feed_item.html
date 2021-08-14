@@ -11,7 +11,7 @@
             </div>
             {{- end }}
         </a>
-        {{- if isset $post.Params "badge" }}
+        {{- if isset $post.Params "badge" }} 
         <span
             class="feed-item__badge absolute text-sm text-white rounded-sm top-2 left-2 px-2" {{ if $post.Params.badge_color }}style="background-color: {{ $post.Params.badge_color }}"{{ end }}>{{ index $post.Params "badge" }}</span>
         {{- end }}
