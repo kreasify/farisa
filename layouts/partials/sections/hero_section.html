@@ -23,7 +23,6 @@
 {{- $style = printf "%sbackground-size: %s;" $style (replace . "actual" "auto") }}
 {{- end }}
 
-
 {{- with $bg.image_position }}
 {{/* Allow valid CSS positions including left, center, and right. */}}
 {{- $style = printf "%sbackground-position: %s;" $style . }}
