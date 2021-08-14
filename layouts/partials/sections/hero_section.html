@@ -25,6 +25,8 @@
 {{- $resize_21_9 := $imageResource.Fill "1536x658 webp" }}
 {{- if eq $bg.image_aspect_ratio "21:2" }}
 
+{{- end }}
+
 {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken (printf "%s" $bg.image | absURL) }}
 {{- end }}
 
