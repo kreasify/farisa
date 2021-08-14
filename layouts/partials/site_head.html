@@ -29,7 +29,6 @@
 <script defer src="{{ $js.RelPermalink }}"></script>
 {{- else }}
 {{- $js := slice $lazysizes $minisearch $splide $alpine $ads $checkout | resources.Concat "js/main.js" }}
-<script defer src="{{ $js.RelPermalink }}"></script>
 {{- end }}
 
 
