@@ -22,12 +22,6 @@
 {{- $resize_21_3 := $imageResource.Fill "1536x219 webp" }}
 {{- $resize_21_4 := $imageResource.Fill "1536x292 webp" }}
 {{- $resize_21_4 := $imageResource.Fill "1536x658 webp" }}
-<!-- Aspect ratio 16:9 -->
-{{- $resizedmd := $imageResource.Fill "768x432 webp" }}
-{{- $resizedlg := $imageResource.Fill "1024x576 webp" }}
-<!-- Aspect ratio 21:9 -->
-{{- $resizedxl := $imageResource.Fill "1280x549 webp" }}
-{{- $resized2xl := $imageResource.Fill "1536x658 webp" }}
 
 {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken (printf "img/%s" $bg.image | absURL) }}
 {{- end }}
