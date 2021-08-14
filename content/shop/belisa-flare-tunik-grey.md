@@ -35,7 +35,7 @@ variants:
     size: L
     sku: HIBECLGRL0-YP
     price: 199000
-    discount: 0
+    discount: 259000
     weight: 700
     quantity: 10
   - name: XL
