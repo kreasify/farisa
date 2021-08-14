@@ -39,7 +39,7 @@
     </div>
     <div class="flex items-center border-b border-solid border-gray-200 pb-4 mb-12">
         {{- $collections := "collections" }}
-        {{- with .Param $collections }}
+        {{- if .Param $collections }}
         <div class="shop__color flex items-center">
             <span class="text-header-text-primary">Collection{{ if gt (len .) 1 }}s{{ end }}:</span>
             {{- range $index, $collection := . }}
