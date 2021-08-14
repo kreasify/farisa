@@ -423,9 +423,9 @@ function Storage() {
                     if (! response.ok) alert(`Something went wrong: ${response.status} - ${response.statusText}`)
                     data = await response.json()
                     name = data.name,
-                    email: data.email,
-                    address: data.address.street,
-                    city: data.address.city
+                    email = data.email,
+                    address = data.address.street,
+                    city = data.address.city
                 })
             }
         }))
