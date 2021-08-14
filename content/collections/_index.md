@@ -16,10 +16,6 @@ sections:
         image: uploads/banner.jpg
         image_size: cover
         image_position: center
-    advanced:
-      section_class: 'bg-grey py-12 px-3'
-      container_style: ''
-      container_class: ''
   - type: collections_filter_section
     template: collections_filter_section
     title: semua produk
