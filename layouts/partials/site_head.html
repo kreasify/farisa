@@ -1,36 +1,36 @@
 <head>
-  <title>{{ if .Title }}{{ $.Title }} | {{ end }}{{ .Site.Title }}</title>
-  {{- hugo.Generator }}
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="{{ .Params.description | default .Site.Params.description }}" />
-  <!-- <link rel="stylesheet" href="{{ "assets/css/styles.css" | relURL }}"/> -->
-  {{- $lazysizes := resources.Get "js/lazysizes@5.3.2.min.js" }}
-  {{- $minisearch := resources.Get "js/minisearch@3.0.4.min.js" }}
-  {{- $splide := resources.Get "js/splide@2.4.20.min.js" }}
-  {{- $alpine := resources.Get "js/alpine@3.2.3.min.js" }}
-  {{- $autocomplete := resources.Get "js/autocomplete@10.2.6.min.js" }}
+<title>{{ if .Title }}{{ $.Title }} | {{ end }}{{ .Site.Title }}</title>
+{{- hugo.Generator }}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="{{ .Params.description | default .Site.Params.description }}" />
+<!-- <link rel="stylesheet" href="{{ "assets/css/styles.css" | relURL }}"/> -->
+{{- $lazysizes := resources.Get "js/lazysizes@5.3.2.min.js" }}
+{{- $minisearch := resources.Get "js/minisearch@3.0.4.min.js" }}
+{{- $splide := resources.Get "js/splide@2.4.20.min.js" }}
+{{- $alpine := resources.Get "js/alpine@3.2.3.min.js" }}
+{{- $autocomplete := resources.Get "js/autocomplete@10.2.6.min.js" }}
 
-  {{- if eq .RelPermalink "/checkout/" }}
-  {{- $js := slice $lazysizes $minisearch $autocomplete $alpine | resources.Concat "js/main.js" }}
-  <script defer src="{{ $js.RelPermalink }}"></script>
-  {{- else }}
-  {{- $js := slice $lazysizes $minisearch $splide $autocomplete $alpine | resources.Concat "js/main.js" }}
-  <script defer src="{{ $js.RelPermalink }}"></script>
-  {{- end }}
-  <link rel="icon" type="image/png" href="{{(partial "functions/get_icon" 32).RelPermalink}}">
-  <link rel="apple-touch-icon" type="image/png" href="{{(partial "functions/get_icon" 192).RelPermalink}}">
+{{- if eq .RelPermalink "/checkout/" }}
+{{- $js := slice $lazysizes $minisearch $autocomplete $alpine | resources.Concat "js/main.js" }}
+<script defer src="{{ $js.RelPermalink }}"></script>
+{{- else }}
+{{- $js := slice $lazysizes $minisearch $splide $autocomplete $alpine | resources.Concat "js/main.js" }}
+<script defer src="{{ $js.RelPermalink }}"></script>
+{{- end }}
+<link rel="icon" type="image/png" href="{{(partial "functions/get_icon" 32).RelPermalink}}">
+<link rel="apple-touch-icon" type="image/png" href="{{(partial "functions/get_icon" 192).RelPermalink}}">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-  <link rel="canonical" href="{{ .RelPermalink }}">
-  {{ partial "styles.html" . }}
-  {{ partial "site_head_seo.html" . }}
-  {{ range .AlternativeOutputFormats -}}
-  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
-  {{- end }}
-  <!-- {{ partial "site_head_schema.html" . }} -->
+<link rel="canonical" href="{{ .RelPermalink }}">
+{{ partial "styles.html" . }}
+{{ partial "site_head_seo.html" . }}
+{{ range .AlternativeOutputFormats -}}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
+{{- end }}
+<!-- {{ partial "site_head_schema.html" . }} -->
 
 </head>
