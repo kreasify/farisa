@@ -42,8 +42,8 @@
 {{- $aspect_ratio_class = "aspect-w-21 aspect-h-9" }}
 {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken $aspect_ratio }}
 {{- else }}
-{{- $aspect_ratio := $resize_21_2.RelPermalink }}
-{{- $aspect_ratio_class := "aspect-w-21 aspect-h-2" }}
+{{- $aspect_ratio = $resize_21_2.RelPermalink }}
+{{- $aspect_ratio_class = "aspect-w-21 aspect-h-2" }}
 {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken $aspect_ratio }}
 {{- end }}
 
