@@ -48,6 +48,11 @@
             <a class="inline-block text-header-text-secondary capitalize hover:text-primary ml-1" href="{{ .Permalink }}">{{ $collection }}</a>
             {{- end }}
             {{- end }}
+
+            {{- range (.GetTerms "color") }}
+            <a class="shop__color-item inline-block text-header-text-secondary capitalize hover:text-primary ml-1"
+            href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+            {{- end }}
         </div>
         {{- end }}
         <div class="flex w-5px items-center ml-6 mr-3">
