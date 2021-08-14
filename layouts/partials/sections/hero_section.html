@@ -36,7 +36,7 @@
 
 {{- with $section.images }}
 
-<div class="banner__image relative overflow-hidden transition-all duration-500 ease-ease" {{with $style}}style="{{ . | safeCSS}}" {{end}}>
+<div class="banner__image relative overflow-hidden transition-all duration-500 ease-ease" {{with $style}}style="{{ . | safeCSS}}"{{end}}>
     <a class="banner_link" href="{{ if .url }}{{ .url }}{{ end }}">
         <div class="relative aspect-w-4 aspect-h-3">
         {{ $include_dict := dict "image" .image "alt_text" .alt_text "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-md" "resized" "674x506 webp" "fill" true }}
