@@ -42,7 +42,7 @@ variants:
     size: XL
     sku: HIBECLGRXL-CM
     price: 199000
-    discount: 0
+    discount: 259000
     weight: 700
     quantity: 10
 marketplace:
