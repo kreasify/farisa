@@ -23,8 +23,6 @@
 {{- $resize_21_4 := $imageResource.Fill "1536x292 webp" }}
 {{- $resize_21_9 := $imageResource.Fill "1536x658 webp" }}
 
-{{- $aspect_ratio := "" }}
-{{- $aspect_ratio_class := "" }}
 {{- if eq $section.design.aspect_ratio "21:2" }}
 {{- $aspect_ratio := $resize_21_2.RelPermalink }}
 {{- $aspect_ratio_class := "aspect-w-21 aspect-h-2" }}
