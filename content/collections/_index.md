@@ -15,7 +15,6 @@ sections:
         image: uploads/banner.jpg
         image_size: cover
         image_position: center
-        image_aspect_ratio: '21:2'
   - type: collections_filter_section
     template: collections_filter_section
     title: semua produk
