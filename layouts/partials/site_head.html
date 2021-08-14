@@ -30,7 +30,7 @@
 {{- else }}
 {{- $js := slice $lazysizes $minisearch $splide $alpine $ads $checkout | resources.Concat "js/main.js" }}
 {{- end }}
-
+<script defer src="{{ $js.RelPermalink }}"></script>
 
 <link rel="icon" type="image/png" href="{{(partial "functions/get_icon" 32).RelPermalink}}">
 <link rel="apple-touch-icon" type="image/png" href="{{(partial "functions/get_icon" 192).RelPermalink}}">
