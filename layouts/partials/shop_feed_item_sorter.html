@@ -25,7 +25,7 @@
         {{- with $post.Params.variants }}
         {{- range first 1 . }}
         <p class="feed-item__price mb-3">
-            <span class="text-header-text-secondary text-xs lg:text-sm font-medium">Rp {{-  lang.NumFmt 0 .price "- , ." }}</span>
+            <span class="text-heading-primary text-xs lg:text-sm font-medium">Rp {{-  lang.NumFmt 0 .price "- , ." }}</span>
         </p>
         {{- end }}
         {{- end }}
