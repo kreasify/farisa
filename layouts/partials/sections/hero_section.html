@@ -17,7 +17,7 @@
 {{- $darken = printf "linear-gradient(rgba(0, 0, 0, %s), rgba(0, 0, 0, %s))," (string $bg.image_darken) (string $bg.image_darken) }}
 {{- end }}
 
-{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
+{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $bg.image | relURL )) }}
 <!-- Aspect ratio 4:3 -->
 {{- $resizedsm := $imageResource.Fill "640x480 center webp" }}
 <!-- Aspect ratio 16:9 -->
