@@ -19,7 +19,7 @@
             {{- $resizedmd.RelPermalink }} 700w">
         <source media="(max-width: 1024px)" data-srcset="{{ $resizedmd.RelPermalink }} 770w,
             {{- $resizedlg.RelPermalink }} 900w">
-        <source media="(max-width: 1280px)" srcset="{{ $resizedlg.RelPermalink }} 1025w,
+        <source media="(max-width: 1280px)" data-srcset="{{ $resizedlg.RelPermalink }} 1025w,
             {{- $resizedxl.RelPermalink }} 1200w">
         <source media="max-width: 1536px)" srcset="{{ $resized2xl.RelPermalink }} 1300w">
         <img class="image absolute w-full h-full object-cover blur-up lazyload" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}" />
