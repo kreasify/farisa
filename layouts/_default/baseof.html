@@ -11,7 +11,7 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
 
 <div x-data="ads" class="list-none">
 <template x-for="color in users">
-<li x-text="color.name"></li>
+<li x-text="color.name + color.email"></li>
 </template>
 </div>
 
