@@ -6,10 +6,10 @@
     <a class="feed-item__link" href="{{ $post.RelPermalink }}">
     {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site }}
     {{ partial "functions/image_3_2.html" $include_dict }}
-                <div class="responsive aspect-w-5 aspect-h-6">
-            {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "resized" "224x269 Top webp" "fill" true }}
-            {{ partial "functions/get_image.html" $include_dict }}
-            </div>
+        <div class="responsive aspect-w-5 aspect-h-6">
+        {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "resized" "224x269 Top webp" "fill" true }}
+        {{ partial "functions/get_image.html" $include_dict }}
+        </div>
     </a>
     {{- end }}
     <div class="feed-item__info py-4 px-3 lg:px-6">
