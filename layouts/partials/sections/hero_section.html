@@ -27,7 +27,7 @@
 {{- $aspect_ratio := $resize_21_2 }}
 {{- end }}
 
-{{- $style = printf "%sbackground-image: %s url('%s');" $style $darken $aspect_ratio.Relpermalink }}
+{{- $style = printf "%sbackground-image: %s url('%s');" $style $darken $aspect_ratio.RelPermalink }}
 {{- end }}
 
 {{- with $section.design.spacing.padding }}
