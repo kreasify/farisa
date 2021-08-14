@@ -36,7 +36,7 @@
 
 {{- with $section.images }}
 
-<div class="banner__image relative overflow-hidden transition-all duration-500 ease-ease before:absolute before:empty-content before:bg-white before:bg-opacity-30 before:bottom-0 before:top-0 before:left-1/2 before:right-1/2 before:opacity-100 before:z-20 after:absolute after:empty-content after:bg-white after:bg-opacity-30 after:bottom-1/2 after:top-1/2 after:left-0 after:right-0 after:opacity-100" {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
+<div class="banner__image relative overflow-hidden transition-all duration-500 ease-ease" {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
     <a class="banner_link" href="{{ if .url }}{{ .url }}{{ end }}">
         <div class="relative aspect-w-4 aspect-h-3">
         {{ $include_dict := dict "image" .image "alt_text" .alt_text "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-md" "resized" "674x506 webp" "fill" true }}
