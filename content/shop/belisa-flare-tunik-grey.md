@@ -21,7 +21,7 @@ variants:
     size: S
     sku: HIBECLGRM0-T2
     price: 199000
-    discount: 0
+    discount: 259000
     weight: 700
     quantity: 10
   - name: M
