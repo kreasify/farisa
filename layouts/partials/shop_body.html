@@ -50,14 +50,14 @@
         <div class="flex w-5px items-center ml-6 mr-3">
             <span class="w-5px h-5px bg-gray-500 rounded-md"></span>
         </div>
-        {{ if .Params.tags }}
+        {{- if .Params.tags }}
         <div class="shop__color flex items-center">
             <span class="text-gray-600">Tag{{ if gt (len .Params.tags ) 1 }}s{{ end }}:</span>
             {{ range (.GetTerms "tags") }}
             <a class="inline-block text-gray-700 capitalize hover:text-primary ml-1"
                 href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
         </div>
-        {{ end }}
+        {{- end }}
     </div>
     {{- if .Params.color }}
     <div class="shop__color flex items-center mb-6">
