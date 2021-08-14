@@ -8,7 +8,9 @@
 {{- $resized := .resized | default "213x256 webp" }}
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
 
+{{- if $fill }}
 
+{{- end }}
 
 {{- if $fill }}
 {{- $resized := $imageResource.Fill $resized }}
