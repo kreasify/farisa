@@ -3,20 +3,6 @@
 {{- $bg := $section.design.background }}
 {{- $style := "" }}
 
-{{- with $bg.image }}
-{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( . | relURL )) }}
-
-{{- $resize_21_2 := $imageResource.Fill "1536x146 webp" }}
-{{- $resize_21_3 := $imageResource.Fill "1536x219 webp" }}
-{{- $resize_21_4 := $imageResource.Fill "1536x292 webp" }}
-{{- $resize_21_9 := $imageResource.Fill "1536x658 webp" }}
-{{- $aspect_ratio := "" }}
-{{- if $section.design.aspect_ratio }}
-{{- $aspect_ratio := $resize_21_2.RelPermalink }}
-{{- end }}
-{{- end }}
-
-
 {{- if $bg.color }}
 {{- $style = printf "background-color: %s;" ($bg.color | default "transparent") }}
 {{- end }}
@@ -29,6 +15,16 @@
 {{- $darken := "" }}
 {{- if $bg.image_darken }}
 {{- $darken = printf "linear-gradient(rgba(0, 0, 0, %s), rgba(0, 0, 0, %s))," (string $bg.image_darken) (string $bg.image_darken) }}
+{{- end }}
+
+{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $bg.image | relURL )) }}
+{{- $resize_21_2 := $imageResource.Fill "1536x146 webp" }}
+{{- $resize_21_3 := $imageResource.Fill "1536x219 webp" }}
+{{- $resize_21_4 := $imageResource.Fill "1536x292 webp" }}
+{{- $resize_21_9 := $imageResource.Fill "1536x658 webp" }}
+{{- $aspect_ratio := "" }}
+{{- if $section.design.aspect_ratio }}
+{{- $aspect_ratio := $resize_21_2.RelPermalink }}
 {{- end }}
 
 {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken $aspect_ratio }}
