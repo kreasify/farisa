@@ -22,7 +22,7 @@
         {{- with .Params.variants }}{{ range first 1 . }}
         <p class="feed-item__price mb-3">
             {{- if .discount }}
-            <del class="block lg:inline-block text-header-text-secondary text-xs lg:text-base lg:mr-2">Rp {{ lang.NumFmt 0 (add .price .discount) "- , ." }}</del>
+            <del class="block lg:inline-block text-heading-secondary text-xs lg:text-base lg:mr-2">Rp {{ lang.NumFmt 0 (add .price .discount) "- , ." }}</del>
             {{- end }}
             <span class="text-heading-primary text-xs lg:text-sm font-medium">Rp {{ lang.NumFmt 0 .price "- , ." }}</span>
         </p>
