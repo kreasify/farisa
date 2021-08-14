@@ -12,5 +12,5 @@
 <img class="{{ $class }}" data-src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
 {{- else }}
 {{- $resized := $imageResource.Resize $resized }}
-<img class="{{ $class }}" data-src="{{ $resized.RelPermalink }} blur-up lazyload" alt="{{ $alt }}" />
+<img class="{{ $class }}" data-src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
 {{- end }}
