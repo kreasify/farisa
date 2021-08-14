@@ -23,7 +23,7 @@
             {{- $resizedmd.RelPermalink }} 700w">
         <source media="(max-width: 1024px)" srcset="{{ $resizedmd.RelPermalink }} 770w,
             {{- $resizedlg.RelPermalink }} 900w">
-        <source media="(max-width: 1280px)" srcset="{{ $resizedlg.RelPermalink }} 10,
+        <source media="(max-width: 1280px)" srcset="{{ $resizedlg.RelPermalink }} 1025w,
             {{- $resizedxl.RelPermalink }} 1200w">
         <img class="image absolute w-full h-full object-cover blur-up lazyload" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}" />
     </picture>
