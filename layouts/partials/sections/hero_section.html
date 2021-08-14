@@ -23,7 +23,7 @@
 {{- $resize_21_4 := $imageResource.Fill "1536x292 webp" }}
 {{- $resize_21_9 := $imageResource.Fill "1536x658 webp" }}
 {{- $aspect_ratio := "" }}
-{{- if $bg.image_aspect_ratio }}
+{{- if $bg.aspect_ratio }}
 {{- $aspect_ratio := $resize_21_2.RelPermalink }}
 {{- end }}
 
