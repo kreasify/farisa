@@ -5,7 +5,7 @@
 {{- $fill := .fill }}
 {{- $lazyload := .lazyload | default true }}
 <!-- aspect ratio 5:6 -->
-{{- $resized := .resized | default "213x256 webp" }}
+{{- $resized := .resized | default "414x webp" }}
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
 
 {{- if $fill }}
