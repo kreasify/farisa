@@ -16,3 +16,6 @@
 
 {{- if $lazyload }}
 <img class="{{ $class }} blur-up lazyload" data-src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
+{{- else }}
+<img class="{{ $class }} blur-up lazyload" data-src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
+{{- end }}
