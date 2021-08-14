@@ -110,42 +110,42 @@ document.addEventListener('alpine:init', () => {
 })
 
 function Storage() {
-const KEY = 'vitoko'
-const defaultData = '{ "carts": [] }'
+    const KEY = 'vitoko'
+    const defaultData = '{ "carts": [] }'
 
-return {
-    get() {
-        return JSON.parse(localStorage.getItem(KEY) || defaultData)
-    },
-    set({
-        carts,
-        ...rest
-    }) {
-        localStorage.setItem(
-            KEY,
-            JSON.stringify({
-                ...rest,
-                carts: carts.map(({
-                    name,
-                    sku,
-                    image,
-                    thumbnail,
-                    size,
-                    price,
-                    weight,
-                    qty
-                }) => ({
-                    name,
-                    sku,
-                    image,
-                    thumbnail,
-                    size,
-                    price,
-                    weight,
-                    qty,
-                })),
-            }),
-        )
-    },
-}
+    return {
+        get() {
+            return JSON.parse(localStorage.getItem(KEY) || defaultData)
+        },
+        set({
+            carts,
+            ...rest
+        }) {
+            localStorage.setItem(
+                KEY,
+                JSON.stringify({
+                    ...rest,
+                    carts: carts.map(({
+                        name,
+                        sku,
+                        image,
+                        thumbnail,
+                        size,
+                        price,
+                        weight,
+                        qty
+                    }) => ({
+                        name,
+                        sku,
+                        image,
+                        thumbnail,
+                        size,
+                        price,
+                        weight,
+                        qty,
+                    })),
+                }),
+            )
+        },
+    }
 }
