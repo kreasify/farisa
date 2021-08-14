@@ -18,15 +18,6 @@
 {{- end }}
 
 {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken (printf "img/%s" $bg.image | absURL) }}
-{{- with $bg.image_size }}
-{{/* Allow sizes: actual, cover, and contain. */}}
-{{- $style = printf "%sbackground-size: %s;" $style (replace . "actual" "auto") }}
-{{- end }}
-
-{{- with $bg.image_position }}
-{{/* Allow valid CSS positions including left, center, and right. */}}
-{{- $style = printf "%sbackground-position: %s;" $style . }}
-{{- end }}
 {{- end }}
 
 {{- with $section.design.spacing.padding }}
