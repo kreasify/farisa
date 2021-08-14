@@ -26,7 +26,7 @@
 {{- $resize_21_4 := $imageResource.Fill "1536x292 webp" }}
 {{- $resize_21_9 := $imageResource.Fill "1536x658 webp" }}
 
-{{- $style = printf "%sbackground-image: %s url('%s');" $style $darken (printf "uploads/%s" $bg.image | absURL) }}
+{{- $style = printf "%sbackground-image: %s url('%s');" $style $darken (printf "%s" $bg.image | absURL) }}
 {{- end }}
 
 {{- with $section.design.spacing.padding }}
