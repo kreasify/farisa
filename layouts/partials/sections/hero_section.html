@@ -18,8 +18,6 @@
 {{- end }}
 
 {{- $aspect_ratio := "" }}
-
-
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $bg.image | relURL )) }}
 {{- $resize_21_2 := $imageResource.Fill "1536x146 webp" }}
 {{- $resize_21_3 := $imageResource.Fill "1536x219 webp" }}
