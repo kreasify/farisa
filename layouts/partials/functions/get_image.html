@@ -1,7 +1,7 @@
 {{- $site := .Site }}
 {{- $image := .image }}
 {{- $alt := .alt_text | default "alt text" }}
-{{- $class := .class | default "absolute w-full h-full left-0 top-0 object-cover blur-up" }}
+{{- $class := .class | default "absolute w-full h-full left-0 top-0 object-cover" }}
 {{- $fill := .fill }}
 <!-- aspect ratio 5:6 -->
 {{- $resized := .resized | default "213x256 webp" }}
@@ -9,8 +9,8 @@
 
 {{- if $fill }}
 {{- $resized := $imageResource.Fill $resized }}
-<img class="{{ $class }}" data-src="{{ $resized.RelPermalink }} lazyload" alt="{{ $alt }}" />
+<img class="{{ $class }}" data-src="{{ $resized.RelPermalink }} blur-up lazyload" alt="{{ $alt }}" />
 {{- else }}
 {{- $resized := $imageResource.Resize $resized }}
-<img class="{{ $class }}" data-src="{{ $resized.RelPermalink }} lazyload" alt="{{ $alt }}" />
+<img class="{{ $class }}" data-src="{{ $resized.RelPermalink }} blur-up lazyload" alt="{{ $alt }}" />
 {{- end }}
