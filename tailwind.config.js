@@ -401,7 +401,7 @@ module.exports = {
 					content: "'.'",
 				},
                 '.comma-content': {
-					content: "'.'",
+					content: "','",
 				},
 				'.bg-mask': {
 					content: "''",
