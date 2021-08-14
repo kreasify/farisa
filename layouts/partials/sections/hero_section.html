@@ -34,7 +34,7 @@
 {{- end }}
 
 <div class="banner__image relative overflow-hidden transition-all duration-500 ease-ease" {{with $style}}style="{{ . | safeCSS}}"{{end}}>
-    <div class="relative aspect-w-21 aspect-h-4">
+    <div class="relative aspect-w-21 aspect-h-3">
         {{ with $bg.image }}
         {{ $include_dict := dict "image" . "Site" $site "resized" "1536x292 webp" "fill" true }}
         {{ partial "functions/get_image.html" $include_dict }}
