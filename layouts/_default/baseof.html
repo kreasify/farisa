@@ -413,13 +413,6 @@ function Storage() {
   <script>
     document.addEventListener('alpine:init', () => {
         Alpine.data('ads', () => ({
-            open: false,
-            toggle() {
-                this.open = ! this.open
-            },
-            atTop: true,
-            showSearch: false,
-            sideNav: false,
             display_drop_menu() {
                 const drop_menu = event.target.parentElement.getElementsByClassName("nav__submenu-wrapper")[0];
                 const drop_menus = document.getElementsByClassName("nav__submenu-wrapper");
