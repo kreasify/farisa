@@ -6,7 +6,7 @@
     {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site }}
     {{ partial "functions/image_3_2.html" $include_dict }}
         <div class="responsive aspect-w-3 aspect-h-3">
-        {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "resized" "381x254 webp" "fill" true }}
+        {{- $include_dict := dict "image" .Params.thumbnail "alt_text" $post.Title "Site" .Site "resized" "381x254 webp" "fill" true }}
         {{ partial "functions/get_image.html" $include_dict }}
         </div>
     </a>
