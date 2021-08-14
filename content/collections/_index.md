@@ -8,7 +8,7 @@ sections:
     has_background: true
     design:
       container: false
-      aspect_ratio: '21:2'
+      aspect_ratio: '21:9'
       background:
         color: gray
         gradient_start: ''
