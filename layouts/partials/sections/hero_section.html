@@ -1,19 +1,8 @@
 {{- $site := .Site }}
 {{- $section := .section }}
-{{- $column := $section.design.column | default 2 }}
 
-{{- $col_span := "" }}
-{{- if eq $column 1 }}
-{{- $col_span = "col-span-12" }}
-{{- else if eq $column 2 }}
-{{- $col_span = "col-span-12 lg:col-span-6" }}
-{{- else if eq $column 3 }}
-{{- $col_span = "colspan-12 lg:col-span-4" }}
-{{- else if eq $column 4 }}
-{{- $col_span = "col-span-6 lg:col-span-3" }}
-{{- else }}
-{{- $col_span = "col-span-6 lg:col-span-3" }}
-{{- end }}
+
+
 {{- with $section.images }}
 
 <div class="banner__image relative overflow-hidden transition-all duration-500 ease-ease before:absolute before:empty-content before:bg-white before:bg-opacity-30 before:bottom-0 before:top-0 before:left-1/2 before:right-1/2 before:opacity-100 before:z-20 after:absolute after:empty-content after:bg-white after:bg-opacity-30 after:bottom-1/2 after:top-1/2 after:left-0 after:right-0 after:opacity-100" {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
