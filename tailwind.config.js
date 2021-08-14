@@ -197,7 +197,7 @@ module.exports = {
 			transitionDelay: {
 				'10000': '10000ms'
 			},
-                scale: {
+            scale: {
                 '0': '0',
                 '25': '.25',
 				'200': '2',
