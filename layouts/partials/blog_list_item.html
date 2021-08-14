@@ -3,7 +3,7 @@
     class="feed-item col-span-12 lg:col-span-4 transition duration-500 ease-in-out hover:transform hover:-translate-y-1 rounded-sm shadow-sm">
     {{- if .Params.thumbnail }}
     <a class="feed-item__link" href="{{ .RelPermalink }}">
-        <div class="responsive aspect-w-3 aspect-h-3">
+        <div class="responsive aspect-w-3 aspect-h-2">
         {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "resized" "381x254 webp" "fill" true }}
         {{ partial "functions/get_image.html" $include_dict }}
         </div>
