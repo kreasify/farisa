@@ -12,7 +12,7 @@
     {{- end }}
     <div class="feed-item__info py-4 px-3 lg:px-6">
         <div class="feed_item__published mb-2">
-            <time class="feed__published text-sm text-header-text-secondary">{{ with $site.Params.dateFormat }}{{ $post.Date.Format . }}{{ else }}{{ $post.Date.Format "02 January 2006" }}{{ end }}</time>
+            <time class="feed__published text-sm text-heading-secondary">{{ with $site.Params.dateFormat }}{{ $post.Date.Format . }}{{ else }}{{ $post.Date.Format "02 January 2006" }}{{ end }}</time>
         </div>
         <a class="feed-item__link" href="{{ $post.RelPermalink }}">
             <h3 class="feed-item__title text-base lg:text-lg text-header-text font-heading font-medium mb-1">{{ $post.Title }}</h3>
