@@ -419,10 +419,10 @@ function Storage() {
                     if (! response.ok) alert(`Something went wrong: ${response.status} - ${response.statusText}`)
                     data = await response.json()
                     person = {
-                    name: data.name,
-                    email: data.email,
-                    address: data.address.street,
-                    city: data.address.city
+                        name: data.name,
+                        email: data.email,
+                        address: data.address.street,
+                        city: data.address.city
                     }
                 })
             }
