@@ -14,6 +14,8 @@
 {{- $resized = $imageResource.Resize $resized }}
 {{- end }}
 
+<img class="{{ $class }} blur-up lazyload" data-src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
+
 {{- if $fill }}
 {{- $resized := $imageResource.Fill $resized }}
 <img class="{{ $class }} blur-up lazyload" data-src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
