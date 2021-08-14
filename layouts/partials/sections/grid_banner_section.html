@@ -8,7 +8,7 @@
         <a class="banner_link" href="{{ .url }}">
             {{- if or (eq $index 0) (eq $index 2) (eq $index 4) }}
             <div class="relative aspect-w-6 aspect-h-7">
-                {{ $include_dict_6_7 := dict "image" .image "alt_text" .alt_text "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover transition duration-500 ease-ease group-hover:transform group-hover:scale-25" "resized" "390x455 webp" "fill" true }}
+                {{ $include_dict_6_7 := dict "image" .image "alt_text" .alt_text "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover transition duration-500 ease-ease group-hover:transform group-hover:scale-105" "resized" "390x455 webp" "fill" true }}
                 {{ partial "functions/get_image.html" $include_dict_6_7 }}
                 <div class="absolute w-full h-full left-0 top-0 flex items-end z-30">
                     <header class="banner__header lg:w-1/2 relative px-3 lg:px-6 py-8 after:empty-content after:absolute after:w-12 after:h-2px after:bg-primary after:transition after:duration-500 after:ease-out">
