@@ -13,10 +13,6 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
     {{ partial "site_footer.html" . }}
   </div>
   <!-- {{ partial "site_js" . }} -->
-  <!-- {{ if eq .RelPermalink "/checkout/" }}
-  <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@7.2.0/dist/js/autoComplete.min.js"></script>
-  {{ end }} -->
-
   
   {{- range $section := .Params.sections }}
   {{ with $section.slides }}
