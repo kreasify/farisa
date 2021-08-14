@@ -71,7 +71,8 @@ document.addEventListener('alpine:init', () => {
                 })
                 .catch(error => {
                     console.log(error);
-                });
+                }
+            );
         }
     }))
 })
