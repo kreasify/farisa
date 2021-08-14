@@ -13,15 +13,15 @@
 {{- $resized2xl := $imageResource.Fill "1536x658 webp" }}
 <div class="image__wrapper relative aspect-w-4 aspect-h-3 lg:aspect-w-16 lg:aspect-h-9 xl:aspect-w-21 xl:aspect-h-9">
     <picture>
-        <source media="(max-width: 640px)" srcset="{{ $resizedxs.RelPermalink }} 1x,
+        <source media="(min-width: 640px)" srcset="{{ $resizedxs.RelPermalink }} 1x,
             {{- $resizedsm.RelPermalink }} 2x">
-        <source media="(max-width: 768px)" srcset="{{ $resizedsm.RelPermalink }} 1x,
+        <source media="(min-width: 768px)" srcset="{{ $resizedsm.RelPermalink }} 1x,
             {{- $resizedmd.RelPermalink }} 2x">
-        <source media="(max-width: 1024px)" srcset="{{ $resizedmd.RelPermalink }} 1x,
+        <source media="(min-width: 1024px)" srcset="{{ $resizedmd.RelPermalink }} 1x,
             {{- $resizedlg.RelPermalink }} 2x">
-        <source media="(max-width: 1280px)" srcset="{{ $resizedlg.RelPermalink }} 1x,
+        <source media="(min-width: 1280px)" srcset="{{ $resizedlg.RelPermalink }} 1x,
             {{- $resizedxl.RelPermalink }} 2x">
-        <source media="max-width: 1536px)" srcset="{{ $resizedxl.RelPermalink }} 1x">
+        <source media="min-width: 1536px)" srcset="{{ $resizedxl.RelPermalink }} 1x">
         <img class="image absolute w-full h-full object-cover blur-up lazyload" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}" />
     </picture>
 </div>
