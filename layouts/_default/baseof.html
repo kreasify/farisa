@@ -414,43 +414,7 @@ function Storage() {
     document.addEventListener('alpine:init', () => {
         Alpine.data('ads', () => ({
             search() {
-                const url = "https://jsonplaceholder.typicode.com/users";
-                fetch(url)
-                    .then(response => response.json())
-                    .then(data => {
-                        const allResults = data.items
-                        const itemById = allResults.reduce((byId, item) => {
-                            byId[item.id] = item
-                            return byId
-                        }, {})
-                        let miniSearch = new MiniSearch({
-                            fields: ['title'],
-                            storeFields: ['title', 'image', 'price'],
-                            processTerm: (term, _fieldName) => (term.length <= 1) ? null : term.toLowerCase()
-                        })
-
-                        miniSearch.addAll(allResults)
-                        this.searchById = itemById
-
-                        let results = miniSearch.search(this.query, {
-                            combineWith: 'AND',
-                            prefix: true
-                        }).map(({
-                            id
-                        }) => itemById[id])
-
-                        this.searchResults = results
-
-                        console.log(results)
-
-                        return this.searchResults.filter((item) => {
-                            return item.title.toLowerCase()
-                        });
-
-                    })
-                    .catch(error => {
-                        console.log(error);
-                    });
+                
             }
         }))
     })
