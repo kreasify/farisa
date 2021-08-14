@@ -44,7 +44,7 @@
                 <span class="text-gray-600">Collection{{ if gt (len .Params.collections ) 1 }}s{{ end }}</span>
             </label>: {{ range (.GetTerms "collections") }}
             <a class="inline-block text-gray-700 capitalize mr-1 hover:text-primary ml-1"
-                href="{{ .RelPermalink }}">{{ .LinkTitle }}<span class="last:hidden">,</span></a>{{ end }}
+                href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
         </div>
         {{- end }}        
         <div class="flex w-5px items-center ml-6 mr-3">
