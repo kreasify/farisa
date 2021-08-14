@@ -47,7 +47,7 @@
                 {{- .subtitle | safeHTML }}
             </h4>
             {{- end }}
-            {{- with .title }}
+            {{- with $section.title }}
             <h3 class="text-primary text-bold lg:text-bold text-lg lg:text-4xl leading-tight lg:leading-tight mb-2 lg:mb-4">
                 {{- . | safeHTML }}
             </h3>
