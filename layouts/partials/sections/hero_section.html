@@ -28,6 +28,8 @@
 {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken $aspect_ratio }}
 {{- end }}
 
+{{- end }}
+
 {{- with $section.design.spacing.padding }}
 {{- $style_padding := printf "padding: %s;" (delimit . " ") }}
 {{- $style = print $style $style_padding }}
