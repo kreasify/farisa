@@ -123,7 +123,7 @@ sections:
       column: 2
       style: ''
   - type: blog_feed_section
-    title: What's New
+    title: artikel Terbaru
     show_recent: false
     page_type: blog
     count: 3
