@@ -16,6 +16,8 @@
 {{- if $bg.image_darken }}
 {{- $darken = printf "linear-gradient(rgba(0, 0, 0, %s), rgba(0, 0, 0, %s))," (string $bg.image_darken) (string $bg.image_darken) }}
 {{- end }}
+
+
 {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken (printf "img/%s" $bg.image | absURL) }}
 {{- end }}
 
