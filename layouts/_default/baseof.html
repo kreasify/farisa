@@ -1,7 +1,7 @@
 {{- $site := .Site }}
 <!doctype html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
-{{ partial "site_head_schema.html" . }}
+{{ partial "site_head.html" . }}
 
 <body x-data="{ darkMode: localStorage.getItem('dark') === 'true'} "
 x-init="$watch('darkMode', val => localStorage.setItem('dark', val))"
