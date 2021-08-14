@@ -33,9 +33,6 @@
 {{- $style = print $style $style_padding }}
 {{- end }}
 
-
-
-
 <div class="banner__image relative overflow-hidden transition-all duration-500 ease-ease" {{with $style}}style="{{ . | safeCSS}}"{{end}}>
     {{- with $section.images }}
     <div class="relative aspect-w-4 aspect-h-3">
