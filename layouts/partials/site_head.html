@@ -10,6 +10,7 @@
 {{- $splide := resources.Get "js/splide@2.4.20.min.js" }}
 {{- $alpine := resources.Get "js/alpine@3.2.3.min.js" }}
 {{- $autocomplete := resources.Get "js/autocomplete@10.2.6.min.js" }}
+{{- $ads := resources.Get "js/autocomplete@10.2.6.min.js" }}
 
 {{- if eq .RelPermalink "/checkout/" }}
 {{- $js := slice $lazysizes $minisearch $autocomplete $alpine | resources.Concat "js/main.js" }}
