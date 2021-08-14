@@ -1,26 +1,47 @@
-{{ $site := .Site }}
-{{ $section := .section }}
-<div class="{{ if $section.cover }}relative {{ end }}">
-  {{ if $section.cover }}
-  <div class="relative aspect-w-21 aspect-h-9">
-    {{ $include_dict := dict "image" $section.cover "alt_text" $section.title "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover" }}
-    {{ partial "functions/get_image.html" $include_dict }}
-  </div>
-  {{ end }}
-  <div class="section__body flex flex-col items-center justify-center {{ if $section.cover }}absolute w-full h-full left-0 top-0 z-30{{end}}">
-    {{ if $section.title }}
-    <h1 class="section__title capitalize mb-3">{{ $section.title | humanize }}</h1>
-    {{ end }}
-    {{ if $section.subtitle }}
-    <div class="section__copy">
-      <h4 class="mb-4">{{ $section.subtitle }}</h4>
+{{- $site := .Site }}
+{{- $section := .section }}
+{{- $column := $section.design.column | default 2 }}
+
+{{- $col_span := "" }}
+{{- if eq $column 1 }}
+{{- $col_span = "col-span-12" }}
+{{- else if eq $column 2 }}
+{{- $col_span = "col-span-12 lg:col-span-6" }}
+{{- else if eq $column 3 }}
+{{- $col_span = "colspan-12 lg:col-span-4" }}
+{{- else if eq $column 4 }}
+{{- $col_span = "col-span-6 lg:col-span-3" }}
+{{- else }}
+{{- $col_span = "col-span-6 lg:col-span-3" }}
+{{- end }}
+{{- with $section.images }}
+<div class="grid grid-cols-12">
+    {{- range $index, $el := . }}
+    <div class="{{ $col_span }} banner__image relative overflow-hidden transition-all duration-500 ease-ease before:absolute before:empty-content before:bg-white before:bg-opacity-30 before:bottom-0 before:top-0 before:left-1/2 before:right-1/2 before:opacity-100 before:z-20 after:absolute after:empty-content after:bg-white after:bg-opacity-30 after:bottom-1/2 after:top-1/2 after:left-0 after:right-0 after:opacity-100" {{ if .background_color }}style="background-color: {{ .background_color | safeHTML }}" {{ end }}>
+        <a class="banner_link" href="{{ if .url }}{{ .url }}{{ end }}">
+            <div class="relative aspect-w-4 aspect-h-3">
+            {{ $include_dict := dict "image" .image "alt_text" .alt_text "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-md" "resized" "674x506 webp" "fill" true }}
+            {{ partial "functions/get_image.html" $include_dict }}
+            </div>
+            <div class="absolute w-full h-full top-0 left-0 flex flex-col justify-center">
+                <header class="w-80pr mx-auto">
+                    {{- if .subtitle }}
+                    <h4 class="text-secondary text-thin lg:text-thin text-base lg:text-3xl mb-2 lg:mb-3">
+                        {{- .subtitle | safeHTML }}
+                    </h4>
+                    {{- end }}
+                    {{- if .title }}
+                    <h3 class="text-primary text-bold lg:text-bold text-lg lg:text-4xl leading-tight lg:leading-tight mb-2 lg:mb-4">
+                        {{- .title | safeHTML }}
+                    </h3>
+                    {{- end }}
+                    {{- if .sale_price }}
+                    <p class="mb-2">{{ if .reg_price }}<del class="text-secondary font-semibold lg:font-semibold mr-2">{{ .reg_price | safeHTML }}</del>{{ end }}<span class="text-primary text-lg lg:text-3xl">{{ .sale_price | safeHTML }}</span></p>
+                    {{- end }}
+                </header>
+            </div>
+        </a>
     </div>
-    {{ end }}
-    {{ if $section.actions }}
-    <div class="section__actions btn-group">
-      {{ $include_dict := dict "actions" $section.actions }}
-      {{ partial "section_actions.html" $include_dict }}
-    </div>
-    {{ end }}
-  </div>
+    {{- end }}
 </div>
+{{- end }}
