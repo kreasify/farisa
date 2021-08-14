@@ -6,6 +6,7 @@ document.addEventListener('alpine:init', () => {
 
     Alpine.store('shop', {
         // baseURL: {{ .Site.BaseURL }},
+        baseURL: "https://hijacket.site",
         items: {
         "title": {{ .Title }},{{ if .Params.images }}{{range first 1 .Params.images }}{{- $image := .image }}{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}{{- $resized := $imageResource.Fill "70x84" }}
         "thumbnail": {{ $resized.Permalink }},
