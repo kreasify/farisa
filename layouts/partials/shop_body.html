@@ -41,7 +41,7 @@
         {{- if .Param.collections }}
         <div class="shop__color flex items-center">
             <span class="text-header-text-primary">Collection:</span>
-            {{- range (.GetTerms "collections") }}
+            {{- range (.GetTerms "color") }}
             <a class="inline-block text-header-text-secondary capitalize hover:text-primary ml-1"
             href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
             {{- end }}
