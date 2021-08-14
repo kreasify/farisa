@@ -36,6 +36,8 @@
 {{- else if eq $section.design.aspect_ratio "21:9" }}
 {{- $aspect_ratio := $resize_21_9.RelPermalink }}
 {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken $aspect_ratio }}
+{{- $aspect_ratio := $resize_21_9.RelPermalink }}
+{{- $style = printf "%sbackground-image: %s url('%s');" $style $darken $aspect_ratio }}
 {{- end }}
 
 {{- end }}
