@@ -2,7 +2,7 @@
 {{- $section := .section }}
 {{- $bg := $section.design.background }}
 
-<div class="banner__image relative overflow-hidden transition-all duration-500 ease-ease" {{with $style}}style="{{ . | safeCSS}}"{{end}}>
+<div class="banner__image relative overflow-hidden transition-all duration-500 ease-ease">
     <div class="relative aspect-w-21 aspect-h-2">
         {{ with $bg.image }}
         {{ $include_dict := dict "image" . "Site" $site "resized" "1536x146 webp" "fill" true }}
