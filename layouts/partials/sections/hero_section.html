@@ -2,6 +2,8 @@
 {{- $section := .section }}
 {{- $bg := $section.design.background }}
 {{- $style := "" }}
+{{- $aspect_ratio := "" }}
+{{- $aspect_ratio_class := "" }}
 
 {{- if $bg.color }}
 {{- $style = printf "background-color: %s;" ($bg.color | default "transparent") }}
