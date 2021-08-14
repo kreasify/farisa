@@ -414,7 +414,7 @@ function Storage() {
     document.addEventListener('alpine:init', () => {
         Alpine.data('ads', () => ({
             search() {
-                const url = `/feed/index.json`;
+                const url = "https://jsonplaceholder.typicode.com/users";
                 fetch(url)
                     .then(response => response.json())
                     .then(data => {
