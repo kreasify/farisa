@@ -12,7 +12,7 @@
   {{- $minisearch := resources.Get "js/minisearch@3.0.4.min.js" }}
   {{- $splide := resources.Get "js/splide.min.js" }}
   {{- $alpine := resources.Get "js/alpine.min.js" }}
-  {{- $autocomplete := resources.Get "js/autoComplete.min.js" }}
+  {{- $autocomplete := resources.Get "js/autocomplete@10.2.6.min" }}
 
   {{- if eq .RelPermalink "/checkout/" }}
   {{- $js := slice $lazysizes $minisearch $autocomplete $alpine | resources.Concat "js/main.js" }}
