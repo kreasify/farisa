@@ -24,7 +24,7 @@
 {{- $resize_21_9 := $imageResource.Fill "1536x658 webp" }}
 
 {{- $aspect_ratio := "" }}
-{{- if eq $section.design.aspect_ratio }}
+{{- if eq $section.design.aspect_ratio "21:2" }}
 {{- $aspect_ratio := $resize_21_2.RelPermalink }}
 {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken $aspect_ratio }}
 {{- end }}
