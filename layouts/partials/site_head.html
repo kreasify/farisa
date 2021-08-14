@@ -23,6 +23,7 @@
 <script defer src="{{ $js.RelPermalink }}"></script>
 {{- end }} -->
 
+{{- $js := ""}}
 {{- if eq .RelPermalink "/checkout/" }}
 {{- $js := slice $lazysizes $minisearch $autocomplete $alpine $checkout | resources.Concat "js/main.js" }}
 <script defer src="{{ $js.RelPermalink }}"></script>
