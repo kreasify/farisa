@@ -7,7 +7,7 @@
         {{- $resized := $imageResource.Fill "576x692 q100 Top webp" }}
         <div class="shop__slider-item relative aspect-w-5 aspect-h-6"
             :class="{'selected': activeSlide === {{ $index }} }">
-            <img class="shop__image absolute w-full h-full left-0 top-0 object-cover transition duration-500 ease-ease transform group-hover:scale-110 group-hover:origin-center group-hover:cursor-pointer blur-up lazyload"
+            <img class="shop__image absolute w-full h-full left-0 top-0 object-cover transition duration-500 ease-ease transform group-hover:scale-110 group-hover:origin-center group-hover:cursor-pointer"
                 src="{{ $resized.RelPermalink }}">
         </div>
         {{- end }}
