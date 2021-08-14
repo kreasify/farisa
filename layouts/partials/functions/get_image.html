@@ -3,7 +3,7 @@
 {{- $alt := .alt_text | default "alt text" }}
 {{- $class := .class | default "absolute w-full h-full left-0 top-0 object-cover blur-up lazyload" }}
 {{- $fill := .fill }}
-{{- $lazy}}
+{{- $lazyload := }}
 <!-- aspect ratio 5:6 -->
 {{- $resized := .resized | default "213x256 webp" }}
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
