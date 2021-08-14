@@ -38,7 +38,7 @@
         </div>
     </div>
     <div class="flex flex-wrap items-center border-b border-solid border-gray-200 pb-4 mb-12">
-        {{ if .Params.collections }}
+        {{- if .Params.collections }}
         <div class="shop__color flex items-center">
             <label class="w-16 inline-block">
                 <span class="text-gray-600">Collection{{ if gt (len .Params.collections ) 1 }}s{{ end }}</span>
@@ -46,7 +46,7 @@
             <a class="inline-block text-gray-700 capitalize hover:text-primary ml-1"
                 href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
         </div>
-        {{ end }}        
+        {{- end }}        
         <div class="flex w-5px items-center ml-6 mr-3">
             <span class="w-5px h-5px bg-gray-500 rounded-md"></span>
         </div>
