@@ -13,10 +13,6 @@
 {{- $resized2xl := $imageResource.Fill "1536x658 webp" }}
 <div class="image__wrapper relative aspect-w-4 aspect-h-3 lg:aspect-w-16 lg:aspect-h-9 xl:aspect-w-21 xl:aspect-h-9">
     <picture>
-        <source media="min-width: 1536px)" srcset="{{ $resized2xl.RelPermalink }}">
-
-
-
         <source media="(max-width: 640px)" srcset="{{ $resizedxs.RelPermalink }} 320w,
             {{- $resizedsm.RelPermalink }} 500w">
         <source media="(max-width: 768px)" srcset="{{ $resizedsm.RelPermalink }} 640w,
@@ -25,6 +21,7 @@
             {{- $resizedlg.RelPermalink }} 900w">
         <source media="(max-width: 1280px)" srcset="{{ $resizedlg.RelPermalink }} 1025w,
             {{- $resizedxl.RelPermalink }} 1200w">
+            
         <img class="image absolute w-full h-full object-cover blur-up lazyload" alt="{{ $alt }}" src="{{ $resizedmd.RelPermalink }}" />
     </picture>
 </div>
