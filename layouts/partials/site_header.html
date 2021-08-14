@@ -106,7 +106,7 @@
                     {{ partial "nav_search" . }}
                     </div>
                     <div class="nav__dark-light flex-none w-8 h-8">
-                        <button class="cursor-pointer" @click="darkMode = !darkMode">
+                        <button class="outline-none cursor-pointer" @click="darkMode = !darkMode">
                             <template x-if="!darkMode">
                             <span class="nav__cart-info w-8 h-8 flex items-center justify-center {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-header-text{{ end }} hover:text-accent hover:border-primary">
                             {{ partial "svg/icon-moon.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
