@@ -10,7 +10,8 @@
 
 {{- if $fill }}
 {{- $resized = $imageResource.Fill $resized }}
-
+{{- else }}
+{{- $resized := $imageResource.Resize $resized }}
 {{- end }}
 
 {{- if $fill }}
