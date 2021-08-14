@@ -42,7 +42,7 @@
                 {{- if $section.title }}
                 <h2 class="text-primary font-semibold text-base lg:text-xl uppercase leading-none mb-2">{{ .title | safeHTML }}</h2>
                 {{- end }}
-                {{- if .subtitle }}
+                {{- if $section.subtitle }}
                 <h4 class="text-secondary text-sm font-medium font-body leading-none mb-3">{{ .subtitle | safeHTML }}</h4>
                 {{- end }}
             </header>
