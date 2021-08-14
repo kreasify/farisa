@@ -414,7 +414,23 @@ function Storage() {
     document.addEventListener('alpine:init', () => {
         Alpine.data('ads', () => ({
             search() {
-                
+                async () => {
+							try {
+								// Loading placeholder text
+								this.$refs.autoComplete.setAttribute("placeholder", "Loading...");
+								// Fetch External Data Source
+								const source = await fetch(
+									"/api/destination.json"
+								);
+								const data = await source.json();
+								// Post Loading placeholder text
+								this.$refs.autoComplete.setAttribute("placeholder", autoCompleteJS.placeHolder);
+								// Returns Fetched data
+								return data;
+							} catch (error) {
+								return error;
+							}
+						},
             }
         }))
     })
