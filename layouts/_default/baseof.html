@@ -12,10 +12,10 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
     {{ partial "site_footer.html" . }}
 
 <div x-data="ads">
-    <template x-for="color in users">
-        <li x-text="color"></li>
-    </template>
-    </siv>
+<template x-for="color in users">
+<li x-text="color"></li>
+</template>
+</siv>
 
   </div>
   <!-- {{ partial "site_js" . }} -->
