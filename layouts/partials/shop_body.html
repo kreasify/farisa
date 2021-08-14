@@ -43,7 +43,7 @@
             <label class="w-16 inline-block">
                 <span class="text-gray-600">Collection{{ if gt (len .Params.collections ) 1 }}s{{ end }}</span>
             </label>: {{ range (.GetTerms "collections") }}
-            <a class="inline-block text-gray-700 capitalize hover:text-primary ml-1"
+            <a class="inline-block text-gray-700 capitalize hover:text-primary ml-1 relative "
                 href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
         </div>
         {{- end }}        
