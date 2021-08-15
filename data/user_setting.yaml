@@ -1,0 +1,32 @@
+user:
+    name: Akhlis Mujtahid
+    username: Akhlis
+    bio: 'Seorang blogger dan web developer khususnya sebagai Ghost dan WordPress theme author di Themeforest yang sangat senang berbagi ilmu dan pengalamannya kepada anda melalui blog sederhana ini.'
+    email: hijacket.cs@gmail.com
+    whatsapp: '6282324089982'
+    twitter: Akhlis_Mujtahid
+    bbm: 'QILAFA'
+    line: 'hijacket.net'
+    avatar: /images/akhlis.jpg
+    url: /tentang-kami
+    website: 'https://hijacket.net'
+rekening:
+  - bank: BRI
+    name: Akhlis Mujtahid
+    nomor: 310501009918530
+  - bank: Mandiri
+    name: Akhlis Mujtahid
+    nomor: 1380012765231
+social:
+  - icon: facebook
+    name: facebook
+    url: 'https://facebook.com/qilafacom'
+  - icon: twitter
+    name: twitter
+    url: 'https://twitter.com/namaanda'
+  - icon: instagram
+    name: instagram
+    url: 'https://instagram.com/hijacket_net'
+  - icon: telegram
+    name: telegram
+    url: 'https://telegram.me/qilafa'
