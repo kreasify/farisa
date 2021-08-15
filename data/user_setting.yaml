@@ -1,14 +1,8 @@
 user:
-    name: Akhlis Mujtahid
-    username: Akhlis
-    bio: 'Seorang blogger dan web developer khususnya sebagai Ghost dan WordPress theme author di Themeforest yang sangat senang berbagi ilmu dan pengalamannya kepada anda melalui blog sederhana ini.'
+    name: Anisa
     email: hijacket.cs@gmail.com
-    whatsapp: '6282324089982'
-    twitter: Akhlis_Mujtahid
-    line: 'hijacket.net'
-    avatar: /images/akhlis.jpg
-    url: /tentang-kami
-    website: 'https://hijacket.net'
+    whatsapp: '6285156514890'
+    shop_name: Hijacket.net
 rekening:
   - bank: BRI
     name: Akhlis Mujtahid
