@@ -10,16 +10,32 @@ rekening:
   - bank: Mandiri
     name: Akhlis Mujtahid
     nomor: 1380012765231
-social:
-  - icon: facebook
-    name: facebook
-    url: 'https://facebook.com/qilafacom'
-  - icon: twitter
-    name: twitter
-    url: 'https://twitter.com/namaanda'
-  - icon: instagram
-    name: instagram
-    url: 'https://instagram.com/hijacket_net'
-  - icon: telegram
-    name: telegram
-    url: 'https://telegram.me/qilafa'
+    social_links:
+      - type: social
+        template: social
+        label: Facebook
+        icon: facebook
+        url: 'https://facebook.com/hijacket.net'
+        style: link
+        new_window: true
+      - type: social
+        template: social
+        label: Twitter
+        icon: twitter
+        url: 'https://twitter.com/hijacket'
+        style: link
+        new_window: true
+      - type: social
+        template: social
+        label: Instagram
+        icon: instagram
+        url: 'https://www.instagram.com/hijacket_net'
+        style: link
+        new_window: true
+      - type: social
+        template: social
+        label: Telegram
+        icon: telegram
+        url: 'https://t.me/hijacket.net'
+        style: link
+        new_window: true
