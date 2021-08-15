@@ -19,7 +19,6 @@ outputs:
   section:
     - HTML
 params:
-  palette: pinkgrey
   colors:
     header_text: ''
   description: Jaket Muslimah Khusus Hijaber
