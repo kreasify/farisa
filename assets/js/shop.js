@@ -8,24 +8,7 @@ document.addEventListener('alpine:init', () => {
         // baseURL: {{ .Site.BaseURL }},
         baseURL: "https://hijacket.site",
         items: {
-        "title": {{ .Title }},{{ if .Params.images }}{{range first 1 .Params.images }}{{- $image := .image }}{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}{{- $resized := $imageResource.Fill "70x84" }}
-        "thumbnail": {{ $resized.Permalink }},
-        "image": {{ $resized.RelPermalink }},{{ end }}{{ end }}{{ if .Params.variants }}
-        "variants": [ {{range $index, $el := .Params.variants }}{{ if gt $index 0 }}, {{ end }}
-            {
-                "id": {{ $index }},
-                "name": {{ .name | urlize | upper }},{{ if .size }}
-                "size": {{ .size }},{{ end }}{{ if .sku }}
-                "sku": {{ .sku }},{{ end }}{{ if .price }}
-                "price": {{ .price }},{{ end }}{{ if .discount }}
-                "discount": {{ .discount }},{{ end }}{{ if .weight }}
-                "weight": {{ .weight }},{{ end }}{{ if .quantity }}
-                "quantity": {{ .quantity }}{{ end }}
-            }{{ end }}
-        ],{{ end }}{{ if .Params.brand }}
-        "brand": {{ range (.GetTerms "brand") }}{{ .Title }}{{ end }},{{ end }}{{ if .Params.color }}
-        "color": {{ range (.GetTerms "color") }}{{ .Title | humanize }}{{ end }},{{ end }}
-        "slug": {{ .RelPermalink }}
+
     },
     activeVariant: 0,
     count: 1,
