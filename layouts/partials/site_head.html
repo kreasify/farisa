@@ -50,17 +50,3 @@
 {{- end }}
 <!-- {{ partial "site_head_schema.html" . }} -->
 </head>
-
-{{- if eq .Params.layout "advanced" }}
-{{- range $index, $section := .Params.sections }}
-{{- if $section.slides }}
-<p>advanced page with slider</p>
-{{- else }}
-{{- if eq $index 0 }}
-<p>advanced page non slider</p>
-{{- end }}
-{{- end }}
-{{- end }}
-{{- else }}
-<p>non advanced page</p>
-{{- end }}
