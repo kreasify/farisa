@@ -51,7 +51,7 @@
 <!-- {{ partial "site_head_schema.html" . }} -->
 </head>
 
-
+{{ $status := "" }}
 
 {{- if eq .Params.layout "advanced" }}
 {{- range $index, $section := .Params.sections }}
