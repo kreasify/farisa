@@ -1,6 +1,7 @@
 palette: pinkgrey
 colors:
   header_text: ''
+post:
 dateFormat: 2 January 2006
 share_button: true
 post_author: true
