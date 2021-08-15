@@ -15,7 +15,7 @@
 {{- $resized = $imageResource.Resize $resized }}
 {{- end }}
 
-{{- $url := urls.Parse $resized.Permalink}}
+{{- $url := urls.Parse $resized.Permalink }}
 
 {{- if $lazyload }}
 <img class="{{ $class }} blur-up lazyload" data-src="{{ if $.Site.Data.theme.is_statically }}https://cdn.statically.io/img/{{ $url.Host }}{{ urls.Parse $resized.Permalink }}{{ else }}{{ $resized.RelPermalink }}{{ end }}" alt="{{ $alt }}" />
