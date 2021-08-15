@@ -53,8 +53,7 @@
 
 {{- if eq .Params.layout "advanced" }}
 {{- range $section := .Params.sections }}
-<p>advanced page non slider</p>
-{{ with $section.slides }}
+{{ if $section.slides }}
 <p>advanced page with slider</p>
 {{- end }}
 {{- end }}
