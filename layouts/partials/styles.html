@@ -1,6 +1,6 @@
 {{/* styles */}}
 {{- $options := dict "inlineImports" true }}
-{{- $palette := print "css/colors/" .Site.Params.palette ".css" }}
+{{- $palette := print "css/colors/" $.Site.Data.theme.palette ".css" }}
 {{- $colors := resources.Get $palette }}
 {{- $color := $colors | resources.ExecuteAsTemplate "_colors.css" . }}
 {{- $styles := resources.Get "css/styles.css" }}
