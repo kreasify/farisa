@@ -21,4 +21,4 @@
 <img class="{{ $class }}" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
 {{- end }}
 
-<p>{{ }}{{ $url.Host }}{{ $resized.RelPermalink }}</p>
+<p>{{ $site.baseURL }}{{ $url.Host }}{{ $resized.RelPermalink }}</p>
