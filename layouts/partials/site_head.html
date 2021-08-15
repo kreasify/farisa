@@ -28,7 +28,7 @@
 {{- $js_min := $js | resources.Minify }}
 
 {{- if eq .RelPermalink "/checkout/" }}
-{{- $js = slice $lazysizes $minisearch $autocomplete $alpine $header $shop $checkout | resources.Concat "js/main.js" }}
+{{- $js = slice $lazysizes $minisearch $autocomplete $alpine $header $shop $checkout | resources.Concat "js/main-checkout.js" }}
 {{- $js_min = $js | resources.Minify }}
 {{- end }}
 
