@@ -56,4 +56,4 @@
     <!-- {{ partial "site_head_schema.html" . }} -->
 </head>
 {{ $url := urls.Parse "http://www.gohugo.io" }}
-<p>web: {{ $url }}</p>
+<p>web: {{ $url.Host }}</p>
