@@ -8,7 +8,6 @@ single_post:
   post_navigation: true
 sidebar:
   has_widget: true
-  recent_num: 8
   sections:
     - type: widget_recent_post
       recent_num: 8
