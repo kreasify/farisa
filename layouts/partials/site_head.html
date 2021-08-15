@@ -25,8 +25,23 @@
 <script defer src="{{ $js_min.RelPermalink }}"></script>
 {{- end }} -->
 
-{{- $js := slice $lazysizes $minisearch $splide $alpine $ads $header $shop | resources.Concat "js/main.js" }}
-{{- $js_min := $js | resources.Minify }}
+{{- $js := "" }}
+{{- if eq .Params.layout "advanced" }}
+{{- range $index, $section := .Params.sections }}
+{{- if $section.slides }}
+{{- $js = slice $lazysizes $minisearch $splide $alpine $ads $header $slider $shop | resources.Concat "js/main.js" }}
+{{- $js_min = $js | resources.Minify }}
+{{- else }}
+{{- if eq $index 0 }}
+{{- $js = slice $lazysizes $minisearch $splide $alpine $ads $header $shop | resources.Concat "js/main.js" }}
+{{- $js_min = $js | resources.Minify }}
+{{- end }}
+{{- end }}
+{{- end }}
+{{- else }}
+{{- $js = slice $lazysizes $minisearch $splide $alpine $ads $header $shop | resources.Concat "js/main.js" }}
+{{- $js_min = $js | resources.Minify }}
+{{- end }}
 
 {{- if eq .RelPermalink "/checkout/" }}
 {{- $js = slice $lazysizes $minisearch $autocomplete $alpine $header $shop $checkout | resources.Concat "js/main-checkout.js" }}
