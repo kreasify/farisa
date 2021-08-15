@@ -19,62 +19,62 @@ social_share:
   whatsapp: true
   telegram: true
   mail: true
-  footer:
-    type: footer
-    has_widget: true
-    sections:
-      - type: widget_menu
-        title: Informasi
-        links:
-          - label: Syarat dan Ketentuan
-            url: /syarat-dan-ketentuan
-          - label: Tentang Kami
-            url: /tentang-kami
-          - label: Kontak Kami
-            url: /kontak-kami
-          - label: About
-            url: /about
-          - label: Alamat
-            url: /alamat
-      - type: widget_menu
-        title: Bantuan
-        links:
-          - label: Cara Belanja
-            url: /cara-order
-          - label: Konfirmasi Pembayaran
-            url: /konfirmasi-pembayaran
-          - label: Panduan Ukuran
-            url: /panduan-ukuran
-          - label: Give Away
-            url: /give-away
-      - type: widget_contact
-        title: Kontak Kami
-        phone: 123456789
-        whatsapp: 6285156514890
-        email: hijacket.cs@gmail.com
-        address: 'Jl. Mahmud No. 109 Rahayu, Margaasih, Kab. Bandung. 40218'
-    has_social: true
-    social_links:
-      - label: Facebook
-        icon: facebook
-        url: 'https://facebook.com/hijacket.net'
-        style: link
-        new_window: true
-      - label: Twitter
-        icon: twitter
-        url: 'https://twitter.com/hijacket'
-        style: link
-        new_window: true
-      - label: Instagram
-        icon: instagram
-        url: 'https://www.instagram.com/hijacket_net'
-        style: link
-        new_window: true
-      - label: Telegram
-        icon: telegram
-        url: 'https://t.me/hijacket.net'
-        style: link
-        new_window: true
-    content: >-
-      &copy; Copyright 2020 <a href="/">Hijacket.net </a>| Official Partner Of
-      Hijacket Brand Indonesia.
+footer:
+  type: footer
+  has_widget: true
+  sections:
+    - type: widget_menu
+      title: Informasi
+      links:
+        - label: Syarat dan Ketentuan
+          url: /syarat-dan-ketentuan
+        - label: Tentang Kami
+          url: /tentang-kami
+        - label: Kontak Kami
+          url: /kontak-kami
+        - label: About
+          url: /about
+        - label: Alamat
+          url: /alamat
+    - type: widget_menu
+      title: Bantuan
+      links:
+        - label: Cara Belanja
+          url: /cara-order
+        - label: Konfirmasi Pembayaran
+          url: /konfirmasi-pembayaran
+        - label: Panduan Ukuran
+          url: /panduan-ukuran
+        - label: Give Away
+          url: /give-away
+    - type: widget_contact
+      title: Kontak Kami
+      phone: 123456789
+      whatsapp: 6285156514890
+      email: hijacket.cs@gmail.com
+      address: 'Jl. Mahmud No. 109 Rahayu, Margaasih, Kab. Bandung. 40218'
+  has_social: true
+  social_links:
+    - label: Facebook
+      icon: facebook
+      url: 'https://facebook.com/hijacket.net'
+      style: link
+      new_window: true
+    - label: Twitter
+      icon: twitter
+      url: 'https://twitter.com/hijacket'
+      style: link
+      new_window: true
+    - label: Instagram
+      icon: instagram
+      url: 'https://www.instagram.com/hijacket_net'
+      style: link
+      new_window: true
+    - label: Telegram
+      icon: telegram
+      url: 'https://t.me/hijacket.net'
+      style: link
+      new_window: true
+  content: >-
+    &copy; Copyright 2020 <a href="/">Hijacket.net </a>| Official Partner Of
+    Hijacket Brand Indonesia.
