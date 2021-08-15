@@ -56,7 +56,9 @@
 {{ if $section.slides }}
 <p>advanced page with slider</p>
 {{ else }}
+{{ if eq $index 0 }}
 <p>advanced page non slider</p>
+{{ end }}
 {{- end }}
 {{- end }}
 {{- else }}
