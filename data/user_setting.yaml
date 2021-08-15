@@ -18,7 +18,6 @@ social_links:
     style: link
     new_window: true
   - type: social
-    template: social
     label: Twitter
     icon: twitter
     url: 'https://twitter.com/hijacket'
