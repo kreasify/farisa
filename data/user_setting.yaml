@@ -10,6 +10,7 @@ rekening:
   - bank: Mandiri
     name: Akhlis Mujtahid
     nomor: 1380012765231
+has_social: true
 social_links:
   - type: social
     label: Facebook
