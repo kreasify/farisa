@@ -6,6 +6,7 @@ single_post:
   share_button: true
   post_author: true
   post_navigation: true
+
 social_share:
   facebook: true
   twitter: true
