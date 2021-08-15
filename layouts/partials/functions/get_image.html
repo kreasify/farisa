@@ -21,4 +21,4 @@
 {{- end }}
 
 {{ $url := urls.Parse "http://gohugo.io" }}
-<p>web: {{ $url.Host }} kuuu {{  }}</p>
+<p>web: {{ $url.Host }} kuuu {{ .Site.baseURL }}</p>
