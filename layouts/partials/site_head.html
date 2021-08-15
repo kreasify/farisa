@@ -56,24 +56,3 @@
 <!-- {{ partial "site_head_schema.html" . }} -->
 </head>
 
-{{ $status := "" }}
-
-{{- if eq .Params.layout "advanced" }}
-{{- range $index, $section := .Params.sections }}
-{{- if $section.slides }}
-{{ $status = "advanced page with slider" }}
-{{- else }}
-{{- if eq $index 0 }}
-{{ $status = "advanced page non slider" }}
-{{- end }}
-{{- end }}
-{{- end }}
-{{- else }}
-{{ $status = "non advanced page" }}
-{{- end }}
-
-{{- if eq .RelPermalink "/checkout/" }}
-{{ $status = "checkout page" }}
-{{ end }}
-
-<p>{{ $status }}</p>
