@@ -24,7 +24,6 @@ social_links:
     style: link
     new_window: true
   - type: social
-    template: social
     label: Instagram
     icon: instagram
     url: 'https://www.instagram.com/hijacket_net'
