@@ -3,7 +3,8 @@ colors:
   header_text: ''
 dateFormat: 2 January 2006
 share_button: true
-
+  post_author: true
+  post_navigation: true
 social_share:
   facebook: true
   twitter: true
