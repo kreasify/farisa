@@ -11,6 +11,7 @@ sidebar:
   recent_num: 8
   sections:
     - type: widget_recent_post
+      recent_num: 8
     - type: widget_categories
     - type: widget_tags
 social_share:
