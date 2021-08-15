@@ -20,3 +20,5 @@
 {{- else }}
 <img class="{{ $class }}" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
 {{- end }}
+
+<p>{{ $url.Host }}{{ $resized.RelPermalink }}</p>
