@@ -42,5 +42,7 @@
 
 {{- $ipage := "halaman" }}
 {{- if eq .RelPermalink "/checkout/" }}
-
+{{- $ipage := "halaman checkout" }}
 {{- end }}
+
+<p>{{ $ipage }}</p>
