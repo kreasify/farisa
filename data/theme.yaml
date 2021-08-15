@@ -1,5 +1,5 @@
 font-heading: Josefin Sans
-font-body: {{ .Site.Params.colors.font_body | default "Lato" }}, 'sans-serif';
+font-body: Lato
 palette: pinkgrey
 colors:
   body: #ffffff
