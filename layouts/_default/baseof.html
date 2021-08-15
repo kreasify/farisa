@@ -8,13 +8,11 @@ x-init="$watch('darkMode', val => localStorage.setItem('dark', val))"
 x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
     {{ partial "site_header.html" . }} 
 
-
 <!-- <div x-data="ads" class="list-none">
 <template x-for="color in users">
 <li x-text="color.name + color.email"></li>
 </template>
 </div> -->
-
 
     <div>  
     {{ block "content" . }}{{ end }}
