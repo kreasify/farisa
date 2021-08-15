@@ -33,7 +33,7 @@
     --accent-text-primary: #fafafa;
     --hint-text: #E5E7EB;
     --border-color: #D1D5DB;
-    --font-heading: {{ .Site.Params.colors.font_heading | default "Josefin Sans" }}, 'sans-serif';
+    --font-heading: {{ $.Site.Data.theme.font.font_heading | default "Josefin Sans" }}, 'sans-serif';
     --font-body: {{ .Site.Params.colors.font_body | default "Lato" }}, 'sans-serif';
   }
   
