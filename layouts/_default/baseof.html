@@ -20,7 +20,7 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
     </div>
   <!-- {{ partial "site_js" . }} -->
   
-  {{- range $section := .Params.sections }}
+  <!-- {{- range $section := .Params.sections }}
   {{ with $section.slides }}
   <script type="text/javascript">
       function slider() {
@@ -49,6 +49,6 @@ x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
       }
   </script>
   {{- end }}
-  {{- end }}
+  {{- end }} -->
 </body>
 </html>
