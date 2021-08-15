@@ -51,9 +51,10 @@
 <!-- {{ partial "site_head_schema.html" . }} -->
 </head>
 
-  {{- range $section := .Params.sections }}
-  {{ with $section.slides }}
+{{- if eq }}
+{{- range $section := .Params.sections }}
+{{ with $section.slides }}
 
 
-  {{- end }}
-  {{- end }}
+{{- end }}
+{{- end }}
