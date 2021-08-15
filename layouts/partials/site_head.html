@@ -21,7 +21,7 @@
 {{- else }}
 {{- $js := slice $lazysizes $minisearch $splide $autocomplete $alpine $ads $header $shop $checkout | resources.Concat "js/main.js" }}
 {{- $js_min := $js | resources.Minify }}
-<script defer src="{{ $js.RelPermalink }}"></script>
+<script defer src="{{ $js_min.RelPermalink }}"></script>
 {{- end }}
 
 <link rel="icon" type="image/png" href="{{(partial "functions/get_icon" 32).RelPermalink}}">
