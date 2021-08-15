@@ -19,7 +19,7 @@
                     ],{{ end }}{{ if .Params.brand }}
                     brand: {{ range (.GetTerms "brand") }}{{ .Title }}{{ end }},{{ end }}{{ if .Params.color }}
                     color: {{ range (.GetTerms "color") }}{{ .Title | humanize }}{{ end }},{{ end }}
-                    "slug": {{ .RelPermalink }} }'>
+                    slug: {{ .RelPermalink }} }'>
     <h1 class="shop__title text-xl lg:text-3xl text-header-text font-heading mb-2">
         <span class="shop__name">{{ .Title }}</span>
         {{- if gt $variantsCount 1 }}
