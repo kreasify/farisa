@@ -9,8 +9,8 @@
                         {
                             id: {{ $index | jsonify }},
                             name: {{ .name | urlize | upper | jsonify }},{{ if .size }}
-                            size: {{ .size }},{{ end }}{{ if .sku }}
-                            sku: {{ .sku }},{{ end }}{{ if .price }}
+                            size: {{ .size | jsonify }},{{ end }}{{ if .sku }}
+                            sku: {{ .sku | jsonify }},{{ end }}{{ if .price }}
                             price: {{ .price }},{{ end }}{{ if .discount }}
                             discount: {{ .discount }},{{ end }}{{ if .weight }}
                             weight: {{ .weight }},{{ end }}{{ if .quantity }}
