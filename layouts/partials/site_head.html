@@ -31,7 +31,7 @@
 {{- if eq .Params.layout "advanced" }}
     {{- range $index, $section := .Params.sections }}
         {{- if $section.slides }}
-            {{- $js = slice $lazysizes $minisearch $splide $alpine $ads $header $slider $shop | resources.Concat "js/main.js" }}
+            {{- $js = slice $lazysizes $minisearch $splide $alpine $ads $header $slider $shop | resources.Concat "js/main-slider.js" }}
             {{- $js_min = $js | resources.Minify }}
         {{- else }}
             {{- if eq $index 0 }}
