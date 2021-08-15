@@ -6,7 +6,7 @@ single_post:
   share_button: true
   post_author: true
   post_navigation: true
-  sidebar:
+sidebar:
   has_widget: true
   recent_num: 8
   sections:
