@@ -35,7 +35,7 @@
             {{- $js_min = $js | resources.Minify }}
         {{- else }}
             {{- if eq $index 0 }}
-            {{- $js = slice $lazysizes $minisearch $alpine $ads $header $shop | resources.Concat "js/main.js" }}
+            {{- $js = slice $lazysizes $minisearch $alpine $ads $header $shop | resources.Concat "js/main-nonslider.js" }}
             {{- $js_min = $js | resources.Minify }}
             {{- end }}
         {{- end }}
