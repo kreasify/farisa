@@ -14,11 +14,11 @@
                             price: {{ .price }},{{ end }}{{ if .discount }}
                             discount: {{ .discount }},{{ end }}{{ if .weight }}
                             weight: {{ .weight }},{{ end }}{{ if .quantity }}
-                            "quantity": {{ .quantity }}{{ end }}
+                            quantity: {{ .quantity }}{{ end }}
                         }{{ end }}
                     ],{{ end }}{{ if .Params.brand }}
-                    "brand": {{ range (.GetTerms "brand") }}{{ .Title }}{{ end }},{{ end }}{{ if .Params.color }}
-                    "color": {{ range (.GetTerms "color") }}{{ .Title | humanize }}{{ end }},{{ end }}
+                    brand: {{ range (.GetTerms "brand") }}{{ .Title }}{{ end }},{{ end }}{{ if .Params.color }}
+                    color: {{ range (.GetTerms "color") }}{{ .Title | humanize }}{{ end }},{{ end }}
                     "slug": {{ .RelPermalink }} }'>
     <h1 class="shop__title text-xl lg:text-3xl text-header-text font-heading mb-2">
         <span class="shop__name">{{ .Title }}</span>
