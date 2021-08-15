@@ -19,7 +19,7 @@
 {{- $js := slice $lazysizes $minisearch $autocomplete $alpine $checkout | resources.Concat "js/main.js" }}
 <script defer src="{{ $js.RelPermalink }}"></script>
 {{- else }}
-{{- $js := slice $lazysizes $minisearch $splide $autocomplete $alpine $ads $shop $checkout | resources.Concat "js/main.js" }}
+{{- $js := slice $lazysizes $minisearch $splide $autocomplete $alpine $ads $header $shop $checkout | resources.Concat "js/main.js" }}
 <script defer src="{{ $js.RelPermalink }}"></script>
 {{- end }}
 
