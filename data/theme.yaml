@@ -1,3 +1,9 @@
 palette: pinkgrey
 colors:
   header_text: ''
+  social_share:
+    facebook: true
+    twitter: true
+    whatsapp: true
+    telegram: true
+    mail: true
