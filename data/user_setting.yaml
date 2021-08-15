@@ -12,7 +12,6 @@ rekening:
     nomor: 1380012765231
 social_links:
   - type: social
-    template: social
     label: Facebook
     icon: facebook
     url: 'https://facebook.com/hijacket.net'
