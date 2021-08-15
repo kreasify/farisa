@@ -1,5 +1,5 @@
-    --font-heading: {{ .Site.Params.colors.font_heading | default "Josefin Sans" }}, 'sans-serif';
-    --font-body: {{ .Site.Params.colors.font_body | default "Lato" }}, 'sans-serif';
+--font-heading: {{ .Site.Params.colors.font_heading | default "Josefin Sans" }}, 'sans-serif';
+--font-body: {{ .Site.Params.colors.font_body | default "Lato" }}, 'sans-serif';
 palette: pinkgrey
 colors:
   body: #ffffff
