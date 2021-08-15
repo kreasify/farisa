@@ -1,6 +1,5 @@
 palette: pinkgrey
 colors:
-  header_text: ''
   body: #ffffff
   body_primary: #fafafa
   body_secondary: #f5f5f5
