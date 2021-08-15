@@ -19,3 +19,6 @@
 {{- else }}
 <img class="{{ $class }}" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
 {{- end }}
+
+{{ $url := urls.Parse "http://gohugo.io" }}
+<p>web: {{ $url.Host }} kuuu</p>
