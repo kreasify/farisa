@@ -15,12 +15,11 @@
 {{- $resized = $imageResource.Resize $resized }}
 {{- end }}
 
-{{- $url := urls.Parse $resized.Permalink }}
-
 {{- if $lazyload }}
-<img class="{{ $class }} blur-up lazyload" data-src="{{ if $.Site.Data.theme.is_statically }}https://cdn.statically.io/img/{{ $url.Host }}{{ else }}{{ $resized.RelPermalink }}{{ end }}" alt="{{ $alt }}" />
+<img class="{{ $class }} blur-up lazyload" data-src="{{ if $.Site.Data.theme.is_statically }}https://cdn.statically.io/img/{{ $url }}{{ $resized.RelPermalink }}{{ else }}{{ $resized.RelPermalink }}{{ end }}" alt="{{ $alt }}" />
 {{- else }}
 <img class="{{ $class }}" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
 {{- end }}
 
-<p>{{ $url.Host }}</p>
+
+<p>web: {{ $url.Host }} kuuu {{ .Site.BaseURL }}</p>
