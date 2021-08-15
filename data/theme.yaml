@@ -1,39 +1,39 @@
 palette: pinkgrey
 colors:
   header_text: ''
-    --body: #ffffff;
-    --body-primary: #fafafa;
-    --body-secondary: #f5f5f5;
-    --body-text: #000000;
-    --body-text-primary: #111827;
-    --body-text-secondary: #1F2937;
-    --heading: #111827;
-    --heading-primary: #374151;
-    --heading-secondary: #9CA3AF;
-    --header: #ffffff;
-    --header-primary: #fafafa;
-    --header-secondary: #f5f5f5;
-    --header-text: {{ .Site.Params.colors.header_text | default "#000000" }};
-    --header-text-primary: #111827;
-    --header-text-secondary: #F87171;
-    --footer: #000000;
-    --footer-primary: #111111;
-    --footer-secondary: #949494;
-    --footer-text: #ffffff;
-    --footer-text-primary: #fafafa;
-    --footer-text-secondary: #f5f5f5;
-    --primary: #111827;
-    --primary-hover: #F87171;
-    --secondary: #6B7280;
-    --primary-text: #fafafa;
-    --secondary-text: #fafafa;
-    --accent: #F87171;
-    --accent-primary: #FCA5A5;
-    --accent-secondary: #FEF2F2;
-    --accent-text: #fafafa;
-    --accent-text-primary: #fafafa;
-    --hint-text: #E5E7EB;
-    --border-color: #D1D5DB;
+  --body: #ffffff;
+  --body-primary: #fafafa;
+  --body-secondary: #f5f5f5;
+  --body-text: #000000;
+  --body-text-primary: #111827;
+  --body-text-secondary: #1F2937;
+  --heading: #111827;
+  --heading-primary: #374151;
+  --heading-secondary: #9CA3AF;
+  --header: #ffffff;
+  --header-primary: #fafafa;
+  --header-secondary: #f5f5f5;
+  --header-text: {{ .Site.Params.colors.header_text | default "#000000" }};
+  --header-text-primary: #111827;
+  --header-text-secondary: #F87171;
+  --footer: #000000;
+  --footer-primary: #111111;
+  --footer-secondary: #949494;
+  --footer-text: #ffffff;
+  --footer-text-primary: #fafafa;
+  --footer-text-secondary: #f5f5f5;
+  --primary: #111827;
+  --primary-hover: #F87171;
+  --secondary: #6B7280;
+  --primary-text: #fafafa;
+  --secondary-text: #fafafa;
+  --accent: #F87171;
+  --accent-primary: #FCA5A5;
+  --accent-secondary: #FEF2F2;
+  --accent-text: #fafafa;
+  --accent-text-primary: #fafafa;
+  --hint-text: #E5E7EB;
+  --border-color: #D1D5DB;
 single_post:
   dateFormat: 2 January 2006
   share_button: true
