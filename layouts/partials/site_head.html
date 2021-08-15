@@ -67,5 +67,6 @@
 {{ $status = "non advanced page" }}
 {{- end }}
 
+{{- if eq .RelPermalink "/checkout/" }}
 
 <p>{{ $status }}</p>
