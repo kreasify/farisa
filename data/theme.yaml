@@ -1,5 +1,5 @@
 fonts:
-  font-heading: Josefin Sans
+  font_heading: Josefin Sans
   font-body: Lato
 palette: pinkgrey
 colors:
