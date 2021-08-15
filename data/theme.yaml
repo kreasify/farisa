@@ -19,13 +19,13 @@ social_share:
   whatsapp: true
   telegram: true
   mail: true
-  header:
-    type: header
-    title: Starter
-    logo: images/logo-hijacket.png
-    has_nav: false
-    sticky_nav: true
-    has_navbar: true
+header:
+  type: header
+  title: Starter
+  logo: images/logo-hijacket.png
+  has_nav: false
+  sticky_nav: true
+  has_navbar: true
 footer:
   type: footer
   has_widget: true
