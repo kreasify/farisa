@@ -15,7 +15,7 @@
 {{- end }}
 
 {{- if $lazyload }}
-<img class="{{ $class }} blur-up lazyload" data-src="{{ $.Site.Data.theme.is_statically}}{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
+<img class="{{ $class }} blur-up lazyload" data-src="{{ if $.Site.Data.theme.is_statically}}{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
 {{- else }}
 <img class="{{ $class }}" src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" />
 {{- end }}
