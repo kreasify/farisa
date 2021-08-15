@@ -30,7 +30,6 @@ social_links:
     style: link
     new_window: true
   - type: social
-    template: social
     label: Telegram
     icon: telegram
     url: 'https://t.me/hijacket.net'
