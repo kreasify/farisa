@@ -7,8 +7,8 @@
                     image: {{ $resized.RelPermalink | jsonify }},{{ end }}{{ end }}{{ if .Params.variants }}
                     variants: [ {{range $index, $el := .Params.variants }}{{ if gt $index 0 }}, {{ end }}
                         {
-                            id: {{ $index }},
-                            name: {{ .name | urlize | upper }},{{ if .size }}
+                            id: {{ $index | jsonify }},
+                            name: {{ .name | urlize | upper | jsonify }},{{ if .size }}
                             size: {{ .size }},{{ end }}{{ if .sku }}
                             sku: {{ .sku }},{{ end }}{{ if .price }}
                             price: {{ .price }},{{ end }}{{ if .discount }}
