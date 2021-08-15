@@ -1,0 +1,4 @@
+color_theme: default
+header: 'logo-left-menu'
+navbar: true
+fixedMenu: true
