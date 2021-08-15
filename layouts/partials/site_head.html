@@ -24,7 +24,7 @@
 <script defer src="{{ $js_min.RelPermalink }}"></script>
 {{- end }} -->
 
-{{- $js := slice $lazysizes $minisearch $splide $alpine $ads $header $shop $checkout | resources.Concat "js/main.js" }}
+{{- $js := slice $lazysizes $minisearch $splide $alpine $ads $header $shop | resources.Concat "js/main.js" }}
 {{- $js_min := $js | resources.Minify }}
 
 {{- if eq .RelPermalink "/checkout/" }}
