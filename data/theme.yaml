@@ -6,7 +6,13 @@ single_post:
   share_button: true
   post_author: true
   post_navigation: true
-
+    sidebar:
+    has_widget: true
+    recent_num: 8
+    sections:
+      - type: widget_recent_post
+      - type: widget_categories
+      - type: widget_tags
 social_share:
   facebook: true
   twitter: true
