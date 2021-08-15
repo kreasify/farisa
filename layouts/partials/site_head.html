@@ -20,7 +20,7 @@
 <script defer src="{{ $js.RelPermalink }}"></script>
 {{- else }}
 {{- $js := slice $lazysizes $minisearch $splide $autocomplete $alpine $ads $header $shop $checkout | resources.Concat "js/main.js" }}
-{{- $}}
+{{- $js_min := $js | }}
 <script defer src="{{ $js.RelPermalink }}"></script>
 {{- end }}
 
