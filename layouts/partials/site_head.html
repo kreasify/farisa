@@ -29,17 +29,17 @@
 {{- $js_min := $js | resources.Minify }}
 
 {{- if eq .Params.layout "advanced" }}
-    {{- range $index, $section := .Params.sections }}
-        {{- if $section.slides }}
-            {{- $js = slice $lazysizes $minisearch $splide $alpine $ads $header $slider $shop | resources.Concat "js/main-slider.js" }}
-            {{- $js_min = $js | resources.Minify }}
-        {{- else }}
-            {{- if eq $index 0 }}
-            {{- $js = slice $lazysizes $minisearch $alpine $ads $header $shop | resources.Concat "js/main-nonslider.js" }}
-            {{- $js_min = $js | resources.Minify }}
-            {{- end }}
+{{- range $index, $section := .Params.sections }}
+    {{- if $section.slides }}
+        {{- $js = slice $lazysizes $minisearch $splide $alpine $ads $header $slider $shop | resources.Concat "js/main-slider.js" }}
+        {{- $js_min = $js | resources.Minify }}
+    {{- else }}
+        {{- if eq $index 0 }}
+        {{- $js = slice $lazysizes $minisearch $alpine $ads $header $shop | resources.Concat "js/main-nonslider.js" }}
+        {{- $js_min = $js | resources.Minify }}
         {{- end }}
     {{- end }}
+{{- end }}
 {{- end }}
 
 {{- if eq .RelPermalink "/checkout/" }}
