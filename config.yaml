@@ -92,13 +92,6 @@ params:
         url: 'https://t.me/hijacket.net'
         style: link
         new_window: true
-  sidebar:
-    has_widget: true
-    recent_num: 8
-    sections:
-      - type: widget_recent_post
-      - type: widget_categories
-      - type: widget_tags
   footer:
     type: footer
     has_widget: true
