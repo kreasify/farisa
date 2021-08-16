@@ -140,7 +140,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                                     <time class="post__published text-xs lg:text-sm text-body-text-secondary ml-1"
                                         {{ .Date.Format "2006-01-02T15:04:05Z07:00" | printf "datetime=%q" | safeHTMLAttr }}>{{ .Date.Format $dateFormat }}</time>
                                     {{- end }}
-                                    <div class="flex items-center justify-end text-body-text-secondary pt-3">
+                                    <div class="flex items-center justify-end text-heading-secondary pt-3">
                                         <p class="text-sm lg:text-base text-heading pr-2 mb-0">Next Post</p>
                                         {{ partial "svg/icon-angle-right.svg" (dict "class" "w-14px h-14px fill-current text-current") }}
                                     </div>
