@@ -19,8 +19,8 @@
     --footer-primary: {{ $.Site.Data.theme.colors.body-primary | default "#111111;
     --footer-secondary: {{ $.Site.Data.theme.colors.body-primary | default "#949494;
     --footer-text: {{ $.Site.Data.theme.colors.body-primary | default "#ffffff;
-    --footer-text-primary: #fafafa;
-    --footer-text-secondary: #f5f5f5;
+    --footer-text-primary: {{ $.Site.Data.theme.colors.body-primary | default "#fafafa;
+    --footer-text-secondary: {{ $.Site.Data.theme.colors.body-primary | default "#f5f5f5;
     --primary: #111827;
     --primary-hover: #F87171;
     --secondary: #6B7280;
