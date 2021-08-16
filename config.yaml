@@ -1,5 +1,6 @@
 title: Vitoko
 baseURL: /
+languageCode: id
 defaultContentLanguage: id
 preserveTaxonomyNames: true
 metaDataFormat: yaml
