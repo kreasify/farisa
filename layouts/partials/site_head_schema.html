@@ -44,7 +44,7 @@
     "dateModified": "{{ time .Date }}",
     "author": {
       "@type": "Person",
-      "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}"
+      "name": "{{ if .Site.Params.author }}{{ .Site.Params.author }}{{ end }}"
     },
     "publisher": {
     "@type": "Organization",
