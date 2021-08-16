@@ -19,8 +19,6 @@ outputs:
   section:
     - HTML
 params:
-  colors:
-    header_text: ''
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
   contact:
