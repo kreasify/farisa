@@ -1,7 +1,7 @@
 fonts:
   font_heading: Josefin Sans
   font_body: Lato
-palette: pinkgray
+palette: pinkgrey
 colors:
   body: #ffffff
   body_primary: #fafafa
