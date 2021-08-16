@@ -38,7 +38,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                 {{- end }}
 
                 {{- range (.GetTerms "tags") }}
-                <a class="inline-block text-gray-700 capitalize hover:text-primary ml-1"
+                <a class="post__tag text-sm text-body-text-secondary hover:underline capitalize ml-1"
                 href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><span class="last:hidden">,</span>
                 {{- end }}
                 {{- end }}
