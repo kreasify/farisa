@@ -51,7 +51,7 @@
     "name": "{{ .Site.Title }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ if $.Site.Params.logo }}{{ $.Site.Params.logo }}{{ end }}",
+      "url": "{{ if .Site.Data.theme.header.logo }}{{ $.Site.Params.logo }}{{ end }}",
       "width": 130,
       "height": 36
     }
