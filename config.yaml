@@ -30,8 +30,6 @@ params:
     whatsapp: true
     telegram: true
     mail: true
-  post_author: true
-  post_navigation: true
   mainSection:
     - shop
   header:
