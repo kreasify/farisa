@@ -63,7 +63,7 @@
                     {{ $hash_removed = "/" }}{{/* Add robustness for `/#SECTION` or `#SECTION` in `menus.toml`. */}}
                 {{ end }}
                 {{ $is_same_page = eq (path.Dir $current_page.RelPermalink) (path.Dir ($hash_removed|relLangURL)) }}
-            {{ end }}
+            {{- end }}
             <li
                 class="menu__item">
                 <a class="menu__item-link{{if $is_link_in_current_path }} active{{end}}"
@@ -71,8 +71,8 @@
                     data-target="{{ $hash }}"
                     {{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>{{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}</a>
             </li>
-            {{ end }}
-            {{ end }}
+            {{- end }}
+            {{- end }}
         </ul>
     </nav>
 </aside>
