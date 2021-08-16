@@ -11,6 +11,27 @@
 {{- with $image }}
 <figure>
   <a href="{{ $image.RelPermalink }}">
+  <picture>
+	<!--[if IE 9]><video style="display: none"><![endif]-->
+	<source
+		data-srcset="240.jpg 240w,
+			320.jpg 320w,
+			500.jpg 500w"
+		media="(max-width: 550px)" />
+	<source
+			data-srcset="640.jpg 640w,
+				990.jpg 990w,
+				1024.jpg 1024w"
+			media="(max-width: 1024px)" />
+	<source
+			data-srcset="1200.jpg 1200w" />
+<!--[if IE 9]></video><![endif]-->
+<img
+		src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+		data-src="1024.jpg"
+		class="lazyload"
+		alt="image with artdirection" />
+</picture>
     <img
 	  class="mx-auto"
       sizes="100vw"
