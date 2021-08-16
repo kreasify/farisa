@@ -723,3 +723,7 @@ models:
   theme:
     type: config
     label: theme
+    file: data
+    fields:
+      - name: ''
+        type: string
