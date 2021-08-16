@@ -10,9 +10,9 @@
        x-transition:leave-end="opacity-0 transform -translate-x-full">
     <nav id="menu" class="navbar py-2">
         <ul class="navbar__menu menu" x-data="{ selectedMenu: null }">
-            {{ $current_page := . }}
-            {{ range $index, $e := .Site.Menus.main }}
-            {{ if .HasChildren }}
+            {{- $current_page := . }}
+            {{- range $index, $e := .Site.Menus.main }}
+            {{- if .HasChildren }}
             <li class="has-submenu menu__item">
                 <button @click="selectedMenu !== {{ $index }} ? selectedMenu = {{ $index }} : selectedMenu = null" class="w-full flex items-center text-current cursor-pointer focus:outline-none py-2 px-6">
                     {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
