@@ -137,7 +137,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                                     <h4 class="text-sm lg:text-base font-medium">{{- .Title}}</h4>
                                     {{- $dateFormat := default "Mon 02 January 2006" (index .Site.Params "dateFormat") }}
                                     {{- if not .PublishDate.IsZero }}
-                                    <time class="post__published text-xs lg:text-sm text-heading-secondary ml-1"
+                                    <time class="post__published text-xs lg:text-sm text-heading-secondary font-body ml-1"
                                         {{ .Date.Format "2006-01-02T15:04:05Z07:00" | printf "datetime=%q" | safeHTMLAttr }}>{{ .Date.Format $dateFormat }}</time>
                                     {{- end }}
                                     <div class="flex items-center justify-end text-heading hover:text-accent pt-3">
