@@ -66,9 +66,9 @@
     "name": "{{ .Title }}",
     "author": {
     "@type": "Person",
-    "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}"
+    "name": "{{ if .Site.Params.author }}{{ .Site.Params.author }}{{ end }}"
     },
-    "description": "{{ $.Site.Params.description }}",
+    "description": "{{ .Site.Params.description }}",
     }
 {{ end }}
 </script>
