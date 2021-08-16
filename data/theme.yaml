@@ -60,7 +60,7 @@ social_share:
   mail: true
 header:
   title: Starter
-  logo: images/logo-hijacket.png
+  logo: uploads/logo-hijacket.png
   has_nav: false
   sticky_nav: true
   has_navbar: true
