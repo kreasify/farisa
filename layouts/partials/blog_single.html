@@ -17,7 +17,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
             </div>
             {{- end }}
             <div class="post__meta flex flex-wrap items-center text-sm text-body-text pt-6 mb-6">
-                {{- $dateFormat := default "Mon 02 January 2006" (index $.Site.Data.theme.single_post "dateFormat") }}
+                {{- $dateFormat := default "Mon 02 January 2006" (index $.Site.Data.theme.single_post "date_format") }}
                 {{- if not .PublishDate.IsZero }}
                 {{ partial "svg/icon-calendar-alt.svg" (dict "class" "w-14px h-14px fill-current text-current") }}
                 <time class="post__published text-sm text-body-text-secondary ml-1"
