@@ -38,7 +38,7 @@ colors:
   border_color: #D1D5DB
 cdn:
   is_statically: true
-  domain_name: vitoko.netlify.app
+  domain_name: https://vitoko.netlify.app
 single_post:
   date_format: 2 January 2006
   share_button: true
