@@ -4,7 +4,7 @@
     {{- if .Params.thumbnail }}
     <a class="feed-item__link" href="{{ .RelPermalink }}">
         <div class="responsive aspect-w-3 aspect-h-2">
-        {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "resized" "381x254 webp" "fill" true }}
+        {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "resized" "381x254 webp" "fill" true "lazyload" .Site.Data.theme.lazysizes }}
         {{ partial "functions/get_image.html" $include_dict }}
         </div>
     </a>
