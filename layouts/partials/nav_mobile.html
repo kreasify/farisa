@@ -26,12 +26,12 @@
                     x-transition:leave-start="opacity-100 transform scale-y-100" 
                     x-transition:leave-end="opacity-0 transform scale-y-0">
                     <ul class="submenu">
-                        {{ range .Children }}
+                        {{- range .Children }}
                         <li class="submenu__item">
                             <a class="submenu__item-link" href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}>
                                 {{- .Pre -}}
                                 <span>{{ .Name | safeHTML }}</span>
-                                {{ if ge hugo.Version 0.79 }}
+                                {{- if ge hugo.Version 0.79 }}
                                 <span class="text-white text-2xs uppercase leading-none rounded-sm py-3px px-2 ml-3 {{ with .Params.class }}{{ . }}{{ end }}">{{ with .Params.label }}{{ . }}{{ end }}</span>
                                 {{ end }}
                                 {{- .Post -}}
