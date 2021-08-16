@@ -3,7 +3,7 @@
     --body: {{ $.Site.Data.theme.colors.body | default "#ffffff" }};
     --body-primary: {{ $.Site.Data.theme.colors.body-primary | default "#fafafa" }};
     --body-secondary: {{ $.Site.Data.theme.colors.body-primary | default "#f5f5f5;
-    --body-text: #000000;
+    --body-text: {{ $.Site.Data.theme.colors.body-primary | default "#000000;
     --body-text-primary: #111827;
     --body-text-secondary: #1F2937;
     --heading: #111827;
