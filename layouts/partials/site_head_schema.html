@@ -36,7 +36,7 @@
     "headline": "{{ .Title }}",
     "image": {
     "@type": "ImageObject",
-    "url": "{{ if .Params.image }}{{ .Params.image | relURL }}{{ end }}",
+    "url": "{{ if .Site.Data.theme.header.logo }}{{ .Params.image | relURL }}{{ end }}",
     "height": 600,
     "width": 420
     },
