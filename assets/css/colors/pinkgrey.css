@@ -25,11 +25,11 @@
     --primary-hover: {{ $.Site.Data.theme.colors.body-primary | default "#F87171;
     --secondary: {{ $.Site.Data.theme.colors.body-primary | default "#6B7280;
     --primary-text: {{ $.Site.Data.theme.colors.body-primary | default "#fafafa;
-    --secondary-text: #fafafa;
-    --accent: #F87171;
-    --accent-primary: #FCA5A5;
-    --accent-secondary: #FEF2F2;
-    --accent-text: #fafafa;
+    --secondary-text: {{ $.Site.Data.theme.colors.body-primary | default "#fafafa;
+    --accent: {{ $.Site.Data.theme.colors.body-primary | default "#F87171;
+    --accent-primary: {{ $.Site.Data.theme.colors.body-primary | default "#FCA5A5;
+    --accent-secondary: {{ $.Site.Data.theme.colors.body-primary | default "#FEF2F2;
+    --accent-text: {{ $.Site.Data.theme.colors.body-primary | default "#fafafa;
     --accent-text-primary: #fafafa;
     --hint-text: #E5E7EB;
     --border-color: #D1D5DB;
