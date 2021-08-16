@@ -24,7 +24,7 @@
     --primary: {{ $.Site.Data.theme.colors.body-primary | default "#111827;
     --primary-hover: {{ $.Site.Data.theme.colors.body-primary | default "#F87171;
     --secondary: {{ $.Site.Data.theme.colors.body-primary | default "#6B7280;
-    --primary-text: #fafafa;
+    --primary-text: {{ $.Site.Data.theme.colors.body-primary | default "#fafafa;
     --secondary-text: #fafafa;
     --accent: #F87171;
     --accent-primary: #FCA5A5;
