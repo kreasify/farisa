@@ -1,7 +1,5 @@
 origin_id: 106
 shipping:
-  origin_city: '106'
-  origin_province: order
   jne_oke: true
   jne_reg: true
   jne_yes: true
