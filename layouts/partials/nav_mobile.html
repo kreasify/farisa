@@ -71,13 +71,13 @@
                     data-target="{{ $hash }}"
                     {{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>{{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}</a>
             </li>
-                                        <li
-                                class="menu__item font-heading" {{ if $fixed_menu }}:class="{ 'text-gray-700 hover:text-gray-500': atTop, 'text-header-text hover:text-header-text-primary': !atTop }"{{ else }}:class="'text-header-text hover:text-header-text-primary'"{{ end }}>
-                                <a class='menu__item-link {{ if $is_link_in_current_path }} active{{ end }}'
-                                    href="{{.URL | relLangURL}}" {{ if and $is_widget_page $is_same_page }}
-                                    data-target="{{$hash}}"
-                                    {{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>{{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}</a>
-                            </li>
+            <li
+                class="menu__item font-heading" {{ if $fixed_menu }}:class="{ 'text-gray-700 hover:text-gray-500': atTop, 'text-header-text hover:text-header-text-primary': !atTop }"{{ else }}:class="'text-header-text hover:text-header-text-primary'"{{ end }}>
+                <a class='menu__item-link {{ if $is_link_in_current_path }} active{{ end }}'
+                    href="{{.URL | relLangURL}}" {{ if and $is_widget_page $is_same_page }}
+                    data-target="{{$hash}}"
+                    {{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>{{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}</a>
+            </li>
             {{- end }}
             {{- end }}
         </ul>
