@@ -164,7 +164,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
         </article>
         {{- if $.Site.Data.theme.sidebar.has_widget }}
         <aside class="sidebar widget col-span-12 lg:col-span-4">
-			 {{- range $widget := .Site.Params.sidebar.sections }}
+			 {{- range $widget := $.Site.Data.theme.sidebar.sections }}
 			 {{- $include_dict := dict "widget" $widget "Site" $.Site }}
 			 {{- $component := print "widgets/" $widget.type ".html" }}
 			 {{ partial $component $include_dict }}
