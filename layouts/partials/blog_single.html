@@ -159,6 +159,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                     {{- end }}
                 </div>
                 {{- end }}
+                {{- if $.Site.Data.theme.single_post.post_navigation | default true }}
                 {{ partial "blog_related.html" . }}
             </footer>
         </article>
