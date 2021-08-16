@@ -21,7 +21,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                 {{- if not .PublishDate.IsZero }}
                 {{ partial "svg/icon-calendar-alt.svg" (dict "class" "w-14px h-14px fill-current text-current") }}
                 <time class="post__published text-sm text-body-text-secondary ml-1"
-                    {{ .Date.Format "2006-01-02T15:04:05Z07:00" | printf "datetime=%q" | safeHTMLAttr }}>{{ .Date.Format $dateFormat }} {{.Date | time.Format ":date_long"}}</time> 
+                    {{ .Date.Format "2006-01-02T15:04:05Z07:00" | printf "datetime=%q" | safeHTMLAttr }}>{{ .Date.Format $dateFormat }}</time> 
                 {{- end }}
                 {{- if .Params.authors }}
                 {{ partial "svg/icon-user.svg" (dict "class" "w-14px h-14px fill-current text-current ml-6") }}
