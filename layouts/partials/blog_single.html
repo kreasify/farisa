@@ -120,9 +120,9 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                                     <time class="post__published text-xs lg:text-sm text-heading-secondary ml-1"
                                         {{ .Date.Format "2006-01-02T15:04:05Z07:00" | printf "datetime=%q" | safeHTMLAttr }}>{{ .Date.Format $dateFormat }}</time>
                                     {{- end }}
-                                    <div class="flex items-center text-heading-secondary pt-3">
+                                    <div class="flex items-center text-heading hover:text-accent pt-3">
                                         {{ partial "svg/icon-angle-left.svg" (dict "class" "w-14px h-14px fill-current text-current") }}
-                                        <p class="text-sm lg:text-base text-heading pl-2 mb-0">Previous Post</p>
+                                        <p class="text-sm lg:text-base text-current pl-2 mb-0">Previous Post</p>
                                     </div>
                                 </div>
                             </div>
