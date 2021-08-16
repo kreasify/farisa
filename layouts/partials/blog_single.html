@@ -61,7 +61,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                     </div>
                     {{- end }}
                 </div>
-                {{- if .Site.Params.post_author | default true }}
+                {{- if $.Site.Data.theme.single_post.post_author | default true }}
                 {{- range (.GetTerms "authors") }}
                 <div class="post__author grid grid-cols-12 gap-6 bg-body-primary rounded-md mb-8">
                     <div class="col-span-12 lg:col-span-3 py-4 px-4 lg:py-6 lg:px-6">
