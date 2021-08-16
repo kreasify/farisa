@@ -1,6 +1,6 @@
 /* purgecss start ignore */
 :root {
-    --body: {{ $.Site.Data.theme.colors.header_text | default "#ffffff" }};
+    --body: {{ $.Site.Data.theme.colors.body | default "#ffffff" }};
     --body-primary: #fafafa;
     --body-secondary: #f5f5f5;
     --body-text: #000000;
