@@ -4,8 +4,8 @@
     "@context": "http://schema.org",
     "@type": "WebSite",
     "url": "{{ .Site.BaseURL }}",
-    "name": "{{ $.Site.Title }}",
-    "headline": "{{ $.Site.Title }},
+    "name": "{{ .Site.Title }}",
+    "headline": "{{ .Site.Title }},
     "author": {
     "@type": "Person",
     "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}"
