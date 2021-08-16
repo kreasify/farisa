@@ -1,5 +1,5 @@
 title: Vitoko.site
-baseURL: https://vitoko.netlify.app
+baseURL: /
 LanguageCode: id
 preserveTaxonomyNames: true
 metaDataFormat: yaml
