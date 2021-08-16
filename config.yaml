@@ -21,8 +21,6 @@ outputs:
 params:
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
-
-  massUpdateStock: false
   dateFormat: 2 January 2006
   share_button: true
   social_share:
