@@ -26,7 +26,6 @@
                     <a class="nav__brand-link" href="{{ "/" | relURL }}">
                         {{- $include_dict := dict "image" .Site.Data.theme.header.logo "alt_text" .Site.Params.header.title "Site" .Site "class" "image__logo" "resized" "156x webp" }}
                         {{ partial "functions/get_image.html" $include_dict }}
-                        </div>
                         <img src="{{ .Site.Data.theme.header.logo | relURL }}" alt="{{ .Site.Params.header.title }}" />
                     </a>
                     {{- else }}
