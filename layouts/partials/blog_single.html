@@ -17,7 +17,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
             </div>
             {{- end }}
             <div class="post__meta flex flex-wrap items-center text-sm text-body-text pt-6 mb-6">
-                {{- $dateFormat := default "Mon 02 January 2006" (index $.Site.Data.theme.single_post "date_format") }}
+                {{- $dateFormat := default "Mon 02 January 2006" (index .Site.Data.theme.single_post "date_format") }}
                 {{- if not .PublishDate.IsZero }}
                 {{ partial "svg/icon-calendar-alt.svg" (dict "class" "w-14px h-14px fill-current text-current") }}
                 <time class="post__published text-sm text-body-text-secondary ml-1"
@@ -54,14 +54,14 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                         </div>
                         {{- end }}
                     </div>
-                    {{- if $.Site.Data.theme.single_post.share_button | default true }}
+                    {{- if .Site.Data.theme.single_post.share_button | default true }}
                     <div class="post__footer-share col-span-6">
                         <h3 class="text-body-text text-right pr-4">Bagikan:</h3>
                         {{ partial "social_share.html" . }}
                     </div>
                     {{- end }}
                 </div>
-                {{- if $.Site.Data.theme.single_post.post_author | default true }}
+                {{- if .Site.Data.theme.single_post.post_author | default true }}
                 {{- range (.GetTerms "authors") }}
                 <div class="post__author grid grid-cols-12 gap-6 bg-body-primary rounded-md mb-8">
                     <div class="col-span-12 lg:col-span-3 py-4 px-4 lg:py-6 lg:px-6">
@@ -99,7 +99,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                 </div>
                 {{- end }}
                 {{- end }}
-                {{- if $.Site.Data.theme.single_post.post_navigation | default true }}
+                {{- if .Site.Data.theme.single_post.post_navigation | default true }}
                 <div class="grid grid-cols-12 gap-6 mb-12">
                     {{- with .PrevInSection }}
                     <div class="col-span-12 lg:col-span-6">
@@ -159,14 +159,14 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                     {{- end }}
                 </div>
                 {{- end }}
-                {{- if $.Site.Data.theme.single_post.related_post | default true }}
+                {{- if .Site.Data.theme.single_post.related_post | default true }}
                 {{ partial "blog_related.html" . }}
                 {{- end }}
             </footer>
         </article>
-        {{- if $.Site.Data.theme.sidebar.has_widget }}
+        {{- if .Site.Data.theme.sidebar.has_widget }}
         <aside class="sidebar widget col-span-12 lg:col-span-4">
-			 {{- range $widget := $.Site.Data.theme.sidebar.sections }}
+			 {{- range $widget := .Site.Data.theme.sidebar.sections }}
 			 {{- $include_dict := dict "widget" $widget "Site" $.Site }}
 			 {{- $component := print "widgets/" $widget.type ".html" }}
 			 {{ partial $component $include_dict }}
