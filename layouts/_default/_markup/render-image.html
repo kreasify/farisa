@@ -14,9 +14,7 @@
     <picture>
         <source data-srcset="{{ $small.RelPermalink }} 240w"
             media="(max-width: 480px)" />
-            <source data-srcset="640.jpg 640w,
-            990.jpg 990w,
-            1024.jpg 1024w"
+            <source data-srcset="{{ $medium.RelPermalink }} 768w"
             media="(max-width: 1024px)" />
             <source data-srcset="1200.jpg 1200w" />
         <img
