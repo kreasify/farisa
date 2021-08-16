@@ -99,7 +99,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                 </div>
                 {{- end }}
                 {{- end }}
-                {{- if .Site.Params.post_navigation | default true }}
+                {{- if $.Site.Data.theme.single_post.post_navigation | default true }}
                 <div class="grid grid-cols-12 gap-6 mb-12">
                     {{- with .PrevInSection }}
                     <div class="col-span-12 lg:col-span-6">
