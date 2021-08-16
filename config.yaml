@@ -22,7 +22,6 @@ outputs:
 params:
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
-  dateFormat: 2 January 2006
   mainSection:
     - shop
   header:
