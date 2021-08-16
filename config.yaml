@@ -1,7 +1,8 @@
 title: Vitoko
 baseURL: /
 LanguageCode: id
-timeZone: Asia/Jakarta
+defaultContentLanguage: id
+timeZone: id
 preserveTaxonomyNames: true
 metaDataFormat: yaml
 permalinks:
