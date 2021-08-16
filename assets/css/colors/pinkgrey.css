@@ -15,8 +15,8 @@
     --header-text: {{ $.Site.Data.theme.colors.header_text | default "#000000" }};
     --header-text-primary: {{ $.Site.Data.theme.colors.body-primary | default "#111827;
     --header-text-secondary: {{ $.Site.Data.theme.colors.body-primary | default "#F87171;
-    --footer: #000000;
-    --footer-primary: #111111;
+    --footer: {{ $.Site.Data.theme.colors.body-primary | default "#000000;
+    --footer-primary: {{ $.Site.Data.theme.colors.body-primary | default "#111111;
     --footer-secondary: #949494;
     --footer-text: #ffffff;
     --footer-text-primary: #fafafa;
