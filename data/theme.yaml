@@ -59,7 +59,7 @@ social_share:
   telegram: true
   mail: true
 header:
-  title: Starter
+  title: vitoko
   logo: uploads/logo-hijacket.png
   has_nav: false
   sticky_nav: true
