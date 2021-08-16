@@ -28,3 +28,5 @@
         <img class="image absolute w-full h-full object-cover blur-up lazyload" alt="{{ $alt }}" data-src="{{ $resizedsm.RelPermalink }}" />
     </picture>
 </div>
+
+{{ if $.Site.Data.theme.cdn.is_statically }}https://cdn.statically.io/img/{{ $url.Host }}/q=100{{ $resized.RelPermalink }}{{ else }}{{ $resized.RelPermalink }}{{ end }}
