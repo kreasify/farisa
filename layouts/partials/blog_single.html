@@ -32,11 +32,6 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                 {{- end }}
                 {{- if .Params.tags }}
                 {{ partial "svg/icon-tag.svg" (dict "class" "w-14px h-14px fill-current text-current ml-6") }}
-                {{- range $index, $tag := (.GetTerms "tags") }}{{ if gt $index 0 }}, {{ end }}
-                <a class="post__tag text-sm text-body-text-secondary hover:underline capitalize ml-1"
-                    href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-                {{- end }}
-
                 {{- range (.GetTerms "tags") }}
                 <a class="post__tag text-sm text-body-text-secondary hover:underline capitalize ml-1"
                 href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><span class="last:hidden">,</span>
