@@ -23,7 +23,7 @@
       "description": "{{ .Site.Params.description }}"
   }
 </script>
-{{ else }}
+{{- else }}
 <script type="application/ld+json">
 {{- if eq .Section "post"}}
     {
