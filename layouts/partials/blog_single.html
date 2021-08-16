@@ -54,7 +54,7 @@ style="background-color: gray;background-image: url('/images/banner.jpg');backgr
                         </div>
                         {{- end }}
                     </div>
-                    {{- if $.Site.Data.theme. .Site.Params.share_button | default true }}
+                    {{- if $.Site.Data.theme.single_post.share_button | default true }}
                     <div class="post__footer-share col-span-6">
                         <h3 class="text-body-text text-right pr-4">Bagikan:</h3>
                         {{ partial "social_share.html" . }}
