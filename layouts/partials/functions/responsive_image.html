@@ -29,4 +29,22 @@
     </picture>
 </div>
 
-{{ if $.Site.Data.theme.cdn.is_statically }}https://cdn.statically.io/img/{{ $url.Host }}/q=100{{ $resized.RelPermalink }}{{ else }}{{ $resized.RelPermalink }}{{ end }}
+{{ if $.Site.Data.theme.cdn.is_statically }}https://cdn.statically.io/img/{{ $url.Host }}/q=100{{ $resized.RelPermalink }}
+<div class="image__wrapper relative aspect-w-4 aspect-h-3 lg:aspect-w-16 lg:aspect-h-9 xl:aspect-w-21 xl:aspect-h-9">
+    <picture>
+        <source media="min-width: 1536px)" data-srcset="{{ $resized2xl.RelPermalink }}">
+        <source media="(min-width: 1280px)" data-srcset="{{ $resizedxl.RelPermalink }} 1x,
+            {{- $resized2xl.RelPermalink }} 2x">
+        <source media="(min-width: 1024px)" data-srcset="{{ $resizedlg.RelPermalink }} 1x,
+            {{- $resizedxl.RelPermalink }} 2x,
+            {{- $resized2xl.RelPermalink }} 3x">
+        <source media="(min-width: 768px)" data-srcset="{{ $resizedmd.RelPermalink }} 1x,
+            {{- $resizedlg.RelPermalink }} 2x,
+            {{- $resizedxl.RelPermalink }} 3x">
+        <source media="(min-width: 640px)" data-srcset="{{ $resizedsm.RelPermalink }} 1x,
+            {{- $resizedmd.RelPermalink }} 2x,
+            {{- $resizedlg.RelPermalink }} 3x">
+        <img class="image absolute w-full h-full object-cover blur-up lazyload" alt="{{ $alt }}" data-src="{{ $resizedsm.RelPermalink }}" />
+    </picture>
+</div>
+{{ else }}{{ $resized.RelPermalink }}{{ end }}
