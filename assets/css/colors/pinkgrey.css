@@ -59,11 +59,11 @@
     --footer-text: #ffffff;
     --footer-text-primary: #fafafa;
     --footer-text-secondary: #f5f5f5;
-    --accent: #F87171;
-    --accent-primary: #FCA5A5;
-    --accent-secondary: #FEF2F2;
-    --accent-text: #fafafa;
-    --accent-text-primary: #fafafa;
+    --accent: {{ $.Site.Data.theme.colors.accent | default "#F87171" }};
+    --accent-primary: {{ $.Site.Data.theme.colors.accent_primary | default "#FCA5A5" }};
+    --accent-secondary: {{ $.Site.Data.theme.colors.accent_secondary | default "#FEF2F2" }};
+    --accent-text: {{ $.Site.Data.theme.colors.accent_text | default "#fafafa" }};
+    --accent-text-primary: {{ $.Site.Data.theme.colors.accent_text_primary | default "#fafafa" }};
     --hint-text: #6B7280;
     --border-color: #D1D5DB;
   }
