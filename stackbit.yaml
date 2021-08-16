@@ -720,3 +720,6 @@ models:
         name: has_submenu
         label: has submenu
         default: false
+  theme:
+    type: config
+    label: theme
