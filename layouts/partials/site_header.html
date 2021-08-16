@@ -24,10 +24,10 @@
                 <div class="nav__brand logo col-span-6 lg:col-span-2 pl-8 lg:pl-0 lg:pr-8">
                     {{- if .Site.Data.theme.header.logo }}
                     <a class="nav__brand-link" href="{{ "/" | relURL }}">
-                                <div class="responsive aspect-w-3 aspect-h-2">
-            {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-md" "resized" "778x webp" }}
-            {{ partial "functions/get_image.html" $include_dict }}
-            </div>
+                        <div class="responsive aspect-w-3 aspect-h-2">
+                        {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-md" "resized" "778x webp" }}
+                        {{ partial "functions/get_image.html" $include_dict }}
+                        </div>
                         <img src="{{ .Site.Data.theme.header.logo | relURL }}" alt="{{ .Site.Params.header.title }}" />
                     </a>
                     {{- else }}
