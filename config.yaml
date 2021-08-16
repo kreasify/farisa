@@ -21,23 +21,7 @@ outputs:
 params:
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
-  shipping:
-    origin_city: '106'
-    origin_province: order
-    jne_oke: true
-    jne_reg: true
-    jne_yes: true
-    pos_paket_kilat_khusus: true
-    pos_express_next_day_barang: false
-    tiki_eco: false
-    tiki_reg: true
-    tiki_ons: false
-    jnt_ez: true
-    wahana_normal: false
-    sicepat_reg: true
-    sicepat_best: true
-    lion_regpack: false
-    ninja_standard: false
+
   massUpdateStock: false
   dateFormat: 2 January 2006
   share_button: true
