@@ -30,8 +30,8 @@
     --accent-primary: {{ $.Site.Data.theme.colors.body-primary | default "#FCA5A5;
     --accent-secondary: {{ $.Site.Data.theme.colors.body-primary | default "#FEF2F2;
     --accent-text: {{ $.Site.Data.theme.colors.body-primary | default "#fafafa;
-    --accent-text-primary: #fafafa;
-    --hint-text: #E5E7EB;
+    --accent-text-primary: {{ $.Site.Data.theme.colors.body-primary | default "#fafafa;
+    --hint-text: {{ $.Site.Data.theme.colors.body-primary | default "#E5E7EB;
     --border-color: #D1D5DB;
     --font-heading: {{ $.Site.Data.theme.fonts.font_heading | default "Josefin Sans" }}, 'sans-serif';
     --font-body: {{ $.Site.Data.theme.fonts.font_body | default "Lato" }}, 'sans-serif';
