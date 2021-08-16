@@ -58,7 +58,7 @@
     },
     "description": "{{ .Description }}"
     }
-{{ else }}
+{{- else }}
     {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -70,6 +70,6 @@
     },
     "description": "{{ .Site.Params.description }}",
     }
-{{ end }}
+{{- end }}
 </script>
-{{ end }}
+{{- end }}
