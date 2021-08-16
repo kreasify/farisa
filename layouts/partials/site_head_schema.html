@@ -15,7 +15,7 @@
       "name": "{{ if .Site.Params.author }}{{ .Site.Params.author }}{{ end }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ if .Site.Data.theme.header.logo }}{{ $.Site.Params.logo }}{{ end }}",
+        "url": "{{ if .Site.Data.theme.header.logo }}{{ .Site.Data.theme.header.logo }}{{ end }}",
         "width": 130,
         "height": 36
       }
