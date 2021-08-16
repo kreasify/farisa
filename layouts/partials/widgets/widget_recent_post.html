@@ -1,5 +1,5 @@
 {{- $site := .Site }}
-{{- $widget := .section }}
+{{- $widget := .widget }}
 {{- $recent := where .Site.RegularPages "Type" "in" "blog" }}
 {{- $recent_num := (.Site.Params.sidebar.recent_num | default 10) }}
 {{- if $recent }}
