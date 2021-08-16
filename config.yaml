@@ -62,36 +62,6 @@ params:
         label: Contact Us
         url: /contact
         style: primary
-    has_social: true
-    social_links:
-      - type: social
-        template: social
-        label: Facebook
-        icon: facebook
-        url: 'https://facebook.com/hijacket.net'
-        style: link
-        new_window: true
-      - type: social
-        template: social
-        label: Twitter
-        icon: twitter
-        url: 'https://twitter.com/hijacket'
-        style: link
-        new_window: true
-      - type: social
-        template: social
-        label: Instagram
-        icon: instagram
-        url: 'https://www.instagram.com/hijacket_net'
-        style: link
-        new_window: true
-      - type: social
-        template: social
-        label: Telegram
-        icon: telegram
-        url: 'https://t.me/hijacket.net'
-        style: link
-        new_window: true
 taxonomies:
   tag: tags
   category: categories
