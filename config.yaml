@@ -21,11 +21,6 @@ outputs:
 params:
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
-  contact:
-    name: Anisa
-    email: hijacket.cs@gmail.com
-    whatsapp: '6285156514890'
-    shop_name: Hijacket.net
   shipping:
     origin_city: '106'
     origin_province: order
