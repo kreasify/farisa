@@ -27,7 +27,7 @@
                         <img src="{{ $.Site.Params.header.logo | relURL }}" alt="{{ $.Site.Params.header.title }}" />
                     </a>
                     {{- else }}
-                    <a class="nav__brand-title" href='{{ "/" | relURL }}'>{{ $.Site.Params.header.title }}</a>
+                    <a class="nav__brand-title" href='{{ "/" | relURL }}'>{{ .Site.Params.header.title }}</a>
                     {{- end }}
                 </div>
                 <div class="nav__menu col-span-8 hidden lg:block">
