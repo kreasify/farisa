@@ -1,6 +1,6 @@
 {{- $site := .Site }}
 <!doctype html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+<html lang="{{ with .Site.defaultContentLanguage }}{{ . }}{{ else }}en{{ end }}">
 {{ partial "site_head.html" . }}
 
 <body x-data="{ darkMode: localStorage.getItem('dark') === 'true'} "
