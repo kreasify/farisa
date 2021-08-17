@@ -34,7 +34,7 @@
     }
 
     .submenu__dropdown {
-        @apply relative bg-gray-100;
+        @apply relative;
     }
     
     .submenu {
