@@ -80,7 +80,7 @@
         <div class="shop__color flex items-center">
             <span class="text-sm lg:text-base text-heading-primary">Tag{{ if gt (len .Params.tags ) 1 }}s{{ end }}:</span>
             {{- range (.GetTerms "tags") }}
-            <a class="inline-block text-gray-700 capitalize ml-1"
+            <a class="inline-block text-sm lg:text-base text-heading-secondary hover:text-accent capitalize ml-1"
                 href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><span class="last:hidden">,</span>
             {{- end }}
         </div>
