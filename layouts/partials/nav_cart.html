@@ -3,7 +3,7 @@
         class="nav__cart-button w-full h-full flex lg:justify-end items-center bg-transparent border-0 cursor-pointer hover:text-primary hover:border-primary focus:outline-none"
         @click="showCart = !showCart">
         <span
-            class="nav__cart-info w-8 h-8 flex items-center justify-center {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-header-text{{ end }} hover:text-secondary hover:border-primary">
+            class="nav__cart-info w-8 h-8 flex items-center justify-center {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-header-text{{ end }} hover:text-secondary hover:border-secondary">
             {{ partial "svg/icon-shopping-cart.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
         </span>
         <span
