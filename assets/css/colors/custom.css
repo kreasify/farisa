@@ -77,7 +77,7 @@
     --footer-text: #ffffff;
     --footer-text-primary: #fafafa;
     --footer-text-secondary: #f5f5f5;
-    --banner-text-primary: {{ .Site.Data.theme.colors.banner_text_primary | default "#111827" }};
+    --banner-text-primary: #111827;
     --banner-text-secondary: {{ .Site.Data.theme.colors.banner_text_secondary | default "#F87171" }};
     --primary: {{ .Site.Data.theme.colors.primary | default "#111827" }};
     --primary-hover: {{ .Site.Data.theme.colors.primary_hover | default "#F87171" }};
