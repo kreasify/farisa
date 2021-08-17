@@ -12,7 +12,7 @@ colors:
   heading: #111827
   heading_primary: #374151
   heading_secondary: #9CA3AF
-  header: #ffffff
+  menu_bg: #ffffff
   header_primary: #fafafa
   header_secondary: #f5f5f5
   header: #ffffff
