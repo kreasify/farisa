@@ -5,9 +5,9 @@ user:
     shop_name: Hijacket.net
 rekening:
   - bank: BRI
-    name: farisa
+    name: Farisa
     nomor: 310501234567890
-  - bank: Mandiri
+  - bank: Farisa
     name: Akhlis Mujtahid
     nomor: 1380012345678
 has_social: true
