@@ -9,7 +9,7 @@ rekening:
     nomor: 310501234567890
   - bank: Mandiri
     name: Akhlis Mujtahid
-    nomor: 1380012765231
+    nomor: 1380012345678
 has_social: true
 social_links:
   - type: social
