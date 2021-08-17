@@ -60,7 +60,7 @@ sections:
         alt_text: home 1
         title: Jumpsuit
         subtitle: Tren 2021
-        url: /collections
+        url: collection/jumpsuit/
       - image: /uploads/grid_banner_4.png
         alt_text: banner 4
         title: Outerwear
