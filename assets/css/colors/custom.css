@@ -76,7 +76,7 @@
     --footer-secondary: #2e2e2e;
     --footer-text: #ffffff;
     --footer-text-primary: #fafafa;
-    --footer-text-secondary: #f5f5f5;
+    --footer-text-secondary: #6B7280;
     --banner-text-primary: #111827;
     --banner-text-secondary: #9CA3AF;
     --primary: {{ .Site.Data.theme.colors.primary | default "#111827" }};
