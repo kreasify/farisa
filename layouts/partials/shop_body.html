@@ -20,7 +20,7 @@
                     brand: {{ range (.GetTerms "brand") }}{{ .Title | jsonify }}{{ end }},{{ end }}{{ if .Params.color }}
                     color: {{ range (.GetTerms "color") }}{{ .Title | humanize | jsonify }}{{ end }},{{ end }}
                     slug: {{ .RelPermalink | jsonify }},
-                    wa: {{ .Site.Data.user_setting}} }'>
+                    wa: {{ .Site.Data.user_setting.user.}} }'>
     <h1 class="shop__title text-xl lg:text-3xl text-header-text font-heading mb-2">
         <span class="shop__name">{{ .Title }}</span>
         {{- if gt $variantsCount 1 }}
