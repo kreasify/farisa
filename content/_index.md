@@ -65,7 +65,7 @@ sections:
         alt_text: banner 4
         title: Outerwear
         subtitle: Woman Collecction
-        url: /collections
+        url: collection/atasan/
     design:
       container: true
       style: ''
