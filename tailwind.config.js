@@ -52,7 +52,7 @@ module.exports = {
                 'submenu-bg': 'var(--submenu-bg)',
                 'submenu-bg-hover': 'var(--submenu-bg-hover)',
                 'menu-text': 'var(--menu-text)',
-                --menu-text-hover)',
+                'menu-text-hover': 'var(--menu-text-hover)',
                 --submenu-text)',
                 --submenu-text-hover)',
 				header: 'var(--header)',
