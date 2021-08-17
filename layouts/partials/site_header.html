@@ -53,7 +53,7 @@
                                         aria-hidden="true"> 
                                         {{- range .Children }}
                                         <li
-                                            class="submenu__item hover:text-accent">
+                                            class="submenu__item hover:text-submenu-text-hover">
                                             <a class="submenu__item-link"
                                                 href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}"
                                                 {{ end }}>
