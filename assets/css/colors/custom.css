@@ -59,7 +59,7 @@
     --menu-bg-hover: #1e1e1e;
     --submenu-bg: #1e1e1e;
     --submenu-bg-hover: #2e2e2e;
-    --menu-text: {{ .Site.Data.theme.colors.menu_text | default "#000000" }};
+    --menu-text: #ffffff;
     --menu-text-hover: {{ .Site.Data.theme.colors.menu_text_hover | default "#111827" }};
     --submenu-text: {{ .Site.Data.theme.colors.submenu_text | default "#f5f5f5" }};
     --submenu-text-hover: {{ .Site.Data.theme.colors.submenu_text_hover | default "#F87171" }};
