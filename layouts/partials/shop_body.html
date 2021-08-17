@@ -145,7 +145,7 @@
             </button>
         </div>
         <div class="shop__order-btn pt-6 lg:pt-0">
-            <a x-bind:href="`https://api.whatsapp.com/send?phone==${$store.shop.user.whatsapp}&text=Hi%20kak%20${$store.shop.user.name}%2C%20saya%20mau%20order%20${$store.shop.items.title}%20*${$store.shop.items.variants[$store.shop.activeVariant].size}*%20(harga:%20${$store.shop.localPrice($store.shop.items.variants[$store.shop.activeVariant].price)})%20%20di%20tokoini%20mohon%20segera%20diproses%20ya%20kak%3F`"
+            <a x-bind:href="`https://api.whatsapp.com/send?phone==${$store.shop.user.whatsapp}&text=Hi%20kak%20${$store.shop.user.name}%2C%20saya%20mau%20order%20${$store.shop.items.title}%20*${$store.shop.items.variants[$store.shop.activeVariant].size}*%20(harga:%20${$store.shop.localPrice($store.shop.items.variants[$store.shop.activeVariant].price)})%20%20di%20toko${$store.shop.user.name}ini%20mohon%20segera%20diproses%20ya%20kak%3F`"
                 target="_blank" rel="noopener"
                 class="product__order-wa leading-none no-underline flex focus:outline-none items-center border-0 rounded py-3 px-4"
                 :class="{ 
