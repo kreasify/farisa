@@ -3,7 +3,7 @@
         class="nav__cart-button w-full h-full flex lg:justify-end items-center bg-transparent border-0 cursor-pointer hover:text-primary hover:border-primary focus:outline-none"
         @click="showCart = !showCart">
         <span
-            class="nav__cart-info w-8 h-8 flex items-center justify-center {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-header-text{{ end }} hover:text-secondary hover:border-secondary">
+            class="nav__cart-info w-8 h-8 flex items-center justify-center {{ if .Params.fixed_menu }}text-body-text-primary{{ else }}text-header-text{{ end }} hover:text-secondary hover:border-secondary">
             {{ partial "svg/icon-shopping-cart.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
         </span>
         <span
@@ -23,7 +23,7 @@
             <div class="cart w-full">
                 {{ partial "nav_cart_item.html" . }}
                 <div
-                    class="cart__subtotal text-right text-gray-700 border-0 border-t border-dashed border-gray-300 px-2 py-2 mt-2">
+                    class="cart__subtotal text-right text-body-text-primary border-0 border-t border-dashed border-gray-300 px-2 py-2 mt-2">
                     <span>Subtotal: </span>
                     <span x-text="$store.shop.localPrice($store.shop.subtotal())"></span>
                 </div>
@@ -55,7 +55,7 @@
             @click="showCart = !showCart">
             <div class="flex items-center">
                 <span
-                    class="cart-checkout__circle w-6 h-6 text-sm text-gray-700 bg-white flex items-center justify-center rounded"
+                    class="cart-checkout__circle w-6 h-6 text-sm text-body-text-primary bg-white flex items-center justify-center rounded"
                     x-text="$store.shop.totalItem()"></span>
                 <div class="ml-3">
                     <span class="block text-xs">Keranjang</span>
@@ -86,7 +86,7 @@
                 @click="showCart = !showCart">
                 <div class="flex items-center">
                     <span
-                        class="cart-checkout__circle w-6 h-6 text-sm text-gray-700 bg-white flex items-center justify-center rounded"
+                        class="cart-checkout__circle w-6 h-6 text-sm text-body-text-primary bg-white flex items-center justify-center rounded"
                         x-text="$store.shop.totalItem()">
                     </span>
                     <div class="ml-3">
