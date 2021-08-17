@@ -48,13 +48,13 @@ module.exports = {
 				'heading-primary': 'var(--heading-primary)',
 				'heading-secondary': 'var(--heading-secondary)',
                             --menu-bg)',
-                            --menu-bg-hover: #1e1e1e;
-                            --submenu-bg: #1e1e1e;
-                            --submenu-bg-hover: #2e2e2e;
-                            --menu-text: #ffffff;
-                            --menu-text-hover: #F9FAFB;
-                            --submenu-text: #ffffff;
-                            --submenu-text-hover: #F87171;
+                            --menu-bg-hover)',
+                            --submenu-bg)',
+                            --submenu-bg-hover)',
+                            --menu-text)',
+                            --menu-text-hover)',
+                            --submenu-text)',
+                            --submenu-text-hover)',
 				header: 'var(--header)',
 				'header-primary': 'var(--header-primary)',
 				'header-secondary': 'var(--header-secondary)',
