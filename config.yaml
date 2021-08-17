@@ -22,6 +22,8 @@ outputs:
 params:
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
+  colors:
+    primary: DCEDC2
   mainSection:
     - shop
   header:
