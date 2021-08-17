@@ -144,6 +144,7 @@
                 <span>Beli Sekarang</span>
             </button>
         </div>
+        <p x-text="$store.shop.user.whatsapp"></p>
         <div class="shop__order-btn pt-6 lg:pt-0">
             <a x-bind:href="`https://api.whatsapp.com/send?phone==${$store.shop.user.whatsapp}&text=Assalamu%27alaikum%20kak%2C%20saya%20mau%20order%20${$store.shop.items.title}%20*${$store.shop.items.variants[$store.shop.activeVariant].size}*%20(harga:%20${$store.shop.localPrice($store.shop.items.variants[$store.shop.activeVariant].price)})%20ini%20apa%20stoknya%20masih%20ada%20ya%20kak%3F`"
                 target="_blank" rel="noopener"
