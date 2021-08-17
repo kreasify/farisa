@@ -50,7 +50,7 @@ sections:
         alt_text: banner 1
         title: Atasan
         subtitle: Woman Collection
-        url: /collections
+        url: collection/atasan/
       - image: /uploads/grid_banner_2.png
         alt_text: home 1
         title: Bawahan
