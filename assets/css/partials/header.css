@@ -75,7 +75,7 @@
         @apply whitespace-nowrap list-none absolute invisible opacity-0 z-10 shadow-md pb-4 pl-0 mb-0;
 
         li {
-            @apply text-sm text-submenu-text hover:text-submenu-text-hover bg-submenu-bg hover:bg-submenu-bg-hover py-2 px-4 mb-0;
+            @apply text-sm text-submenu-text hover:text-submenu-text-hover hover:bg-submenu-bg-hover py-2 px-4 mb-0;
 
             a {
                 @apply text-current capitalize leading-none;
