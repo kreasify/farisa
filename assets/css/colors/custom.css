@@ -60,7 +60,7 @@
     --submenu-bg: #1e1e1e;
     --submenu-bg-hover: #2e2e2e;
     --menu-text: #ffffff;
-    --menu-text-hover: {{ .Site.Data.theme.colors.menu_text_hover | default "#111827" }};
+    --menu-text-hover: #F9FAFB;
     --submenu-text: {{ .Site.Data.theme.colors.submenu_text | default "#f5f5f5" }};
     --submenu-text-hover: {{ .Site.Data.theme.colors.submenu_text_hover | default "#F87171" }};
     --header: #121212;
