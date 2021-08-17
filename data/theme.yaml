@@ -14,7 +14,7 @@ colors:
   heading_secondary: #9CA3AF
   menu_bg: #ffffff
   menu_bg_hover: #fafafa
-  header_secondary: #f5f5f5
+  submenu_bg: #f5f5f5
   header: #ffffff
   header_primary: #fafafa
   header_secondary: #f5f5f5
