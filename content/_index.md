@@ -55,7 +55,7 @@ sections:
         alt_text: home 1
         title: Bawahan
         subtitle: Woman Collection
-        url: /collections
+        url: collection/bawahan/
       - image: /uploads/grid_banner_3.png
         alt_text: home 1
         title: Jumpsuit
