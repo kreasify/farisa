@@ -20,7 +20,7 @@
                     brand: {{ range (.GetTerms "brand") }}{{ .Title | jsonify }}{{ end }},{{ end }}{{ if .Params.color }}
                     color: {{ range (.GetTerms "color") }}{{ .Title | humanize | jsonify }}{{ end }},{{ end }}
                     slug: {{ .RelPermalink | jsonify }} }; $store.shop.user = { {{ with .Site.Data.user_setting.user.name }}
-                    user_name: {{ . | jsonify }}{{ end }}
+                        user_name: {{ . | jsonify }}{{ end }}
                     }'>
     <h1 class="shop__title text-xl lg:text-3xl text-header-text font-heading mb-2">
         <span class="shop__name">{{ .Title }}</span>
