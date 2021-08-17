@@ -29,7 +29,7 @@
     --footer-text: {{ .Site.Data.theme.colors.footer_text | default "#ffffff" }};
     --footer-text-primary: {{ .Site.Data.theme.colors.footer_text_primary | default "#fafafa" }};
     --footer-text-secondary: {{ .Site.Data.theme.colors.footer_text_secondary | default "#f5f5f5" }};
-    --banner-text-primary: {{ .Site.Data.theme.colors.primary | default "#111827" }};
+    --banner-text-primary: {{ .Site.Data.theme.colors.banner_text_primary | default "#111827" }};
     --primary-hover: {{ .Site.Data.theme.colors.primary_hover | default "#F87171" }};
     --primary: {{ .Site.Data.theme.colors.primary | default "#111827" }};
     --primary-hover: {{ .Site.Data.theme.colors.primary_hover | default "#F87171" }};
