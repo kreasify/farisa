@@ -7,8 +7,8 @@ rekening:
   - bank: BRI
     name: Farisa
     nomor: 310501234567890
-  - bank: Farisa
-    name: Akhlis Mujtahid
+  - bank: Mandiri
+    name: 
     nomor: 1380012345678
 has_social: true
 social_links:
