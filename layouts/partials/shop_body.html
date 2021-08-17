@@ -68,7 +68,7 @@
                 <span class="text-sm lg:text-base text-heading-primary">Kategori</span>
             </label>: 
             {{- range (.GetTerms "collections") }}
-            <a class="inline-block text-gray-700 capitalize hover:text-primary ml-1"
+            <a class="inline-block text-gray-700 capitalize ml-1"
                 href="{{ .RelPermalink }}">{{ .LinkTitle }}</a><span class="last:hidden">,</span>
             {{- end }}
         </div>
