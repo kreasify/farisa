@@ -30,7 +30,7 @@
     }
 
     .has-submenu {
-        @apply relative text-header-text leading-none hover:text-header-text-secondary hover:bg-header-secondary mb-0;
+        @apply relative text-header-text leading-none ;
     }
 
     .submenu__dropdown {
