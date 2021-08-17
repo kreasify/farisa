@@ -56,7 +56,7 @@
     }
 
     li {
-        @apply text-menu-text  py-3 px-3 mb-0;
+        @apply text-menu-text hover py-3 px-3 mb-0;
 
         a {
             @apply text-current hover:no-underline capitalize;
