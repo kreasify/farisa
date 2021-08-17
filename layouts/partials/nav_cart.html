@@ -31,14 +31,14 @@
                     <a class="cart__checkout text-sm text-white focus:outline-none no-underline uppercase bg-primary hover:bg-secondary py-1 px-3 rounded-sm"
                         href="/checkout">Lanjut Checkout</a>
                     <button
-                        class="cart__empty-btn text-xs text-body hover:text-red-400 uppercase focus:outline-none"
+                        class="cart__empty-btn text-xs text-body-text hover:text-red-400 uppercase focus:outline-none"
                         @click="$store.shop.clearCarts(); $store.shop.save()">Clear Cart</button>
                 </div>
             </div>
         </template>
         <template x-if="$store.shop.totalItem() < 1">
             <div class="cart w-full text-center">
-                <p class="text-gray-600 mb-0">Keranjang masih kosong</p>
+                <p class="text-body-text mb-0">Keranjang masih kosong</p>
             </div>
         </template>
     </div>
