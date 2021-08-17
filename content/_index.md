@@ -100,7 +100,7 @@ sections:
       color: ''
       author: ''
       exclude_featured: false
-  - type: banner_images
+  - type: banner_section
     images:
       - image: /uploads/large_banner_1.png
         alt_text: home 1
