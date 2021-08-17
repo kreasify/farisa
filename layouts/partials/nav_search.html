@@ -41,7 +41,7 @@
                x-transition:leave-start="opacity-100 transform scale-100" 
                x-transition:leave-end="opacity-0 transform scale-90">
                 <template x-for="item in searchResults" :key="item.id">
-                    <div class="search__item transition duration-500 ease-ease hover:shadow-lg pb-2 mb-2"> 
+                    <div class="search__item transition duration-500 ease-ease hover:shadow-md pb-2 mb-2"> 
                         <a :href="`${item.url}`" class="grid grid-cols-12 gap-3 lg:gap-4 items-center text-heading-primary hover:text-primary">
                             <figure class="col-span-3 lg:col-span-1 relative aspect-w-5 aspect-h-6">
                                 <img :data-src="`${item.image}`" class="absolute h-full w-full object-cover blur-up lazyload" :alt="`${item.title}`" lazy="loaded">
