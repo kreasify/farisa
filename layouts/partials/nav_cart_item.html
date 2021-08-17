@@ -13,7 +13,7 @@
                 'bg-body-secondary hover:bg-body': cart.qty !== 1
             }">&minus;</button>
             <span class="cart__counter-qty text-sm text-body-text py-4px px-2" x-text="cart.qty"></span>
-            <button class="cart__counter-btn text-sm text-body-text bg-body-secondary hover:bg-gray-100 border-0 rounded-sm cursor-pointer focus:outline-none focus:bg-gray-100 py-4px px-2" x-on:click="cart.qty++; $store.shop.save()">&plus;</button>
+            <button class="cart__counter-btn text-sm text-body-text bg-body-secondary hover:bg-body border-0 rounded-sm cursor-pointer focus:outline-none focus:bg-gray-100 py-4px px-2" x-on:click="cart.qty++; $store.shop.save()">&plus;</button>
         </div>
         <span class="cart__item-price col-span-2 col-start-5 text-xs text-gray-700 font-normal text-right" x-text="$store.shop.localPrice(cart.price)"></span>
         <button class="cart__item-remove text-right bg-transparent border-0 rounded-sm cursor-pointer focus:outline-none" @click.prevent="$store.shop.deleteItem(cart.sku); $store.shop.save()">
