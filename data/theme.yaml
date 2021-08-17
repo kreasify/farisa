@@ -20,19 +20,19 @@ colors:
   menu_text_hover: "#111827"
   submenu_text: "#F87171"
   submenu_text_hover: "#F87171"
-  header: "#ffffff
-  header_primary: "#fafafa
-  header_secondary: "#f5f5f5
-  header_text: "#000000
-  header_text_primary: "#111827
-  header_text_secondary: "#F87171
-  footer: "#000000
-  footer_primary: "#111111
-  footer_secondary: "#949494
-  footer_text: "#ffffff
-  footer_text_primary: "#fafafa
-  footer_text_secondary: "#f5f5f5
-  banner_text_primary: "#111827
+  header: "#ffffff"
+  header_primary: "#fafafa"
+  header_secondary: "#f5f5f5"
+  header_text: "#000000"
+  header_text_primary: "#111827"
+  header_text_secondary: "#F87171"
+  footer: "#000000"
+  footer_primary: "#111111"
+  footer_secondary: "#949494"
+  footer_text: "#ffffff"
+  footer_text_primary: "#fafafa"
+  footer_text_secondary: "#f5f5f5"
+  banner_text_primary: "#111827"
   banner_text_secondary: "#6B7280
   primary: "#DCEDC2
   primary_hover: "#F87171
