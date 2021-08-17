@@ -19,7 +19,7 @@
                             <h4 class="text-banner-text-secondary text-xs lg:text-base mb-4 {{ if $bounce }}bounce-left-4{{ end }}">{{ .subtitle | safeHTML }}</h4>
                             {{- end }}
                             {{- if .button_text }}
-                            <a class="text-banner-text-primary hover:text-banner-text-secondary text-2xs lg:text-lg inline-block font-semibold uppercase transition duration-300 ease-in-out border-2 border-solid border-banner-text-primary hover:border-secondary py-1 lg:py-2 px-3 {{ if $bounce }}bounce-left-5{{ end }}"
+                            <a class="text-banner-text-primary hover:text-banner-text-secondary text-2xs lg:text-lg inline-block font-semibold uppercase transition duration-300 ease-in-out border-2 border-solid border-banner-text-primary hover:border-banner-text-secondary py-1 lg:py-2 px-3 {{ if $bounce }}bounce-left-5{{ end }}"
                                 href="{{ .button_link }}">{{ .button_text }}</a>
                             {{- end }}
                         </header>
