@@ -35,6 +35,9 @@ colors:
   primary: #111827
   primary_hover: #F87171
   secondary: #6B7280
+  primary: #111827
+  primary_hover: #F87171
+  secondary: #6B7280
   primary_text: #fafafa
   secondary_text: #fafafa
   accent: #F87171
