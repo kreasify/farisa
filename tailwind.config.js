@@ -47,7 +47,7 @@ module.exports = {
 				heading: 'var(--heading)',
 				'heading-primary': 'var(--heading-primary)',
 				'heading-secondary': 'var(--heading-secondary)',
-                            --menu-bg)',
+                            'menu-bg': 'var(--menu-bg)',
                             --menu-bg-hover)',
                             --submenu-bg)',
                             --submenu-bg-hover)',
