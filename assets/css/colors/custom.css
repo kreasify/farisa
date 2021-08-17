@@ -11,7 +11,8 @@
     --heading-secondary: {{ .Site.Data.theme.colors.heading_secondary | default "#9CA3AF" }};
     --menu-bg: {{ .Site.Data.theme.colors.menu_bg | default "#ffffff" }};
     --menu-bg-hover: {{ .Site.Data.theme.colors.menu_bg_hover | default "#fafafa" }};
-    
+    --submenu-bg: {{ .Site.Data.theme.colors.menu_bg | default "#ffffff" }};
+    --submenu-bg-hover: {{ .Site.Data.theme.colors.menu_bg_hover | default "#fafafa" }};
     --header: {{ .Site.Data.theme.colors.header | default "#ffffff" }};
     --header-primary: {{ .Site.Data.theme.colors.header_primary | default "#fafafa" }};
     --header-secondary: {{ .Site.Data.theme.colors.header_secondary | default "#f5f5f5" }};
