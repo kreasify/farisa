@@ -10,7 +10,7 @@
         <div class="cart__item-quantity col-span-3 text-xs text-body-text">
             <button class="cart__counter-btn text-sm text-body-text border-0 rounded-sm cursor-pointer focus:outline-none focus:bg-body-secondary py-4px px-2" x-on:click="cart.qty--; $store.shop.save()" x-bind:disabled="cart.qty == 1" :class="{ 
                 'text-heading hover:text-red-300 bg-body-secondary': cart.qty == 1,
-                'bg-body-secondary hover:bg-gray-100': cart.qty !== 1
+                'bg-body-secondary hover:bg-body': cart.qty !== 1
             }">&minus;</button>
             <span class="cart__counter-qty text-sm text-body-text py-4px px-2" x-text="cart.qty"></span>
             <button class="cart__counter-btn text-sm text-body-text bg-gray hover:bg-gray-100 border-0 rounded-sm cursor-pointer focus:outline-none focus:bg-gray-100 py-4px px-2" x-on:click="cart.qty++; $store.shop.save()">&plus;</button>
