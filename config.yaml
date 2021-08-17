@@ -23,7 +23,7 @@ params:
   description: Jaket Muslimah Khusus Hijaber
   author: Akhlis
   colors:
-    primary: '#DCEDC2'
+    primary: "#FFD3B5"
   mainSection:
     - shop
   header:
