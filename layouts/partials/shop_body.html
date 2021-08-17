@@ -150,7 +150,7 @@
                 class="product__order-wa leading-none no-underline flex focus:outline-none items-center border-0 rounded py-3 px-4"
                 :class="{ 
                 'text-body-text-secondary bg-body-secondary': $store.shop.items.variants[$store.shop.activeVariant].quantity === undefined,
-                'text-body-text bg-green-500 hover:bg-green-400': $store.shop.items.variants[$store.shop.activeVariant].quantity > 0
+                'text-white bg-green-500 hover:bg-green-400': $store.shop.items.variants[$store.shop.activeVariant].quantity > 0
             }">
                 {{ partial "svg/icon-whatsapp.svg" (dict "class" "w-4 h-4 inline-block fill-current mr-2") }}
                 <span>Beli via Whatsapp</span>
