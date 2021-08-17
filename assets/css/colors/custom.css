@@ -77,6 +77,13 @@
     --footer-text: #ffffff;
     --footer-text-primary: #fafafa;
     --footer-text-secondary: #f5f5f5;
+    --banner-text-primary: {{ .Site.Data.theme.colors.banner_text_primary | default "#111827" }};
+    --banner-text-secondary: {{ .Site.Data.theme.colors.banner_text_secondary | default "#F87171" }};
+    --primary: {{ .Site.Data.theme.colors.primary | default "#111827" }};
+    --primary-hover: {{ .Site.Data.theme.colors.primary_hover | default "#F87171" }};
+    --secondary: {{ .Site.Data.theme.colors.secondary | default "#6B7280" }};
+    --primary-text: {{ .Site.Data.theme.colors.primary_text | default "#fafafa" }};
+    --secondary-text: {{ .Site.Data.theme.colors.secondary_text | default "#fafafa" }};
     --accent: {{ .Site.Data.theme.colors.accent | default "#F87171" }};
     --accent-primary: {{ .Site.Data.theme.colors.accent_primary | default "#FCA5A5" }};
     --accent-secondary: {{ .Site.Data.theme.colors.accent_secondary | default "#FEF2F2" }};
