@@ -107,7 +107,7 @@
             class="shop__variant-button relative text-sm border border-solid focus:outline-none transition duration-75 ease-ease py-3px px-3 mr-2"
             x-on:click="$store.shop.activeVariant = {{ $index }}" :class="{ 
         'text-primary border-primary before:empty-content before:absolute before:inline-block before:bottom-0 before:right-0 before:border-b-12 before:border-l-10 before:border-primary': $store.shop.activeVariant === {{ $index }},
-        'text-secondary hover:text-primary border-border-color hover:border-primary': $store.shop.activeVariant !== {{ $index }}
+        'text-secondary hover:text-primary border-secondary hover:border-primary': $store.shop.activeVariant !== {{ $index }}
     }">
             <span>{{ .size }}</span>
         </button>
