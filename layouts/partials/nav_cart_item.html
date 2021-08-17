@@ -3,7 +3,7 @@
         <div class="cart__item-media col-span-1 row-span-2 pt-6px">
             <img class="cart__item-thumb cart__item-image" sizes="(max-width: 80px) 100vw, 80px" x-bind:src="cart.image" x-bind:alt="cart.name">
         </div>
-        <h3 class="cart__item-name col-span-6 text-base font-normal text-gray-700 m-0">
+        <h3 class="cart__item-name col-span-6 text-base font-normal text-heading-primary m-0">
             <span x-text="cart.name"></span>
             <span x-text="cart.size"></span>
         </h3>
@@ -15,7 +15,7 @@
             <span class="cart__counter-qty text-sm text-body-text py-4px px-2" x-text="cart.qty"></span>
             <button class="cart__counter-btn text-sm text-body-text bg-body-secondary hover:bg-body border-0 rounded-sm cursor-pointer focus:outline-none focus:bg-gray-100 py-4px px-2" x-on:click="cart.qty++; $store.shop.save()">&plus;</button>
         </div>
-        <span class="cart__item-price col-span-2 col-start-5 text-xs text-gray-700 font-normal text-right" x-text="$store.shop.localPrice(cart.price)"></span>
+        <span class="cart__item-price col-span-2 col-start-5 text-xs text-heading-primary font-normal text-right" x-text="$store.shop.localPrice(cart.price)"></span>
         <button class="cart__item-remove text-right bg-transparent border-0 rounded-sm cursor-pointer focus:outline-none" @click.prevent="$store.shop.deleteItem(cart.sku); $store.shop.save()">
             <svg aria-hidden="true" data-prefix="far" data-icon="times" viewBox="0 0 320 512" width="16px" height="16px" class="times_svg__svg-inline--fa times_svg__fa-times times_svg__fa-w-10 times_svg__fa-2x inline-block text-red-500">
                 <path fill="currentColor" d="M207.6 256l107.72-107.72c6.23-6.23 6.23-16.34 0-22.58l-25.03-25.03c-6.23-6.23-16.34-6.23-22.58 0L160 208.4 52.28 100.68c-6.23-6.23-16.34-6.23-22.58 0L4.68 125.7c-6.23 6.23-6.23 16.34 0 22.58L112.4 256 4.68 363.72c-6.23 6.23-6.23 16.34 0 22.58l25.03 25.03c6.23 6.23 16.34 6.23 22.58 0L160 303.6l107.72 107.72c6.23 6.23 16.34 6.23 22.58 0l25.03-25.03c6.23-6.23 6.23-16.34 0-22.58L207.6 256z">
