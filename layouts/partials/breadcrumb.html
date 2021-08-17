@@ -5,11 +5,11 @@
     </a>
     {{- if eq .Section "shop" }}
     {{ partial "svg/icon-chevron-right.svg" (dict "class" "w-3 h-3 fill-current text-current ml-1") }}
-    <a class="breadcrumb__model text-header-text-primary hover:text-primary capitalize" href="/collections/">Collections</a>
+    <a class="breadcrumb__model text-heading-text hover:text-heading-secondary capitalize" href="/collections/">Collections</a>
     {{ partial "svg/icon-chevron-right.svg" (dict "class" "w-3 h-3 fill-current text-current ml-1") }}
     {{- if .Params.collections}}
     {{ range (.GetTerms "collections") }}
-    <a class="breadcrumb__model text-header-text-primary hover:text-primary capitalize ml-1" href="{{ .RelPermalink }}">{{ .LinkTitle | humanize }}</a>
+    <a class="breadcrumb__model text-heading-text hover:text-heading-secondary capitalize ml-1" href="{{ .RelPermalink }}">{{ .LinkTitle | humanize }}</a>
     {{- end }}
     {{- end }}
     {{- end }}
@@ -17,7 +17,7 @@
     {{ partial "svg/icon-chevron-right.svg" (dict "class" "w-3 h-3 fill-current text-current ml-1") }}
     {{- if .Params.tags}}
     {{ range $index, $tag := (.GetTerms "tags") }}{{ if gt $index 0 }}, {{ end }}
-    <a class="breadcrumb__tag text-header-text-primary hover:text-primary capitalize ml-1" href="{{ .RelPermalink }}">{{ .LinkTitle | humanize }}</a>
+    <a class="breadcrumb__tag text-heading-text hover:text-heading-secondary capitalize ml-1" href="{{ .RelPermalink }}">{{ .LinkTitle | humanize }}</a>
     {{- end }}
     {{- end }}
     {{- end }}
