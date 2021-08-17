@@ -69,7 +69,7 @@ module.exports = {
 				'footer-text-secondary': 'var(--footer-text-secondary)',
 				'hint-text': 'var(--hint-text)',
 				'border-color': 'var(--border-color)',
-                --banner-text-primary: #111827;
+                --banner-text-primary)',
                 --banner-text-secondary: #F87171;
 				
 				facebook: '#3b5999',
