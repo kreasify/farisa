@@ -12,7 +12,7 @@
         </div>
         <div class="max-w-screen-md mx-auto text-sm text-body-text-secondary">
             {{- if .Params.galleries }}
-            {{ range .Params.galleries }}
+            {{- range .Params.galleries }}
             <div class="bg-body-secondary mb-6">
                 <img class="product__image blur-up lazyload" data-src="{{ .image | relURL }}" alt="hijacket">
             </div>
