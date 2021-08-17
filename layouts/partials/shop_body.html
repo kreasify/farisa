@@ -92,7 +92,7 @@
             <span class="text-sm lg:text-base text-heading-primary">Warna</span>
         </label>: 
         {{- range (.GetTerms "color") }}
-        <a class="shop__color-item inline-block text-header-text-secondary capitalize hover:text-primary ml-1"
+        <a class="shop__color-item inline-block text-header-text-secondary capitalize ml-1"
             href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
         {{- end }}
     </div>
