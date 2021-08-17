@@ -16,6 +16,9 @@ colors:
   menu_bg_hover: #fafafa
   submenu_bg: #f5f5f5
   submenu_bg_hover: #fafafa
+  header_text: #000000
+  header_text_primary: #111827
+  header_text_secondary: #F87171
   header: #ffffff
   header_primary: #fafafa
   header_secondary: #f5f5f5
