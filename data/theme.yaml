@@ -3,23 +3,23 @@ fonts:
   font_body: Lato
 palette: custom
 colors:
-  body: "#ffffff
-  body_primary: "#fafafa
-  body_secondary: "#f5f5f5
-  body_text: "#000000
-  body_text_primary: "#111827
-  body_text_secondary: "#1F2937
-  heading: "#111827
-  heading_primary: "#374151
-  heading_secondary: "#9CA3AF
-  menu_bg: "#ffffff
-  menu_bg_hover: "#fafafa
-  submenu_bg: "#f5f5f5
-  submenu_bg_hover: "#fafafa
-  menu_text: "#000000
-  menu_text_hover: "#111827
-  submenu_text: "#F87171
-  submenu_text_hover: "#F87171
+  body: "#ffffff"
+  body_primary: "#fafafa"
+  body_secondary: "#f5f5f5"
+  body_text: "#000000"
+  body_text_primary: "#111827"
+  body_text_secondary: "#1F2937"
+  heading: "#111827"
+  heading_primary: "#374151"
+  heading_secondary: "#9CA3AF"
+  menu_bg: "#ffffff"
+  menu_bg_hover: "#fafafa"
+  submenu_bg: "#f5f5f5"
+  submenu_bg_hover: "#fafafa"
+  menu_text: "#000000"
+  menu_text_hover: "#111827"
+  submenu_text: "#F87171"
+  submenu_text_hover: "#F87171"
   header: "#ffffff
   header_primary: "#fafafa
   header_secondary: "#f5f5f5
