@@ -70,7 +70,7 @@ module.exports = {
 				'hint-text': 'var(--hint-text)',
 				'border-color': 'var(--border-color)',
                 'banner-text-primary': 'var(--banner-text-primary)',
-                --banner-text-secondary)',
+                'banner-text-secondary': 'var(--banner-text-secondary)',
 				
 				facebook: '#3b5999',
 				twitter: '#55acee',
