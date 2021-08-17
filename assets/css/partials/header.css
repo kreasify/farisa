@@ -18,7 +18,7 @@
 
 .mobile__menu {
     .navbar__menu {
-        @apply list-none bg-header-primary pl-0 pb-6 mb-0;
+        @apply list-none pl-0 pb-6 mb-0;
     }
 
     li {
