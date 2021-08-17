@@ -26,26 +26,26 @@ colors:
   header_text: "#000000"
   header_text_primary: "#111827"
   header_text_secondary: "#F87171"
-  footer: "#000000"
-  footer_primary: "#111111"
-  footer_secondary: "#949494"
-  footer_text: "#ffffff"
-  footer_text_primary: "#fafafa"
-  footer_text_secondary: "#f5f5f5"
-  banner_text_primary: "#111827"
-  banner_text_secondary: "#6B7280"
-  primary: "#DCEDC2"
-  primary_hover: "#F87171"
-  secondary: "#DCEDC2"
-  primary_text: "#fafafa"
-  secondary_text: "#fafafa"
-  accent: "#F87171"
-  accent_primary: "#FCA5A5"
-  accent_secondary: "#FEF2F2"
-  accent_text: "#fafafa"
-  accent_text_primary: "#fafafa"
-  hint_text: "#E5E7EB"
-  border_color: "#D1D5DB"
+  footer: "#000000
+  footer_primary: "#111111
+  footer_secondary: "#949494
+  footer_text: "#ffffff
+  footer_text_primary: "#fafafa
+  footer_text_secondary: "#f5f5f5
+  banner_text_primary: "#111827
+  banner_text_secondary: "#6B7280
+  primary: "#DCEDC2
+  primary_hover: "#F87171
+  secondary: "#DCEDC2
+  primary_text: "#fafafa
+  secondary_text: "#fafafa
+  accent: "#F87171
+  accent_primary: "#FCA5A5
+  accent_secondary: "#FEF2F2
+  accent_text: "#fafafa
+  accent_text_primary: "#fafafa
+  hint_text: "#E5E7EB
+  border_color: "#D1D5DB
 lazysizes: true
 cdn:
   is_statically: true
