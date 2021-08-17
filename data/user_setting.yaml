@@ -6,7 +6,7 @@ user:
 rekening:
   - bank: BRI
     name: farisa
-    nomor: 310501
+    nomor: 310501234567890
   - bank: Mandiri
     name: Akhlis Mujtahid
     nomor: 1380012765231
