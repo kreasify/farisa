@@ -23,7 +23,7 @@
                         name: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.email }}
                         email: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.whatsapp }}
                         whatsapp: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.shop_name }}
-                        shop: {{ . | jsonify }},{{ end }}
+                        shop_name: {{ . | jsonify }},{{ end }}
                     }'>
     <h1 class="shop__title text-xl lg:text-3xl text-header-text font-heading mb-2">
         <span class="shop__name">{{ .Title }}</span>
