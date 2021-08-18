@@ -22,7 +22,7 @@ colors:
   submenu_text_hover: "#FF8C94"
   header: "#ffffff"
   header_text: "#000000"
-  footer: "#000000"
+  footer: "#F9FAFB"
   footer_primary: "#111111"
   footer_secondary: "#949494"
   footer_text: "#ffffff"
