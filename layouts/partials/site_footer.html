@@ -4,7 +4,7 @@
         <div class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-6">
             <div class="grid grid-cols-3 gap-6">
                 {{- range $widget := .Site.Data.theme.footer.sections }}
-                {{- $include_dict := dict "widget" $widget "Site" $.Site }}
+                {{- $include_dict := dict "widget" $widget "Site" .Site }}
                 {{- $component := print "widgets/" $widget.type ".html" }}
                 {{ partial $component $include_dict }}
                 {{- end }}
