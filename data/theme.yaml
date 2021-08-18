@@ -18,7 +18,7 @@ colors:
   submenu_bg_hover: "#F3F4F6"
   menu_text: "#374151"
   menu_text_hover: "#AC66CC"
-  submenu_text: "#FDF6F0"
+  submenu_text: "#374151"
   submenu_text_hover: "#FFED99"
   header: "#ffffff"
   header_primary: "#fafafa"
