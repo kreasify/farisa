@@ -8,6 +8,8 @@ document.addEventListener('alpine:init', () => {
                 data = await response.json();
                 this.users = data;
             }
+
+            let 
             return person;
         }
     }))
