@@ -4,7 +4,7 @@
 {{- $colors := resources.Get $palette }}
 {{- $color := $colors | resources.ExecuteAsTemplate "_colors.css" . }}
 {{- $styles := resources.Get "css/styles.css" }}
-{{- $stylepartial := slice $color $styles | resources.Concat "css/main.css" }}
+{{- $stylepartial := slice  $styles | resources.Concat "css/main.css" }}
 {{- $styles = $stylepartial | resources.PostCSS $options }}
 {{- if  hugo.IsProduction }}
 {{- $styles = $styles | minify | fingerprint | resources.PostProcess }}
