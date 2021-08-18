@@ -25,7 +25,7 @@
                         whatsapp: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.shop_name }}
                         shop_name: {{ . | jsonify }},{{ end }}
                     }'>
-    <h1 class="shop__title text-xl lg:text-3xl text-header-text font-heading mb-2">
+    <h1 class="shop__title text-xl lg:text-3xl text-heading font-heading mb-2">
         <span class="shop__name">{{ .Title }}</span>
         {{- if gt $variantsCount 1 }}
         <span class="shop__size" x-text="$store.shop.items.variants[$store.shop.activeVariant].size"></span>
@@ -37,7 +37,7 @@
                 <del class="text-lg text-gray-500 mr-4"
                     x-text="$store.shop.localPrice($store.shop.items.variants[$store.shop.activeVariant].price + $store.shop.items.variants[$store.shop.activeVariant].discount)"></del>
             </template>
-            <span class="text-header-text-primary text-xl lg:text-2xl"
+            <span class="text-heading-primary text-xl lg:text-2xl"
                 x-text="$store.shop.localPrice($store.shop.items.variants[$store.shop.activeVariant].price)"></span>
         </h3>
     </div> 
