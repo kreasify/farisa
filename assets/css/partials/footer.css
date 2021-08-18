@@ -15,7 +15,7 @@
     }
 }
 
-.footer__copyright {
+.footer__credit {
     a {
         @apply text-footer-text-secondary;
     }
