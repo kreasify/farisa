@@ -56,8 +56,6 @@ module.exports = {
                 'submenu-text': 'var(--submenu-text)',
                 'submenu-text-hover': 'var(--submenu-text-hover)',
 				header: 'var(--header)',
-				'header-primary': 'var(--header-primary)',
-				'header-secondary': 'var(--header-secondary)',
 				'header-text': 'var(--header-text)',
 				'header-text-primary': 'var(--header-text-primary)',
 				'header-text-secondary': 'var(--header-text-secondary)',
