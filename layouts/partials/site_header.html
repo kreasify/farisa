@@ -55,7 +55,7 @@
                                         <li
                                             class="submenu__item">
                                             <a class="submenu__item-link"
-                                                href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}>
+                                                href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
                                                 {{- .Pre -}}<span>{{ .Name | humanize | safeHTML }}lii</span>
                                                 {{- if ge hugo.Version 0.79 }}
                                                 <span
