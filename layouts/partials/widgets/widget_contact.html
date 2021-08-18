@@ -9,37 +9,37 @@
     {{- if $widget.phone }}
     <div class="flex items-center mb-2">
       <span
-        class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
+        class="w-8 h-8 flex items-center justify-center text-footer-text hover:text-white mr-3">
         {{ partial "svg/icon-telephone.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
       </span>
-      <p class="text-gray-50 mb-0">WhatsApp • {{ string $widget.phone }}</p>
+      <p class="text-footer-text mb-0">WhatsApp • {{ string $widget.phone }}</p>
     </div>
     {{- end }}
     {{- if $widget.whatsapp }}
     <div class="flex items-center mb-2">
       <span
-        class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
+        class="w-8 h-8 flex items-center justify-center text-footer-text hover:text-white mr-3">
         {{ partial "svg/icon-whatsapp-lite.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
       </span>
-      <p class="text-gray-50 mb-0">WhatsApp • {{ string $widget.whatsapp }}</p>
+      <p class="text-footer-text mb-0">WhatsApp • {{ string $widget.whatsapp }}</p>
     </div>
     {{- end }}
     {{- if $widget.email }}
     <div class="flex items-center mb-2">
       <span
-        class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
+        class="w-8 h-8 flex items-center justify-center text-footer-text hover:text-white mr-3">
         {{ partial "svg/icon-message.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
       </span>
-      <p class="text-gray-50 mb-0">Email • {{ $widget.email }}</p>
+      <p class="text-footer-text mb-0">Email • {{ $widget.email }}</p>
     </div>
     {{- end }}
     {{- if $widget.address }}
     <div class="flex items-center mb-2">
       <span
-        class="w-8 h-8 flex items-center justify-center text-gray-50 hover:text-white mr-3">
+        class="w-8 h-8 flex items-center justify-center text-footer-text hover:text-white mr-3">
         {{ partial "svg/icon-pin.svg" (dict "class" "w-6 h-6 inline-block fill-current") }}
       </span>
-      <p class="text-gray-50 mb-0">{{ $widget.address }}</p>
+      <p class="text-footer-text mb-0">{{ $widget.address }}</p>
     </div>
     {{- end }}
   </div>
