@@ -7,7 +7,7 @@
     {{- end }}
     {{- if $widget.links }}
     <nav class="widget__menu">
-        <ul class="list-none px-0">
+        <ul class="navbar__menu">
             {{- range $widget.links }}
             <li>
                 <a href="{{ .url | absURL }}" {{ if .new_window }}target="_blank" rel="noopener" {{ end }}>{{ .label }}</a>
