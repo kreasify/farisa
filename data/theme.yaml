@@ -23,7 +23,7 @@ colors:
   header: "#ffffff"
   header_text: "#000000"
   footer: "#ffffff"
-  footer_primary: "#E5E7EB"
+  footer_primary: "#fafafa"
   footer_secondary: "#D1D5DB"
   footer_text: "#374151"
   footer_text_primary: "#6B7280"
