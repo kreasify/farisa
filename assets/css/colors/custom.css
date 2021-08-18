@@ -20,7 +20,7 @@
     --header: {{ .Site.Data.theme.colors.header | default "#ffffff" }};
     --header-text: {{ .Site.Data.theme.colors.header_text | default "#000000" }};
     --footer: {{ .Site.Data.theme.colors.footer | default "#ffffff" }};
-    --footer-primary: {{ .Site.Data.theme.colors.footer_primary | default "#111111" }};
+    --footer-primary: {{ .Site.Data.theme.colors.footer_primary | default "#fafafa" }};
     --footer-secondary: {{ .Site.Data.theme.colors.footer_secondary | default "#949494" }};
     --footer-text: {{ .Site.Data.theme.colors.footer_text | default "#ffffff" }};
     --footer-text-primary: {{ .Site.Data.theme.colors.footer_text_primary | default "#fafafa" }};
