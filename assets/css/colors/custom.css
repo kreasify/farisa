@@ -69,11 +69,6 @@
     --secondary: {{ .Site.Data.theme.colors.secondary | default "#6B7280" }};
     --primary-text: {{ .Site.Data.theme.colors.primary_text | default "#fafafa" }};
     --secondary-text: {{ .Site.Data.theme.colors.secondary_text | default "#fafafa" }};
-    --accent: {{ .Site.Data.theme.colors.accent | default "#F87171" }};
-    --accent-primary: {{ .Site.Data.theme.colors.accent_primary | default "#FCA5A5" }};
-    --accent-secondary: {{ .Site.Data.theme.colors.accent_secondary | default "#FEF2F2" }};
-    --accent-text: {{ .Site.Data.theme.colors.accent_text | default "#fafafa" }};
-    --accent-text-primary: {{ .Site.Data.theme.colors.accent_text_primary | default "#fafafa" }};
     --hint-text: #6B7280;
     --border-color: #D1D5DB;
   }
