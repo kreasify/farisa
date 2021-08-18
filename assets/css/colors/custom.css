@@ -16,7 +16,7 @@
     --menu-text: {{ .Site.Data.theme.colors.menu_text | default "#374151" }};
     --menu-text-hover: {{ .Site.Data.theme.colors.menu_text_hover | default "#9CA3AF" }};
     --submenu-text: {{ .Site.Data.theme.colors.submenu_text | default "#374151" }};
-    --submenu-text-hover: {{ .Site.Data.theme.colors.submenu_text_hover | default "#F87171" }};
+    --submenu-text-hover: {{ .Site.Data.theme.colors.submenu_text_hover | default "#FF8C94" }};
     --header: {{ .Site.Data.theme.colors.header | default "#ffffff" }};
     --header-text: {{ .Site.Data.theme.colors.header_text | default "#000000" }};
     --footer: {{ .Site.Data.theme.colors.footer | default "#000000" }};
