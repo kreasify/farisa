@@ -17,7 +17,7 @@
             class="footer__copyright container w-full max-w-screen-xl mx-auto grid grid-cols-12 px-3 lg:px-12 pt-6 pb-6">
             <div class="footer__credit col-span-12 lg:col-span-6 mb-6 lg:mb-0">
                 {{- if .Site.Data.theme.footer.content }}
-                <span class="text-footer-text-primary">{{ .Site.Data.theme.footer.content | safeHTML }}</span>
+                <p class="text-footer-text-primary">{{ .Site.Data.theme.footer.content | safeHTML }}</span>
                 {{- end }}
             </div>
             <div class="footer__social col-span-12 lg:col-span-6">
