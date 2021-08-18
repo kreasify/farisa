@@ -3,7 +3,7 @@
         <span class="w-8 h-8 flex items-center justify-center" {{ if .Params.fixed_menu }}:class="{ 'text-gray-700 hover:text-gray-500': atTop, 'text-menu-text hover:text-menu-text-hover': !atTop }"{{ else }}:class="'text-menu-text hover:text-menu-text-hover'"{{ end }}>
             {{ partial "svg/icon-search-interface.svg" (dict "class" "w-4 h-4 inline-block fill-current") }}
         </span>
-        <span class="font-heading text-sm hidden lg:block pl-1 {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-heading hover:text-heading-primary{{ end }}" {{ if .Params.fixed_menu }}:class="{ 'text-gray-700 hover:text-gray-500': atTop, 'text-menu-text hover:text-menu-text-hover': !atTop }"{{ else }}:class="'text-menu-text hover:text-menu-text-hover'"{{ end }}>Cari...</span>
+        <span class="font-heading text-sm hidden lg:block pl-1" {{ if .Params.fixed_menu }}:class="{ 'text-gray-700 hover:text-gray-500': atTop, 'text-menu-text hover:text-menu-text-hover': !atTop }"{{ else }}:class="'text-menu-text hover:text-menu-text-hover'"{{ end }}>Cari...</span>
     </button>
     <div class="nav__search-box bg-body fixed w-screen h-screen top-0 right-0 box-border rounded-sm shadow-md overflow-y-auto z-50"
        x-cloak
