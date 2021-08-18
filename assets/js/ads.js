@@ -8,7 +8,7 @@ document.addEventListener('alpine:init', () => {
                 data = await response.json();
                 this.users = data;
             }
-            const produk = `${person.map((product, index) => product.summary = '<li x-text="color.name + color.email"></li>').join('%0A')}`;
+            const produk = `${person.map((product, index) => product.summary = '<li></li>').join('%0A')}`;
 
             let wrapper = this.$refs.related;
 
