@@ -1,9 +1,9 @@
 <div class="nav__search flex items-center">
     <button class="nav__search-button w-full h-full flex items-center justify-end bg-transparent border-0 cursor-pointer text-gray-600 hover:text-primary hover:border-primary focus:outline-none lg:pr-4" @click="showSearch = !showSearch">
-        <span class="w-8 h-8 flex items-center justify-center {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-header-text{{ end }} hover:text-primary">
+        <span class="w-8 h-8 flex items-center justify-center {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-heading{{ end }} hover:text-primary">
             {{ partial "svg/icon-search-interface.svg" (dict "class" "w-4 h-4 inline-block fill-current") }}
         </span>
-        <span class="font-heading text-sm hidden lg:block pl-1 {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-header-text hover:text-header-text-primary{{ end }}">Cari...</span>
+        <span class="font-heading text-sm hidden lg:block pl-1 {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-heading hover:text-heading-primary{{ end }}">Cari...</span>
     </button>
     <div class="nav__search-box bg-body fixed w-screen h-screen top-0 right-0 box-border rounded-sm shadow-md overflow-y-auto z-50"
        x-cloak
