@@ -34,7 +34,7 @@
     <div class="shop__price-wrap flex items-center justify-between mb-3">
         <h3 class="shop__price font-body font-medium lg:text-3xl mt-2 mb-0">
             <template x-if="$store.shop.items.variants[$store.shop.activeVariant].discount">
-                <del class="text-lg text--text-secondary mr-4"
+                <del class="text-lg text-heading-secondary mr-4"
                     x-text="$store.shop.localPrice($store.shop.items.variants[$store.shop.activeVariant].price + $store.shop.items.variants[$store.shop.activeVariant].discount)"></del>
             </template>
             <span class="text-heading-primary text-xl lg:text-2xl"
