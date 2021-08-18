@@ -17,6 +17,6 @@
 
 .footer__copyright {
     a {
-        @apply text-gray-100;
+        @apply text-footer-text-secondary;
     }
 }
