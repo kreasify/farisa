@@ -15,15 +15,15 @@
                 <a class="sr-only" href="#content">Skip to main content</a>
 
                 {{ if .Site.Params.header.logo }}
-                <a class="navbar__logo" href="{{ "/" | relURL }}"><img src="{{ $.Site.Params.header.logo | relURL }}" alt="{{ $.Site.Params.header.title }}" /></a>
+                <a class="navbar__logo" href="{{ "/" | relURL }}"><img src="{{ .Site.Params.header.logo | relURL }}" alt="{{ .Site.Params.header.title }}" /></a>
                 {{ else }}
-                <a class="h4 navbar__title" href='{{ "/" | relURL }}'>{{ $.Site.Params.header.title }}</a>
+                <a class="h4 navbar__title" href='{{ "/" | relURL }}'>{{ .Site.Params.header.title }}</a>
                 {{ end }}
               </div>
               {{ if .Site.Params.header.has_nav }}
               <nav class="nav__menu hidden lg:block col-span-8">
                 <ul class="nav__menu-item menu lg:flex justify-content-end list-none pl-0 mb-0">
-                  {{ range $action := $.Site.Params.header.nav_links }}
+                  {{ range $action := .Site.Params.header.nav_links }}
                     {{ $pageUrl := trim $.RelPermalink "/" }}
                     {{ $actionUrl := trim $action.url "/" }}
                     <li class="navbar__item text-gray-700 hover:text-primary border-b border-solid border-gray-300 lg:border-0 py-3 px-3 mb-0 {{ if ne $action.style "link" }} navbar__item--btn{{ end }}{{ if eq $pageUrl $actionUrl }} is-active{{ end }}">
