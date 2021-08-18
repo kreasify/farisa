@@ -7,7 +7,7 @@
     }
 
     li {
-        @apply text-gray-50 leading-none hover:text-white mb-3;
+        @apply text-footer-text hover:text-primary mb-3;
 
         a {
             @apply hover:no-underline text-current capitalize;
