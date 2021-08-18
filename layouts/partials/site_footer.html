@@ -24,7 +24,7 @@
                 {{- if .Site.Data.theme.footer.has_social }}
                 <div class="footer__social-content text-footer-text-primary flex items-center justify-center lg:justify-end">
                     {{- range $social := .Site.Data.theme.footer.social_links }}
-                    {{- $include_dict := dict "social" $social }}
+                    {{- $include_dict := dict "social" $social "class"  }}
                     {{ partial "social.html" $include_dict }}
                     {{- end }}
                 </div>
