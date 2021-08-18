@@ -12,7 +12,7 @@ colors:
   heading: "#111827"
   heading_primary: "#374151"
   heading_secondary: "#9CA3AF"
-  menu_bg: "#DCEDC2"
+  menu_bg: "#ffffff"
   menu_bg_hover: "#FFDAB9"
   submenu_bg: "#FFED99"
   submenu_bg_hover: "#F08FC0"
