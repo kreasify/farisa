@@ -1,7 +1,7 @@
 /* Site Footer
 /* ---------------------------------------------------------- */
 
-.widget__footer-menu {
+.widget__menu {
     .navbar__menu {
         @apply list-none pl-0;
     }
