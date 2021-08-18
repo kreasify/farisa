@@ -19,7 +19,7 @@ colors:
   menu_text: "#A03C78"
   menu_text_hover: "#AC66CC"
   submenu_text: "#F08FC0"
-  submenu_text_hover: "#F87171"
+  submenu_text_hover: "#F08FC0"
   header: "#ffffff"
   header_primary: "#fafafa"
   header_secondary: "#f5f5f5"
