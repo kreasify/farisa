@@ -41,10 +41,10 @@
         @apply whitespace-nowrap list-none py-0 pl-0 my-2;
 
         li {
-            @apply mb-0;
+            @apply text-menu-text hover:text-menu-text hover:bg-submenu-bg mb-0;
 
             a {
-                @apply block text-menu-text hover:text-menu-text hover:bg-submenu-bg capitalize leading-none py-2 px-8;
+                @apply text-current block capitalize leading-none py-2 px-8;
             }
         }
     }
