@@ -2,6 +2,6 @@
 {{ $class := .class | default "text-footer-text hover:text-footer-text-secondary" }}
 <a class="navbar__social-link {{ $class }} hover:no-underline ml-3 {{ with $social.css }} {{ . }}{{ end }}" href="{{ $social.url | relURL }}" title="{{ $social.label }}" {{ if $social.new_window }}target="_blank" rel="noopener"{{ end }}>
     {{ with $social.icon }}
-    {{ partial (printf "svg/icon-%s.svg" .) (dict "class" "w-6 h-6 text-current") }}
+    {{ partial (printf "svg/icon-%s.svg" .) (dict "class" "w-4 h-4 text-current") }}
     {{ end }}
 </a>
