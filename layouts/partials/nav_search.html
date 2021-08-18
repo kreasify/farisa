@@ -1,6 +1,6 @@
 <div class="nav__search flex items-center">
     <button class="nav__search-button w-full h-full flex items-center justify-end bg-transparent border-0 cursor-pointer text-gray-600 hover:text-primary hover:border-primary focus:outline-none lg:pr-4" @click="showSearch = !showSearch">
-        <span class="w-8 h-8 flex items-center justify-center {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-heading{{ end }} hover:text-primary" {{ if .Params.fixed_menu }}:class="{ 'text-gray-700 hover:text-gray-500': atTop, 'text-menu-text hover:text-menu-text-hover': !atTop }"{{ else }}:class="'text-menu-text hover:text-menu-text-hover'"{{ end }}>
+        <span class="w-8 h-8 flex items-center justify-center" {{ if .Params.fixed_menu }}:class="{ 'text-gray-700 hover:text-gray-500': atTop, 'text-menu-text hover:text-menu-text-hover': !atTop }"{{ else }}:class="'text-menu-text hover:text-menu-text-hover'"{{ end }}>
             {{ partial "svg/icon-search-interface.svg" (dict "class" "w-4 h-4 inline-block fill-current") }}
         </span>
         <span class="font-heading text-sm hidden lg:block pl-1 {{ if .Params.fixed_menu }}text-gray-700{{ else }}text-heading hover:text-heading-primary{{ end }}">Cari...</span>
