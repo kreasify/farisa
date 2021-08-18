@@ -72,7 +72,6 @@
     --banner-text-primary: #111827;
     --banner-text-secondary: #9CA3AF;
     --primary: {{ .Site.Data.theme.colors.primary | default "#111827" }};
-    --primary-hover: {{ .Site.Data.theme.colors.primary_hover | default "#F87171" }};
     --secondary: {{ .Site.Data.theme.colors.secondary | default "#6B7280" }};
     --primary-text: {{ .Site.Data.theme.colors.primary_text | default "#fafafa" }};
     --secondary-text: {{ .Site.Data.theme.colors.secondary_text | default "#fafafa" }};
