@@ -1,5 +1,5 @@
 {{- $site := .Site }}
-{{- $url := urls.Parse .Site.Data.theme.cdn.domain_name }}
+{{- $url := urls.Parse $.Site.Data.theme.cdn.domain_name }}
 {{- $image := .image }}
 {{- $alt := .alt_text | default "alt text" }}
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
@@ -12,7 +12,7 @@
 {{- $resizedxl := $imageResource.Fill "1280x549 webp" }}
 {{- $resized2xl := $imageResource.Fill "1536x658 webp" }}
 
-{{- if .Site.Data.theme.cdn.is_statically }}
+{{- if $.Site.Data.theme.cdn.is_statically }}
 <div class="image__wrapper relative aspect-w-4 aspect-h-3 lg:aspect-w-16 lg:aspect-h-9 xl:aspect-w-21 xl:aspect-h-9">
     <picture>
         <source media="min-width: 1536px)" data-srcset="https://cdn.statically.io/img/{{ $url.Host }}/q=100{{ $resized2xl.RelPermalink }}">
