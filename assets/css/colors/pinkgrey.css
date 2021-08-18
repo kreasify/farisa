@@ -12,7 +12,7 @@
     --header: #ffffff;
     --header-primary: #fafafa;
     --header-secondary: #f5f5f5;
-    --header-text: {{ $.Site.Data.theme.colors.header_text | default "#000000" }};
+    --header-text: {{ .Site.Data.theme.colors.header_text | default "#000000" }};
     --header-text-primary: #111827;
     --header-text-secondary: #F87171;
     --footer: #000000;
@@ -33,8 +33,8 @@
     --accent-text-primary: #fafafa;
     --hint-text: #E5E7EB;
     --border-color: #D1D5DB;
-    --font-heading: {{ $.Site.Data.theme.fonts.font_heading | default "Josefin Sans" }}, 'sans-serif';
-    --font-body: {{ $.Site.Data.theme.fonts.font_body | default "Lato" }}, 'sans-serif';
+    --font-heading: {{ .Site.Data.theme.fonts.font_heading | default "Josefin Sans" }}, 'sans-serif';
+    --font-body: {{ .Site.Data.theme.fonts.font_body | default "Lato" }}, 'sans-serif';
   }
   
   [data-theme="dark"] {
