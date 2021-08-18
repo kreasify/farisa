@@ -24,7 +24,7 @@ colors:
   header_text: "#000000"
   footer: "#ffffff"
   footer_primary: "#fafafa"
-  footer_secondary: "#D1D5DB"
+  footer_secondary: "#f5f5f5"
   footer_text: "#374151"
   footer_text_primary: "#6B7280"
   footer_text_secondary: "#9CA3AF"
