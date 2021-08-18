@@ -22,7 +22,7 @@
             </div>
             <div class="footer__social col-span-12 lg:col-span-6">
                 {{- if .Site.Data.theme.footer.has_social }}
-                <div class="footer__social-content text-footer-text flex items-center justify-center lg:justify-end">
+                <div class="footer__social-content text-footer-text  flex items-center justify-center lg:justify-end">
                     {{- range $social := .Site.Data.theme.footer.social_links }}
                     {{- $include_dict := dict "social" $social "class" "text-footer-text hover:text-footer-text-secondary" }}
                     {{ partial "social.html" $include_dict }}
