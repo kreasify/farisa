@@ -9,7 +9,7 @@
     --heading: {{ .Site.Data.theme.colors.heading | default "#111827" }};
     --heading-primary: {{ .Site.Data.theme.colors.heading_primary | default "#374151" }};
     --heading-secondary: {{ .Site.Data.theme.colors.heading_secondary | default "#9CA3AF" }};
-    --menu-bg: {{ .Site.Data.theme.colors.menu_bg | default "#ffffff" }};
+    --menu-bg: {{ .Site.Data.theme.colors.menu_bg | default "transparent" }};
     --menu-bg-hover: {{ .Site.Data.theme.colors.menu_bg_hover | default "#fafafa" }};
     --submenu-bg: {{ .Site.Data.theme.colors.submenu_bg | default "#f5f5f5" }};
     --submenu-bg-hover: {{ .Site.Data.theme.colors.submenu_bg_hover | default "#fafafa" }};
