@@ -19,8 +19,6 @@
     --submenu-text-hover: {{ .Site.Data.theme.colors.submenu_text_hover | default "#F87171" }};
     --header: {{ .Site.Data.theme.colors.header | default "#ffffff" }};
     --header-text: {{ .Site.Data.theme.colors.header_text | default "#000000" }};
-    --header-text-primary: {{ .Site.Data.theme.colors.header_text_primary | default "#111827" }};
-    --header-text-secondary: {{ .Site.Data.theme.colors.header_text_secondary | default "#F87171" }};
     --footer: {{ .Site.Data.theme.colors.footer | default "#000000" }};
     --footer-primary: {{ .Site.Data.theme.colors.footer_primary | default "#111111" }};
     --footer-secondary: {{ .Site.Data.theme.colors.footer_secondary | default "#949494" }};
