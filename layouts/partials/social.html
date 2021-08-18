@@ -1,5 +1,5 @@
 {{ $social := .social }}
-{{ $class := .class | default "text-gray-50 hover:text-gray-100" }}
+{{ $class := .class | default "text-footer-text hover:text-gray-100" }}
 <a class="navbar__social-link  hover:no-underline ml-3 {{ with $social.css }} {{ . }}{{ end }}" href="{{ $social.url | relURL }}" title="{{ $social.label }}" {{ if $social.new_window }}target="_blank" rel="noopener"{{ end }}>
     {{ with $social.icon }}
     {{ partial (printf "svg/icon-%s.svg" .) (dict "class" "w-6 h-6 text-current") }}
