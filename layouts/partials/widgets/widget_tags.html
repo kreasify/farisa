@@ -2,15 +2,15 @@
 {{- if gt (len $tags) 0 }}
 <section class="widget__tags col-span-3 lg:col-span-1 lg:pl-3 mb-6">
     <header class=" mb-4">
-        <h3 class="capitalize text-header-text font-heading  mb-0">tags</h3>
+        <h3 class="capitalize text-heading font-heading  mb-0">tags</h3>
     </header>
 	<ul class="widget__list list-none pl-0">
 		{{- range $name, $taxonomy := $tags }}
 		{{- with $.Site.GetPage (printf "/tags/%s" $name) }}
 		<li class="mb-2">
-			<a class="text-header-text-primary" href="{{ .RelPermalink }}" title="{{ .Title }}">{{- .Title }}</a>
+			<a class="text-heading-primary" href="{{ .RelPermalink }}" title="{{ .Title }}">{{- .Title }}</a>
 			{{- if .Site.Params.sidebar.is_tags_counter }}
-			<span class="text-sm text-header-text-primary">({{- $taxonomy.Count }})</span>
+			<span class="text-sm text-heading-primary">({{- $taxonomy.Count }})</span>
 			{{- end }}
 		</li>
 		{{- end }}
