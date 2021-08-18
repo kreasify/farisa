@@ -44,7 +44,7 @@
             @apply mb-0;
 
             a {
-                @apply block text-header-text hover:text-header-text-secondary capitalize hover:bg-header-secondary leading-none py-2 px-8;
+                @apply block text-menu-text hover:text-menu-text capitalize hover:bg-header-secondary leading-none py-2 px-8;
             }
         }
     }
