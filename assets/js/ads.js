@@ -10,7 +10,6 @@ document.addEventListener('alpine:init', () => {
             }
 
             let wrapper = this.$refs.related;
-             var navWrapper = document.querySelector(config.navWrapper);
 
         navWrapper.insertAdjacentHTML('beforeend', `
         <div id="nav__search" class="nav__search search search__desktop">
