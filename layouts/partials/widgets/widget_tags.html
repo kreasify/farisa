@@ -6,7 +6,7 @@
     </header>
 	<ul class="widget__list list-none pl-0">
 		{{- range $name, $taxonomy := $tags }}
-		{{- with .Site.GetPage (printf "/tags/%s" $name) }}
+		{{- with $.Site.GetPage (printf "/tags/%s" $name) }}
 		<li class="mb-2">
 			<a class="text-heading-primary" href="{{ .RelPermalink }}" title="{{ .Title }}">{{- .Title }}</a>
 			{{- if .Site.Params.sidebar.is_tags_counter }}
