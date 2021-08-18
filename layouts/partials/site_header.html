@@ -44,7 +44,7 @@
                                 {{- range .Site.Menus.main }}
                                 {{- if .HasChildren }}
                                 <li
-                                    class="has-submenu menu__item font-heading" {{ if $fixed_menu }}:class="{ 'text-gray-700 hover:text-gray-500': atTop, 'text-menu-text hover:text-header-text-primary bg-menu-bg hover:bg-menu-bg-hover': !atTop }"{{ else }}:class="'text-header-text hover:text-header-text-primary bg-menu-bg hover:bg-menu-bg-hover'"{{ end }}>
+                                    class="has-submenu menu__item font-heading" {{ if $fixed_menu }}:class="{ 'text-gray-700 hover:text-gray-500': atTop, 'text-menu-text hover:text-menu-text-hover bg-menu-bg hover:bg-menu-bg-hover': !atTop }"{{ else }}:class="'text-header-text hover:text-header-text-primary bg-menu-bg hover:bg-menu-bg-hover'"{{ end }}>
                                     <a class="menu__item-link" href="#">
                                         {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
                                         {{ partial "svg/icon-angle-down.svg" (dict "class" "w-3 h-3 fill-current text-current ml-2") }}
