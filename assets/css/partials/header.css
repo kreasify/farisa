@@ -22,7 +22,7 @@
     }
 
     li {
-        @apply text-menu-text  leading-none bg-menu-bg hover:bg-menu-bg-hover mb-0;
+        @apply text-menu-text hover: leading-none bg-menu-bg hover:bg-menu-bg-hover mb-0;
 
         a {
             @apply block hover:no-underline text-current capitalize py-2 px-6;
