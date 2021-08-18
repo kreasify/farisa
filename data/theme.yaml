@@ -79,8 +79,6 @@ footer:
           url: /kontak-kami
         - label: About
           url: /about
-        - label: Alamat
-          url: /alamat
     - type: widget_menu
       title: Bantuan
       links:
