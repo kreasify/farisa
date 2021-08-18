@@ -9,7 +9,7 @@ document.addEventListener('alpine:init', () => {
                 this.users = data;
             }
 
-            let wrapper = this.$refs.related
+            let wrapper = this.$refs.related;
             return person;
         }
     }))
