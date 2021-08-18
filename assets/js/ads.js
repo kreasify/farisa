@@ -12,6 +12,10 @@ document.addEventListener('alpine:init', () => {
             let wrapper = this.$refs.related;
 
         wrapper.insertAdjacentHTML('beforeend', `
+        <template x-for="color in users">
+            <li x-text="color.name + color.email"></li>
+        </template>
+
         <div id="nav__search" class="nav__search search search__desktop">
             <div class="search__box">
                 <div class="search__form">
