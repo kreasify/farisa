@@ -2,7 +2,7 @@
     <!-- The tabs navigation -->
     <nav class="border-b border-solid border-border-color mb-8">
         <a class="inline-block leading-none py-2 px-2"
-            :class="{ 'text-primary border-primary border-b-2 border-solid active': tab === 'description', 'text-body-text border-b-0': tab !== 'description' }"
+            :class="{ 'text-primary border-primary border-b border-solid active': tab === 'description', 'text-body-text border-b-0': tab !== 'description' }"
             @click.prevent="tab = 'description'; window.location.hash = 'description'" href="#">Description</a>
     </nav>
     <!-- The tabs content -->
