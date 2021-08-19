@@ -9,12 +9,12 @@ document.addEventListener('alpine:init', () => {
                 data = await response.json();
                 this.products = data.items;
             };
-            this.related();
+            this.relatedAd();
 
             return getProducts;
             
         },
-        related() {
+        relatedAd() {
             let wrapper = this.$refs.related;
 
         wrapper.insertAdjacentHTML('beforeend', `
