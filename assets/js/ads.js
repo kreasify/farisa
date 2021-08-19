@@ -18,7 +18,7 @@ document.addEventListener('alpine:init', () => {
             
         },
         relatedAd() {
-            let allProducts = [...this.related, ...getProducts];
+            let allProducts = [...this.related, ...this.roducts];
             let wrapper = this.$refs.related;
 
         wrapper.insertAdjacentHTML('beforeend', `
