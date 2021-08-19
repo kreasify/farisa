@@ -25,7 +25,7 @@ document.addEventListener('alpine:init', () => {
 
         wrapper.insertAdjacentHTML('beforeend', `
         <template x-for="(product, index) in allProducts()" :key="index">
-        <template x-if="index == 7 ">
+        <template x-if="index == 5 ">
         <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
             <div class="ads-item__image relative bg-body-primary">
                 <a class="ads-item__link" x-bind:href="product.url">
