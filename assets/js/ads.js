@@ -24,7 +24,7 @@ document.addEventListener('alpine:init', () => {
             let wrapper = this.$refs.related;
 
         wrapper.insertAdjacentHTML('beforeend', `
-        <template x-for="(product, index) in allProducts()" :key="index">
+        <template x-for="(product, index) in allProducts()" :key="product.title">
         <template x-if="index == 0 || index == 5 || index == 1 || index == 2 || index == 6">
         <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
             <div class="ads-item__image relative bg-body-primary">
