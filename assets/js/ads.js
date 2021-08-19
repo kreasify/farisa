@@ -23,7 +23,7 @@ document.addEventListener('alpine:init', () => {
             return allProducts;
         },
         randomProducts() {
-            let randomProducts = this.allProducts()[Math.floor(Math.random() * allProducts.length)];
+            let randomProducts = this.allProducts()[Math.floor(Math.random() * allProducts().length)];
 
             return allProducts;
         },
