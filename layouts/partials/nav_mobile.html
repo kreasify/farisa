@@ -9,7 +9,7 @@
        x-transition:leave-start="opacity-100 transform translate-x-0" 
        x-transition:leave-end="opacity-0 transform -translate-x-full">
     <nav id="menu" class="navbar py-2">
-        <ul class="navbar__menu menu" x-data="{ selectedMenu: null }">
+        <ul class="navbar__menu menu" x-data="{ selectedMenu: null }" data-turbolinks-permanent>
             {{- $current_page := . }}
             {{- range $index, $e := .Site.Menus.main }}
             {{- if .HasChildren }}
