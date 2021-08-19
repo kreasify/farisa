@@ -21,7 +21,7 @@ document.addEventListener('alpine:init', () => {
         <div class="related__ads pt-6">
             <div class="ads grid grid-cols-12 lg:grid-cols-10 gap-3 lg:gap-6">
                 <template x-for="(item, index) in products">
-                <div class="ads-item col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
+                <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                     <div class="ads-item__image relative bg-body-primary">
                         <a class="ads-item__link" x-bind:href="item.url">
                             <div class="responsive aspect-w-5 aspect-h-6">
