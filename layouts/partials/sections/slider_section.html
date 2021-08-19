@@ -1,7 +1,7 @@
 {{- $section := .section }}
 {{- $bounce := $section.is_animation }}
 {{- with $section.slides }}
-<div x-ref="splidejs" id="image-slider" class="splide relative group overflow-hidden" x-data="slider()" x-init='splide()'>
+<div x-ref="splidejs" id="image-slider" class="splide relative group overflow-hidden" x-data="slider()" x-init='splide()' >
     <div class="splide__track">
         <ul class="splide__list">
             {{- range . }}
