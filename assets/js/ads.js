@@ -44,9 +44,10 @@ document.addEventListener('alpine:init', () => {
                 </div>
                 </template>
             </div>
-            </div>
-            `);
-            return wrapper;
+        </div>
+        `);
+        
+        return wrapper;
         }
     }))
 })
