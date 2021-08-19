@@ -18,13 +18,13 @@
     {{- $slider := resources.Get "js/slider.js" }}
     {{- $checkout := resources.Get "js/checkout.js" }}
 
-    {{- $js := slice $lazysizes $minisearch $alpine $ads $header $shop | resources.Concat "js/main.js" }}
+    {{- $js := slice $turbo $lazysizes $minisearch $alpine $ads $header $shop | resources.Concat "js/main.js" }}
     {{- $js_min := $js | resources.Minify }}
 
     {{- if eq .Params.layout "advanced" }}
     {{- range $index, $section := .Params.sections }}
     {{- if $section.slides }}
-        {{- $js = slice $lazysizes $minisearch $splide $turbo $alpine $ads $header $slider $shop | resources.Concat "js/slider.js" }}
+        {{- $js = slice $turbo $lazysizes $minisearch $splide $turbo $alpine $ads $header $slider $shop | resources.Concat "js/slider.js" }}
         {{- $js_min = $js | resources.Minify }}
     {{- else }}
         {{- if eq $index 0 }}
