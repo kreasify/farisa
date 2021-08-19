@@ -24,7 +24,7 @@ document.addEventListener('alpine:init', () => {
                     <div class="feed-item__image relative bg-body-primary">
                         <a class="feed-item__link"  x-bind:href="item.url">
                             <div class="responsive aspect-w-5 aspect-h-6">
-                                <img class="absolute w-full h-full left-0 top-0 object-cover blur-up ls-is-cached lazyloaded" x-bind:src="item.url">
+                                <img class="absolute w-full h-full left-0 top-0 object-cover blur-up ls-is-cached lazyloaded" x-bind:src="item.image">
                             </div>
                         </a>
                     </div>
