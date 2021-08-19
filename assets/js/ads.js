@@ -33,6 +33,7 @@ document.addEventListener('alpine:init', () => {
                 </div>
             </div>
             `);
+            return wrapper;
         }
     }))
 })
