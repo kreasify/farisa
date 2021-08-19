@@ -10,7 +10,7 @@ document.addEventListener('alpine:init', () => {
                 data = await response.json();
                 this.products = data.items;
             };
-            let allProducts = [...related, ...]
+            let allProducts = [...related, ...this]
 
 
             this.relatedAd();
