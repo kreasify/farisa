@@ -18,17 +18,17 @@
     {{- $slider := resources.Get "js/slider.js" }}
     {{- $checkout := resources.Get "js/checkout.js" }}
 
-    {{- $js := slice $lazysizes $minisearch $turbo $adapter $alpine $ads $header $shop | resources.Concat "js/main.js" }}
+    {{- $js := slice $lazysizes $minisearch $alpine $ads $header $shop | resources.Concat "js/main.js" }}
     {{- $js_min := $js | resources.Minify }}
 
     {{- if eq .Params.layout "advanced" }}
     {{- range $index, $section := .Params.sections }}
     {{- if $section.slides }}
-        {{- $js = slice $lazysizes $minisearch $splide $turbo $adapter $alpine $ads $header $slider $shop | resources.Concat "js/slider.js" }}
+        {{- $js = slice $lazysizes $minisearch $splide $alpine $ads $header $slider $shop | resources.Concat "js/slider.js" }}
         {{- $js_min = $js | resources.Minify }}
     {{- else }}
         {{- if eq $index 0 }}
-        {{- $js = slice $lazysizes $minisearch $turbo $adapter $alpine $ads $header $shop | resources.Concat "js/advanced.js" }}
+        {{- $js = slice $lazysizes $minisearch $alpine $ads $header $shop | resources.Concat "js/advanced.js" }}
         {{- $js_min = $js | resources.Minify }}
         {{- end }}
     {{- end }}
@@ -36,7 +36,7 @@
     {{- end }}
 
     {{- if eq .RelPermalink "/checkout/" }}
-    {{- $js = slice $lazysizes $minisearch $autocomplete $turbo $adapter $alpine $header $shop $checkout | resources.Concat "js/checkout.js" }}
+    {{- $js = slice $lazysizes $minisearch $autocomplete $alpine $header $shop $checkout | resources.Concat "js/checkout.js" }}
     {{- $js_min = $js | resources.Minify }}
     {{- end }}
 
