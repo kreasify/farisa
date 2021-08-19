@@ -19,7 +19,7 @@ document.addEventListener('alpine:init', () => {
 
         wrapper.insertAdjacentHTML('beforeend', `
             <div class="grid grid-cols-12 lg:grid-cols-10 gap-3 lg:gap-6">
-                <template x-for="color in users.related">
+                <template x-for="color in users.items">
                 <li x-text="color.title + color.price"></li>
                 </template>
             </div>
