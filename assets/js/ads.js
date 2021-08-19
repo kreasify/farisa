@@ -29,7 +29,7 @@ document.addEventListener('alpine:init', () => {
                         </a>
                     </div>
                     <div class="feed-item__info py-3 px-2">
-                        <a class="feed-item__link" href="/lacy-scrunch-up-detail-top-light-brown/">
+                        <a class="feed-item__link" x-bind:href="item.url">
                             <h3 class="feed-item__title text-sm lg:text-base text-heading font-heading font-medium mb-1">Lacy Scrunch Up Detail Top Light Brown</h3>
                         </a>
                         <p class="feed-item__price mb-3">
