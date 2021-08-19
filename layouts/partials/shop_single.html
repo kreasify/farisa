@@ -24,9 +24,7 @@
                 whatsapp: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.shop_name }}
                 shop_name: {{ . | jsonify }},{{ end }}
             }; $store.shop.related = [ {{- with $related }}{{- range $index, $item := . }}{{ if $index }},{{ end }}
-            { title: {{ .Title | jsonify }},{{- if .Params.thumbnail }}
-            <div class="responsive aspect-w-5 aspect-h-6">
-            {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "resized" "224x269 Top webp" "fill" true "lazyload" .Site.Data.theme.lazysizes }}
+            { title: {{ .Title | jsonify }},{{- if .Params.thumbnail }}{{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "resized" "224x269 Top webp" "fill" true "lazyload" .Site.Data.theme.lazysizes }}
             {{ partial "functions/get_image.html" $include_dict }}
             </div>
             {{- end }}
