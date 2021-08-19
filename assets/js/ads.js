@@ -48,7 +48,7 @@ document.addEventListener('alpine:init', () => {
             </template>
         </div>
         </template>
-        <template x-if="index == 0 || index == 7 || index == 1 || index == 8 || index == 9">
+        <template x-if="index == 3 || index == 7 || index == 1 || index == 8 || index == 9">
         <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
             <div class="ads-item__image relative bg-body-primary">
                 <a class="ads-item__link" x-bind:href="product.url">
