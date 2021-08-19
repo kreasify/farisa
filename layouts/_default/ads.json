@@ -1,8 +1,6 @@
 {{ define "main" }}{
 "title": {{ .Site.Title | jsonify  }},
 "description": {{ .Description | jsonify  }},
-"home_page_url": {{.Site.BaseURL | jsonify}},
-"feed_url": {{ .RelPermalink | jsonify }},
 "items": [{{ range $index, $e := sort (where site.RegularPages "Type" "in" site.Params.mainSection) "Title" "asc" }}{{ if $index }},{{ end }}{
     "id": {{ $index | jsonify }},
 	"title": {{ .Title | jsonify }},
