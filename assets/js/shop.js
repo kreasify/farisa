@@ -105,7 +105,7 @@ document.addEventListener('alpine:init', () => {
             
         },
         related() {
-            let wrapper = this.$refs.related;
+            let wrapper = this.$refs.card;
 
             wrapper.insertAdjacentHTML('beforeend', `
             <template x-for="(item, index) in $store.shop.products">
