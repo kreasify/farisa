@@ -7,7 +7,7 @@ document.addEventListener('alpine:init', () => {
                 const response = await fetch('https://vitoko.netlify.app/ads/index.json')
                 if (! response.ok) alert(`Something went wrong: ${response.status} - ${response.statusText}`)
                 data = await response.json();
-                this.products = data;
+                this.products = data.items;
             };
             this.related();
 
