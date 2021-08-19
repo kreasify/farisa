@@ -18,7 +18,7 @@
     {{- $slider := resources.Get "js/slider.js" }}
     {{- $checkout := resources.Get "js/checkout.js" }}
 
-    {{- $js := slice $lazysizes $minisearch $turbo $alpine $ads $header $shop | resources.Concat "js/main.js" }}
+    {{- $js := slice $lazysizes $minisearch $alpine $ads $header $shop | resources.Concat "js/main.js" }}
     {{- $js_min := $js | resources.Minify }}
 
     {{- if eq .Params.layout "advanced" }}
