@@ -19,7 +19,7 @@ document.addEventListener('alpine:init', () => {
         },
         allProducts() {
             let allProducts = [...this.related, ...this.products];
-            let randomProducts = allProducts[Math.floor(Math.random() * allProducts.length)];
+            let randomProducts = this.related[Math.floor(Math.random() * allProducts.length)];
 
             return allProducts;
         },
