@@ -8,7 +8,7 @@
     "headline": "{{ $.Site.Title }},
     "author": {
         "@type": "Person",{{ if $.Site.Params.author }}
-        "name": "{{ $.Site.Params.author }}{{ end }}"
+        "name": "{{ $.Site.Params.author }}"{{ end }}
     },
     "publisher": {
       "@type": "Organization",
