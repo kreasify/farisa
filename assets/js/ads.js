@@ -23,7 +23,7 @@ document.addEventListener('alpine:init', () => {
 
         <template x-if="i == 3 || i == 6 || i == 9">
         <template x-for="(product, index) in products">
-        
+
         <template x-if="i == 3 || i == 6 || i == 9">
         <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
             <div class="ads-item__image relative bg-body-primary">
@@ -46,6 +46,7 @@ document.addEventListener('alpine:init', () => {
             </div>
             </template>
         </div>
+        </template>
         </template>
 
         </template>
