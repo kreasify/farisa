@@ -18,7 +18,7 @@ document.addEventListener('alpine:init', () => {
             
         },
         allProducts() {
-            let allProducts = [...this.related, ...this.roducts];
+            let allProducts = [...this.related, ...this.products];
 
             return allProducts;
         },
