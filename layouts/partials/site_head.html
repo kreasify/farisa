@@ -28,7 +28,7 @@
         {{- $js_min = $js | resources.Minify }}
     {{- else }}
         {{- if eq $index 0 }}
-        {{- $js = slice $lazysizes $minisearch $alpine $ads $header $shop | resources.Concat "js/advanced.js" }}
+        {{- $js = slice $lazysizes $minisearch $turbo $adapter $alpine $ads $header $shop | resources.Concat "js/advanced.js" }}
         {{- $js_min = $js | resources.Minify }}
         {{- end }}
     {{- end }}
