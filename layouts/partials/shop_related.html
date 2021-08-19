@@ -6,6 +6,7 @@
         {{- $related := .Site.RegularPages.Related . | first 5 }}
         {{- with $related }}
         {{- range . }}
+        {{- $include_dict := dict "section" $section "Site" $.Site }}
         {{- $component := print "sections/" $section.type ".html" }}
         {{ partial $component $include_dict }}
         {{ partial "shop_list_item" . }}
