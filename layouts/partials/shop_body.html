@@ -24,7 +24,7 @@
                         email: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.whatsapp }}
                         whatsapp: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.shop_name }}
                         shop_name: {{ . | jsonify }},{{ end }}
-                    }' data-turbolinks-permanent>
+                    }'>
     <h1 class="shop__title text-xl lg:text-3xl text-heading font-heading mb-2">
         <span class="shop__name">{{ .Title }}</span>
         {{- if gt $variantsCount 1 }}
