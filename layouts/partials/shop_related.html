@@ -1,6 +1,6 @@
 {{- $site := .Site }}
 {{- $related := .Site.RegularPages.Related . | first 5 }}
-<section x-data="ads" class="shop__related col-span-12 py-4 mb-6" x-init="$store.shop.related = [ {{- with $related }}{{- range $index, $el := . }}{{- if $index }},{{- end }}
+<section x-data="ads" class="shop__related col-span-12 py-4 mb-6" x-init="related = [ {{- with $related }}{{- range $index, $el := . }}{{- if $index }},{{- end }}
             { 
               title: {{ .Title | jsonify }},{{- if .Params.thumbnail }}{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( .Params.thumbnail | relURL )) }}{{- $resized := $imageResource.Fill "224x269 Top webp" }}
               image: {{ $resized.RelPermalink | jsonify }},{{- end }}{{- if isset .Params "badge" }}
