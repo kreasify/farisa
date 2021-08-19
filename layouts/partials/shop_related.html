@@ -7,7 +7,7 @@
         {{- with $related }}
         {{- range . }}
         {{- $include_dict := dict "class" "" "Site" $.Site }}
-        {{ partial "shop_list_item" . $include_dict }}
+        {{ partial "shop_list_item" $include_dict . }}
         {{- end }}
         {{- end }}
     </div>
