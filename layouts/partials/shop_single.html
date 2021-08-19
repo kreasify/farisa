@@ -23,7 +23,7 @@
                 email: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.whatsapp }}
                 whatsapp: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.shop_name }}
                 shop_name: {{ . | jsonify }},{{ end }}
-            }; $store.shop.related = [ {{- with $related }}{{- range $index, $item := . }}{{- if $index }},{{- end }}
+            }; $store.shop.related = [ {{- with $related }}{{- range $index, $el := . }}{{- if $index }},{{- end }}
             { 
               title: {{ .Title | jsonify }},{{- if .Params.thumbnail }}{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( .Params.thumbnail | relURL )) }}{{- $resized := $imageResource.Fill "224x269 Top webp" }}
               image: {{ $resized.RelPermalink | jsonify }},{{- end }}{{- if isset .Params "badge" }}
