@@ -1,7 +1,7 @@
 {{ define "main" }}{
 "title": {{ .Title | jsonify  }},
 "description": {{ .Description | jsonify  }},
-"items": [{{ range $index, $e := sort (where site.RegularPages "Type" "in" site.Params.mainSection) "Title" "asc" }}{{ if $index }},{{ end }}{
+"items": [{{ range $index, $e := sort (.Params.related) "Title" "asc" }}{{ if $index }},{{ end }}{
     "id": {{ $index | jsonify }},
 	"title": {{ .Title | jsonify }},
 	"url": {{ .Params.slug | relURL | jsonify }},
