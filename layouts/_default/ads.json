@@ -1,5 +1,4 @@
 {{ define "main" }}{
-"version": "https://jsonfeed.org/version/1",
 "title": {{ .Site.Title | jsonify  }},
 "description": {{ .Description | jsonify  }},
 "home_page_url": {{.Site.BaseURL | jsonify}},
