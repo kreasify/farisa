@@ -4,7 +4,7 @@
 "items": [{{ range $index, $e := sort (.Params.related) "Title" "asc" }}{{ if $index }},{{ end }}{
     "id": {{ $index | jsonify }},
 	"title": {{ .title | jsonify }},
-	"url": {{ .Pa | relURL | jsonify }},
+	"url": {{ .url | jsonify }},
 	"image": {{ .Params.thumbnail | relURL | jsonify }},{{ with .Params.variants }}{{ range first 1 . }}{{ if ne .discount "" }}
 	"promo": {{ lang.NumFmt 0 (add .price .discount) "- , ." | jsonify }},{{ end }}
 	"price": {{ lang.NumFmt 0 .price "- , ." | jsonify }},{{ end }}{{ end }}
