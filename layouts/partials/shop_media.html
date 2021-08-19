@@ -1,5 +1,5 @@
 {{- $site := .Site }}
-<div x-data="{activeSlide: 0}" class="shop__media col-span-12 lg:col-span-6 lg:py-4">
+<div x-data="{activeSlide: 0}" class="shop__media col-span-12 lg:col-span-6 lg:py-4" data-turbolinks-permanent>
     <div class="shop__slider relative flex group overflow-hidden">
         {{- if .Params.images }}
         {{- range $index, $img := .Params.images }}
