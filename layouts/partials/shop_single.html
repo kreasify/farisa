@@ -30,7 +30,7 @@
               badgeColor: {{ .Params.badge_color | jsonify }},{{ end }}{{- with .Params.variants }}{{ range first 1 . }}{{- if .discount }}
               discount: {{ lang.NumFmt 0 (add .price .discount) "- , ." | jsonify }},{{ end }}{{ if .price }}
               price: {{ lang.NumFmt 0 .price "- , ." | jsonify }},{{ end }}
-              url: {{ .RelPermalink }}
+              url: {{ .RelPermalink }},
               {{- end }}{{- end }}
             }{{- end }}{{- end }} ]'>
     {{ partial "breadcrumb.html" . }}
