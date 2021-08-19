@@ -6,7 +6,7 @@
 	"title": {{ .title | jsonify }},
 	"url": {{ .url | jsonify }},
 	"image": {{ .image | jsonify }},
-	"promo": {{ lang.NumFmt 0 (add .price .discount) "- , ." | jsonify }},
+	"promo": {{ .promo | jsonify }},
 	"price": {{ lang.NumFmt 0 .price "- , ." | jsonify }},
     "date_published": {{ .Date.Format "2006-02-01T15:04:05-0700" | jsonify }}
 }{{ end }}]
