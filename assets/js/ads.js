@@ -9,6 +9,7 @@ document.addEventListener('alpine:init', () => {
                 data = await response.json();
                 this.users = data;
             }
+            this.related();
            
             
 
