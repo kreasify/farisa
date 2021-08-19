@@ -1,13 +1,13 @@
 document.addEventListener('alpine:init', () => {
     Alpine.data('ads', () => ({
-        users: [],
+        products: [],
         nama: 'vitoko',
         init() {
             const person = async () => {
                 const response = await fetch('https://vitoko.netlify.app/ads/index.json')
                 if (! response.ok) alert(`Something went wrong: ${response.status} - ${response.statusText}`)
                 data = await response.json();
-                this.users = data;
+                this.products = data;
             };
             this.related();
 
@@ -19,7 +19,7 @@ document.addEventListener('alpine:init', () => {
 
         wrapper.insertAdjacentHTML('beforeend', `
             <div class="grid grid-cols-12 lg:grid-cols-10 gap-3 lg:gap-6">
-                <template x-for="color in users.items">
+                <template x-for="color in products.items">
                 <div class="feed-item col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                     <div class="feed-item__image relative bg-body-primary">
                         <a class="feed-item__link" href="/lacy-scrunch-up-detail-top-light-brown/">
