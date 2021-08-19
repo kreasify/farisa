@@ -65,8 +65,8 @@
     "url": "{{ .RelPermalink }}",
     "name": "{{ .Title }}",
     "author": {
-    "@type": "Person",
-    "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}"
+        "@type": "Person",
+        "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}"
     },
     "description": "{{ $.Site.Params.description }}",
     }
