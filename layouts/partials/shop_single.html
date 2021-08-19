@@ -33,3 +33,10 @@
     </div>
     {{ partial "shop_related.html" . }}
 </div>
+
+        {{- $related := .Site.RegularPages.Related . | first 5 }}
+        {{- with $related }}
+        {{- range . }}
+        {{ partial "shop_list_item" . }}
+        {{- end }}
+        {{- end }}
