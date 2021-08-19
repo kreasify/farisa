@@ -37,10 +37,3 @@
     </div>
     {{ partial "shop_related.html" . }}
 </div>
-
-        
-        {{- with $related }}
-        {{- range . }}
-        {{ partial "shop_list_item" . }}
-        {{- end }}
-        {{- end }}
