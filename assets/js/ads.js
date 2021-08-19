@@ -20,7 +20,7 @@ document.addEventListener('alpine:init', () => {
 
         wrapper.insertAdjacentHTML('beforeend', `
         <template x-for="(product, index) in products">
-        
+
         <template x-for="(product, index) in products">
         <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
             <div class="ads-item__image relative bg-body-primary">
@@ -43,6 +43,8 @@ document.addEventListener('alpine:init', () => {
             </div>
             </template>
         </div>
+        </template>
+
         </template>
         `);
         
