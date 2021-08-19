@@ -28,7 +28,8 @@
               image: {{ $resized.RelPermalink | jsonify }},{{- end }}{{- if isset .Params "badge" }}
               badge: {{ index .Params "badge" | jsonify }},{{- end }}{{ if .Params.badge_color }}
               badgeColor: {{ .Params.badge_color | jsonify }},{{ end }}{{- with .Params.variants }}{{ range first 1 . }}{{- if .discount }}
-              discount: {{ lang.NumFmt 0 (add .price .discount) "- , ." | jsonify }},{{ if .price }}{{ end }}
+              discount: {{ lang.NumFmt 0 (add .price .discount) "- , ." | jsonify }},{{ end }}{{ if .price }}
+              {{ lang.NumFmt 0 .price "- , ." }}{{ end }}
               {{- end }}{{- end }}
             }{{- end }}{{- end }} ]'>
     {{ partial "breadcrumb.html" . }}
