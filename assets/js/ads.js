@@ -10,7 +10,7 @@ document.addEventListener('alpine:init', () => {
                 this.users = data;
             }
            
-            // let produk = `${person.map((product, index) => product.summary = '<li>' + product.name + product.email + '</li>')}`;
+            
 
             return person;
             
