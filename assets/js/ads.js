@@ -3,7 +3,7 @@ document.addEventListener('alpine:init', () => {
         products: [],
         nama: 'vitoko',
         init() {
-            const person = async () => {
+            const getProducts = async () => {
                 const response = await fetch('https://vitoko.netlify.app/ads/index.json')
                 if (! response.ok) alert(`Something went wrong: ${response.status} - ${response.statusText}`)
                 data = await response.json();
@@ -11,7 +11,7 @@ document.addEventListener('alpine:init', () => {
             };
             this.related();
 
-            return person;
+            return getProducts;
             
         },
         related() {
