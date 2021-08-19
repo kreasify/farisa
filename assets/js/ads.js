@@ -1,6 +1,7 @@
 document.addEventListener('alpine:init', () => {
     Alpine.data('ads', () => ({
         users: [],
+        nama: vitoko,
         init() {
             const person = async () => {
                 const response = await fetch('https://jsonplaceholder.typicode.com/users')
