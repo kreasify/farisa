@@ -4,10 +4,6 @@
 "description": {{ .Description | jsonify  }},
 "home_page_url": {{.Site.BaseURL | jsonify}},
 "feed_url": {{ .RelPermalink | jsonify }},
-"user_comment": "",{{ if .Site.Author }}
-"author": {
-    "name": {{ .Site.Author.name | jsonify }}
-},{{ end }}
 "items": [{{ range $index, $e := sort (where site.RegularPages "Type" "in" site.Params.mainSection) "Title" "asc" }}{{ if $index }},{{ end }}{
     "id": {{ $index | jsonify }},
 	"title": {{ .Title | jsonify }},
