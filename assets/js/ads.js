@@ -32,9 +32,11 @@ document.addEventListener('alpine:init', () => {
                         <a class="feed-item__link" x-bind:href="item.url">
                             <h3 class="feed-item__title text-sm lg:text-base text-heading font-heading font-medium mb-1" x-text="item.title"></h3>
                         </a>
+                        <template x-if="open">
                         <p class="feed-item__price mb-3">
                             <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="item.price"></span>
                         </p>
+                        </template>
                     </div>
                 </div>
                 </template>
