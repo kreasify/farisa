@@ -9,7 +9,6 @@ document.addEventListener('alpine:init', () => {
         baseURL: "https://hijacket.site",
         items: {},
         user: {},
-        related: [],
         activeVariant: 0,
         count: 1,
         carts,
