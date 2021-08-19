@@ -10,11 +10,9 @@ document.addEventListener('alpine:init', () => {
                 data = await response.json();
                 this.products = data.items;
             };
-
             this.relatedAd();
 
             return getProducts;
-            
         },
         allProducts() {
             let allProducts = [...this.related, ...this.products];
