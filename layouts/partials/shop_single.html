@@ -28,7 +28,8 @@
               image: {{ $resized.RelPermalink | jsonify }},{{- end }}{{- if isset .Params "badge" }}
               badge: {{ index .Params "badge" | jsonify }},{{- end }}{{ if .Params.badge_color }}
               badgeColor: {{ .Params.badge_color | jsonify }},{{ end }}{{- with .Params.variants }}{{ range first 1 . }}
-              
+              {{- end }}
+        {{- end }}
             }{{- end }}{{- end }} ]'>
     {{ partial "breadcrumb.html" . }}
     <div class="shop__detail grid grid-cols-12 lg:gap-8">
