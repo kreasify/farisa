@@ -86,7 +86,7 @@ document.addEventListener('alpine:init', () => {
             storage.set({
             carts: this.carts
             })
-            console.log(this.carts)
+            // console.log(this.carts)
         },
     })
 })
