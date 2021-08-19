@@ -9,7 +9,7 @@
         {{- $include_dict := dict "class" "" "Site" $.Site }}
         {{- $component := print "sections/" $section.type ".html" }}
         {{ partial $component $include_dict }}
-        {{ partial "shop_list_item" . }}
+        {{ partial "shop_list_item" $include_dict . }}
         {{- end }}
         {{- end }}
     </div>
