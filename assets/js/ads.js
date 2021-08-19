@@ -22,7 +22,7 @@ document.addEventListener('alpine:init', () => {
                 <template x-for="(item, index) in products">
                 <div class="feed-item col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                     <div class="feed-item__image relative bg-body-primary">
-                        <a class="feed-item__link" href="/lacy-scrunch-up-detail-top-light-brown/">
+                        <a class="feed-item__link"  x-bind:href="/lacy-scrunch-up-detail-top-light-brown/">
                             <div class="responsive aspect-w-5 aspect-h-6">
                                 <img class="absolute w-full h-full left-0 top-0 object-cover blur-up ls-is-cached lazyloaded" data-src="https://cdn.statically.io/img/vitoko.netlify.app/q=100/uploads/lacy-scrunch-up-detail-top-light-brown_brown_1_huf1b0433ab880e45b05aa0f154b43bef9_63018_224x269_fill_q100_h2_box_top.webp" alt="Lacy Scrunch Up Detail Top Light Brown" src="https://cdn.statically.io/img/vitoko.netlify.app/q=100/uploads/lacy-scrunch-up-detail-top-light-brown_brown_1_huf1b0433ab880e45b05aa0f154b43bef9_63018_224x269_fill_q100_h2_box_top.webp">
                             </div>
