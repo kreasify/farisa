@@ -16,7 +16,7 @@ document.addEventListener('alpine:init', () => {
             
         },
         related() {
-                        let wrapper = this.$refs.related;
+            let wrapper = this.$refs.related;
 
         wrapper.insertAdjacentHTML('beforeend', `
             <div class="nav__cart">
