@@ -18,7 +18,7 @@ document.addEventListener('alpine:init', () => {
             let wrapper = this.$refs.related;
 
         wrapper.insertAdjacentHTML('beforeend', `
-            <div class="nav__cart">
+            <div class="grid grid-cols-12 lg:grid-cols-10 gap-3 lg:gap-6">
                 <template x-for="color in users">
                 <li x-text="color.name + color.email"></li>
                 </template>
