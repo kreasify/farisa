@@ -3,7 +3,7 @@ title: "Ads"
 description: "Ads api"
 slug: "ads"
 items:
- - name: 
+ - name: Hijacket Avia Grey
 layout: ads
 outputs:
   - JSON
