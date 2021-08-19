@@ -15,6 +15,6 @@ document.addEventListener('alpine:init', () => {
             // return person;
             return wrapper;
         },
-        
+        related()
     }))
 })
