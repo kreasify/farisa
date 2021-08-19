@@ -14,7 +14,7 @@ document.addEventListener('alpine:init', () => {
 
         wrapper.insertAdjacentHTML('beforeend', `
             <template x-for="color in person">
-            <li x-text="color.name + color.email">kuu</li>
+            <li x-text="color.name + color.email + 'yaa' ">kuu</li>
             </template>
             <div class="nav__cart">
                 <button class="nav__cart-button">
