@@ -106,7 +106,7 @@ document.addEventListener('alpine:init', () => {
         },
         related() {
             // let wrapper = this.$refs.ads;
-            const wrapper = document.querySelector(".shop__content");
+            let wrapper = document.querySelector(".shop__content");
 
             wrapper.insertAdjacentHTML('beforeend', `
             <template x-for="(item, index) in $store.shop.products">
