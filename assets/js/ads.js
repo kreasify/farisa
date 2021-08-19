@@ -17,8 +17,8 @@ document.addEventListener('alpine:init', () => {
             return getProducts;
             
         },
-        allProduct() {
-
+        allProducts() {
+            let allProducts = [...this.related, ...this.roducts];
         },
         relatedAd() {
             let wrapper = this.$refs.related;
