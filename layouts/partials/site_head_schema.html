@@ -3,24 +3,24 @@
   {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": "{{ .Site.BaseURL }}",
-    "name": "{{ .Site.Title }}",
-    "headline": "{{ .Site.Title }},
+    "url": "{{ $.Site.BaseURL }}",
+    "name": "{{ $.Site.Title }}",
+    "headline": "{{ $.Site.Title }},
     "author": {
     "@type": "Person",
-    "name": "{{ if .Site.Params.author }}{{ .Site.Params.author }}{{ end }}"
+    "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "{{ if .Site.Params.author }}{{ .Site.Params.author }}{{ end }}",
+      "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ if .Site.Data.theme.header.logo }}{{ .Site.Data.theme.header.logo }}{{ end }}",
+        "url": "{{ if $.Site.Data.theme.header.logo }}{{ $.Site.Data.theme.header.logo }}{{ end }}",
         "width": 156,
         "height": 32
       }
     },
-      "description": "{{ .Site.Params.description }}"
+      "description": "{{ $.Site.Params.description }}"
   }
 </script>
 {{- else }}
@@ -36,7 +36,7 @@
     "headline": "{{ .Title }}",
     "image": {
     "@type": "ImageObject",
-    "url": "{{ if .Site.Data.theme.header.logo }}{{ .Site.Data.theme.header.logo | relURL }}{{ end }}",
+    "url": "{{ if $.Site.Data.theme.header.logo }}{{ $.Site.Data.theme.header.logo | relURL }}{{ end }}",
     "height": 600,
     "width": 420
     },
@@ -44,14 +44,14 @@
     "dateModified": "{{ time .Date }}",
     "author": {
       "@type": "Person",
-      "name": "{{ if .Site.Params.author }}{{ .Site.Params.author }}{{ end }}"
+      "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}"
     },
     "publisher": {
     "@type": "Organization",
-    "name": "{{ .Site.Title }}",
+    "name": "{{ $.Site.Title }}",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ if .Site.Data.theme.header.logo }}{{ .Site.Data.theme.header.logo }}{{ end }}",
+      "url": "{{ if $.Site.Data.theme.header.logo }}{{ $.Site.Data.theme.header.logo }}{{ end }}",
       "width": 156,
       "height": 32
     }
@@ -66,9 +66,9 @@
     "name": "{{ .Title }}",
     "author": {
     "@type": "Person",
-    "name": "{{ if .Site.Params.author }}{{ .Site.Params.author }}{{ end }}"
+    "name": "{{ if $.Site.Params.author }}{{ $.Site.Params.author }}{{ end }}"
     },
-    "description": "{{ .Site.Params.description }}",
+    "description": "{{ $.Site.Params.description }}",
     }
 {{- end }}
 </script>
