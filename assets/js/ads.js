@@ -10,8 +10,6 @@ document.addEventListener('alpine:init', () => {
                 this.users = data;
             };
             this.related();
-           
-            
 
             return person;
             
