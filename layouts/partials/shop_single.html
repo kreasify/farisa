@@ -26,7 +26,7 @@
             }; $store.shop.related = [ {{- with $related }}{{- range $index, $item := . }}{{ if $index }},{{ end }}
             { title: {{ .Title | jsonify }},{{- if .Params.thumbnail }}{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( .Params.thumbnail | relURL )) }}{{- $resized := $imageResource.Fill "224x269 Top webp" }}
               image: {{ $resized.RelPermalink | jsonify }},{{- end }}{{- if isset .Params "badge" }}
-              badge: {{ index .Params "badge" }},{{- end }}
+              badge: {{ index .Params "badge" | jsonify }},{{- end }}
             }{{- end }}{{- end }} ]'>
     {{ partial "breadcrumb.html" . }}
     <div class="shop__detail grid grid-cols-12 lg:gap-8">
