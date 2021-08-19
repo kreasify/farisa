@@ -19,6 +19,7 @@ document.addEventListener('alpine:init', () => {
         },
         allProducts() {
             let allProducts = [...this.related, ...this.roducts];
+            
             return allProducts;
         },
         relatedAd() {
