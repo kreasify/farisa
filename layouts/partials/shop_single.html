@@ -23,7 +23,7 @@
                 email: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.whatsapp }}
                 whatsapp: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.shop_name }}
                 shop_name: {{ . | jsonify }},{{ end }}
-            }; $store.shop.related = [{{- with $related }}{{- range . }}
+            }; $store.shop.related = [ {{- with $related }}{{- range . }}
         {{- end }}
         {{- end }}]'>
     {{ partial "breadcrumb.html" . }}
