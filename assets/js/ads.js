@@ -21,7 +21,7 @@ document.addEventListener('alpine:init', () => {
             let allProducts = [...this.related, ...this.products];
             let randomProducts = allProducts[Math.floor(Math.random() * allProducts.length)];
 
-            return allProducts;
+            return randomProducts;
         },
         relatedAd() {
             let wrapper = this.$refs.related;
