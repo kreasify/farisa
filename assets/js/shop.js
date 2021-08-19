@@ -5,7 +5,8 @@ document.addEventListener('alpine:init', () => {
     } = storage.get();
 
     Alpine.store('shop', {
-        baseURL: {{ $.Site.BaseURL }},
+        // baseURL: {{ .Site.BaseURL }},
+        baseURL: "https://hijacket.site",
         items: {},
         user: {},
         activeVariant: 0,
