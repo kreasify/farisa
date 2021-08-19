@@ -19,14 +19,14 @@ document.addEventListener('alpine:init', () => {
         },
         allProducts() {
             let allProducts = [...this.related, ...this.roducts];
-            
+
             return allProducts;
         },
         relatedAd() {
             let wrapper = this.$refs.related;
 
         wrapper.insertAdjacentHTML('beforeend', `
-        <template x-for="(product, index) in products">
+        <template x-for="(product, index) in allProducts()">
         <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
             <div class="ads-item__image relative bg-body-primary">
                 <a class="ads-item__link" x-bind:href="product.url">
