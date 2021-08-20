@@ -88,6 +88,7 @@ document.addEventListener('alpine:init', () => {
             })
             // console.log(this.carts)
         },
+        products: [],
         init() {
             const getProducts = async () => {
                 const response = await fetch('https://vitoko.netlify.app/ads/index.json')
