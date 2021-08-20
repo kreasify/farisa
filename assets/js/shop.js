@@ -99,7 +99,6 @@ document.addEventListener('alpine:init', () => {
             return getProducts;
         },
         ad() {
-            // let wrapper = this.$refs.related1;
             const wrapper = document.querySelector(".shop__content");
 
         wrapper.insertAdjacentHTML('afterend', `
