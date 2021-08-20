@@ -67,6 +67,7 @@ document.addEventListener('alpine:init', () => {
                         <div class="responsive aspect-w-5 aspect-h-6">
                             template x-if="adFirst.image">
                             <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="adFirst.image">
+                            </template>
                         </div>
                     </a>
                 </div>
