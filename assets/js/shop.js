@@ -88,6 +88,19 @@ document.addEventListener('alpine:init', () => {
             })
             // console.log(this.carts)
         },
+        init() {
+            const getProducts = async () => {
+                const response = await fetch('https://vitoko.netlify.app/ads/index.json')
+                if (! response.ok) alert(`Something went wrong: ${response.status} - ${response.statusText}`)
+                data = await response.json();
+                this.products = data.items;
+                this.adProduct = data.items[0];
+            };
+            this.relatedAd();
+            // this.ad();
+           
+            return getProducts;
+        },
         ad() {
             // let wrapper = this.$refs.related1;
             const wrapper = document.querySelector(".shop__content");
