@@ -3,7 +3,8 @@
 <section x-data="related" class="shop__related col-span-12 py-4 mb-6"
     x-init='related = [ {{- with $related }}{{- range $index, $el := . }}{{- if $index }},{{- end }}
         { 
-            title: {{ .Title | jsonify }},{{- if .Params.thumbnail }}{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( .Params.thumbnail | relURL )) }}{{- $resized := $imageResource.Fill "224x269 Top webp" }}
+            title: {{ .Title | jsonify }},
+            id: {{ }}{{- if .Params.thumbnail }}{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( .Params.thumbnail | relURL )) }}{{- $resized := $imageResource.Fill "224x269 Top webp" }}
             image: {{ $resized.RelPermalink | jsonify }},{{- end }}{{- if isset .Params "badge" }}
             badge: {{ index .Params "badge" | jsonify }},{{- end }}{{ if .Params.badge_color }}
             badgeColor: {{ .Params.badge_color | jsonify }},{{ end }}{{- with .Params.variants }}{{ range first 1 . }}{{- if .discount }}
