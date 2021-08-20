@@ -1,6 +1,6 @@
 {{- $site := .Site }}
 {{- $post := .post }}
-{{- $related := .related false}}
+{{- $related := .related | default false}}
 {{- $ref := .ref | default false }}
 {{- $ref_id := "" }}
 {{- $index := .index }}
