@@ -103,7 +103,8 @@ document.addEventListener('alpine:init', () => {
             return getProducts;
         },
         relatedAd() {
-            let wrapper = this.$refs.related;
+            // let wrapper = this.$refs.related;
+            const wrapper = document.querySelector(".card-item-1");
 
         wrapper.insertAdjacentHTML('beforeend', `
         <template x-for="(product, index) in products" :key="product.title">
