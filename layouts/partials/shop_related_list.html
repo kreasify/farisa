@@ -1,7 +1,7 @@
 {{- $site := .Site }}
 {{- $post := .post }}
 {{- $class := .class | default "" }}
-{{- $item_class := "" }}
+{{- $item_class := $class }}
 {{- $index := .index }}
 {{- if eq (mod $index 2) 0 }}
 {{- $item_class =  print $class "-" $index }}
