@@ -15,7 +15,7 @@ document.addEventListener('alpine:init', () => {
                 this.adFirst = data.items[0];
             };
             // this.relatedAd();
-            this.ad();
+            this.adFirst();
            
             return getProducts;
         },
