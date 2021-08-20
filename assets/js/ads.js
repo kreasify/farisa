@@ -49,7 +49,7 @@ document.addEventListener('alpine:init', () => {
         return wrapper;
         },
         ad() {
-            let wrapper = this.$refs.related-one;
+            let wrapper = this.$refs.relatedone;
 
         wrapper.insertAdjacentHTML('beforeend', `
         <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
