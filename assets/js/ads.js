@@ -73,7 +73,7 @@ document.addEventListener('alpine:init', () => {
                 <div class="ads-item__image relative bg-body-primary">
                     <a class="ads-item__link" x-bind:href="adFirst.url">
                         <div class="responsive aspect-w-5 aspect-h-6">
-                            <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="adFirst.image">
+                            <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="products[myIndex].image">
                         </div>
                     </a>
                 </div>
