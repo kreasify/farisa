@@ -16,7 +16,6 @@ document.addEventListener('alpine:init', () => {
 
             return getProducts;
         },
-
         relatedAd() {
             let wrapper = this.$refs.related;
 
