@@ -25,13 +25,13 @@ document.addEventListener('alpine:init', () => {
             const wrapper_2_after = document.querySelector(".related-item-4");
 
             // this.relatedAd();
-            // if (this.related[0].id == "0" ) {
+            // if (wrapper_1) {
             //     this.myIndex = 1;
             // }
             // if (wrapper_2) {
             //     this.myIndex = 2;
             // }
-            this.myIndex = 2;
+            // this.myIndex = 2;
 
             // for (let i = 0; i < this.related.length; i++) {
             // this.myIndex += this.related[i].id;
