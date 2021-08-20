@@ -18,7 +18,7 @@ document.addEventListener('alpine:init', () => {
                 this.adThird = data.items[2];
                 this.adFourth = data.items[3];
             };
-            const wrapper_1 = document.querySelector(".related-item-0");
+            const wrapper_0 = document.querySelector(".related-item-0");
             const wrapper = document.querySelector(".related-item-2");
 
             // this.relatedAd();
