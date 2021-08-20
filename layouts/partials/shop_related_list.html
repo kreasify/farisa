@@ -3,7 +3,7 @@
 {{- $ref := .ref | default false }}
 {{- $index := .index }}
 {{- if $ref }}
-
+{{- if eq $index  }}
 
 {{- end }}
 <div {{- if $ref }}x-ref="{{ $ref }}"{{- end }}
