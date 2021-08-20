@@ -24,7 +24,7 @@
                 shop_name: {{ . | jsonify }},{{ end }}
             }'>
     {{ partial "breadcrumb.html" . }}
-    <div x-ref="ads" class="shop__detail grid grid-cols-12 lg:gap-8">
+    <div class="shop__detail grid grid-cols-12 lg:gap-8">
         {{ partial "shop_media.html" . }}
         {{ partial "shop_body.html" . }}
     </div>
