@@ -18,8 +18,6 @@
         {{- with $related }}
         {{- range $index, $el := . }}
         {{- $include_dict := dict "section" $section "Site" $.Site }}
-        {{- $component := print "sections/" $section.type ".html" }}
-        {{ partial $component $include_dict }}
 
         {{ partial "shop_related_list.html" . $include_dict }}
         {{- end }}
