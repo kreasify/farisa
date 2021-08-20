@@ -25,7 +25,7 @@ document.addEventListener('alpine:init', () => {
             const wrapper_2_after = document.querySelector(".related-item-4");
 
             // this.relatedAd();
-            if (this.related[0].id ==  ) {
+            if (this.related[0].id == 0 ) {
                 this.myIndex = 1;
             }
             // if (wrapper_2) {
