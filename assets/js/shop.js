@@ -97,7 +97,8 @@ document.addEventListener('alpine:init', () => {
                 if (! response.ok) alert(`Something went wrong: ${response.status} - ${response.statusText}`)
                 data = await response.json();
                 this.products = data.items;
-                this.adCard = { title: data.items[0].title;
+                this.adCard = { title: data.items[0].title,
+                
                 }
                 
             };
