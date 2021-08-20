@@ -71,7 +71,7 @@ document.addEventListener('alpine:init', () => {
             wrapper.insertAdjacentHTML(position, `
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                 <div class="ads-item__image relative bg-body-primary">
-                    <a class="ads-item__link" x-bind:href="adFirst.url">
+                    <a class="ads-item__link" x-bind:href="products[myIndex].url">
                         <div class="responsive aspect-w-5 aspect-h-6">
                             <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="products[myIndex].image">
                         </div>
