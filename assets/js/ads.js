@@ -56,36 +56,6 @@ document.addEventListener('alpine:init', () => {
         
             return wrapper;
         },
-        adCard(wrapper, position) {
-            // let wrapper = this.$refs.related1;
-            // const wrapper = document.querySelector(".related-item-0");
-
-            wrapper.insertAdjacentHTML(position, `
-            <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
-                <div class="ads-item__image relative bg-body-primary">
-                    <a class="ads-item__link" x-bind:href="products[myIndex].url">
-                        <div class="responsive aspect-w-5 aspect-h-6">
-                            <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="products[myIndex].image">
-                        </div>
-                    </a>
-                </div>
-                <template x-if="products[myIndex].title">
-                <div class="ads-item__info py-3 px-2">
-                    <a class="ads-item__link" x-bind:href="products[myIndex].url">
-                        <h3 class="ads-item__title text-sm lg:text-base text-heading font-heading font-medium mb-1" x-text="products[myIndex].title"></h3>
-                    </a>
-                    <template x-if="products[myIndex].price">
-                    <p class="ads-item__price mb-3">
-                        <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="products[myIndex].price"></span>
-                    </p>
-                    </template>
-                </div>
-                </template>
-            </div>
-            `);
-            
-            return wrapper;
-        },
         adFirst() {
             // let wrapper = this.$refs.related1;
             const wrapper = document.querySelector(".related-item-0");
