@@ -3,7 +3,9 @@
 {{- $ref := .ref | default false }}
 {{- $index := .index }}
 {{- if $ref }}
-{{- if eq $index  }}
+{{- if eq $index 2 }}
+
+{{- end }}
 
 {{- end }}
 <div {{- if $ref }}x-ref="{{ $ref }}"{{- end }}
