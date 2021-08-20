@@ -28,9 +28,9 @@ document.addEventListener('alpine:init', () => {
             // if (this.related[0].id == "0" ) {
             //     this.myIndex = 1;
             // }
-            if (wrapper_2) {
-                this.myIndex = 2;
-            }
+            // if (wrapper_2) {
+            //     this.myIndex = 2;
+            // }
 
             // for (let i = 0; i < this.related.length; i++) {
             // this.myIndex += this.related[i].id;
