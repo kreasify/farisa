@@ -88,7 +88,7 @@ document.addEventListener('alpine:init', () => {
                 <template x-if="products[myIndex].title">
                 <div class="ads-item__info py-3 px-2">
                     <a class="ads-item__link" x-bind:href="products[myIndex].url">
-                        <h3 class="ads-item__title text-sm lg:text-base text-heading font-heading font-medium mb-1" x-text="products[related[]].title"></h3>
+                        <h3 class="ads-item__title text-sm lg:text-base text-heading font-heading font-medium mb-1" x-text="products[related[0]].title"></h3>
                     </a>
                     <template x-if="products[myIndex].price">
                     <p class="ads-item__price mb-3">
