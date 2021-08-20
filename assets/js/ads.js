@@ -26,7 +26,7 @@ document.addEventListener('alpine:init', () => {
             if (wrapper_1) {
                 this.myIndex = 1;
             }
-            if (wrapper_1) {
+            if (wrapper_2) {
                 this.myIndex = 1;
             }
 
