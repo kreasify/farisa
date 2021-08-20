@@ -115,7 +115,7 @@ document.addEventListener('alpine:init', () => {
                         </div>
                     </a>
                 </div>
-                <p></p>
+                <p x-text=""></p>
                 <template x-if="adFirst.title">
                 <div class="ads-item__info py-3 px-2">
                     <a class="ads-item__link" x-bind:href="adFirst.url">
