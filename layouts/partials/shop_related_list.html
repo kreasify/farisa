@@ -4,7 +4,7 @@
 {{- $ref := .ref | default false }}
 {{- $ref_id := "" }}
 {{- $index := .index }}
-{{- if eq $index 1 }}
+{{- if eq (sub $index 2) 0 }}
 {{- $ref = true }}
 {{- $ref_id = "relatedOne" }}
 {{- end }}
