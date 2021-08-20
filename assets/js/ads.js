@@ -47,7 +47,7 @@ document.addEventListener('alpine:init', () => {
             </template>
             `);
         
-        return wrapper;
+            return wrapper;
         },
         ad() {
             // let wrapper = this.$refs.related1;
