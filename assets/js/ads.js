@@ -36,10 +36,10 @@ document.addEventListener('alpine:init', () => {
 
             this.adCard(wrapper_0, 'afterend');
 
-            this.adFirst();
-            this.adSecond();
-            this.adThird();
-            this.adFourth();
+            // this.adFirst();
+            // this.adSecond();
+            // this.adThird();
+            // this.adFourth();
            
             return getProducts;
         },
