@@ -48,9 +48,9 @@ document.addEventListener('alpine:init', () => {
         return wrapper;
         },
         ad() {
-            let wrapper = this.$refs.related;
+            let wrapper = this.$refs.related-1;
 
-        wrapper.insertAdjacentHTML('beforeend', `
+        wrapper.insertAdjacentHTML('afterend', `
         <template x-for="(product, index) in products" :key="product.title">
         <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
             <div class="ads-item__image relative bg-body-primary">
