@@ -47,7 +47,7 @@ document.addEventListener('alpine:init', () => {
         
         return wrapper;
         },
-        relatedAd() {
+        ad() {
             let wrapper = this.$refs.related;
 
         wrapper.insertAdjacentHTML('beforeend', `
