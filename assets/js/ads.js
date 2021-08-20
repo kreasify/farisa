@@ -16,7 +16,7 @@ document.addEventListener('alpine:init', () => {
             // this.relatedAd();
             this.ad();
             for (let i = 0; i < data.items.length; i++) {
-            this.adCard += data.items[i];
+            this.ad();
             }
 
             return getProducts;
