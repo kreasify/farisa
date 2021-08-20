@@ -105,7 +105,7 @@ document.addEventListener('alpine:init', () => {
                 
             };
             this.ad();
-            this.mycard = this.adProduct.title;
+            this.mycard = "kuu";
            
             return getProducts;
         },
