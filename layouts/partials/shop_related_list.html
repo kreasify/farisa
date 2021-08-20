@@ -2,7 +2,6 @@
 {{- $post := .post }}
 {{- $related := .related | default false}}
 {{- $ref := .ref | default false }}
-{{- $ref_id := "" }}
 {{- $index := .index }}
 {{- if eq (mod $index 2) 0 }}
 {{- $ref = true }}
