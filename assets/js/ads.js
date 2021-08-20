@@ -77,14 +77,14 @@ document.addEventListener('alpine:init', () => {
                         </div>
                     </a>
                 </div>
-                <template x-if="adFirst.title">
+                <template x-if="products[myIndex].title">
                 <div class="ads-item__info py-3 px-2">
-                    <a class="ads-item__link" x-bind:href="adFirst.url">
+                    <a class="ads-item__link" x-bind:href="products[myIndex].url">
                         <h3 class="ads-item__title text-sm lg:text-base text-heading font-heading font-medium mb-1" x-text="products[myIndex].title"></h3>
                     </a>
-                    <template x-if="adFirst.price">
+                    <template x-if="products[myIndex].price">
                     <p class="ads-item__price mb-3">
-                        <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="adFirst.price"></span>
+                        <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="products[myIndex].price"></span>
                     </p>
                     </template>
                 </div>
