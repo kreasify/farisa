@@ -12,7 +12,7 @@ document.addEventListener('alpine:init', () => {
                 this.products = data.items;
                 this.adProduct = data.items[1];
             };
-            this.relatedAd();
+            // this.relatedAd();
 
             return getProducts;
         },
