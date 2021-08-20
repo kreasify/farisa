@@ -21,9 +21,9 @@ document.addEventListener('alpine:init', () => {
             const wrapper = document.querySelector(".related-item-2");
 
             // this.relatedAd();
-            if (wrapper) {
-                this.myindex = 1;
-            }
+            // if (wrapper) {
+            //     this.myindex = 1;
+            // }
             this.adCard(wrapper);
             
             this.adFirst();
