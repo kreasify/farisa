@@ -4,7 +4,7 @@
 {{- $item_class := "" }}
 {{- $index := .index }}
 {{- if eq (mod $index 2) 0 }}
-{{- $item_class =  print $class $index }}
+{{- $item_class =  print $class "-" $index }}
 {{- end }}
 
 <div class="{{- $item_class }} col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
