@@ -18,6 +18,7 @@ document.addEventListener('alpine:init', () => {
             };
             // this.relatedAd();
             this.adFirst();
+            this.adSecond();
            
             return getProducts;
         },
