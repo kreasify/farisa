@@ -146,16 +146,16 @@ document.addEventListener('alpine:init', () => {
             
             return wrapper;
         },
-        adThird() {
+        adFourth.() {
             // let wrapper = this.$refs.related1;
             const wrapper = document.querySelector(".related-item-4");
 
             wrapper.insertAdjacentHTML('beforebegin', `
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                 <div class="ads-item__image relative bg-body-primary">
-                    <a class="ads-item__link" x-bind:href="adThird.url">
+                    <a class="ads-item__link" x-bind:href="adFourth..url">
                         <div class="responsive aspect-w-5 aspect-h-6">
-                            <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="adThird.image">
+                            <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="adFourth..image">
                         </div>
                     </a>
                 </div>
