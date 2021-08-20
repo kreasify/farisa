@@ -3,6 +3,7 @@ document.addEventListener('alpine:init', () => {
         related: [],
         products: [],
         adProduct: {},
+        adCard: {},
         nama: 'vitoko',
         init() {
             const getProducts = async () => {
@@ -98,7 +99,7 @@ document.addEventListener('alpine:init', () => {
                 </a>
                 <template x-if="adProduct.price">
                 <p class="ads-item__price mb-3">
-                    <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="adProduct.price"></span>
+                    <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="adCard.price"></span>
                 </p>
                 </template>
             </div>
