@@ -56,7 +56,7 @@ document.addEventListener('alpine:init', () => {
         
             return wrapper;
         },
-        adCard() {
+        adCard(index) {
             // let wrapper = this.$refs.related1;
             const wrapper = document.querySelector(".related-item-0");
 
