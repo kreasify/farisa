@@ -2,7 +2,7 @@ document.addEventListener('alpine:init', () => {
     Alpine.data('related', () => ({
         related: [],
         products: [],
-        
+        adproduct: {},
         nama: 'vitoko',
         init() {
             const getProducts = async () => {
