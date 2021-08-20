@@ -32,7 +32,7 @@ document.addEventListener('alpine:init', () => {
             //     this.myIndex = 2;
             // }
 
-            for (let i = 0; i < cars.length; i++) {
+            for (let i = 0; i < this.related.length; i++) {
             text += cars[i] + "<br>";
             }
 
