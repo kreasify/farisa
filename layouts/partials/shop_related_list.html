@@ -1,6 +1,6 @@
 {{- $site := .Site }}
 {{- $post := .post }}
-{{- $ref := .ref }}
+{{- $ref := .ref | default false }}
 {{- $index := .index }}
 <div {{- if $ref }}x-ref="{{ $ref }}"{{- end }}
     class="card-item col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
