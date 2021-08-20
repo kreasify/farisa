@@ -2,6 +2,7 @@ document.addEventListener('alpine:init', () => {
     Alpine.data('related', () => ({
         related: [],
         products: [],
+        
         nama: 'vitoko',
         init() {
             const getProducts = async () => {
@@ -14,7 +15,7 @@ document.addEventListener('alpine:init', () => {
 
             return getProducts;
         },
-        
+
         relatedAd() {
             let wrapper = this.$refs.related;
 
