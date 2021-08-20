@@ -166,7 +166,7 @@ document.addEventListener('alpine:init', () => {
                     </a>
                     <template x-if="adFourth.price">
                     <p class="ads-item__price mb-3">
-                        <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="adThird.price"></span>
+                        <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="adFourth.price"></span>
                     </p>
                     </template>
                 </div>
