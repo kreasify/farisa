@@ -2,7 +2,7 @@
 {{- $post := .post }}
 {{- $ref := .ref | default false }}
 {{- $index := .index }}
-{{- if or (eq $index 1) (eq $index 3) (eq $index 4) (eq $index 9) }}
+{{- if or (eq $index 1) (eq $index 3) (eq $index 4) }}
 {{- $ref = true }}
 {{- end }}
 
