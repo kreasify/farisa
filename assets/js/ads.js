@@ -22,7 +22,7 @@ document.addEventListener('alpine:init', () => {
             const wrapper = document.querySelector(".related-item-2");
 
             // this.relatedAd();
-            if (wrapper) {
+            if (wrapper_1) {
                 this.myIndex = 1;
             }
             this.adCard(wrapper_1, 'afterend');
