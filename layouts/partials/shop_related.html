@@ -17,7 +17,7 @@
     <div x-ref="related" class="grid grid-cols-12 lg:grid-cols-10 gap-3 lg:gap-6">
         {{- with $related }}
         {{- range $index, $el := . }}
-        {{- $include_dict := dict "index" "ref" " " "Site" $.Site }}
+        {{- $include_dict := dict "index" $index "ref" " " "Site" $.Site }}
         {{ partial "shop_related_list.html" $include_dict }}
         {{- end }}
         {{- end }}
