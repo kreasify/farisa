@@ -13,7 +13,7 @@ document.addEventListener('alpine:init', () => {
                 this.products = data.items;
                 this.adProduct = data.items[0];
 
-                for (let i = 0; i < cars.length; i++) {
+                for (let i = 0; i < data.items.length; i++) {
                 text += cars[i] + "<br>";
                 }
             };
