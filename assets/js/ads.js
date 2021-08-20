@@ -32,7 +32,9 @@ document.addEventListener('alpine:init', () => {
             //     this.myIndex = 2;
             // }
 
-            
+            for (let i = 0; i < cars.length; i++) {
+            text += cars[i] + "<br>";
+            }
 
             this.adCard(wrapper_0, 'afterend');
 
