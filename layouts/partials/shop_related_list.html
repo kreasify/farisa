@@ -6,7 +6,7 @@
 {{- $index := .index }}
 {{- if eq (mod $index 2) 0 }}
 {{- $ref = true }}
-{{- $ref_id = "relatedOne" }}
+{{- $ref_id = "related" }}
 {{- end }}
 
 <div{{- if $related }}{{- if $ref }} x-ref="{{ $ref_id }}"{{- end }}{{- end }}
