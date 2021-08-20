@@ -89,7 +89,8 @@ document.addEventListener('alpine:init', () => {
             // console.log(this.carts)
         },
         products: [],
-        adCard: {},
+        adCard: { title: null,
+        },
         mycard: "liiii",
         init() {
             const getProducts = async () => {
