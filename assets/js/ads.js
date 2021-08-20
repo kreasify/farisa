@@ -37,7 +37,6 @@ document.addEventListener('alpine:init', () => {
             this.adCard(wrapper_0, 'afterend');
             this.adCard(wrapper_1, 'afterend');
 
-            this.adSecond();
             this.adThird();
             this.adFourth();
            
