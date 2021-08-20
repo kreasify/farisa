@@ -21,7 +21,7 @@
         {{- $component := print "sections/" $section.type ".html" }}
         {{ partial $component $include_dict }}
 
-        {{ partial "shop_related_list.html" . }}
+        {{ partial "shop_related_list.html" . $include_dict }}
         {{- end }}
         {{- end }}
     </div>
