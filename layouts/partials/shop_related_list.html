@@ -1,7 +1,7 @@
 {{- $site := .Site }}
 {{- $post := .post }}
 {{- $related := .related | default false}}
-{{- $ref := .ref | default false }}
+{{- $ref := .class | default false }}
 {{- $index := .index }}
 {{- if eq (mod $index 2) 0 }}
 {{- $ref = true }}
