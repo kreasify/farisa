@@ -30,7 +30,7 @@ document.addEventListener('alpine:init', () => {
                 this.myIndex = 2;
             else if (wrapper_3) {
                 this.myIndex = 3;
-            else (wrapper_1) {
+            else {
                 this.myIndex = 1;
             }
             this.adCard(wrapper_0, 'afterend');
