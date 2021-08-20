@@ -14,7 +14,7 @@ document.addEventListener('alpine:init', () => {
                 this.adProduct = data.items[0];
 
                 for (let i = 0; i < data.items.length; i++) {
-                thid.adCard += cars[i] + "<br>";
+                thid.adCard += data.items[i] + "<br>";
                 }
             };
             // this.relatedAd();
