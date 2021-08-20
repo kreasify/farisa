@@ -50,6 +50,7 @@ document.addEventListener('alpine:init', () => {
         
             return wrapper;
         },
+        
         ad() {
             // let wrapper = this.$refs.related1;
             const wrapper = document.querySelector(".card-item-1");
