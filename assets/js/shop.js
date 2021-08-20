@@ -115,6 +115,7 @@ document.addEventListener('alpine:init', () => {
                     </div>
                 </a>
             </div>
+            <p>lalakai</p>
             <template x-if="$store.shop.adProduct.title">
             <div class="ads-item__info py-3 px-2">
                 <a class="ads-item__link" x-bind:href="$store.shop.adProduct.url">
