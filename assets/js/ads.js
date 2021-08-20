@@ -20,6 +20,7 @@ document.addEventListener('alpine:init', () => {
             };
             const wrapper_0 = document.querySelector(".related-item-0");
             const wrapper_1 = document.querySelector(".related-item-2");
+            const wrapper_1 = document.querySelector(".related-item-4");
 
             // this.relatedAd();
             if (wrapper_1) {
