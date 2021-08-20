@@ -6,7 +6,7 @@
 {{- $ref = true }}
 {{- end }}
 
-<div {{- if $ref }}x-ref="related-{{ $index }}"{{- end }}
+<div {{- if $ref }} x-ref="related-{{ $index }}"{{- end }}
     class="card-item col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
     <div class="card-item__image relative bg-body-primary"> 
         <a class="card-item__link" href="{{ $post.RelPermalink }}">
