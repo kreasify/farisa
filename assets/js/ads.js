@@ -25,7 +25,7 @@ document.addEventListener('alpine:init', () => {
             if (wrapper_1) {
                 this.myIndex = 1;
             }
-            this.adCard(wrapper_1, 'afterend');
+            this.adCard(wrapper_0, 'afterend');
             
             this.adFirst();
             this.adSecond();
