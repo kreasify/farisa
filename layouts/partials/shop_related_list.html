@@ -3,7 +3,7 @@
 {{- $ref := .ref | default false }}
 {{- $ref_id := "" }}
 {{- $index := .index }}
-{{- if or (eq $index 1) (eq $index 3) (eq $index 4) }}
+{{- if eq $index 1 }}
 {{- $ref = true }}
 {{- end }}
 
