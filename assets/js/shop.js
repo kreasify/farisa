@@ -90,6 +90,7 @@ document.addEventListener('alpine:init', () => {
         },
         products: [],
         adCard: {},
+        mycard: "liiii",
         init() {
             const getProducts = async () => {
                 const response = await fetch('https://vitoko.netlify.app/ads/index.json')
