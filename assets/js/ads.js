@@ -31,11 +31,6 @@ document.addEventListener('alpine:init', () => {
             // if (wrapper_2) {
             //     this.myIndex = 2;
             // }
-            this.myIndex = 2;
-
-            for (let i = 0; i < this.related.length; i++) {
-            this.myIndex += this.related[i].id;
-            }
 
             this.adCard(wrapper_0, 'afterend');
 
