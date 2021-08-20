@@ -12,6 +12,10 @@ document.addEventListener('alpine:init', () => {
                 data = await response.json();
                 this.products = data.items;
                 this.adProduct = data.items[0];
+
+                for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
             };
             // this.relatedAd();
             this.ad();
