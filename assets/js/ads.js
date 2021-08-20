@@ -19,21 +19,6 @@ document.addEventListener('alpine:init', () => {
                 this.adThird = data.items[2];
                 this.adFourth = data.items[3];
             };
-            const wrapper_0 = document.querySelector(".related-item-0");
-            const wrapper_1 = document.querySelector(".related-item-2");
-            const wrapper_2 = document.querySelector(".related-item-4");
-            const wrapper_2_after = document.querySelector(".related-item-4");
-
-            // this.relatedAd();
-            if (this.related[0].id == 0) {
-                this.myIndex = 1;
-            }
-            // if (wrapper_2) {
-            //     this.myIndex = 2;
-            // }
-
-            this.adCard(wrapper_0, 'afterend');
-
             this.adFirst();
             this.adSecond();
             this.adThird();
