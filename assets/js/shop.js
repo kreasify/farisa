@@ -100,7 +100,7 @@ document.addEventListener('alpine:init', () => {
                 this.adCard = { title: data.items[0].title,
                                 image: data.items[0].image,
                                 price: data.items[0].price,
-                                url: data.items[0]
+                                url: data.items[0].
                 }
                 
             };
