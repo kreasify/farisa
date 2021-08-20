@@ -33,7 +33,7 @@ document.addEventListener('alpine:init', () => {
             // }
 
             for (let i = 0; i < this.related.length; i++) {
-            this.myIndex += this.related[i];
+            this.myIndex += this.related[i].id;
             }
 
             this.adCard(wrapper_0, 'afterend');
