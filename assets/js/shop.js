@@ -98,7 +98,8 @@ document.addEventListener('alpine:init', () => {
                 data = await response.json();
                 this.products = data.items;
                 this.adCard = { title: data.items[0].title,
-                                image: data.items
+                                image: data.items[0].image,
+                                
                 }
                 
             };
