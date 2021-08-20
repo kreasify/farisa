@@ -24,6 +24,7 @@ document.addEventListener('alpine:init', () => {
             this.adFirst();
             this.adSecond();
             this.adThird();
+            this.adFourth();
            
             return getProducts;
         },
