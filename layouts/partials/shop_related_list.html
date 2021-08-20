@@ -2,7 +2,7 @@
 {{- $post := .post }}
 {{- $class := .class | default "" }}
 {{- $item_class := $class }}
-{{- $mod := .mod | dafault "2" }}
+{{- $mod := .mod | default 2 }}
 {{- $index := .index }}
 {{- if eq (mod $index 2) 0 }}
 {{- $item_class =  print $class "-" $index }}
