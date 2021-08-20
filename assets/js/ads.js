@@ -115,7 +115,7 @@ document.addEventListener('alpine:init', () => {
         },
         adThird() {
             // let wrapper = this.$refs.related1;
-            const wrapper = document.querySelector(".related-item-2");
+            const wrapper = document.querySelector(".related-item-4");
 
             wrapper.insertAdjacentHTML('afterend', `
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
