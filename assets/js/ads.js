@@ -3,7 +3,7 @@ document.addEventListener('alpine:init', () => {
         related: [],
         products: [],
         adProduct: {},
-        adCard: {},
+        adFirst: {},
         nama: 'vitoko',
         init() {
             const getProducts = async () => {
