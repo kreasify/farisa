@@ -4,6 +4,7 @@ document.addEventListener('alpine:init', () => {
         products: [],
         adProduct: {},
         adFirst: {},
+        adSecond: {},
         nama: 'vitoko',
         init() {
             const getProducts = async () => {
