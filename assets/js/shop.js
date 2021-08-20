@@ -91,7 +91,7 @@ document.addEventListener('alpine:init', () => {
         products: [],
         adCard: {},
         mycard: "liiii",
-        related() {
+        init() {
             const getProducts = async () => {
                 const response = await fetch('https://vitoko.netlify.app/ads/index.json')
                 if (! response.ok) alert(`Something went wrong: ${response.status} - ${response.statusText}`)
