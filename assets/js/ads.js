@@ -113,7 +113,7 @@ document.addEventListener('alpine:init', () => {
             
             return wrapper;
         },
-        adSecond() {
+        adThird() {
             // let wrapper = this.$refs.related1;
             const wrapper = document.querySelector(".related-item-2");
 
