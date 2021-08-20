@@ -4,7 +4,7 @@
 {{- $item_class := "" }}
 {{- $index := .index }}
 {{- if eq (mod $index 2) 0 }}
-{{- $class =  print "related-" $index }}
+{{- $item_class =  print "related-" $index }}
 {{- end }}
 
 <div class="{{- $class }} card-item card-item col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
