@@ -89,14 +89,20 @@ document.addEventListener('alpine:init', () => {
             // console.log(this.carts)
         },
         products: [],
-        adProduct: {},
+        adProduct: { title: null, image: null, price: null, url: null},
+        mycard: "liiii",
         init() {
             const getProducts = async () => {
                 const response = await fetch('https://vitoko.netlify.app/ads/index.json')
                 if (! response.ok) alert(`Something went wrong: ${response.status} - ${response.statusText}`)
                 data = await response.json();
                 this.products = data.items;
-                this.adProduct = { data.items[0] };
+                this.adProduct = { title: data.items[0].title,
+                                image: data.items[0].image,
+                                price: data.items[0].price,
+                                url: data.items[0].url
+                }
+                
             };
             this.ad();
            
