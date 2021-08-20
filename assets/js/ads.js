@@ -18,7 +18,7 @@ document.addEventListener('alpine:init', () => {
                 this.adFourth = data.items[3];
             };
             // this.relatedAd();
-            this.adCard()
+            this.adCard(0)
             this.adFirst();
             this.adSecond();
             this.adThird();
