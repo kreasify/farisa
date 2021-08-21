@@ -64,7 +64,6 @@
   {{- if or (eq $show_recent false) (lt $shop_count $recent_count) }}
   {{- $shop_count = add $shop_count 1 }}
 
-
   {{- $include_dict := dict "post" $shop "index" $index "class" "feed-item" "mod" 4 "Site" $.Site }}
   {{- partial "shop_list_item.html" $include_dict }}
   {{- end }}
