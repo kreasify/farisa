@@ -6,7 +6,7 @@
             <h1 class="section__title text-gray-700 text-xl lg:text-3xl capitalize">{{ .Title }}</h1>
         </div>
     </div>
-    {{- end }}
+   
     <div class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-4"> 
         <div class="list__card mb-6">
             <div class="grid {{ range $index, $li := first 1 .Data.Pages }}{{ if eq .Section "shop" }}grid-cols-12 lg:grid-cols-10{{else}}grid-cols-12{{end}}{{end}} gap-3 lg:gap-6 mb-8">
