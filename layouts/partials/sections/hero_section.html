@@ -27,19 +27,19 @@
 
 {{- if eq $section.design.aspect_ratio "21:2" }}
 {{- $aspect_ratio = $resize_21_2.RelPermalink }}
-{{- $aspect_ratio_class = "aspect-w-21 aspect-h-2" }}
+{{- $aspect_ratio_class = "aspect-w-21 aspect-h-9 lg:aspect-w-21 lg:aspect-h-2" }}
 {{- else if eq $section.design.aspect_ratio "21:3" }}
 {{- $aspect_ratio = $resize_21_3.RelPermalink }}
-{{- $aspect_ratio_class = "aspect-w-21 aspect-h-3" }}
+{{- $aspect_ratio_class = "aspect-w-21 aspect-h-9 lg:aspect-w-21 lg:aspect-h-3" }}
 {{- else if eq $section.design.aspect_ratio "21:4" }}
 {{- $aspect_ratio = $resize_21_4.RelPermalink }}
-{{- $aspect_ratio_class = "aspect-w-21 aspect-h-4" }}
+{{- $aspect_ratio_class = "aspect-w-21 aspect-h-9 lg:aspect-w-21 lg:aspect-h-4" }}
 {{- else if eq $section.design.aspect_ratio "21:9" }}
 {{- $aspect_ratio = $resize_21_9.RelPermalink }}
 {{- $aspect_ratio_class = "aspect-w-21 aspect-h-9" }}
 {{- else }}
 {{- $aspect_ratio = $resize_21_2.RelPermalink }}
-{{- $aspect_ratio_class = "aspect-w-21 aspect-h-2" }}
+{{- $aspect_ratio_class = "aspect-w-21 aspect-h-9 lg:aspect-w-21 lg:aspect-h-2" }}
 {{- end }}
 
 {{- $style = printf "%sbackground-image: %s url('%s');" $style $darken $aspect_ratio }}
