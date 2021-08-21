@@ -1,5 +1,4 @@
 {{- define "content" -}}
-{{- $site := .Site }}
 <main id="site-main" class="site__main page-list bg-body" x-data="pages">
     {{- if .Params.sections }}
     {{- range $section := .Params.sections }}
