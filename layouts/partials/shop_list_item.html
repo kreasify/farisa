@@ -1,26 +1,34 @@
 {{- $site := .Site }}
-<div
-    class="feed-item col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
-    <div class="feed-item__image relative bg-body-primary"> 
-        <a class="feed-item__link" href="{{ .RelPermalink }}">
-            {{- if .Params.thumbnail }}
+{{- $post := .post }}
+{{- $class := .class | default "" }}
+{{- $item_class := $class }}
+{{- $mod := .mod | default 2 }}
+{{- $index := .index }}
+{{- if eq (mod $index $mod) 0 }}
+{{- $item_class =  print $class "-" $index }}
+{{- end }}
+
+<div class="{{- $item_class }} col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
+    <div class="card-item__image relative bg-body-primary"> 
+        <a class="card-item__link" href="{{ $post.RelPermalink }}">
+            {{- if $post.Params.thumbnail }}
             <div class="responsive aspect-w-5 aspect-h-6">
-            {{- $include_dict := dict "image" .Params.thumbnail "alt_text" .Title "Site" .Site "resized" "224x269 Top webp" "fill" true "lazyload" .Site.Data.theme.lazysizes }}
+            {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" .Title "Site" .Site "resized" "224x269 Top webp" "fill" true "lazyload" .Site.Data.theme.lazysizes }}
             {{ partial "functions/get_image.html" $include_dict }}
             </div>
             {{- end }}
         </a>
-        {{- if isset .Params "badge" }}
+        {{- if isset $post.Params "badge" }}
         <span
-            class="feed-item__badge absolute text-sm text-white rounded-sm top-2 left-2 px-2" {{ if .Params.badge_color }}style="background-color: {{ .Params.badge_color }}"{{ end }}>{{ index .Params "badge" }}</span>
+            class="card-item__badge absolute text-sm text-white rounded-sm top-2 left-2 px-2" {{ if $post.Params.badge_color }}style="background-color: {{ $post.Params.badge_color }}"{{ end }}>{{ index $post.Params "badge" }}</span>
         {{- end }}
     </div>
-    <div class="feed-item__info py-3 px-2">
-        <a class="feed-item__link" href="{{ .RelPermalink }}">
-            <h3 class="feed-item__title text-sm lg:text-base text-heading font-heading font-medium mb-1">{{ .Title }}</h3>
+    <div class="card-item__info py-3 px-2">
+        <a class="card-item__link" href="{{ $post.RelPermalink }}">
+            <h3 class="card-item__title text-sm lg:text-base text-heading font-heading font-medium mb-1">{{ $post.Title }}</h3>
         </a>
-        {{- with .Params.variants }}{{- range first 1 . }}
-        <p class="feed-item__price mb-3">
+        {{- with $post.Params.variants }}{{- range first 1 . }}
+        <p class="card-item__price mb-3">
             {{- if .discount }}
             <del class="block lg:inline-block text-heading-secondary text-xs lg:text-base lg:mr-2">Rp {{ lang.NumFmt 0 (add .price .discount) "- , ." }}</del>
             {{- end }}
