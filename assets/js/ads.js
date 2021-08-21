@@ -205,20 +205,20 @@ document.addEventListener('alpine:init', () => {
             wrapper.insertAdjacentHTML('afterend', `
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                 <div class="ads-item__image relative bg-body-primary">
-                    <a class="ads-item__link" x-bind:href="adFourth.url">
+                    <a class="ads-item__link" x-bind:href="adFifth.url">
                         <div class="responsive aspect-w-5 aspect-h-6">
-                            <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="adFourth.image">
+                            <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="adFifth.image">
                         </div>
                     </a>
                 </div>
-                <template x-if="adFourth.title">
+                <template x-if="adFifth.title">
                 <div class="ads-item__info py-3 px-2">
-                    <a class="ads-item__link" x-bind:href="adFourth.url">
-                        <h3 class="ads-item__title text-sm lg:text-base text-heading font-heading font-medium mb-1" x-text="adFourth.title"></h3>
+                    <a class="ads-item__link" x-bind:href="adFifth.url">
+                        <h3 class="ads-item__title text-sm lg:text-base text-heading font-heading font-medium mb-1" x-text="adFifth.title"></h3>
                     </a>
-                    <template x-if="adFourth.price">
+                    <template x-if="adFifth.price">
                     <p class="ads-item__price mb-3">
-                        <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="adFourth.price"></span>
+                        <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="adFifth.price"></span>
                     </p>
                     </template>
                 </div>
