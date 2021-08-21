@@ -1,4 +1,5 @@
 {{- $site := .Site }}
+{{- $image := .image }}
 
 {{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
 {{ $icon := resources.GetMatch "images/favicon.png" }}
