@@ -20,7 +20,7 @@
     <div class="feed-item__info py-4 px-3">
         <div class="feed_item__published mb-2">
             <time
-                class="feed__published text-sm text-heading-secondary">{{- with $post.Params.dateFormat }}{{ $post.Date.Format . }}{{ else }}{{ .Date.Format "02 January 2006" }}{{ end }}</time>
+                class="feed__published text-sm text-heading-secondary">{{- with $post.Params.dateFormat }}{{ $post.Date.Format . }}{{ else }}{{ $post.Date.Format "02 January 2006" }}{{ end }}</time>
         </div>
         <a class="feed-item__link" href="{{ $post.RelPermalink }}">
             <h3 class="feed-item__title text-sm lg:text-base text-heading font-heading font-medium mb-1">{{ $post.Title }}</h3>
