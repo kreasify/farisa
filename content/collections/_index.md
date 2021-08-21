@@ -17,7 +17,6 @@ sections:
         image_size: cover
         image_position: center
   - type: collections_filter_section
-    template: collections_filter_section
     title: semua produk
     url: /collections
     label: lihat koleksi
