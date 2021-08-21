@@ -44,6 +44,7 @@
 
     {{ with .Site.Params.favicon }}
     {{- $include_dict := dict "image" $post.Params.thumbnail "Site" .Site "resized" "224x269" }}
+    {{- end }}
 
     <link rel="icon" type="image/png" href="{{(partial "functions/get_icon" $include_dict ).RelPermalink}}">
     <!-- <link rel="icon" type="image/png" href="{{(partial "functions/get_icon" 32 ).RelPermalink}}"> -->
