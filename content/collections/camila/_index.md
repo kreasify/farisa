@@ -5,11 +5,18 @@ date: 2020-12-11T09:39:48+07:00
 slug: camila
 sections:
   - type: hero_section
-    template: hero_section
-    title: Koleksi Alcavella camila
+    title: Semua Koleksi Produk
     align: center
     has_background: true
-    background:
-      background_color: gray
+    design:
+      container: false
+      aspect_ratio: '21:3'
+      background:
+        color: gray
+        gradient_start: ''
+        gradient_end: ''
+        image: uploads/banner.jpg
+        image_size: cover
+        image_position: center
 ---
 
