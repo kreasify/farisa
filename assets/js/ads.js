@@ -30,7 +30,8 @@ document.addEventListener('alpine:init', () => {
             const feed_5 = document.querySelectorAll(".feed-item-20");
             const feed_6 = document.querySelectorAll(".feed-item-24");
             const feed_7 = document.querySelectorAll(".feed-item-28");
-            const feed_8 = document.querySelectorAll(".feed-item-28");
+            const feed_8 = document.querySelectorAll(".feed-item-32");
+            const feed_9 = document.querySelectorAll(".feed-item-28");
             let i;
 
             if (feed_1) {
