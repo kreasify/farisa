@@ -88,7 +88,7 @@
         {{- $recent_count := $section.recent_count }}
         {{- $shop_count := 0 }}
 
-        {{- range $shop := $query }}
+        {{- range $index, $shop := $query }}
         {{- if or (eq $show_recent false) (lt $shop_count $recent_count) }}
         {{- $shop_count = add $shop_count 1 }}
         {{- $include_dict := dict "shop_feed_section" $section "shop_page" $shop "Site" $.Site }}
