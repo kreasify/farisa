@@ -25,7 +25,7 @@ document.addEventListener('alpine:init', () => {
             this.feedAd();
             this.adFirst(wrapper_0);
             this.adSecond(wrapper_1);
-            this.adThird();
+            this.adThird(wrapper_2);
             this.adFourth();
            
             return getProducts;
