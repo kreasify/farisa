@@ -1,12 +1,29 @@
 {{- define "content" -}}
 <main id="site-main" class="site__main page-list bg-body" x-data="pages">
-
+    {{- if .Params.sections }}
+    {{- range $section := .Params.sections }}
+    {{- $style := $section.design.style }}
+    {{- $use_container := $section.design.container | default true }}
+    <div id="{{ replace $section.type "_" "-" }}"
+        class="section" {{with $style}}style="{{ . | safeCSS}}"{{end}}>
+        {{- if $use_container }}
+        <div class="container w-full mx-auto max-w-screen-xl py-6 px-3 lg:px-8">
+        {{- end }}
+            {{- $include_dict := dict "section" $section "Site" $.Site }}
+            {{- $component := print "sections/" $section.type ".html" }}
+            {{ partial $component $include_dict }}
+        {{- if $use_container }}
+        </div>
+        {{- end }}
+    </div>
+    {{- end }}
+    {{- else }}
     <div id="hero-section" class="section__hero-section bg-body-primary bg-hero-banner bg-cover bg-center py-12 px-3 mb-6">
         <div class="flex items-center justify-center text-center">
             <h1 class="section__title text-gray-700 text-xl lg:text-3xl capitalize">{{ .Title }}</h1>
         </div>
     </div>
-   
+    {{- end }}
     <div class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-4"> 
         <div class="list__card mb-6">
             <div class="grid {{ range $index, $li := first 1 .Data.Pages }}{{ if eq .Section "shop" }}grid-cols-12 lg:grid-cols-10{{else}}grid-cols-12{{end}}{{end}} gap-3 lg:gap-6 mb-8">
