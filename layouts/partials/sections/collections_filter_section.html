@@ -2,9 +2,9 @@
 <div class="flex items-center">
     <div class="flex items-center text-body-text">
         {{ partial "svg/icon-sort.svg" (dict "class" "w-4") }}
-        <span class="text-sm text-gray-700 ml-2">Filter Product :</span>
+        <span class="text-sm text-body-text ml-2">Filter Product :</span>
     </div>
-    <div class="product__nav text-gray-700 hover:text-primary relative leading-none border border-solid border-gray-300 rounded-sm hover:bg-gray-200 py-1px ml-3"
+    <div class="product__nav text-body-text hover:text-primary relative leading-none border border-solid border-gray-300 rounded-sm hover:bg-gray-200 py-1px ml-3"
         x-data="{open:false}">
         <button
             class="inline-block text-xs hover:text-teal-500 uppercase leading-none cursor-pointer focus:outline-none py-2 px-10 lg:px-16"
@@ -17,7 +17,7 @@
             x-transition:leave-end="opacity-0 transform scale-90">
             <ul class="bg-white list-none pt-0 px-0 pb-4 m-0">
                 {{ if and  $section.title $section.url }}
-                <li class="text-gray-700 hover:text-primary hover:bg-gray-100 py-1 px-6 mb-0">
+                <li class="text-body-text hover:text-primary hover:bg-gray-100 py-1 px-6 mb-0">
                     <a class="text-xs lg:text-sm text-current capitalize hover:text-current leading-none"
                         href="{{ $section.url }}">{{ $section.title }}</a>
                 </li>
@@ -41,7 +41,7 @@
 
 {{ define "filter_list" }}
 {{ range .filterName }}
-<li class="text-gray-700 hover:text-primary hover:bg-gray-100 py-1 px-6 mb-0">
+<li class="text-body-text hover:text-primary hover:bg-gray-100 py-1 px-6 mb-0">
     <a class="text-xs lg:text-sm text-current capitalize hover:text-current leading-none"
         href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize }}</a>
 </li>
