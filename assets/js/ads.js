@@ -155,7 +155,7 @@ document.addEventListener('alpine:init', () => {
                     </p>
                     </template>
                     <div>
-                        <span>Iklan</span>
+                        <span class="text-xs ">Iklan</span>
                     </div>
                 </div>
                 </template>
