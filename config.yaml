@@ -21,6 +21,7 @@ outputs:
     - HTML
 params:
   description: Jaket Muslimah Khusus Hijaber
+  favicon: uploads/favicon.png
   author: Akhlis
   mainSection:
     - shop
