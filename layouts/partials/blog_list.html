@@ -1,4 +1,12 @@
 {{- $site := .Site }}
+{{- $post := .post }}
+{{- $class := .class | default "" }}
+{{- $item_class := $class }}
+{{- $mod := .mod | default 2 }}
+{{- $index := .index }}
+{{- if eq (mod $index $mod) 0 }}
+{{- $item_class =  print $class "-" $index }}
+{{- end }}
 <div
     class="feed-item col-span-12 lg:col-span-4 transition duration-500 ease-ease hover:shadow-lg">
     {{- if .Params.thumbnail }}
