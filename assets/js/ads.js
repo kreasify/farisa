@@ -32,7 +32,7 @@ document.addEventListener('alpine:init', () => {
             }
             if (feed_2) {
                 for (i = 0; i < feed_1.length; i++) {
-                    this.adFirst(feed_1[i]);
+                    this.adFirst(feed_2[i]);
                 }
             }
             if (wrapper_0) {
