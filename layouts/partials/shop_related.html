@@ -20,7 +20,7 @@
         {{- with $related }}
         {{- range $index, $el := . }}
         {{- $include_dict := dict "post" . "index" $index "class" "related-item" "Site" $.Site }}
-        {{ partial "shop_related_list.html" $include_dict }}
+        {{- partial "shop_related_list.html" $include_dict }}
         {{- end }}
         {{- end }}
     </div>
