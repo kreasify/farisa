@@ -56,7 +56,7 @@
     {{- $recent_count := $section.recent_count }}
     {{- $blog_count := 0 }}
 
-    {{- range $blog := $query }}
+    {{- range $index, $blog := $query }}
     {{- if or (eq $show_recent false) (lt $blog_count $recent_count) }}
     {{- $blog_count = add $blog_count 1 }}
     {{- $include_dict := dict "blog_feed_section" $section "blog_page" $blog "Site" $.Site }}
