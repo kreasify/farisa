@@ -1,10 +1,8 @@
-{{- $site := .Site }}
-{{- $image := .image }}
+{{{{/* Function to get website icon image. */}}
+{{/* Input: size (int) */}}
+{{/* Output: resource (obj) */}}}}
 
-{{- with .Site.Params.favicon }}
-{{-  $icon := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
-{{- end }}
 
-<!-- {{ $icon := resources.GetMatch "images/favicon.png" }} -->
+{{ $icon := resources.GetMatch "images/favicon.png" }}
 {{ $icon_resized := $icon.Fill (printf "%sx%s Center" (string .) (string .)) }}
 {{ return $icon_resized }}
