@@ -102,6 +102,7 @@ document.addEventListener('alpine:init', () => {
             
             return wrapper;
         },
+        
         adFirst(wrapper) {            
             wrapper.insertAdjacentHTML('afterend', `
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
