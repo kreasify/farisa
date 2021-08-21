@@ -17,7 +17,7 @@
             <!-- First page. -->
             {{ if ne $paginator.PageNumber 1 }}
             <li class="pagination__item list-none hover:text-primary mx-1 mb-0">
-                <a class="pagination__item-link text-current hover:no-underline bg-body-secondary rounded-sm shadow hover:shadow-lg py-1 px-3" href="{{ $paginator.First.URL }}">
+                <a class="pagination__item-link text-current hover:no-underline bg-body-primary rounded-sm shadow hover:shadow-lg py-1 px-3" href="{{ $paginator.First.URL }}">
                     ««
                 </a>
             </li>
@@ -25,7 +25,7 @@
             <!-- Previous page. -->
             {{ if $paginator.HasPrev }}
             <li class="pagination__item list-none hover:text-primary mx-1 mb-0">
-                <a href="{{ $paginator.Prev.URL }}" class="pagination__item-link text-current hover:no-underline bg-body-secondary rounded-sm shadow hover:shadow-lg py-1 px-3">
+                <a href="{{ $paginator.Prev.URL }}" class="pagination__item-link text-current hover:no-underline bg-body-primary rounded-sm shadow hover:shadow-lg py-1 px-3">
                     «
                 </a>
             </li>
@@ -64,7 +64,7 @@
             <!-- Output page numbers. -->
             {{ if eq ($.Scratch.Get "page_number_flag") true }}
             <li class="pagination__item{{ if eq . $paginator }} item--current text-primary bg-orange-100{{ end }} list-none hover:text-primary mx-1 mb-0">
-                <a href="{{ .URL }}" class="pagination__item-link text-current hover:no-underline bg-body-secondary rounded-sm shadow hover:shadow-lg py-1 px-3">
+                <a href="{{ .URL }}" class="pagination__item-link text-current hover:no-underline bg-body-primary rounded-sm shadow hover:shadow-lg py-1 px-3">
                     {{ .PageNumber }}
                 </a>
             </li>
@@ -74,7 +74,7 @@
             <!-- Next page. -->
             {{ if $paginator.HasNext }}
             <li class="pagination__item list-none hover:text-primary mx-1 mb-0">
-                <a href="{{ $paginator.Next.URL }}" class="pagination__item-link text-current hover:no-underline bg-body-secondary rounded-sm shadow hover:shadow-lg py-1 px-3 active">
+                <a href="{{ $paginator.Next.URL }}" class="pagination__item-link text-current hover:no-underline bg-body-primary rounded-sm shadow hover:shadow-lg py-1 px-3 active">
                     »
                 </a>
             </li>
@@ -83,7 +83,7 @@
             <!-- Last page. -->
             {{ if ne $paginator.PageNumber $paginator.TotalPages }}
             <li class="pagination__item list-none hover:text-primary mx-1 mb-0">
-                <a class="pagination__item-link text-current hover:no-underline bg-body-secondary rounded-sm shadow hover:shadow-lg py-1 px-3 active" href="{{ $paginator.Last.URL }}">
+                <a class="pagination__item-link text-current hover:no-underline bg-body-primary rounded-sm shadow hover:shadow-lg py-1 px-3 active" href="{{ $paginator.Last.URL }}">
                     »»
                 </a>
             </li>
