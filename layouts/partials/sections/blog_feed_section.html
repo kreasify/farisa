@@ -62,7 +62,7 @@
     {{- $include_dict := dict "blog_feed_section" $section "blog_page" $blog "Site" $.Site }}
     {{ partial "blog_feed_item.html" $include_dict }}
 
-    {{- $include_dict := dict "post" . "index" $index "class" "post-item" "mod" 4 "Site" $.Site }}
+    {{- $include_dict := dict "post" $blog "index" $index "class" "post-item" "mod" 4 "Site" $.Site }}
     {{- partial "blog_list_item.html" $include_dict }}
     {{- end }}
     {{- end }}
