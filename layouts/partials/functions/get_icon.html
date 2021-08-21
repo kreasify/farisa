@@ -4,5 +4,5 @@
 {{- end }}
 
 <!-- {{ $icon := resources.GetMatch "images/favicon.png" }} -->
-{{ $icon_resized := $icon.Fill (printf "%sx%s Center" (string .) (string .)) }}
+{{ $icon_resized := $icon.Fill (printf "%sx%s Center" (string .) (string .) (string .)) }}
 {{ return $icon_resized }}
