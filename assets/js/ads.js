@@ -57,7 +57,31 @@ document.addEventListener('alpine:init', () => {
                     this.adFifth(feed_5[i]);
                 }
             }
-            
+            if (feed_1) {
+                for (i = 0; i < feed_1.length; i++) {
+                    this.adFirst(feed_1[i]);
+                }
+            }
+            if (feed_2) {
+                for (i = 0; i < feed_2.length; i++) {
+                    this.adSecond(feed_2[i]);
+                }
+            }
+            if (feed_3) {
+                for (i = 0; i < feed_3.length; i++) {
+                    this.adThird(feed_3[i]);
+                }
+            }
+            if (feed_4) {
+                for (i = 0; i < feed_4.length; i++) {
+                    this.adFourth(feed_4[i]);
+                }
+            }
+            if (feed_5) {
+                for (i = 0; i < feed_5.length; i++) {
+                    this.adFifth(feed_5[i]);
+                }
+            }
             if (wrapper_0) {
             this.adFirst(wrapper_0);
             }
