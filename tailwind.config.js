@@ -112,7 +112,7 @@ module.exports = {
 				'100-50': '100% 50%',
 			},
             backgroundImage: theme => ({
-                'hero-banner': "url('/img/footer-texture.png')",
+                'hero-banner': "url('/images/banner.jpg')",
             }),
 			borderWidth: {
 				'1': '1px',
