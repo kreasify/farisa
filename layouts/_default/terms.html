@@ -32,7 +32,7 @@
             {{- range .Data.Terms.Alphabetical }}
             <header class="relative flex justify-between items-center border-b border-solid border-border py-2 mb-6">
                 <h3
-                    class="text-primary leading-none capitalize after:empty-content after:absolute after:w-12 after:h-2px after:left-0 after:top-full after:bg-primary after:transition after:duration-500 after:ease-out">
+                    class="text-primary leading-none capitalize after:empty-content after:absolute after:w-12 after:h-2px after:left-0 after:top-full after:bg-primary after:transition after:duration-500 after:ease-ease">
                     {{- .Page.Title | humanize }} <span>({{ .Count }})</span></h3>
                 <a class="flex items-center text-primary text-xs lg:text-sm uppercase hover:text-primary"
                     href="{{ .Page.RelPermalink }}">
