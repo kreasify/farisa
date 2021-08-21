@@ -155,7 +155,7 @@ document.addEventListener('alpine:init', () => {
                     </p>
                     </template>
                     <p class="mb-2">
-                        <span class="text-xs text-body bg-body-text opacity-80 rounded-sm px-1">Iklan</span>
+                        <span class="text-xs text-body bg-body-text opacity-60 rounded-sm px-1">Iklan</span>
                         <span class="text-xs text-body-text-secondary pl-1">https://hijacket.site</span>
                     </p>
                 </div>
@@ -189,7 +189,7 @@ document.addEventListener('alpine:init', () => {
                     </p>
                     </template>
                     <p class="mb-2">
-                        <span class="text-xs text-body bg-body-text opacity-80 rounded-sm px-1">Iklan</span>
+                        <span class="text-xs text-body bg-body-text opacity-60 rounded-sm px-1">Iklan</span>
                         <span class="text-xs text-body-text-secondary pl-1">https://hijacket.site</span>
                     </p>
                 </div>
@@ -223,7 +223,7 @@ document.addEventListener('alpine:init', () => {
                     </p>
                     </template>
                     <p class="mb-2">
-                        <span class="text-xs text-body bg-body-text opacity-80 rounded-sm px-1">Iklan</span>
+                        <span class="text-xs text-body bg-body-text opacity-60 rounded-sm px-1">Iklan</span>
                         <span class="text-xs text-body-text-secondary pl-1">https://hijacket.site</span>
                     </p>
                 </div>
@@ -257,7 +257,7 @@ document.addEventListener('alpine:init', () => {
                     </p>
                     </template>
                     <p class="mb-2">
-                        <span class="text-xs text-body bg-body-text opacity-80 rounded-sm px-1">Iklan</span>
+                        <span class="text-xs text-body bg-body-text opacity-60 rounded-sm px-1">Iklan</span>
                         <span class="text-xs text-body-text-secondary pl-1">https://hijacket.site</span>
                     </p>
                 </div>
@@ -291,7 +291,7 @@ document.addEventListener('alpine:init', () => {
                     </p>
                     </template>
                     <p class="mb-2">
-                        <span class="text-xs text-body bg-body-text opacity-80 rounded-sm px-1">Iklan</span>
+                        <span class="text-xs text-body bg-body-text opacity-60 rounded-sm px-1">Iklan</span>
                         <span class="text-xs text-body-text-secondary pl-1">https://hijacket.site</span>
                     </p>
                 </div>
