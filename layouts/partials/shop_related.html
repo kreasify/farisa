@@ -1,6 +1,6 @@
 {{- $site := .Site }}
 {{- $related := .Site.RegularPages.Related . | first 6 }}
-<section x-data="related" class="shop__related col-span-12 py-4 mb-6"
+<section class="shop__related col-span-12 py-4 mb-6"
     x-init='related = [ {{- with $related }}{{- range $index, $el := . }}{{- if $index }},{{- end }}
         { 
             title: {{ .Title | jsonify }},
