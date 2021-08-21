@@ -1,6 +1,13 @@
 {{- $site := .Site }}
 {{- $post := .shop_page }}
 {{- $featured := $post.Params.featured }}
+{{- $class := .class | default "" }}
+{{- $item_class := $class }}
+{{- $mod := .mod | default 2 }}
+{{- $index := .index }}
+{{- if eq (mod $index $mod) 0 }}
+{{- $item_class =  print $class "-" $index }}
+{{- end }}
 <div class="feed-item col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg"
     x-show="{{ if isset $post.Params "badge" }}tab === '{{ index $post.Params "badge" }}' || {{ end }}{{ if eq $featured true }}tab === 'featured' || {{ end }}tab === 'all'">
     <div class="feed-item__image relative bg-body-primary">
