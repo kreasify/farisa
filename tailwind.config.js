@@ -111,10 +111,10 @@ module.exports = {
 			backgroundSize: {
 				'100-50': '100% 50%',
 			},
-                    backgroundImage: theme => ({
-         'hero-pattern': "url('/img/hero-pattern.svg')",
-         'footer-texture': "url('/img/footer-texture.png')",
-        }),
+            backgroundImage: theme => ({
+            'hero-pattern': "url('/img/hero-pattern.svg')",
+            'footer-texture': "url('/img/footer-texture.png')",
+            }),
 			borderWidth: {
 				'1': '1px',
 				'2': '2px',
