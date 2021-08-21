@@ -78,7 +78,7 @@ document.addEventListener('alpine:init', () => {
                 }
             }
             if (feed_10) {
-                for (i = 0; i < feed_5.length; i++) {
+                for (i = 0; i < feed_10.length; i++) {
                     this.adFifth(feed_5[i]);
                 }
             }
