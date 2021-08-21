@@ -3,50 +3,19 @@
 <main id="site-main" class="site__main page-list bg-body" x-data="pages">
     {{- if .Params.sections }}
     {{- range $section := .Params.sections }}
-    {{/* Begin block section styling */}}
-    {{- $bg := $section.design.background }}
-    {{- $style := "" }}
-
-    {{- if $bg.color }}
-    {{- $style = printf "background-color: %s;" ($bg.color | default "transparent") }}
-    {{- end }}
-
-    {{- if and $bg.gradient_start $bg.gradient_end }}
-    {{- $style = printf "%sbackground-image: linear-gradient(%s, %s);" $style $bg.gradient_start $bg.gradient_end }}
-    {{- end }}
-
-    {{- if $bg.image }}
-    {{- $style = printf "%sbackground-image: url('%s');" $style (printf "%s" $bg.image | absURL) }}
-    {{- with $bg.image_size }}
-    {{/* Allow sizes: actual, cover, and contain. */}}
-    {{- $style = printf "%sbackground-size: %s;" $style (replace . "actual" "auto") }}
-    {{- end }}
-    {{- with $bg.image_position }}
-    {{/* Allow valid CSS positions including left, center, and right. */}}
-    {{- $style = printf "%sbackground-position: %s;" $style . }}
-    {{- end }}
-    {{- end }}
-
-    {{- with $section.design.spacing.padding }}
-    {{- $style_padding := printf "padding: %s;" (delimit . " ") }}
-    {{- $style = print $style $style_padding }}
-    {{- end }}
-
-    {{- $section_classes := $section.advanced.section_class | default "bg-white" }}
-    {{- $container_classes := $section.advanced.container_class | default "max-w-screen-xl py-4 px-3 lg:px-12" }}
-    {{- $extra_attributes := "" }}
+    {{- $style := $section.design.style }}
     {{- $use_container := $section.design.container | default true }}
-
     <div id="{{ replace $section.type "_" "-" }}"
-        class="section__{{ replace $section.type "_" "-" }}{{if $bg.text_color_light}} dark{{end}}{{if $bg.image}} bg-image{{if ($bg.image_parallax | default true) }} parallax{{end}}{{end}}{{with $section_classes}} {{.}}{{end}}"
-        {{with $style}}style="{{. | safeCSS}}" {{end}} {{print $extra_attributes | safeHTMLAttr}}>
+        class="section" {{ with $style}}style="{{ . | safeCSS }}"{{end}}>
         {{- if $use_container }}
-        <div class="container w-full mx-auto {{with $container_classes}}{{.}}{{end}}">{{end}}
+        <div class="container w-full mx-auto max-w-screen-xl py-6 px-3 lg:px-8">
+        {{- end }}
             {{- $include_dict := dict "section" $section "Site" $.Site }}
             {{- $component := print "sections/" $section.type ".html" }}
             {{ partial $component $include_dict }}
-            {{- if $use_container }}
-        </div>{{ end }}
+        {{- if $use_container }}
+        </div>
+        {{- end }}
     </div>
     {{- end }}
     {{- else }}
