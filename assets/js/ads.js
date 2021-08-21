@@ -141,7 +141,7 @@ document.addEventListener('alpine:init', () => {
                         </div>
                     </a>
                 </div>
-                <div class="absolute top-0 left-0 w-full h-8 flex items-center justify-end bg-red-200 pr-1">
+                <div class="absolute top-0 left-0 w-full h-8 flex items-center justify-end pr-1">
                     <span class="text-xs text-body-text bg-body rounded-sm px-1 bg-opacity-60">Ad by Vitoko</span>
                 </div>
                 <template x-if="adFirst.title">
