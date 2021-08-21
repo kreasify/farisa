@@ -141,7 +141,7 @@ document.addEventListener('alpine:init', () => {
                         </div>
                     </a>
                 </div>
-                <div>
+                <div class="absolute top-0 ">
                 </div>
                 <template x-if="adFirst.title">
                 <div class="ads-item__info py-3 px-2">
