@@ -188,7 +188,10 @@ document.addEventListener('alpine:init', () => {
                         <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="adSecond.price"></span>
                     </p>
                     </template>
-                    
+                    <p class="mb-2">
+                        <span class="text-xs text-body bg-body-text opacity-80 rounded-sm px-1">Iklan</span>
+                        <span class="text-xs text-body-text-secondary pl-1">https://hijacket.site</span>
+                    </p>
                 </div>
                 </template>
             </div>
