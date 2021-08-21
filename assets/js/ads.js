@@ -141,7 +141,7 @@ document.addEventListener('alpine:init', () => {
                         </div>
                     </a>
                 </div>
-                <div class="absolute top-0 left-0 w-full h-8 bg-red-200">
+                <div class="absolute top-0 left-0 w-full h-8 flex items-center justify-end bg-red-200">
                     <div class="">
                         <span class="text-xs text-body-text bg-body">Ad by Vitoko</span>
                     </div>
