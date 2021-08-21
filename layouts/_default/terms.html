@@ -34,7 +34,7 @@
                 <h3
                     class="text-primary leading-none capitalize mb-0 after:empty-content after:absolute after:w-12 after:h-2px after:left-0 after:top-full after:bg-primary after:transition after:duration-500 after:ease-ease">
                     {{- .Page.Title | humanize }} <span>({{ .Count }})</span></h3>
-                <a class="flex items-center text-primary text-xs lg:text-sm uppercase hover:text-primary"
+                <a class="flex items-center text-body-text text-xs lg:text-sm uppercase hover:text-primary"
                     href="{{ .Page.RelPermalink }}">
                     <span class="mr-3">view all</span>
                     {{ partial "svg/icon-view-all.svg" (dict "class" "fill-current") }}
