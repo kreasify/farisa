@@ -27,7 +27,6 @@
     {{- end }}
     <div class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-4"> 
         <div class="list__card mb-6">
-            <div class="bg-white pt-4 pb-8 mb-6">
                 <div
                     class="grid {{ range $index, $li := first 1 .Data.Pages }}{{ if eq .Section "shop" }}grid-cols-12 lg:grid-cols-10{{else}}grid-cols-12{{end}}{{end}} gap-3 lg:gap-6 mb-8">
                     {{- $paginator := .Paginate .Data.Pages }}
