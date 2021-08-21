@@ -1,9 +1,5 @@
-{{- $site := .Site }}
-{{- $icon := "" }}
-{{- if $site.Params.favicon }}
-{{- $icon = ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $site.Params.favicon | relURL )) }}
-{{- end }}
 
 
-{{ $icon_resized := $icon.Fill (printf "%sx%s Center" (string .) (string .) }}
+{{ $icon := resources.GetMatch "images/favicon.png" }}
+{{ $icon_resized := $icon.Fill (printf "%sx%s Center" (string .) (string .)) }}
 {{ return $icon_resized }}
