@@ -44,7 +44,7 @@
 
 {{- define "filter_list" }}
 {{- range .filterName }}
-<li class="text-body-text hover:text-primary hover:bg-gray-100 py-1 px-6 mb-0">
+<li class="text-body-text hover:text-primary hover:bg-body-secondary py-1 px-6 mb-0">
     <a class="text-xs lg:text-sm text-current capitalize hover:text-current leading-none"
         href="{{- .Page.RelPermalink }}">{{- .Page.Title | humanize }}</a>
 </li>
