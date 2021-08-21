@@ -31,7 +31,7 @@
         <div class="list__card mb-6">
             {{- range .Data.Terms.Alphabetical }}
             <header class="relative flex justify-between items-center border-b border-solid border-border py-2 mb-6">
-                <a class="" href="{{ .Page.RelPermalink }}">
+                <a href="{{ .Page.RelPermalink }}">
                     <h3 class="text-primary leading-none capitalize mb-0 after:empty-content after:absolute after:w-12 after:h-2px after:left-0 after:top-full after:bg-primary after:transition after:duration-500 after:ease-ease">
                     {{- .Page.Title | humanize }} <span>({{ .Count }})</span></h3>
                 </a>
