@@ -63,7 +63,7 @@
 
             <!-- Output page numbers. -->
             {{ if eq ($.Scratch.Get "page_number_flag") true }}
-            <li class="pagination__item{{ if eq . $paginator }} item--current text-primary bg-orange-100{{ end }} list-none hover:text-primary mx-1 mb-0">
+            <li class="pagination__item{{ if eq . $paginator }} item--current text-primary bg-body-secondary{{ end }} list-none hover:text-primary mx-1 mb-0">
                 <a href="{{ .URL }}" class="pagination__item-link text-current hover:no-underline bg-body-primary rounded-sm shadow hover:shadow-lg py-1 px-3">
                     {{ .PageNumber }}
                 </a>
