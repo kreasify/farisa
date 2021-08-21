@@ -23,7 +23,7 @@ module.exports = {
 		}, ],
 		mode: 'all',
 		options: {
-			safelist: ['table', 'th', 'tr', 'td', 'w-screen', 'h-screen', 'max-w-screen-lg', 'aspect-w-6', 'aspect-h-7', 'black',  'autoComplete_result', 'autoComplete_highlighted', 'autoComplete_selected'],
+			safelist: ['table', 'th', 'tr', 'td', 'w-screen', 'h-screen', 'max-w-screen-lg', 'aspect-w-6', 'bg-opacity-60', 'aspect-h-7', 'black',  'autoComplete_result', 'autoComplete_highlighted', 'autoComplete_selected'],
 		}
 	},
 	theme: {
