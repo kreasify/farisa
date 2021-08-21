@@ -23,7 +23,7 @@ document.addEventListener('alpine:init', () => {
 
             this.feedAd();
             this.adFirst(wrapper_0);
-            this.adSecond();
+            this.adSecond(wrapper_1);
             this.adThird();
             this.adFourth();
            
