@@ -25,7 +25,7 @@ document.addEventListener('alpine:init', () => {
             let i;
 
             if (feed_1) {
-                for (i = 0; )
+                for (i = 0; i < )
             }
             if (wrapper_0) {
             this.adFirst(wrapper_0);
