@@ -1,5 +1,5 @@
 {{- define "content" }}
-<main id="content" class="site-content bg-body transition duration-500 ease-ease">
+<main id="content" class="site-content bg-body transition duration-500 ease-ease" x-data="pages">
     {{- range $section := .Params.sections }}
     {{- $style := $section.design.style }}
     {{- $use_container := $section.design.container | default true }}
