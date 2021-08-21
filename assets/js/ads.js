@@ -1,5 +1,5 @@
 document.addEventListener('alpine:init', () => {
-    Alpine.data('related', () => ({
+    Alpine.data('pages', () => ({
         related: [],
         products: [],
         adFirst: {},
