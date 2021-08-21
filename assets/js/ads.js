@@ -148,10 +148,7 @@ document.addEventListener('alpine:init', () => {
             
             return wrapper;
         },
-        adThird() {
-            // let wrapper = this.$refs.related1;
-
-
+        adThird(wrapper) {
             wrapper.insertAdjacentHTML('beforebegin', `
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                 <div class="ads-item__image relative bg-body-primary">
