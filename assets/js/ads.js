@@ -21,14 +21,19 @@ document.addEventListener('alpine:init', () => {
             const wrapper_0 = document.querySelector(".related-item-0");
             const wrapper_1 = document.querySelector(".related-item-2");
             const wrapper_2 = document.querySelector(".related-item-4");
+            const feed_1 = document.querySelector(".feed-item-4");
 
             this.feedAd();
             if (wrapper_0) {
             this.adFirst(wrapper_0);
             }
+            if (wrapper_1) {
             this.adSecond(wrapper_1);
+            }
+            if (wrapper_2) {
             this.adThird(wrapper_2);
             this.adFourth(wrapper_2);
+            }
            
             return getProducts;
         },
