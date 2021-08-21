@@ -43,7 +43,6 @@
             <div class="grid {{ range $index, $li := first 1 .Pages }}{{ if eq .Section "shop" }}grid-cols-12 lg:grid-cols-10{{else}}grid-cols-12{{end}}{{end}} gap-3 lg:gap-6">
                 {{- range $index, $el := .Pages.ByTitle }}
                 {{- if eq .Section "shop" }}
-                        {{- range $index, $el := . }}
         {{- $include_dict := dict "post" . "index" $index "class" "related-item" "Site" $.Site }}
         {{ partial "shop_related_list.html" $include_dict }}
                 {{ partial "shop_list_item" . }}
