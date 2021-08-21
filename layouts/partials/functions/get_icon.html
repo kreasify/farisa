@@ -2,6 +2,7 @@
 {{/* Input: size (int) */}}
 {{/* Output: resource (obj) */}}
 
+
 {{ $icon := resources.GetMatch "images/favicon.png" }}
 {{ $icon_resized := $icon.Fill (printf "%sx%s Center" (string .) (string .)) }}
 {{ return $icon_resized }}
