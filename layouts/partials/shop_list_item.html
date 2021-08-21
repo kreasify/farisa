@@ -7,7 +7,6 @@
 {{- if eq (mod $index $mod) 0 }}
 {{- $item_class =  print $class "-" $index }}
 {{- end }}
-
 <div class="{{- $item_class }} col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
     <div class="card-item__image relative bg-body-primary"> 
         <a class="card-item__link" href="{{ $post.RelPermalink }}">
