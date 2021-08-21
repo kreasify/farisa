@@ -27,6 +27,9 @@ document.addEventListener('alpine:init', () => {
             const feed_2 = document.querySelectorAll(".feed-item-8");
             const feed_3 = document.querySelectorAll(".feed-item-12");
             const feed_4 = document.querySelectorAll(".feed-item-16");
+            const feed_5 = document.querySelectorAll(".feed-item-16");
+            const feed_4 = document.querySelectorAll(".feed-item-16");
+            const feed_4 = document.querySelectorAll(".feed-item-16");
             let i;
 
             if (feed_1) {
