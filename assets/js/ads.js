@@ -201,7 +201,9 @@ document.addEventListener('alpine:init', () => {
                         </div>
                     </a>
                 </div>
-                
+                <div class="absolute top-0 left-0 w-full h-8 flex items-center justify-end pr-1">
+                    <span class="text-xs leading-5 text-body-text bg-body opacity-50 rounded-sm px-1">Ad by Vitoko</span>
+                </div>
                 <template x-if="adThird.title">
                 <div class="ads-item__info py-3 px-2">
                     <a class="ads-item__link" x-bind:href="adThird.url">
