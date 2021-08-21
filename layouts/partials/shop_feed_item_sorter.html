@@ -8,7 +8,7 @@
 {{- if eq (mod $index $mod) 0 }}
 {{- $item_class =  print $class "-" $index }}
 {{- end }}
-<div class="feed-item col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg"
+<div class="{{- $item_class }} col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg"
     x-show="{{ if isset $post.Params "badge" }}tab === '{{ index $post.Params "badge" }}' || {{ end }}{{ if eq $featured true }}tab === 'featured' || {{ end }}tab === 'all'">
     <div class="feed-item__image relative bg-body-primary">
         <a class="feed-item__link" href="{{ $post.RelPermalink }}">
