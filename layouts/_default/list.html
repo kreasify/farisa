@@ -12,7 +12,7 @@
                     {{- $include_dict := dict "post" . "index" $index "class" "feed-item" "mod" 4 "Site" $.Site }}
                     {{- partial "shop_list_item.html" $include_dict }}
                     {{- else }}
-                                        {{- $include_dict := dict "post" . "index" $index "class" "feed-item" "mod" 4 "Site" $.Site }}
+                    {{- $include_dict := dict "post" . "index" $index "class" "feed-item" "mod" 4 "Site" $.Site }}
                     {{- partial "shop_list_item.html" $include_dict }}
                     {{ partial "blog_list_item" . }}
                     {{- end }}
