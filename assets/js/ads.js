@@ -52,6 +52,7 @@ document.addEventListener('alpine:init', () => {
                     this.adFourth(feed_4[i]);
                 }
             }
+            
             if (wrapper_0) {
             this.adFirst(wrapper_0);
             }
