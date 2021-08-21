@@ -87,7 +87,7 @@ sections:
     title: ''
     show_recent: false
     page_type: shop
-    count: 15
+    count: 12
     offset: 0
     order: desc
     badges:
