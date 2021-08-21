@@ -22,7 +22,7 @@ document.addEventListener('alpine:init', () => {
             const wrapper_1 = document.querySelector(".related-item-2");
             const wrapper_2 = document.querySelector(".related-item-4");
             const feed_1 = document.querySelectorAll(".feed-item-4");
-            const feed_1 = document.querySelectorAll(".feed-item-4");
+            const feed_2 = document.querySelectorAll(".feed-item-8");
             let i;
 
             if (feed_1) {
