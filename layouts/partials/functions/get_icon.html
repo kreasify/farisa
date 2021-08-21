@@ -2,7 +2,7 @@
 {{- $image := .image }}
 {{- $resized := .resized | default "520x390 webp" }}
 {{- $icon := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
-{{ return $icon_resized }}
+{{ return $icon }}
 
 
 <!-- {{ $icon := resources.GetMatch "images/favicon.png" }}
