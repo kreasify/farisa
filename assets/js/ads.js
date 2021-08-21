@@ -24,7 +24,7 @@ document.addEventListener('alpine:init', () => {
             const feed_1 = document.querySelectorAll(".feed-item-0");
 
             if (feed_1) {
-            this.feedAd();
+            this.feedAd(feed_1);
             }
             if (wrapper_0) {
             this.adFirst(wrapper_0);
