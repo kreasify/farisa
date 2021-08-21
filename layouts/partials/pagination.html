@@ -59,7 +59,6 @@
             {{- else }}
             {{- $.Scratch.Set "page_number_flag" true }}
             {{- end }}
-
             <!-- Output page numbers. -->
             {{- if eq ($.Scratch.Get "page_number_flag") true }}
             <li class="pagination__item{{- if eq . $paginator }} item--current text-primary bg-body-secondary{{- end }} list-none text-body-text hover:text-primary mx-1 mb-0">
@@ -69,7 +68,6 @@
             </li>
             {{- end }}
             {{- end }}
-
             <!-- Next page. -->
             {{- if $paginator.HasNext }}
             <li class="pagination__item list-none text-body-text hover:text-primary mx-1 mb-0">
