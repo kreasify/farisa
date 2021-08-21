@@ -14,7 +14,6 @@
                     {{- else }}
                     {{- $include_dict := dict "post" . "index" $index "class" "feed-item" "mod" 4 "Site" $.Site }}
                     {{- partial "blog_list.html" $include_dict }}
-                    {{ partial "blog_list_item" . }}
                     {{- end }}
                     {{- end }}
                 </div>
