@@ -1,7 +1,7 @@
 ---
 title: Koleksi Produk
 description: Koleksi Produk
-section:
+sections:
   - type: hero_section
     title: Semua Koleksi Produk
     align: center
