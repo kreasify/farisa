@@ -24,44 +24,6 @@ params:
   author: Akhlis
   mainSection:
     - shop
-  header:
-    type: header
-    title: Starter
-    logo: images/logo-hijacket.png
-    has_nav: false
-    sticky_nav: true
-    has_navbar: true
-    nav_links:
-      - type: action
-        template: action
-        label: Features
-        url: /features
-        style: link
-      - type: action
-        template: action
-        label: Blog
-        url: /blog
-        style: link
-      - type: action
-        template: action
-        label: Shop
-        url: /shop
-        style: link
-      - type: action
-        template: action
-        label: Style Guide
-        url: /style-guide
-        style: link
-      - type: action
-        template: action
-        label: About
-        url: /about
-        style: link
-      - type: action
-        template: action
-        label: Contact Us
-        url: /contact
-        style: primary
 taxonomies:
   tag: tags
   category: categories
