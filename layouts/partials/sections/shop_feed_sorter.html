@@ -91,7 +91,7 @@
         {{- range $index, $shop := $query }}
         {{- if or (eq $show_recent false) (lt $shop_count $recent_count) }}
         {{- $shop_count = add $shop_count 1 }}
-        {{- $include_dict := dict "shop_page" $shop "Site" $.Site }}
+        {{- $include_dict := dict "shop_page" $shop "index" $index "class" "feed-item" "mod" 4 "Site" $.Site }}
         {{ partial "shop_feed_item_sorter.html" $include_dict }}
         {{- end }}
         {{- end }}
