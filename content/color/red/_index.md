@@ -5,11 +5,18 @@ date: 2020-12-11T10:30:32+07:00
 slug: red
 sections:
   - type: hero_section
-    template: hero_section
-    title: Warna red
+    title: Semua Koleksi Produk
     align: center
     has_background: true
-    background:
-      background_color: gray
+    design:
+      container: false
+      aspect_ratio: '21:3'
+      background:
+        color: gray
+        gradient_start: ''
+        gradient_end: ''
+        image: uploads/banner.jpg
+        image_size: cover
+        image_position: center
 ---
 
