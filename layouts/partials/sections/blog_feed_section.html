@@ -61,6 +61,8 @@
     {{- $blog_count = add $blog_count 1 }}
     {{- $include_dict := dict "blog_feed_section" $section "blog_page" $blog "Site" $.Site }}
     {{ partial "blog_feed_item.html" $include_dict }}
+
+    
     {{- end }}
     {{- end }}
   </div>
