@@ -1,4 +1,4 @@
-{{- $site := printf "%s" (string .Site ) }}
+{{- $site := printf "%s" .Site }}
 
 {{ $icon := resources.GetMatch "images/favicon.png" }}
 {{ $icon_resized := $icon.Fill (printf "%sx%s Center" (string .) (string .)) }}
