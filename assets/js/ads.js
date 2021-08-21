@@ -62,9 +62,9 @@ document.addEventListener('alpine:init', () => {
                     this.adFirst(feed_6[i]);
                 }
             }
-            if (feed_2) {
-                for (i = 0; i < feed_2.length; i++) {
-                    this.adSecond(feed_2[i]);
+            if (feed_7) {
+                for (i = 0; i < feed_7.length; i++) {
+                    this.adSecond(feed_7[i]);
                 }
             }
             if (feed_3) {
