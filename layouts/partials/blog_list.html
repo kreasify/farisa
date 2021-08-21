@@ -8,7 +8,7 @@
 {{- $item_class =  print $class "-" $index }}
 {{- end }}
 <div
-    class="feed-item col-span-12 lg:col-span-4 transition duration-500 ease-ease hover:shadow-lg">
+    class="{{- $item_class }} col-span-12 lg:col-span-4 transition duration-500 ease-ease hover:shadow-lg">
     {{- if .Params.thumbnail }}
     <a class="feed-item__link" href="{{ .RelPermalink }}">
         <div class="responsive aspect-w-3 aspect-h-2">
