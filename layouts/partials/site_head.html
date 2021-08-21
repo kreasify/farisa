@@ -42,9 +42,9 @@
 
     <script defer src="{{ $js_min.RelPermalink }}"></script>
 
-    {{- $include_dict := dict "Site" .Site "resized" "224x269" }}
-
-    <link rel="icon" type="image/png" href="{{(partial "functions/get_icon"  $include_dict ).RelPermalink}}">
+    {{- $include_dict := dict "image" $post.Params.thumbnail "Site" .Site "resized" "224x269 Top webp" }}
+    {{ partial "functions/get_image.html" $include_dict }}
+    <link rel="icon" type="image/png" href="{{(partial "functions/get_icon" 32 $.Site ).RelPermalink}}">
     <!-- <link rel="apple-touch-icon" type="image/png" href="{{(partial "functions/get_icon" 192 ).RelPermalink}}"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
