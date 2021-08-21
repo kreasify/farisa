@@ -4,12 +4,19 @@ description: "warna black"
 date: 2020-12-11T10:30:32+07:00
 slug: black
 sections:
-  - type:
-    template: hero_section
-    title: Warna black
+  - type: hero_section
+    title: Semua Koleksi Produk
     align: center
     has_background: true
-    background:
-      background_color: gray
+    design:
+      container: false
+      aspect_ratio: '21:3'
+      background:
+        color: gray
+        gradient_start: ''
+        gradient_end: ''
+        image: uploads/banner.jpg
+        image_size: cover
+        image_position: center
 ---
 
