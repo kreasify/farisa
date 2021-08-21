@@ -201,5 +201,6 @@ document.addEventListener('alpine:init', () => {
             
             return wrapper;
         },
+        
     }))
 })
