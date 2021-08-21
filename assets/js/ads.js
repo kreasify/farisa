@@ -21,7 +21,6 @@ document.addEventListener('alpine:init', () => {
             const wrapper_0 = document.querySelector(".related-item-0");
             const wrapper_1 = document.querySelector(".related-item-2");
             const wrapper_2 = document.querySelector(".related-item-4");
-            const wrapper_3 = document.querySelector(".related-item-4");
 
             this.feedAd();
             this.adFirst(wrapper_0);
