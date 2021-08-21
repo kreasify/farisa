@@ -142,7 +142,7 @@ document.addEventListener('alpine:init', () => {
                     </a>
                 </div>
                 <div class="absolute top-0 left-0 w-full h-8 bg-red-200">
-                    <div class="">
+                    <div class="flex items-center justify-end">
                         <span class="text-xs">Ad by Vitoko</span>
                     </div>
                 </div>
