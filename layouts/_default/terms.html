@@ -44,7 +44,7 @@
                 {{- range $index, $el := .Pages.ByTitle }}
                 {{- if eq .Section "shop" }}
                 {{- $include_dict := dict "post" . "index" $index "class" "feed-item" "mod" 4 "Site" $.Site }}
-                {{ partial "shop_related_list.html" $include_dict }}
+                {{ partial "shop_list_item.html" $include_dict }}
                 {{- else }}
                 {{ partial "blog_list_item" . }}
                 {{- end }}
