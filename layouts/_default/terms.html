@@ -1,6 +1,6 @@
 {{- define "content" -}}
 {{- $site := .Site }}
-<main x-data="related" id="site-main" class="site__main page-terms bg-body">
+<main x-data="pages" id="site-main" class="site__main page-terms bg-body">
     {{- if .Params.sections }}
     {{- range $section := .Params.sections }}
     {{- $style := $section.design.style }}
