@@ -42,6 +42,8 @@
 
     <script defer src="{{ $js_min.RelPermalink }}"></script>
 
+            {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "resized" "224x269 Top webp" "fill" true "lazyload" .Site.Data.theme.lazysizes }}
+            {{ partial "functions/get_image.html" $include_dict }}
     <link rel="icon" type="image/png" href="{{(partial "functions/get_icon" 32 $.Site ).RelPermalink}}">
     <!-- <link rel="apple-touch-icon" type="image/png" href="{{(partial "functions/get_icon" 192 ).RelPermalink}}"> -->
 
