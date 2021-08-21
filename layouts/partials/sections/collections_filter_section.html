@@ -9,7 +9,8 @@
         <button
             class="inline-block text-xs hover:text-teal-500 uppercase leading-none cursor-pointer focus:outline-none py-2 px-10 lg:px-16"
             @click="open = true">{{-  $section.label }}</button>
-        <div class="product__color absolute w-full lg:w-200px top-8 left-0 z-50 shadow-md" x-show="open"
+        <div class="product__color absolute w-full lg:w-200px top-8 left-0 z-50 shadow-md" 
+            x-show="open"
             @click.away="open=false" 
             x-transition:enter="transition ease-out duration-75"
             x-transition:enter-start="opacity-0 transform scale-90"
