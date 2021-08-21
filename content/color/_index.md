@@ -3,6 +3,21 @@ title: Semua Warna
 description: Koleksi Warna Produk Hijacket
 sections:
   - type: hero_section
+    title: Semua Koleksi Produk
+    align: center
+    has_background: true
+    design:
+      container: false
+      aspect_ratio: '21:3'
+      background:
+        color: gray
+        gradient_start: ''
+        gradient_end: ''
+        image: uploads/banner.jpg
+        image_size: cover
+        image_position: center
+sections:
+  - type: hero_section
     template: hero_section
     title: Koleksi Warna Hijacket
     align: center
