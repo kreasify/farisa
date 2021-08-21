@@ -156,7 +156,7 @@ document.addEventListener('alpine:init', () => {
                     </template>
                     <p class="mb-2">
                         <span class="text-xs text-body bg-body-text opacity-80 rounded-sm px-1">Iklan</span>
-                        <span>https://hijacket.site</span>
+                        <span class="text-xs text-body-text-secondary pl-2">https://hijacket.site</span>
                     </p>
                 </div>
                 </template>
