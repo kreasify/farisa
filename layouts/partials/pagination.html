@@ -11,7 +11,7 @@
 <!-- If there's more than one page. -->
 {{- if gt $paginator.TotalPages 1 }}
 <div class="flex flex-col lg:flex-row justify-between items-center">
-    <div class="text-xs text-body-text-primary items-center mb-4 lg:mb-0">Page {{- $paginator.PageNumber }} of {{- $paginator.TotalPages }}</div>
+    <div class="text-xs text-body-text-primary items-center mb-4 lg:mb-0">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</div>
     <nav class="flex-1 flex items-center text-center justify-center">
         <ul class="pagination flex items-center justify-center text-sm text-center text-gray-700 mx-auto p-0 mb-0">
             <!-- First page. -->
