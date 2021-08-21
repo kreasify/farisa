@@ -188,6 +188,7 @@ document.addEventListener('alpine:init', () => {
                         <span class="text-heading-primary text-xs lg:text-sm font-medium" x-text="adSecond.price"></span>
                     </p>
                     </template>
+                    
                 </div>
                 </template>
             </div>
