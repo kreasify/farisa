@@ -45,7 +45,6 @@
             <!-- Upper limit pages. -->
             <!-- If the user is on a page which is in the upper limit. -->
             {{- else if ge $paginator.PageNumber $upper_limit }}
-
             <!-- If the current loop page is greater than total pages minus $max_links -->
             {{- if gt .PageNumber (sub $paginator.TotalPages $max_links) }}
             {{- $.Scratch.Set "page_number_flag" true }}
