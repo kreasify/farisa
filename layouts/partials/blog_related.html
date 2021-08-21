@@ -5,7 +5,7 @@
     <div class="grid grid-cols-12 gap-3 lg:gap-6">
         {{- $related := .Site.RegularPages.Related . | first 3 }}
         {{- with $related }}
-        {{- range . }}
+        {{- range $index, $el := . }}
         {{ partial "blog_list_item" . }}
         {{- end }}
         {{- end }}
