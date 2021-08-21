@@ -23,10 +23,12 @@ document.addEventListener('alpine:init', () => {
             const wrapper_2 = document.querySelector(".related-item-4");
 
             this.feedAd();
+            if (wrapper_0) {
             this.adFirst(wrapper_0);
+            }
             this.adSecond(wrapper_1);
             this.adThird(wrapper_2);
-            this.adFourth();
+            this.adFourth(wrapper_2);
            
             return getProducts;
         },
