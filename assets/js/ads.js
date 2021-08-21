@@ -142,7 +142,7 @@ document.addEventListener('alpine:init', () => {
                     </a>
                 </div>
                 <div class="absolute top-0 left-0 w-full h-8 flex items-center justify-end pr-1">
-                    <span class="text-xs leading-5 text-body-text bg-body opacity-70 rounded-sm px-1">Ad by Vitoko</span>
+                    <span class="text-xs leading-5 text-body-text bg-body opacity-60 rounded-sm px-1">Ad by Vitoko</span>
                 </div>
                 <template x-if="adFirst.title">
                 <div class="ads-item__info py-3 px-2">
@@ -176,7 +176,7 @@ document.addEventListener('alpine:init', () => {
                     </a>
                 </div>
                 <div class="absolute top-0 left-0 w-full h-8 flex items-center justify-end pr-1">
-                    <span class="text-xs leading-5 text-body-text bg-body opacity-70 rounded-sm px-1">Ad by Vitoko</span>
+                    <span class="text-xs leading-5 text-body-text bg-body opacity-60 rounded-sm px-1">Ad by Vitoko</span>
                 </div>
                 <template x-if="adSecond.title">
                 <div class="ads-item__info py-3 px-2">
@@ -210,7 +210,7 @@ document.addEventListener('alpine:init', () => {
                     </a>
                 </div>
                 <div class="absolute top-0 left-0 w-full h-8 flex items-center justify-end pr-1">
-                    <span class="text-xs leading-5 text-body-text bg-body opacity-70 rounded-sm px-1">Ad by Vitoko</span>
+                    <span class="text-xs leading-5 text-body-text bg-body opacity-60 rounded-sm px-1">Ad by Vitoko</span>
                 </div>
                 <template x-if="adThird.title">
                 <div class="ads-item__info py-3 px-2">
@@ -244,7 +244,7 @@ document.addEventListener('alpine:init', () => {
                     </a>
                 </div>
                 <div class="absolute top-0 left-0 w-full h-8 flex items-center justify-end pr-1">
-                    <span class="text-xs leading-5 text-body-text bg-body opacity-70 rounded-sm px-1">Ad by Vitoko</span>
+                    <span class="text-xs leading-5 text-body-text bg-body opacity-60 rounded-sm px-1">Ad by Vitoko</span>
                 </div>
                 <template x-if="adFourth.title">
                 <div class="ads-item__info py-3 px-2">
@@ -278,7 +278,7 @@ document.addEventListener('alpine:init', () => {
                     </a>
                 </div>
                 <div class="absolute top-0 left-0 w-full h-8 flex items-center justify-end pr-1">
-                    <span class="text-xs leading-5 text-body-text bg-body opacity-70 rounded-sm px-1">Ad by Vitoko</span>
+                    <span class="text-xs leading-5 text-body-text bg-body opacity-60 rounded-sm px-1">Ad by Vitoko</span>
                 </div>
                 <template x-if="adFifth.title">
                 <div class="ads-item__info py-3 px-2">
