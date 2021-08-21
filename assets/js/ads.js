@@ -26,7 +26,6 @@ document.addEventListener('alpine:init', () => {
             if (feed_1) {
             this.feedAd(feed_1);
             }
-            this.feedAd(feed_1);
             if (wrapper_0) {
             this.adFirst(wrapper_0);
             }
