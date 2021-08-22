@@ -14,7 +14,6 @@
   {{- if eq .Section "post" }}
     {{ partial "jsonld/article.html" (dict "page" $page "summary" $summary) }}
   {{- else if eq .Section "shop" }}
-    {{ partial "jsonld/article.html" (dict "page" $page "summary" $summary) }}
   {{- else }}
     {{ partial "jsonld/article.html" (dict "page" $page "summary" $summary) }}
   {{ end }}
