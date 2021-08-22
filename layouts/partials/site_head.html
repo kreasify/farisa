@@ -61,9 +61,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
     <link rel="canonical" href="{{ .RelPermalink }}">
-    {{ partial "styles.html" . }}
-    {{ partial "site_head_seo.html" . }}
-    {{ range .AlternativeOutputFormats -}}
+    {{- partial "styles.html" . }}
+    {{- partial "site_head_seo.html" . }}
+    {{- range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
     {{- end }}
     {{ partial "jsonld/main" (dict "page" . "summary" $desc) }}
