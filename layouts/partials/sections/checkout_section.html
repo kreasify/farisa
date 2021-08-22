@@ -57,7 +57,7 @@
                         @click="cart.qty++; $store.shop.save()">&plus;</button>
                 </div>
             </div>
-            <span class="checkout__price col-span-1 order-5 text-body-text-primary hidden lg:block"
+            <span class="checkout__price col-span-1 order-5 text-sm text-body-text-primary hidden lg:block"
                 x-text="$store.shop.localPrice(cart.price)"></span>
             <span class="checkout__weight col-span-2 lg:order-4 text-xs lg:text-base text-body-text-secondary"
                 x-text="cart.weight + ' gram'"></span>
