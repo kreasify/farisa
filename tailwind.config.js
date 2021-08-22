@@ -113,6 +113,13 @@ module.exports = {
 			},
             backgroundImage: theme => ({
                 'hero-banner': "url('/images/banner.jpg')",
+                'hijabenka': "url('/images/hijabenka.png')",
+                'berrybenka': "url('/images/berrybenka.png')",
+                'lazada': "url('/images/lazada.png')",
+                'shopee': "url('/images/shopee.png')",
+                'tokopedia': "url('/images/tokopedia.png')",
+                'bukalapak': "url('/images/bukalapak.png')",
+                'blibli': "url('/images/blibli.png')",
             }),
 			borderWidth: {
 				'1': '1px',
