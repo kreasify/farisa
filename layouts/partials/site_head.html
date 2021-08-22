@@ -57,5 +57,7 @@
     {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
     {{- end }}
-    {{ partial "site_head_schema.html" . }}
+
+    {{ partial "jsonld/main" (dict "page" . "summary" $desc) }}
+    <!-- {{ partial "site_head_schema.html" . }} -->
 </head>
