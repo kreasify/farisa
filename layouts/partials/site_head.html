@@ -67,7 +67,6 @@
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
     {{- end }}
 
-    {{- $image := "" }}
     {{- if .Params.thumbnail }}
     {{- $image = .Params.thumbnail }}
     
