@@ -12,7 +12,7 @@
     {{ else if site.Params.description }}
         {{ $desc = site.Params.description }}
     {{ else }}
-        {{ $desc = site.Des }}
+        {{ $desc = site.Params.Description }}
     {{ end }}
     <meta name="description" content="{{ $desc }}" />
     <!-- <link rel="stylesheet" href="{{ "assets/css/styles.css" | relURL }}"/> -->
