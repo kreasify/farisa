@@ -59,7 +59,7 @@
             </div>
             <span class="checkout__price col-start-9 col-end-10 text-body-text-primary hidden lg:block"
                 x-text="$store.shop.localPrice(cart.price)"></span>
-            <span class="checkout__weight col-span-2 lg:col-start-8 lg:col-end-9 text-xs lg:text-base text-body-text-secondary"
+            <span class="checkout__weight col-span-2 lg:order-4 text-xs lg:text-base text-body-text-secondary"
                 x-text="cart.weight + ' gram'"></span>
             <button class="checkout__remove col-span-2 lg:col-start-12 lg:col-end-13 text-body-text-primary flex items-center justify-end"
                 @click.prevent="$store.shop.deleteItem(cart.sku); $store.shop.save()">
