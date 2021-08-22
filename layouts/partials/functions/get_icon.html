@@ -1,9 +1,9 @@
-<!-- {{- $site := .Site }}
+{{- $site := .Site }}
 {{- $image := .image }}
 {{- $resized := .resized | default "32x32" }}
 {{- $icon := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
 {{ $icon_resized := $icon.Fill $resized }}
-{{ return $icon_resized }} -->
+{{ return $icon_resized }}
 
 
 {{ $icon := resources.GetMatch "images/favicon.png" }}
