@@ -7,7 +7,8 @@
                 class="cart__item-btn flex items-center text-xs uppercase text-body-text-primary hover:text-primary focus:outline-none"
                 @click="$store.shop.clearCarts(); $store.shop.save()">
                 {{ partial "svg/icon-trash.svg" (dict "class" "w-14px h-14px text-red-500 mx-auto") }}
-                <span class="ml-3">Clear Cart</span</button>
+                <span class="ml-3">Clear Cart</span>
+            </button>
         </div>
         <div class="bg-body pt-4"></div>
         <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
