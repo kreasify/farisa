@@ -20,7 +20,7 @@
         </div>
         <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
         <div class="checkout__item grid grid-cols-7 grid-rows-2 items-center bg-body-primary py-3 px-4 first:pt-6 last:mb-4">
-            <figure class="checkout__item-media col-span-1 row-span-2 relative pt-6px pr-2 lg:pr-4">
+            <figure class="checkout__item-media col-span-1 row-span-2 responsive aspect-w-5 aspect-h-6 lg:pr-4">
                 <img class="checkout__item-image" sizes="(max-width: 80px) 100vw, 80px"
                     x-bind:src="cart.image" x-bind:alt="cart.name">
             </figure>
