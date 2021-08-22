@@ -6,10 +6,6 @@
 
   {{ partialCached "jsonld/website.html" $page }}
 
-  {{ if ne $site_type "Person" }}
-    {{ partial "jsonld/business.html" $page }}
-  {{ end }}
-
 {{- else if $page.IsPage -}}
 
   {{ if (eq $page.Type "post") | or (eq $page.Type "publication") | or (eq $page.Type "project") }}
