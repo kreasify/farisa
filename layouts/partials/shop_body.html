@@ -139,7 +139,9 @@
         <div class="border border-yellow-500 border-solid rounded-md py-4 px-4">
             <p class="text-sm lg:text-base text-body-text-primary mb-0">Kamu bisa membeli riil produk ini di 
             {{ with .Params.marketplace.hijabenka }}
-            <a class="" href="{{ . }}">{{ . }}</a></p>
+            <a class="" href="{{ . }}">{{ . }}</a>
+            {{ end }}
+            </p>
         </div>
     </div>
 </div>
