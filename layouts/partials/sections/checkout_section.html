@@ -46,14 +46,14 @@
                                     @click="cart.qty++; $store.shop.save()">&plus;</button>
                             </div>
                         </div>
-                        <span class="checkout__price col-span-2 text-xs lg:text-base text-body-text-secondary"
+                        <span class="checkout__price col-span-2 text-xs lg:text-base text-body-text-primary"
                             x-text="$store.shop.localPrice(cart.price)"></span>
-                        <span class="checkout__weight col-span-1 text-body-text-secondary text-xs lg:text-base"
+                        <span class="checkout__weight col-span-1 text-body-text-primary text-xs lg:text-base"
                             x-text="cart.weight + ' gram'"></span>
                         <button class="checkout__remove col-span-1 flex items-center justify-end"
                             @click.prevent="$store.shop.deleteItem(cart.sku); $store.shop.save()">
                             {{ partial "svg/icon-times.svg" (dict "class" "w-4 h-4 inline-block text-red-500 mr-2") }}
-                            <span class="text-xs text-body-text-secondary hover:text-red-500 uppercase">hapus</span>
+                            <span class="text-xs text-body-text-primary hover:text-red-500 uppercase">hapus</span>
                         </button>
                     </div>
                 </template>
@@ -70,7 +70,7 @@
                                             class="text-red-500">*</span>
                                     </label>
                                     <input
-                                        class="w-full text-sm text-body-text-secondary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                        class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
                                         type="text" id="nama" name="nama" jsname="YPqjbf" value="" placeholder="Nama lengkap anda"
                                         x-model="name" oninvalid="this.setCustomValidity('Masukkan nama lengkap anda')" oninput="setCustomValidity('')" required="">
                                 </div>
@@ -78,7 +78,7 @@
                                     <label class="block text-body-text-primary mb-2" for="email">Email <span
                                             class="text-red-500">*</span></label>
                                     <input
-                                       class="w-full text-sm text-body-text-secondary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                       class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
                                         type="email" id="email" name="email" value="" placeholder="Email anda"
                                         x-model="email" oninvalid="this.setCustomValidity('Masukkan email anda')" oninput="setCustomValidity('')" required="">
                                 </div>
@@ -89,14 +89,14 @@
                                     <label class="block text-body-text-primary mb-2" for="hp">No. HP/WA <span
                                             class="text-red-500">*</span></label>
                                     <input
-                                        class="w-full text-sm text-body-text-secondary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                        class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
                                         type="number" id="hp" name="hp" value="" placeholder="No HP/Whatsapp anda"
                                         x-model="hp" oninvalid="this.setCustomValidity('Masukkan nomor hp anda')" oninput="setCustomValidity('')" required="">
                                 </div>
                                 <div class="form-address__item relative col-span-2 lg:col-span-1 mb-2">
                                     <label class="block text-body-text-primary mb-2" for="name">Kecamatan</label>
                                     <input x-ref="autoComplete" id="autoComplete" name="kecamatan"
-                                        class="relative z-20 w-full text-sm text-body-text-secondary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out hover:placeholder-transparent py-3px px-3"
+                                        class="relative z-20 w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out hover:placeholder-transparent py-3px px-3"
                                         type="text" tabindex="1" x-bind:class="activeStyle == true ? 'placeholder-body-text-secondary' : 'placeholder-hint-text' " oninvalid="this.setCustomValidity('Masukkan kecamatan anda')" oninput="setCustomValidity('')"  required="">
                                 </div>
                             </div>
@@ -105,7 +105,7 @@
                                 <label class="block text-body-text-primary mb-2" for="alamat">Alamat Lengkap <span
                                         class="text-red-500">*</span></label>
                                 <textarea
-                                    class="w-full text-sm text-body-text-secondary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                    class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
                                     rows="3" id="alamat" name="alamat" value=""
                                     placeholder="Masukkan alamat anda (tanpa kecamatan)" x-model="address" oninvalid="this.setCustomValidity('Masukkan alamat anda')" oninput="setCustomValidity('')" required=""></textarea>
                             </div>
@@ -114,7 +114,7 @@
                                 <div class="form-postcode__item col-span-2 lg:col-span-1 mb-2">
                                     <label class="block text-body-text-primary mb-2" for="kodepos">Kode POS (Opsional)</label>
                                     <input
-                                        class="w-full text-sm text-body-text-secondary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                        class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
                                         type="text" id="kodepos" name="kode_pos" value="" placeholder="Kode POS anda"
                                         x-model="postcode">
                                 </div>
@@ -173,7 +173,7 @@
                                 <div class="flex items-center justify-between h-6 pl-4 pr-3">
                                     <span class="text-sm text-body-text-primary leading-none"
                                         x-text="getService.service_name"></span>
-                                    <span class="text-sm text-body-text-secondary leading-none"
+                                    <span class="text-sm text-body-text-primary leading-none"
                                         x-text="'Rp ' + getService.cost[0].pay"></span> 
                                 </div>
                             </div>
@@ -195,11 +195,11 @@
                         <h3 class="checkout-form__title text-body-text">Ringkasan Pesanan</h3>
                     </header>
                     <div
-                        class="checkout-form__box checkout-form__footer flex justify-between items-center text-sm text-body-text-secondary border-t border-dashed pt-2 mb-3">
+                        class="checkout-form__box checkout-form__footer flex justify-between items-center text-sm text-body-text-primary border-t border-dashed pt-2 mb-3">
                         <div class="checkout-form--left">
                             <p class="mb-0">
                                 <span>Subtotal </span>
-                                <span class="text-xs text-body-text-secondary"
+                                <span class="text-xs text-body-text-primary"
                                     x-text="`(${$store.shop.totalItem()} barang)`"></span>
                             </p>
                         </div>
@@ -208,11 +208,11 @@
                                 x-text="$store.shop.localPrice($store.shop.subtotal())"></span>
                         </div>
                     </div>
-                    <div class="checkout-form__box flex justify-between items-center text-sm text-body-text-secondary mb-3">
+                    <div class="checkout-form__box flex justify-between items-center text-sm text-body-text-primary mb-3">
                         <div class="checkout-form--left">
                             <p class="mb-0">
                                 <span>Berat Total</span>
-                                <span class="text-xs text-body-text-secondary"
+                                <span class="text-xs text-body-text-primary"
                                     x-text="`(${($store.shop.totalWeight()).toLocaleString('id-ID')} gram)`"></span>
                             </p>
                         </div>
@@ -221,11 +221,11 @@
                                 x-text="`${$store.shop.getWeight($store.shop.totalWeight())} Kg`"></span>
                         </div>
                     </div>
-                    <div class="checkout-form__box flex justify-between items-center text-sm text-body-text-secondary mb-3">
+                    <div class="checkout-form__box flex justify-between items-center text-sm text-body-text-primary mb-3">
                         <div class="checkout-form--left">
                             <p class="mb-0">
                                 <span>Biaya Pengiriman </span>
-                                <span class="text-xs text-body-text-secondary"
+                                <span class="text-xs text-body-text-primary"
                                     x-text="courier !== '' ? `(${courier.split(',')[0]} - ${$store.shop.localPrice(parseInt(courier.split(',')[1]))})` : ''"></span>
                             </p>
                         </div>
@@ -235,7 +235,7 @@
                         </div>
                     </div>
                     <div
-                        class="checkout-form__box flex justify-between items-center text-sm text-body-text-secondary font-medium mb-3">
+                        class="checkout-form__box flex justify-between items-center text-sm text-body-text-primary font-medium mb-3">
                         <div class="checkout-form--left">
                             <h4 class="mb-0">Total Bayar</h4>
                         </div>
