@@ -73,6 +73,6 @@
     {{- end }}
     {{- $image_resize := dict "image" .Site.Params.favicon "Site" .Site "resize" "32x32" }}
     {{- $cover := (partial "functions/get_icon" $image_resize ).RelPermalink}}
-    <!-- {{ partial "jsonld/main" (dict "page" . "image" $cover "summary" $desc) }} -->
+    {{ partial "jsonld/main" (dict "page" . "image" $cover "summary" $desc) }}
     <!-- {{ partial "site_head_schema.html" . }} -->
 </head>
