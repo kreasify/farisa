@@ -7,10 +7,6 @@
 
 {{- else if $page.IsPage -}}
 
-  {{ if (eq $page.Type "post") | or (eq $page.Type "publication") | or (eq $page.Type "project") }}
-    {{ partial "jsonld/article.html" (dict "page" $page "summary" $summary) }}
-  {{ end }}
-
   {{- if (eq .Section "post") | or (eq .Section "shop") }}
     {{ partial "jsonld/article.html" (dict "page" $page "summary" $summary) }}
   {{- else }}
