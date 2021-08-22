@@ -10,6 +10,6 @@
 
   {{- if (eq .Section "post") | or (eq .Section "shop") }}
     {{ partial "jsonld/article.html" (dict "page" $page "summary" $summary) }}
-  {{ end }}
+  {{- end }}
 
 {{- end }}
