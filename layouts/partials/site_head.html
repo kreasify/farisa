@@ -70,7 +70,7 @@
     {{- if .Params.thumbnail }}
     {{- $image = .Params.thumbnail }}
     
-    {{- $image_resize := dict "image" $image "Site" .Site "resize" "32x32" }}
+    {{- $image_resize := dict "image" .Params.thumbnail "Site" .Site "resize" "32x32" }}
     {{- $cover := (partial "functions/get_icon" $image_resize ).RelPermalink}}
     {{ partial "jsonld/main" (dict "page" . "image" $cover "summary" $desc) }}
     {{- end }}
