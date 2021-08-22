@@ -2,6 +2,8 @@
 {{ $summary := .summary }}
 {{ $featured_image := "" }}
 {{- if .Params.thumbnail }}
+{{ $featured_image := "" }}
+{{ end }}
 
 {{/* Get schema type. */}}
 {{ $schema := "Article" }}
