@@ -253,7 +253,9 @@
                     </a>
 
                     <button type="submit" @click="sendWa($store.shop.listCarts(), $store.shop.subtotal(), $store.shop.getWeight($store.shop.totalWeight()) )" class="product__order-wa text-white leading-none no-underline flex justify-center items-center bg-green-500 hover:bg-green-400 focus:outline-none border-0 rounded py-2 px-4">
-                            <i class="fa fa-paper-plane"></i>&nbsp;Send</button>	
+                            {{ partial "svg/icon-whatsapp.svg" (dict "class" "w-4 h-4 inline-block fill-current mr-2") }}
+                        <span class="text-white">Beli via Whatsapp</span>
+                    </button>	
                 </div>
             </div>
         </div>
