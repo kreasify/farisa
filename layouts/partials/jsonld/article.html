@@ -7,6 +7,9 @@
 {{ if eq $page.Type "post" }}
   {{ $schema = "BlogPosting" }}
 {{ end }}
+{{ if eq $page.Type "shop" }}
+  {{ $schema = "BlogPosting" }}
+{{ end }}
 
 {{ $author := partial "functions/get_author_name" $page }}
 {{ $publisher := site.Params.org_name | default site.Title }}
