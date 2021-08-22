@@ -2,8 +2,8 @@
 {{ $summary := .summary }}
 {{ $featured_image := "" }}
 {{- if .Params.thumbnail }}
-{{ $featured_image := "" }}
-{{ end }}
+{{- $featured_image := .Params.thumbnail }}
+{{- end }}
 
 {{/* Get schema type. */}}
 {{ $schema := "Article" }}
