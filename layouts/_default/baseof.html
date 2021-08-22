@@ -1,13 +1,13 @@
 <!doctype html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}id{{ end }}">
-    {{ partial "site_head.html" . }}
+    {{- partial "site_head.html" . }}
     <body x-data="{ darkMode: localStorage.getItem('dark') === 'true'} "
         x-init="$watch('darkMode', val => localStorage.setItem('dark', val))"
         x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
-        {{ partial "site_header.html" . }}
+        {{- partial "site_header.html" . }}
         <div>
-        {{ block "content" . }}{{ end }}
-        {{ partial "site_footer.html" . }}
+        {{- block "content" . }}{{ end }}
+        {{- partial "site_footer.html" . }}
         </div>
     </body>
 </html>
