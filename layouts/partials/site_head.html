@@ -6,7 +6,7 @@
     {{/* Generate page description. */}}
     {{ $desc := "" }}
     {{ if .Params.summary }}
-    {{ $desc = .Params.summary }}
+        {{ $desc = .Params.summary }}
     {{ else if .Params.abstract }}
     {{ $desc = .Params.abstract }}
     {{ else if .IsPage }}
