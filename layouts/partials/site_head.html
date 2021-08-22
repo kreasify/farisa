@@ -8,7 +8,7 @@
     {{ if .Params.summary }}
         {{ $desc = .Params.summary }}
     {{ else if .IsPage }}
-    {{ $desc = .Summary }}
+        {{ $desc = .Summary }}
     {{ else if site.Params.description }}
     {{ $desc = site.Params.description }}
     {{ else }}
