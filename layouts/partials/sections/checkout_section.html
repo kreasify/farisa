@@ -38,7 +38,7 @@
                     <button
                         class="checkout__decrease bg-body-secondary focus:outline-none py-4px px-2 lg:py-6px lg:px-3"
                         @click="cart.qty--; $store.shop.save()" x-bind:disabled="cart.qty == 1" :class="cart.qty > 1 ? 'text-body-text-primary hover:text-body-text-primary hover:bg-body' : 'text-body-text-primary hover:text-red-300 hover:bg-body-secondary' ">&minus;</button>
-                    <span class="checkout__qty text-body-text-primary focus:outline-none py-5px px-2 lg:py-6px lg:px-3"
+                    <span class="checkout__qty focus:outline-none py-5px px-2 lg:py-6px lg:px-3"
                         x-text="cart.qty"></span>
                     <button
                         class="checkout__increase bg-body-secondary hover:bg-body focus:outline-none py-4px px-2 lg:py-6px lg:px-3"
