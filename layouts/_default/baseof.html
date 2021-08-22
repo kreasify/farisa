@@ -6,7 +6,7 @@
         x-bind:class="{ 'dark': darkMode }" :data-theme="darkMode ? 'dark' : 'light'">
         {{ partial "site_header.html" . }} 
 
-        <p>{{ .Site.Params.favicon }}</p>
+        <p>{{ .Title }}</p>
         <div>  
         {{ block "content" . }}{{ end }}
         {{ partial "site_footer.html" . }}
