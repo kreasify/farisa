@@ -48,7 +48,7 @@
                 </button>
             </div>
         </template>
-        </div>
+    </div>
     <div x-data="checkout" class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-4" 
         x-init='user = { {{ with .Site.Data.user_setting.user.name }}
                 name: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.email }}
