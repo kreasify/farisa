@@ -10,9 +10,9 @@
     {{ else if .IsPage }}
         {{ $desc = .Summary }}
     {{ else if site.Params.description }}
-    {{ $desc = site.Params.description }}
+        {{ $desc = site.Params.description }}
     {{ else }}
-    {{ $desc = $superuser_role }}
+        {{ $desc = $superuser_role }}
     {{ end }}
     <meta name="description" content="{{ $desc }}" />
     <!-- <link rel="stylesheet" href="{{ "assets/css/styles.css" | relURL }}"/> -->
