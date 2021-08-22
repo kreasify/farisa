@@ -136,24 +136,24 @@
                             </div>
                         </div>
                         <div>
-                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                            <input type="hidden" :name=" 'nama_item_' + (index + 1) " :value="cart.name">
-                        </template>
-                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                            <input type="hidden" :name=" 'ukuran_item_' + (index + 1) " :value="cart.size">
-                        </template>
-                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                            <input type="hidden" :name=" 'jumlah_item_' + (index + 1) " :value="cart.qty">
-                        </template>
-                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                            <input type="hidden" :name=" 'berat_item_' + (index + 1) " :value="cart.weight">
-                        </template>
-                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                            <input type="hidden" :name=" 'harga_item_' + (index + 1) " :value="$store.shop.localPrice(cart.price)">
-                        </template>
-                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                            <input type="hidden" :name=" 'gambar_item_' + (index + 1) " :value="cart.thumbnail">
-                        </template>
+                            <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                                <input type="hidden" :name=" 'nama_item_' + (index + 1) " :value="cart.name">
+                            </template>
+                            <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                                <input type="hidden" :name=" 'ukuran_item_' + (index + 1) " :value="cart.size">
+                            </template>
+                            <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                                <input type="hidden" :name=" 'jumlah_item_' + (index + 1) " :value="cart.qty">
+                            </template>
+                            <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                                <input type="hidden" :name=" 'berat_item_' + (index + 1) " :value="cart.weight">
+                            </template>
+                            <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                                <input type="hidden" :name=" 'harga_item_' + (index + 1) " :value="$store.shop.localPrice(cart.price)">
+                            </template>
+                            <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                                <input type="hidden" :name=" 'gambar_item_' + (index + 1) " :value="cart.thumbnail">
+                            </template>
                 
                             <!-- <input type="hidden" name="products" :value=" '[' + $store.shop.listCarts().map((product, index) => product.summary = '{name : ' + product.name + ', size: ' + product.qty + ', price: ' + $store.shop.localPrice(product.price) + ', total_price: ' + $store.shop.localPrice(product.price * product.qty) + '}') + ']' "> -->
                             
