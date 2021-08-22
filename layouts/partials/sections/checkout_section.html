@@ -1,6 +1,11 @@
 {{- $section := .section }}
 <section x-data class="section section-checkout">
-    <div x-data="checkout" class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-4">
+    <div x-data="checkout" class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-4" x-init='$store.shop.user = { {{ with .Site.Data.user_setting.user.name }}
+                name: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.email }}
+                email: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.whatsapp }}
+                whatsapp: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.shop_name }}
+                shop_name: {{ . | jsonify }},{{ end }}
+            }'>
         <form method="POST" action="https://script.google.com/macros/s/AKfycbwuWwhyyvSjY_BmDHVvPDoiYIvhB-s-6UCpXmMTRxnBBjL8cnp4HhpNgpWZLtB59IPcrQ/exec">
         <div class="grid grid-cols-12 gap-8">
             <div class="col-span-12 lg:col-span-7 bg-body-primary">
