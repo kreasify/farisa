@@ -119,7 +119,7 @@ document.addEventListener('alpine:init', () => {
             const link = "https://api.whatsapp.com/send?phone=6285229009056&text=" + header + name + hp + email + address + kurir + product_list + sub_total + ongkir + total_bayar;
             
             if ((this.name !== '') && (this.hp !== '') && (this.email !== '') && (this.address !== '') && (this.courier !== '')) {
-            window.open(link);
+                window.open(link);
             }
         },
     })
