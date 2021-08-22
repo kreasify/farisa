@@ -69,7 +69,7 @@
 
     {{- $image := "" }}
     {{- if .Params.thumbnail }}
-    {{- $image = .Params.thumbnail }}
+    {{- $image = "uploads/favicon.png" }}
     {{- end }}
     {{- $image_resize := dict "image" $image "Site" .Site "resize" "32x32" }}
     {{- $cover := (partial "functions/get_icon" $image_resize ).RelPermalink}}
