@@ -7,8 +7,6 @@
     {{ $desc := "" }}
     {{ if .Params.summary }}
         {{ $desc = .Params.summary }}
-    {{ else if .IsPage }}
-        {{ $desc = .Summary }}
     {{ else if .Params.description }}
         {{ $desc = .Params.description }}
     {{ else }}
