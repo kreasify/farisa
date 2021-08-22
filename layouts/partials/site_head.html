@@ -72,6 +72,7 @@
     {{- $image = .Params.thumbnail }}
     {{- end }}
     {{- $icon := dict "image" $image "Site" .Site "resize" "32x32" }}
+    
     {{ partial "jsonld/main" (dict "page" . "image" $image "summary" $desc) }}
     <!-- {{ partial "site_head_schema.html" . }} -->
 </head>
