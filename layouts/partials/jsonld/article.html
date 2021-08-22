@@ -27,7 +27,7 @@
   "headline": {{$page.Title}},
   {{ if $featured_image }}
   "image": [
-    {{$featured_image.Permalink}}
+    {{$featured_image}}
   ],
   {{end}}
   "datePublished": {{ $page.PublishDate.Format "2006-01-02T15:04:05Z07:00" }},
