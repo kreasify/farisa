@@ -8,7 +8,7 @@
   {{ $schema = "BlogPosting" }}
 {{ end }}
 {{ if eq $page.Type "shop" }}
-  {{ $schema = "BlogPosting" }}
+  {{ $schema = "ShopListing" }}
 {{ end }}
 
 {{ $author := partial "functions/get_author_name" $page }}
