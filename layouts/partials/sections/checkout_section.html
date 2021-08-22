@@ -244,7 +244,7 @@
 
                 <div class="checkout-form__button pt-8">
                     <button type="submit" @click="sendWa($store.shop.listCarts(), $store.shop.subtotal(), $store.shop.getWeight($store.shop.totalWeight()) )" 
-                    class="product__order-wa text-white leading-none no-underline flex justify-center items-center bg-green-500 hover:bg-green-400 focus:outline-none border-0 rounded py-2 px-4">
+                        class="product__order-wa text-white leading-none no-underline flex justify-center items-center bg-green-500 hover:bg-green-400 focus:outline-none border-0 rounded py-2 px-4">
                         {{ partial "svg/icon-whatsapp.svg" (dict "class" "w-4 h-4 inline-block fill-current mr-2") }}
                         <span class="text-white">Beli via Whatsapp</span>
                     </button>	
