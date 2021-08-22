@@ -118,7 +118,7 @@ document.addEventListener('alpine:init', () => {
             const total_bayar = `*Total%20Pembayaran%20%20%20${this.courier !== '' ? this.localPrice(subtotal + (parseInt(this.courier.split(',')[1]) * berat )) : this.localPrice(subtotal)}*`;
             const link = "https://api.whatsapp.com/send?phone=6285229009056&text=" + header + name + hp + email + address + kurir + product_list + sub_total + ongkir + total_bayar;
             
-            if ((this.name !== '') && (this.name !== '')) {
+            if ((this.name !== '') && (this.hp !== '') && (this.name !== '')) {
             window.open(link);
             }
         },
