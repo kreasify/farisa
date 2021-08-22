@@ -26,9 +26,7 @@ document.addEventListener('alpine:init', () => {
                 data: {
                     src: async () => {
                         try {
-                            // Loading placeholder text
                             this.$refs.autoComplete.setAttribute("placeholder", "Loading...");
-                            // Fetch External Data Source
                             const source = await fetch(
                                 "/api/destination.json"
                             );
