@@ -67,7 +67,7 @@
         <form method="POST" action="https://script.google.com/macros/s/AKfycbwuWwhyyvSjY_BmDHVvPDoiYIvhB-s-6UCpXmMTRxnBBjL8cnp4HhpNgpWZLtB59IPcrQ/exec">
             <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12 lg:col-span-7">
-                    <div class="checkout__form form-address bg-body-primary px-2 py-4 mb-6">
+                    <div class="checkout__form form-address bg-body-primary px-3 lg:px-4 py-4 mb-6">
                         <header class="checkout__form-header mb-6">
                             <h3 class="text-body-text">Detail Alamat Pengiriman</h3> 
                         </header>
@@ -157,7 +157,7 @@
                             <input type="hidden" name="total_bayar" :value="courier !== '' ? $store.shop.localPrice($store.shop.subtotal() + (parseInt(courier.split(',')[1]) * $store.shop.getWeight($store.shop.totalWeight()))) : $store.shop.localPrice($store.shop.subtotal())">
                         </div>
                     </div>
-                    <div class="form-address__item bg-body-primary px-2 py-4">
+                    <div class="form-address__item bg-body-primary px-3 lg:px-4 py-4">
                         <div class="flex items-center text-body-text-primary border-b border-solid border-grey py-3 mb-4">
                             {{ partial "svg/icon-shipping.svg" (dict "class" "w-6 h-6 inline-block fill-current mr-2") }}
                             <span>Silahkan pilih dan klik kurir pengiriman!</span>
