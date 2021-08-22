@@ -1,6 +1,6 @@
 {{- $section := .section }}
 <section x-data class="section section-checkout">
-        <div>
+        <div class="">
             <div class="flex justify-between items-center text-body-text py-2 px-3">
                 <p class="mb-0">Checkout Produk</p>
                 <button
@@ -48,6 +48,7 @@
                     </button>
                 </div>
             </template>
+            </div>
     <div x-data="checkout" class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-4" 
         x-init='user = { {{ with .Site.Data.user_setting.user.name }}
                 name: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.email }}
