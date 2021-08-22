@@ -20,7 +20,6 @@ document.addEventListener('alpine:init', () => {
         email: '',
         address: '',
         postcode: '',
-        products: [],
         init() {
             const autoCompleteJS = new autoComplete({
                 data: {
