@@ -64,7 +64,7 @@ document.addEventListener('alpine:init', () => {
                     element: (item, data) => {
                         // Modify Results Item Content
                         item.innerHTML = `
-                        <span class="text-overflow: ellipsis; white-space: nowrap; overflow: hidden;">
+                        <span class="truncate">
                         ${data.match}
                         </span>`;
                     },
