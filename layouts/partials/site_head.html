@@ -17,7 +17,6 @@
     {{ $desc = $superuser_role }}
   {{ end }}
   <meta name="description" content="{{ $desc }}" />
-    <meta name="description" content="{{ .Params.description | default .Site.Params.description }}" />
     <!-- <link rel="stylesheet" href="{{ "assets/css/styles.css" | relURL }}"/> -->
     {{- $lazysizes := resources.Get "js/lazysizes@5.3.2.min.js" }}
     {{- $minisearch := resources.Get "js/minisearch@3.0.4.min.js" }}
