@@ -66,6 +66,5 @@
     {{ range .AlternativeOutputFormats -}}
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
     {{- end }}
-
     {{ partial "jsonld/main" (dict "page" . "summary" $desc) }}
 </head>
