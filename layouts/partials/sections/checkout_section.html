@@ -49,7 +49,7 @@
                 x-text="$store.shop.localPrice(cart.price)"></span>
             <span class="checkout__weight col-span-2 text-body-text-primary text-xs lg:text-base"
                 x-text="cart.weight + ' gram'"></span>
-            <button class="checkout__remove col-span-1 text-body-text-primary flex items-center justify-end"
+            <button class="checkout__remove col-span-2 text-body-text-primary flex items-center justify-end"
                 @click.prevent="$store.shop.deleteItem(cart.sku); $store.shop.save()">
                 {{ partial "svg/icon-times.svg" (dict "class" "w-4 h-4 inline-block text-red-500") }}
                 <span class="text-xs text-body-text-primary hover:text-red-500 uppercase">hapus</span>
