@@ -52,7 +52,7 @@
             <button class="checkout__remove col-span-2 text-body-text-primary flex items-center justify-end"
                 @click.prevent="$store.shop.deleteItem(cart.sku); $store.shop.save()">
                 {{ partial "svg/icon-times.svg" (dict "class" "w-4 h-4 inline-block text-red-500") }}
-                <span class="text-xs text-body-text-primary hover:text-red-500 uppercase">hapus</span>
+                <span class="text-xs text-body-text-primary hover:text-red-500 uppercase hidden lg:block">hapus</span>
             </button>
         </div>
         </template>
