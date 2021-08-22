@@ -13,7 +13,6 @@
         {{- $desc = site.Params.Description }}
     {{- end }}
     <meta name="description" content="{{ $desc }}" />
-    <!-- <link rel="stylesheet" href="{{ "assets/css/styles.css" | relURL }}"/> -->
     {{- $lazysizes := resources.Get "js/lazysizes@5.3.2.min.js" }}
     {{- $minisearch := resources.Get "js/minisearch@3.0.4.min.js" }}
     {{- $splide := resources.Get "js/splide@2.4.20.min.js" }}
