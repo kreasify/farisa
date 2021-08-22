@@ -60,7 +60,7 @@ document.addEventListener('alpine:init', () => {
                     tabSelect: true
                 },
                 resultItem: {
-                    class: "autoComplete__result text-sm text-body-text hover:bg-body group hover:border-l-2 hover:border-r-2 hover:border-solid hover:border-primary py-1 px-3 mb-0",
+                    class: "autoComplete__result text-sm text-body-text hover:bg-body truncate group hover:border-l-2 hover:border-r-2 hover:border-solid hover:border-primary py-1 px-3 mb-0",
                     element: (item, data) => {
                         // Modify Results Item Content
                         item.innerHTML = `
