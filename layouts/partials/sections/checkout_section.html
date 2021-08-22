@@ -136,7 +136,6 @@
                             </div>
                         </div>
                         <div>
-                        
                         <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
                             <input type="hidden" :name=" 'nama_item_' + (index + 1) " :value="cart.name">
                         </template>
