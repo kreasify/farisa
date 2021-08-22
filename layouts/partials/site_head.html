@@ -67,7 +67,7 @@
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
     {{- end }}
 
-    {{- $image := .Site.Params.favicon }}
+    {{- $image := "" }}
 
     {{- $image_resize := dict "image" $image "Site" .Site "resize" "32x32" }}
     {{- $cover := (partial "functions/get_icon" $image_resize ).RelPermalink}}
