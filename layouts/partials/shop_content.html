@@ -1,7 +1,7 @@
 <div x-data="{ tab: window.location.hash ? window.location.hash.substring(1) : 'description' }" id="tab_wrapper">
     <div class="flex item-center justify-center my-12">
         <div class="border border-yellow-500 border-solid rounded-md py-4 px-4">
-            <p class="text-sm lg:text-base text-body-text-primary mb-0">Kamu bisa membeli riil produk ini melalui link 
+            <p class="text-sm lg:text-base text-body-text-primary">Kamu bisa membeli riil produk ini melalui link 
             {{- with .Params.marketplace.hijabenka }}
             <a class="" href="{{ . }}">{{ . }}</a>
             {{- end }}
@@ -9,7 +9,7 @@
             <a class="" href="{{ . }}">{{ . }}</a>
             {{- end }}
             </p>
-            <p class="text-xs text-body-text-secondary"><span class="text-red-500 mr-2">*)</span>Text box ini hanya tampil pada website demo</p>
+            <p class="text-xs text-body-text-secondary mb-0"><span class="text-red-500 mr-2">*)</span>Text box ini hanya tampil pada website demo</p>
         </div>
     </div>
     <!-- The tabs navigation -->
