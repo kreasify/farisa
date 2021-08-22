@@ -36,7 +36,7 @@
             <div class="checkout__counter col-span-2">
                 <div class="inline-block text-xs text-body-text-primary">
                     <button
-                        class="checkout__decrease bg-body-secondary focus:outline-none"
+                        class="checkout__decrease bg-body-secondary focus:outline-none py-4px px-2 lg:py-6px lg:px-3"
                         @click="cart.qty--; $store.shop.save()" x-bind:disabled="cart.qty == 1" :class="cart.qty > 1 ? 'text-body-text-primary hover:text-body-text-primary hover:bg-body' : 'text-body-text-primary hover:text-red-300 hover:bg-body-secondary' ">&minus;</button>
                     <span class="checkout__qty text-body-text-primary focus:outline-none py-5px px-2 lg:py-6px lg:px-3"
                         x-text="cart.qty"></span>
