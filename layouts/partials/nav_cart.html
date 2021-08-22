@@ -42,7 +42,8 @@
             </div>
         </template>
     </div>
-    <div class="cart cart__popup-button lg:hidden w-full fixed bottom-0 right-0 bg-body-primary transition-all duration-100 ease-in-out z-50"
+    {{- if eq .RelPermalink "/checkout/" }}
+    <div class="cart cart__mobile cart__popup-button lg:hidden w-full fixed bottom-0 right-0 bg-body-primary transition-all duration-100 ease-in-out z-50"
         x-cloak 
         x-show="showCart" 
 		x-transition:enter="transition ease-out duration-200"
