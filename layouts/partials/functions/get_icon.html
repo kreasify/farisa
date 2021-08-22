@@ -1,5 +1,5 @@
 {{- $site := .Site }}
-{{- $image := .image }}
+{{- $image := .image | default "" }}
 {{- $resized := .resized | default "32x32" }}
 {{- $icon := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}
 {{ $icon_resized := $icon.Fill $resized }}
