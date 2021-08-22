@@ -3,9 +3,9 @@
   {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": "{{ $.Site.BaseURL }}",
-    "name": "{{ $.Site.Title }}",
-    "headline": "{{ $.Site.Title }},
+    "url": "{{ .Site.BaseURL }}",
+    "name": "{{ .Site.Title }}",
+    "headline": "{{ .Site.Title }},
     "author": {
         "@type": "Person",
         "name": "{{ .Site.Params.author }}"
