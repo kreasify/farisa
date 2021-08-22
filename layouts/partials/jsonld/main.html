@@ -8,7 +8,7 @@
 
 {{- else if $page.IsPage -}}
 
-  {{- if eq .Section "post"}}
+  {{- if eq .Section "post" }}
     {{ partial "jsonld/article.html" (dict "page" $page "summary" $summary) }}
   {{ end }}
 
