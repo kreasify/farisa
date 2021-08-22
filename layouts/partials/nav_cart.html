@@ -42,7 +42,7 @@
             </div>
         </template>
     </div>
-    {{- if eq .RelPermalink "/checkout/" }}
+    {{- if ne .RelPermalink "/checkout/" }}
     <div class="cart cart__mobile cart__popup-button lg:hidden w-full fixed bottom-0 right-0 bg-body-primary transition-all duration-100 ease-in-out z-50"
         x-cloak 
         x-show="showCart" 
