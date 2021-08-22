@@ -1,6 +1,7 @@
 {{- $page := .page }}
 {{ $summary := .summary }}
-{{ $featured_image := .image }}
+{{ $featured_image := "" }}
+{{- if .Params}}
 
 {{/* Get schema type. */}}
 {{ $schema := "Article" }}
