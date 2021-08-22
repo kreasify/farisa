@@ -81,7 +81,7 @@ document.addEventListener('alpine:init', () => {
                             const selection = feedback.selection.value.name;
                             const toDestination = feedback.selection.value.id + ', ' + feedback.selection.value.name;
                             this.$refs.autoComplete.setAttribute("placeholder", selection);
-                            this.$refs.autoComplete.value = "";
+                            this.$refs.autoComplete.value = selection;
                             this.activeStyle = true;
                             this.destination = toDestination;
                             this.fetchCourier();
