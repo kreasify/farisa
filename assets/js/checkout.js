@@ -51,7 +51,7 @@ document.addEventListener('alpine:init', () => {
                 },
                 placeHolder: "Masukkan Kecamatan",
                 resultsList: {
-                    class: "results__list list-none bg-body-secondary transition-all duration-500 ease-in-out pl-0",
+                    class: "results__list list-none bg-body-secondary transition-all duration-500 ease-ease pl-0",
                     element: (list, data) => {
                         list.setAttribute("data-parent", "name-list");
                     },
