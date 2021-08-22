@@ -174,7 +174,6 @@
                             {{ partial "svg/icon-shipping.svg" (dict "class" "w-6 h-6 inline-block fill-current mr-2") }}
                             <span>Silahkan pilih dan klik kurir pengiriman!</span>
                         </div>
-
                         {{- range $section.couriers }}
                         <template x-for="getCourier in couriers">
                             <template x-for="getService in getCourier.costs.filter(i => i.service_id === '{{ . }}')">
@@ -191,7 +190,6 @@
                             </template>
                         </template>
                         {{- end }}
-
                         <template x-if="destination == '' ">
                             <div class="text-center py-6">
                                 <p class="text-body-text mb-0">Masukkan dulu nama kecamatan pada kolom di atas!</p>
