@@ -31,9 +31,7 @@ document.addEventListener('alpine:init', () => {
                                 "/api/destination.json"
                             );
                             const data = await source.json();
-                            // Post Loading placeholder text
                             this.$refs.autoComplete.setAttribute("placeholder", autoCompleteJS.placeHolder);
-                            // Returns Fetched data
                             return data;
                         } catch (error) {
                             return error;
