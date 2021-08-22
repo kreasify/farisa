@@ -1,5 +1,6 @@
 document.addEventListener('alpine:init', () => {
     Alpine.data('checkout', () => ({
+        user: '',
         activeStyle: false,
         destination: '',
         couriers: [],
