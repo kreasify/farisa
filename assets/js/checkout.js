@@ -68,7 +68,7 @@ document.addEventListener('alpine:init', () => {
                         ${data.match}
                         </span>`;
                     },
-                    highlight: "autoComplete_highlight text-primary bg-body group-hover:bg-body-secondary rounded-sm px-1",
+                    highlight: "autoComplete_highlight text-primary",
                     selected: "autoComplete_selected bg-body border-l-2 border-r-2 border-solid border-primary"
                 },
                 events: {
