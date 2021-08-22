@@ -11,7 +11,7 @@
             </button>
         </div>
         <div class="checkout grid grid-cols-7 lg:grid-cols-12 gap-x-2 lg:gap-x-4 items-center bg-body-secondary py-3 px-4">
-            <div class="col-span-5 lg:col-span-6">
+            <div class="col-span-5">
                 <h4 class="text-sm lg:text-base text-heading mb-0">Produk</h4>
             </div>
             <div class="col-span-2 hidden lg:block">
@@ -26,6 +26,7 @@
             <div class="col-span-1 lg:col-span-2">
                 <h4 class="text-sm lg:text-base text-heading mb-0">Subtotal</h4>
             </div>
+            
         </div>
         <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
         <div class="checkout__item grid grid-cols-7 lg:grid-cols-12 grid-rows-2 gap-x-2 lg:gap-x-4 items-center bg-body-primary py-3 lg:py-4 px-2 lg:px-4">
