@@ -43,7 +43,7 @@
     <script defer src="{{ $js_min.RelPermalink }}"></script>
 
     {{ with .Site.Params.favicon }}
-    {{- $include_dict := dict "image" . "Site" .Site "resized" "224x269" }}
+    {{- $include_dict := dict "image" . "Site" .Site }}
     <link rel="icon" type="image/png" href="{{(partial "functions/get_icon" $include_dict ).RelPermalink}}">
      {{- end }}
     <!-- <link rel="icon" type="image/png" href="{{(partial "functions/get_icon" 32 ).RelPermalink}}"> -->
