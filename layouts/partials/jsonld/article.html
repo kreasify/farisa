@@ -1,6 +1,6 @@
 {{- $page := .page }}
 {{ $summary := .summary }}
-{{ $featured_image := .image }}
+{{ $featured_image := .image | default "uploads" }}
 
 {{/* Get schema type. */}}
 {{ $schema := "Article" }}
