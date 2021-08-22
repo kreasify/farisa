@@ -44,10 +44,8 @@
 
     {{- $icon := dict "image" .Site.Params.favicon "Site" .Site "resize" "32x32" }}
     {{- $apple_icon := dict "image" .Site.Params.favicon "Site" .Site "resize" "192x192" }}
-
     <link rel="icon" type="image/png" href="{{(partial "functions/get_icon" $icon ).RelPermalink}}">
     <link rel="apple-touch-icon" type="image/png" href="{{(partial "functions/get_icon" $apple_icon ).RelPermalink}}">
-
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
