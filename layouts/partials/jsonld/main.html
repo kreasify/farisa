@@ -1,10 +1,10 @@
-{{ $page := .page }}
-{{ $image := .image }}
-{{ $summary := .summary }}
+{{- $page := .page }}
+{{- $image := .image }}
+{{- $summary := .summary }}
 
 {{- if $page.IsHome -}}
 
-  {{ partialCached "jsonld/website.html" $page }}
+  {{- partialCached "jsonld/website.html" $page }}
 
 {{- else if $page.IsPage -}}
 
