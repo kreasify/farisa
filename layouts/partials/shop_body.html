@@ -137,7 +137,7 @@
 
     <div class="flex item-center justify-center my-12">
         <div class="border border-yellow-500 border-solid rounded-md py-4 px-4">
-            <p class="text-sm lg:text-base text-body-text-primary mb-0">Kamu bisa membeli riil produk ini di <a class="" href="{{ . }}{{ end }}">{{ with .Params.marketplace.berrybenka }}{{ . }}{{ end }}</a></p>
+            <p class="text-sm lg:text-base text-body-text-primary mb-0">Kamu bisa membeli riil produk ini di <a class="" {{ with .Params.marketplace.hijabenka }}href="{{ . }}{{ end }}">{{ with .Params.marketplace.berrybenka }}{{ . }}{{ end }}</a></p>
         </div>
     </div>
 </div>
