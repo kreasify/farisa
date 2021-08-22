@@ -3,6 +3,20 @@
     {{- hugo.Generator }}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      {{/* Generate page description. */}}
+  {{ $desc := "" }}
+  {{ if .Params.summary }}
+    {{ $desc = .Params.summary }}
+  {{ else if .Params.abstract }}
+    {{ $desc = .Params.abstract }}
+  {{ else if .IsPage }}
+    {{ $desc = .Summary }}
+  {{ else if site.Params.description }}
+    {{ $desc = site.Params.description }}
+  {{ else }}
+    {{ $desc = $superuser_role }}
+  {{ end }}
+  <meta name="description" content="{{ $desc }}" />
     <meta name="description" content="{{ .Params.description | default .Site.Params.description }}" />
     <!-- <link rel="stylesheet" href="{{ "assets/css/styles.css" | relURL }}"/> -->
     {{- $lazysizes := resources.Get "js/lazysizes@5.3.2.min.js" }}
