@@ -71,6 +71,6 @@
     {{- if .Params.thumbnail }}
     {{- $image = .Params.thumbnail }}
     {{- end }}
-    {{ partial "jsonld/main" (dict "page" . "summary" $desc) }}
+    {{ partial "jsonld/main" (dict "page" . "image" $image "summary" $desc) }}
     <!-- {{ partial "site_head_schema.html" . }} -->
 </head>
