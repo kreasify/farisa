@@ -1,26 +1,26 @@
 {{- if .IsHome }}
 <script type="application/ld+json">
   {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "{{ .Site.BaseURL }}",
-    "name": "{{ .Site.Title }}",
-    "headline": "{{ .Site.Title }},
-    "author": {
-        "@type": "Person",
-        "name": "{{ .Site.Params.author }}"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "{{ .Site.Params.author }}",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "{{ if .Site.Data.theme.header.logo }}{{ .Site.Data.theme.header.logo }}{{ end }}",
-        "width": 156,
-        "height": 32
-      }
-    },
-      "description": "{{ .Site.Params.description }}"
+  	"@context": "http://schema.org",
+  	"@type": "WebSite",
+  	"url": "{{ .Site.BaseURL }}",
+  	"name": "{{ .Site.Title }}",
+  	"headline": "{{ .Site.Title }}",
+  	"author": {
+  		"@type": "Person",
+  		"name": "{{ .Site.Params.author }}"
+  	},
+  	"publisher": {
+  		"@type": "Organization",
+  		"name": "{{ .Site.Params.author }}",
+  		"logo": {
+  			"@type": "ImageObject",
+  			"url": "{{ if .Site.Data.theme.header.logo }}{{ .Site.Data.theme.header.logo }}{{ end }}",
+  			"width": 156,
+  			"height": 32
+  		}
+  	},
+  	"description": "{{ .Site.Params.description }}"
   }
 </script>
 {{- else }}
