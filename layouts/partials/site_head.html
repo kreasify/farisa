@@ -67,7 +67,7 @@
     <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .RelPermalink | safeURL }}">
     {{- end }}
 
-    {{- $image := "uploads/favicon.png" }}
+    {{- $image := .Site.Params.favicon }}
     {{- if .Params.thumbnail }}
     {{- $image = .Params.thumbnail }}
     {{- end }}
