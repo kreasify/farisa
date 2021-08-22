@@ -67,96 +67,96 @@
         <form method="POST" action="https://script.google.com/macros/s/AKfycbwuWwhyyvSjY_BmDHVvPDoiYIvhB-s-6UCpXmMTRxnBBjL8cnp4HhpNgpWZLtB59IPcrQ/exec">
             <div class="grid grid-cols-12 gap-8">
                 <div class="col-span-12 lg:col-span-7 bg-body-primary">
-                            <div class="checkout__form form-address">
-                                <header class="checkout__form-header mb-6">
-                                    <h3 class="text-body-text">Detail Alamat Pengiriman</h3> 
-                                </header>
-                                <div class="grid grid-cols-2 gap-6 mb-2 lg:mb-0">
-                                    <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
-                                        <label class="block text-body-text-primary mb-2" for="nama">Nama Lengkap <span
-                                                class="text-red-500">*</span>
-                                        </label>
-                                        <input
-                                            class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
-                                            type="text" id="nama" name="nama" jsname="YPqjbf" value="" placeholder="Nama lengkap anda"
-                                            x-model="name" oninvalid="this.setCustomValidity('Masukkan nama lengkap anda')" oninput="setCustomValidity('')" required="">
-                                    </div>
-                                    <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
-                                        <label class="block text-body-text-primary mb-2" for="email">Email <span
-                                                class="text-red-500">*</span></label>
-                                        <input
-                                        class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
-                                            type="email" id="email" name="email" value="" placeholder="Email anda"
-                                            x-model="email" oninvalid="this.setCustomValidity('Masukkan email anda')" oninput="setCustomValidity('')" required="">
-                                    </div>
-                                </div> 
-
-                                <div class="grid grid-cols-2 gap-6">
-                                    <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
-                                        <label class="block text-body-text-primary mb-2" for="hp">No. HP/WA <span
-                                                class="text-red-500">*</span></label>
-                                        <input
-                                            class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
-                                            type="number" id="hp" name="hp" value="" placeholder="No HP/Whatsapp anda"
-                                            x-model="hp" oninvalid="this.setCustomValidity('Masukkan nomor hp anda')" oninput="setCustomValidity('')" required="">
-                                    </div>
-                                    <div class="form-address__item relative col-span-2 lg:col-span-1 mb-2">
-                                        <label class="block text-body-text-primary mb-2" for="name">Kecamatan</label>
-                                        <input x-ref="autoComplete" id="autoComplete" name="kecamatan"
-                                            class="relative z-20 w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out hover:placeholder-transparent py-3px px-3"
-                                            type="text" tabindex="1" x-bind:class="activeStyle == true ? 'placeholder-body-text-secondary' : 'placeholder-hint-text' " oninvalid="this.setCustomValidity('Masukkan kecamatan anda')" oninput="setCustomValidity('')"  required="">
-                                    </div>
-                                </div>
-
-                                <div class="form-address__item mb-2">
-                                    <label class="block text-body-text-primary mb-2" for="alamat">Alamat Lengkap <span
-                                            class="text-red-500">*</span></label>
-                                    <textarea
-                                        class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
-                                        rows="3" id="alamat" name="alamat" value=""
-                                        placeholder="Masukkan alamat anda (tanpa kecamatan)" x-model="address" oninvalid="this.setCustomValidity('Masukkan alamat anda')" oninput="setCustomValidity('')" required=""></textarea>
-                                </div>
-
-                                <div class="grid grid-cols-2 gap-6">
-                                    <div class="form-postcode__item col-span-2 lg:col-span-1 mb-2">
-                                        <label class="block text-body-text-primary mb-2" for="kodepos">Kode POS (Opsional)</label>
-                                        <input
-                                            class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
-                                            type="text" id="kodepos" name="kode_pos" value="" placeholder="Kode POS anda"
-                                            x-model="postcode">
-                                    </div>
-                                </div>
-                                <div>
-                                
-                                <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                                    <input type="hidden" :name=" 'nama_item_' + (index + 1) " :value="cart.name">
-                                </template>
-                                <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                                    <input type="hidden" :name=" 'ukuran_item_' + (index + 1) " :value="cart.size">
-                                </template>
-                                <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                                    <input type="hidden" :name=" 'jumlah_item_' + (index + 1) " :value="cart.qty">
-                                </template>
-                                <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                                    <input type="hidden" :name=" 'berat_item_' + (index + 1) " :value="cart.weight">
-                                </template>
-                                <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                                    <input type="hidden" :name=" 'harga_item_' + (index + 1) " :value="$store.shop.localPrice(cart.price)">
-                                </template>
-                                <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-                                    <input type="hidden" :name=" 'gambar_item_' + (index + 1) " :value="cart.thumbnail">
-                                </template>
-                        
-                                    <!-- <input type="hidden" name="products" :value=" '[' + $store.shop.listCarts().map((product, index) => product.summary = '{name : ' + product.name + ', size: ' + product.qty + ', price: ' + $store.shop.localPrice(product.price) + ', total_price: ' + $store.shop.localPrice(product.price * product.qty) + '}') + ']' "> -->
-                                    
-                                    <input type="hidden" name="subtotal" :value="$store.shop.localPrice($store.shop.subtotal())">
-                                    <input type="hidden" name="berat" :value="$store.shop.totalWeight().toLocaleString('id-ID')">
-                                    <input type="hidden" name="kurir" :value="courier !== '' ? `${courier.split(',')[0]}` : '' ">
-                                    <input type="hidden" name="ongkir" :value="courier !== '' ? $store.shop.localPrice(parseInt(courier.split(',')[1])) : 'belum ada kurir' ">
-                                    <input type="hidden" name="total_ongkir" :value="courier !== '' ? $store.shop.localPrice(parseInt(courier.split(',')[1]) * $store.shop.getWeight($store.shop.totalWeight())) : 'belum ada kurir' ">
-                                    <input type="hidden" name="total_bayar" :value="courier !== '' ? $store.shop.localPrice($store.shop.subtotal() + (parseInt(courier.split(',')[1]) * $store.shop.getWeight($store.shop.totalWeight()))) : $store.shop.localPrice($store.shop.subtotal())">
-                                </div>
+                    <div class="checkout__form form-address">
+                        <header class="checkout__form-header mb-6">
+                            <h3 class="text-body-text">Detail Alamat Pengiriman</h3> 
+                        </header>
+                        <div class="grid grid-cols-2 gap-6 mb-2 lg:mb-0">
+                            <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
+                                <label class="block text-body-text-primary mb-2" for="nama">Nama Lengkap <span
+                                        class="text-red-500">*</span>
+                                </label>
+                                <input
+                                    class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                    type="text" id="nama" name="nama" jsname="YPqjbf" value="" placeholder="Nama lengkap anda"
+                                    x-model="name" oninvalid="this.setCustomValidity('Masukkan nama lengkap anda')" oninput="setCustomValidity('')" required="">
                             </div>
+                            <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
+                                <label class="block text-body-text-primary mb-2" for="email">Email <span
+                                        class="text-red-500">*</span></label>
+                                <input
+                                class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                    type="email" id="email" name="email" value="" placeholder="Email anda"
+                                    x-model="email" oninvalid="this.setCustomValidity('Masukkan email anda')" oninput="setCustomValidity('')" required="">
+                            </div>
+                        </div> 
+
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
+                                <label class="block text-body-text-primary mb-2" for="hp">No. HP/WA <span
+                                        class="text-red-500">*</span></label>
+                                <input
+                                    class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                    type="number" id="hp" name="hp" value="" placeholder="No HP/Whatsapp anda"
+                                    x-model="hp" oninvalid="this.setCustomValidity('Masukkan nomor hp anda')" oninput="setCustomValidity('')" required="">
+                            </div>
+                            <div class="form-address__item relative col-span-2 lg:col-span-1 mb-2">
+                                <label class="block text-body-text-primary mb-2" for="name">Kecamatan</label>
+                                <input x-ref="autoComplete" id="autoComplete" name="kecamatan"
+                                    class="relative z-20 w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out hover:placeholder-transparent py-3px px-3"
+                                    type="text" tabindex="1" x-bind:class="activeStyle == true ? 'placeholder-body-text-secondary' : 'placeholder-hint-text' " oninvalid="this.setCustomValidity('Masukkan kecamatan anda')" oninput="setCustomValidity('')"  required="">
+                            </div>
+                        </div>
+
+                        <div class="form-address__item mb-2">
+                            <label class="block text-body-text-primary mb-2" for="alamat">Alamat Lengkap <span
+                                    class="text-red-500">*</span></label>
+                            <textarea
+                                class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                rows="3" id="alamat" name="alamat" value=""
+                                placeholder="Masukkan alamat anda (tanpa kecamatan)" x-model="address" oninvalid="this.setCustomValidity('Masukkan alamat anda')" oninput="setCustomValidity('')" required=""></textarea>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="form-postcode__item col-span-2 lg:col-span-1 mb-2">
+                                <label class="block text-body-text-primary mb-2" for="kodepos">Kode POS (Opsional)</label>
+                                <input
+                                    class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                    type="text" id="kodepos" name="kode_pos" value="" placeholder="Kode POS anda"
+                                    x-model="postcode">
+                            </div>
+                        </div>
+                        <div>
+                        
+                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                            <input type="hidden" :name=" 'nama_item_' + (index + 1) " :value="cart.name">
+                        </template>
+                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                            <input type="hidden" :name=" 'ukuran_item_' + (index + 1) " :value="cart.size">
+                        </template>
+                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                            <input type="hidden" :name=" 'jumlah_item_' + (index + 1) " :value="cart.qty">
+                        </template>
+                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                            <input type="hidden" :name=" 'berat_item_' + (index + 1) " :value="cart.weight">
+                        </template>
+                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                            <input type="hidden" :name=" 'harga_item_' + (index + 1) " :value="$store.shop.localPrice(cart.price)">
+                        </template>
+                        <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
+                            <input type="hidden" :name=" 'gambar_item_' + (index + 1) " :value="cart.thumbnail">
+                        </template>
+                
+                            <!-- <input type="hidden" name="products" :value=" '[' + $store.shop.listCarts().map((product, index) => product.summary = '{name : ' + product.name + ', size: ' + product.qty + ', price: ' + $store.shop.localPrice(product.price) + ', total_price: ' + $store.shop.localPrice(product.price * product.qty) + '}') + ']' "> -->
+                            
+                            <input type="hidden" name="subtotal" :value="$store.shop.localPrice($store.shop.subtotal())">
+                            <input type="hidden" name="berat" :value="$store.shop.totalWeight().toLocaleString('id-ID')">
+                            <input type="hidden" name="kurir" :value="courier !== '' ? `${courier.split(',')[0]}` : '' ">
+                            <input type="hidden" name="ongkir" :value="courier !== '' ? $store.shop.localPrice(parseInt(courier.split(',')[1])) : 'belum ada kurir' ">
+                            <input type="hidden" name="total_ongkir" :value="courier !== '' ? $store.shop.localPrice(parseInt(courier.split(',')[1]) * $store.shop.getWeight($store.shop.totalWeight())) : 'belum ada kurir' ">
+                            <input type="hidden" name="total_bayar" :value="courier !== '' ? $store.shop.localPrice($store.shop.subtotal() + (parseInt(courier.split(',')[1]) * $store.shop.getWeight($store.shop.totalWeight()))) : $store.shop.localPrice($store.shop.subtotal())">
+                        </div>
+                    </div>
 
                     <div class="bg-body pt-8"></div>
 
