@@ -1,6 +1,6 @@
 <div x-data="{ tab: window.location.hash ? window.location.hash.substring(1) : 'description' }" id="tab_wrapper">
     <div class="flex item-center justify-center">
-        <div class="border border-orange-500 border-solid rounded-md py-8 px-8">
+        <div class="border border-orange-500 border-solid rounded-md py-4 px-8">
             <p class="mb-0">Kamu bisa membeli riil produk ini di <a class="" href="{{ with .Params.marketplace.hijabenka }}{{ . }}{{ end }}">{{ with .Params.marketplace.hijabenka }}{{ . }}{{ end }}</a></p>
         </div>
     </div>
