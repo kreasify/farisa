@@ -68,7 +68,7 @@
     {{- end }}
 
     {{- $image := "uploads/favicon.png" }}
-    {{}}
+    {{- if .Params.thumbnail }}
 
     {{ partial "jsonld/main" (dict "page" . "summary" $desc) }}
     <!-- {{ partial "site_head_schema.html" . }} -->
