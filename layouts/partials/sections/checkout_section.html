@@ -102,22 +102,22 @@
                                     x-model="email" oninvalid="this.setCustomValidity('Masukkan email anda')" oninput="setCustomValidity('')" required="">
                             </div>
                         </div> 
-                        <div class="grid grid-cols-2 gap-6">
-                            <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
-                                <label class="block text-body-text-primary mb-2" for="hp">No. HP/WA <span
-                                        class="text-red-500">*</span></label>
-                                <input
-                                    class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
-                                    type="number" id="hp" name="hp" value="" placeholder="No HP/Whatsapp anda"
-                                    x-model="hp" oninvalid="this.setCustomValidity('Masukkan nomor hp anda')" oninput="setCustomValidity('')" required="">
+                            <div class="grid grid-cols-2 gap-6">
+                                <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
+                                    <label class="block text-body-text-primary mb-2" for="hp">No. HP/WA <span
+                                            class="text-red-500">*</span></label>
+                                    <input
+                                        class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                        type="number" id="hp" name="hp" value="" placeholder="No HP/Whatsapp anda"
+                                        x-model="hp" oninvalid="this.setCustomValidity('Masukkan nomor hp anda')" oninput="setCustomValidity('')" required="">
+                                </div>
+                                <div class="form-address__item relative col-span-2 lg:col-span-1 mb-2">
+                                    <label class="block text-body-text-primary mb-2" for="name">Kecamatan</label>
+                                    <input x-ref="autoComplete" id="autoComplete" name="kecamatan"
+                                        class="relative z-20 w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out hover:placeholder-transparent py-3px px-3"
+                                        type="text" tabindex="1" x-bind:class="activeStyle == true ? 'placeholder-body-text-secondary' : 'placeholder-hint-text' " oninvalid="this.setCustomValidity('Masukkan kecamatan anda')" oninput="setCustomValidity('')"  required="">
+                                </div>
                             </div>
-                            <div class="form-address__item relative col-span-2 lg:col-span-1 mb-2">
-                                <label class="block text-body-text-primary mb-2" for="name">Kecamatan</label>
-                                <input x-ref="autoComplete" id="autoComplete" name="kecamatan"
-                                    class="relative z-20 w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out hover:placeholder-transparent py-3px px-3"
-                                    type="text" tabindex="1" x-bind:class="activeStyle == true ? 'placeholder-body-text-secondary' : 'placeholder-hint-text' " oninvalid="this.setCustomValidity('Masukkan kecamatan anda')" oninput="setCustomValidity('')"  required="">
-                            </div>
-                        </div>
                             <div class="form-address__item mb-2">
                                 <label class="block text-body-text-primary mb-2" for="alamat">Alamat Lengkap <span
                                         class="text-red-500">*</span></label>
