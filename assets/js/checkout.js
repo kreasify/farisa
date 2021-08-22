@@ -117,7 +117,7 @@ document.addEventListener('alpine:init', () => {
             const kurir = `Kurir%20%20%20%20%20%20%20%3A%20${this.courier !== '' ? this.courier.split(',')[0] + ' - ' + this.localPrice(parseInt(this.courier.split(',')[1])) : '' }%0A%0A`;
             const ongkir = `Ongkir%20%20%20%20%20%20%20%20%20%3A%20${this.courier !== '' ? this.localPrice(parseInt(this.courier.split(',')[1]) * berat) : 'belum ada kurir'}%0A`;
             const total_bayar = `*Total%20Pembayaran%20%20%20${this.courier !== '' ? this.localPrice(subtotal + (parseInt(this.courier.split(',')[1]) * berat )) : this.localPrice(subtotal)}*`;
-            const link = `https://api.whatsapp.com/send?phone=6285229009056&text=${header}${name}${hp}${email} + address + kurir + product_list + sub_total + ongkir + total_bayar`;
+            const link = `https://api.whatsapp.com/send?phone=6285229009056&text=${header}${name}${hp}${email}${address + kurir + product_list + sub_total + ongkir + total_bayar`;
             
             if ((this.name !== '') && (this.hp !== '') && (this.email !== '') && (this.address !== '') && (this.destination !== '')) {
                 window.open(link);
