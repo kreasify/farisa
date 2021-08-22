@@ -83,25 +83,25 @@
                         <header class="checkout__form-header mb-6">
                             <h3 class="text-body-text">Detail Alamat Pengiriman</h3> 
                         </header>
-                        <div class="grid grid-cols-2 gap-6 mb-2 lg:mb-0">
-                            <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
-                                <label class="block text-body-text-primary mb-2" for="nama">Nama Lengkap <span
-                                        class="text-red-500">*</span>
-                                </label>
-                                <input
+                            <div class="grid grid-cols-2 gap-6 mb-2 lg:mb-0">
+                                <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
+                                    <label class="block text-body-text-primary mb-2" for="nama">Nama Lengkap <span
+                                            class="text-red-500">*</span>
+                                    </label>
+                                    <input
+                                        class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
+                                        type="text" id="nama" name="nama" jsname="YPqjbf" value="" placeholder="Nama lengkap anda"
+                                        x-model="name" oninvalid="this.setCustomValidity('Masukkan nama lengkap anda')" oninput="setCustomValidity('')" required="">
+                                </div>
+                                <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
+                                    <label class="block text-body-text-primary mb-2" for="email">Email <span
+                                            class="text-red-500">*</span></label>
+                                    <input
                                     class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
-                                    type="text" id="nama" name="nama" jsname="YPqjbf" value="" placeholder="Nama lengkap anda"
-                                    x-model="name" oninvalid="this.setCustomValidity('Masukkan nama lengkap anda')" oninput="setCustomValidity('')" required="">
-                            </div>
-                            <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
-                                <label class="block text-body-text-primary mb-2" for="email">Email <span
-                                        class="text-red-500">*</span></label>
-                                <input
-                                class="w-full text-sm text-body-text-primary bg-body border border-solid border-border-color rounded-sm focus:text-body-text-primary focus:border-body-secondary focus:outline-none transition-all duration-500 ease-in-out placeholder-hint-text hover:placeholder-transparent py-3px px-3"
-                                    type="email" id="email" name="email" value="" placeholder="Email anda"
-                                    x-model="email" oninvalid="this.setCustomValidity('Masukkan email anda')" oninput="setCustomValidity('')" required="">
-                            </div>
-                        </div> 
+                                        type="email" id="email" name="email" value="" placeholder="Email anda"
+                                        x-model="email" oninvalid="this.setCustomValidity('Masukkan email anda')" oninput="setCustomValidity('')" required="">
+                                </div>
+                            </div> 
                             <div class="grid grid-cols-2 gap-6">
                                 <div class="form-address__item col-span-2 lg:col-span-1 mb-2">
                                     <label class="block text-body-text-primary mb-2" for="hp">No. HP/WA <span
