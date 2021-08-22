@@ -19,42 +19,42 @@
             </div>
         </div>
         <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
-            <div class="checkout grid grid-cols-7 grid-rows-2 items-center bg-body-primary py-3 px-4 first:pt-6 last:mb-4">
-                <figure class="checkout__item-media col-span-1 relative row-span-2 pt-6px pr-2 lg:pr-4">
-                    <img class="checkout__item-image" sizes="(max-width: 80px) 100vw, 80px"
-                        x-bind:src="cart.image" x-bind:alt="cart.name">
-                </figure>
-                <div class="checkout__item-name col-span-4 pl-3 lg:pl-4">
-                    <h3 class="text-sm lg:text-base font-medium text-body-text mb-0">
-                        <span x-text="cart.name"></span>
-                        <span class="checkout__item-size" x-text="cart.size"></span>
-                    </h3>
-                </div>
-                <span
-                    class="checkout__price-total col-span-2 text-xs lg:text-base text-body-text-primary text-right font-medium"
-                    x-text="$store.shop.localPrice(cart.price * cart.qty)"></span>
-                <div class="checkout__counter col-span-2 pl-3 lg:pl-4">
-                    <div class="inline-block text-xs text-body-text-primary">
-                        <button
-                            class="checkout__decrease bg-body-secondary focus:outline-none py-4px px-2 lg:py-6px lg:px-3"
-                            @click="cart.qty--; $store.shop.save()" x-bind:disabled="cart.qty == 1" :class="cart.qty > 1 ? 'text-body-text-primary hover:text-body-text-primary hover:bg-body' : 'text-body-text-primary hover:text-red-300 hover:bg-body-secondary' ">&minus;</button>
-                        <span class="checkout__qty text-body-text-primary focus:outline-none py-5px px-2 lg:py-6px lg:px-3"
-                            x-text="cart.qty"></span>
-                        <button
-                            class="checkout__increase text-body-text-primary bg-body-secondary hover:bg-body focus:outline-none py-4px px-2 lg:py-6px lg:px-3"
-                            @click="cart.qty++; $store.shop.save()">&plus;</button>
-                    </div>
-                </div>
-                <span class="checkout__price col-span-2 text-xs lg:text-base text-body-text-primary"
-                    x-text="$store.shop.localPrice(cart.price)"></span>
-                <span class="checkout__weight col-span-1 text-body-text-primary text-xs lg:text-base"
-                    x-text="cart.weight + ' gram'"></span>
-                <button class="checkout__remove col-span-1 flex items-center justify-end"
-                    @click.prevent="$store.shop.deleteItem(cart.sku); $store.shop.save()">
-                    {{ partial "svg/icon-times.svg" (dict "class" "w-4 h-4 inline-block text-red-500 mr-2") }}
-                    <span class="text-xs text-body-text-primary hover:text-red-500 uppercase">hapus</span>
-                </button>
+        <div class="checkout grid grid-cols-7 grid-rows-2 items-center bg-body-primary py-3 px-4 first:pt-6 last:mb-4">
+            <figure class="checkout__item-media col-span-1 relative row-span-2 pt-6px pr-2 lg:pr-4">
+                <img class="checkout__item-image" sizes="(max-width: 80px) 100vw, 80px"
+                    x-bind:src="cart.image" x-bind:alt="cart.name">
+            </figure>
+            <div class="checkout__item-name col-span-4 pl-3 lg:pl-4">
+                <h3 class="text-sm lg:text-base font-medium text-body-text mb-0">
+                    <span x-text="cart.name"></span>
+                    <span class="checkout__item-size" x-text="cart.size"></span>
+                </h3>
             </div>
+            <span
+                class="checkout__price-total col-span-2 text-xs lg:text-base text-body-text-primary text-right font-medium"
+                x-text="$store.shop.localPrice(cart.price * cart.qty)"></span>
+            <div class="checkout__counter col-span-2 pl-3 lg:pl-4">
+                <div class="inline-block text-xs text-body-text-primary">
+                    <button
+                        class="checkout__decrease bg-body-secondary focus:outline-none py-4px px-2 lg:py-6px lg:px-3"
+                        @click="cart.qty--; $store.shop.save()" x-bind:disabled="cart.qty == 1" :class="cart.qty > 1 ? 'text-body-text-primary hover:text-body-text-primary hover:bg-body' : 'text-body-text-primary hover:text-red-300 hover:bg-body-secondary' ">&minus;</button>
+                    <span class="checkout__qty text-body-text-primary focus:outline-none py-5px px-2 lg:py-6px lg:px-3"
+                        x-text="cart.qty"></span>
+                    <button
+                        class="checkout__increase text-body-text-primary bg-body-secondary hover:bg-body focus:outline-none py-4px px-2 lg:py-6px lg:px-3"
+                        @click="cart.qty++; $store.shop.save()">&plus;</button>
+                </div>
+            </div>
+            <span class="checkout__price col-span-2 text-xs lg:text-base text-body-text-primary"
+                x-text="$store.shop.localPrice(cart.price)"></span>
+            <span class="checkout__weight col-span-1 text-body-text-primary text-xs lg:text-base"
+                x-text="cart.weight + ' gram'"></span>
+            <button class="checkout__remove col-span-1 flex items-center justify-end"
+                @click.prevent="$store.shop.deleteItem(cart.sku); $store.shop.save()">
+                {{ partial "svg/icon-times.svg" (dict "class" "w-4 h-4 inline-block text-red-500 mr-2") }}
+                <span class="text-xs text-body-text-primary hover:text-red-500 uppercase">hapus</span>
+            </button>
+        </div>
         </template>
     </div>
     <div x-data="checkout" class="container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-4" 
