@@ -5,6 +5,6 @@
   {{- partialCached "jsonld/website.html" $page }}
 {{- else -}}
   {{- if (eq .Section "post") | or (eq .Section "shop") | or (eq .Section "blog") }}
-    {{ partial "jsonld/article.html" (dict "page" $page "image" $image "summary" $summary) }}
+    {{ partial "jsonld/article.html" (dict "page" $page "summary" $summary) }}
   {{- end }}
 {{- end }}
