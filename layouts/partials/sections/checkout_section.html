@@ -144,11 +144,9 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="grid grid-cols-2 gap-6">
                             <div class="form-postcode__item mb-2">
                                 <label class="block text-body-text-primary mb-2" for="kodepos">Metode Pembayaran</label>
                             </div>
-                        </div>
                         <div>
                             <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
                                 <input type="hidden" :name=" 'nama_item_' + (index + 1) " :value="cart.name">
