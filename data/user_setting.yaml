@@ -18,8 +18,8 @@ rekening:
     nomor: 1380012345678
 payment:
     bri:
-    name: Farisa
-    number: 310501234567890
+      name: Farisa
+      number: 310501234567890
 has_social: true
 social_links:
   - type: social
