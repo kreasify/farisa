@@ -37,7 +37,7 @@ colors:
   hint_text: "#E5E7EB"
   border_color: "#D1D5DB"
 actions_color:
-  action: '#efc33c'
+  action: '#efc33c"
 lazysizes: true
 cdn:
   is_statically: true
