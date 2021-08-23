@@ -32,7 +32,7 @@
     --primary-text: {{ .Site.Data.theme.colors.primary_text | default "#fafafa" }};
     --secondary-text: {{ .Site.Data.theme.colors.secondary_text | default "#fafafa" }};
     --hint-text: {{ .Site.Data.theme.colors.hint_text | default "#E5E7EB" }};
-    --primary: {{ .Site.Data.theme.colors.primary | default "#FF8C94" }};
+    --action-color: {{ .Site.Data.theme.colors.primary | default "#FF8C94" }};
     --border-color: {{ .Site.Data.theme.colors.border_color | default "#D1D5DB" }};
     --font-heading: {{ .Site.Data.theme.fonts.font_heading | default "Josefin Sans" }}, 'sans-serif';
     --font-body: {{ .Site.Data.theme.fonts.font_body | default "Lato" }}, 'sans-serif';
