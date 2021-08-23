@@ -113,11 +113,11 @@ document.addEventListener('alpine:init', () => {
             const hp = `*Nomor%20HP*%20%3A%20${this.hp}%20%0A`;
             const email = `*Email*%20%20%20%20%20%20%20%3A%20${this.email}%20%0A`;
             const district = ', Kec. ' + this.destination.split(',')[1] + ', ' + this.destination.split(',')[2] + ', ' + this.destination.split(',')[3];
-            const address = `Alamat%20%20%20%20%3A%20${this.address}%20${district}%20${this.postcode} %0A`;
+            const address = `*Alamat*%20%20%20%20%3A%20${this.address}%20${district}%20${this.postcode} %0A`;
             const produk = `${products.map((product, index) => product.summary = '%0A*' + product.qty + 'x*%20' + product.name + '%20*' + product.size + '*%20%0A_@' + this.localPrice(product.price) + '_%20%20%3D%3D%3E%20%20%20%20%20%20%20%20%20' + this.localPrice(product.price * product.qty)).join('%0A')}`;
             const product_list = `Rincian%20Pesanan%2C%0A_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_${produk}%0A_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%2B%0A`;
             const sub_total = `*Subtotal*%20%20%20%20%20%20%20%3A%20${this.localPrice(subtotal)}%0A`;
-            const kurir = `Kurir%20%20%20%20%20%20%20%3A%20${this.courier !== '' ? this.courier.split(',')[0] + ' - ' + this.localPrice(parseInt(this.courier.split(',')[1])) : '' }%0A%0A`;
+            const kurir = `*Kurir%20%20%20%20%20%20%20%3A%20${this.courier !== '' ? this.courier.split(',')[0] + ' - ' + this.localPrice(parseInt(this.courier.split(',')[1])) : '' }%0A%0A`;
             const ongkir = `*Ongkir*%20%20%20%20%20%20%20%20%20%3A%20${this.courier !== '' ? this.localPrice(parseInt(this.courier.split(',')[1]) * berat) : 'belum ada kurir'}%0A`;
             const total_bayar = `*Total%20Pembayaran%20%20%20${this.courier !== '' ? this.localPrice(subtotal + (parseInt(this.courier.split(',')[1]) * berat )) : this.localPrice(subtotal)}*`;
             const link = `https://api.whatsapp.com/send?phone=${this.user.whatsapp}&text=${header}${name}${hp}${email}${address}${kurir}${product_list}${sub_total}${ongkir}${total_bayar}`;
