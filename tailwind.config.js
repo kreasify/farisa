@@ -128,6 +128,7 @@ module.exports = {
 				'6': '6px',
 				'10': '10px',
 				'12': '12px',
+                '16': '16px',
 			},
 			cursor: {
 				crosshair: 'crosshair',
