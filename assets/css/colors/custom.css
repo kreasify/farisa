@@ -71,6 +71,8 @@
     --secondary: {{ .Site.Data.theme.colors.secondary | default "#6B7280" }};
     --primary-text: {{ .Site.Data.theme.colors.primary_text | default "#fafafa" }};
     --secondary-text: {{ .Site.Data.theme.colors.secondary_text | default "#fafafa" }};
+    --action: {{ .Site.Data.theme.actions_color.action | default "#FF8C94" }};
+    --action-hover: {{ .Site.Data.theme.actions_color.action_hover | default "#FF8C94" }};
     --hint-text: #6B7280;
     --border-color: #D1D5DB;
   }
