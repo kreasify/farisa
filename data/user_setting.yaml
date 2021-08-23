@@ -4,19 +4,19 @@ user:
     whatsapp: '6285156514890'
     shop_name: Vitoko store
 payments:
-  - bank: BRI
+  - payment: BRI
     name: Farisa
     number: 310501234567890
-  - bank: Mandiri
+  - payment: Mandiri
     name: Farisa
     number: 1380012345678
-  - bank: BNI
+  - payment: BNI
     name: Farisa
     number: 1380012345678
-  - bank: BCA
+  - payment: BCA
     name: Farisa
     number: 1380012345678
-  - bank: OVO
+  - payment: OVO
     name: Farisa
     number: 1380012345678
 has_social: true
