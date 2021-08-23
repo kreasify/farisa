@@ -19,6 +19,7 @@ rekening:
 payment:
   bri:
     name: Farisa
+    number
 has_social: true
 social_links:
   - type: social
