@@ -6,16 +6,16 @@ user:
 payment:
   - bank: BRI
     name: Farisa
-    nomor: 310501234567890
+    number: 310501234567890
   - bank: Mandiri
     name: Farisa
-    nomor: 1380012345678
+    number: 1380012345678
   - bank: BNI
     name: Farisa
-    nomor: 1380012345678
+    number: 1380012345678
   - bank: BCA
     name: Farisa
-    nomor: 1380012345678
+    number: 1380012345678
 has_social: true
 social_links:
   - type: social
