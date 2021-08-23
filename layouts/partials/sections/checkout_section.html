@@ -148,6 +148,7 @@
                                 {{- range $index, $el := .Site.Data.user_setting.payments }}
                                 {{- $payment := lower .payment | jsonify }}
                                 {{- $username := humanize .name | jsonify }}
+                                {{- $payment_number := humanize .name | jsonify }}
                                 {{- if eq (lower .payment) "bca" }}
                                 <div class="shop__variant-button w-24 h-8 bg-white relative flex items-center border border-solid justify-center rounded-md cursor-pointer mb-3" 
                                 @click.payment="payment = {{ $payment }}; paymentAccount = {{ $username }}; paymentNumber = {{ $payment_number }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
