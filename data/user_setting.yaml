@@ -10,7 +10,7 @@ rekening:
   - bank: Mandiri
     name: Farisa
     nomor: 1380012345678
-  - bank: Mandiri
+  - bank: BNI
     name: Farisa
     nomor: 1380012345678
 has_social: true
