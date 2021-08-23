@@ -150,35 +150,35 @@
                                 {{- $username := humanize .name | jsonify }}
                                 {{- if eq (lower .payment) "bca" }}
                                 <div class="shop__variant-button w-24 h-8 bg-white relative flex items-center border border-solid justify-center rounded-md cursor-pointer mb-3" 
-                                @click.payment="payment = {{ $payment }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
+                                @click.payment="payment = {{ $payment }}; paymentAccount = {{ $username }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
                                 x-bind:class="{ 'bg-body transition-all duration-100 ease-ease border-primary selected-payment before:empty-content before:absolute before:inline-block before:bottom-0 before:right-0 before:border-b-12 before:border-l-12 before:border-primary': paymentActive == {{ $payment }}, 'border-border-color': paymentActive !== {{ $payment }} }">
                                 {{ partial "svg/icon-bca.svg" (dict "class" "w-16 h-auto inline-block fill-current") }}
                                 </div>
                                 {{- end }}
                                 {{- if eq (lower .payment) "bni" }}
                                 <div class="shop__variant-button w-24 h-8 bg-white relative flex items-center border border-solid justify-center rounded-md cursor-pointer mb-3"
-                                @click.prevent="payment = {{ $payment }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
+                                @click.prevent="payment = {{ $payment }}; paymentAccount = {{ $username }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
                                 x-bind:class="{ 'bg-body transition-all duration-100 ease-ease border-primary selected-payment before:empty-content before:absolute before:inline-block before:bottom-0 before:right-0 before:border-b-12 before:border-l-12 before:border-primary': paymentActive == {{ $payment }}, 'border-border-color': paymentActive !== {{ $payment }} }">
                                 {{ partial "svg/icon-bni.svg" (dict "class" "w-16 h-auto inline-block fill-current") }}
                                 </div>
                                 {{- end }}
                                 {{- if eq (lower .payment) "bri" }}
                                 <div class="shop__variant-button w-24 h-8 bg-white relative flex items-center border border-solid justify-center rounded-md cursor-pointer mb-3"
-                                @click.prevent="payment = {{ $payment }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
+                                @click.prevent="payment = {{ $payment }}; paymentAccount = {{ $username }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
                                 x-bind:class="{ 'bg-body transition-all duration-100 ease-ease border-primary selected-payment before:empty-content before:absolute before:inline-block before:bottom-0 before:right-0 before:border-b-12 before:border-l-12 before:border-primary': paymentActive == {{ $payment }}, 'border-border-color': paymentActive !== {{ $payment }} }">
                                 {{ partial "svg/icon-bri.svg" (dict "class" "w-16 h-auto inline-block fill-current") }}
                                 </div>
                                 {{- end }}
                                 {{- if eq (lower .payment) "mandiri" }}
                                 <div class="shop__variant-button w-24 h-8 bg-white relative flex items-center border border-solid justify-center rounded-md cursor-pointer mb-3"
-                                @click.prevent="payment = {{ $payment }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
+                                @click.prevent="payment = {{ $payment }}; paymentAccount = {{ $username }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
                                 x-bind:class="{ 'bg-body transition-all duration-100 ease-ease border-primary selected-payment before:empty-content before:absolute before:inline-block before:bottom-0 before:right-0 before:border-b-12 before:border-l-12 before:border-primary': paymentActive == {{ $payment }}, 'border-border-color': paymentActive !== {{ $payment }} }">
                                 {{ partial "svg/icon-mandiri.svg" (dict "class" "w-16 h-auto inline-block fill-current") }}
                                 </div>
                                 {{- end }}
                                 {{- if eq (lower .payment) "ovo" }}
                                 <div class="shop__variant-button w-24 h-8 bg-white relative flex items-center border border-solid justify-center rounded-md cursor-pointer mb-3"
-                                @click.prevent="payment = {{ $payment }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
+                                @click.prevent="payment = {{ $payment }}; paymentAccount = {{ $username }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
                                 x-bind:class="{ 'bg-body transition-all duration-100 ease-ease border-primary selected-payment before:empty-content before:absolute before:inline-block before:bottom-0 before:right-0 before:border-b-12 before:border-l-12 before:border-primary': paymentActive == {{ $payment }}, 'border-border-color': paymentActive !== {{ $payment }} }">
                                 {{ partial "svg/icon-ovo.svg" (dict "class" "w-16 h-auto inline-block fill-current") }}
                                 </div>
