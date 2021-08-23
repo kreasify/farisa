@@ -111,7 +111,7 @@
         </div>
         <div class="shop__order-btn">
             <button
-                class="shop__order-cart leading-none flex focus:outline-none items-center border-0 rounded py-3 px-4 mr-3 lg:mr-4 "
+                class="shop__order-cart leading-none flex focus:outline-none items-center border-0 rounded py-3 px-4 mr-3 lg:mr-4 .Site.Data.theme.single_shop.action_color"
                 @click="$store.shop.addItem();$nextTick(() => $store.shop.save());" :class="{ 
                 'text-body-text-secondary bg-body-secondary': $store.shop.items.variants[$store.shop.activeVariant].quantity === undefined,
                 'text-primary-text bg-primary hover:bg-secondary': $store.shop.items.variants[$store.shop.activeVariant].quantity > 0
