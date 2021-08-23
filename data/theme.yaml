@@ -42,7 +42,7 @@ cdn:
   domain_name: https://vitoko.netlify.app
 single_shop:
   order_color: ''
-  marketplace_link: true
+  marketplace_link: false
 single_post:
   date_format: 2 January 2006
   share_button: true
