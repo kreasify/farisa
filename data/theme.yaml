@@ -40,6 +40,8 @@ lazysizes: true
 cdn:
   is_statically: true
   domain_name: https://vitoko.netlify.app
+single_shop:
+  marketplace_link: true
 single_post:
   date_format: 2 January 2006
   share_button: true
