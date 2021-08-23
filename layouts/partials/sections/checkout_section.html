@@ -214,7 +214,7 @@
                             <input type="hidden" name="total_ongkir" :value="courier !== '' ? $store.shop.localPrice(parseInt(courier.split(',')[1]) * $store.shop.getWeight($store.shop.totalWeight())) : 'belum ada kurir' ">
                             <input type="hidden" name="total_bayar" :value="courier !== '' ? $store.shop.localPrice($store.shop.subtotal() + (parseInt(courier.split(',')[1]) * $store.shop.getWeight($store.shop.totalWeight()))) : $store.shop.localPrice($store.shop.subtotal())">
                         </div> 
-                    </div>
+                    </div> 
                     <div class="form-address__item bg-body-primary px-3 lg:px-4 py-4">
                         <div class="flex items-center text-body-text-primary border-b border-solid border-grey py-3 mb-4">
                             {{ partial "svg/icon-shipping.svg" (dict "class" "w-6 h-6 inline-block fill-current mr-2") }}
