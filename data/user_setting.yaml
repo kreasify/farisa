@@ -19,7 +19,7 @@ rekening:
 payment:
   bri:
     name: Farisa
-    number
+    number: 310501234567890
 has_social: true
 social_links:
   - type: social
