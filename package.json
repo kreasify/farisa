@@ -1,7 +1,7 @@
 {
     "name": "farisa",
     "version": "0.1.1",
-    "description": "Farisa theme hugo",
+    "description": "Tema toko online Hugo SSG",
     "main": "index.js",
     "repository": {
         "type": "git",
