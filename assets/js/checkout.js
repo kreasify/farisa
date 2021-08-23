@@ -22,7 +22,7 @@ document.addEventListener('alpine:init', () => {
         address: '',
         postcode: '',
         payment: 'ovooo',
-        courierActive: null,
+        paymentActive: null,
         init() {
             const autoCompleteJS = new autoComplete({
                 data: {
