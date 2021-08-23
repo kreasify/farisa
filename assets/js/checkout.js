@@ -118,7 +118,7 @@ document.addEventListener('alpine:init', () => {
             const product_list = `Rincian%20Pesanan%2C%0A_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_${produk}%0A_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%20_%2B%0A`;
             const sub_total = `Subtotal%20%20%20%20%20%20%20%3A%20${this.localPrice(subtotal)}%0A`;
             const kurir = `Kurir%20%20%20%20%20%20%20%3A%20${this.courier !== '' ? this.courier.split(',')[0] + ' - ' + this.localPrice(parseInt(this.courier.split(',')[1])) : '' }%0A%0A`;
-            const ongkir = `Ongkir%20%20%20%20%20%20%20%20%20%3A%20${this.courier !== '' ? this.localPrice(parseInt(this.courier.split(',')[1]) * berat) : 'belum ada kurir'}%0A`;
+            const ongkir = `*Ongkir%20%20%20%20%20%20%20%20%20%3A%20${this.courier !== '' ? this.localPrice(parseInt(this.courier.split(',')[1]) * berat) : 'belum ada kurir'}%0A`;
             const total_bayar = `*Total%20Pembayaran%20%20%20${this.courier !== '' ? this.localPrice(subtotal + (parseInt(this.courier.split(',')[1]) * berat )) : this.localPrice(subtotal)}*`;
             const link = `https://api.whatsapp.com/send?phone=${this.user.whatsapp}&text=${header}${name}${hp}${email}${address}${kurir}${product_list}${sub_total}${ongkir}${total_bayar}`;
             
