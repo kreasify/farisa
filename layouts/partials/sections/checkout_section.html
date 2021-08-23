@@ -151,7 +151,7 @@
                             <div class="flex flex-wrap space-x-3">
                                 {{- range .Site.Data.user_setting.payments }}
 
-                                {{- $payment := .payment }}
+                                {{- $payment := lower .payment }}
                                 <div class="w-24 h-8 bg-white flex items-center border border-solid border-border-color justify-center rounded-md mb-3">
                                 {{ partial print "svg/icon-" $payment ".svg" (dict "class" "w-16 h-auto inline-block fill-current") }}
                                 </div>
