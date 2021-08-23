@@ -146,7 +146,7 @@
                         <div class="form-payment py-4">
                             <div class="flex flex-wrap space-x-3">
                                 {{- range $index, $el := .Site.Data.user_setting.payments }}
-                                {{- $payment := lower .payment | jsonify }}
+                                {{- $payment := upper .payment | jsonify }}
                                 {{- $payment_account := humanize .name | jsonify }}
                                 {{- $payment_number := .number | jsonify }}
                                 {{- if eq (lower .payment) "bca" }}
