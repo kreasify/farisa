@@ -170,7 +170,7 @@
                                 {{ partial "svg/icon-bri.svg" (dict "class" "w-16 h-auto inline-block fill-current") }}
                                 </div>
                                 {{- end }}
-                                {{- if eq (lower .payment) "mandiri" }}
+                                {{- if eq (lower .payment) "MANDIRI" }}
                                 <div class="shop__variant-button w-24 h-8 bg-white relative flex items-center border border-solid justify-center rounded-md cursor-pointer mb-3"
                                 @click.prevent="payment = {{ $payment }}; paymentAccount = {{ $payment_account }}; paymentNumber = {{ $payment_number }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
                                 x-bind:class="{ 'bg-gray-100 transition-all duration-100 ease-ease border-primary selected-payment before:empty-content before:absolute before:inline-block before:bottom-0 before:right-0 before:border-b-12 before:border-l-12 before:border-primary': paymentActive == {{ $payment }}, 'border-border-color': paymentActive !== {{ $payment }} }">
