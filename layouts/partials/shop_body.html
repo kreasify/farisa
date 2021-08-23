@@ -114,7 +114,7 @@
                 class="shop__order-cart leading-none flex focus:outline-none items-center border-0 rounded py-3 px-4 mr-3 lg:mr-4"
                 @click="$store.shop.addItem();$nextTick(() => $store.shop.save());" :class="{ 
                 'text-body-text-secondary bg-body-secondary': $store.shop.items.variants[$store.shop.activeVariant].quantity === undefined,
-                'text-primary-text bg-primary hover:bg-secondary': $store.shop.items.variants[$store.shop.activeVariant].quantity > 0
+                'text-primary-text  bg-primary hover:bg-secondary': $store.shop.items.variants[$store.shop.activeVariant].quantity > 0
             }" :disabled="$store.shop.items.variants[$store.shop.activeVariant].quantity === undefined">
                 {{ partial "svg/shopping-cart.svg" (dict "class" "w-4 h-4 inline-block fill-current mr-2") }}
                 <span>Beli Sekarang</span>
