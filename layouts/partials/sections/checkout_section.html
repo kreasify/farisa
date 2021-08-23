@@ -206,7 +206,7 @@
                                 <input type="hidden" :name=" 'gambar_item_' + (index + 1) " :value="cart.thumbnail">
                             </template>
                             <!-- <input type="hidden" name="products" :value=" '[' + $store.shop.listCarts().map((product, index) => product.summary = '{name : ' + product.name + ', size: ' + product.qty + ', price: ' + $store.shop.localPrice(product.price) + ', total_price: ' + $store.shop.localPrice(product.price * product.qty) + '}') + ']' "> -->
-                            <input type="hidden" name="kurir" :value="courier !== '' ? `${courier.split(',')[0]}` : '' ">
+                            <input type="hidden" name="pembayaran" :value="courier !== '' ? `${courier.split(',')[0]}` : '' ">
                             <input type="hidden" name="subtotal" :value="$store.shop.localPrice($store.shop.subtotal())">
                             <input type="hidden" name="berat" :value="$store.shop.totalWeight().toLocaleString('id-ID')">
                             <input type="hidden" name="kurir" :value="courier !== '' ? `${courier.split(',')[0]}` : '' ">
