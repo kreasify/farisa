@@ -3,7 +3,7 @@ user:
     email: hijacket.cs@gmail.com
     whatsapp: '6285156514890'
     shop_name: Vitoko store
-payment:
+payments:
   - bank: BRI
     name: Farisa
     number: 310501234567890
