@@ -16,7 +16,8 @@ rekening:
   - bank: BCA
     name: Farisa
     nomor: 1380012345678
-
+payment:
+  
 has_social: true
 social_links:
   - type: social
