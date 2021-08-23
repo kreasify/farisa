@@ -33,6 +33,7 @@ module.exports = {
 				'primary-text': 'var(--primary-text)',
 				secondary: 'var(--secondary)',
 				'secondary-text': 'var(--secondary-text)',
+                'action-color': 'var(--secondary-text)',
 				body: 'var(--body)',
 				'body-primary': 'var(--body-primary)',
 				'body-secondary': 'var(--body-secondary)',
