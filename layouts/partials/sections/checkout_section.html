@@ -154,7 +154,7 @@
                                 {{- if eq (lower .payment) "bca" }}
                                 <div class="shop__variant-button w-24 h-8 bg-white relative flex items-center border border-solid justify-center rounded-md mb-3" 
                                 @click.payment="payment = {{ $payment }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
-                                x-bind:class="{ 'transition-all duration-100 ease-ease border-primary selected-payment before:empty-content before:absolute before:inline-block before:bottom-0 before:right-0 before:border-b-16 before:border-l-16 before:border-primary': paymentActive == {{ $payment }}, 'border-border-color': paymentActive !== {{ $payment }} }">
+                                x-bind:class="{ 'transition-all duration-100 ease-ease border-primary selected-payment before:empty-content before:absolute before:inline-block before:bottom-0 before:right-0 before:border-b-12 before:border-l-16 before:border-primary': paymentActive == {{ $payment }}, 'border-border-color': paymentActive !== {{ $payment }} }">
                                 {{ partial "svg/icon-bca.svg" (dict "class" "w-16 h-auto inline-block fill-current") }}
                                 </div>
                                 {{- end }}
