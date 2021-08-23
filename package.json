@@ -10,7 +10,7 @@
     "author": "Akhlis <github@akhlis>",
     "license": "MIT",
     "scripts": {
-        "start": "hugo --gc",
+        "start": "hugo --gc --minify",
         "dev": "hugo server --disableFastRender"
     },
     "devDependencies": {
