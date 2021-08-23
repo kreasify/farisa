@@ -142,9 +142,6 @@
                             </div>
                         </div>
                         <div class="form-payment">
-                            <div class="form-postcode__item mb-2">
-                                <label class="block text-body-text-primary mb-2" for="kodepos">Metode Pembayaran</label>
-                            </div>
                             <div class="flex flex-wrap space-x-3">
                                 {{- range $index, $el := .Site.Data.user_setting.payments }}
                                 {{- $payment := lower .payment | jsonify }}
