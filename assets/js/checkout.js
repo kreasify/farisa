@@ -109,7 +109,7 @@ document.addEventListener('alpine:init', () => {
         },
         sendWa(products, subtotal, berat) {
             const header = `Hi%20kak%20${this.user.name}%2C%20saya%20mau%20order%20produk%20di%20toko%20${this.user.shop_name}%20dengan%20rincian%20berikut%2C%0A%0A`
-            const name = `Nama%20%20%20%20%20%20%3A%20${this.name}%20%0A`;
+            const name = `Data%20pembeli,%0ANama%20%20%20%20%20%20%3A%20${this.name}%20%0A`;
             const hp = `No.%20HP%20%20%20%20%3A%20${this.hp}%20%0A`;
             const email = `Email%20%20%20%20%20%20%20%3A%20${this.email}%20%0A`;
             const district = ', Kec. ' + this.destination.split(',')[1] + ', ' + this.destination.split(',')[2] + ', ' + this.destination.split(',')[3];
