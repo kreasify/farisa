@@ -154,7 +154,7 @@
                                 {{- if eq (lower .payment) "bca" }}
                                 <div class="w-24 h-8 bg-white flex items-center border border-solid border-border-color justify-center rounded-md mb-3" 
                                 @click.payment="payment = {{ $payment }}; paymentActive !== {{ $payment }} ? paymentActive = {{ $payment }} : paymentActive = null"
-                                x-bind:class="{ 'bg-body transition-all duration-100 ease-ease selected-courier': paymentActive == getService.service_id }">
+                                x-bind:class="{ 'bg-body transition-all duration-100 ease-ease selected-payment': paymentActive == getService.service_id }">
                                 {{ partial "svg/icon-bca.svg" (dict "class" "w-16 h-auto inline-block fill-current") }}
                                 </div>
                                 {{- end }}
