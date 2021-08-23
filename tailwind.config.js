@@ -33,7 +33,7 @@ module.exports = {
 				'primary-text': 'var(--primary-text)',
 				secondary: 'var(--secondary)',
 				'secondary-text': 'var(--secondary-text)',
-                'action': 'var(--action)',
+                action: 'var(--action)',
                 'action-hover': 'var(--action-hover)',
 				body: 'var(--body)',
 				'body-primary': 'var(--body-primary)',
