@@ -75,7 +75,7 @@
                 email: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.whatsapp }}
                 whatsapp: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.shop_name }}
                 shop_name: {{ . | jsonify }},{{ end }}
-                website: {{ .Site.BaseURL}}
+                website: {{ .Site.BaseURL | jsonify }}
             }'>
         <form method="POST" action="https://script.google.com/macros/s/AKfycbwuWwhyyvSjY_BmDHVvPDoiYIvhB-s-6UCpXmMTRxnBBjL8cnp4HhpNgpWZLtB59IPcrQ/exec">
             <div class="grid grid-cols-12 gap-6">
