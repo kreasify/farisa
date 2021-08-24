@@ -19,6 +19,7 @@ payments:
   - payment: OVO
     name: Farisa
     number: 1380012345678
+form
 has_social: true
 social_links:
   - type: social
