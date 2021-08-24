@@ -29,7 +29,6 @@ document.addEventListener('alpine:init', () => {
                     sku: this.items.variants[this.activeVariant].sku,
                     name: this.items.title,
                     image: this.items.image,
-                    thumbnail: this.items.thumbnail,
                     size: this.items.variants[this.activeVariant].size,
                     price: this.items.variants[this.activeVariant].price,
                     weight: this.items.variants[this.activeVariant].weight,
