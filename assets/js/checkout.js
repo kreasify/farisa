@@ -123,7 +123,7 @@ document.addEventListener('alpine:init', () => {
             return timeOrder;
         },
         getCourier() {
-            const kurir = this.
+            const kurir = this.this.courier.split(',')[0]
             .replace(new RegExp(escapeRegex(i), 'g'), map[i])
         },
         sendWa(products, subtotal, berat) {
