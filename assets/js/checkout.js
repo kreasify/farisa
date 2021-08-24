@@ -110,16 +110,16 @@ document.addEventListener('alpine:init', () => {
             });
         },
         getTime() {
-                var d = new Date();
-    var options = {
-        weekday: "long",
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-    };
-    var row = [d.toLocaleString("id-ID", options)];
+            var d = new Date();
+            var options = {
+            weekday: "long",
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+            };
+            var row = [d.toLocaleString("id-ID", options)];
         },
         sendWa(products, subtotal, berat) {
             const header = `Hi%20kak%20${this.user.name}%2C%20saya%20mau%20order%20produk%20di%20toko%20${this.user.shop_name}%20dengan%20rincian%20berikut%2C%0A%0A`
