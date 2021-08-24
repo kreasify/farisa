@@ -1,5 +1,5 @@
 title: Vitoko
-baseURL: /
+baseURL: https://vitoko.netlify.app/
 languageCode: id
 defaultContentLanguage: id
 preserveTaxonomyNames: true
