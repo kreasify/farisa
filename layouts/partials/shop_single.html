@@ -1,6 +1,7 @@
 {{- $site := .Site }}
 <div x-data class="shop container w-full max-w-screen-xl mx-auto px-3 lg:px-12 py-4" 
     x-init='$store.shop.items = { title: {{ .Title | jsonify }},{{ if .Params.images }}{{range first 1 .Params.images }}{{- $image := .image }}{{- $imageResource := ($site.GetPage "/uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" ( $image | relURL )) }}{{- $resized := $imageResource.Fill "70x84" }}
+            thumbnail: {{ }},
             image: {{ $resized.RelPermalink | jsonify }},{{ end }}{{ end }}{{ if .Params.variants }}
             variants: [ {{range $index, $el := .Params.variants }}{{ if gt $index 0 }}, {{ end }}
                 {
