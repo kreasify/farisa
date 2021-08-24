@@ -25,7 +25,7 @@ document.addEventListener('alpine:init', () => {
         paymentActive: null,
         paymentAccount: '',
         paymentNumber: '',
-        note: ''
+        note: '',
         init() {
             const autoCompleteJS = new autoComplete({
                 data: {
