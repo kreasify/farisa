@@ -16,7 +16,7 @@
 {{- end }}
 
 {{- if $lazyload }}
-<img class="{{ $class }} blur-up lazyload" data-src="{{ if $.Site.Data.theme.cdn.is_statically }}https://cdn.statically.io/img/{{ $url.Host }}/q=100{{ $resized.RelPermalink }}{{ else }}{{ $resized.RelPermalink }}{{ end }}" alt="{{ $alt }}" />
+<img class="{{ $class }} blur-up lazyload" data-src="{{ if .Site.Params.is_statically }}https://cdn.statically.io/img/{{ $url.Host }}/q=100{{ $resized.RelPermalink }}{{ else }}{{ $resized.RelPermalink }}{{ end }}" alt="{{ $alt }}" />
 {{- else }}
-<img class="{{ $class }}" src="{{ if $.Site.Data.theme.cdn.is_statically }}https://cdn.statically.io/img/{{ $url.Host }}/q=100{{ $resized.RelPermalink }}{{ else }}{{ $resized.RelPermalink }}{{ end }}" alt="{{ $alt }}" />
+<img class="{{ $class }}" src="{{ if .Site.Params.is_statically }}https://cdn.statically.io/img/{{ $url.Host }}/q=100{{ $resized.RelPermalink }}{{ else }}{{ $resized.RelPermalink }}{{ end }}" alt="{{ $alt }}" />
 {{- end }}
