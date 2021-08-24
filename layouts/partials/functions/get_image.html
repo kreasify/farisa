@@ -1,5 +1,5 @@
 {{- $site := .Site }}
-{{- $url := urls.Parse $.Site.BaseURL }}
+{{- $url := urls.Parse .Site.BaseURL }}
 {{- $image := .image }}
 {{- $alt := .alt_text | default "alt text" }}
 {{- $class := .class | default "absolute w-full h-full left-0 top-0 object-cover" }}
