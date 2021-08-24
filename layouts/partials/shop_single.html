@@ -26,7 +26,7 @@
     {{ partial "breadcrumb.html" . }}
     {{- $url := urls.Parse .Site.BaseURL }}
     <p>{{ $url.Host }}</p>
-    <p></p>
+    <p>{{ . | absURL }}</p>
     <div class="shop__detail grid grid-cols-12 lg:gap-8">
         {{ partial "shop_media.html" . }}
         {{ partial "shop_body.html" . }}
