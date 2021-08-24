@@ -194,7 +194,7 @@
                                 rows="2" id="catatan" name="catatan" value=""
                                 placeholder="Catatan (jika ada)" x-model="note"></textarea>
                         </div>
-                        <div> 
+                        <div>
                             <template x-for="(cart, index) in $store.shop.listCarts()" :key="cart.sku">
                                 <input type="hidden" :name=" 'nama_item_' + (index + 1) " :value="cart.name">
                             </template>
