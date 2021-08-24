@@ -116,7 +116,6 @@ function Storage() {
                       name,
                       sku,
                       image,
-					  thumbnail,
                       size,
                       price,
                       weight,
