@@ -22,7 +22,7 @@ outputs:
 params:
   description: Jaket Muslimah Khusus Hijaber
   favicon: uploads/favicon.png
-  is_statically: true
+  is_statically: false
   author: Akhlis
   mainSection:
     - shop
