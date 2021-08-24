@@ -20,7 +20,7 @@ outputs:
   section:
     - HTML
 params:
-  description: Temo toko online HUGO terbaik 
+  description: Temo toko online HUGO terbaik di Indonesia
   favicon: uploads/favicon.png
   is_statically: false
   author: Akhlis
