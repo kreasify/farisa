@@ -124,7 +124,7 @@ document.addEventListener('alpine:init', () => {
         },
         getCourier() {
             const kurir = this.courier.split(',')[0];
-            const newKurir = kurir.replace(/&/g, "and");
+            const newKurir = kurir.replace(/&/g, "n");
             return newKurir;
         },
         sendWa(products, subtotal, berat) {
