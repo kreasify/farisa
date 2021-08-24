@@ -111,7 +111,7 @@ document.addEventListener('alpine:init', () => {
         },
         getTime() {
             const d = new Date();
-            var options = {
+            const options = {
                 weekday: "long",
                 year: "numeric",
                 month: "long",
