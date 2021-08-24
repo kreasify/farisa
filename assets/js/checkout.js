@@ -110,7 +110,7 @@ document.addEventListener('alpine:init', () => {
             });
         },
         getTime() {
-            var d = new Date();
+            const d = new Date();
             var options = {
                 weekday: "long",
                 year: "numeric",
