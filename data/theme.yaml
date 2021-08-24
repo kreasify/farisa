@@ -41,7 +41,7 @@ actions_color:
   action_hover: "#FFAAA6"
 lazysizes: true
 cdn:
-  is_statically: true
+  is_statically: false
   domain_name: https://vitoko.netlify.app
 single_shop:
   action_color: '#efc33c'
