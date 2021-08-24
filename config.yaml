@@ -20,7 +20,7 @@ outputs:
   section:
     - HTML
 params:
-  description: Jaket Muslimah Khusus Hijaber
+  description: Temo 
   favicon: uploads/favicon.png
   is_statically: false
   author: Akhlis
