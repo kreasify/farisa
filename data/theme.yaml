@@ -44,7 +44,7 @@ colors:
 actions_color:
   action: "#FF8C94"
   action_hover: "#FFAAA6"
-lazysizes: true
+lazysizes: false
 single_shop:
   action_color: "#efc33c"
   marketplace_link: true
