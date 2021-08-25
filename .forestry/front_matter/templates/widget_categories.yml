@@ -9,3 +9,10 @@ fields:
   label: Type
   default: widget_categories
   hidden: true
+- name: num_categories
+  type: text
+  config:
+    required: false
+  label: Jumlah Kategori
+  default: '10'
+  description: Jumlah kategori yang ditampilkan pada widget
