@@ -7,7 +7,6 @@ sections:
 - type: document
   path: data/menu.yaml
   label: menu
-  match: "**/*"
 - type: heading
   label: Website
 - type: document

@@ -1,0 +1,24 @@
+---
+label: Widget Menu
+hide_body: true
+fields:
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: links
+    label: links
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: url
+      label: url
