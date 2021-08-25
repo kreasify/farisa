@@ -9,3 +9,7 @@ type:
 - template: widget-recent-post
   type: widget_recent_post
   recent_num: "8"
+- template: widget_categories
+  type: widget_categories
+- template: widget-tags
+  type: widget_tags
