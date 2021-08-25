@@ -52,23 +52,24 @@ fields:
         label: Class
 - type: field_group
   name: params
-  label: params
+  label: Params
   fields:
   - type: text
     name: description
-    label: description
+    label: Description
   - type: file
     name: favicon
-    label: favicon
+    label: Favicon
   - type: boolean
     name: is_statically
-    label: is_statically
+    label: Aktifkan CDN Statically
   - type: text
     name: author
-    label: author
+    label: Author
   - type: list
     name: mainSection
     label: mainSection
+    hidden: true
 - type: boolean
   name: preserveTaxonomyNames
   label: preserveTaxonomyNames
@@ -119,6 +120,13 @@ fields:
   - type: list
     name: home
     label: home
+    config:
+      use_select: true
+      source:
+        type: simple
+      options:
+      - html
+      - json
   - type: list
     name: page
     label: page
