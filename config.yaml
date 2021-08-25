@@ -61,6 +61,12 @@ build:
   writeStats: true
 menu:
   main:
+  - url: "/contact"
+    name: contact
+    weight: 4
+  - url: "/blog"
+    name: Blog
+    weight: 3
   - url: "/collections/kemeja/"
     name: Kemeja
     parent: Pakaian
