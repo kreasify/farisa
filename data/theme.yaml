@@ -37,10 +37,6 @@ colors:
   secondary_text: "#fafafa"
   hint_text: "#E5E7EB"
   border_color: "#D1D5DB"
-  menu_background: ''
-  menu_background_hover: ''
-  submenu_background: "#F9FAFB"
-  submenu_background_hover: "#F3F4F6"
 actions_color:
   action: "#FF8C94"
   action_hover: "#FFAAA6"
