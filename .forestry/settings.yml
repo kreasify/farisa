@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5fc960760b4f7d001d6d0d59/webhook/forestry
 sections:
-- type: document
-  path: data/menu.yaml
-  label: menu
 - type: heading
   label: Website
 - type: document
@@ -27,7 +24,7 @@ sections:
 - type: heading
   label: Pages
 - type: document
-  path: content
+  path: content/*
   label: Page
 upload_dir: uploads/images
 public_path: "/images"
