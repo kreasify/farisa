@@ -25,7 +25,9 @@ social_links:
 content: '&copy Copyright 2021 <a href="/">Vitoko </a>| Template toko online Hugo
   terbaik di Indonesia.'
 sections:
-- template: widget_tags
-  type: widget_tags
-  num_tags: 10
-  is_num_post: false
+- template: widget-menu
+  type: widget_menu
+  links:
+  - label: Syarat dan Ketentuan
+    url: "/syarat-dan-ketentuan"
+  title: ''
