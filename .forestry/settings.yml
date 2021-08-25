@@ -7,7 +7,6 @@ sections:
 - type: document
   path: theme.yaml
   label: Theme setting
-  match: "**/*"
 - type: heading
   label: Website
 - type: document
@@ -16,10 +15,10 @@ sections:
 - type: heading
   label: Halaman
 - type: directory
-  path: data/theme
+  path: data
   label: Theme Setting
   create: documents
-  match: "**/*"
+  match: theme.yaml
   new_doc_ext: yaml
 upload_dir: static/images
 public_path: "/images"
