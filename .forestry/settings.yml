@@ -26,9 +26,9 @@ sections:
 - type: directory
   path: content
   label: Page
-  create: all
+  create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: uploads/images
 public_path: "/images"
 front_matter_path: ''
