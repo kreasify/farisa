@@ -4,16 +4,18 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Judul Website
 - type: text
   name: baseURL
-  label: baseURL
+  label: URL Utama
 - type: text
   name: languageCode
   label: languageCode
+  hidden: true
 - type: text
   name: defaultContentLanguage
   label: defaultContentLanguage
+  hidden: true
 - type: text
   name: metaDataFormat
   label: Format Meta Data
@@ -21,11 +23,11 @@ fields:
   hidden: true
 - type: field_group
   name: menu
-  label: menu
+  label: Menu
   fields:
   - type: field_group_list
     name: main
-    label: main
+    label: Main
     fields:
     - type: text
       name: identifier
@@ -74,29 +76,42 @@ fields:
   hidden: true
 - type: field_group
   name: permalinks
-  label: permalinks
+  label: Permalinks
   fields:
   - type: text
     name: authors
-    label: authors
+    label: Authors
+    default: "/author/:slug/"
   - type: text
     name: tags
-    label: tags
+    label: Tags
+    default: "/tag/:slug/"
   - type: text
     name: categories
-    label: categories
+    label: Categories
+    default: "/category/:slug/"
   - type: text
     name: pages
-    label: pages
+    label: Pages
+    default: "/:slug/"
   - type: text
     name: collections
-    label: collections
+    label: Collections
+    default: "/collection/:slug/"
   - type: text
     name: color
-    label: color
+    label: Color
+    default: "/:slug/"
   - type: text
     name: shop
-    label: shop
+    label: Shop
+    default: "/:slug/"
+  - name: blog
+    type: text
+    config:
+      required: false
+    label: Blog
+    default: "/:slug/"
 - type: field_group
   name: outputs
   label: outputs
@@ -132,9 +147,6 @@ fields:
   - type: text
     name: color
     label: color
-- type: list
-  name: disableKinds
-  label: disableKinds
 - type: field_group
   name: imaging
   label: imaging
@@ -142,6 +154,10 @@ fields:
   - type: number
     name: quality
     label: quality
+- type: list
+  name: disableKinds
+  label: disableKinds
+  hidden: true
 - type: field_group
   name: markup
   label: markup
@@ -188,6 +204,7 @@ fields:
       - type: text
         name: autoHeadingIDType
         label: autoHeadingIDType
+      hidden: true
     - type: field_group
       name: renderer
       label: renderer
@@ -201,6 +218,8 @@ fields:
       - type: boolean
         name: xhtml
         label: xhtml
+      hidden: true
+  hidden: true
 - type: field_group
   name: build
   label: build
@@ -208,3 +227,4 @@ fields:
   - type: boolean
     name: writeStats
     label: writeStats
+  hidden: true
