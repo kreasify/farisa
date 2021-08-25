@@ -35,3 +35,9 @@ sections:
   - label: Kontak Kami
     url: "/kontak-kami"
   title: Informasi
+- template: widget-menu
+  type: widget_menu
+  title: Bantuan
+  links:
+  - label: Cara Belanja
+    url: "/cara-order"
