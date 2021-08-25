@@ -5,7 +5,7 @@ admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5fc960760b4f7d001d6d0d59/webhook/forestry
 sections:
 - type: document
-  path: theme.yaml
+  path: data/theme.yaml
   label: Theme setting
 - type: heading
   label: Website
@@ -14,12 +14,6 @@ sections:
   label: Global Setting
 - type: heading
   label: Halaman
-- type: directory
-  path: data
-  label: Theme Setting
-  create: documents
-  match: theme.yaml
-  new_doc_ext: yaml
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
