@@ -46,7 +46,7 @@ fields:
       config:
         required: false
       label: Menu Parent
-      description: Tambahkan menu parent jika dijadikan submenu
+      description: Tambahkan id menu utama jika sebagai submenu
     - type: field_group
       name: params
       label: Params
