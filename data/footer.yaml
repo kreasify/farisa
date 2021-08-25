@@ -39,5 +39,9 @@ sections:
   type: widget_menu
   title: Bantuan
   links:
+  - label: Panduan Ukuran
+    url: "/panduan-ukuran"
+  - label: Konfirmasi Pembayaran
+    url: "/konfirmasi-pembayaran"
   - label: Cara Belanja
     url: "/cara-order"
