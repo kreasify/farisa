@@ -25,7 +25,11 @@ sections:
   path: data/footer.yaml
   label: Footer
 - type: heading
-  label: Halaman
+  label: Pages
+- type: document
+  path: content
+  label: Page
+  match: "**/*"
 upload_dir: uploads/images
 public_path: "/images"
 front_matter_path: ''
