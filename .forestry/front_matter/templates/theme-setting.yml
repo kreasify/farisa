@@ -24,87 +24,6 @@ fields:
   name: colors
   label: Warna
   fields:
-  - type: text
-    name: heading
-    label: heading
-  - type: text
-    name: heading_primary
-    label: heading_primary
-  - type: text
-    name: heading_secondary
-    label: heading_secondary
-  - type: text
-    name: menu_bg
-    label: menu_bg
-  - type: text
-    name: menu_bg_hover
-    label: menu_bg_hover
-  - type: text
-    name: submenu_bg
-    label: submenu_bg
-  - type: text
-    name: submenu_bg_hover
-    label: submenu_bg_hover
-  - type: text
-    name: menu_text
-    label: menu_text
-  - type: text
-    name: menu_text_hover
-    label: menu_text_hover
-  - type: text
-    name: submenu_text
-    label: submenu_text
-  - type: text
-    name: submenu_text_hover
-    label: submenu_text_hover
-  - type: text
-    name: header
-    label: header
-  - type: text
-    name: header_text
-    label: header_text
-  - type: text
-    name: footer
-    label: footer
-  - type: text
-    name: footer_primary
-    label: footer_primary
-  - type: text
-    name: footer_secondary
-    label: footer_secondary
-  - type: text
-    name: footer_text
-    label: footer_text
-  - type: text
-    name: footer_text_primary
-    label: footer_text_primary
-  - type: text
-    name: footer_text_secondary
-    label: footer_text_secondary
-  - type: text
-    name: banner_text_primary
-    label: banner_text_primary
-  - type: text
-    name: banner_text_secondary
-    label: banner_text_secondary
-  - type: text
-    name: primary
-    label: primary
-  - type: text
-    name: secondary
-    label: secondary
-  - type: text
-    name: primary_text
-    label: primary_text
-  - type: text
-    name: secondary_text
-    label: secondary_text
-  - type: text
-    name: hint_text
-    label: hint_text
-  - type: text
-    name: border_color
-    label: border_color
   - name: body
     type: color
     label: Body
@@ -147,6 +66,193 @@ fields:
       required: false
       color_format: Hex
     default: "#9CA3AF"
+  - name: heading
+    type: color
+    label: Heading
+    config:
+      required: false
+      color_format: Hex
+    default: "#111827"
+  - name: heading_primary
+    type: color
+    label: Heading Primary
+    config:
+      required: false
+      color_format: Hex
+    default: "#374151"
+  - name: heading_secondary
+    type: color
+    label: Heading Secondary
+    config:
+      required: false
+      color_format: Hex
+    default: "#9CA3AF"
+  - name: menu_background
+    type: color
+    label: Menu Background
+    config:
+      required: false
+      color_format: Hex
+  - name: menu_background_hover
+    type: color
+    label: Menu Background Hover
+    config:
+      required: false
+      color_format: Hex
+  - name: submenu_background
+    type: color
+    label: Submenu Background
+    config:
+      required: false
+      color_format: Hex
+    default: "#F9FAFB"
+  - name: submenu_background_hover
+    type: color
+    label: Submenu Background Hover
+    config:
+      required: false
+      color_format: Hex
+    default: "#F3F4F6"
+  - name: menu_text
+    type: color
+    label: Menu Text
+    config:
+      required: false
+      color_format: Hex
+    default: "#374151"
+  - name: menu_text_hover
+    type: color
+    label: Menu Text Hover
+    config:
+      required: false
+      color_format: Hex
+    default: "#9CA3AF"
+  - name: submenu_text
+    type: color
+    label: Submenu Text
+    config:
+      required: false
+      color_format: Hex
+    default: "#374151"
+  - name: submenu_text_hover
+    type: color
+    label: Submenu Text Hover
+    config:
+      required: false
+      color_format: Hex
+    default: "#FF8C94"
+  - name: header
+    type: color
+    label: Header
+    config:
+      required: false
+      color_format: Hex
+    default: "#FFFFFF"
+  - name: header_text
+    type: color
+    label: Header Text
+    config:
+      required: false
+      color_format: Hex
+    default: "#000000"
+  - name: footer
+    type: color
+    label: Footer
+    config:
+      required: false
+      color_format: Hex
+    default: "#FFFFFF"
+  - name: footer_primary
+    type: color
+    label: Footer Primary
+    config:
+      required: false
+      color_format: Hex
+    default: "#FAFAFA"
+  - name: footer_secondary
+    type: color
+    label: Footer Secondary
+    config:
+      required: false
+      color_format: Hex
+    default: "#F5F5F5"
+  - name: footer_text
+    type: color
+    label: Footer Text
+    config:
+      required: false
+      color_format: Hex
+    default: "#374151"
+  - name: footer_text_primary
+    type: color
+    label: Footer Text Primary
+    config:
+      required: false
+      color_format: Hex
+    default: "#6B7280"
+  - name: footer_text_secondary
+    type: color
+    label: Footer Text Secondary
+    config:
+      required: false
+      color_format: Hex
+    default: "#9CA3AF"
+  - name: banner_text_primary
+    type: color
+    label: Banner Text Primary
+    config:
+      required: false
+      color_format: Hex
+    default: "#111827"
+  - name: banner_text_secondary
+    type: color
+    label: Banner Text Secondary
+    config:
+      required: false
+      color_format: Hex
+    default: "#6B7280"
+  - name: primary
+    type: color
+    label: Primary
+    config:
+      required: false
+      color_format: Hex
+    default: "#FF8C94"
+  - name: secondary
+    type: color
+    label: Secondary
+    config:
+      required: false
+      color_format: Hex
+    default: "#FFAAA6"
+  - name: primary_text
+    type: color
+    label: Primary Text
+    config:
+      required: false
+      color_format: Hex
+    default: "#FAFAFA"
+  - name: secondary_text
+    type: color
+    label: Secondary Text
+    config:
+      required: false
+      color_format: Hex
+    default: "#FAFAFA"
+  - name: hint_text
+    type: color
+    label: Hint Text
+    config:
+      required: false
+      color_format: Hex
+    default: "#E5E7EB"
+  - name: border_color
+    type: color
+    label: Border Color
+    config:
+      required: false
+      color_format: Hex
+    default: "#D1D5DB"
 - type: field_group
   name: actions_color
   label: actions_color
