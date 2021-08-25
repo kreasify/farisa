@@ -2,23 +2,33 @@
 label: Widget Menu
 hide_body: true
 fields:
-- type: field_group_list
-  name: sections
-  label: sections
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: widget_menu
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Judul Widget
+- name: links
+  type: field_group_list
   fields:
-  - type: text
-    name: type
-    label: type
-  - type: text
-    name: title
-    label: title
-  - type: field_group_list
-    name: links
-    label: links
-    fields:
-    - type: text
-      name: label
-      label: label
-    - type: text
-      name: url
-      label: url
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Menu Widget
