@@ -1,3 +1,4 @@
+---
 fonts:
   font_heading: Josefin Sans
   font_body: Lato
@@ -41,7 +42,7 @@ actions_color:
   action_hover: "#FFAAA6"
 lazysizes: true
 single_shop:
-  action_color: '#efc33c'
+  action_color: "#efc33c"
   marketplace_link: true
 single_post:
   date_format: 2 January 2006
@@ -52,10 +53,12 @@ single_post:
 sidebar:
   has_widget: true
   sections:
-    - type: widget_recent_post
-      recent_num: 8
-    - type: widget_categories
-    - type: widget_tags
+  - type: widget_recent_post
+    recent_num: 8
+  - type: widget_categories
+    recent_num: 
+  - type: widget_tags
+    recent_num: 
 social_share:
   facebook: true
   twitter: true
@@ -71,55 +74,56 @@ header:
 footer:
   has_widget: true
   sections:
-    - type: widget_menu
-      title: Informasi
-      links:
-        - label: Syarat dan Ketentuan
-          url: /syarat-dan-ketentuan
-        - label: Tentang Kami
-          url: /tentang-kami
-        - label: Kontak Kami
-          url: /kontak-kami
-        - label: About
-          url: /about
-    - type: widget_menu
-      title: Bantuan
-      links:
-        - label: Cara Belanja
-          url: /cara-order
-        - label: Konfirmasi Pembayaran
-          url: /konfirmasi-pembayaran
-        - label: Panduan Ukuran
-          url: /panduan-ukuran
-        - label: Give Away
-          url: /give-away
-    - type: widget_contact
-      title: Kontak Kami
-      phone: 123456789
-      whatsapp: 6285156514890
-      email: vitoko.dev@gmail.com
-      address: 'Jl. Merdeka No. 99, Kota Surakarta 57251'
+  - type: widget_menu
+    title: Informasi
+    links:
+    - label: Syarat dan Ketentuan
+      url: "/syarat-dan-ketentuan"
+    - label: Tentang Kami
+      url: "/tentang-kami"
+    - label: Kontak Kami
+      url: "/kontak-kami"
+    - label: About
+      url: "/about"
+  - type: widget_menu
+    title: Bantuan
+    links:
+    - label: Cara Belanja
+      url: "/cara-order"
+    - label: Konfirmasi Pembayaran
+      url: "/konfirmasi-pembayaran"
+    - label: Panduan Ukuran
+      url: "/panduan-ukuran"
+    - label: Give Away
+      url: "/give-away"
+  - type: widget_contact
+    title: Kontak Kami
+    phone: 123456789
+    whatsapp: 6285156514890
+    email: vitoko.dev@gmail.com
+    address: Jl. Merdeka No. 99, Kota Surakarta 57251
+    links: []
   has_social: true
   social_links:
-    - label: Facebook
-      icon: facebook
-      url: 'https://facebook.com/hijacket.net'
-      style: link
-      new_window: true
-    - label: Twitter
-      icon: twitter
-      url: 'https://twitter.com/hijacket'
-      style: link
-      new_window: true
-    - label: Instagram
-      icon: instagram
-      url: 'https://www.instagram.com/hijacket_net'
-      style: link
-      new_window: true
-    - label: Telegram
-      icon: telegram
-      url: 'https://t.me/hijacket.net'
-      style: link
-      new_window: true
-  content: >-
-    &copy Copyright 2021 <a href="/">Vitoko </a>| Template toko online Hugo terbaik di Indonesia.
+  - label: Facebook
+    icon: facebook
+    url: https://facebook.com/hijacket.net
+    style: link
+    new_window: true
+  - label: Twitter
+    icon: twitter
+    url: https://twitter.com/hijacket
+    style: link
+    new_window: true
+  - label: Instagram
+    icon: instagram
+    url: https://www.instagram.com/hijacket_net
+    style: link
+    new_window: true
+  - label: Telegram
+    icon: telegram
+    url: https://t.me/hijacket.net
+    style: link
+    new_window: true
+  content: '&copy Copyright 2021 <a href="/">Vitoko </a>| Template toko online Hugo
+    terbaik di Indonesia.'
