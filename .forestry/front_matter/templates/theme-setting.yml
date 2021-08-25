@@ -93,6 +93,7 @@ fields:
     config:
       required: false
       color_format: Hex
+    default: 
   - name: menu_background_hover
     type: color
     label: Menu Background Hover
