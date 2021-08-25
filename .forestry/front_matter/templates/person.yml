@@ -38,9 +38,3 @@ fields:
   default: person
   config:
     required: true
-pages:
-- data/team/dianne-ameter.json
-- data/team/eleanor-carr.json
-- data/team/gordon-norman.json
-- data/team/hanson-deck.json
-- data/team/miles-tone.json

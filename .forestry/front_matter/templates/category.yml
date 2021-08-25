@@ -25,7 +25,3 @@ fields:
   default: category
   config:
     required: true
-pages:
-- data/categories/general.json
-- data/categories/news.json
-- data/categories/tutorials.json
