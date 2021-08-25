@@ -15,7 +15,6 @@ sections:
 - type: document
   path: data/header.yaml
   label: Header
-  match: "**/*"
 - type: document
   path: data/sidebar.yaml
   label: Sidebar

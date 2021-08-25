@@ -1,0 +1,13 @@
+---
+label: Header
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: logo
+  label: logo
+- type: boolean
+  name: sticky_nav
+  label: sticky_nav
