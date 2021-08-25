@@ -121,7 +121,7 @@ fields:
     name: home
     label: home
     config:
-      use_select: true
+      use_select: false
       source:
         type: simple
       options:
