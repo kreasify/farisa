@@ -4,9 +4,11 @@ sections:
 - template: widget-recent-post
   type: widget_recent_post
   recent_num: "8"
-- template: widget-tags
-  type: widget_tags
 - template: widget_categories
   type: widget_categories
   num_categories: 10
+  is_num_post: true
+- template: widget-tags
+  type: widget_tags
+  num_tags: 10
   is_num_post: true
