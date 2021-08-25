@@ -25,12 +25,6 @@ fields:
   label: Warna
   fields:
   - type: text
-    name: body_text_primary
-    label: body_text_primary
-  - type: text
-    name: body_text_secondary
-    label: body_text_secondary
-  - type: text
     name: heading
     label: heading
   - type: text
@@ -139,6 +133,20 @@ fields:
       required: false
       color_format: Hex
     default: "#374151"
+  - name: body_text_primary
+    type: color
+    label: Body Text Primary
+    config:
+      required: false
+      color_format: Hex
+    default: "#6B7280"
+  - name: body_text_secondary
+    type: color
+    label: Body Text Secondary
+    config:
+      required: false
+      color_format: Hex
+    default: "#9CA3AF"
 - type: field_group
   name: actions_color
   label: actions_color
