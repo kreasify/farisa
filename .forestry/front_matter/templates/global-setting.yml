@@ -41,6 +41,12 @@ fields:
     - type: number
       name: weight
       label: Urutan Menu
+    - name: parent
+      type: text
+      config:
+        required: false
+      label: Menu Parent
+      description: Tambahkan menu parent jika dijadikan submenu
     - type: field_group
       name: params
       label: Params
