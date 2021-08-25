@@ -1,0 +1,52 @@
+---
+label: Footer
+hide_body: true
+fields:
+- type: boolean
+  name: has_widget
+  label: has_widget
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: links
+    label: links
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: url
+      label: url
+- type: boolean
+  name: has_social
+  label: has_social
+- type: field_group_list
+  name: social_links
+  label: social_links
+  fields:
+  - type: text
+    name: label
+    label: label
+  - type: text
+    name: icon
+    label: icon
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: style
+    label: style
+  - type: boolean
+    name: new_window
+    label: new_window
+- type: text
+  name: content
+  label: content
