@@ -61,6 +61,10 @@ build:
   writeStats: true
 menu:
   main:
+  - url: "/collections/kemeja/"
+    name: Kemeja
+    parent: Pakaian
+    weight: 2
   - url: "/collections/atasan/"
     name: Atasan
     parent: Pakaian
