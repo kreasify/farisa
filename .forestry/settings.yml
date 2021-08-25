@@ -18,6 +18,10 @@ sections:
 - type: document
   path: data/sidebar.yaml
   label: Sidebar
+- type: document
+  path: data/footer.yaml
+  label: Footer
+  match: "**/*"
 - type: heading
   label: Halaman
 upload_dir: static/images
