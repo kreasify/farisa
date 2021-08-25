@@ -88,27 +88,27 @@ fields:
       required: false
       color_format: Hex
     default: "#9CA3AF"
-  - name: menu_background
+  - name: menu_bg
     type: color
     label: Menu Background
     config:
       required: false
       color_format: Hex
     default: 
-  - name: menu_background_hover
+  - name: menu_bg_hover
     type: color
     label: Menu Background Hover
     config:
       required: false
       color_format: Hex
-  - name: submenu_background
+  - name: submenu_bg
     type: color
     label: Submenu Background
     config:
       required: false
       color_format: Hex
     default: "#F9FAFB"
-  - name: submenu_background_hover
+  - name: submenu_bg_hover
     type: color
     label: Submenu Background Hover
     config:
