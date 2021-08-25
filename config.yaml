@@ -63,7 +63,8 @@ menu:
   main:
   - url: "/collections/atasan/"
     name: Atasan
-    weight: 3
+    parent: Pakaian
+    weight: 1
   - url: "/"
     name: home
     weight: 1
