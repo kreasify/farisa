@@ -6,6 +6,6 @@ fields:
   type: blocks
   label: Recent post
   template_types:
-  - widget_recent_post
+  - widget-recent-post
 pages:
 - data/sidebar.yaml
