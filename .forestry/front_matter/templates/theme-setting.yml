@@ -8,26 +8,22 @@ fields:
   fields:
   - type: text
     name: font_heading
-    label: font_heading
+    label: Font Heading
+    description: Font untuk teks judul
+    default: Josefin Sans
   - type: text
     name: font_body
-    label: font_body
+    label: Font Body
+    description: Font untuk teks body
+    default: Lato
 - type: text
   name: palette
-  label: palette
+  label: Warna Theme
+  default: custom
 - type: field_group
   name: colors
-  label: colors
+  label: Warna
   fields:
-  - type: text
-    name: body
-    label: body
-  - type: text
-    name: body_primary
-    label: body_primary
-  - type: text
-    name: body_secondary
-    label: body_secondary
   - type: text
     name: body_text
     label: body_text
@@ -118,6 +114,27 @@ fields:
   - type: text
     name: border_color
     label: border_color
+  - name: body
+    type: color
+    label: Body
+    config:
+      required: false
+      color_format: Hex
+    default: "#FFFFFF"
+  - name: body_primary
+    type: color
+    label: Body Primary
+    config:
+      required: false
+      color_format: Hex
+    default: "#FAFAFA"
+  - name: body_secondary
+    type: color
+    label: Body Secondary
+    config:
+      required: false
+      color_format: Hex
+    default: "#F5F5F5"
 - type: field_group
   name: actions_color
   label: actions_color
