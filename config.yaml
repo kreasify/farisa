@@ -61,6 +61,6 @@ build:
   writeStats: true
 menu:
   main:
-  - url: "/collections/"
-    name: Pakaian
-    weight: 2
+  - url: "/"
+    name: home
+    weight: 1
