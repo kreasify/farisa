@@ -1,4 +1,40 @@
 ---
 label: widget_contact
 hide_body: true
-fields: []
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: widget_contact
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Judul Widget
+- name: phone
+  type: text
+  config:
+    required: false
+  label: Nomor Telepon
+- name: whatsapp
+  type: text
+  config:
+    required: false
+  label: Whatsapp
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+- name: address
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Alamat
