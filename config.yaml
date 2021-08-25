@@ -66,35 +66,30 @@ menu:
     url: "/"
     weight: 1
     params:
-      has_submenu: false
       class: ''
   - identifier: hijacket
     name: Katalog Hijacket
     url: "/hijacket"
     weight: 2
     params:
-      has_submenu: true
       class: ''
   - identifier: shop
     name: Shop
     url: "/shop"
     weight: 4
     params:
-      has_submenu: false
       class: ''
   - identifier: alcavella
     name: Katalog Alcavella
     url: "/alcavella"
     weight: 3
     params:
-      has_submenu: true
       class: ''
   - identifier: blog
     name: Blog
     url: "/blog"
     weight: 5
     params:
-      has_submenu: false
       class: ''
   - identifier: avia
     name: Hijacket Avia
