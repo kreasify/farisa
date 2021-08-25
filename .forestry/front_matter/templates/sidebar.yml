@@ -6,15 +6,18 @@ fields:
   name: has_widget
   label: has_widget
 - name: sections
-  type: blocks
+  type: field_group
+  config: {}
+  fields:
+  - name: type
+    type: blocks
+    label: Recent post
+    template_types:
+    - widget-recent-post
+    config:
+      min: 
+      max: 
   label: Widget
-  template_types:
-  - widget-recent-post
-  - widget_categories
-  - widget-tags
-  config:
-    min: 
-    max: 
   showOnly:
     field: has_widget
     value: true
