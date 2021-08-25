@@ -18,26 +18,30 @@ fields:
     value: true
 - type: boolean
   name: has_social
-  label: has_social
+  label: Tampilkan Sosial Media
+  default: true
 - type: field_group_list
   name: social_links
-  label: social_links
+  label: Sosial Media
   fields:
   - type: text
     name: label
-    label: label
+    label: Label
   - type: text
     name: icon
-    label: icon
+    label: Icon
   - type: text
     name: url
     label: url
   - type: text
     name: style
-    label: style
+    label: Style
   - type: boolean
     name: new_window
-    label: new_window
+    label: Buka Tab Window Baru
+  showOnly:
+    field: has_social
+    value: true
 - type: text
   name: content
-  label: content
+  label: Content
