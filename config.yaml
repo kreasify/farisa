@@ -67,10 +67,19 @@ menu:
     weight: 1
     params:
       class: ''
+    parent: ''
   - identifier: hijacket
     name: Katalog Hijacket
     url: "/hijacket"
     weight: 2
+    params:
+      class: ''
+    parent: ''
+  - identifier: avia
+    name: Hijacket Avia
+    url: "/warna"
+    parent: hijacket
+    weight: 1
     params:
       class: ''
   - identifier: shop
@@ -79,22 +88,18 @@ menu:
     weight: 4
     params:
       class: ''
+    parent: ''
   - identifier: alcavella
     name: Katalog Alcavella
     url: "/alcavella"
     weight: 3
     params:
       class: ''
+    parent: ''
   - identifier: blog
     name: Blog
     url: "/blog"
     weight: 5
     params:
       class: ''
-  - identifier: avia
-    name: Hijacket Avia
-    url: "/warna"
-    parent: hijacket
-    weight: 1
-    params:
-      class: ''
+    parent: ''
