@@ -28,6 +28,8 @@ sections:
 - template: widget-menu
   type: widget_menu
   links:
+  - label: Tentang Kami
+    url: "/tentang-kami"
   - label: Syarat dan Ketentuan
     url: "/syarat-dan-ketentuan"
   title: ''
