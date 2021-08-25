@@ -61,52 +61,17 @@ build:
   writeStats: true
 menu:
   main:
-  - identifier: home
-    name: Home
-    url: "/"
-    weight: 1
-    params:
-      class: ''
-    parent: ''
-  - identifier: hijacket
-    name: Katalog Hijacket
-    url: "/hijacket"
-    weight: 2
-    params:
-      class: ''
-    parent: ''
-  - identifier: avia
-    name: Hijacket Avia
-    url: "/warna"
-    parent: hijacket
-    weight: 1
-    params:
-      class: ''
-  - identifier: shop
-    name: Shop
-    url: "/shop"
-    weight: 4
-    params:
-      class: ''
-    parent: ''
-  - identifier: fashion
-    name: fashion
-    url: fashion
+  - identifier: pakaian
+    name: Pakaian
+    url: "/collections/pakaian"
     weight: 
     parent: ''
     params:
       class: ''
-  - identifier: alcavella
-    name: Katalog Alcavella
-    url: "/alcavella"
-    weight: 3
+  - identifier: home
+    name: Home
+    url: "/"
+    weight: 
+    parent: ''
     params:
       class: ''
-    parent: ''
-  - identifier: blog
-    name: Blog
-    url: "/blog"
-    weight: 5
-    params:
-      class: ''
-    parent: ''
