@@ -2,24 +2,10 @@
 label: Sidebar
 hide_body: true
 fields:
-- type: boolean
-  name: has_widget
-  label: has_widget
-- name: sections
-  type: field_group
-  config: {}
-  fields:
-  - name: type
-    type: blocks
-    label: Recent post
-    template_types:
-    - widget-recent-post
-    config:
-      min: 
-      max: 
-  label: Widget
-  showOnly:
-    field: has_widget
-    value: true
+- name: type
+  type: blocks
+  label: Recent post
+  template_types:
+  - widget_recent_post
 pages:
 - data/sidebar.yaml
