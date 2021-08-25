@@ -23,6 +23,10 @@ sections:
   label: Footer
 - type: heading
   label: Pages
+- type: document
+  path: content/_index.md
+  label: Homepage
+  match: "**/*"
 - type: directory
   path: content
   label: page
