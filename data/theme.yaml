@@ -42,7 +42,6 @@ actions_color:
   action_hover: "#FFAAA6"
 lazysizes: true
 single_shop:
-  action_color: "#efc33c"
   marketplace_link: true
 single_post:
   date_format: 2 January 2006
