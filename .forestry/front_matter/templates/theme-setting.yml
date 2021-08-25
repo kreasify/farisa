@@ -1,0 +1,269 @@
+---
+label: Theme Setting
+hide_body: true
+fields:
+- type: field_group
+  name: fonts
+  label: fonts
+  fields:
+  - type: text
+    name: font_heading
+    label: font_heading
+  - type: text
+    name: font_body
+    label: font_body
+- type: text
+  name: palette
+  label: palette
+- type: field_group
+  name: colors
+  label: colors
+  fields:
+  - type: text
+    name: body
+    label: body
+  - type: text
+    name: body_primary
+    label: body_primary
+  - type: text
+    name: body_secondary
+    label: body_secondary
+  - type: text
+    name: body_text
+    label: body_text
+  - type: text
+    name: body_text_primary
+    label: body_text_primary
+  - type: text
+    name: body_text_secondary
+    label: body_text_secondary
+  - type: text
+    name: heading
+    label: heading
+  - type: text
+    name: heading_primary
+    label: heading_primary
+  - type: text
+    name: heading_secondary
+    label: heading_secondary
+  - type: text
+    name: menu_bg
+    label: menu_bg
+  - type: text
+    name: menu_bg_hover
+    label: menu_bg_hover
+  - type: text
+    name: submenu_bg
+    label: submenu_bg
+  - type: text
+    name: submenu_bg_hover
+    label: submenu_bg_hover
+  - type: text
+    name: menu_text
+    label: menu_text
+  - type: text
+    name: menu_text_hover
+    label: menu_text_hover
+  - type: text
+    name: submenu_text
+    label: submenu_text
+  - type: text
+    name: submenu_text_hover
+    label: submenu_text_hover
+  - type: text
+    name: header
+    label: header
+  - type: text
+    name: header_text
+    label: header_text
+  - type: text
+    name: footer
+    label: footer
+  - type: text
+    name: footer_primary
+    label: footer_primary
+  - type: text
+    name: footer_secondary
+    label: footer_secondary
+  - type: text
+    name: footer_text
+    label: footer_text
+  - type: text
+    name: footer_text_primary
+    label: footer_text_primary
+  - type: text
+    name: footer_text_secondary
+    label: footer_text_secondary
+  - type: text
+    name: banner_text_primary
+    label: banner_text_primary
+  - type: text
+    name: banner_text_secondary
+    label: banner_text_secondary
+  - type: text
+    name: primary
+    label: primary
+  - type: text
+    name: secondary
+    label: secondary
+  - type: text
+    name: primary_text
+    label: primary_text
+  - type: text
+    name: secondary_text
+    label: secondary_text
+  - type: text
+    name: hint_text
+    label: hint_text
+  - type: text
+    name: border_color
+    label: border_color
+- type: field_group
+  name: actions_color
+  label: actions_color
+  fields:
+  - type: text
+    name: action
+    label: action
+  - type: text
+    name: action_hover
+    label: action_hover
+- type: boolean
+  name: lazysizes
+  label: lazysizes
+- type: field_group
+  name: single_shop
+  label: single_shop
+  fields:
+  - type: text
+    name: action_color
+    label: action_color
+  - type: boolean
+    name: marketplace_link
+    label: marketplace_link
+- type: field_group
+  name: single_post
+  label: single_post
+  fields:
+  - type: datetime
+    name: date_format
+    label: date_format
+  - type: boolean
+    name: share_button
+    label: share_button
+  - type: boolean
+    name: post_author
+    label: post_author
+  - type: boolean
+    name: post_navigation
+    label: post_navigation
+  - type: boolean
+    name: related_post
+    label: related_post
+- type: field_group
+  name: sidebar
+  label: sidebar
+  fields:
+  - type: boolean
+    name: has_widget
+    label: has_widget
+  - type: field_group_list
+    name: sections
+    label: sections
+    fields:
+    - type: text
+      name: type
+      label: type
+    - type: number
+      name: recent_num
+      label: recent_num
+- type: field_group
+  name: social_share
+  label: social_share
+  fields:
+  - type: boolean
+    name: facebook
+    label: facebook
+  - type: boolean
+    name: twitter
+    label: twitter
+  - type: boolean
+    name: whatsapp
+    label: whatsapp
+  - type: boolean
+    name: telegram
+    label: telegram
+  - type: boolean
+    name: mail
+    label: mail
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: logo
+    label: logo
+  - type: boolean
+    name: has_nav
+    label: has_nav
+  - type: boolean
+    name: sticky_nav
+    label: sticky_nav
+  - type: boolean
+    name: has_navbar
+    label: has_navbar
+- type: field_group
+  name: footer
+  label: footer
+  fields:
+  - type: boolean
+    name: has_widget
+    label: has_widget
+  - type: field_group_list
+    name: sections
+    label: sections
+    fields:
+    - type: text
+      name: type
+      label: type
+    - type: text
+      name: title
+      label: title
+    - type: field_group_list
+      name: links
+      label: links
+      fields:
+      - type: text
+        name: label
+        label: label
+      - type: text
+        name: url
+        label: url
+  - type: boolean
+    name: has_social
+    label: has_social
+  - type: field_group_list
+    name: social_links
+    label: social_links
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: icon
+      label: icon
+    - type: text
+      name: url
+      label: url
+    - type: text
+      name: style
+      label: style
+    - type: boolean
+      name: new_window
+      label: new_window
+  - type: text
+    name: content
+    label: content
