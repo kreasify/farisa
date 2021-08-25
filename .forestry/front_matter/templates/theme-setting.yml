@@ -322,12 +322,14 @@ fields:
     fields:
     - name: type
       type: blocks
-      label: Type
       template_types:
       - widget-recent-post
+      - widget-tags
+      - widget_categories
       config:
         min: 
         max: 
+      label: Widget
     label: Widget
     showOnly:
       field: has_widget
