@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5fc960760b4f7d001d6d0d59/webhook/forestry
 sections:
+- type: document
+  path: theme.yaml
+  label: Theme setting
+  match: "**/*"
 - type: heading
   label: Website
 - type: document
@@ -12,15 +16,11 @@ sections:
 - type: heading
   label: Halaman
 - type: directory
-  path: content
-  label: Pages
-  create: all
+  path: data/theme
+  label: Theme Setting
+  create: documents
   match: "**/*"
-  new_doc_ext: md
-  templates:
-  - page
-  - post
-  - advanced
+  new_doc_ext: yaml
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
