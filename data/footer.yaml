@@ -1,5 +1,26 @@
 ---
 has_widget: true
+sections:
+- template: widget_menu
+  type: widget_menu
+  links:
+  - label: Syarat dan Ketentuan
+    url: "/syarat-dan-ketentuan"
+  - label: Tentang Kami
+    url: "/tentang-kami"
+  - label: Kontak Kami
+    url: "/kontak-kami"
+  title: Informasi
+- template: widget_menu
+  type: widget_menu
+  title: Bantuan
+  links:
+  - label: Panduan Ukuran
+    url: "/panduan-ukuran"
+  - label: Konfirmasi Pembayaran
+    url: "/konfirmasi-pembayaran"
+  - label: Cara Belanja
+    url: "/cara-order"
 has_social: true
 social_links:
 - label: Facebook
@@ -24,24 +45,3 @@ social_links:
   new_window: true
 content: '&copy Copyright 2021 <a href="/">Vitoko </a>| Template toko online Hugo
   terbaik di Indonesia.'
-sections:
-- template: widget-menu
-  type: widget_menu
-  links:
-  - label: Syarat dan Ketentuan
-    url: "/syarat-dan-ketentuan"
-  - label: Tentang Kami
-    url: "/tentang-kami"
-  - label: Kontak Kami
-    url: "/kontak-kami"
-  title: Informasi
-- template: widget-menu
-  type: widget_menu
-  title: Bantuan
-  links:
-  - label: Panduan Ukuran
-    url: "/panduan-ukuran"
-  - label: Konfirmasi Pembayaran
-    url: "/konfirmasi-pembayaran"
-  - label: Cara Belanja
-    url: "/cara-order"
