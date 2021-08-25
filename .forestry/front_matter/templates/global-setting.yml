@@ -1,0 +1,204 @@
+---
+label: Global Setting
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: defaultContentLanguage
+  label: defaultContentLanguage
+- type: boolean
+  name: preserveTaxonomyNames
+  label: preserveTaxonomyNames
+- type: text
+  name: metaDataFormat
+  label: metaDataFormat
+- type: field_group
+  name: permalinks
+  label: permalinks
+  fields:
+  - type: text
+    name: authors
+    label: authors
+  - type: text
+    name: tags
+    label: tags
+  - type: text
+    name: categories
+    label: categories
+  - type: text
+    name: pages
+    label: pages
+  - type: text
+    name: collections
+    label: collections
+  - type: text
+    name: color
+    label: color
+  - type: text
+    name: shop
+    label: shop
+- type: field_group
+  name: outputs
+  label: outputs
+  fields:
+  - type: list
+    name: home
+    label: home
+  - type: list
+    name: page
+    label: page
+  - type: list
+    name: section
+    label: section
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: text
+    name: description
+    label: description
+  - type: file
+    name: favicon
+    label: favicon
+  - type: boolean
+    name: is_statically
+    label: is_statically
+  - type: text
+    name: author
+    label: author
+  - type: list
+    name: mainSection
+    label: mainSection
+- type: field_group
+  name: taxonomies
+  label: taxonomies
+  fields:
+  - type: text
+    name: tag
+    label: tag
+  - type: text
+    name: category
+    label: category
+  - type: text
+    name: author
+    label: author
+  - type: text
+    name: brand
+    label: brand
+  - type: text
+    name: collection
+    label: collection
+  - type: text
+    name: color
+    label: color
+- type: list
+  name: disableKinds
+  label: disableKinds
+- type: field_group
+  name: imaging
+  label: imaging
+  fields:
+  - type: number
+    name: quality
+    label: quality
+- type: field_group
+  name: markup
+  label: markup
+  fields:
+  - type: field_group
+    name: goldmark
+    label: goldmark
+    fields:
+    - type: field_group
+      name: extensions
+      label: extensions
+      fields:
+      - type: boolean
+        name: definitionList
+        label: definitionList
+      - type: boolean
+        name: footnote
+        label: footnote
+      - type: boolean
+        name: linkify
+        label: linkify
+      - type: boolean
+        name: strikethrough
+        label: strikethrough
+      - type: boolean
+        name: table
+        label: table
+      - type: boolean
+        name: taskList
+        label: taskList
+      - type: boolean
+        name: typographer
+        label: typographer
+    - type: field_group
+      name: parser
+      label: parser
+      fields:
+      - type: boolean
+        name: attribute
+        label: attribute
+      - type: boolean
+        name: autoHeadingID
+        label: autoHeadingID
+      - type: text
+        name: autoHeadingIDType
+        label: autoHeadingIDType
+    - type: field_group
+      name: renderer
+      label: renderer
+      fields:
+      - type: boolean
+        name: hardWraps
+        label: hardWraps
+      - type: boolean
+        name: unsafe
+        label: unsafe
+      - type: boolean
+        name: xhtml
+        label: xhtml
+- type: field_group
+  name: build
+  label: build
+  fields:
+  - type: boolean
+    name: writeStats
+    label: writeStats
+- type: field_group
+  name: menu
+  label: menu
+  fields:
+  - type: field_group_list
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: identifier
+      label: identifier
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: url
+      label: url
+    - type: number
+      name: weight
+      label: weight
+    - type: field_group
+      name: params
+      label: params
+      fields:
+      - type: boolean
+        name: has_submenu
+        label: has_submenu
