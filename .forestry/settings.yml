@@ -12,6 +12,10 @@ sections:
 - type: document
   path: data/theme.yaml
   label: Theme setting
+- type: document
+  path: data/sidebar.yaml
+  label: Sidebar
+  match: "**/*"
 - type: heading
   label: Halaman
 upload_dir: static/images
