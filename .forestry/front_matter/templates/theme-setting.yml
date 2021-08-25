@@ -257,12 +257,20 @@ fields:
   name: actions_color
   label: actions_color
   fields:
-  - type: text
-    name: action
-    label: action
-  - type: text
-    name: action_hover
-    label: action_hover
+  - name: action
+    type: color
+    label: Action Button
+    config:
+      required: false
+      color_format: Hex
+    default: "#FF8C94"
+  - name: action_hover
+    type: color
+    label: Action Button Hover
+    config:
+      required: false
+      color_format: Hex
+    default: "#FFAAA6"
 - type: boolean
   name: lazysizes
   label: lazysizes
