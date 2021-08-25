@@ -1,0 +1,9 @@
+---
+label: widget
+hide_body: true
+fields:
+- name: widget_categories
+  type: include
+  config: {}
+  template: widget_categories
+  label: kategori

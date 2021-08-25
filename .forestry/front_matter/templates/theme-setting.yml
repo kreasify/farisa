@@ -326,6 +326,7 @@ fields:
       - widget-recent-post
       - widget-tags
       - widget_categories
+      - widget
       config:
         min: 
         max: 
