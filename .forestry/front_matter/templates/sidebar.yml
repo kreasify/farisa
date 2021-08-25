@@ -12,7 +12,7 @@ fields:
   template_types:
   - widget-recent-post
   - widget_categories
-  - widget-tags
+  - widget_tags
   showOnly:
     field: has_widget
     value: true
