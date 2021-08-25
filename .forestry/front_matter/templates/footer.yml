@@ -11,6 +11,7 @@ fields:
   label: Widget
   template_types:
   - widget_menu
+  - widget_contact
   showOnly:
     field: has_widget
     value: true
