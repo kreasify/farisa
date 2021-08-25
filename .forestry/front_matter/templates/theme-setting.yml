@@ -279,50 +279,53 @@ fields:
   default: true
 - type: field_group
   name: single_shop
-  label: single_shop
+  label: Single Shop
   fields:
-  - type: text
-    name: action_color
-    label: action_color
   - type: boolean
     name: marketplace_link
-    label: marketplace_link
+    label: Link Marketplace
+    default: false
 - type: field_group
   name: single_post
-  label: single_post
+  label: Single Post
   fields:
   - type: datetime
     name: date_format
-    label: date_format
+    label: Format Tanggal
   - type: boolean
     name: share_button
-    label: share_button
+    label: Aktifkan Tombol Berbagi
+    default: true
   - type: boolean
     name: post_author
-    label: post_author
+    label: Aktifkan Post Author
+    default: true
   - type: boolean
     name: post_navigation
-    label: post_navigation
+    label: Aktifkan Navigasi Posting
+    default: true
   - type: boolean
     name: related_post
-    label: related_post
+    label: Aktifkan Posting Terkait
+    default: true
 - type: field_group
   name: sidebar
-  label: sidebar
+  label: Sidebar
   fields:
   - type: boolean
     name: has_widget
-    label: has_widget
+    label: Aktifkan Widget
+    default: true
   - type: field_group_list
     name: sections
-    label: sections
     fields:
     - type: text
       name: type
-      label: type
+      label: Type
     - type: number
       name: recent_num
-      label: recent_num
+      label: Jumlah post
+    label: Widget
 - type: field_group
   name: social_share
   label: social_share
