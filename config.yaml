@@ -59,19 +59,3 @@ markup:
       xhtml: false
 build:
   writeStats: true
-menu:
-  main:
-  - identifier: home
-    name: Home
-    url: "/"
-    weight: 
-    parent: ''
-    params:
-      class: ''
-  - identifier: pakaian
-    name: Pakaian
-    url: "/collections/pakaian"
-    weight: 
-    parent: ''
-    params:
-      class: ''
