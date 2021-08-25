@@ -4,10 +4,11 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Judul
 - type: file
   name: logo
-  label: logo
+  label: Logo
 - type: boolean
   name: sticky_nav
-  label: sticky_nav
+  label: Aktifkan Nav Sticky
+  default: true
