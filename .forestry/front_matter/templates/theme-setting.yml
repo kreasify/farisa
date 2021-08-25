@@ -4,7 +4,7 @@ hide_body: true
 fields:
 - type: field_group
   name: fonts
-  label: fonts
+  label: 'Font Website '
   fields:
   - type: text
     name: font_heading
@@ -16,6 +16,7 @@ fields:
     label: Font Body
     description: Font untuk teks body
     default: Lato
+  description: gunakan google font
 - type: text
   name: palette
   label: Warna Theme
@@ -256,7 +257,6 @@ fields:
     default: "#D1D5DB"
 - type: field_group
   name: actions_color
-  label: actions_color
   fields:
   - name: action
     type: color
@@ -272,9 +272,11 @@ fields:
       required: false
       color_format: Hex
     default: "#FFAAA6"
+  label: Warna Button
 - type: boolean
   name: lazysizes
-  label: lazysizes
+  label: Aktifkan Lazysizes Image
+  default: true
 - type: field_group
   name: single_shop
   label: single_shop
