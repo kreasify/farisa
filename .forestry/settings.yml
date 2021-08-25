@@ -23,12 +23,10 @@ sections:
   label: Footer
 - type: heading
   label: Pages
-- type: directory
-  path: content
-  label: Page
-  create: documents
+- type: document
+  path: content/*.md
+  label: page
   match: "**/*"
-  new_doc_ext: md
 upload_dir: uploads/images
 public_path: "/images"
 front_matter_path: ''
