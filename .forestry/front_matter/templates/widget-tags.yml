@@ -8,3 +8,4 @@ fields:
     required: false
   label: Type
   default: widget_tags
+  hidden: true

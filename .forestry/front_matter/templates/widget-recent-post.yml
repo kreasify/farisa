@@ -8,6 +8,7 @@ fields:
     required: false
   default: widget_recent_post
   label: Type
+  hidden: true
 - name: recent_num
   type: text
   config:
