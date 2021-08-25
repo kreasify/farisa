@@ -21,9 +21,5 @@ sections:
   url: "/collections"
   label: lihat koleksi
   filter: collections
-menu:
-  main:
-    name: Fashion
-    weight: 2
 
 ---
