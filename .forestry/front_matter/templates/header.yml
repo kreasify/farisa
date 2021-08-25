@@ -12,3 +12,5 @@ fields:
   name: sticky_nav
   label: Aktifkan Nav Sticky
   default: true
+pages:
+- data/header.yaml
