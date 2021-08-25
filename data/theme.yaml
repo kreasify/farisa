@@ -13,8 +13,8 @@ colors:
   heading: "#111827"
   heading_primary: "#374151"
   heading_secondary: "#9CA3AF"
-  menu_bg: "#ffffff"
-  menu_bg_hover: "#ffffff"
+  menu_bg: ''
+  menu_bg_hover: ''
   submenu_bg: "#F9FAFB"
   submenu_bg_hover: "#F3F4F6"
   menu_text: "#374151"
@@ -44,7 +44,7 @@ colors:
 actions_color:
   action: "#FF8C94"
   action_hover: "#FFAAA6"
-lazysizes: false
+lazysizes: true
 single_shop:
   action_color: "#efc33c"
   marketplace_link: true
