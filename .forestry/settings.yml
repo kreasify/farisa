@@ -5,13 +5,13 @@ admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5fc960760b4f7d001d6d0d59/webhook/forestry
 sections:
 - type: document
-  path: data/theme.yaml
-  label: Theme setting
+  path: config.yaml
+  label: Global Setting
 - type: heading
   label: Website
 - type: document
-  path: config.yaml
-  label: Global Setting
+  path: data/theme.yaml
+  label: Theme setting
 - type: heading
   label: Halaman
 upload_dir: static/images
