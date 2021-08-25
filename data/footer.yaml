@@ -21,6 +21,13 @@ sections:
     url: "/konfirmasi-pembayaran"
   - label: Cara Belanja
     url: "/cara-order"
+- template: widget_contact
+  type: widget_contact
+  title: Kontak Kami
+  phone: "123456789"
+  whatsapp: "6285156514890"
+  email: vitoko.dev@gmail.com
+  address: Jl. Merdeka No. 99, Kota Surakarta 57251
 has_social: true
 social_links:
 - label: Facebook
