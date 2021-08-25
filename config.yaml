@@ -1,31 +1,33 @@
-title: Vitoko
+---
+title: Farisa
 baseURL: https://vitoko.netlify.app/
 languageCode: id
 defaultContentLanguage: id
 preserveTaxonomyNames: true
 metaDataFormat: yaml
 permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-  pages: '/:slug/'
-  collections: '/collection/:slug/'
-  color: '/:slug/'
-  shop: '/:slug/'
+  authors: "/author/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
+  pages: "/:slug/"
+  collections: "/collection/:slug/"
+  color: "/:slug/"
+  shop: "/:slug/"
+  blog: "/:slug/"
 outputs:
   home:
-    - HTML
+  - HTML
   page:
-    - HTML
+  - HTML
   section:
-    - HTML
+  - HTML
 params:
   description: Temo toko online HUGO terbaik di Indonesia
   favicon: uploads/favicon.png
   is_statically: false
   author: Akhlis
   mainSection:
-    - shop
+  - shop
 taxonomies:
   tag: tags
   category: categories
@@ -34,7 +36,7 @@ taxonomies:
   collection: collections
   color: color
 disableKinds:
-  - RSS
+- RSS
 imaging:
   quality: 100
 markup:
@@ -59,38 +61,45 @@ build:
   writeStats: true
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 1
-      params:
-        has_submenu: false
-    - identifier: hijacket
-      name: Katalog Hijacket
-      url: /hijacket
-      weight: 2
-      params:
-        has_submenu: true
-    - identifier: shop
-      name: Shop
-      url: /shop
-      weight: 4
-      params:
-        has_submenu: false
-    - identifier: alcavella
-      name: Katalog Alcavella
-      url: /alcavella
-      weight: 3
-      params:
-        has_submenu: true
-    - identifier: blog
-      name: Blog
-      url: /blog
-      weight: 5
-      params:
-        has_submenu: false
-    - identifier: avia
-      name: Hijacket Avia
-      url: /warna
-      parent: hijacket
-      weight: 1
+  - identifier: home
+    name: Home
+    url: "/"
+    weight: 1
+    params:
+      has_submenu: false
+      class: ''
+  - identifier: hijacket
+    name: Katalog Hijacket
+    url: "/hijacket"
+    weight: 2
+    params:
+      has_submenu: true
+      class: ''
+  - identifier: shop
+    name: Shop
+    url: "/shop"
+    weight: 4
+    params:
+      has_submenu: false
+      class: ''
+  - identifier: alcavella
+    name: Katalog Alcavella
+    url: "/alcavella"
+    weight: 3
+    params:
+      has_submenu: true
+      class: ''
+  - identifier: blog
+    name: Blog
+    url: "/blog"
+    weight: 5
+    params:
+      has_submenu: false
+      class: ''
+  - identifier: avia
+    name: Hijacket Avia
+    url: "/warna"
+    parent: hijacket
+    weight: 1
+    params:
+      class: ''

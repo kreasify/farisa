@@ -228,3 +228,5 @@ fields:
     name: writeStats
     label: writeStats
   hidden: true
+pages:
+- config.yaml
