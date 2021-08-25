@@ -14,12 +14,64 @@ fields:
 - type: text
   name: defaultContentLanguage
   label: defaultContentLanguage
+- type: text
+  name: metaDataFormat
+  label: Format Meta Data
+  default: yaml
+  hidden: true
+- type: field_group
+  name: menu
+  label: menu
+  fields:
+  - type: field_group_list
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: identifier
+      label: Id Menu
+    - type: text
+      name: name
+      label: Label
+    - type: text
+      name: url
+      label: URL
+    - type: number
+      name: weight
+      label: Urutan Menu
+    - type: field_group
+      name: params
+      label: Params
+      fields:
+      - name: class
+        type: text
+        config:
+          required: false
+        label: Class
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: text
+    name: description
+    label: description
+  - type: file
+    name: favicon
+    label: favicon
+  - type: boolean
+    name: is_statically
+    label: is_statically
+  - type: text
+    name: author
+    label: author
+  - type: list
+    name: mainSection
+    label: mainSection
 - type: boolean
   name: preserveTaxonomyNames
   label: preserveTaxonomyNames
-- type: text
-  name: metaDataFormat
-  label: metaDataFormat
+  default: true
+  hidden: true
 - type: field_group
   name: permalinks
   label: permalinks
@@ -58,25 +110,6 @@ fields:
   - type: list
     name: section
     label: section
-- type: field_group
-  name: params
-  label: params
-  fields:
-  - type: text
-    name: description
-    label: description
-  - type: file
-    name: favicon
-    label: favicon
-  - type: boolean
-    name: is_statically
-    label: is_statically
-  - type: text
-    name: author
-    label: author
-  - type: list
-    name: mainSection
-    label: mainSection
 - type: field_group
   name: taxonomies
   label: taxonomies
@@ -175,30 +208,3 @@ fields:
   - type: boolean
     name: writeStats
     label: writeStats
-- type: field_group
-  name: menu
-  label: menu
-  fields:
-  - type: field_group_list
-    name: main
-    label: main
-    fields:
-    - type: text
-      name: identifier
-      label: identifier
-    - type: text
-      name: name
-      label: name
-    - type: text
-      name: url
-      label: url
-    - type: number
-      name: weight
-      label: weight
-    - type: field_group
-      name: params
-      label: params
-      fields:
-      - type: boolean
-        name: has_submenu
-        label: has_submenu
