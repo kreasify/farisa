@@ -5,13 +5,16 @@ fields:
 - type: boolean
   name: has_widget
   label: has_widget
-- type: field_group_list
-  name: sections
-  label: sections
-  fields:
-  - type: text
-    name: type
-    label: type
-  - type: number
-    name: recent_num
-    label: recent_num
+- name: sections
+  type: blocks
+  label: Widget
+  template_types:
+  - widget-recent-post
+  - widget_categories
+  - widget-tags
+  config:
+    min: 
+    max: 
+  showOnly:
+    field: has_widget
+    value: true
