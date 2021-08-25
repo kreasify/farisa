@@ -317,23 +317,15 @@ fields:
     label: Aktifkan Widget
     default: true
   - name: sections
-    type: field_group_list
-    fields:
-    - name: sections
-      type: blocks
-      label: section
-      template_types:
-      - widget-recent-post
-      - widget_categories
-      - widget-tags
-      config:
-        min: 
-        max: 
+    type: blocks
+    label: Widget
+    template_types:
+    - widget-recent-post
+    - widget_categories
+    - widget-tags
     config:
       min: 
       max: 
-      labelField: 
-    label: Widget
 - type: field_group
   name: social_share
   label: social_share
@@ -379,26 +371,6 @@ fields:
   - type: boolean
     name: has_widget
     label: has_widget
-  - type: field_group_list
-    name: sections
-    label: sections
-    fields:
-    - type: text
-      name: type
-      label: type
-    - type: text
-      name: title
-      label: title
-    - type: field_group_list
-      name: links
-      label: links
-      fields:
-      - type: text
-        name: label
-        label: label
-      - type: text
-        name: url
-        label: url
   - type: boolean
     name: has_social
     label: has_social
