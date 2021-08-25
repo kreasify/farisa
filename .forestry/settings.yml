@@ -4,9 +4,13 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5fc960760b4f7d001d6d0d59/webhook/forestry
 sections:
+- type: heading
+  label: Website
 - type: document
   path: config.yaml
   label: Global Setting
+- type: heading
+  label: Halaman
 - type: directory
   path: content
   label: Pages
