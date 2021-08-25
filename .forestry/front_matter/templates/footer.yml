@@ -10,7 +10,7 @@ fields:
   type: blocks
   label: Widget
   template_types:
-  - widget-tags
+  - widget_categories
   showOnly:
     field: has_widget
     value: true
