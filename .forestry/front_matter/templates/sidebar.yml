@@ -10,7 +10,7 @@ fields:
   type: blocks
   label: Widget
   template_types:
-  - widget-recent-post
+  - widget_recent_post
   - widget_categories
   - widget_tags
   showOnly:
