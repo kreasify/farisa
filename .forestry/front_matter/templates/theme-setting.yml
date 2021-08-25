@@ -316,16 +316,14 @@ fields:
     name: has_widget
     label: Aktifkan Widget
     default: true
-  - type: field_group_list
-    name: sections
-    fields:
-    - type: text
-      name: type
-      label: Type
-    - type: number
-      name: recent_num
-      label: Jumlah post
+  - name: sections
+    type: blocks
     label: Widget
+    template_types:
+    - widget-recent-post
+    config:
+      min: 
+      max: 
 - type: field_group
   name: social_share
   label: social_share

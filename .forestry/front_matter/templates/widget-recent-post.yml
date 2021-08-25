@@ -1,4 +1,16 @@
 ---
 label: Widget Recent Post
 hide_body: true
-fields: []
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  default: widget_recent_post
+  label: Type
+- name: recent_num
+  type: text
+  config:
+    required: false
+  default: '8'
+  label: Jumlah Post
