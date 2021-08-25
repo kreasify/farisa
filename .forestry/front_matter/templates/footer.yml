@@ -10,8 +10,6 @@ fields:
   type: blocks
   label: Widget
   template_types:
-  - widget-recent-post
-  - widget_categories
   - widget-tags
   showOnly:
     field: has_widget
