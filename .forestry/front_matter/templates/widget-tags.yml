@@ -9,3 +9,7 @@ fields:
   label: Type
   default: widget_tags
   hidden: true
+- name: is_num_post
+  type: boolean
+  description: Tampilkan jumlah posting setiap tag
+  label: Tampilkan Jumlah Posting
