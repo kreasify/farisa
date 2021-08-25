@@ -1,3 +1,4 @@
+---
 has_widget: true
 has_social: true
 social_links:
@@ -23,3 +24,8 @@ social_links:
   new_window: true
 content: '&copy Copyright 2021 <a href="/">Vitoko </a>| Template toko online Hugo
   terbaik di Indonesia.'
+sections:
+- template: widget-tags
+  type: widget_tags
+  num_tags: 10
+  is_num_post: false

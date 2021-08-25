@@ -43,3 +43,5 @@ fields:
 - type: text
   name: content
   label: Content
+pages:
+- data/footer.yaml
