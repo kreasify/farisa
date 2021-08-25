@@ -317,13 +317,23 @@ fields:
     label: Aktifkan Widget
     default: true
   - name: sections
-    type: blocks
-    label: Widget
-    template_types:
-    - widget-recent-post
+    type: field_group_list
+    fields:
+    - name: sections
+      type: blocks
+      label: section
+      template_types:
+      - widget-recent-post
+      - widget_categories
+      - widget-tags
+      config:
+        min: 
+        max: 
     config:
       min: 
       max: 
+      labelField: 
+    label: Widget
 - type: field_group
   name: social_share
   label: social_share

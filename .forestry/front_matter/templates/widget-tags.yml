@@ -1,0 +1,10 @@
+---
+label: Widget Tags
+hide_body: false
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: widget_tags
