@@ -1,5 +1,5 @@
 ---
-label: widget_contact
+label: Widget Contact
 hide_body: true
 fields:
 - name: type
