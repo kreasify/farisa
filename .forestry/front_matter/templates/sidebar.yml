@@ -6,7 +6,7 @@ fields:
   type: boolean
   label: Tampilkan Widget
   default: true
-- name: type
+- name: sections
   type: blocks
   label: Widget
   template_types:
