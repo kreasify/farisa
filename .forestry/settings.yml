@@ -28,7 +28,7 @@ sections:
   label: page
   create: documents
   match: "*"
-  exclude: feed.md, _index.md
+  exclude: "[feed.md, _index.md]"
 upload_dir: uploads/images
 public_path: "/images"
 front_matter_path: ''
