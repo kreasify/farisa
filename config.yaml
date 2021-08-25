@@ -61,16 +61,16 @@ build:
   writeStats: true
 menu:
   main:
-  - identifier: pakaian
-    name: Pakaian
-    url: "/collections/pakaian"
+  - identifier: home
+    name: Home
+    url: "/"
     weight: 
     parent: ''
     params:
       class: ''
-  - identifier: home
-    name: Home
-    url: "/"
+  - identifier: pakaian
+    name: Pakaian
+    url: "/collections/pakaian"
     weight: 
     parent: ''
     params:
