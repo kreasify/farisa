@@ -6,25 +6,9 @@ webhook_url: https://api.stackbit.com/project/5fc960760b4f7d001d6d0d59/webhook/f
 sections:
 - type: document
   path: config.yaml
-  label: Site Configuration
+  label: Global Setting
   templates:
   - config
-- type: directory
-  path: data/team
-  label: Person
-  create: all
-  match: "**/*"
-  new_doc_ext: yaml
-  templates:
-  - person
-- type: directory
-  path: data/categories
-  label: Category
-  create: all
-  match: "**/*"
-  new_doc_ext: yaml
-  templates:
-  - category
 - type: directory
   path: content
   label: Pages
