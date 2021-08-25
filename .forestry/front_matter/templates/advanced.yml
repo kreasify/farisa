@@ -27,10 +27,3 @@ fields:
   default: advanced
   config:
     required: true
-pages:
-- content/_index.md
-- content/about.md
-- content/blog/_index.md
-- content/contact.md
-- content/profil.md
-- content/tentang.md
