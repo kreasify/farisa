@@ -1,0 +1,58 @@
+---
+label: Section Banner Image
+hide_body: false
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: banner_section
+  hidden: true
+- name: features
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Judul
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Subjudul
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Gambar
+  - name: alt_text
+    type: text
+    config:
+      required: false
+    label: Teks Alt
+  config:
+    min: 
+    max: 
+    labelField: title
+  label: Features
+- name: design
+  type: field_group
+  config: {}
+  fields:
+  - name: container
+    type: boolean
+    label: Container
+    default: true
+  - name: style
+    type: text
+    config:
+      required: false
+    label: Style
+  label: Design
