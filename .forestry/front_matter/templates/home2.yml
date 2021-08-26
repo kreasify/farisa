@@ -1,0 +1,64 @@
+---
+label: home2
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: thumbnail
+  label: thumbnail
+- type: boolean
+  name: fixed_menu
+  label: fixed_menu
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: boolean
+    name: is_animation
+    label: is_animation
+  - type: boolean
+    name: is_text
+    label: is_text
+  - type: field_group_list
+    name: slides
+    label: slides
+    fields:
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: alt_text
+      label: alt_text
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: button_text
+      label: button_text
+    - type: text
+      name: button_link
+      label: button_link
+  - type: field_group
+    name: design
+    label: design
+    fields:
+    - type: boolean
+      name: container
+      label: container
+    - type: text
+      name: style
+      label: style
+- type: text
+  name: layout
+  label: layout
