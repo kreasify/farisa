@@ -6,33 +6,9 @@ fixed_menu: true
 sections:
 - template: section_slider
   type: slider_section
-  is_animation: false
-  is_text: false
-  slides:
-  - image: "/uploads/slider_1.png"
-    alt_text: home 1
-    title: Handmade Hand Carved Coffee
-    subtitle: As rich and unique as the coffee beans it is intended for, this little
-      scoop will make your morning ritual a special occasion every day.
-    button_text: order now
-    button_link: "/order"
-  - image: "/uploads/slider_2.png"
-    alt_text: home 1
-    title: Handmade Hand Carved Coffee
-    subtitle: As rich and unique as the coffee beans it is intended for, this little
-      scoop will make your morning ritual a special occasion every day.
-    button_text: order now
-    button_link: "/order"
-  - image: "/uploads/slider_3.png"
-    alt_text: home 2
-    title: Think different Do otherwise
-    subtitle: Claritas est etiam processus dynamicus, qui sequitur mutationem <br>
-      consuetudium lectorum.
-    button_text: order now
-    button_link: "/order"
-  design:
-    container: false
-    style: ''
+  is_animation: true
+  is_text: true
+  slides: []
 - template: section_icon_features
   type: icon_features
   design:
@@ -151,7 +127,7 @@ sections:
   type: shop_feed_section
   page_type: shop
   count: 5
-  offset: 0
+  offset: 
   order: desc
   title: ''
   show_recent: false
@@ -166,7 +142,7 @@ sections:
   type: shop_feed_sorter
   page_type: shop
   count: 12
-  offset: 0
+  offset: 
   order: desc
   badges:
   - new
@@ -207,7 +183,7 @@ sections:
   type: blog_feed_section
   page_type: blog
   count: 3
-  offset: 0
+  offset: 
   order: desc
   title: ''
   show_recent: false
@@ -217,4 +193,5 @@ sections:
     author: ''
     exclude_featured: false
 layout: advanced
+
 ---
