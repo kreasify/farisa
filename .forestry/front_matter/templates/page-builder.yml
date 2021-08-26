@@ -21,7 +21,10 @@ fields:
   - section_slider
   - section_icon_features
   - section_grid_banner
+  - section_shop_feed
+  - section_shop_feed_sorter
   - section_banner_image
+  - section_blog_feed
   label: Section Widget
 - type: text
   name: layout
