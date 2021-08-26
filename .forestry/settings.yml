@@ -29,7 +29,12 @@ sections:
 - type: document
   path: content/*
   label: Pages
-  match: "**/*"
+- type: directory
+  path: content/shop
+  label: Shop
+  create: documents
+  match: "*"
+  exclude: _index.md
 upload_dir: content/uploads
 public_path: content/uploads
 front_matter_path: ''
