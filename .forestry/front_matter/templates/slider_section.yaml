@@ -1,32 +1,37 @@
+---
+label: slider_section
+hide_body: false
 fields:
+- type: text
+  name: type
+  label: Type
+  default: slider_section
+  hidden: true
+- type: boolean
+  name: is_animation
+  label: Aktifkan Animasi
+- type: boolean
+  name: is_text
+  label: Tampilkan Teks Judul
+- type: field_group_list
+  name: slides
+  label: Slider
+  fields:
+  - type: file
+    name: image
+    label: Gambar
   - type: text
-    name: type
-    label: type
-  - type: boolean
-    name: is_animation
-    label: Aktifkan Animasi
-  - type: boolean
-    name: is_text
-    label: Tampilkan Teks Judul
-  - type: field_group_list
-    name: slides
-    label: Slider
-    fields:
-    - type: file
-      name: image
-      label: Gambar
-    - type: text
-      name: Teks Alt
-      label: alt_text
-    - type: text
-      name: title
-      label: Judul
-    - type: textarea
-      name: subtitle
-      label: Subjudul
-    - type: text
-      name: button_text
-      label: Teks Button
-    - type: text
-      name: button_link
-      label: LInk Button
+    name: alt_text
+    label: Teks Alt
+  - type: text
+    name: title
+    label: Judul
+  - type: textarea
+    name: subtitle
+    label: Subjudul
+  - type: text
+    name: button_text
+    label: Teks Button
+  - type: text
+    name: button_link
+    label: LInk Button
