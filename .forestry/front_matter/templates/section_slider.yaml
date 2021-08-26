@@ -10,9 +10,11 @@ fields:
 - type: boolean
   name: is_animation
   label: Aktifkan Animasi
+  default: true
 - type: boolean
   name: is_text
   label: Tampilkan Teks Judul
+  default: true
 - type: field_group_list
   name: slides
   label: Slider
