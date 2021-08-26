@@ -17,9 +17,9 @@ fields:
   label: Fixed Menu
 - name: mysections
   type: blocks
-  label: Widget
   template_types:
   - section_slider
+  label: Section Widget
 - type: text
   name: layout
   label: Layout
