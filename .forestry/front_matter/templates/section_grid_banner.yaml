@@ -22,11 +22,10 @@ fields:
     config:
       required: false
     label: Subjudul
-  - name: icon
+  - name: url
     type: text
     config:
       required: false
-    description: Tambahkan file icon dalam format svg
     label: URL
   - name: image
     type: file
