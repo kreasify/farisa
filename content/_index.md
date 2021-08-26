@@ -166,7 +166,7 @@ sections:
   type: shop_feed_sorter
   page_type: shop
   count: 12
-  offset: 0
+  offset: 
   order: desc
   badges:
   - new
@@ -180,6 +180,13 @@ sections:
     color: ''
     author: ''
     exclude_featured: false
+- template: section_banner_image
+  type: banner_section
+  design:
+    container: true
+    column: 2
+    style: ''
+  features: []
 layout: advanced
 mysections:
 - template: section_slider
