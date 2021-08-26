@@ -215,4 +215,24 @@ sections:
   design:
     style: ''
 layout: advanced
+mysections:
+- template: section_slider
+  type: slider_section
+  is_animation: false
+  is_text: false
+  slides: []
+- template: section_icon_features
+  type: icon_features
+  design:
+    container: true
+    column: 3
+    style: ''
+  features: []
+- template: section_grid_banner
+  type: grid_banner_section
+  design:
+    container: true
+    style: ''
+  features: []
+
 ---
