@@ -126,9 +126,6 @@ sections:
   design:
     container: true
     style: ''
-  design:
-    container: true
-    style: ''
   features:
   - image: "/uploads/grid_banner_1.png"
     alt_text: banner 1
@@ -150,6 +147,21 @@ sections:
     title: Outerwear
     subtitle: Woman Collecction
     url: collection/outerwear
+- template: shop_feed_section
+  type: shop_feed_section
+  page_type: shop
+  count: 5
+  offset: 0
+  order: desc
+  title: ''
+  show_recent: false
+  filters:
+    tag: ''
+    category: ''
+    collection: ''
+    color: ''
+    author: ''
+    exclude_featured: false
 layout: advanced
 mysections:
 - template: section_slider
