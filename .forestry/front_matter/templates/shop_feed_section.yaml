@@ -14,3 +14,32 @@ fields:
   config:
     required: false
   label: Judul Section
+- name: show_recent
+  type: boolean
+  label: Tampilkan Recent
+- name: page_type
+  type: text
+  config:
+    required: false
+  label: Type Page
+  default: shop
+- name: count
+  type: number
+  label: Tampilan Jumlah Produk
+  description: ''
+  default: 5
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: offset
+  type: number
+  label: Offset
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
