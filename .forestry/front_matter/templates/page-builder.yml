@@ -15,7 +15,7 @@ fields:
   name: fixed_menu
   default: true
   label: Fixed Menu
-- name: sections
+- name: mysections
   type: blocks
   label: Widget
   template_types:
