@@ -1,4 +1,59 @@
 ---
 label: Section Icon Features
 hide_body: false
-fields: []
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: icon_features
+  hidden: true
+- name: features
+  type: field_group_list
+  fields:
+  - name: icon
+    type: text
+    config:
+      required: false
+    label: Icon
+    description: Tambahkan file icon dalam format svg
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Judul
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Subjudul
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Features
+- name: design
+  type: field_group
+  config: {}
+  fields:
+  - name: container
+    type: boolean
+    label: Container
+    default: true
+  - name: column
+    type: number
+    description: ''
+    default: 3
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+    label: Column
+  - name: style
+    type: text
+    config:
+      required: false
+    label: Style
+  label: Design
