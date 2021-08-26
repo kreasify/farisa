@@ -186,7 +186,23 @@ sections:
     container: true
     column: 2
     style: ''
-  images: []
+  images:
+  - image: "/uploads/large_banner_1.png"
+    alt_text: home 1
+    title: New Summer
+    subtitle: Collection 2021
+    url: https://hijabenka.com/clothing/tops/289609/vlesa-blouse-brown?trc_sale=clothing+96
+    reg_price: Rp 320.00
+    sale_price: Rp 249.000
+    background_color: "#c8daea"
+  - image: "/uploads/large_banner_2.png"
+    alt_text: home 1
+    title: Exclusive
+    subtitle: Hijab Essential
+    url: https://hijabenka.com/square-hijab/hijab-essential/288987/sadina-square-in-dark-grey?trc_sale=hijab-essential
+    reg_price: Rp 289.000
+    sale_price: Rp 239.000
+    background_color: "#edd4c8"
 layout: advanced
 mysections:
 - template: section_slider
