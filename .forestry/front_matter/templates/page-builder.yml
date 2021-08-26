@@ -20,6 +20,7 @@ fields:
   template_types:
   - section_slider
   - section_icon_features
+  - section_grid_banner
   label: Section Widget
 - type: text
   name: layout
