@@ -43,3 +43,19 @@ fields:
     min: 
     max: 
     step: 
+- name: order
+  type: text
+  config:
+    required: false
+  label: Urutan Produk
+  default: desc
+- name: filters
+  type: field_group
+  config: {}
+  fields:
+  - name: tag
+    type: text
+    config:
+      required: false
+    label: Tag
+  label: Filter Produk
