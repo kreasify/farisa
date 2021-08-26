@@ -82,3 +82,10 @@ fields:
     type: boolean
     label: Sembunyikan Produk Featured
   label: Filter Produk
+- name: badges
+  type: tag_list
+  default:
+  - new
+  - best
+  label: Tab Filter Produk
+  description: Filter produk berdasarkan badge produk
