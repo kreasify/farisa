@@ -26,3 +26,5 @@ fields:
   label: Layout
   default: advanced
   hidden: true
+pages:
+- content/_index.md
