@@ -19,6 +19,7 @@ fields:
   type: blocks
   template_types:
   - section_slider
+  - section_icon_features
   label: Section Widget
 - type: text
   name: layout
