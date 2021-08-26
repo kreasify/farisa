@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5fc960760b4f7d001d6d0d59/webhook/forestry
 sections:
-- type: directory
-  path: content/pages
-  label: Pages
-  create: all
-  match: "*"
 - type: heading
   label: Website
 - type: document
@@ -31,6 +26,11 @@ sections:
 - type: document
   path: content/_index.md
   label: Homepage
+- type: directory
+  path: content/pages
+  label: Pages
+  create: all
+  match: "*"
 upload_dir: content/uploads
 public_path: content/uploads
 front_matter_path: ''
