@@ -26,9 +26,12 @@ sections:
 - type: document
   path: content/_index.md
   label: Homepage
-- type: document
-  path: content/*
+- type: directory
+  path: content
   label: Pages
+  create: documents
+  match: "*"
+  exclude: _index.md
 - type: directory
   path: content/shop
   label: Shop
