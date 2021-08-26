@@ -3,6 +3,26 @@ title: Metro Theme for Hugo SSG
 description: Metro Theme for Hugo Static Site Generator
 thumbnail: "/uploads/hero-1.jpg"
 fixed_menu: true
+sections:
+- template: section_slider
+  type: slider_section
+  is_animation: true
+  is_text: true
+  slides: []
+- template: section_icon_features
+  type: icon_features
+  design:
+    container: true
+    column: 3
+    style: ''
+  features: []
+- template: section_grid_banner
+  type: grid_banner_section
+  design:
+    container: true
+    style: ''
+  features: []
+layout: advanced
 mysections:
 - template: section_slider
   type: slider_section
@@ -214,5 +234,6 @@ mysections:
     exclude_featured: false
   design:
     style: ''
-layout: advanced
+has_widget: true
+
 ---
