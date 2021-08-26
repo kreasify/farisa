@@ -58,4 +58,27 @@ fields:
     config:
       required: false
     label: Tag
+  - name: category
+    type: text
+    config:
+      required: false
+    label: Category
+  - name: collection
+    type: text
+    config:
+      required: false
+    label: Collection
+  - name: color
+    type: text
+    config:
+      required: false
+    label: Color
+  - name: author
+    type: text
+    config:
+      required: false
+    label: Author
+  - name: exclude_featured
+    type: boolean
+    label: Sembunyikan Produk Featured
   label: Filter Produk
