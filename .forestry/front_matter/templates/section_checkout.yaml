@@ -14,7 +14,7 @@ fields:
   config:
     required: false
   label: Judul Section
-- name: kurir
+- name: couriers
   type: list
   config:
     use_select: true
@@ -37,4 +37,5 @@ fields:
     - sicepat_best
     - lion_regpack
     - ninja_standard
-  label: kurir
+  label: Pilihan Kurir
+  description: PIlih kurir yang akan diaktifkan
