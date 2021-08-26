@@ -9,7 +9,7 @@ fields:
   label: Type
   default: banner_section
   hidden: true
-- name: features
+- name: images
   type: field_group_list
   fields:
   - name: title
@@ -58,7 +58,7 @@ fields:
     min: 
     max: 
     labelField: title
-  label: Features
+  label: Gambar Banner
 - name: design
   type: field_group
   config: {}
