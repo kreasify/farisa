@@ -14,3 +14,15 @@ fields:
   config:
     required: false
   label: Judul Section
+- name: kurir
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Kurir
