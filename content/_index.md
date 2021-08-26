@@ -264,5 +264,11 @@ mysections:
       8.207-3.1309 11.3379-0.001z"></path></svg>
     title: Gratis Ongkir
     subtitle: Pengiriman se-Indonesia
+- template: section_grid_banner
+  type: grid_banner_section
+  design:
+    container: true
+    style: ''
+  features: []
 
 ---
