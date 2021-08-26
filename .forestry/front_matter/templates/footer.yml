@@ -1,60 +1,48 @@
 ---
-label: Footer Configuration
+label: Footer
 hide_body: true
-display_field: content
 fields:
-- type: boolean
-  name: has_nav
-  label: Enable Navigation Menu
-  description: Display the secondary navigation menu in the footer
+- name: has_widget
+  type: boolean
+  label: Tampilkan Widget
   default: true
-- type: field_group_list
-  name: nav_links
-  label: Navigation Menu Links
-  description: List of navigation links in footer
-  fields:
-  - type: include
-    name: include_action
-    label: Action
-    template: action
-  config:
-    labelField: label
+- name: sections
+  type: blocks
+  label: Widget
+  template_types:
+  - widget_menu
+  - widget_contact
+  showOnly:
+    field: has_widget
+    value: true
 - type: boolean
   name: has_social
-  label: Enable Social Links
-  description: Display social links in the footer
+  label: Tampilkan Sosial Media
   default: true
 - type: field_group_list
   name: social_links
-  label: Social Links
-  description: The list of social links displayed in the footer
+  label: Sosial Media
   fields:
-  - type: include
-    name: include_action
-    label: Action
-    template: action
-  config:
-    labelField: label
+  - type: text
+    name: label
+    label: Label
+  - type: text
+    name: icon
+    label: Icon
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: style
+    label: Style
+  - type: boolean
+    name: new_window
+    label: Buka Tab Window Baru
+  showOnly:
+    field: has_social
+    value: true
 - type: text
   name: content
-  label: Footer Content
-  description: The copyright text displayed in the footer
-- type: field_group_list
-  name: links
-  label: Links
-  description: A list of links displayed in the footer
-  fields:
-  - type: include
-    name: include_action
-    label: Action
-    template: action
-  config:
-    labelField: label
-- type: text
-  name: type
-  label: Object Type
-  description: The type of the object
-  hidden: true
-  default: footer
-  config:
-    required: true
+  label: Content
+pages:
+- data/footer.yaml

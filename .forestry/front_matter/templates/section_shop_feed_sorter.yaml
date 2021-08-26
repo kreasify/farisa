@@ -1,0 +1,91 @@
+---
+label: Section Produk Terfilter
+hide_body: false
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: shop_feed_sorter
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Judul Section
+- name: show_recent
+  type: boolean
+  label: Tampilkan Recent
+- name: page_type
+  type: text
+  config:
+    required: false
+  label: Type Page
+  default: shop
+- name: count
+  type: number
+  label: Tampilan Jumlah Produk
+  description: ''
+  default: 12
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: offset
+  type: number
+  label: Offset
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: order
+  type: text
+  config:
+    required: false
+  label: Urutan Produk
+  default: desc
+- name: filters
+  type: field_group
+  config: {}
+  fields:
+  - name: tag
+    type: text
+    config:
+      required: false
+    label: Tag
+  - name: category
+    type: text
+    config:
+      required: false
+    label: Category
+  - name: collection
+    type: text
+    config:
+      required: false
+    label: Collection
+  - name: color
+    type: text
+    config:
+      required: false
+    label: Color
+  - name: author
+    type: text
+    config:
+      required: false
+    label: Author
+  - name: exclude_featured
+    type: boolean
+    label: Sembunyikan Produk Featured
+  label: Filter Produk
+- name: badges
+  type: tag_list
+  default:
+  - new
+  - best
+  label: Tab Filter Produk
+  description: Filter produk berdasarkan badge produk

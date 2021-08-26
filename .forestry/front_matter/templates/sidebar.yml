@@ -1,0 +1,20 @@
+---
+label: Sidebar
+hide_body: true
+fields:
+- name: has_widget
+  type: boolean
+  label: Tampilkan Widget
+  default: true
+- name: sections
+  type: blocks
+  label: Widget
+  template_types:
+  - widget_recent_post
+  - widget_categories
+  - widget_tags
+  showOnly:
+    field: has_widget
+    value: true
+pages:
+- data/sidebar.yaml

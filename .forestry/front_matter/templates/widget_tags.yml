@@ -1,0 +1,25 @@
+---
+label: Widget Tags
+hide_body: false
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: widget_tags
+  hidden: true
+- name: is_num_post
+  type: boolean
+  description: Tampilkan jumlah posting setiap tag
+  label: Tampilkan Jumlah Posting
+- name: num_tags
+  type: number
+  description: Jumlah tag yang ditampilkan pada widget
+  default: 10
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: Jumlah Tags

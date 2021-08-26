@@ -1,0 +1,247 @@
+---
+label: Global Setting
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: Judul Website
+- type: text
+  name: baseURL
+  label: URL Utama
+- type: text
+  name: languageCode
+  label: languageCode
+  hidden: true
+- type: text
+  name: defaultContentLanguage
+  label: defaultContentLanguage
+  hidden: true
+- type: text
+  name: metaDataFormat
+  label: Format Meta Data
+  default: yaml
+  hidden: true
+- type: field_group
+  name: menu
+  label: Menu
+  fields:
+  - type: field_group_list
+    name: main
+    label: Main
+    fields:
+    - type: text
+      name: identifier
+      label: Id Menu
+    - type: text
+      name: name
+      label: Label
+    - type: text
+      name: url
+      label: URL
+    - type: number
+      name: weight
+      label: Urutan Menu
+    - name: parent
+      type: text
+      config:
+        required: false
+      label: Menu Parent
+      description: Tambahkan id menu utama jika sebagai submenu
+    - type: field_group
+      name: params
+      label: Params
+      fields:
+      - name: class
+        type: text
+        config:
+          required: false
+        label: Class
+  hidden: true
+- type: field_group
+  name: params
+  label: Params
+  fields:
+  - type: text
+    name: description
+    label: Description
+  - type: file
+    name: favicon
+    label: Favicon
+  - type: boolean
+    name: is_statically
+    label: Aktifkan CDN Statically
+  - type: text
+    name: author
+    label: Author
+  - type: list
+    name: mainSection
+    label: mainSection
+    hidden: true
+- type: boolean
+  name: preserveTaxonomyNames
+  label: preserveTaxonomyNames
+  default: true
+  hidden: true
+- type: field_group
+  name: permalinks
+  label: Permalinks
+  fields:
+  - type: text
+    name: authors
+    label: Authors
+    default: "/author/:slug/"
+  - type: text
+    name: tags
+    label: Tags
+    default: "/tag/:slug/"
+  - type: text
+    name: categories
+    label: Categories
+    default: "/category/:slug/"
+  - type: text
+    name: pages
+    label: Pages
+    default: "/:slug/"
+  - type: text
+    name: collections
+    label: Collections
+    default: "/collection/:slug/"
+  - type: text
+    name: color
+    label: Color
+    default: "/:slug/"
+  - type: text
+    name: shop
+    label: Shop
+    default: "/:slug/"
+  - name: blog
+    type: text
+    config:
+      required: false
+    label: Blog
+    default: "/:slug/"
+- type: field_group
+  name: outputs
+  label: outputs
+  fields:
+  - type: list
+    name: home
+    label: home
+    config:
+      use_select: false
+      source:
+        type: simple
+      options:
+      - html
+      - json
+  - type: list
+    name: page
+    label: page
+  - type: list
+    name: section
+    label: section
+- type: field_group
+  name: taxonomies
+  label: taxonomies
+  fields:
+  - type: text
+    name: tag
+    label: tag
+  - type: text
+    name: category
+    label: category
+  - type: text
+    name: author
+    label: author
+  - type: text
+    name: brand
+    label: brand
+  - type: text
+    name: collection
+    label: collection
+  - type: text
+    name: color
+    label: color
+- type: field_group
+  name: imaging
+  label: imaging
+  fields:
+  - type: number
+    name: quality
+    label: quality
+- type: list
+  name: disableKinds
+  label: disableKinds
+  hidden: true
+- type: field_group
+  name: markup
+  label: markup
+  fields:
+  - type: field_group
+    name: goldmark
+    label: goldmark
+    fields:
+    - type: field_group
+      name: extensions
+      label: extensions
+      fields:
+      - type: boolean
+        name: definitionList
+        label: definitionList
+      - type: boolean
+        name: footnote
+        label: footnote
+      - type: boolean
+        name: linkify
+        label: linkify
+      - type: boolean
+        name: strikethrough
+        label: strikethrough
+      - type: boolean
+        name: table
+        label: table
+      - type: boolean
+        name: taskList
+        label: taskList
+      - type: boolean
+        name: typographer
+        label: typographer
+    - type: field_group
+      name: parser
+      label: parser
+      fields:
+      - type: boolean
+        name: attribute
+        label: attribute
+      - type: boolean
+        name: autoHeadingID
+        label: autoHeadingID
+      - type: text
+        name: autoHeadingIDType
+        label: autoHeadingIDType
+      hidden: true
+    - type: field_group
+      name: renderer
+      label: renderer
+      fields:
+      - type: boolean
+        name: hardWraps
+        label: hardWraps
+      - type: boolean
+        name: unsafe
+        label: unsafe
+      - type: boolean
+        name: xhtml
+        label: xhtml
+      hidden: true
+  hidden: true
+- type: field_group
+  name: build
+  label: build
+  fields:
+  - type: boolean
+    name: writeStats
+    label: writeStats
+  hidden: true
+pages:
+- config.yaml

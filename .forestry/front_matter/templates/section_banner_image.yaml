@@ -1,0 +1,85 @@
+---
+label: Section Banner Image
+hide_body: false
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: banner_section
+  hidden: true
+- name: images
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Judul
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Subjudul
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Gambar
+  - name: alt_text
+    type: text
+    config:
+      required: false
+    label: Teks Alt
+  - name: reg_price
+    type: text
+    config:
+      required: false
+    label: Harga Normal
+  - name: sale_price
+    type: text
+    config:
+      required: false
+    label: Harga Promo
+  - name: background_color
+    type: color
+    label: Warna Background
+    config:
+      required: false
+      color_format: Hex
+    default: "#EDD4C8"
+  config:
+    min: 
+    max: 
+    labelField: title
+  label: Gambar Banner
+- name: design
+  type: field_group
+  config: {}
+  fields:
+  - name: container
+    type: boolean
+    label: Container
+    default: true
+  - name: column
+    type: number
+    label: 'Jumlah '
+    description: ''
+    default: 2
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: style
+    type: text
+    config:
+      required: false
+    label: Style
+  label: Design

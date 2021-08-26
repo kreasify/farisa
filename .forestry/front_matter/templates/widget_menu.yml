@@ -1,0 +1,34 @@
+---
+label: Widget Menu
+hide_body: true
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: widget_menu
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Judul Widget
+- name: links
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: Label
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Menu Widget

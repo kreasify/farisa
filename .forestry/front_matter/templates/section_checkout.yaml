@@ -1,0 +1,41 @@
+---
+label: Section Checkout
+hide_body: false
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: checkout_section
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Judul Section
+- name: couriers
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - jne_oke
+    - jne_reg
+    - jne_yes
+    - pos_paket_kilat_khusus
+    - pos_express_next_day_barang
+    - tiki_eco
+    - tiki_reg
+    - tiki_ons
+    - jnt_ez
+    - wahana_normal
+    - sicepat_reg
+    - sicepat_best
+    - lion_regpack
+    - ninja_standard
+  label: Pilihan Kurir
+  description: PIlih kurir yang akan diaktifkan

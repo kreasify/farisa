@@ -1,0 +1,14 @@
+---
+has_widget: true
+sections:
+- template: widget_recent_post
+  type: widget_recent_post
+  recent_num: "8"
+- template: widget_categories
+  type: widget_categories
+  num_categories: 10
+  is_num_post: true
+- template: widget_tags
+  type: widget_tags
+  num_tags: 10
+  is_num_post: true
