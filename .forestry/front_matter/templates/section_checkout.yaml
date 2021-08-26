@@ -1,0 +1,16 @@
+---
+label: Section Checkout
+hide_body: false
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: checkout_section
+  hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Judul Section
