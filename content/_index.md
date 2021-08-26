@@ -147,6 +147,39 @@ sections:
     title: Outerwear
     subtitle: Woman Collecction
     url: collection/outerwear
+- template: section_shop_feed
+  type: shop_feed_section
+  page_type: shop
+  count: 5
+  offset: 0
+  order: desc
+  title: ''
+  show_recent: false
+  filters:
+    tag: ''
+    category: ''
+    collection: ''
+    color: ''
+    author: ''
+    exclude_featured: false
+- template: section_shop_feed_sorter
+  type: shop_feed_sorter
+  page_type: shop
+  count: 12
+  offset: 0
+  order: desc
+  badges:
+  - new
+  - best
+  title: ''
+  show_recent: false
+  filters:
+    tag: ''
+    category: ''
+    collection: ''
+    color: ''
+    author: ''
+    exclude_featured: false
 - template: section_banner_image
   type: banner_section
   design:
@@ -170,6 +203,19 @@ sections:
     reg_price: Rp 289.000
     sale_price: Rp 239.000
     background_color: "#edd4c8"
+- template: section_blog_feed
+  type: blog_feed_section
+  page_type: blog
+  count: 3
+  offset: 0
+  order: desc
+  title: ''
+  show_recent: false
+  filters:
+    tag: ''
+    category: ''
+    author: ''
+    exclude_featured: false
 layout: advanced
 mysections:
 - template: section_slider
