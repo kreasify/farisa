@@ -33,7 +33,7 @@ sections:
   match: "*"
   exclude: feed.md
 upload_dir: uploads/images
-public_path: "/images"
+public_path: uploads/images
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
