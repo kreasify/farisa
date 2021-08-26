@@ -4,23 +4,28 @@ hide_body: true
 fields:
 - type: text
   name: title
-  label: title
+  label: Judul
 - type: text
   name: description
-  label: description
+  label: Meta Description
 - type: field_group_list
   name: sections
-  label: sections
+  label: Sections Widget
   fields:
   - type: text
     name: type
-    label: type
+    label: Type
+    default: checkout_section
+    hidden: true
   - type: text
     name: title
-    label: title
+    label: Judul Section
+    default: Checkout Produk
   - type: list
     name: couriers
-    label: couriers
+    label: Kurir
 - type: text
   name: layout
   label: layout
+  default: advanced
+  hidden: true
