@@ -186,7 +186,7 @@ sections:
     container: true
     column: 2
     style: ''
-  features: []
+  images: []
 layout: advanced
 mysections:
 - template: section_slider
