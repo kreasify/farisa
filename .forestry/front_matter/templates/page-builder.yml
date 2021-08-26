@@ -17,10 +17,7 @@ fields:
   label: Fixed Menu
 - name: sections
   type: blocks
-  template_types:
-  - section_slider
-  - section_icon_features
-  - section_grid_banner
+  template_types: []
   label: Section Widget
 - type: text
   name: layout
