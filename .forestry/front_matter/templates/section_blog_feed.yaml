@@ -25,7 +25,7 @@ fields:
   default: blog
 - name: count
   type: number
-  label: Tampilan Jumlah Produk
+  label: Tampilan Jumlah Artikel
   description: ''
   default: 3
   required: true
@@ -47,7 +47,7 @@ fields:
   type: text
   config:
     required: false
-  label: Urutan Produk
+  label: Urutan Artikel
   default: desc
 - name: filters
   type: field_group
@@ -70,5 +70,5 @@ fields:
     label: Author
   - name: exclude_featured
     type: boolean
-    label: Sembunyikan Produk Featured
+    label: Sembunyikan Artikel Featured
   label: Filter Produk
