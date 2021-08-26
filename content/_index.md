@@ -269,6 +269,11 @@ mysections:
   design:
     container: true
     style: ''
-  features: []
+  features:
+  - title: Atasan
+    subtitle: Woman Collection
+    icon: collection/atasan/
+    image: content/uploads/grid_banner_1.png
+    alt_text: banner 1
 
 ---
