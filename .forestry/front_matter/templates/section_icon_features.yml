@@ -12,12 +12,6 @@ fields:
 - name: features
   type: field_group_list
   fields:
-  - name: icon
-    type: text
-    config:
-      required: false
-    label: Icon
-    description: Tambahkan file icon dalam format svg
   - name: title
     type: text
     config:
@@ -28,10 +22,16 @@ fields:
     config:
       required: false
     label: Subjudul
+  - name: icon
+    type: text
+    config:
+      required: false
+    label: Icon
+    description: Tambahkan file icon dalam format svg
   config:
     min: 
     max: 
-    labelField: 
+    labelField: title
   label: Features
 - name: design
   type: field_group
