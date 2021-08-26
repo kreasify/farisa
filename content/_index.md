@@ -147,39 +147,6 @@ sections:
     title: Outerwear
     subtitle: Woman Collecction
     url: collection/outerwear
-- template: shop_feed_section
-  type: shop_feed_section
-  page_type: shop
-  count: 5
-  offset: 
-  order: desc
-  title: ''
-  show_recent: false
-  filters:
-    tag: ''
-    category: ''
-    collection: ''
-    color: ''
-    author: ''
-    exclude_featured: false
-- template: shop_feed_sorter_section
-  type: shop_feed_sorter
-  page_type: shop
-  count: 12
-  offset: 
-  order: desc
-  badges:
-  - new
-  - best
-  title: ''
-  show_recent: false
-  filters:
-    tag: ''
-    category: ''
-    collection: ''
-    color: ''
-    author: ''
-    exclude_featured: false
 - template: section_banner_image
   type: banner_section
   design:
