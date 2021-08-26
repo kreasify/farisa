@@ -218,8 +218,8 @@ layout: advanced
 mysections:
 - template: section_slider
   type: slider_section
-  is_animation: false
-  is_text: false
+  is_animation: true
+  is_text: true
   slides: []
 - template: section_icon_features
   type: icon_features
