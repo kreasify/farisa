@@ -9,3 +9,8 @@ fields:
   label: Type
   default: shop_feed_section
   hidden: true
+- name: title
+  type: text
+  config:
+    required: false
+  label: Judul Section
