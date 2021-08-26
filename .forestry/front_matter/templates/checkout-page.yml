@@ -1,0 +1,26 @@
+---
+label: Checkout Page
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: type
+    label: type
+  - type: text
+    name: title
+    label: title
+  - type: list
+    name: couriers
+    label: couriers
+- type: text
+  name: layout
+  label: layout
