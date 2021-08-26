@@ -1,0 +1,11 @@
+---
+label: Section Produk Terbaru
+hide_body: false
+fields:
+- name: type
+  type: text
+  config:
+    required: false
+  label: Type
+  default: shop_feed_section
+  hidden: true
