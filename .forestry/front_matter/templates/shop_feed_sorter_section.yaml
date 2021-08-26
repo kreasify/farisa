@@ -27,7 +27,7 @@ fields:
   type: number
   label: Tampilan Jumlah Produk
   description: ''
-  default: 5
+  default: 12
   required: true
   config:
     min: 
