@@ -19,7 +19,7 @@ fields:
   type: blocks
   label: Widget
   template_types:
-  - slider_section
+  - section_slider
 - type: text
   name: layout
   label: Layout
