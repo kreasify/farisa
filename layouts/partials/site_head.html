@@ -19,7 +19,7 @@
     {{- $splide := resources.Get "js/splide@2.4.20.min.js" }}
     {{- $turbo := resources.Get "js/turbo.es5-umd.js" }}
     {{- $adapter := resources.Get "js/turbo-adapter.js" }}
-    {{- $alpine := resources.Get "js/alpine@3.2.3.min.js" }}
+    {{- $alpine := resources.Get "js/alpine@3.3.3.min.js" }}
     {{- $autocomplete := resources.Get "js/autocomplete@10.2.6.min.js" }}
     {{- $ads := resources.Get "js/ads.js" }}
     {{- $header := resources.Get "js/header.js" }}
@@ -33,7 +33,7 @@
     {{- if eq .Params.layout "advanced" }}
     {{- range $index, $section := .Params.sections }}
     {{- if $section.slides }}
-        {{- $js = slice $lazysizes $minisearch $splide $alpine $ads $header $slider $shop | resources.Concat "js/slider.js" }}
+        {{- $js = slice $lazysizes $minisearch $splide $autocomplete $alpine $ads $header $slider $shop $checkout | resources.Concat "js/slider.js" }}
         {{- $js_min = $js | resources.Minify }}
     {{- else }}
         {{- if eq $index 0 }}
