@@ -11,7 +11,7 @@ document.addEventListener('alpine:init', () => {
         count: 1,
         carts,
         inCarts() {
-            const sku = this.items.variants[this.activeVariant].sku
+            const sku = this.items.variants[this.activeVariant].id
             let product = this.carts.find(item => item.sku == sku);
 
             return product ? true : false
@@ -21,12 +21,12 @@ document.addEventListener('alpine:init', () => {
             return this.carts
         },
         addItem() {
-            const sku = this.items.variants[this.activeVariant].sku
+            const sku = this.items.variants[this.activeVariant].id
             const id = this.carts.some(item => item.sku === sku)
 
             if (!id) {
                 this.carts.push({
-                    sku: this.items.variants[this.activeVariant].sku,
+                    sku: this.items.variants[this.activeVariant].id,
                     name: this.items.title,
                     image: this.items.image,
                     thumbnail: this.items.thumbnail,
