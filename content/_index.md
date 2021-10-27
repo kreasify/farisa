@@ -1,5 +1,5 @@
 ---
-title: Metro Theme for Hugo SSG
+title: Vitoko Theme for Hugo SSG
 description: Metro Theme for Hugo Static Site Generator
 thumbnail: "/uploads/hero-1.jpg"
 fixed_menu: true
