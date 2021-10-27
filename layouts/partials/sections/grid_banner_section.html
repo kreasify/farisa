@@ -4,7 +4,7 @@
 <div class="grid grid-cols-12 grid-rows-2 gap-x-6 gap-y-4">
     {{- range $index, $el := . }}
     <div
-        class="banner__box col-span-12 lg:col-span-4 relative bg-body-primary group overflow-hidden {{- if or (eq $index 0) (eq $index 2) (eq $index 4) }}row-span-2 {{else}}row-span-1 {{end}}">
+        class="banner__box col-span-12 lg:col-span-4 relative bg-body-primary group overflow-hidden {{if or (eq $index 0) (eq $index 2) (eq $index 4) }}row-span-2 {{else}}row-span-1 {{end}}">
         <a class="banner_link" href="{{ .url }}">
             {{- if or (eq $index 0) (eq $index 2) (eq $index 4) }}
             <div class="relative aspect-w-6 aspect-h-7">
