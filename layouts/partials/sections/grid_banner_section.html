@@ -14,7 +14,7 @@
                 {{ $include_dict_16_9 := dict "image" .image "alt_text" .alt_text "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover transition duration-500 ease-ease group-hover:transform group-hover:scale-105" "resized" "390x220 webp" "fill" true "lazyload" false }}
                 {{ partial "functions/get_image.html" $include_dict_16_9 }}
                 {{- end }}
-                <div class="absolute w-1/2 left-0 flex items-end z-20 {{if or (eq $index 0) (eq $index 2) (eq $index 4) }}aspect-w-6 aspect-h-7 {{else}}aspect-w-16 aspect-h-9 {{end}}">
+                <div class="absolute w-1/2 left-0 flex items-end z-20 {{if or (eq $index 0) (eq $index 2) (eq $index 4) }}h-1/2 top-1/2 {{else}}aspect-w-16 aspect-h-9 {{end}}">
                     <header class="banner__header lg:w-1/2 relative px-3 lg:px-6 py-8 after:empty-content after:absolute after:w-12 after:h-2px after:bg-banner-text-primary after:transition after:duration-500 after:ease-ease">
                         {{- if .title }}
                         <h2 class="text-banner-text-primary font-semibold text-base lg:text-xl uppercase leading-none mb-2">{{ .title | safeHTML }}</h2>
