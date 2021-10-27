@@ -23,7 +23,7 @@
             {{ $include_dict := dict "image" .image "alt_text" .alt_text "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover rounded-md" "resized" "674x506 webp" "fill" true "lazyload" .Site.Data.theme.lazysizes }}
             {{ partial "functions/get_image.html" $include_dict }}
             </div>
-            <div class="absolute w-full h-full top-0 left-0 flex flex-col justify-center">
+            <div class="absolute w-2/3 h-1/2 top-1/4 left-0 flex flex-col justify-center">
                 <header class="w-80pr mx-auto">
                     {{- if .subtitle }}
                     <h4 class="text-banner-text-secondary text-thin lg:text-thin text-base lg:text-3xl mb-2 lg:mb-3">
