@@ -7,7 +7,7 @@
         class="banner__box col-span-12 lg:col-span-4 relative bg-body-primary group overflow-hidden {{if or (eq $index 0) (eq $index 2) (eq $index 4) }}row-span-2 {{else}}row-span-1 {{end}}">
         <a class="banner_link" href="{{ .url }}">
             {{- if or (eq $index 0) (eq $index 2) (eq $index 4) }}
-            <div class="relative  {{if or (eq $index 0) (eq $index 2) (eq $index 4) }}row-span-2 {{else}}row-span-1 {{end}}">
+            <div class="relative {{if or (eq $index 0) (eq $index 2) (eq $index 4) }}row-span-2 {{else}}row-span-1 {{end}}">
                 {{- if or (eq $index 0) (eq $index 2) (eq $index 4) }}
                 {{ $include_dict_6_7 := dict "image" .image "alt_text" .alt_text "Site" $.Site "class" "absolute w-full h-full left-0 top-0 object-cover transition duration-500 ease-ease group-hover:transform group-hover:scale-105" "resized" "390x455 webp" "fill" true "lazyload" false }}
                 {{ partial "functions/get_image.html" $include_dict_6_7 }}
