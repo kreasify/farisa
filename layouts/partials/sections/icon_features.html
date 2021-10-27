@@ -14,7 +14,7 @@
 {{- end }}
 <div class="grid grid-cols-12 gap-4 lg:gap-6">
     {{- range $section.features }}
-    <div class="{{ $col_span }} col-span-12 lg:col-span-4 flex overflow-hidden transition duration-300 ease-in-out bg-body-primary border-b border-solid border-body-secondary hover:shadow-lg py-6 px-3 lg:px-4">
+    <div class="{{ $col_span }} flex overflow-hidden transition duration-300 ease-in-out bg-body-primary border-b border-solid border-body-secondary hover:shadow-lg py-6 px-3 lg:px-4">
         {{- if .icon }}
         <div class="feature__icon col-span-3 flex items-center text-body-text-primary border-r border-solid border-border-color pr-6">
             {{ .icon | safeHTML}}
