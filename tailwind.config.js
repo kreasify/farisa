@@ -23,7 +23,7 @@ module.exports = {
 		}, ],
 		mode: 'all',
 		options: {
-			safelist: ['table', 'th', 'tr', 'td', 'w-screen', 'h-screen', 'max-w-screen-lg', 'aspect-w-6', 'aspect-h-7', 'opacity-60', 'text-body', 'bg-body-text', 'bg-action', 'bg-action-hover', 'px-1', 'pl-1', 'pr-1', 'truncate', 'black', 'splide__arrow', '-translate-x-20', 'group-hover:translate-x-0' group-hover:opacity-80'],
+			safelist: ['table', 'th', 'tr', 'td', 'w-screen', 'h-screen', 'max-w-screen-lg', 'aspect-w-6', 'aspect-h-7', 'opacity-60', 'text-body', 'bg-body-text', 'bg-action', 'bg-action-hover', 'px-1', 'pl-1', 'pr-1', 'truncate', 'black', 'splide__arrow', '-translate-x-20', 'group-hover:translate-x-0', group-hover:opacity-80'],
 		}
 	},
 	theme: {
