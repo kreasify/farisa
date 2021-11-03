@@ -21,7 +21,7 @@
 					</div>
 					{{- end }}
 					<div class="widget__recent-body col-span-9">
-						<h4 class="text-heading-primary hover:text-primary font-heading mb-0">{{ .Title }}</h4>
+						<h4 class="text-heading-primary hover:text-heading font-heading mb-0">{{ .Title }}</h4>
 						<div class="widget__recent-meta mb-2">
 							<time class="text-sm text-heading-secondary">{{ with .Params.dateFormat }}{{ .Date.Format . }}{{ else }}{{ .Date.Format "02 January 2006" }}{{ end }}</time>
 						</div>
