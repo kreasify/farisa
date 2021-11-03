@@ -5,6 +5,7 @@ sections:
     template: hero_section
     title: Blog
     align: center
+    
   - type: blog_feed_section
     template: blog_feed_section
     show_recent: false
