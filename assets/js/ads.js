@@ -106,7 +106,7 @@ document.addEventListener('alpine:init', () => {
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                 <div class="ads-item__image relative bg-body-primary">
                     <a class="ads-item__link" x-bind:href="product.url">
-                        <div class="responsive aspect-w-5 aspect-h-6">
+                        <div class="responsive aspect-w-2 aspect-h-3">
                             <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="product.image">
                         </div>
                     </a>
@@ -134,7 +134,7 @@ document.addEventListener('alpine:init', () => {
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                 <div class="ads-item__image relative bg-body-primary">
                     <a class="ads-item__link" x-bind:href="adFirst.url">
-                        <div class="responsive aspect-w-5 aspect-h-6">
+                        <div class="responsive aspect-w-2 aspect-h-3">
                             <template x-if="adFirst.image">
                             <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="adFirst.image">
                             </template>
@@ -170,7 +170,7 @@ document.addEventListener('alpine:init', () => {
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                 <div class="ads-item__image relative bg-body-primary">
                     <a class="ads-item__link" x-bind:href="adSecond.url">
-                        <div class="responsive aspect-w-5 aspect-h-6">
+                        <div class="responsive aspect-w-2 aspect-h-3">
                             <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="adSecond.image">
                         </div>
                     </a>
@@ -204,7 +204,7 @@ document.addEventListener('alpine:init', () => {
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                 <div class="ads-item__image relative bg-body-primary">
                     <a class="ads-item__link" x-bind:href="adThird.url">
-                        <div class="responsive aspect-w-5 aspect-h-6">
+                        <div class="responsive aspect-w-2 aspect-h-3">
                             <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="adThird.image">
                         </div>
                     </a>
@@ -238,7 +238,7 @@ document.addEventListener('alpine:init', () => {
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                 <div class="ads-item__image relative bg-body-primary">
                     <a class="ads-item__link" x-bind:href="adFourth.url">
-                        <div class="responsive aspect-w-5 aspect-h-6">
+                        <div class="responsive aspect-w-2 aspect-h-3">
                             <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="adFourth.image">
                         </div>
                     </a>
@@ -272,7 +272,7 @@ document.addEventListener('alpine:init', () => {
             <div class="ads-item relative col-span-6 md:col-span-3 lg:col-span-2 transition duration-500 ease-ease hover:shadow-lg">
                 <div class="ads-item__image relative bg-body-primary">
                     <a class="ads-item__link" x-bind:href="adFifth.url">
-                        <div class="responsive aspect-w-5 aspect-h-6">
+                        <div class="responsive aspect-w-2 aspect-h-3">
                             <img class="absolute w-full h-full left-0 top-0 object-cover blur-up lazyloaded" x-bind:src="adFifth.image">
                         </div>
                     </a>
