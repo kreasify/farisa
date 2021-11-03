@@ -24,8 +24,3 @@ sections:
     show_recent: false
 layout: advanced
 ---
----
-title: Shop
-sections:
-  - type: hero_section
-
