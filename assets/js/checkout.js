@@ -7,7 +7,7 @@ document.addEventListener('alpine:init', () => {
         destinationName: '',
         fetchCourier() {
             if (this.destination !== '') {
-                fetch(`https://ongkir-106.netlify.app/api/${this.destination.split(',')[0]}`)
+                fetch(`https://o.netlify.app/api/${this.destination.split(',')[0]}`)
                     .then(response => response.json())
                     .then(data => {
                         this.couriers = data.results, this.destinationName = data.destination
