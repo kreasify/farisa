@@ -21,7 +21,7 @@ document.addEventListener('alpine:init', () => {
             return this.carts
         },
         addItem() {
-            const sku = this.items.variants[this.activeVariant].id
+            const sku = this.items.variants[this.activeVariant].sku
             const id = this.carts.some(item => item.sku === sku)
 
             if (!id) {
