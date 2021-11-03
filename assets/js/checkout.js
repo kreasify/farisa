@@ -128,6 +128,7 @@ document.addEventListener('alpine:init', () => {
             return newKurir;
         },
         sendWa(products, subtotal, berat) {
+            const whatsapp = (this.user.whatsapp).toString().replace(/\D/g, '').replace(new RegExp('^0'), '62').replace(new RegExp('^8'), '628');
             const header = `Hi%20kak%20${this.user.name}%2C%20saya%20mau%20order%20produk%20di%20toko%20${this.user.shop_name}%20dengan%20rincian%20berikut%2C%0A%0A`
             const name = `*Nama*%20%20%20%20%20%20%3A%20${this.name}%20%0A`;
             const hp = `*Nomor%20HP*%20%3A%20${this.hp}%20%0A`;
