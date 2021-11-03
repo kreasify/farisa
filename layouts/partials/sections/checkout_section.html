@@ -74,7 +74,7 @@
                 name: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.email }}
                 email: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.whatsapp }}
                 whatsapp: {{ . | jsonify }},{{ end }}{{ with .Site.Data.user_setting.user.shop_name }}
-                shop_name: {{ . | jsonify }},{{ end }}{{ with $section}}
+                shop_name: {{ . | jsonify }},{{ end }}{{ with $section.origin}}
                 website: {{ .Site.BaseURL | jsonify }}
             }'>
         <form method="POST" {{- with .Site.Data.user_setting.google_form_code}} action="{{ . }}"{{- end }}>
