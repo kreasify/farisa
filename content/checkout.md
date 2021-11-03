@@ -1,7 +1,6 @@
 ---
 title: Checkout
 description: Checkout
-fixed_menu: true
 thumbnail: ''
 sections:
 - template: section_checkout
