@@ -38,4 +38,3 @@ sections:
     label: lihat koleksi
     filter: collections
 ---
-
