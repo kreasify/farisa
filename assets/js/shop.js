@@ -26,7 +26,7 @@ document.addEventListener('alpine:init', () => {
 
             if (!id) {
                 this.carts.push({
-                    sku: this.items.variants[this.activeVariant].id,
+                    sku: this.items.variants[this.activeVariant].sku,
                     name: this.items.title,
                     image: this.items.image,
                     thumbnail: this.items.thumbnail,
