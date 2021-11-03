@@ -13,8 +13,8 @@
     <div class="feed-item__image relative bg-body-primary">
         <a class="feed-item__link" href="{{ $post.RelPermalink }}">
             {{- if $post.Params.thumbnail }}
-            <div class="responsive aspect-w-5 aspect-h-6">
-            {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "resized" "224x269 Top webp" "fill" true "lazyload" .Site.Data.theme.lazysizes }}
+            <div class="responsive aspect-w-2 aspect-h-3">
+            {{- $include_dict := dict "image" $post.Params.thumbnail "alt_text" $post.Title "Site" .Site "resized" "224x336 webp" "fill" true "lazyload" .Site.Data.theme.lazysizes }}
             {{ partial "functions/get_image.html" $include_dict }}
             </div>
             {{- end }}
