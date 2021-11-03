@@ -7,6 +7,7 @@ sections:
 - template: section_checkout
   type: checkout_section
   title: Checkout
+  origin_id: 106
   couriers:
   - jne_oke
   - jne_reg
