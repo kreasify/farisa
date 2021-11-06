@@ -222,6 +222,7 @@
                             <input type="hidden" name="ongkir" :value="courier !== '' ? $store.shop.localPrice(parseInt(courier.split(',')[1])) : 'belum ada kurir' ">
                             <input type="hidden" name="total_ongkir" :value="courier !== '' ? $store.shop.localPrice(parseInt(courier.split(',')[1]) * $store.shop.getWeight($store.shop.totalWeight())) : 'belum ada kurir' ">
                             <input type="hidden" name="total_bayar" :value="courier !== '' ? $store.shop.localPrice($store.shop.subtotal() + (parseInt(courier.split(',')[1]) * $store.shop.getWeight($store.shop.totalWeight()))) : $store.shop.localPrice($store.shop.subtotal())">
+                            <input type="hidden" name="cs_whatsapp" :value="user.whatsapp !== '' ? (user.whatsapp).toString().replace(/\D/g, '').replace(new RegExp('^0'), '62').replace(new RegExp('^8'), '628') : '' ">
                         </div>
                     </div>
                     <div class="form-address__item bg-body-primary px-3 lg:px-4 py-4">
