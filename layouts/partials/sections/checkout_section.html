@@ -78,7 +78,7 @@
                 origin_id: {{ . | jsonify }},{{ end }}
                 website: {{ .Site.BaseURL | jsonify }}
             }'>
-        <form method="POST" data-email="example@email.net" {{ with .Site.Data.user_setting.google_form_code}} action="{{ . }}"{{- end }}>
+        <form method="POST" {{- with .Site.Data.user_setting.google_form_code}}data-email="example@email.net" {{ with .Site.Data.user_setting.google_form_code}} action="{{ . }}"{{- end }}>
             <div class="grid grid-cols-12 gap-6">
                 <div class="col-span-12 lg:col-span-7">
                     <div class="checkout__form form-address bg-body-primary px-3 lg:px-4 py-4 mb-6">
