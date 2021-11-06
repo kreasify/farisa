@@ -247,24 +247,6 @@
                         </template>
                         {{- end }}
 
-
-                        {{- range $section.couriers }}
-                        <template x-for="getCourier in couriers">
-                            <template x-for="getService in getCourier.costs.filter(i => i.service_id === '{{ . }}')">
-                                <div class="relative cursor-pointer hover:bg-body before:absolute before:empty-content before:inline-block before:w-6 before:h-6 before:left-0 before:top-0 before:border before:border-solid before:border-primary before:rounded-full before:transition-all before:duration-200 before:ease-in-out pl-6 mb-3"
-                                    @click.prevent="courier = getService.service_name + ', ' + getService.cost[0].value; courierActive !== getService.service_id ? courierActive = getService.service_id : courierActive = null"
-                                    x-bind:class="{ 'transition-all duration-100 ease-ease selected-courier': courierActive == getService.service_id }">
-                                    <div class="flex items-center justify-between h-6 pl-4 pr-3">
-                                        <span class="text-sm text-body-text-primary leading-none"
-                                            x-text="getService.service_name"></span>
-                                        <span class="text-sm text-body-text-primary leading-none"
-                                            x-text="'Rp ' + getService.cost[0].pay"></span> 
-                                    </div>
-                                </div>
-                            </template>
-                        </template>
-                        {{- end }}
-                        
                         <template x-if="destination == '' ">
                             <div class="text-center py-6">
                                 <p class="text-body-text mb-0">Masukkan dulu nama kecamatan pada kolom di atas!</p>
